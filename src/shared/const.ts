@@ -1,0 +1,25 @@
+export const BASE_ATTR_PREFIX = 'cln-yt-cust';
+
+export enum UrlRegExps {
+    Home = '^https:\\/\\/(www\\.)?youtube\\.com\\/?$',
+    Shorts = '^https:\\/\\/(www\\.)?youtube\\.com\\/shorts\\/[^\\/\\?]+',
+    Watch = '^https:\\/\\/(www\\.)?youtube\\.com\\/watch\\?v=[^&]+',
+    Channel = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+',
+    ChannelVideos = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/videos\\/?$',
+    ChannelShorts = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/shorts\\/?$',
+    ChannelStreams = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/streams\\/?$',
+    ChannelPlaylists = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/playlists\\/?$',
+    ChannelCommunity = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/community\\/?$',
+    ChannelChannels = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/channels\\/?$',
+    ChannelAbout = '^https:\\/\\/(www\\.)?youtube\\.com\\/(c|channel|@)[^\\/\\?]+\\/about\\/?$',
+    Playlist = '^https:\\/\\/(www\\.)?youtube\\.com\\/playlist\\?list=[^&]+',
+    History = '^https:\\/\\/(www\\.)?youtube\\.com\\/feed\\/history\\/?$',
+    Subscriptions = '^https:\\/\\/(www\\.)?youtube\\.com\\/feed\\/subscriptions\\/?$',
+    Library = '^https:\\/\\/(www\\.)?youtube\\.com\\/feed\\/library\\/?$',
+    Trending = '^https:\\/\\/(www\\.)?youtube\\.com\\/feed\\/trending\\/?$',
+    Music = '^https:\\/\\/(www\\.)?youtube\\.com\\/music\\/?$',
+    Settings = '^https:\\/\\/(www\\.)?youtube\\.com\\/account(_.*)?\\/?$',
+    Search = '^https:\\/\\/(www\\.)?youtube\\.com\\/results\\?search_query=.*',
+    Notifications = '^https:\\/\\/(www\\.)?youtube\\.com\\/notifications\\/?$',
+    Live = '^https:\\/\\/(www\\.)?youtube\\.com\\/live\\/?$',
+}

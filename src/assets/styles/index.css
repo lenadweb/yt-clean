@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+:root {
+    --toastify-toast-bd-radius: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope'!important;
+}

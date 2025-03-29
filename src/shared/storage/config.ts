@@ -1,0 +1,38 @@
+import { ISettings } from 'src/shared/types/settings';
+
+export interface IStorage extends ISettings {}
+
+export const DEFAULT_STORAGE: IStorage = {
+    hideShorts: { enabled: false },
+    hideChannelBanner: { enabled: false },
+    hideTranscriptSection: { enabled: false },
+    hideJams: { enabled: false },
+    hideSearchTags: { enabled: false },
+    hidePlayerSubtitlesButton: { enabled: false },
+    hidePeopleMentioned: { enabled: false },
+    hideDescriptionRelatedVideo: { enabled: false },
+    hideSponsorVideo: { enabled: false },
+    rightCommentMode: { enabled: false },
+    hideEpisodesDescription: { enabled: false },
+    hideCreateVideo: { enabled: false },
+    voiceButtonInSearch: { enabled: false },
+    hidePlayerWideSizePlayerButton: { enabled: false },
+    hidePlayerMiniSizePlayerButton: { enabled: false },
+    virtualKeyboard: { enabled: false },
+    subscribeButton: { enabled: false },
+    hideSponsorButton: { enabled: false },
+    notificationButton: { enabled: false },
+    relatedVideos: { enabled: false, maxVideo: 5 },
+    hideLiveChat: { enabled: false },
+    disableAutoplay: { enabled: false },
+    commentsRightMode: { enabled: false },
+    hideNewsSection: { enabled: false },
+    hidePlayerAutoplay: { enabled: false },
+    autoOpenDescription: { enabled: false },
+    hideMenuShorts: { enabled: false },
+    hideMenuPlaylists: { enabled: false },
+    hideMenuYourVideo: { enabled: false },
+    hideMenuHistory: { enabled: false },
+    hideMenuWatchLater: { enabled: false },
+    hideMenuLikedVideos: { enabled: false },
+};
