@@ -13,9 +13,21 @@ interface IRelatedSettings extends IBaseSetting {
     maxVideo?: number;
 }
 
+export interface IDropdownSettings extends IBaseSetting {
+    value?: string;
+}
+
+export interface IAllSetting extends IDropdownSettings, IRelatedSettings {}
+
 export interface ISettings {
     hideShorts: IBaseSetting;
     hideSearchTags: IBaseSetting;
+    persistentCommentSort: IDropdownSettings;
+    persistentQuality: IDropdownSettings;
+    persistentPlaybackSpeed: IDropdownSettings;
+    adsYoutubeBanner: IBaseSetting;
+    adsSearchResults: IBaseSetting;
+    adsFeedVideo: IBaseSetting;
     hideJams: IBaseSetting;
     hideCreateVideo: IBaseSetting;
     voiceButtonInSearch: IBaseSetting;
@@ -31,6 +43,7 @@ export interface ISettings {
     commentsRightMode: IBaseSetting;
     hideNewsSection: IBaseSetting;
     hideChannelBanner: IBaseSetting;
+    hideChannelTrailer: IBaseSetting;
     hidePlayerAutoplay: IBaseSetting;
     hidePlayerSubtitlesButton: IBaseSetting;
     hidePlayerWideSizePlayerButton: IBaseSetting;
@@ -45,5 +58,16 @@ export interface ISettings {
     hideMenuYourVideo: IBaseSetting;
     hideMenuWatchLater: IBaseSetting;
     hideMenuLikedVideos: IBaseSetting;
+    hideYourMovies: IBaseSetting;
     hideDescriptionRelatedVideo: IBaseSetting;
+    hideMenuSubscriptionsList: IBaseSetting;
+    hideMenuExploreTrending: IBaseSetting;
+    hideMenuExploreMusic: IBaseSetting;
+    hideMenuExploreGaming: IBaseSetting;
+    hideMenuExploreNews: IBaseSetting;
+    hideMenuExploreSports: IBaseSetting;
+    hideMenuMorePremium: IBaseSetting;
+    hideMenuMoreMusic: IBaseSetting;
+    hideMenuMoreKids: IBaseSetting;
+    hideMenuMoreStudio: IBaseSetting;
 }

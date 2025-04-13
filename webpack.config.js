@@ -11,7 +11,7 @@ module.exports = (env) => ({
     entry: {
         worker: `${__dirname}/src/worker/index.ts`,
         sidebar: `${__dirname}/src/sidebar/index.tsx`,
-        content: `${__dirname}/src/content/index.tsx`,
+        content: `${__dirname}/src/content/index.ts`,
     },
     output: {
         publicPath: '',

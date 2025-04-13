@@ -71,19 +71,27 @@ export const ALLOWED_COMMANDS: ElementActions[] = [ElementActions.hide];
 
 export const styles = CONFIG.domActions
     .flatMap((item) =>
-        item.settings.flatMap(({ groups }) =>
-            groups.flatMap((group) =>
-                group.actions.flatMap((action) =>
-                    ALLOWED_COMMANDS.includes(action.action)
-                        ? action.selectors.map(
-                              (selector) =>
-                                  `[${action.attr}] ${selector} { ${
-                                      CSS_BY_COMMAND[action.action]
-                                  } }`
-                          )
-                        : []
+        item.settings.flatMap(({ groups, onFullGroupEnabledActions }) =>
+            groups
+                .map((item) => ({
+                    ...item,
+                    actions: [
+                        ...item.actions,
+                        ...(onFullGroupEnabledActions || []),
+                    ],
+                }))
+                .flatMap((group) =>
+                    group.actions.flatMap((action) =>
+                        ALLOWED_COMMANDS.includes(action.action)
+                            ? action.selectors.map(
+                                  (selector) =>
+                                      `[${action.attr}] ${selector} { ${
+                                          CSS_BY_COMMAND[action.action]
+                                      } }`
+                              )
+                            : []
+                    )
                 )
-            )
         )
     )
     .filter(Boolean)

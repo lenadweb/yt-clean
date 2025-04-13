@@ -6,12 +6,13 @@ import {
     ISettingsBlock,
     SettingsGroup,
 } from 'src/shared/types/config';
-import { IBaseSetting } from 'src/shared/types/settings';
+import { IAllSetting, IBaseSetting } from 'src/shared/types/settings';
 import { useStorage } from 'src/shared/hooks/useStorage';
 
 export type IAttrActionWithStatus = {
-    status: IBaseSetting;
+    status: IAllSetting;
     action: IAttrAction[];
+    group: SettingsGroup<null>;
 };
 
 export const useActions = ({ domActions }: IConfig) => {
@@ -22,6 +23,7 @@ export const useActions = ({ domActions }: IConfig) => {
 
     useEffect(() => {
         if (!settings) return;
+        const isEnabled = settings.isEnabled;
 
         const collectActions = (
             blocks?: IDomActions<IAttrAction[]>[]
@@ -34,10 +36,18 @@ export const useActions = ({ domActions }: IConfig) => {
             groups: SettingsGroup<IAttrAction[]>[]
         ): IAttrActionWithStatus[] =>
             groups.reduce<IAttrActionWithStatus[]>((acc, group) => {
-                const setting = (settings as any)[group.storageKey];
-                if (setting?.enabled) {
-                    acc.push({ status: setting, action: group.actions });
-                }
+                const setting = settings[group.storageKey];
+                acc.push({
+                    status: {
+                        enabled: !isEnabled ? false : !!setting?.enabled,
+                        value: (setting as any)?.value,
+                    },
+                    action: group.actions,
+                    group: {
+                        ...group,
+                        actions: null,
+                    },
+                });
                 return acc;
             }, []);
         const domGroups = collectActions(

@@ -32,9 +32,9 @@ export const useDeclarativeActionsProcess = (
     }, [actionsWithStatus, currentUrl]);
 
     useEffect(() => {
-        actionsWithStatus.forEach(({ action }) => {
+        actionsWithStatus.forEach(({ action, status }) => {
             action.forEach(({ selectors, action }) => {
-                if (action !== ElementActions.click) return;
+                if (action !== ElementActions.click || !status.enabled) return;
                 selectors.forEach((selector) => {
                     (
                         document.querySelector(selector) as HTMLButtonElement
@@ -43,4 +43,34 @@ export const useDeclarativeActionsProcess = (
             });
         });
     }, [settings.autoOpenDescription, currentUrl]);
+
+    useEffect(() => {
+        console.log(currentUrl);
+        actionsWithStatus.forEach((item) => {
+            if (item.status.enabled && item.group.onChange) {
+                console.log(item);
+                item.group.onChange(item.status.value);
+            }
+        });
+    }, [
+        actionsWithStatus,
+        settings.persistentCommentSort.value,
+        settings.persistentCommentSort.enabled,
+        currentUrl,
+    ]);
+
+    useEffect(() => {
+        console.log(currentUrl);
+        actionsWithStatus.forEach((item) => {
+            if (item.status.enabled && item.group.onChange) {
+                console.log(item);
+                item.group.onChange(item.status.value);
+            }
+        });
+    }, [
+        actionsWithStatus,
+        settings.persistentCommentSort.value,
+        settings.persistentCommentSort.enabled,
+        currentUrl,
+    ]);
 };

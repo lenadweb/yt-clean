@@ -1,11 +1,21 @@
 import { ISettings } from 'src/shared/types/settings';
 
-export interface IStorage extends ISettings {}
+export interface IStorage extends ISettings {
+    isEnabled: boolean;
+}
 
 export const DEFAULT_STORAGE: IStorage = {
+    isEnabled: true,
     hideShorts: { enabled: false },
     hideChannelBanner: { enabled: false },
     hideTranscriptSection: { enabled: false },
+    adsFeedVideo: { enabled: false },
+    persistentCommentSort: { enabled: false, value: 'popular' },
+    persistentQuality: { enabled: false, value: '1080' },
+    persistentPlaybackSpeed: { enabled: false, value: '1.00' },
+    adsYoutubeBanner: { enabled: false },
+    adsSearchResults: { enabled: false },
+    hideChannelTrailer: { enabled: false },
     hideJams: { enabled: false },
     hideSearchTags: { enabled: false },
     hidePlayerSubtitlesButton: { enabled: false },
@@ -26,6 +36,7 @@ export const DEFAULT_STORAGE: IStorage = {
     hideLiveChat: { enabled: false },
     disableAutoplay: { enabled: false },
     commentsRightMode: { enabled: false },
+    hideYourMovies: { enabled: false },
     hideNewsSection: { enabled: false },
     hidePlayerAutoplay: { enabled: false },
     autoOpenDescription: { enabled: false },
@@ -35,4 +46,14 @@ export const DEFAULT_STORAGE: IStorage = {
     hideMenuHistory: { enabled: false },
     hideMenuWatchLater: { enabled: false },
     hideMenuLikedVideos: { enabled: false },
+    hideMenuSubscriptionsList: { enabled: false },
+    hideMenuExploreMusic: { enabled: false },
+    hideMenuExploreGaming: { enabled: false },
+    hideMenuExploreSports: { enabled: false },
+    hideMenuExploreNews: { enabled: false },
+    hideMenuExploreTrending: { enabled: false },
+    hideMenuMorePremium: { enabled: false },
+    hideMenuMoreKids: { enabled: false },
+    hideMenuMoreMusic: { enabled: false },
+    hideMenuMoreStudio: { enabled: false },
 };
