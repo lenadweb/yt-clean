@@ -8,7 +8,9 @@ import {
 import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
 import { CONFIG } from 'src/shared/config';
 import { getAttr } from 'src/shared/utils/getAttr';
-import { Storage } from './storage';
+import { Storage } from 'src/shared/storage';
+import { waitForDocumentReady } from 'src/shared/utils/browser';
+import { waitForElement } from 'src/shared/utils/dom';
 
 type CachedElement = {
     element: Element;
@@ -39,18 +41,22 @@ class Content {
     }
 
     observeUrlChanges(): void {
-        const observer = new MutationObserver(() => {
-            if (window.location.href !== this.currentUrl) {
-                this.currentUrl = window.location.href;
-                this.processActions();
-            }
-        });
+        waitForDocumentReady().then(() => {
+            const observer = new MutationObserver(() => {
+                if (window.location.href !== this.currentUrl) {
+                    this.currentUrl = window.location.href;
+                    this.processActions();
+                }
+            });
 
-        observer.observe(document.body, { childList: true, subtree: true });
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
     }
 
     init(): void {
-        this.processActions();
+        waitForElement('html body').then(() => {
+            this.processActions();
+        });
     }
 
     processActions() {
@@ -68,17 +74,16 @@ class Content {
                     if (getAttr('more-from-yt-group') == act.attr) {
                         console.log(act);
                     }
-                    document.body.setAttribute(act.attr, 'true');
+                    document.body?.setAttribute(act.attr, 'true');
                 } else if (act.attr) {
-                    document.body.removeAttribute(act.attr);
+                    document.body?.removeAttribute(act.attr);
                 }
 
                 if (act.action === ElementActions.click && status.enabled) {
                     act.selectors.forEach((selector) => {
-                        const element = document.querySelector(
-                            selector
-                        ) as HTMLElement;
-                        if (element) element.click();
+                        waitForElement(selector).then((element) => {
+                            if (element) (element as HTMLElement).click();
+                        });
                     });
                 }
 
@@ -88,7 +93,6 @@ class Content {
                     act.onEnable
                 ) {
                     act.onEnable().then((result: any) => {
-                        console.log(result);
                         if (result && act.attr) {
                             this.elementCache.set(
                                 act.attr,
@@ -101,21 +105,27 @@ class Content {
                 if (
                     act.action === ElementActions.custom &&
                     !status.enabled &&
-                    act.onDisable &&
-                    act.attr
+                    act.onDisable
                 ) {
-                    const cached = this.elementCache.get(act.attr);
-                    if (cached) {
-                        act.onDisable(cached);
-                        this.elementCache.delete(act.attr);
-                    }
+                    act.onDisable(this.elementCache.get(act.attr));
                 }
             }
 
-            if (status.enabled && group?.onChange) {
+            if (
+                status.enabled &&
+                group &&
+                'onChange' in group &&
+                group.onChange
+            ) {
+                console.log(status.enabled, 'STATUS ENABLED', item);
                 group.onChange(status.value);
             }
-            if (!status.enabled && group?.onChange) {
+            if (
+                !status.enabled &&
+                group &&
+                'onChange' in group &&
+                group.onChange
+            ) {
                 group.onChange('disabled');
             }
         });
@@ -141,7 +151,7 @@ class Content {
                         false,
                     value: (settings[group.storageKey] as any)?.value,
                 },
-                actions: group.actions,
+                actions: 'actions' in group ? group.actions : [],
                 group: { ...group, actions: null },
             }));
 

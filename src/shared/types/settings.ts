@@ -17,7 +17,19 @@ export interface IDropdownSettings extends IBaseSetting {
     value?: string;
 }
 
-export interface IAllSetting extends IDropdownSettings, IRelatedSettings {}
+export interface ITimeLimitSettings extends IBaseSetting {
+    valueInMinutes?: string;
+}
+
+export interface ISubtitleSettings extends IBaseSetting {
+    value?: string;
+    tmstp?: number;
+}
+
+export interface IAllSetting
+    extends IDropdownSettings,
+        IRelatedSettings,
+        ITimeLimitSettings {}
 
 export interface ISettings {
     hideShorts: IBaseSetting;
@@ -25,11 +37,13 @@ export interface ISettings {
     persistentCommentSort: IDropdownSettings;
     persistentQuality: IDropdownSettings;
     persistentPlaybackSpeed: IDropdownSettings;
+    defaultMusicPlaybackSpeed: IDropdownSettings;
     adsYoutubeBanner: IBaseSetting;
     adsSearchResults: IBaseSetting;
     adsFeedVideo: IBaseSetting;
     hideJams: IBaseSetting;
     hideCreateVideo: IBaseSetting;
+    searchMode: IBaseSetting;
     voiceButtonInSearch: IBaseSetting;
     virtualKeyboard: IBaseSetting;
     subscribeButton: IBaseSetting;
@@ -44,6 +58,7 @@ export interface ISettings {
     hideNewsSection: IBaseSetting;
     hideChannelBanner: IBaseSetting;
     hideChannelTrailer: IBaseSetting;
+    autoNextShorts: IBaseSetting;
     hidePlayerAutoplay: IBaseSetting;
     hidePlayerSubtitlesButton: IBaseSetting;
     hidePlayerWideSizePlayerButton: IBaseSetting;
@@ -70,4 +85,6 @@ export interface ISettings {
     hideMenuMoreMusic: IBaseSetting;
     hideMenuMoreKids: IBaseSetting;
     hideMenuMoreStudio: IBaseSetting;
+    dailyTimeLimit: ITimeLimitSettings;
+    spentTimeToday: ISubtitleSettings;
 }

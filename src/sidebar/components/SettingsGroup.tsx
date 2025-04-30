@@ -13,6 +13,7 @@ import Switch from 'src/sidebar/components/Switch';
 import isEnabled = chrome.action.isEnabled;
 import { Dropdown } from 'src/sidebar/components/Dropdown';
 import { IAllSetting, IDropdownSettings } from 'src/shared/types/settings';
+import { Subtitle } from 'src/sidebar/components/Subtitle';
 
 interface ISettingsGroup {
     title: string;
@@ -36,13 +37,13 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     title,
 }) => {
     const groupEnabled = groups.some(
-        (value) => settings[value.storageKey]?.enabled
+        (value) => value.storageKey && settings[value.storageKey]?.enabled
     );
 
     const toggleGroup = (value: boolean) => {
         groups.forEach((item) => {
+            if (!item.storageKey) return;
             const oldValue = settings[item.storageKey];
-            console.log(oldValue);
             setSetting(item.storageKey, {
                 ...(oldValue || {}),
                 enabled: value,
@@ -67,45 +68,58 @@ const SettingsGroup: FC<ISettingsGroup> = ({
             </div>
             {!withoutCheckboxes ? (
                 <div className="ml-3 flex flex-col gap-3">
-                    {groups.map((group) =>
-                        group.type === 'dropdown' ? (
-                            <Dropdown
-                                key={group.title}
-                                label={group.title || ''}
-                                value={
-                                    (
+                    {groups.map((group) => (
+                        <>
+                            {'type' in group && group.type === 'dropdown' ? (
+                                <Dropdown
+                                    key={group.title}
+                                    label={group.title || ''}
+                                    value={
+                                        (
+                                            settings[
+                                                group.storageKey
+                                            ] as IDropdownSettings
+                                        ).value
+                                    }
+                                    options={group.options || []}
+                                    disabled={!enabled || !groupEnabled}
+                                    onChange={(value) => {
+                                        setSetting(group.storageKey, {
+                                            enabled: true,
+                                            value,
+                                        });
+                                    }}
+                                />
+                            ) : 'type' in group &&
+                              group.type === 'subtitle' &&
+                              group.subtitle ? (
+                                <Subtitle
+                                    label={group.title || ''}
+                                    value={group.subtitle(
                                         settings[
                                             group.storageKey
                                         ] as IDropdownSettings
-                                    ).value
-                                }
-                                options={group.options || []}
-                                disabled={!enabled || !groupEnabled}
-                                onChange={(value) => {
-                                    console.log(value);
-                                    setSetting(group.storageKey, {
-                                        enabled: true,
-                                        value,
-                                    });
-                                }}
-                            />
-                        ) : (
-                            <Checkbox
-                                isGrey={!groupEnabled}
-                                key={group.title}
-                                label={group.title || ''}
-                                checked={
-                                    settings[group.storageKey]?.enabled ?? false
-                                }
-                                disabled={!enabled}
-                                onChange={(value) =>
-                                    setSetting(group.storageKey, {
-                                        enabled: value,
-                                    })
-                                }
-                            />
-                        )
-                    )}
+                                    )}
+                                />
+                            ) : (
+                                <Checkbox
+                                    isGrey={!groupEnabled}
+                                    key={group.title}
+                                    label={group.title || ''}
+                                    checked={
+                                        settings[group.storageKey]?.enabled ??
+                                        false
+                                    }
+                                    disabled={!enabled}
+                                    onChange={(value) =>
+                                        setSetting(group.storageKey, {
+                                            enabled: value,
+                                        })
+                                    }
+                                />
+                            )}
+                        </>
+                    ))}
                 </div>
             ) : null}
         </div>

@@ -43,3 +43,14 @@ export const formatNumber = (value: string | number, exp = false): string => {
 
     return formattedInteger;
 };
+
+export const formatTime = (minutes: number): string => {
+    const h = Math.floor(minutes / 60);
+    const m = minutes % 60;
+    const parts = [];
+
+    if (h > 0) parts.push(`${h}h`);
+    if (m > 0 || h === 0) parts.push(`${m}m`);
+
+    return parts.join(' ');
+};

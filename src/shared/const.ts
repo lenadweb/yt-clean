@@ -20,6 +20,8 @@ export enum UrlRegExps {
     Music = '^https:\\/\\/(www\\.)?youtube\\.com\\/music\\/?$',
     Settings = '^https:\\/\\/(www\\.)?youtube\\.com\\/account(_.*)?\\/?$',
     Search = '^https:\\/\\/(www\\.)?youtube\\.com\\/results\\?search_query=.*',
+    NotSearch = '^(?!https:\\/\\/(www\\.)?youtube\\.com\\/results\\?search_query=.*).*',
+    NotSearchAndChannel = '^(?!https:\\/\\/(www\\.)?youtube\\.com\\/(results\\?search_query=.*|(c|channel|@)[^\\/\\?]+)).*',
     Notifications = '^https:\\/\\/(www\\.)?youtube\\.com\\/notifications\\/?$',
     Live = '^https:\\/\\/(www\\.)?youtube\\.com\\/live\\/?$',
 }

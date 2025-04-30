@@ -73,21 +73,28 @@ export const styles = CONFIG.domActions
     .flatMap((item) =>
         item.settings.flatMap(({ groups, onFullGroupEnabledActions }) =>
             groups
-                .map((item) => ({
-                    ...item,
-                    actions: [
-                        ...item.actions,
-                        ...(onFullGroupEnabledActions || []),
-                    ],
-                }))
+                .map((item) => {
+                    if (!('actions' in item)) return null;
+                    return {
+                        ...item,
+                        actions: [
+                            ...item.actions,
+                            ...(onFullGroupEnabledActions || []),
+                        ],
+                    };
+                })
                 .flatMap((group) =>
-                    group.actions.flatMap((action) =>
+                    group?.actions.flatMap((action) =>
                         ALLOWED_COMMANDS.includes(action.action)
                             ? action.selectors.map(
                                   (selector) =>
                                       `[${action.attr}] ${selector} { ${
                                           CSS_BY_COMMAND[action.action]
                                       } }`
+                              )
+                            : action?.customStyles
+                            ? action.customStyles.map(
+                                  (item) => `[${action.attr}] ${item}`
                               )
                             : []
                     )

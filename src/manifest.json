@@ -15,6 +15,15 @@
       "matches": [
         "*://*.youtube.com/*"
       ],
+      "run_at": "document_start"
+    },
+    {
+      "js": [
+        "tracker.js"
+      ],
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
       "run_at": "document_end"
     }
   ],
@@ -44,6 +53,7 @@
   },
   "permissions": [
     "sidePanel",
+    "tabs",
     "storage"
   ]
 }

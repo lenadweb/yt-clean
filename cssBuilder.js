@@ -3,7 +3,7 @@ const path = require('path');
 require('ts-node').register();
 require('tsconfig-paths/register');
 
-const { styles } = require('src/shared/config/stylesBuilder.ts');
+const { styles } = require('src/shared/stylesBuilder');
 
 class CSSBuilderPlugin {
     apply(compiler) {
