@@ -1,19 +1,22 @@
+import { waitForElement } from 'src/shared/utils/dom';
+
 export const setPlaybackSpeed = (value: string) => {
-    let movieContainer = document.querySelector('#movie_player');
-    if (movieContainer) {
-        const player = movieContainer.getElementsByTagName('video')[0];
-        player.playbackRate = Number(Number(value).toFixed(2));
-    }
-    const newLocalStorageValue = {
-        creation: Date.now(),
-        data: value,
-    };
-    if (window.sessionStorage) {
-        window.sessionStorage.setItem(
-            'yt-player-playback-rate',
-            JSON.stringify(newLocalStorageValue)
-        );
-    }
+    waitForElement('#movie_player video').then((player) => {
+        console.log(player);
+        if (player) {
+            (player as any).playbackRate = Number(Number(value).toFixed(2));
+        }
+        const newLocalStorageValue = {
+            creation: Date.now(),
+            data: value,
+        };
+        if (window.sessionStorage) {
+            window.sessionStorage.setItem(
+                'yt-player-playback-rate',
+                JSON.stringify(newLocalStorageValue)
+            );
+        }
+    });
 };
 
 export const setQualityVideo = (value: string) => {
@@ -30,5 +33,13 @@ export const setQualityVideo = (value: string) => {
             'yt-player-quality',
             JSON.stringify(newLocalStorageValue)
         );
+    }
+};
+
+export const setShortsPlaybackSpeed = (value: string) => {
+    let movieContainer = document.querySelector('#shorts-player');
+    if (movieContainer) {
+        const player = movieContainer.getElementsByTagName('video')[0];
+        player.playbackRate = Number(Number(value).toFixed(2));
     }
 };

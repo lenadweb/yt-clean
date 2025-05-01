@@ -13,7 +13,12 @@ const ShadowRoot = forwardRef<HTMLDivElement, IShadowRoot>(
     ({ children }, ref) => (
         <root.div mode="open" ref={ref}>
             <style type="text/css">{styles.toString()}</style>
-            <div id="leninc-search-bar-sr">{children}</div>
+            <div
+                id="leninc-search-bar-sr"
+                className="pointer-events-auto !z-max"
+            >
+                {children}
+            </div>
         </root.div>
     )
 );

@@ -58,7 +58,7 @@ export const DEFAULT_STORAGE: IStorage = {
     hideMenuMorePremium: { enabled: false },
     hideMenuMoreKids: { enabled: false },
     hideMenuMoreMusic: { enabled: false },
-    shortSpeedControl: { enabled: true },
+    shortSpeedControl: { enabled: false },
     hideMenuMoreStudio: { enabled: false },
     dailyTimeLimit: { enabled: false, valueInMinutes: String(60 * 2) },
     spentTimeToday: { enabled: false, value: String(0) },

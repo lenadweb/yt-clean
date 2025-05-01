@@ -64,6 +64,9 @@ export default {
                 'black-200': '#C3C3CB',
                 'white-100': '#E4E4E7',
                 'red-accent': '#CD001F',
+                'yt-grey-button-bg': 'rgba(255,255,255,0.1)',
+                'yt-grey-button-bg-hover': 'rgba(255,255,255,0.2)',
+                'yt-light-dark': '#666663',
             },
             spacing: pxSizes,
             fontSize: {

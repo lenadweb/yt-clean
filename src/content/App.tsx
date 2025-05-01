@@ -6,8 +6,6 @@ import ShortsSpeedControl from 'src/content/components/ShortsSpeedControl';
 import { Injection } from 'src/content/Injection';
 import { waitForElement } from 'src/shared/utils/dom';
 
-const components = getComponentsAction();
-
 const componentsMap: Record<string, ReactElement> = {
     ShortsSpeedControl: <ShortsSpeedControl />,
 };
@@ -25,12 +23,22 @@ const App: FC = () => {
     >([]);
 
     useEffect(() => {
-        const enabledItems = components.filter(
+        const enabledItems = getComponentsAction().filter(
             (item) =>
                 item?.storageKey &&
                 storage[item.storageKey]?.enabled &&
                 item.components.length
         );
+
+        setReadyComponents((prev) =>
+            prev.filter(({ id }) =>
+                enabledItems.some((item) =>
+                    item?.components.some((comp) => comp.component === id)
+                )
+            )
+        );
+
+        console.log(enabledItems, storage.shortSpeedControl.enabled);
 
         enabledItems.forEach((item) => {
             item?.components.forEach((componentDef) => {
@@ -54,6 +62,8 @@ const App: FC = () => {
             });
         });
     }, [storage.shortSpeedControl.enabled]);
+
+    console.log(readyComponents);
 
     return (
         <>

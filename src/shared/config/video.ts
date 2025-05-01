@@ -66,8 +66,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                     options: PLAYBACK_OPTIONS,
                     type: 'dropdown',
                     storageKey: 'persistentPlaybackSpeed',
-                    onChange: (value: string) => {
-                        console.log('change speed', value);
+                    onChange: async (value: string) => {
                         if (value === 'disabled') {
                             return;
                         }
@@ -76,6 +75,9 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                             UrlRegExps.Channel,
                         ].some((item) =>
                             new RegExp(item).test(window.location.href)
+                        );
+                        await waitForElement(
+                            '.html5-video-player:not(.unstarted-mode) video[src]'
                         );
                         if (isTargetUrl) {
                             setPlaybackSpeed(value);
@@ -277,7 +279,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                         {
                             action: ElementActions.component,
                             component: 'ShortsSpeedControl',
-                            insertAfter: '#shorts-panel-container',
+                            insertAfter: '#cinematic-container',
                             selectors: [],
                             attr: getAttr(),
                         },
