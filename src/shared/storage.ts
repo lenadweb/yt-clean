@@ -1,9 +1,12 @@
 import { IStorage } from 'src/shared/storage/config';
 import { ISettings } from 'src/shared/types/settings';
+import StorageChange = chrome.storage.StorageChange;
 
 export class Storage {
     settings: IStorage;
-    private listeners: (() => void)[] = [];
+    private listeners: ((
+        changes?: Record<keyof IStorage, StorageChange>
+    ) => void)[] = [];
 
     constructor(defaults: IStorage) {
         this.settings = { ...defaults };
@@ -13,13 +16,16 @@ export class Storage {
             this.notifyListeners();
         });
 
-        chrome.storage.onChanged.addListener((changes) => {
+        chrome.storage.onChanged.addListener(
             // @ts-ignore
-            Object.keys(changes).forEach((key: keyof ISettings) => {
-                this.settings[key] = changes[key].newValue ?? defaults[key];
-            });
-            this.notifyListeners();
-        });
+            (changes: Record<keyof IStorage, StorageChange>) => {
+                // @ts-ignore
+                Object.keys(changes).forEach((key: keyof ISettings) => {
+                    this.settings[key] = changes[key].newValue ?? defaults[key];
+                });
+                this.notifyListeners(changes);
+            }
+        );
     }
 
     update<K extends keyof IStorage>(key: K, value: IStorage[K]): void {
@@ -32,11 +38,15 @@ export class Storage {
         return this.settings[key];
     }
 
-    onChange(callback: () => void): void {
+    onChange(
+        callback: (changes?: Record<keyof IStorage, StorageChange>) => void
+    ): void {
         this.listeners.push(callback);
     }
 
-    private notifyListeners(): void {
-        this.listeners.forEach((cb) => cb());
+    private notifyListeners(
+        changes?: Record<keyof IStorage, StorageChange>
+    ): void {
+        this.listeners.forEach((cb) => cb(changes));
     }
 }

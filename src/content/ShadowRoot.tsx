@@ -10,15 +10,12 @@ interface IShadowRoot {
 }
 
 const ShadowRoot = forwardRef<HTMLDivElement, IShadowRoot>(
-    ({ children }, ref) => {
-        console.log(styles);
-        return (
-            <root.div mode="open" ref={ref}>
-                <style type="text/css">{styles.toString()}</style>
-                <div id="leninc-search-bar-sr">{children}</div>
-            </root.div>
-        );
-    }
+    ({ children }, ref) => (
+        <root.div mode="open" ref={ref}>
+            <style type="text/css">{styles.toString()}</style>
+            <div id="leninc-search-bar-sr">{children}</div>
+        </root.div>
+    )
 );
 
 export default ShadowRoot;

@@ -12,6 +12,7 @@ import { Storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
 import { waitForElement } from 'src/shared/utils/dom';
 import { injectComponents } from 'src/content/components';
+import StorageChange = chrome.storage.StorageChange;
 
 type CachedElement = {
     element: Element;
@@ -37,7 +38,7 @@ class Content {
         this.currentUrl = window.location.href;
 
         this.observeUrlChanges();
-        this.storage.onChange(() => this.processActions());
+        this.storage.onChange((changes) => this.processActions(changes));
         this.init();
     }
 
@@ -60,8 +61,8 @@ class Content {
         });
     }
 
-    processActions() {
-        const enabledActions = this.getEnabledActions();
+    processActions(changes?: Record<keyof IStorage, StorageChange>) {
+        const enabledActions = this.getEnabledActions(changes);
         enabledActions.forEach((item) => {
             const { status, actions, group } = item;
             for (const act of actions) {
@@ -132,7 +133,9 @@ class Content {
         });
     }
 
-    getEnabledActions(): IAttrActionWithStatus[] {
+    getEnabledActions(
+        changes?: Record<keyof IStorage, StorageChange>
+    ): IAttrActionWithStatus[] {
         const { domActions } = this.config;
         const settings = this.storage.settings;
         const isEnabled = settings.isEnabled;
@@ -145,16 +148,22 @@ class Content {
         const extractEnabledActions = (
             groups: SettingsGroup<IAttrAction[]>[]
         ): IAttrActionWithStatus[] =>
-            groups.map((group) => ({
-                status: {
-                    enabled:
-                        (isEnabled && settings[group.storageKey]?.enabled) ||
-                        false,
-                    value: (settings[group.storageKey] as any)?.value,
-                },
-                actions: 'actions' in group ? group.actions : [],
-                group: { ...group, actions: null },
-            }));
+            groups
+                .filter(
+                    ({ storageKey }) =>
+                        (changes && changes?.[storageKey]) || !changes
+                )
+                .map((group) => ({
+                    status: {
+                        enabled:
+                            (isEnabled &&
+                                settings[group.storageKey]?.enabled) ||
+                            false,
+                        value: (settings[group.storageKey] as any)?.value,
+                    },
+                    actions: 'actions' in group ? group.actions : [],
+                    group: { ...group, actions: null },
+                }));
 
         const domGroups = collectActions(
             domActions.flatMap((action) => action.settings || [])
@@ -166,10 +175,12 @@ class Content {
                 const allActionsIsEnabled = action.groups
                     .map((item) => !!settings[item.storageKey]?.enabled)
                     .every(Boolean);
-                if (action.onFullGroupEnabledActions) {
-                    console.log({ allActionsIsEnabled });
-                }
-                return action.onFullGroupEnabledActions
+                const hasChanges = changes
+                    ? action.groups.some(
+                          ({ storageKey }) => changes?.[storageKey]
+                      )
+                    : true;
+                return action.onFullGroupEnabledActions && hasChanges
                     ? [
                           {
                               status: {
@@ -184,7 +195,6 @@ class Content {
             })
             .flatMap((value) => value);
         const result = [...enabledActions, ...fullEnabledGroupAction];
-        console.log(result);
         return result;
     }
 }

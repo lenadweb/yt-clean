@@ -22,6 +22,24 @@ export const useStorage = (): [IStorage, UpdateSetting] => {
     return context;
 };
 
+export const useStorageValue = <K extends keyof IStorage>(
+    key: K
+): [IStorage[K], (value: IStorage[K]) => void] => {
+    const context = useContext(StorageContext);
+    if (!context) {
+        throw new Error('useStorage must be used within a StorageProvider');
+    }
+    const [settings, updateSetting] = context;
+
+    const value = settings[key];
+    const setValue = useCallback(
+        (v: IStorage[K]) => updateSetting(key, v),
+        [key, updateSetting]
+    );
+
+    return [value, setValue];
+};
+
 export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     children,
 }) => {
