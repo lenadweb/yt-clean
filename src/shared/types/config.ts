@@ -26,6 +26,8 @@ export interface IAttrAction {
     onDisable?: (value?: any) => any;
     querySelectorFn?: CustomQuerySelectorFn;
     action: ElementActions;
+    component?: string;
+    insertAfter?: string;
     urlRegExp?: UrlRegExps[];
 }
 

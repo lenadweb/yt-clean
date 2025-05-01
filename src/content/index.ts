@@ -11,6 +11,7 @@ import { getAttr } from 'src/shared/utils/getAttr';
 import { Storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
 import { waitForElement } from 'src/shared/utils/dom';
+import { injectComponents } from 'src/content/components';
 
 type CachedElement = {
     element: Element;
@@ -189,3 +190,4 @@ class Content {
 }
 
 new Content(CONFIG, DEFAULT_STORAGE);
+injectComponents();

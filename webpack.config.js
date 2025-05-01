@@ -40,9 +40,32 @@ module.exports = (env) => ({
             {
                 test: /\.css$/i,
                 include: path.resolve(__dirname, 'src'),
-                use: ['style-loader', 'css-loader', 'postcss-loader'],
+                oneOf: [
+                    {
+                        resourceQuery: /inline/,
+                        use: [
+                            {
+                                loader: 'css-loader',
+                                options: {
+                                    exportType: 'string',
+                                    esModule: false,
+                                },
+                            },
+                            'postcss-loader',
+                        ],
+                    },
+                    {
+                        use: ['style-loader', 'css-loader', 'postcss-loader'],
+                    },
+                ],
             },
-
+            {
+                test: /\.(woff(2)?|ttf|otf|eot)$/i,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'fonts/[name][ext]',
+                },
+            },
             {
                 test: /\.less$/i,
                 use: ['style-loader', 'css-loader', 'less-loader'],

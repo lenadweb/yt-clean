@@ -13,6 +13,49 @@ import {
     showElement,
 } from 'src/shared/utils/browser';
 
+export const PLAYBACK_OPTIONS = [
+    {
+        label: '0.5x',
+        value: '0.50',
+    },
+    {
+        label: '0.75x',
+        value: '0.75',
+    },
+    {
+        label: '1x',
+        value: '1.00',
+    },
+    {
+        label: '1.25x',
+        value: '1.25',
+    },
+    {
+        label: '1.5x',
+        value: '1.50',
+    },
+    {
+        label: '1.75x',
+        value: '1.75',
+    },
+    {
+        label: '2x',
+        value: '2.25',
+    },
+    {
+        label: '2.5x',
+        value: '2.50',
+    },
+    {
+        label: '2.75x',
+        value: '2.75',
+    },
+    {
+        label: '3x',
+        value: '3.00',
+    },
+];
+
 export const videoConfig: ISettingsBlock<IAttrAction[]> = {
     title: 'Video Playback & Channel',
     settings: [
@@ -20,48 +63,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Persistent playback speed',
             groups: [
                 {
-                    options: [
-                        {
-                            label: '0.5x',
-                            value: '0.50',
-                        },
-                        {
-                            label: '0.75x',
-                            value: '0.75',
-                        },
-                        {
-                            label: '1x',
-                            value: '1.00',
-                        },
-                        {
-                            label: '1.25x',
-                            value: '1.25',
-                        },
-                        {
-                            label: '1.5x',
-                            value: '1.50',
-                        },
-                        {
-                            label: '1.75x',
-                            value: '1.75',
-                        },
-                        {
-                            label: '2x',
-                            value: '2.25',
-                        },
-                        {
-                            label: '2.5x',
-                            value: '2.50',
-                        },
-                        {
-                            label: '2.75x',
-                            value: '2.75',
-                        },
-                        {
-                            label: '3x',
-                            value: '3.00',
-                        },
-                    ],
+                    options: PLAYBACK_OPTIONS,
                     type: 'dropdown',
                     storageKey: 'persistentPlaybackSpeed',
                     onChange: (value: string) => {
@@ -268,6 +270,19 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
         {
             title: 'Shorts',
             groups: [
+                {
+                    title: 'Speed Control',
+                    storageKey: 'shortSpeedControl',
+                    actions: [
+                        {
+                            action: ElementActions.component,
+                            component: 'ShortsSpeedControl',
+                            insertAfter: '#shorts-panel-container',
+                            selectors: [],
+                            attr: getAttr(),
+                        },
+                    ],
+                },
                 {
                     title: 'Shorts auto next',
                     actions: [

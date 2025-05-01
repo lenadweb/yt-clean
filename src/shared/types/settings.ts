@@ -85,6 +85,7 @@ export interface ISettings {
     hideMenuMoreMusic: IBaseSetting;
     hideMenuMoreKids: IBaseSetting;
     hideMenuMoreStudio: IBaseSetting;
+    shortSpeedControl: IBaseSetting;
     dailyTimeLimit: ITimeLimitSettings;
     spentTimeToday: ISubtitleSettings;
 }

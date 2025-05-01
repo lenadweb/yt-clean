@@ -38,7 +38,7 @@ const pxSizes = {
     '96': '384px',
 };
 export default {
-    content: ['./src/**/*.{js,ts,jsx,tsx}'],
+    content: ['./src/**/*.{ts,tsx}'],
     theme: {
         extend: {
             fontFamily: {

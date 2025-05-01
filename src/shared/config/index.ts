@@ -72,3 +72,29 @@ export const CONFIG: IConfig = {
     ],
     storageActions: [],
 };
+
+export const getComponentsAction = () =>
+    CONFIG.domActions
+        .flatMap((item) => item.settings.flatMap(({ groups }) => groups))
+        .flatMap((item) => {
+            const hasComponents =
+                'actions' in item &&
+                item.actions.some(
+                    ({ action }) => action === ElementActions.component
+                );
+            return hasComponents
+                ? {
+                      storageKey: item.storageKey,
+                      components: item.actions
+                          .filter(
+                              ({ action }) =>
+                                  action === ElementActions.component
+                          )
+                          .map(({ component, insertAfter }) => ({
+                              insertAfter: insertAfter as string,
+                              component: component as string,
+                          })),
+                  }
+                : null;
+        })
+        .filter(Boolean);
