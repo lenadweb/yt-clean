@@ -56,6 +56,7 @@ export interface IDropdownSetting<T> {
     title?: string;
     storageKey: keyof ISettings;
     type: 'dropdown';
+    actions: T;
     onChange?: (value: any) => void;
     onDisable?: (value: any) => void;
     options: { label: string; value: string }[];

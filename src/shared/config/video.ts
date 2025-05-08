@@ -64,6 +64,23 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             groups: [
                 {
                     options: PLAYBACK_OPTIONS,
+                    actions: [
+                        {
+                            action: ElementActions.hide,
+                            attr: getAttr('playback-speed'),
+                            selectors: [
+                                '.ytp-settings-menu .ytp-panel-menu > .ytp-menuitem:nth-child(6)',
+                            ],
+                        },
+                        {
+                            action: ElementActions.component,
+                            component: 'PlaybackSpeed',
+                            selectors: [],
+                            attr: getAttr('playback-speed'),
+                            insertAfter:
+                                '.ytp-right-controls .ytp-button.ytp-settings-button.ytp-hd-quality-badge',
+                        },
+                    ],
                     type: 'dropdown',
                     storageKey: 'persistentPlaybackSpeed',
                     onChange: async (value: string) => {
@@ -135,6 +152,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Persistent video quality',
             groups: [
                 {
+                    actions: [],
                     onChange: async (value: string) => {
                         // todo:
                         if (value === 'disabled') {
@@ -185,6 +203,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Persistent comment sort',
             groups: [
                 {
+                    actions: [],
                     onChange: async (value) => {
                         if (value === 'disabled') return;
                         const waitSelector =

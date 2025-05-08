@@ -9,6 +9,16 @@ export const injectComponents = () => {
         const root = document.createElement('div');
         root.id = 'root';
         document.body.appendChild(root);
+        const globalFontStyle = document.createElement('style');
+        globalFontStyle.textContent = `
+          @font-face {
+            font-family: 'Manrope';
+            src: url(chrome-extension://${chrome.runtime.id}/fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+            font-weight: 100 900;
+            font-style: normal;
+          }
+        `;
+        document.head.appendChild(globalFontStyle);
 
         ReactDOM.createRoot(root).render(
             <StorageProvider>

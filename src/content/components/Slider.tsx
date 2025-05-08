@@ -2,6 +2,7 @@ import React, { FC, useCallback, useRef, useState, useEffect } from 'react';
 
 type SliderProps = {
     value: number;
+    _ref?: any;
     onChange: (value: number) => void;
     min?: number;
     max?: number;
@@ -12,6 +13,7 @@ type SliderProps = {
 };
 
 export const Slider: FC<SliderProps> = ({
+    _ref,
     value,
     onChange,
     min = 0,
@@ -83,7 +85,7 @@ export const Slider: FC<SliderProps> = ({
     const percent = ((value - min) / (max - min)) * 100;
 
     return (
-        <div className="relative">
+        <div ref={_ref} className="relative">
             <div
                 className={`flex rounded-full bg-yt-grey-button-bg p-5 transition-colors hover:bg-yt-grey-button-bg-hover ${
                     vertical

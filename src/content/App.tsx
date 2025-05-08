@@ -5,9 +5,11 @@ import { getComponentsAction } from 'src/shared/config';
 import ShortsSpeedControl from 'src/content/components/ShortsSpeedControl';
 import { Injection } from 'src/content/Injection';
 import { waitForElement } from 'src/shared/utils/dom';
+import PlaybackSpeed from 'src/content/components/PlaybackSpeed';
 
 const componentsMap: Record<string, ReactElement> = {
     ShortsSpeedControl: <ShortsSpeedControl />,
+    PlaybackSpeed: <PlaybackSpeed />,
 };
 
 interface RenderableComponent {
@@ -61,9 +63,10 @@ const App: FC = () => {
                 });
             });
         });
-    }, [storage.shortSpeedControl.enabled]);
-
-    console.log(readyComponents);
+    }, [
+        storage.shortSpeedControl.enabled,
+        storage.persistentPlaybackSpeed.enabled,
+    ]);
 
     return (
         <>

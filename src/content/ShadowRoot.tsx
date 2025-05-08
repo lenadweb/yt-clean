@@ -11,15 +11,15 @@ interface IShadowRoot {
 
 const ShadowRoot = forwardRef<HTMLDivElement, IShadowRoot>(
     ({ children }, ref) => (
-        <root.div mode="open" ref={ref}>
+        <root.span mode="open" ref={ref}>
             <style type="text/css">{styles.toString()}</style>
-            <div
+            <span
                 id="leninc-search-bar-sr"
-                className="pointer-events-auto !z-max"
+                className="pointer-events-auto !z-max inline-block"
             >
                 {children}
-            </div>
-        </root.div>
+            </span>
+        </root.span>
     )
 );
 

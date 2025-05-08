@@ -44,11 +44,22 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                         {
                             action: ElementActions.hide,
                             attr: getAttr('hide-search-tags'),
-                            urlRegExp: [UrlRegExps.Home],
                             selectors: [
                                 '.ytd-feed-filter-chip-bar-renderer',
+                                '#frosted-glass',
                                 '#header.ytd-rich-grid-renderer',
                                 'yt-related-chip-cloud-renderer',
+                            ],
+                        },
+                        {
+                            action: ElementActions.customStyles,
+                            attr: getAttr('hide-search-tags'),
+                            selectors: [],
+                            customStyles: [
+                                `#chip-bar {
+                                opacity: 0;
+                                pointer-events: none;
+                            }`,
                             ],
                         },
                     ],
@@ -91,7 +102,11 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                 {
                     actions: [
                         {
-                            urlRegExp: [UrlRegExps.Watch, UrlRegExps.Home],
+                            urlRegExp: [
+                                UrlRegExps.Watch,
+                                UrlRegExps.Home,
+                                UrlRegExps.Search,
+                            ],
                             action: ElementActions.hide,
                             attr: getAttr('search-mode-hide-elements'),
                             selectors: [

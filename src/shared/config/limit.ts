@@ -1,9 +1,4 @@
-import {
-    ElementActions,
-    IAttrAction,
-    ISettingsBlock,
-} from 'src/shared/types/config';
-import { getAttr } from 'src/shared/utils/getAttr';
+import { IAttrAction, ISettingsBlock } from 'src/shared/types/config';
 import { ISubtitleSettings } from 'src/shared/types/settings';
 import { formatTime } from 'src/shared/utils/format';
 
@@ -14,6 +9,7 @@ export const limitConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Daily limit',
             groups: [
                 {
+                    actions: [],
                     type: 'dropdown',
                     options: [
                         {

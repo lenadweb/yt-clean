@@ -11,7 +11,7 @@ export interface InjectionProps {
 
 export const Injection: React.FC<InjectionProps> = ({
     selectTargetElement,
-    containerTagName = 'div',
+    containerTagName = 'span',
     children,
     containerClassName,
     position = 'afterend',

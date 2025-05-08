@@ -2,7 +2,6 @@ import { waitForElement } from 'src/shared/utils/dom';
 
 export const setPlaybackSpeed = (value: string) => {
     waitForElement('#movie_player video').then((player) => {
-        console.log(player);
         if (player) {
             (player as any).playbackRate = Number(Number(value).toFixed(2));
         }
