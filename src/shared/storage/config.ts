@@ -14,6 +14,7 @@ export const DEFAULT_STORAGE: IStorage = {
     persistentCommentSort: { enabled: false, value: 'popular' },
     persistentQuality: { enabled: false, value: '1080' },
     persistentPlaybackSpeed: { enabled: false, value: '1.00' },
+    speedControl: { enabled: false, value: '1.00' },
     adsYoutubeBanner: { enabled: false },
     adsSearchResults: { enabled: false },
     hideChannelTrailer: { enabled: false },
@@ -60,6 +61,6 @@ export const DEFAULT_STORAGE: IStorage = {
     hideMenuMoreMusic: { enabled: false },
     shortSpeedControl: { enabled: false },
     hideMenuMoreStudio: { enabled: false },
-    dailyTimeLimit: { enabled: false, valueInMinutes: String(60 * 2) },
+    dailyTimeLimit: { enabled: false, value: String(60 * 2) },
     spentTimeToday: { enabled: false, value: String(0) },
 };

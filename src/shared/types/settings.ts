@@ -18,7 +18,7 @@ export interface IDropdownSettings extends IBaseSetting {
 }
 
 export interface ITimeLimitSettings extends IBaseSetting {
-    valueInMinutes?: string;
+    value?: string;
 }
 
 export interface ISubtitleSettings extends IBaseSetting {
@@ -37,6 +37,7 @@ export interface ISettings {
     persistentCommentSort: IDropdownSettings;
     persistentQuality: IDropdownSettings;
     persistentPlaybackSpeed: IDropdownSettings;
+    speedControl: IDropdownSettings;
     defaultMusicPlaybackSpeed: IDropdownSettings;
     adsYoutubeBanner: IBaseSetting;
     adsSearchResults: IBaseSetting;

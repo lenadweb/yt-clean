@@ -24,6 +24,22 @@ export const limitConfig: ISettingsBlock<IAttrAction[]> = {
                             label: '2 hours',
                             value: String(60 * 2),
                         },
+                        {
+                            label: '3 hours',
+                            value: String(60 * 3),
+                        },
+                        {
+                            label: '4 hours',
+                            value: String(60 * 4),
+                        },
+                        {
+                            label: '5 hours',
+                            value: String(60 * 5),
+                        },
+                        {
+                            label: '6 hours',
+                            value: String(60 * 6),
+                        },
                     ],
                     storageKey: 'dailyTimeLimit',
                 },

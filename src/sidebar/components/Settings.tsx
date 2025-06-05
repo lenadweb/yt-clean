@@ -51,9 +51,6 @@ const Settings: FC = () => {
                     <Switch enabled={isEnabled} setEnabled={setEnabled} />
                 </div>
             </div>
-            <p className="text-sm text-black-200">
-                Select the elements you want to hide
-            </p>
             {SettingsComponents}
         </div>
     );

@@ -12,7 +12,7 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Content blocks',
             groups: [
                 {
-                    title: 'Shorts sections',
+                    title: 'Hide Shorts sections',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -28,7 +28,7 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideShorts',
                 },
                 {
-                    title: 'Explore & News',
+                    title: 'Hide Explore & News',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -41,7 +41,7 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideNewsSection',
                 },
                 {
-                    title: 'Mixes & Playlists',
+                    title: 'Hide Mixes & Playlists',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -59,7 +59,7 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Ads',
             groups: [
                 {
-                    title: 'YouTube Banners',
+                    title: 'Hide YouTube Banners',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -70,18 +70,7 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'adsYoutubeBanner',
                 },
                 {
-                    title: 'Sponsored search results',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('sponsored-search'),
-                            selectors: ['ytd-search-pyv-renderer'],
-                        },
-                    ],
-                    storageKey: 'adsSearchResults',
-                },
-                {
-                    title: 'Sponsored feed video',
+                    title: 'Hide Sponsored feed video',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -89,6 +78,11 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                             selectors: [
                                 'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
                             ],
+                        },
+                        {
+                            action: ElementActions.hide,
+                            attr: getAttr('sponsored-search'),
+                            selectors: ['ytd-search-pyv-renderer'],
                         },
                     ],
                     storageKey: 'adsFeedVideo',

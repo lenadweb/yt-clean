@@ -12,7 +12,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Main menu',
             groups: [
                 {
-                    title: 'Shorts',
+                    title: 'Hide "Shorts"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -33,7 +33,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
             // #sections > ytd-guide-section-renderer:has([href*='feed/trending'])
             groups: [
                 {
-                    title: 'History',
+                    title: 'Hide "History"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -46,7 +46,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuHistory',
                 },
                 {
-                    title: 'Playlists',
+                    title: 'Hide "Playlists"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -59,7 +59,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuPlaylists',
                 },
                 {
-                    title: 'Your video',
+                    title: 'Hide "Your video"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -72,7 +72,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuYourVideo',
                 },
                 {
-                    title: 'Watch later',
+                    title: 'Hide "Watch later"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -85,7 +85,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuWatchLater',
                 },
                 {
-                    title: 'Liked videos',
+                    title: 'Hide "Liked videos"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -98,7 +98,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuLikedVideos',
                 },
                 {
-                    title: 'Your Movies',
+                    title: 'Your "Movies"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -122,10 +122,10 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
             ],
         },
         {
-            title: 'Subscriptions list',
+            title: 'Hide Subscriptions list',
             groups: [
                 {
-                    title: 'Subscriptions list',
+                    title: 'Hide Subscriptions list',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -145,7 +145,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Explore',
             groups: [
                 {
-                    title: 'Trending',
+                    title: 'Hide "Trending"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -158,7 +158,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuExploreTrending',
                 },
                 {
-                    title: 'Music',
+                    title: 'Hide "Music"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -171,7 +171,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuExploreMusic',
                 },
                 {
-                    title: 'Gaming',
+                    title: 'Hide "Gaming"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -184,7 +184,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuExploreGaming',
                 },
                 {
-                    title: 'News',
+                    title: 'Hide "News"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -197,7 +197,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuExploreNews',
                 },
                 {
-                    title: 'Sports',
+                    title: 'Hide "Sports"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -224,7 +224,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'More from YouTube',
             groups: [
                 {
-                    title: 'YouTube Premium',
+                    title: 'Hide "YouTube Premium"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -237,7 +237,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuMorePremium',
                 },
                 {
-                    title: 'YouTube Music',
+                    title: 'Hide "YouTube Music"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -250,7 +250,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuMoreMusic',
                 },
                 {
-                    title: 'YouTube Kids',
+                    title: 'Hide "YouTube Kids"',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -263,7 +263,7 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideMenuMoreKids',
                 },
                 {
-                    title: 'YouTube Studio',
+                    title: 'Hide "YouTube Studio"',
                     actions: [
                         {
                             action: ElementActions.hide,

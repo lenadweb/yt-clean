@@ -36,6 +36,7 @@ export class Background {
         if (!isYoutube) return;
         const limitIsEnabled =
             this.storage.get('dailyTimeLimit')?.enabled || false;
+        console.log({ limitIsEnabled, c: this.checkIsTimeSpent() });
         if (this.checkIsTimeSpent() && limitIsEnabled) {
             await this.forceUpdateTab(tab.id, this.getBlockedPage());
         }
@@ -47,6 +48,7 @@ export class Background {
 
     getTimeSpent(): number {
         const current = this.storage.get('spentTimeToday');
+        console.log({ current });
         const todayStart = getStartOfToday();
 
         if (!current.tmstp || current.tmstp < todayStart) {
@@ -60,7 +62,7 @@ export class Background {
         const minutesSpent = this.getTimeSpent();
         if (minutesSpent) {
             const limit = this.storage.get('dailyTimeLimit');
-            return Number(limit.valueInMinutes || '0') < minutesSpent;
+            return Number(limit.value || '0') < minutesSpent;
         }
         return false;
     }

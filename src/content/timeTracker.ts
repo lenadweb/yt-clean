@@ -48,6 +48,14 @@ export class TimeTracker {
 
     start() {
         if (this.intervalId) return;
+        const current = this.storage.get(this.key);
+        if (getStartOfToday() > (current?.tmstp || 0)) {
+            this.storage.update(this.key, {
+                ...current,
+                value: '0',
+                tmstp: getStartOfToday(),
+            });
+        }
 
         this.intervalId = setInterval(() => {
             const isVideoPlaying = this.isVideoPlaying();

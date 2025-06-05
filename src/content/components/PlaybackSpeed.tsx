@@ -14,12 +14,11 @@ const PlaybackSpeed: FC = () => {
         }
     });
 
-    const [persistentPlaybackSpeed, setPersistentPlaybackSpeed] =
-        useStorageValue('persistentPlaybackSpeed');
+    const [speedControl, setSpeedControl] = useStorageValue('speedControl');
 
     const onChange = (value: number) => {
-        setPersistentPlaybackSpeed({
-            ...persistentPlaybackSpeed,
+        setSpeedControl({
+            ...speedControl,
             value: value.toString(),
         });
     };
@@ -31,21 +30,22 @@ const PlaybackSpeed: FC = () => {
     return (
         <div
             ref={refContainer}
-            className="relative -top-5 flex size-12 items-center justify-center"
+            className="relative -top-3.5 flex size-7 items-center justify-center md:-top-5 md:size-12"
         >
             <div onClick={toggleSlider} className="font-semibold">
-                {Number(persistentPlaybackSpeed.value).toFixed(2)}x
+                {parseFloat(Number(speedControl.value).toFixed(2))}x
             </div>
             {sliderIsOpen && (
-                <div className="absolute -top-44 ">
+                <div className="absolute -top-[210px]">
                     <Slider
+                        stops={[1, 1.5, 2]}
                         _ref={refSlider}
                         vertical={true}
                         min={0.3}
-                        step={0.1}
-                        max={3}
-                        size="120px"
-                        value={Number(persistentPlaybackSpeed.value || '1')}
+                        step={0.05}
+                        max={2.5}
+                        size="150px"
+                        value={Number(speedControl.value || '1')}
                         onChange={onChange}
                     />
                 </div>

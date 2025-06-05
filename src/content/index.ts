@@ -63,6 +63,7 @@ class Content {
 
     processActions(changes?: Record<keyof IStorage, StorageChange>) {
         const enabledActions = this.getEnabledActions(changes);
+        console.log(enabledActions);
         enabledActions.forEach((item) => {
             const { status, actions, group } = item;
             for (const act of actions) {
@@ -81,7 +82,11 @@ class Content {
                     document.body?.removeAttribute(act.attr);
                 }
 
-                if (act.action === ElementActions.click && status.enabled) {
+                if (
+                    act.action === ElementActions.click &&
+                    status.enabled &&
+                    isTargetUrl
+                ) {
                     act.selectors.forEach((selector) => {
                         waitForElement(selector).then((element) => {
                             if (element) (element as HTMLElement).click();
@@ -92,6 +97,7 @@ class Content {
                 if (
                     act.action === ElementActions.custom &&
                     status.enabled &&
+                    isTargetUrl &&
                     act.onEnable
                 ) {
                     act.onEnable().then((result: any) => {
@@ -107,7 +113,8 @@ class Content {
                 if (
                     act.action === ElementActions.custom &&
                     !status.enabled &&
-                    act.onDisable
+                    act.onDisable &&
+                    isTargetUrl
                 ) {
                     act.onDisable(this.elementCache.get(act.attr));
                 }
@@ -119,7 +126,6 @@ class Content {
                 'onChange' in group &&
                 group.onChange
             ) {
-                console.log(status.enabled, 'STATUS ENABLED', item);
                 group.onChange(status.value);
             }
             if (

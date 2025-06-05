@@ -10,6 +10,7 @@ type SliderProps = {
     vertical?: boolean;
     showValue?: string;
     size?: string;
+    stops?: number[];
 };
 
 export const Slider: FC<SliderProps> = ({
@@ -22,6 +23,7 @@ export const Slider: FC<SliderProps> = ({
     vertical = false,
     showValue = '',
     size = vertical ? '160px' : '160px',
+    stops = [],
 }) => {
     const trackRef = useRef<HTMLDivElement>(null);
     const [isDragging, setIsDragging] = useState(false);
@@ -85,7 +87,44 @@ export const Slider: FC<SliderProps> = ({
     const percent = ((value - min) / (max - min)) * 100;
 
     return (
-        <div ref={_ref} className="relative">
+        <div
+            ref={_ref}
+            className={`relative flex ${
+                vertical ? 'flex-row' : 'flex-col'
+            } items-center`}
+        >
+            <div className="relative top-5" style={{ height: size }}>
+                {stops.map((stop, i) => {
+                    const stopPercent = ((stop - min) / (max - min)) * 100;
+                    return (
+                        <button
+                            key={i}
+                            onClick={() => onChange(stop)}
+                            className={`absolute z-20 min-w-9 text-[12px] text-white transition hover:bg-yt-red  ${
+                                value?.toFixed(2) === stop.toFixed(2)
+                                    ? 'bg-yt-red'
+                                    : 'bg-yt-grey-button-bg'
+                            } rounded-full px-1 py-0.5`}
+                            style={
+                                vertical
+                                    ? {
+                                          bottom: `calc(${stopPercent}% - 1px)`,
+                                          left: '-4.5rem',
+                                          transform: 'translateY(-50%)',
+                                      }
+                                    : {
+                                          left: `${stopPercent}%`,
+                                          top: '-1.5rem',
+                                          transform: 'translateX(-50%)',
+                                      }
+                            }
+                        >
+                            {stop}x
+                        </button>
+                    );
+                })}
+            </div>
+
             <div
                 className={`flex rounded-full bg-yt-grey-button-bg p-5 transition-colors hover:bg-yt-grey-button-bg-hover ${
                     vertical
@@ -113,6 +152,7 @@ export const Slider: FC<SliderProps> = ({
                                 : { width: `${percent}%` }
                         }
                     />
+
                     <div
                         className={`absolute z-10 ${
                             vertical
@@ -135,6 +175,7 @@ export const Slider: FC<SliderProps> = ({
                     />
                 </div>
             </div>
+
             {showValue && (
                 <span className="absolute -top-7 left-0 flex min-w-full items-center justify-center text-right text-xs text-white">
                     {showValue}

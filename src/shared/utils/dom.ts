@@ -1,19 +1,47 @@
 export const waitForElement = (
     selector: string,
     maxTimeout = 0,
-    root = document.documentElement
+    root: HTMLElement | Document = document.documentElement
 ): Promise<Element | null> =>
     new Promise((resolve) => {
-        const existing = document.querySelector(selector);
+        const check = () => {
+            console.log(`check ${selector}`);
+            return root.querySelector(selector);
+        };
+
+        const existing = check();
         if (existing) return resolve(existing);
 
-        const observer = new MutationObserver(() => {
-            const element = document.querySelector(selector);
-            if (element) {
-                observer.disconnect();
-                if (timeoutId) clearTimeout(timeoutId);
-                resolve(element);
+        let timeoutId: ReturnType<typeof setTimeout> | null = null;
+        let throttleId: ReturnType<typeof setTimeout> | null = null;
+
+        const cleanup = () => {
+            observer.disconnect();
+            if (timeoutId) {
+                clearTimeout(timeoutId);
+                timeoutId = null;
             }
+            if (throttleId) {
+                clearTimeout(throttleId);
+                throttleId = null;
+            }
+        };
+
+        const throttledCheck = () => {
+            if (throttleId !== null) return;
+
+            throttleId = setTimeout(() => {
+                throttleId = null;
+                const element = check();
+                if (element) {
+                    cleanup();
+                    resolve(element);
+                }
+            }, 200);
+        };
+
+        const observer = new MutationObserver(() => {
+            throttledCheck();
         });
 
         observer.observe(root, {
@@ -21,11 +49,9 @@ export const waitForElement = (
             subtree: true,
         });
 
-        let timeoutId: ReturnType<typeof setTimeout> | null = null;
-
         if (maxTimeout > 0) {
             timeoutId = setTimeout(() => {
-                observer.disconnect();
+                cleanup();
                 resolve(null);
             }, maxTimeout);
         }

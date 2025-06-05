@@ -6,6 +6,7 @@ import ShortsSpeedControl from 'src/content/components/ShortsSpeedControl';
 import { Injection } from 'src/content/Injection';
 import { waitForElement } from 'src/shared/utils/dom';
 import PlaybackSpeed from 'src/content/components/PlaybackSpeed';
+import { useUrl } from 'src/shared/hooks/useUrl';
 
 const componentsMap: Record<string, ReactElement> = {
     ShortsSpeedControl: <ShortsSpeedControl />,
@@ -19,6 +20,7 @@ interface RenderableComponent {
 }
 
 const App: FC = () => {
+    const url = useUrl();
     const [storage] = useStorage();
     const [readyComponents, setReadyComponents] = useState<
         RenderableComponent[]
@@ -40,12 +42,17 @@ const App: FC = () => {
             )
         );
 
-        console.log(enabledItems, storage.shortSpeedControl.enabled);
-
         enabledItems.forEach((item) => {
             item?.components.forEach((componentDef) => {
                 const key = componentDef.component || 'default';
                 const selector = componentDef.insertAfter || 'body';
+                const isTargetUrl = componentDef.urlRegExp
+                    ? componentDef.urlRegExp.some((regexp) =>
+                          new RegExp(regexp).test(url)
+                      )
+                    : true;
+
+                if (!isTargetUrl) return;
 
                 waitForElement(selector).then((el) => {
                     if (!el) return;
@@ -63,10 +70,7 @@ const App: FC = () => {
                 });
             });
         });
-    }, [
-        storage.shortSpeedControl.enabled,
-        storage.persistentPlaybackSpeed.enabled,
-    ]);
+    }, [url, storage.shortSpeedControl.enabled, storage.speedControl.enabled]);
 
     return (
         <>

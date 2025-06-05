@@ -14,7 +14,7 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Search Bar',
             groups: [
                 {
-                    title: 'Voice search button',
+                    title: 'Hide voice search button',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -25,7 +25,7 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'voiceButtonInSearch',
                 },
                 {
-                    title: 'Virtual keyboard button',
+                    title: 'Hide virtual keyboard button',
                     actions: [
                         {
                             title: 'Virtual keyboard button',
@@ -39,7 +39,7 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'virtualKeyboard',
                 },
                 {
-                    title: 'Search tags',
+                    title: 'Hide search tags',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -71,7 +71,7 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Actions & user',
             groups: [
                 {
-                    title: 'Upload button',
+                    title: 'Hide upload button',
                     actions: [
                         {
                             action: ElementActions.hide,
@@ -82,7 +82,7 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideCreateVideo',
                 },
                 {
-                    title: 'Notifications',
+                    title: 'Hide notifications',
                     actions: [
                         {
                             action: ElementActions.hide,

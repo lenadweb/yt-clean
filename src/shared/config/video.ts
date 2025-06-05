@@ -59,21 +59,103 @@ export const PLAYBACK_OPTIONS = [
 export const videoConfig: ISettingsBlock<IAttrAction[]> = {
     title: 'Video Playback & Channel',
     settings: [
+        // {
+        //     title: 'Persistent playback speed',
+        //     groups: [
+        //         {
+        //             options: PLAYBACK_OPTIONS,
+        //             actions: [
+        //                 {
+        //                     action: ElementActions.hide,
+        //                     attr: getAttr('playback-speed'),
+        //                     selectors: [
+        //                         // '.ytp-settings-menu .ytp-panel-menu > .ytp-menuitem:nth-child(6)',
+        //                     ],
+        //                 },
+        //                 {
+        //                     action: ElementActions.component,
+        //                     urlRegExp: [UrlRegExps.Watch],
+        //                     component: 'PlaybackSpeed',
+        //                     selectors: [],
+        //                     attr: getAttr('playback-speed'),
+        //                     insertAfter:
+        //                         '.ytp-right-controls .ytp-button.ytp-settings-button.ytp-hd-quality-badge',
+        //                 },
+        //             ],
+        //             type: 'dropdown',
+        //             storageKey: 'persistentPlaybackSpeed',
+        //             onChange: async (value: string) => {
+        //                 if (value === 'disabled') {
+        //                     return;
+        //                 }
+        //                 const isTargetUrl = [
+        //                     UrlRegExps.Watch,
+        //                     UrlRegExps.Channel,
+        //                 ].some((item) =>
+        //                     new RegExp(item).test(window.location.href)
+        //                 );
+        //                 if (!isTargetUrl) return;
+        //                 await waitForElement(
+        //                     '.html5-video-player:not(.unstarted-mode) video[src]'
+        //                 );
+        //                 setPlaybackSpeed(value);
+        //             },
+        //         },
+        //     ],
+        // },
+        // {
+        //     title: 'Set 1x playback speed for music videos',
+        //     groups: [
+        //         {
+        //             actions: [
+        //                 {
+        //                     urlRegExp: [UrlRegExps.Watch],
+        //                     attr: getAttr(),
+        //                     action: ElementActions.custom,
+        //                     selectors: [],
+        //                 },
+        //             ],
+        //             storageKey: 'defaultMusicPlaybackSpeed',
+        //             onChange: async (value: string) => {
+        //                 const isTargetUrl = new RegExp(UrlRegExps.Watch).test(
+        //                     window.location.href
+        //                 );
+        //                 if (value !== 'disabled' && isTargetUrl) {
+        //                     await waitForElement(
+        //                         '.html5-video-player:not(.unstarted-mode) video[src]'
+        //                     );
+        //                     await waitForElement(
+        //                         'yt-page-navigation-progress[hidden]'
+        //                     );
+        //                     await waitForElement(
+        //                         '.html5-video-player:not(.unstarted-mode) video[src]'
+        //                     );
+        //                     hideElement('.ytp-popup.ytp-settings-menu');
+        //                     clickElement('.ytp-settings-button');
+        //                     clickElement('.ytp-settings-button');
+        //                     showElement('.ytp-popup.ytp-settings-menu');
+        //                     const isMusicVideo = await waitForElement(
+        //                         ".ytp-drc-menu-item[aria-disabled='true']",
+        //                         5000
+        //                     );
+        //                     console.log({ isMusicVideo });
+        //                     if (isMusicVideo) {
+        //                         setPlaybackSpeed('1.00');
+        //                     }
+        //                 }
+        //             },
+        //         },
+        //     ],
+        //     withoutCheckboxes: true,
+        // },
         {
-            title: 'Persistent playback speed',
+            title: 'Slider playback speed control',
             groups: [
                 {
-                    options: PLAYBACK_OPTIONS,
                     actions: [
                         {
-                            action: ElementActions.hide,
-                            attr: getAttr('playback-speed'),
-                            selectors: [
-                                '.ytp-settings-menu .ytp-panel-menu > .ytp-menuitem:nth-child(6)',
-                            ],
-                        },
-                        {
                             action: ElementActions.component,
+                            urlRegExp: [UrlRegExps.Watch],
                             component: 'PlaybackSpeed',
                             selectors: [],
                             attr: getAttr('playback-speed'),
@@ -81,8 +163,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                                 '.ytp-right-controls .ytp-button.ytp-settings-button.ytp-hd-quality-badge',
                         },
                     ],
-                    type: 'dropdown',
-                    storageKey: 'persistentPlaybackSpeed',
+                    storageKey: 'speedControl',
                     onChange: async (value: string) => {
                         if (value === 'disabled') {
                             return;
@@ -93,56 +174,11 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                         ].some((item) =>
                             new RegExp(item).test(window.location.href)
                         );
+                        if (!isTargetUrl) return;
                         await waitForElement(
                             '.html5-video-player:not(.unstarted-mode) video[src]'
                         );
-                        if (isTargetUrl) {
-                            setPlaybackSpeed(value);
-                        }
-                    },
-                },
-            ],
-        },
-        {
-            title: 'Set 1x playback speed for music videos',
-            groups: [
-                {
-                    actions: [
-                        {
-                            urlRegExp: [UrlRegExps.Watch],
-                            attr: getAttr(),
-                            action: ElementActions.custom,
-                            selectors: [],
-                        },
-                    ],
-                    storageKey: 'defaultMusicPlaybackSpeed',
-                    onChange: async (value: string) => {
-                        const isTargetUrl = new RegExp(UrlRegExps.Watch).test(
-                            window.location.href
-                        );
-                        if (value !== 'disabled' && isTargetUrl) {
-                            await waitForElement(
-                                '.html5-video-player:not(.unstarted-mode) video[src]'
-                            );
-                            await waitForElement(
-                                'yt-page-navigation-progress[hidden]'
-                            );
-                            await waitForElement(
-                                '.html5-video-player:not(.unstarted-mode) video[src]'
-                            );
-                            hideElement('.ytp-popup.ytp-settings-menu');
-                            clickElement('.ytp-settings-button');
-                            clickElement('.ytp-settings-button');
-                            showElement('.ytp-popup.ytp-settings-menu');
-                            const isMusicVideo = await waitForElement(
-                                ".ytp-drc-menu-item[aria-disabled='true']",
-                                5000
-                            );
-                            console.log({ isMusicVideo });
-                            if (isMusicVideo) {
-                                setPlaybackSpeed('1.00');
-                            }
-                        }
+                        setPlaybackSpeed(value);
                     },
                 },
             ],
@@ -199,40 +235,40 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                 },
             ],
         },
-        {
-            title: 'Persistent comment sort',
-            groups: [
-                {
-                    actions: [],
-                    onChange: async (value) => {
-                        if (value === 'disabled') return;
-                        const waitSelector =
-                            'ytd-comments#comments ytd-item-section-renderer:not([continuation-is-reloading])';
-                        const selector = `#sort-menu tp-yt-paper-menu-button tp-yt-iron-dropdown a.yt-simple-endpoint.yt-dropdown-menu:nth-child(${
-                            value === 'popular' ? 1 : 2
-                        })`;
-
-                        await waitForElement(waitSelector);
-                        const element = await waitForElement(selector);
-                        if (element) {
-                            (element as HTMLElement).click();
-                        }
-                    },
-                    options: [
-                        {
-                            label: 'Popular',
-                            value: 'popular',
-                        },
-                        {
-                            label: 'Newest',
-                            value: 'newest',
-                        },
-                    ],
-                    type: 'dropdown',
-                    storageKey: 'persistentCommentSort',
-                },
-            ],
-        },
+        // {
+        //     title: 'Persistent comment sort',
+        //     groups: [
+        //         {
+        //             actions: [],
+        //             onChange: async (value) => {
+        //                 if (value === 'disabled') return;
+        //                 const waitSelector =
+        //                     'ytd-comments#comments ytd-item-section-renderer:not([continuation-is-reloading])';
+        //                 const selector = `#sort-menu tp-yt-paper-menu-button tp-yt-iron-dropdown a.yt-simple-endpoint.yt-dropdown-menu:nth-child(${
+        //                     value === 'popular' ? 1 : 2
+        //                 })`;
+        //
+        //                 await waitForElement(waitSelector);
+        //                 const element = await waitForElement(selector);
+        //                 if (element) {
+        //                     (element as HTMLElement).click();
+        //                 }
+        //             },
+        //             options: [
+        //                 {
+        //                     label: 'Popular',
+        //                     value: 'popular',
+        //                 },
+        //                 {
+        //                     label: 'Newest',
+        //                     value: 'newest',
+        //                 },
+        //             ],
+        //             type: 'dropdown',
+        //             storageKey: 'persistentCommentSort',
+        //         },
+        //     ],
+        // },
         {
             title: 'Player',
             groups: [
@@ -296,6 +332,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'shortSpeedControl',
                     actions: [
                         {
+                            urlRegExp: [UrlRegExps.Shorts],
                             action: ElementActions.component,
                             component: 'ShortsSpeedControl',
                             insertAfter: '#cinematic-container',
@@ -305,7 +342,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                     ],
                 },
                 {
-                    title: 'Shorts auto next',
+                    title: 'Automatic switching to the next',
                     actions: [
                         {
                             urlRegExp: [UrlRegExps.Shorts],
@@ -369,22 +406,22 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
         {
             title: 'Description',
             groups: [
-                {
-                    title: 'Auto-open description',
-                    actions: [
-                        {
-                            attr: '',
-                            action: ElementActions.click,
-                            selectors: ['#description #expand'],
-                        },
-                        // {
-                        //     action: ElementActions.hide,
-                        //     attr: getAttr('auto-open-description'),
-                        //     selectors: ['#description #collapse'],
-                        // },
-                    ],
-                    storageKey: 'autoOpenDescription',
-                },
+                // {
+                //     title: 'Auto-open description',
+                //     actions: [
+                //         {
+                //             attr: '',
+                //             action: ElementActions.click,
+                //             selectors: ['#description #expand'],
+                //         },
+                //         // {
+                //         //     action: ElementActions.hide,
+                //         //     attr: getAttr('auto-open-description'),
+                //         //     selectors: ['#description #collapse'],
+                //         // },
+                //     ],
+                //     storageKey: 'autoOpenDescription',
+                // },
                 {
                     title: 'Hide episodes description',
                     actions: [
@@ -481,7 +518,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             title: 'Channel',
             groups: [
                 {
-                    title: 'Channel trailer',
+                    title: 'Hide Channel trailer',
                     actions: [
                         {
                             urlRegExp: [UrlRegExps.Channel],
@@ -548,7 +585,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                     storageKey: 'hideChannelTrailer',
                 },
                 {
-                    title: 'Channel banner',
+                    title: 'Hide Channel banner',
                     actions: [
                         {
                             action: ElementActions.hide,
