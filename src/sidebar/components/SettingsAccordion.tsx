@@ -18,6 +18,7 @@ type Props = {
     storageSettings: IStorage;
     enabled: boolean;
     setSetting: (key: keyof IStorage, value: IAllSetting) => void;
+    defaultOpen?: boolean;
 };
 
 export const SettingsAccordion: FC<Props> = ({
@@ -25,9 +26,10 @@ export const SettingsAccordion: FC<Props> = ({
     storageSettings,
     enabled,
     settings,
+    defaultOpen,
     setSetting,
 }) => (
-    <Disclosure>
+    <Disclosure defaultOpen={defaultOpen}>
         {({ open }) => (
             <>
                 <div className="rounded-3xl bg-black-700 text-white-100">
