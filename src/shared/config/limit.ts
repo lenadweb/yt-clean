@@ -2,6 +2,37 @@ import { IAttrAction, ISettingsBlock } from 'src/shared/types/config';
 import { ISubtitleSettings } from 'src/shared/types/settings';
 import { formatTime } from 'src/shared/utils/format';
 
+export const DAILY_TIME_LIMIT_OPTIONS = [
+    {
+        label: '30 minutes',
+        value: String(30),
+    },
+    {
+        label: '1 hour',
+        value: String(60),
+    },
+    {
+        label: '2 hours',
+        value: String(60 * 2),
+    },
+    {
+        label: '3 hours',
+        value: String(60 * 3),
+    },
+    {
+        label: '4 hours',
+        value: String(60 * 4),
+    },
+    {
+        label: '5 hours',
+        value: String(60 * 5),
+    },
+    {
+        label: '6 hours',
+        value: String(60 * 6),
+    },
+];
+
 export const limitConfig: ISettingsBlock<IAttrAction[]> = {
     title: 'Time limit',
     settings: [
@@ -11,36 +42,7 @@ export const limitConfig: ISettingsBlock<IAttrAction[]> = {
                 {
                     actions: [],
                     type: 'dropdown',
-                    options: [
-                        {
-                            label: '30 minutes',
-                            value: String(30),
-                        },
-                        {
-                            label: '1 hour',
-                            value: String(60),
-                        },
-                        {
-                            label: '2 hours',
-                            value: String(60 * 2),
-                        },
-                        {
-                            label: '3 hours',
-                            value: String(60 * 3),
-                        },
-                        {
-                            label: '4 hours',
-                            value: String(60 * 4),
-                        },
-                        {
-                            label: '5 hours',
-                            value: String(60 * 5),
-                        },
-                        {
-                            label: '6 hours',
-                            value: String(60 * 6),
-                        },
-                    ],
+                    options: DAILY_TIME_LIMIT_OPTIONS,
                     storageKey: 'dailyTimeLimit',
                 },
                 {

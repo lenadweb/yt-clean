@@ -43,12 +43,14 @@ export const useStorageValue = <K extends keyof IStorage>(
 export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     children,
 }) => {
+    const [isInit, setIsInit] = useState(false);
     const [settings, setSettings] = useState<IStorage>(DEFAULT_STORAGE);
 
     useEffect(() => {
         chrome.storage.local.get(null, (data) => {
             const mergedSettings = { ...DEFAULT_STORAGE, ...data };
             setSettings(mergedSettings);
+            setIsInit(true);
             chrome.storage.local.set(mergedSettings);
         });
 
@@ -78,6 +80,10 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
         setSettings((prev) => ({ ...prev, [key]: value }));
         chrome.storage.local.set({ [key]: value });
     }, []);
+
+    if (!isInit) {
+        return null;
+    }
 
     return (
         <StorageContext.Provider value={[settings, updateSetting]}>

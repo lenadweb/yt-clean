@@ -1,10 +1,13 @@
 import { waitForElement } from 'src/shared/utils/dom';
 
 export const setPlaybackSpeed = (value: string) => {
-    waitForElement('#movie_player video').then((player) => {
+    waitForElement(
+        '#ytd-player:not(:has(.ytp-ad-player-overlay-layout__player-card-container)) #movie_player video'
+    ).then((player) => {
         if (player) {
             (player as any).playbackRate = Number(Number(value).toFixed(2));
         }
+        console.log(player, value, 'setPlaybackSpeed');
         const newLocalStorageValue = {
             creation: Date.now(),
             data: value,

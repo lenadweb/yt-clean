@@ -160,7 +160,7 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                             selectors: [],
                             attr: getAttr('playback-speed'),
                             insertAfter:
-                                '.ytp-right-controls .ytp-button.ytp-settings-button.ytp-hd-quality-badge',
+                                '.ytp-right-controls .ytp-button.ytp-settings-button',
                         },
                     ],
                     storageKey: 'speedControl',
