@@ -8,9 +8,7 @@ import {
 } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import Divider from 'src/sidebar/components/Divider';
-import cn from 'classnames';
 import Switch from 'src/sidebar/components/Switch';
-import isEnabled = chrome.action.isEnabled;
 import { Dropdown } from 'src/sidebar/components/Dropdown';
 import { IAllSetting, IDropdownSettings } from 'src/shared/types/settings';
 import { Subtitle } from 'src/sidebar/components/Subtitle';
@@ -50,7 +48,6 @@ const SettingsGroup: FC<ISettingsGroup> = ({
             });
         });
     };
-    console.log(settings['persistentPlaybackSpeed']);
     return (
         <div className="last:!mb-2">
             <Divider className={`${isFirst ? 'mt-0' : ''}`} />
@@ -68,11 +65,16 @@ const SettingsGroup: FC<ISettingsGroup> = ({
             </div>
             {!withoutCheckboxes ? (
                 <div className="ml-3 flex flex-col gap-3">
-                    {groups.map((group) => (
-                        <>
+                    {groups.map((group, index) => (
+                        <Fragment
+                            key={
+                                group.storageKey ||
+                                group.title ||
+                                `group-${index}`
+                            }
+                        >
                             {'type' in group && group.type === 'dropdown' ? (
                                 <Dropdown
-                                    key={group.title}
                                     label={group.title || ''}
                                     value={
                                         (
@@ -104,7 +106,6 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                             ) : (
                                 <Checkbox
                                     isGrey={!groupEnabled}
-                                    key={group.title}
                                     label={group.title || ''}
                                     checked={
                                         settings[group.storageKey]?.enabled ??
@@ -118,7 +119,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                                     }
                                 />
                             )}
-                        </>
+                        </Fragment>
                     ))}
                 </div>
             ) : null}

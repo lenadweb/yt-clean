@@ -17,25 +17,12 @@ export interface IDropdownSettings extends IBaseSetting {
     value?: string;
 }
 
-export interface ITimeLimitSettings extends IBaseSetting {
-    value?: string;
-}
-
-export interface ISubtitleSettings extends IBaseSetting {
-    value?: string;
-    tmstp?: number;
-}
-
-export interface IAllSetting
-    extends IDropdownSettings,
-        IRelatedSettings,
-        ITimeLimitSettings {}
+export interface IAllSetting extends IDropdownSettings, IRelatedSettings {}
 
 export interface ISettings {
     hideShorts: IBaseSetting;
     hideSearchTags: IBaseSetting;
     persistentCommentSort: IDropdownSettings;
-    persistentQuality: IDropdownSettings;
     persistentPlaybackSpeed: IDropdownSettings;
     speedControl: IDropdownSettings;
     defaultMusicPlaybackSpeed: IDropdownSettings;
@@ -44,16 +31,12 @@ export interface ISettings {
     adsFeedVideo: IBaseSetting;
     hideJams: IBaseSetting;
     hideCreateVideo: IBaseSetting;
-    searchMode: IBaseSetting;
     voiceButtonInSearch: IBaseSetting;
     virtualKeyboard: IBaseSetting;
-    subscribeButton: IBaseSetting;
     rightCommentMode: IBaseSetting;
     hideSponsorVideo: IBaseSetting;
-    hideSponsorButton: IBaseSetting;
     notificationButton: IBaseSetting;
     relatedVideos: IRelatedSettings;
-    hideLiveChat: IBaseSetting;
     disableAutoplay: IBaseSetting;
     commentsRightMode: IBaseSetting;
     hideNewsSection: IBaseSetting;
@@ -65,9 +48,6 @@ export interface ISettings {
     hidePlayerWideSizePlayerButton: IBaseSetting;
     hidePlayerMiniSizePlayerButton: IBaseSetting;
     autoOpenDescription: IBaseSetting;
-    hideEpisodesDescription: IBaseSetting;
-    hideTranscriptSection: IBaseSetting;
-    hidePeopleMentioned: IBaseSetting;
     hideMenuShorts: IBaseSetting;
     hideMenuHistory: IBaseSetting;
     hideMenuPlaylists: IBaseSetting;
@@ -75,7 +55,6 @@ export interface ISettings {
     hideMenuWatchLater: IBaseSetting;
     hideMenuLikedVideos: IBaseSetting;
     hideYourMovies: IBaseSetting;
-    hideDescriptionRelatedVideo: IBaseSetting;
     hideMenuSubscriptionsList: IBaseSetting;
     hideMenuExploreTrending: IBaseSetting;
     hideMenuExploreMusic: IBaseSetting;
@@ -87,6 +66,4 @@ export interface ISettings {
     hideMenuMoreKids: IBaseSetting;
     hideMenuMoreStudio: IBaseSetting;
     shortSpeedControl: IBaseSetting;
-    dailyTimeLimit: ITimeLimitSettings;
-    spentTimeToday: ISubtitleSettings;
 }
