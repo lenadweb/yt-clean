@@ -3,7 +3,6 @@ import {
     Disclosure,
     DisclosureButton,
     DisclosurePanel,
-    Switch,
 } from '@headlessui/react';
 import { IStorage } from 'src/shared/storage/config';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';

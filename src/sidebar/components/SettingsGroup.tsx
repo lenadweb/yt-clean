@@ -1,9 +1,7 @@
 import React, { FC, Fragment } from 'react';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
 import {
-    ElementActions,
     IAttrAction,
-    IDomActions,
     SettingsGroup as ISettingsGroupConfig,
 } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';

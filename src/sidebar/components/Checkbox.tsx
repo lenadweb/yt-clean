@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useMemo } from 'react';
+import React, { FC, useCallback } from 'react';
 import { Checkbox as HeadlessCheckbox, Field, Label } from '@headlessui/react';
 import cn from 'classnames';
 
