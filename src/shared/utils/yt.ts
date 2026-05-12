@@ -7,7 +7,6 @@ export const setPlaybackSpeed = (value: string) => {
         if (player) {
             (player as any).playbackRate = Number(Number(value).toFixed(2));
         }
-        console.log(player, value, 'setPlaybackSpeed');
         const newLocalStorageValue = {
             creation: Date.now(),
             data: value,
@@ -19,23 +18,6 @@ export const setPlaybackSpeed = (value: string) => {
             );
         }
     });
-};
-
-export const setQualityVideo = (value: string) => {
-    const newLocalStorageValue = {
-        creation: Date.now(),
-        data: JSON.stringify({
-            quality: value,
-            previousQuality: value,
-        }),
-        expiration: Date.now() + 24 * 60 * 60 * 1000,
-    };
-    if (window.localStorage) {
-        window.localStorage.setItem(
-            'yt-player-quality',
-            JSON.stringify(newLocalStorageValue)
-        );
-    }
 };
 
 export const setShortsPlaybackSpeed = (value: string) => {
