@@ -16,11 +16,11 @@ const Button: FC<ButtonProps> = ({
         {...props}
         disabled={disabled}
         className={clsx(
-            'flex h-[31px] w-[133px] items-center justify-center rounded-[5px] text-[12px] transition-colors duration-300',
+            'flex items-center justify-center rounded-lg px-6 py-3 text-xs font-medium transition-colors duration-300',
             {
                 'bg-red-600 text-white border-none hover:bg-red-accent':
                     variant === 'filled' && !disabled,
-                'border border-black50 bg-transparent text-black hover:border-black20 hover:bg-black-600':
+                'border border-black50 bg-transparent text-white border-red-accent hover:bg-red-600':
                     variant === 'outlined' && !disabled,
                 'opacity-60 cursor-not-allowed': disabled,
                 'cursor-pointer': !disabled,
