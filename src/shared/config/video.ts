@@ -54,95 +54,6 @@ export const PLAYBACK_OPTIONS = [
 export const videoConfig: ISettingsBlock<IAttrAction[]> = {
     title: 'Video Playback & Channel',
     settings: [
-        // {
-        //     title: 'Persistent playback speed',
-        //     groups: [
-        //         {
-        //             options: PLAYBACK_OPTIONS,
-        //             actions: [
-        //                 {
-        //                     action: ElementActions.hide,
-        //                     attr: getAttr('playback-speed'),
-        //                     selectors: [
-        //                         // '.ytp-settings-menu .ytp-panel-menu > .ytp-menuitem:nth-child(6)',
-        //                     ],
-        //                 },
-        //                 {
-        //                     action: ElementActions.component,
-        //                     urlRegExp: [UrlRegExps.Watch],
-        //                     component: 'PlaybackSpeed',
-        //                     selectors: [],
-        //                     attr: getAttr('playback-speed'),
-        //                     insertAfter:
-        //                         '.ytp-right-controls .ytp-button.ytp-settings-button.ytp-hd-quality-badge',
-        //                 },
-        //             ],
-        //             type: 'dropdown',
-        //             storageKey: 'persistentPlaybackSpeed',
-        //             onChange: async (value: string) => {
-        //                 if (value === 'disabled') {
-        //                     return;
-        //                 }
-        //                 const isTargetUrl = [
-        //                     UrlRegExps.Watch,
-        //                     UrlRegExps.Channel,
-        //                 ].some((item) =>
-        //                     new RegExp(item).test(window.location.href)
-        //                 );
-        //                 if (!isTargetUrl) return;
-        //                 await waitForElement(
-        //                     '.html5-video-player:not(.unstarted-mode) video[src]'
-        //                 );
-        //                 setPlaybackSpeed(value);
-        //             },
-        //         },
-        //     ],
-        // },
-        // {
-        //     title: 'Set 1x playback speed for music videos',
-        //     groups: [
-        //         {
-        //             actions: [
-        //                 {
-        //                     urlRegExp: [UrlRegExps.Watch],
-        //                     attr: getAttr(),
-        //                     action: ElementActions.custom,
-        //                     selectors: [],
-        //                 },
-        //             ],
-        //             storageKey: 'defaultMusicPlaybackSpeed',
-        //             onChange: async (value: string) => {
-        //                 const isTargetUrl = new RegExp(UrlRegExps.Watch).test(
-        //                     window.location.href
-        //                 );
-        //                 if (value !== 'disabled' && isTargetUrl) {
-        //                     await waitForElement(
-        //                         '.html5-video-player:not(.unstarted-mode) video[src]'
-        //                     );
-        //                     await waitForElement(
-        //                         'yt-page-navigation-progress[hidden]'
-        //                     );
-        //                     await waitForElement(
-        //                         '.html5-video-player:not(.unstarted-mode) video[src]'
-        //                     );
-        //                     hideElement('.ytp-popup.ytp-settings-menu');
-        //                     clickElement('.ytp-settings-button');
-        //                     clickElement('.ytp-settings-button');
-        //                     showElement('.ytp-popup.ytp-settings-menu');
-        //                     const isMusicVideo = await waitForElement(
-        //                         ".ytp-drc-menu-item[aria-disabled='true']",
-        //                         5000
-        //                     );
-        //                     console.log({ isMusicVideo });
-        //                     if (isMusicVideo) {
-        //                         setPlaybackSpeed('1.00');
-        //                     }
-        //                 }
-        //             },
-        //         },
-        //     ],
-        //     withoutCheckboxes: true,
-        // },
         {
             title: 'Slider playback speed control',
             groups: [
@@ -179,40 +90,6 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             ],
             withoutCheckboxes: true,
         },
-        // {
-        //     title: 'Persistent comment sort',
-        //     groups: [
-        //         {
-        //             actions: [],
-        //             onChange: async (value) => {
-        //                 if (value === 'disabled') return;
-        //                 const waitSelector =
-        //                     'ytd-comments#comments ytd-item-section-renderer:not([continuation-is-reloading])';
-        //                 const selector = `#sort-menu tp-yt-paper-menu-button tp-yt-iron-dropdown a.yt-simple-endpoint.yt-dropdown-menu:nth-child(${
-        //                     value === 'popular' ? 1 : 2
-        //                 })`;
-        //
-        //                 await waitForElement(waitSelector);
-        //                 const element = await waitForElement(selector);
-        //                 if (element) {
-        //                     (element as HTMLElement).click();
-        //                 }
-        //             },
-        //             options: [
-        //                 {
-        //                     label: 'Popular',
-        //                     value: 'popular',
-        //                 },
-        //                 {
-        //                     label: 'Newest',
-        //                     value: 'newest',
-        //                 },
-        //             ],
-        //             type: 'dropdown',
-        //             storageKey: 'persistentCommentSort',
-        //         },
-        //     ],
-        // },
         {
             title: 'Player',
             groups: [

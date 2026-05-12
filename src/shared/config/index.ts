@@ -1,4 +1,3 @@
-import { UrlRegExps } from 'src/shared/const';
 import { ElementActions, IConfig } from 'src/shared/types/config';
 import { templateConfig } from 'src/shared/config/template';
 import { feedConfig } from 'src/shared/config/feed';
@@ -6,12 +5,7 @@ import { sidebarConfig } from 'src/shared/config/sidebar';
 import { videoConfig } from 'src/shared/config/video';
 
 export const CONFIG: IConfig = {
-    domActions: [
-        templateConfig,
-        feedConfig,
-        videoConfig,
-        sidebarConfig,
-    ],
+    domActions: [templateConfig, feedConfig, videoConfig, sidebarConfig],
     storageActions: [],
 };
 

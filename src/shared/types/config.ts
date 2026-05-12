@@ -16,6 +16,7 @@ export enum ElementActions {
 }
 
 export type CustomQuerySelectorFn = () => Element[];
+type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 
 export interface IAttrAction {
     title?: string;
@@ -28,7 +29,7 @@ export interface IAttrAction {
     action: ElementActions;
     component?: string;
     insertAfter?: string;
-    urlRegExp?: UrlRegExps[];
+    urlRegExp?: UrlRegExp[];
 }
 
 export interface IStorageAction {
