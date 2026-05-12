@@ -4,10 +4,7 @@ export const waitForElement = (
     root: HTMLElement | Document = document.documentElement
 ): Promise<Element | null> =>
     new Promise((resolve) => {
-        const check = () => {
-            console.log(`check ${selector}`);
-            return root.querySelector(selector);
-        };
+        const check = () => root.querySelector(selector);
 
         const existing = check();
         if (existing) return resolve(existing);

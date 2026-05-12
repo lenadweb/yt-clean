@@ -7,7 +7,6 @@ import {
 } from 'src/shared/types/config';
 import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
 import { CONFIG } from 'src/shared/config';
-import { getAttr } from 'src/shared/utils/getAttr';
 import { Storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
 import { waitForElement } from 'src/shared/utils/dom';
@@ -63,7 +62,6 @@ class Content {
 
     processActions(changes?: Record<keyof IStorage, StorageChange>) {
         const enabledActions = this.getEnabledActions(changes);
-        console.log(enabledActions);
         enabledActions.forEach((item) => {
             const { status, actions, group } = item;
             for (const act of actions) {
@@ -74,9 +72,6 @@ class Content {
                     : true;
 
                 if (status.enabled && isTargetUrl && act.attr) {
-                    if (getAttr('more-from-yt-group') == act.attr) {
-                        console.log(act);
-                    }
                     document.body?.setAttribute(act.attr, 'true');
                 } else if (act.attr) {
                     document.body?.removeAttribute(act.attr);

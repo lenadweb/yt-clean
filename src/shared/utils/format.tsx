@@ -19,15 +19,11 @@ export const formatNumber = (value: string | number, exp = false): string => {
     let [integerPartRaw, fractionalPart] = originalStr.split('.');
     if (fractionalPart === undefined) fractionalPart = '';
 
-    let sign = '';
     if (
         integerPartRaw === '' ||
         integerPartRaw === '-' ||
         integerPartRaw === '+'
     ) {
-        if (integerPartRaw === '-' || integerPartRaw === '+') {
-            sign = integerPartRaw;
-        }
         integerPartRaw = '0';
     }
 
