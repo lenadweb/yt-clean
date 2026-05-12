@@ -5,13 +5,8 @@ import {
 } from 'src/shared/types/config';
 import { getAttr } from 'src/shared/utils/getAttr';
 import { UrlRegExps } from 'src/shared/const';
-import { setPlaybackSpeed, setQualityVideo } from 'src/shared/utils/yt';
+import { setPlaybackSpeed } from 'src/shared/utils/yt';
 import { observeElementChanges, waitForElement } from 'src/shared/utils/dom';
-import {
-    clickElement,
-    hideElement,
-    showElement,
-} from 'src/shared/utils/browser';
 
 export const PLAYBACK_OPTIONS = [
     {
@@ -184,57 +179,6 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
             ],
             withoutCheckboxes: true,
         },
-        {
-            title: 'Persistent video quality',
-            groups: [
-                {
-                    actions: [],
-                    onChange: async (value: string) => {
-                        // todo:
-                        if (value === 'disabled') {
-                            value = '1080';
-                        }
-                        setQualityVideo(value);
-                    },
-                    options: [
-                        {
-                            label: '2160p',
-                            value: '2160',
-                        },
-                        {
-                            label: '1440p',
-                            value: '1440',
-                        },
-                        {
-                            label: '1080p',
-                            value: '1080',
-                        },
-                        {
-                            label: '720p',
-                            value: '720',
-                        },
-                        {
-                            label: '480p',
-                            value: '480',
-                        },
-                        {
-                            label: '360p',
-                            value: '360',
-                        },
-                        {
-                            label: '240p',
-                            value: '240',
-                        },
-                        {
-                            label: '144p',
-                            value: '144',
-                        },
-                    ],
-                    type: 'dropdown',
-                    storageKey: 'persistentQuality',
-                },
-            ],
-        },
         // {
         //     title: 'Persistent comment sort',
         //     groups: [
@@ -400,117 +344,6 @@ export const videoConfig: ISettingsBlock<IAttrAction[]> = {
                         },
                     ],
                     storageKey: 'autoNextShorts',
-                },
-            ],
-        },
-        {
-            title: 'Description',
-            groups: [
-                // {
-                //     title: 'Auto-open description',
-                //     actions: [
-                //         {
-                //             attr: '',
-                //             action: ElementActions.click,
-                //             selectors: ['#description #expand'],
-                //         },
-                //         // {
-                //         //     action: ElementActions.hide,
-                //         //     attr: getAttr('auto-open-description'),
-                //         //     selectors: ['#description #collapse'],
-                //         // },
-                //     ],
-                //     storageKey: 'autoOpenDescription',
-                // },
-                {
-                    title: 'Hide episodes description',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-episodes-description'),
-                            selectors: [
-                                '#description ytd-horizontal-card-list-renderer:has(#dismissible)',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideEpisodesDescription',
-                },
-                {
-                    title: 'Hide transcript section',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-transcript-section'),
-                            selectors: [
-                                '#description ytd-video-description-transcript-section-renderer',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideTranscriptSection',
-                },
-                {
-                    title: 'Hide people mentioned',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-people-mentioned'),
-                            selectors: [
-                                '#description yt-video-attributes-section-view-model',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hidePeopleMentioned',
-                },
-                {
-                    title: 'Hide related video',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-related-video-description'),
-                            selectors: ['#description #infocards-section'],
-                        },
-                    ],
-                    storageKey: 'hideDescriptionRelatedVideo',
-                },
-            ],
-        },
-        {
-            title: 'Common',
-            groups: [
-                {
-                    title: 'Hide Live Chat',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-live-chat'),
-                            selectors: ['#chat-container'],
-                        },
-                    ],
-                    storageKey: 'hideLiveChat',
-                },
-                {
-                    title: 'Hide "Subscribe" button',
-
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-subscribe-button'),
-                            selectors: ['#subscribe-button'],
-                        },
-                    ],
-                    storageKey: 'subscribeButton',
-                },
-                {
-                    title: 'Hide "Sponsor" button',
-
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-sponsor-button'),
-                            selectors: ['#sponsor-button'],
-                        },
-                    ],
-                    storageKey: 'hideSponsorButton',
                 },
             ],
         },

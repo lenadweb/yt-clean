@@ -12,8 +12,6 @@ module.exports = (env) => ({
         worker: `${__dirname}/src/worker/index.ts`,
         sidebar: `${__dirname}/src/sidebar/index.tsx`,
         content: `${__dirname}/src/content/index.ts`,
-        tracker: `${__dirname}/src/content/timeTracker.ts`,
-        blocked: `${__dirname}/src/blocked/index.tsx`,
     },
     output: {
         publicPath: '',
@@ -97,10 +95,6 @@ module.exports = (env) => ({
                 },
                 {
                     from: './src/sidebar/sidebar.html',
-                    force: true,
-                },
-                {
-                    from: './src/blocked/blocked.html',
                     force: true,
                 },
                 {

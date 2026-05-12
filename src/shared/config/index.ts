@@ -4,7 +4,6 @@ import { templateConfig } from 'src/shared/config/template';
 import { feedConfig } from 'src/shared/config/feed';
 import { sidebarConfig } from 'src/shared/config/sidebar';
 import { videoConfig } from 'src/shared/config/video';
-import { limitConfig } from 'src/shared/config/limit';
 
 export const CONFIG: IConfig = {
     domActions: [
@@ -12,7 +11,6 @@ export const CONFIG: IConfig = {
         feedConfig,
         videoConfig,
         sidebarConfig,
-        limitConfig,
     ],
     storageActions: [],
 };

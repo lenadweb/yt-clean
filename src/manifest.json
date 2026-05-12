@@ -16,15 +16,6 @@
         "*://*.youtube.com/*"
       ],
       "run_at": "document_start"
-    },
-    {
-      "js": [
-        "tracker.js"
-      ],
-      "matches": [
-        "*://*.youtube.com/*"
-      ],
-      "run_at": "document_end"
     }
   ],
   "web_accessible_resources": [

@@ -30,7 +30,7 @@ const PlaybackSpeed: FC = () => {
     return (
         <div
             ref={refContainer}
-            className="relative -top-3.5 flex size-7 items-center justify-center md:-top-5 md:size-12"
+            className="relative top-1.5 flex size-12 items-center justify-center"
         >
             <div onClick={toggleSlider} className="font-semibold">
                 {parseFloat(Number(speedControl.value).toFixed(2))}x
