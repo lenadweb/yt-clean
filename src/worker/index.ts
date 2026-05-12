@@ -4,6 +4,7 @@ import Tab = chrome.tabs.Tab;
 import { Storage } from 'src/shared/storage';
 import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import { getStartOfToday } from 'src/shared/utils/date';
+import { Message } from 'src/shared/types/messages';
 
 export class Background {
     isOpera = isOpera();
@@ -22,6 +23,21 @@ export class Background {
                 .catch((error) => console.error(error));
             chrome.tabs.onUpdated.addListener(this.onUpdated.bind(this));
         }
+        chrome.runtime.onMessage.addListener(
+            (message: Message, sender, sendResponse) => {
+                const handler = this?.[message.type as keyof typeof this];
+                if (typeof handler === 'function') {
+                    (async () => {
+                        const response = await handler.call(
+                            this,
+                            message.payload
+                        );
+                        sendResponse(response);
+                    })();
+                }
+                return true;
+            }
+        );
     }
 
     getBlockedPage() {
@@ -34,12 +50,15 @@ export class Background {
         if (tabId === -1) return;
         const isYoutube = new URL(tab.url).host.includes('youtube.com');
         if (!isYoutube) return;
-        const limitIsEnabled =
-            this.storage.get('dailyTimeLimit')?.enabled || false;
-        console.log({ limitIsEnabled, c: this.checkIsTimeSpent() });
-        if (this.checkIsTimeSpent() && limitIsEnabled) {
+        if (this.checkLimit()) {
             await this.forceUpdateTab(tab.id, this.getBlockedPage());
         }
+    }
+
+    checkLimit() {
+        const limitIsEnabled =
+            this.storage.get('dailyTimeLimit')?.enabled || false;
+        return this.checkIsTimeSpent() && limitIsEnabled;
     }
 
     async forceUpdateTab(tabId: number, url: string) {
@@ -48,7 +67,6 @@ export class Background {
 
     getTimeSpent(): number {
         const current = this.storage.get('spentTimeToday');
-        console.log({ current });
         const todayStart = getStartOfToday();
 
         if (!current.tmstp || current.tmstp < todayStart) {
