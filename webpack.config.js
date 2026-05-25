@@ -5,6 +5,7 @@ const { EnvironmentPlugin } = require('webpack');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const ZipPlugin = require('zip-webpack-plugin');
 const CSSBuilderPlugin = require('./cssBuilder');
+const { version } = require('./package.json');
 
 module.exports = (env) => ({
     mode: 'development',
@@ -108,7 +109,9 @@ module.exports = (env) => ({
         new ZipPlugin({
             path: path.resolve(__dirname, 'release'),
             filename:
-                env?.platform === 'opera' ? 'build-opera.zip' : 'build.zip',
+                env?.platform === 'opera'
+                    ? `build-opera-${version}.zip`
+                    : `build-${version}.zip`,
         }),
     ],
     optimization: {

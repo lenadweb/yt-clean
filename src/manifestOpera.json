@@ -1,6 +1,6 @@
 {
   "name": "YouTube Clean: Boost, Customize & Hide Shorts",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Boost and customize YouTube, hide Shorts, and clean up distracting interface elements.",
   "manifest_version": 3,
   "background": {
@@ -32,5 +32,7 @@
     "48": "icons/48.png",
     "128": "icons/128.png"
   },
-  "permissions": ["storage"]
+  "permissions": [
+    "storage"
+  ]
 }

@@ -1,11 +1,12 @@
 {
   "name": "youtube-boost",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Youtube Cleaner",
   "scripts": {
     "dev": "webpack --env development --watch",
-    "build:chrome": "webpack --env platform=chrome",
-    "build:opera": "webpack --env platform=opera",
+    "bump": "node bumpVersion.js",
+    "build:chrome": "node bumpVersion.js && webpack --env platform=chrome",
+    "build:opera": "node bumpVersion.js && webpack --env platform=opera",
     "lint": "eslint --ext js,ts,tsx .",
     "test": "jest"
   },

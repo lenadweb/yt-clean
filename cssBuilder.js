@@ -1,5 +1,4 @@
-const fs = require('fs');
-const path = require('path');
+const { sources } = require('webpack');
 require('ts-node').register();
 require('tsconfig-paths/register');
 
@@ -7,27 +6,22 @@ const { styles } = require('src/shared/stylesBuilder');
 
 class CSSBuilderPlugin {
     apply(compiler) {
-        compiler.hooks.emit.tapAsync(
+        compiler.hooks.thisCompilation.tap(
             'CSSBuilderPlugin',
-            (compilation, callback) => {
-                const outputPath = path.join(
-                    compiler.options.output.path,
-                    'content.css'
+            (compilation) => {
+                compilation.hooks.processAssets.tap(
+                    {
+                        name: 'CSSBuilderPlugin',
+                        stage: compilation.constructor
+                            .PROCESS_ASSETS_STAGE_ADDITIONAL,
+                    },
+                    () => {
+                        compilation.emitAsset(
+                            'content.css',
+                            new sources.RawSource(styles)
+                        );
+                    }
                 );
-
-                const dir = path.dirname(outputPath);
-                if (!fs.existsSync(dir)) {
-                    fs.mkdirSync(dir, { recursive: true });
-                }
-
-                compilation.assets['content.css'] = {
-                    source: () => styles,
-                    size: () => styles.length,
-                };
-
-                fs.writeFileSync(outputPath, styles, 'utf8');
-
-                callback();
             }
         );
     }
