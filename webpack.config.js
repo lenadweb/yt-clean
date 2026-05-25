@@ -8,7 +8,7 @@ const CSSBuilderPlugin = require('./cssBuilder');
 const { version } = require('./package.json');
 
 module.exports = (env) => ({
-    mode: 'development',
+    mode: env?.development ? 'development' : 'production',
     entry: {
         worker: `${__dirname}/src/worker/index.ts`,
         sidebar: `${__dirname}/src/sidebar/index.tsx`,
@@ -20,7 +20,7 @@ module.exports = (env) => ({
         filename: '[name].js',
         clean: true,
     },
-    devtool: 'cheap-module-source-map',
+    devtool: env?.development ? 'cheap-module-source-map' : false,
     module: {
         rules: [
             {
