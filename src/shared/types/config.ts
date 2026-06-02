@@ -83,6 +83,7 @@ export type SettingsGroup<T> =
 
 export interface IDomActions<T> {
     title: string;
+    isNew?: boolean;
     groups: Array<SettingsGroup<T>>;
     withoutCheckboxes?: boolean;
     withoutSwitch?: boolean;

@@ -64,6 +64,7 @@ export const SettingsAccordion: FC<Props> = ({
                                 isFirst={i === 0}
                                 enabled={enabled}
                                 key={i}
+                                isNew={!!setting.isNew}
                                 settings={storageSettings}
                                 withoutCheckboxes={!!setting.withoutCheckboxes}
                                 withoutSwitch={!!setting.withoutSwitch}

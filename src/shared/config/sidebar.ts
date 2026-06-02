@@ -10,10 +10,10 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
     settings: [
         {
             title: 'Hide sidebar completely',
+            isNew: true,
             groups: [
                 {
                     title: 'Hide sidebar completely',
-                    isNew: true,
                     actions: [
                         {
                             action: ElementActions.hide,

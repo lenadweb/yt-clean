@@ -11,11 +11,13 @@ import Switch from 'src/sidebar/components/Switch';
 import { Dropdown } from 'src/sidebar/components/Dropdown';
 import { IAllSetting, IDropdownSettings } from 'src/shared/types/settings';
 import { Subtitle } from 'src/sidebar/components/Subtitle';
+import { NewBadge } from 'src/sidebar/components/NewBadge';
 
 interface ISettingsGroup {
     title: string;
     isFirst: boolean;
     enabled: boolean;
+    isNew?: boolean;
     groups: Array<ISettingsGroupConfig<IAttrAction[]>>;
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
@@ -27,6 +29,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     groups,
     isFirst,
     enabled,
+    isNew,
     withoutCheckboxes,
     withoutSwitch,
     settings,
@@ -53,7 +56,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
             <div className="mb-4 flex items-center justify-between">
                 <div
                     className={cn(
-                        'mr-auto text-sm leading-[1.2] transition-colors',
+                        'mr-auto flex items-center gap-2 text-sm leading-[1.2] transition-colors',
                         {
                             'text-white-100': enabled,
                             'text-[#51515C]': !enabled,
@@ -61,6 +64,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                     )}
                 >
                     {title}
+                    {isNew && <NewBadge />}
                 </div>
                 {!withoutSwitch ? (
                     <Switch

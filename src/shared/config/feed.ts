@@ -74,7 +74,11 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                         {
                             action: ElementActions.hide,
                             attr: getAttr('youtube-banners'),
-                            selectors: ['ytd-banner-promo-renderer'],
+                            selectors: [
+                                'ytd-banner-promo-renderer',
+                                'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
+                                'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
+                            ],
                         },
                     ],
                     storageKey: 'adsYoutubeBanner',
