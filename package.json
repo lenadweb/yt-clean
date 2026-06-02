@@ -1,6 +1,6 @@
 {
   "name": "youtube-boost",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Youtube Cleaner",
   "scripts": {
     "dev": "webpack --env development --watch",
