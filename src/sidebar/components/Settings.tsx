@@ -55,10 +55,10 @@ const Settings: FC = () => {
 
     return (
         <div className="min-h-screen w-full space-y-2.5 rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
-            <div className="mb-[26px] flex items-center justify-between">
+            <div className="mb-[26px] ml-2 flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <Logo className="size-8" />
-                    <h1 className="flex items-center gap-2 text-md font-medium">
+                    <h1 className="flex items-center gap-2 text-[20px] font-medium">
                         YouTube Clean
                     </h1>
                 </div>
@@ -79,7 +79,7 @@ const Settings: FC = () => {
                                 width="36"
                                 height="36"
                                 rx="18"
-                                fill="#1D1D21"
+                                fill="#1F1F23"
                             />
                             <path
                                 fillRule="evenodd"
@@ -100,7 +100,7 @@ const Settings: FC = () => {
                                 width="36"
                                 height="36"
                                 rx="18"
-                                fill="#1D1D21"
+                                fill="#1F1F23"
                             />
                             <path
                                 fillRule="evenodd"

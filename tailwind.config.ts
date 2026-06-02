@@ -59,7 +59,7 @@ export default {
             },
             colors: {
                 background: '#18181B',
-                'black-700': '#1D1D21',
+                'black-700': '#1F1F23',
                 'black-600': '#2B2B31',
                 'black-500': '#51515C',
                 'black-400': '#727283',

@@ -33,7 +33,7 @@ export const SettingsAccordion: FC<Props> = ({
             <>
                 <div
                     className={cn(
-                        'rounded-4xl bg-black-700 transition-colors',
+                        'rounded-3xl bg-black-700 transition-colors',
                         {
                             'text-white-100': enabled,
                             'text-[#51515C]': !enabled,
