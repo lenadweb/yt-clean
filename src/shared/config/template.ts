@@ -44,7 +44,6 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                             attr: getAttr('hide-search-tags'),
                             selectors: [
                                 '.ytd-feed-filter-chip-bar-renderer',
-                                '#frosted-glass',
                                 '#header.ytd-rich-grid-renderer',
                                 'yt-related-chip-cloud-renderer',
                             ],
@@ -57,7 +56,11 @@ export const templateConfig: ISettingsBlock<IAttrAction[]> = {
                                 `#chip-bar {
                                 opacity: 0;
                                 pointer-events: none;
-                            }`,
+                            }
+                            #frosted-glass.with-chipbar.ytd-app {
+                                height:64px!important;
+                            }
+                            `,
                             ],
                         },
                     ],

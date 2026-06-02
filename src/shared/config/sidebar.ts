@@ -9,6 +9,38 @@ export const sidebarConfig: ISettingsBlock<IAttrAction[]> = {
     title: 'Sidebar',
     settings: [
         {
+            title: 'Hide sidebar completely',
+            groups: [
+                {
+                    title: 'Hide sidebar completely',
+                    isNew: true,
+                    actions: [
+                        {
+                            action: ElementActions.hide,
+                            attr: getAttr('hide-sidebar'),
+                            selectors: [
+                                'tp-yt-app-drawer#guide',
+                                'ytd-mini-guide-renderer',
+                                '#guide-button',
+                            ],
+                        },
+                        {
+                            action: ElementActions.customStyles,
+                            attr: getAttr('hide-sidebar'),
+                            selectors: [],
+                            customStyles: [
+                                `#page-manager {
+                                margin-left: 12px !important;
+                            }`,
+                            ],
+                        },
+                    ],
+                    storageKey: 'hideSidebar',
+                },
+            ],
+            withoutCheckboxes: true,
+        },
+        {
             title: 'Main menu',
             groups: [
                 {

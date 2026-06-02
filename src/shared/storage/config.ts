@@ -26,6 +26,7 @@ export const DEFAULT_STORAGE: IStorage = {
     hideYourMovies: { enabled: false },
     hideNewsSection: { enabled: false },
     hidePlayerAutoplay: { enabled: false },
+    hideSidebar: { enabled: false },
     hideMenuShorts: { enabled: false },
     hideMenuPlaylists: { enabled: false },
     hideMenuYourVideo: { enabled: false },

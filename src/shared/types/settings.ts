@@ -32,6 +32,7 @@ export interface ISettings {
     hidePlayerSubtitlesButton: IBaseSetting;
     hidePlayerWideSizePlayerButton: IBaseSetting;
     hidePlayerMiniSizePlayerButton: IBaseSetting;
+    hideSidebar: IBaseSetting;
     hideMenuShorts: IBaseSetting;
     hideMenuHistory: IBaseSetting;
     hideMenuPlaylists: IBaseSetting;
