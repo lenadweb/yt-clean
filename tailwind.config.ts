@@ -51,6 +51,7 @@ export default {
                 md: '6px',
                 lg: '10px',
                 '3xl': '20px',
+                '4xl': '24px',
                 full: '999999px',
             },
             boxShadow: {
@@ -75,8 +76,8 @@ export default {
                 ss: '9px',
                 xxs: '10.5px',
                 xs: '14px',
-                sm: '16px',
-                base: '20px',
+                sm: '14px',
+                base: '16px',
                 md: '24px',
                 lg: '28px',
                 xl: '32px',
