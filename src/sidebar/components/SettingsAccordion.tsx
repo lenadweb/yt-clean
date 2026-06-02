@@ -33,7 +33,7 @@ export const SettingsAccordion: FC<Props> = ({
             <>
                 <div
                     className={cn(
-                        'rounded-3xl bg-black-700 transition-colors',
+                        'rounded-4xl bg-black-700 transition-colors',
                         {
                             'text-white-100': enabled,
                             'text-[#51515C]': !enabled,
@@ -41,14 +41,15 @@ export const SettingsAccordion: FC<Props> = ({
                     )}
                 >
                     <div className="flex items-center justify-between">
-                        <DisclosureButton className="flex w-full items-center justify-between gap-2 px-6 py-5">
+                        <DisclosureButton className="flex w-full items-center justify-between gap-2 p-5">
                             <div className="text-base leading-[1.2]">
                                 {title}
                             </div>
                             <ChevronDownIcon
                                 className={cn(
                                     'w-5 transition',
-                                    !open && '-rotate-90'
+                                    !open && '-rotate-90 opacity-65',
+                                    open && '-rotate-180'
                                 )}
                             />
                         </DisclosureButton>
@@ -56,7 +57,7 @@ export const SettingsAccordion: FC<Props> = ({
 
                     <DisclosurePanel
                         transition
-                        className="origin-top space-y-2 px-6 pb-5 transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
+                        className="origin-top space-y-2 px-6 pb-5 pt-1 transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
                     >
                         {settings.map((setting, i) => (
                             <SettingsGroup

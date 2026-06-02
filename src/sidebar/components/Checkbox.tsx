@@ -32,7 +32,7 @@ export const Checkbox: FC<Props> = ({
                 checked={checked}
                 onChange={onChange}
                 className={cn(
-                    'group flex size-6 shrink-0 items-center justify-center rounded-full border border-red-accent transition-colors  data-[checked]:bg-red-600',
+                    'group flex size-5 shrink-0 items-center justify-center rounded-[7px] border border-red-accent transition-colors  data-[checked]:bg-red-600',
                     {
                         ['!border-black-600']: isGrey || disabled,
                         ['!bg-black-600']: checked && (isGrey || disabled),
@@ -61,7 +61,7 @@ export const Checkbox: FC<Props> = ({
                 </svg>
             </HeadlessCheckbox>
             <Label
-                className={cn('w-full text-sm text-white', {
+                className={cn('w-full text-sm text-white font-light', {
                     ['text-black-400']: disabled || isGrey,
                 })}
             >

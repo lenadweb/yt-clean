@@ -49,7 +49,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     };
     return (
         <div className="last:!mb-2">
-            <Divider className={`${isFirst ? 'mt-0' : ''}`} />
+            {!isFirst && <Divider />}
             <div className="mb-4 flex items-center justify-between">
                 <div
                     className={cn(

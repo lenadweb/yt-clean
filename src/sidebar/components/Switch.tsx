@@ -30,7 +30,7 @@ const Switch: FC<ISwitch> = ({
             checked={enabled}
             onChange={onChange}
             className={cn(
-                'relative inline-flex h-6 w-11 items-center rounded-full transition',
+                'relative inline-flex h-4 w-[30px] items-center rounded-full transition',
                 {
                     ['bg-red-accent']: enabled,
                     ['bg-black-600']: !enabled,
@@ -39,10 +39,10 @@ const Switch: FC<ISwitch> = ({
         >
             <span
                 className={cn(
-                    'inline-block size-4 rounded-full bg-white-100 transition',
+                    'inline-block size-3 rounded-full bg-white-100 transition',
                     {
-                        ['translate-x-6']: enabled,
-                        ['translate-x-1']: !enabled,
+                        ['translate-x-4']: enabled,
+                        ['translate-x-0.5']: !enabled,
                     }
                 )}
             />
