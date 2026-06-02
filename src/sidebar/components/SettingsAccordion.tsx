@@ -31,7 +31,15 @@ export const SettingsAccordion: FC<Props> = ({
     <Disclosure defaultOpen={defaultOpen}>
         {({ open }) => (
             <>
-                <div className="rounded-3xl bg-black-700 text-white-100">
+                <div
+                    className={cn(
+                        'rounded-3xl bg-black-700 transition-colors',
+                        {
+                            'text-white-100': enabled,
+                            'text-[#51515C]': !enabled,
+                        }
+                    )}
+                >
                     <div className="flex items-center justify-between">
                         <DisclosureButton className="flex w-full items-center justify-between gap-2 px-6 py-5">
                             <div className="text-base leading-[1.2]">

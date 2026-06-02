@@ -1,4 +1,5 @@
 import React, { FC, Fragment } from 'react';
+import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
 import {
     IAttrAction,
@@ -50,7 +51,15 @@ const SettingsGroup: FC<ISettingsGroup> = ({
         <div className="last:!mb-2">
             <Divider className={`${isFirst ? 'mt-0' : ''}`} />
             <div className="mb-4 flex items-center justify-between">
-                <div className="mr-auto text-sm leading-[1.2] text-white-100">
+                <div
+                    className={cn(
+                        'mr-auto text-sm leading-[1.2] transition-colors',
+                        {
+                            'text-white-100': enabled,
+                            'text-[#51515C]': !enabled,
+                        }
+                    )}
+                >
                     {title}
                 </div>
                 {!withoutSwitch ? (
@@ -100,6 +109,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                                             group.storageKey
                                         ] as IDropdownSettings
                                     )}
+                                    disabled={!enabled || !groupEnabled}
                                 />
                             ) : (
                                 <Checkbox

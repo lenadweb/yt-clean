@@ -17,6 +17,13 @@ export const Subtitle: FC<Props> = ({ label, value, disabled }) => (
         >
             {label}
         </span>
-        <span>{value}</span>
+        <span
+            className={cn({
+                'text-black-400': disabled,
+                'text-white': !disabled,
+            })}
+        >
+            {value}
+        </span>
     </div>
 );
