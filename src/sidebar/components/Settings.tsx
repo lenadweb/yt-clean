@@ -53,7 +53,7 @@ const Settings: FC = () => {
     );
 
     return (
-        <div className="min-h-screen w-full space-y-4 rounded-2xl bg-[#1c1c1e] p-5 text-white shadow-xl">
+        <div className="min-h-screen w-full space-y-4 rounded-2xl bg-[#18181B] p-5 text-white shadow-xl">
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <Logo className="size-8" />
