@@ -43,6 +43,7 @@ const Settings: FC = () => {
                 <SettingsAccordion
                     enabled={isEnabled}
                     key={index}
+                    defaultOpen={index === 0}
                     title={value.title}
                     settings={value.settings}
                     storageSettings={settings}
