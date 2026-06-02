@@ -40,6 +40,7 @@ export interface IStorageAction {
 
 export interface ICheckboxSetting<T> {
     title?: string;
+    isNew?: boolean;
     actions: T;
     storageKey: keyof ISettings;
     onChange?: (value: any) => void;
@@ -49,12 +50,14 @@ export interface ICheckboxSetting<T> {
 export interface ISubtitleSetting<T> {
     title: 'subtitle';
     type: 'subtitle';
+    isNew?: boolean;
     subtitle: (v: any) => string;
     storageKey: keyof ISettings;
 }
 
 export interface IDropdownSetting<T> {
     title?: string;
+    isNew?: boolean;
     storageKey: keyof ISettings;
     type: 'dropdown';
     actions: T;

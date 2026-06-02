@@ -1,12 +1,14 @@
 import React, { FC, useCallback } from 'react';
 import { Checkbox as HeadlessCheckbox, Field, Label } from '@headlessui/react';
 import cn from 'classnames';
+import { NewBadge } from 'src/sidebar/components/NewBadge';
 
 type Props = {
     label: string;
     checked: boolean;
     disabled: boolean;
     isGrey?: boolean;
+    isNew?: boolean;
     onChange: (value: boolean) => void;
 };
 
@@ -14,6 +16,7 @@ export const Checkbox: FC<Props> = ({
     label,
     checked,
     isGrey,
+    isNew,
     onChange: onChangeProp,
     disabled,
 }) => {
@@ -61,11 +64,15 @@ export const Checkbox: FC<Props> = ({
                 </svg>
             </HeadlessCheckbox>
             <Label
-                className={cn('w-full text-sm text-white font-light', {
-                    ['text-black-400']: disabled || isGrey,
-                })}
+                className={cn(
+                    'flex w-full items-center gap-2 text-sm text-white font-light',
+                    {
+                        ['text-black-400']: disabled || isGrey,
+                    }
+                )}
             >
                 {label}
+                {isNew && <NewBadge />}
             </Label>
         </Field>
     );

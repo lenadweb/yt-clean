@@ -18,10 +18,8 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                             action: ElementActions.hide,
                             attr: getAttr('hide-shorts'),
                             selectors: [
-                                'ytd-rich-section-renderer:has([is-shorts])',
-                                'ytd-reel-shelf-renderer:has(#left-arrow)',
-                                'ytd-reel-shelf-renderer.ytd-watch-next-secondary-results-renderer',
-                                'ytd-reel-shelf-renderer',
+                                '#player-container-wrapper',
+                                '.ytd-video-preview',
                             ],
                         },
                     ],
@@ -39,6 +37,18 @@ export const feedConfig: ISettingsBlock<IAttrAction[]> = {
                         },
                     ],
                     storageKey: 'hideNewsSection',
+                },
+                {
+                    title: 'Disable auto-preview on hover',
+                    isNew: true,
+                    actions: [
+                        {
+                            action: ElementActions.custom,
+                            attr: getAttr('hide-hover-preview'),
+                            selectors: [],
+                        },
+                    ],
+                    storageKey: 'hideHoverPreview',
                 },
                 {
                     title: 'Hide Mixes & Playlists',

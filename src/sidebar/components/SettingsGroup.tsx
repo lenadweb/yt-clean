@@ -83,6 +83,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                             {'type' in group && group.type === 'dropdown' ? (
                                 <Dropdown
                                     label={group.title || ''}
+                                    isNew={group.isNew}
                                     value={
                                         (
                                             settings[
@@ -114,6 +115,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                             ) : (
                                 <Checkbox
                                     isGrey={!groupEnabled}
+                                    isNew={group.isNew}
                                     label={group.title || ''}
                                     checked={
                                         settings[group.storageKey]?.enabled ??

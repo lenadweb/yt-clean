@@ -7,6 +7,7 @@ export interface IStorage extends ISettings {
 export const DEFAULT_STORAGE: IStorage = {
     isEnabled: true,
     hideShorts: { enabled: false },
+    hideHoverPreview: { enabled: false },
     hideChannelBanner: { enabled: false },
     adsFeedVideo: { enabled: false },
     speedControl: { enabled: false, value: '1.00' },

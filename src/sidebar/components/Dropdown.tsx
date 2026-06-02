@@ -8,6 +8,7 @@ import {
 import cn from 'classnames';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import { CheckIcon } from '@heroicons/react/16/solid';
+import { NewBadge } from 'src/sidebar/components/NewBadge';
 
 type Option = {
     label: string;
@@ -18,6 +19,7 @@ type Props = {
     label: string;
     value?: string;
     disabled: boolean;
+    isNew?: boolean;
     options: Option[];
     onChange?: (value: string) => void;
 };
@@ -28,6 +30,7 @@ export const Dropdown: FC<Props> = ({
     options,
     onChange,
     disabled,
+    isNew,
 }) => {
     const selectedOption =
         options.find((o) => o.value === value)?.label || 'Choose the option';
@@ -36,12 +39,13 @@ export const Dropdown: FC<Props> = ({
         <div className="flex flex-col gap-1">
             {label && (
                 <span
-                    className={cn('text-sm', {
+                    className={cn('flex items-center gap-2 text-sm', {
                         'text-black-400': disabled,
                         'text-white': !disabled,
                     })}
                 >
                     {label}
+                    {isNew && <NewBadge />}
                 </span>
             )}
             <Listbox

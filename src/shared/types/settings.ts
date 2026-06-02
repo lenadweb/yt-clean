@@ -14,6 +14,7 @@ export interface IAllSetting extends IDropdownSettings, IRelatedSettings {}
 
 export interface ISettings {
     hideShorts: IBaseSetting;
+    hideHoverPreview: IBaseSetting;
     hideSearchTags: IBaseSetting;
     speedControl: IDropdownSettings;
     adsYoutubeBanner: IBaseSetting;
