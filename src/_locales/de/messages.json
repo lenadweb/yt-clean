@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Anpassen & Shorts ausblenden"
+  },
+  "appDescription": {
+    "message": "Optimiere YouTube, blende Shorts aus und entferne ablenkende Interface-Elemente."
+  },
+  "actionTitle": {
+    "message": "YouTube Clean Einstellungen"
+  },
+  "toggle_extension": {
+    "message": "Erweiterung aktivieren/deaktivieren"
+  },
+  "new": {
+    "message": "neu"
+  },
+  "basic_template": {
+    "message": "Standard-Layout"
+  },
+  "search_bar": {
+    "message": "Suchleiste"
+  },
+  "hide_voice_search_button": {
+    "message": "Sprachsuche-Schaltfläche ausblenden"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Bildschirmtastatur-Schaltfläche ausblenden"
+  },
+  "hide_search_tags": {
+    "message": "Such-Filterchips ausblenden"
+  },
+  "actions_and_user": {
+    "message": "Aktionen & Benutzer"
+  },
+  "hide_upload_button": {
+    "message": "Erstellen-Schaltfläche ausblenden"
+  },
+  "hide_notifications": {
+    "message": "Benachrichtigungen ausblenden"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed & Empfehlungen"
+  },
+  "content_blocks": {
+    "message": "Inhaltsblöcke"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts-Bereiche ausblenden"
+  },
+  "hide_explore_and_news": {
+    "message": "Entdecken & News ausblenden"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Vorschau beim Drüberfahren deaktivieren"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Mixe & Playlists ausblenden"
+  },
+  "ads": {
+    "message": "Werbung"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube-Banner ausblenden"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Gesponserte Videos ausblenden"
+  },
+  "video_playback_and_channel": {
+    "message": "Wiedergabe & Kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Wiedergabegeschwindigkeit-Regler"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Miniplayer-Schaltfläche ausblenden"
+  },
+  "hide_wide_size_button": {
+    "message": "Kinomodus-Schaltfläche ausblenden"
+  },
+  "hide_subtitles_button": {
+    "message": "Untertitel-Schaltfläche ausblenden"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Autoplay-Schalter ausblenden"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Geschwindigkeitsregler"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatisch zum nächsten Video wechseln"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Kanal-Trailer ausblenden"
+  },
+  "hide_channel_banner": {
+    "message": "Kanal-Banner ausblenden"
+  },
+  "sidebar": {
+    "message": "Seitenleiste"
+  },
+  "hide_sidebar_completely": {
+    "message": "Seitenleiste vollständig ausblenden"
+  },
+  "main_menu": {
+    "message": "Hauptmenü"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" ausblenden"
+  },
+  "you": {
+    "message": "Mediathek"
+  },
+  "hide_history": {
+    "message": "\"Verlauf\" ausblenden"
+  },
+  "hide_playlists": {
+    "message": "\"Playlists\" ausblenden"
+  },
+  "hide_your_video": {
+    "message": "\"Meine Videos\" ausblenden"
+  },
+  "hide_watch_later": {
+    "message": "\"Später ansehen\" ausblenden"
+  },
+  "hide_liked_videos": {
+    "message": "\"Videos, die ich mag\" ausblenden"
+  },
+  "your_movies": {
+    "message": "\"Meine Filme\" ausblenden"
+  },
+  "hide_subscriptions_list": {
+    "message": "Aboliste ausblenden"
+  },
+  "explore": {
+    "message": "Entdecken"
+  },
+  "hide_trending": {
+    "message": "\"Trends\" ausblenden"
+  },
+  "hide_music": {
+    "message": "\"Musik\" ausblenden"
+  },
+  "hide_gaming": {
+    "message": "\"Gaming\" ausblenden"
+  },
+  "hide_news": {
+    "message": "\"Nachrichten\" ausblenden"
+  },
+  "hide_sports": {
+    "message": "\"Sport\" ausblenden"
+  },
+  "more_from_youtube": {
+    "message": "Mehr von YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" ausblenden"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" ausblenden"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" ausblenden"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" ausblenden"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

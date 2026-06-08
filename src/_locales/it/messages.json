@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Personalizza e nascondi Shorts"
+  },
+  "appDescription": {
+    "message": "Migliora YouTube, nascondi gli Shorts ed elimina gli elementi dell'interfaccia che ti distraggono."
+  },
+  "actionTitle": {
+    "message": "Impostazioni di YouTube Clean"
+  },
+  "toggle_extension": {
+    "message": "Attiva/disattiva estensione"
+  },
+  "new": {
+    "message": "nuovo"
+  },
+  "basic_template": {
+    "message": "Layout di base"
+  },
+  "search_bar": {
+    "message": "Barra di ricerca"
+  },
+  "hide_voice_search_button": {
+    "message": "Nascondi pulsante ricerca vocale"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Nascondi tastiera virtuale"
+  },
+  "hide_search_tags": {
+    "message": "Nascondi tag di ricerca"
+  },
+  "actions_and_user": {
+    "message": "Azioni e utente"
+  },
+  "hide_upload_button": {
+    "message": "Nascondi pulsante crea video"
+  },
+  "hide_notifications": {
+    "message": "Nascondi notifiche"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed e raccomandazioni"
+  },
+  "content_blocks": {
+    "message": "Blocchi di contenuto"
+  },
+  "hide_shorts_sections": {
+    "message": "Nascondi sezioni Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Nascondi Esplora e Notizie"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Disattiva anteprima al passaggio del mouse"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Nascondi Mix e Playlist"
+  },
+  "ads": {
+    "message": "Annunci"
+  },
+  "hide_youtube_banners": {
+    "message": "Nascondi banner di YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Nascondi video sponsorizzati nel feed"
+  },
+  "video_playback_and_channel": {
+    "message": "Riproduzione e canali"
+  },
+  "slider_playback_speed_control": {
+    "message": "Regolatore velocità di riproduzione"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Nascondi pulsante miniplayer"
+  },
+  "hide_wide_size_button": {
+    "message": "Nascondi pulsante modalità cinema"
+  },
+  "hide_subtitles_button": {
+    "message": "Nascondi pulsante sottotitoli"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Nascondi switch riproduzione automatica"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Controllo velocità"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Passa automaticamente al successivo"
+  },
+  "channel": {
+    "message": "Canale"
+  },
+  "hide_channel_trailer": {
+    "message": "Nascondi trailer del canale"
+  },
+  "hide_channel_banner": {
+    "message": "Nascondi banner del canale"
+  },
+  "sidebar": {
+    "message": "Barra laterale"
+  },
+  "hide_sidebar_completely": {
+    "message": "Nascondi barra laterale completamente"
+  },
+  "main_menu": {
+    "message": "Menu principale"
+  },
+  "hide_shorts": {
+    "message": "Nascondi \"Shorts\""
+  },
+  "you": {
+    "message": "Tu"
+  },
+  "hide_history": {
+    "message": "Nascondi \"Cronologia\""
+  },
+  "hide_playlists": {
+    "message": "Nascondi \"Playlist\""
+  },
+  "hide_your_video": {
+    "message": "Nascondi \"I tuoi video\""
+  },
+  "hide_watch_later": {
+    "message": "Nascondi \"Guarda più tardi\""
+  },
+  "hide_liked_videos": {
+    "message": "Nascondi \"Video piaciuti\""
+  },
+  "your_movies": {
+    "message": "I tuoi \"Film\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Nascondi elenco iscrizioni"
+  },
+  "explore": {
+    "message": "Esplora"
+  },
+  "hide_trending": {
+    "message": "Nascondi \"Tendenze\""
+  },
+  "hide_music": {
+    "message": "Nascondi \"Musica\""
+  },
+  "hide_gaming": {
+    "message": "Nascondi \"Giochi\""
+  },
+  "hide_news": {
+    "message": "Nascondi \"Notizie\""
+  },
+  "hide_sports": {
+    "message": "Nascondi \"Sport\""
+  },
+  "more_from_youtube": {
+    "message": "Altro da YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Nascondi \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Nascondi \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Nascondi \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Nascondi \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

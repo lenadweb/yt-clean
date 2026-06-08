@@ -12,6 +12,7 @@ import { Dropdown } from 'src/sidebar/components/Dropdown';
 import { IAllSetting, IDropdownSettings } from 'src/shared/types/settings';
 import { Subtitle } from 'src/sidebar/components/Subtitle';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
+import { t } from 'src/shared/utils/i18n';
 
 interface ISettingsGroup {
     title: string;
@@ -63,7 +64,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                         }
                     )}
                 >
-                    {title}
+                    {t(title)}
                     {isNew && <NewBadge />}
                 </div>
                 {!withoutSwitch ? (
@@ -86,7 +87,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                         >
                             {'type' in group && group.type === 'dropdown' ? (
                                 <Dropdown
-                                    label={group.title || ''}
+                                    label={t(group.title || '')}
                                     isNew={group.isNew}
                                     value={
                                         (
@@ -108,7 +109,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                               group.type === 'subtitle' &&
                               group.subtitle ? (
                                 <Subtitle
-                                    label={group.title || ''}
+                                    label={t(group.title || '')}
                                     value={group.subtitle(
                                         settings[
                                             group.storageKey
@@ -120,7 +121,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                                 <Checkbox
                                     isGrey={!groupEnabled}
                                     isNew={group.isNew}
-                                    label={group.title || ''}
+                                    label={t(group.title || '')}
                                     checked={
                                         settings[group.storageKey]?.enabled ??
                                         false

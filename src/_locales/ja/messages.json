@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: ショート非表示＆UIカスタマイズ"
+  },
+  "appDescription": {
+    "message": "YouTubeを快適に：ショート動画、バナー、不要な推奨項目やサイドバーを非表示・非アクティブ化。"
+  },
+  "actionTitle": {
+    "message": "YouTube Clean 設定"
+  },
+  "toggle_extension": {
+    "message": "拡張機能のオン/オフ"
+  },
+  "new": {
+    "message": "新規"
+  },
+  "basic_template": {
+    "message": "基本レイアウト"
+  },
+  "search_bar": {
+    "message": "検索バー"
+  },
+  "hide_voice_search_button": {
+    "message": "音声検索ボタンを非表示"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "仮想キーボードボタンを非表示"
+  },
+  "hide_search_tags": {
+    "message": "検索用関連チップを非表示"
+  },
+  "actions_and_user": {
+    "message": "アクション＆ユーザー"
+  },
+  "hide_upload_button": {
+    "message": "作成ボタンを非表示"
+  },
+  "hide_notifications": {
+    "message": "通知を非表示"
+  },
+  "feed_and_recommendations": {
+    "message": "フィード＆おすすめ"
+  },
+  "content_blocks": {
+    "message": "コンテンツブロック"
+  },
+  "hide_shorts_sections": {
+    "message": "ショート動画セクションを非表示"
+  },
+  "hide_explore_and_news": {
+    "message": "「探索」と「ニュース」を非表示"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "ホバー時の自動プレビューを無効化"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "ミックスリストとプレイリストを非表示"
+  },
+  "ads": {
+    "message": "広告"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTubeプロモバナーを非表示"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "プロモーション動画を非表示"
+  },
+  "video_playback_and_channel": {
+    "message": "再生＆チャンネル"
+  },
+  "slider_playback_speed_control": {
+    "message": "再生速度調整スライダー"
+  },
+  "player": {
+    "message": "プレーヤー"
+  },
+  "hide_mini_size_button": {
+    "message": "ミニプレーヤーボタンを非表示"
+  },
+  "hide_wide_size_button": {
+    "message": "シアターモードボタンを非表示"
+  },
+  "hide_subtitles_button": {
+    "message": "字幕ボタンを非表示"
+  },
+  "hide_autoplay_switcher": {
+    "message": "自動再生スイッチを非表示"
+  },
+  "shorts": {
+    "message": "ショート"
+  },
+  "speed_control": {
+    "message": "速度コントロール"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "自動的に次の動画へ移行"
+  },
+  "channel": {
+    "message": "チャンネル"
+  },
+  "hide_channel_trailer": {
+    "message": "チャンネルトレーラーを非表示"
+  },
+  "hide_channel_banner": {
+    "message": "チャンネルバナーを非表示"
+  },
+  "sidebar": {
+    "message": "サイドバー"
+  },
+  "hide_sidebar_completely": {
+    "message": "サイドバーを完全に非表示"
+  },
+  "main_menu": {
+    "message": "メインメニュー"
+  },
+  "hide_shorts": {
+    "message": "「ショート」を非表示"
+  },
+  "you": {
+    "message": "マイページ"
+  },
+  "hide_history": {
+    "message": "「履歴」を非表示"
+  },
+  "hide_playlists": {
+    "message": "「再生リスト」を非表示"
+  },
+  "hide_your_video": {
+    "message": "「自分の動画」を非表示"
+  },
+  "hide_watch_later": {
+    "message": "「後で見る」を非表示"
+  },
+  "hide_liked_videos": {
+    "message": "「高く評価した動画」を非表示"
+  },
+  "your_movies": {
+    "message": "「購入済み映画」を非表示"
+  },
+  "hide_subscriptions_list": {
+    "message": "登録チャンネル一覧を非表示"
+  },
+  "explore": {
+    "message": "探索"
+  },
+  "hide_trending": {
+    "message": "「急上昇」を非表示"
+  },
+  "hide_music": {
+    "message": "「音楽」を非表示"
+  },
+  "hide_gaming": {
+    "message": "「ゲーム」を非表示"
+  },
+  "hide_news": {
+    "message": "「ニュース」を非表示"
+  },
+  "hide_sports": {
+    "message": "「スポーツ」を非表示"
+  },
+  "more_from_youtube": {
+    "message": "YouTube のその他のサービス"
+  },
+  "hide_youtube_premium": {
+    "message": "「YouTube Premium」を非表示"
+  },
+  "hide_youtube_music": {
+    "message": "「YouTube Music」を非表示"
+  },
+  "hide_youtube_kids": {
+    "message": "「YouTube Kids」を非表示"
+  },
+  "hide_youtube_studio": {
+    "message": "「YouTube Studio」を非表示"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

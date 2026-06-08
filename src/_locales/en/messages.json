@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Boost, Customize & Hide Shorts"
+  },
+  "appDescription": {
+    "message": "Boost and customize YouTube, hide Shorts, and clean up distracting interface elements."
+  },
+  "actionTitle": {
+    "message": "Click to open Youtube Settings"
+  },
+  "toggle_extension": {
+    "message": "Toggle extension"
+  },
+  "new": {
+    "message": "new"
+  },
+  "basic_template": {
+    "message": "Basic template"
+  },
+  "search_bar": {
+    "message": "Search Bar"
+  },
+  "hide_voice_search_button": {
+    "message": "Hide voice search button"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Hide virtual keyboard button"
+  },
+  "hide_search_tags": {
+    "message": "Hide search tags"
+  },
+  "actions_and_user": {
+    "message": "Actions & user"
+  },
+  "hide_upload_button": {
+    "message": "Hide upload button"
+  },
+  "hide_notifications": {
+    "message": "Hide notifications"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed & Recommendations"
+  },
+  "content_blocks": {
+    "message": "Content blocks"
+  },
+  "hide_shorts_sections": {
+    "message": "Hide Shorts sections"
+  },
+  "hide_explore_and_news": {
+    "message": "Hide Explore & News"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Disable auto-preview on hover"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Hide Mixes & Playlists"
+  },
+  "ads": {
+    "message": "Ads"
+  },
+  "hide_youtube_banners": {
+    "message": "Hide YouTube Banners"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Hide Sponsored feed video"
+  },
+  "video_playback_and_channel": {
+    "message": "Video Playback & Channel"
+  },
+  "slider_playback_speed_control": {
+    "message": "Slider playback speed control"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Hide mini-size button"
+  },
+  "hide_wide_size_button": {
+    "message": "Hide wide-size button"
+  },
+  "hide_subtitles_button": {
+    "message": "Hide subtitles button"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Hide autoplay switcher"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Speed Control"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatic switching to the next"
+  },
+  "channel": {
+    "message": "Channel"
+  },
+  "hide_channel_trailer": {
+    "message": "Hide Channel trailer"
+  },
+  "hide_channel_banner": {
+    "message": "Hide Channel banner"
+  },
+  "sidebar": {
+    "message": "Sidebar"
+  },
+  "hide_sidebar_completely": {
+    "message": "Hide sidebar completely"
+  },
+  "main_menu": {
+    "message": "Main menu"
+  },
+  "hide_shorts": {
+    "message": "Hide \"Shorts\""
+  },
+  "you": {
+    "message": "You"
+  },
+  "hide_history": {
+    "message": "Hide \"History\""
+  },
+  "hide_playlists": {
+    "message": "Hide \"Playlists\""
+  },
+  "hide_your_video": {
+    "message": "Hide \"Your video\""
+  },
+  "hide_watch_later": {
+    "message": "Hide \"Watch later\""
+  },
+  "hide_liked_videos": {
+    "message": "Hide \"Liked videos\""
+  },
+  "your_movies": {
+    "message": "Your \"Movies\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Hide Subscriptions list"
+  },
+  "explore": {
+    "message": "Explore"
+  },
+  "hide_trending": {
+    "message": "Hide \"Trending\""
+  },
+  "hide_music": {
+    "message": "Hide \"Music\""
+  },
+  "hide_gaming": {
+    "message": "Hide \"Gaming\""
+  },
+  "hide_news": {
+    "message": "Hide \"News\""
+  },
+  "hide_sports": {
+    "message": "Hide \"Sports\""
+  },
+  "more_from_youtube": {
+    "message": "More from YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Hide \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Hide \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Hide \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Hide \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

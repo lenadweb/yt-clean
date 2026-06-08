@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Personalize e oculte Shorts"
+  },
+  "appDescription": {
+    "message": "Melhore o YouTube, oculte Shorts e remova elementos de interface que distraem."
+  },
+  "actionTitle": {
+    "message": "Configurações do YouTube Clean"
+  },
+  "toggle_extension": {
+    "message": "Ativar/desativar extensão"
+  },
+  "new": {
+    "message": "novo"
+  },
+  "basic_template": {
+    "message": "Layout básico"
+  },
+  "search_bar": {
+    "message": "Barra de pesquisa"
+  },
+  "hide_voice_search_button": {
+    "message": "Ocular botão de pesquisa por voz"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Ocultar botão de teclado virtual"
+  },
+  "hide_search_tags": {
+    "message": "Ocultar tags de pesquisa"
+  },
+  "actions_and_user": {
+    "message": "Ações e usuário"
+  },
+  "hide_upload_button": {
+    "message": "Ocultar botão de criar vídeo"
+  },
+  "hide_notifications": {
+    "message": "Ocultar notificações"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed e recomendações"
+  },
+  "content_blocks": {
+    "message": "Blocos de conteúdo"
+  },
+  "hide_shorts_sections": {
+    "message": "Ocultar seções do Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Ocultar Explorar e Notícias"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Desativar reprodução automática ao passar o mouse"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Ocultar Mixes e Playlists"
+  },
+  "ads": {
+    "message": "Anúncios"
+  },
+  "hide_youtube_banners": {
+    "message": "Ocultar banners do YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Ocultar vídeos patrocinados no feed"
+  },
+  "video_playback_and_channel": {
+    "message": "Reprodução e canais"
+  },
+  "slider_playback_speed_control": {
+    "message": "Controle deslizante de velocidade de reprodução"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Ocultar botão de miniplayer"
+  },
+  "hide_wide_size_button": {
+    "message": "Ocultar botão de modo cinema"
+  },
+  "hide_subtitles_button": {
+    "message": "Ocultar botão de legendas"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Ocultar reprodução automática"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Controle de velocidade"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Passar automaticamente para o próximo"
+  },
+  "channel": {
+    "message": "Canal"
+  },
+  "hide_channel_trailer": {
+    "message": "Ocultar trailer do canal"
+  },
+  "hide_channel_banner": {
+    "message": "Ocultar banner do canal"
+  },
+  "sidebar": {
+    "message": "Barra lateral"
+  },
+  "hide_sidebar_completely": {
+    "message": "Ocultar barra lateral completamente"
+  },
+  "main_menu": {
+    "message": "Menu principal"
+  },
+  "hide_shorts": {
+    "message": "Ocultar \"Shorts\""
+  },
+  "you": {
+    "message": "Você"
+  },
+  "hide_history": {
+    "message": "Ocultar \"Histórico\""
+  },
+  "hide_playlists": {
+    "message": "Ocultar \"Playlists\""
+  },
+  "hide_your_video": {
+    "message": "Ocultar \"Seus vídeos\""
+  },
+  "hide_watch_later": {
+    "message": "Ocultar \"Assistir mais tarde\""
+  },
+  "hide_liked_videos": {
+    "message": "Ocultar \"Vídeos marcados como gostei\""
+  },
+  "your_movies": {
+    "message": "Seus \"Filmes\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Ocultar lista de inscrições"
+  },
+  "explore": {
+    "message": "Explorar"
+  },
+  "hide_trending": {
+    "message": "Ocultar \"Em alta\""
+  },
+  "hide_music": {
+    "message": "Ocultar \"Música\""
+  },
+  "hide_gaming": {
+    "message": "Ocultar \"Jogos\""
+  },
+  "hide_news": {
+    "message": "Ocultar \"Notícias\""
+  },
+  "hide_sports": {
+    "message": "Ocultar \"Esportes\""
+  },
+  "more_from_youtube": {
+    "message": "Mais do YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Ocultar \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Ocultar \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Ocultar \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Ocultar \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "name": "YouTube Clean: Boost, Customize & Hide Shorts",
-  "version": "1.0.12",
-  "description": "Boost and customize YouTube, hide Shorts, and clean up distracting interface elements.",
+  "name": "__MSG_appName__",
+  "version": "1.0.19",
+  "description": "__MSG_appDescription__",
+  "default_locale": "en",
   "manifest_version": 3,
   "background": {
     "service_worker": "worker.js"
@@ -20,11 +21,11 @@
   ],
   "sidebar_action": {
     "default_icon": "icons/128.png",
-    "default_title": "Calculator",
+    "default_title": "__MSG_appName__",
     "default_panel": "sidebar.html"
   },
   "action": {
-    "default_title": "Click to open calc"
+    "default_title": "__MSG_actionTitle__"
   },
   "icons": {
     "16": "icons/16.png",

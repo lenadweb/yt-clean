@@ -10,6 +10,7 @@ import cn from 'classnames';
 import { IAttrAction, IDomActions } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
 import { IAllSetting } from 'src/shared/types/settings';
+import { t } from 'src/shared/utils/i18n';
 
 type Props = {
     title: string;
@@ -43,7 +44,7 @@ export const SettingsAccordion: FC<Props> = ({
                     <div className="flex items-center justify-between">
                         <DisclosureButton className="flex w-full items-center justify-between gap-2 p-5">
                             <div className="text-base leading-[1.2]">
-                                {title}
+                                {t(title)}
                             </div>
                             <ChevronDownIcon
                                 className={cn(

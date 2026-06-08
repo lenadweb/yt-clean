@@ -4,6 +4,7 @@ import { CONFIG } from 'src/shared/config';
 import { IStorage } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import { IAllSetting } from 'src/shared/types/settings';
+import { t } from 'src/shared/utils/i18n';
 
 const Logo: FC<{ className?: string }> = ({ className }) => (
     <svg
@@ -59,13 +60,13 @@ const Settings: FC = () => {
                 <div className="flex items-center gap-4">
                     <Logo className="size-8" />
                     <h1 className="flex items-center gap-2 text-[20px] font-medium">
-                        YouTube Clean
+                        {t('YouTube Clean')}
                     </h1>
                 </div>
                 <button
                     onClick={() => setEnabled(!isEnabled)}
                     className="flex items-center justify-center transition duration-150 focus:outline-none active:scale-95"
-                    aria-label="Toggle extension"
+                    aria-label={t('Toggle extension')}
                 >
                     {isEnabled ? (
                         <svg

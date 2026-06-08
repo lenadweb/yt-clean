@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: कस्टमाइज़ करें और Shorts छुपाएं"
+  },
+  "appDescription": {
+    "message": "YouTube को कस्टमाइज़ करें, Shorts छुपाएं और ध्यान भटकाने वाले तत्वों को साफ़ करें।"
+  },
+  "actionTitle": {
+    "message": "YouTube Clean सेटिंग्स"
+  },
+  "toggle_extension": {
+    "message": "एक्सटेंशन चालू/बंद करें"
+  },
+  "new": {
+    "message": "नया"
+  },
+  "basic_template": {
+    "message": "बेसिक लेआउट"
+  },
+  "search_bar": {
+    "message": "खोज पट्टी (Search Bar)"
+  },
+  "hide_voice_search_button": {
+    "message": "आवाज़ खोज बटन छुपाएं"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "वर्चुअल कीबोर्ड बटन छुपाएं"
+  },
+  "hide_search_tags": {
+    "message": "सर्च टैग्स छुपाएं"
+  },
+  "actions_and_user": {
+    "message": "क्रियाएं और उपयोगकर्ता"
+  },
+  "hide_upload_button": {
+    "message": "बनाएं (Upload) बटन छुपाएं"
+  },
+  "hide_notifications": {
+    "message": "सूचनाएं (Notifications) छुपाएं"
+  },
+  "feed_and_recommendations": {
+    "message": "फ़ीड और सुझाव"
+  },
+  "content_blocks": {
+    "message": "सामग्री ब्लॉक"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts सेक्शन छुपाएं"
+  },
+  "hide_explore_and_news": {
+    "message": "एक्सप्लोर और समाचार छुपाएं"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "होवर पर ऑटो-प्रीव्यू बंद करें"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "मिक्स और प्लेलिस्ट छुपाएं"
+  },
+  "ads": {
+    "message": "विज्ञापन"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube बैनर छुपाएं"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "प्रायोजित वीडियो छुपाएं"
+  },
+  "video_playback_and_channel": {
+    "message": "वीडियो प्लेबैक और चैनल"
+  },
+  "slider_playback_speed_control": {
+    "message": "प्लेबैक स्पीड स्लाइडर"
+  },
+  "player": {
+    "message": "प्लेयर"
+  },
+  "hide_mini_size_button": {
+    "message": "मिनीप्लेयर बटन छुपाएं"
+  },
+  "hide_wide_size_button": {
+    "message": "सिनेमा मोड बटन छुपाएं"
+  },
+  "hide_subtitles_button": {
+    "message": "उपशीर्षक (Subtitles) बटन छुपाएं"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ऑटोप्ले स्विच छुपाएं"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "गति नियंत्रण"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "स्वचालित रूप से अगले वीडियो पर जाएं"
+  },
+  "channel": {
+    "message": "चैनल"
+  },
+  "hide_channel_trailer": {
+    "message": "चैनल ट्रेलर छुपाएं"
+  },
+  "hide_channel_banner": {
+    "message": "चैनल बैनर छुपाएं"
+  },
+  "sidebar": {
+    "message": "साइडबार"
+  },
+  "hide_sidebar_completely": {
+    "message": "साइडबार पूरी तरह से छुपाएं"
+  },
+  "main_menu": {
+    "message": "मुख्य मेनू"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" छुपाएं"
+  },
+  "you": {
+    "message": "आप (You)"
+  },
+  "hide_history": {
+    "message": "\"इतिहास (History)\" छुपाएं"
+  },
+  "hide_playlists": {
+    "message": "\"प्लेलिस्ट\" छुपाएं"
+  },
+  "hide_your_video": {
+    "message": "\"आपके वीडियो\" छुपाएं"
+  },
+  "hide_watch_later": {
+    "message": "\"बाद में देखें\" छुपाएं"
+  },
+  "hide_liked_videos": {
+    "message": "\"पसंद किए गए वीडियो\" छुपाएं"
+  },
+  "your_movies": {
+    "message": "\"आपकी फिल्में\" छुपाएं"
+  },
+  "hide_subscriptions_list": {
+    "message": "सदस्यता (Subscriptions) सूची छुपाएं"
+  },
+  "explore": {
+    "message": "एक्सप्लोर करें"
+  },
+  "hide_trending": {
+    "message": "\"ट्रेंडिंग\" छुपाएं"
+  },
+  "hide_music": {
+    "message": "\"संगीत\" छुपाएं"
+  },
+  "hide_gaming": {
+    "message": "\"गेमिंग\" छुपाएं"
+  },
+  "hide_news": {
+    "message": "\"समाचार\" छुपाएं"
+  },
+  "hide_sports": {
+    "message": "\"खेल\" छुपाएं"
+  },
+  "more_from_youtube": {
+    "message": "YouTube से और भी बहुत कुछ"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" छुपाएं"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" छुपाएं"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" छुपाएं"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" छुपाएं"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

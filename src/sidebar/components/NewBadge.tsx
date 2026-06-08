@@ -1,5 +1,6 @@
 import React, { FC } from 'react';
 import cn from 'classnames';
+import { t } from 'src/shared/utils/i18n';
 
 type Props = {
     className?: string;
@@ -12,6 +13,6 @@ export const NewBadge: FC<Props> = ({ className }) => (
             className
         )}
     >
-        new
+        {t('new')}
     </span>
 );

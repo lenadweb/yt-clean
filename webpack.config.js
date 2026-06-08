@@ -104,6 +104,11 @@ module.exports = (env) => ({
                     to: 'icons',
                     force: true,
                 },
+                {
+                    from: './src/_locales',
+                    to: '_locales',
+                    force: true,
+                },
             ],
         }),
         new ZipPlugin({

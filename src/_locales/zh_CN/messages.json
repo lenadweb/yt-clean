@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean: 界面自定义与隐藏 Shorts"
+  },
+  "appDescription": {
+    "message": "精简与自定义 YouTube：隐藏 Shorts 短视频、推广横幅、无用推荐以及侧边栏。"
+  },
+  "actionTitle": {
+    "message": "YouTube Clean 设置"
+  },
+  "toggle_extension": {
+    "message": "启用/禁用扩展"
+  },
+  "new": {
+    "message": "新"
+  },
+  "basic_template": {
+    "message": "基础版面"
+  },
+  "search_bar": {
+    "message": "搜索栏"
+  },
+  "hide_voice_search_button": {
+    "message": "隐藏语音搜索按钮"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "隐藏虚拟键盘按钮"
+  },
+  "hide_search_tags": {
+    "message": "隐藏搜索标签（推荐词）"
+  },
+  "actions_and_user": {
+    "message": "操作与用户"
+  },
+  "hide_upload_button": {
+    "message": "隐藏创建按钮"
+  },
+  "hide_notifications": {
+    "message": "隐藏通知"
+  },
+  "feed_and_recommendations": {
+    "message": "首页与推荐"
+  },
+  "content_blocks": {
+    "message": "内容板块"
+  },
+  "hide_shorts_sections": {
+    "message": "隐藏 Shorts 栏目"
+  },
+  "hide_explore_and_news": {
+    "message": "隐藏“探索”与“新闻”"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "禁用悬停自动预览"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "隐藏合辑与播放列表"
+  },
+  "ads": {
+    "message": "广告"
+  },
+  "hide_youtube_banners": {
+    "message": "隐藏 YouTube 宣传横幅"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "隐藏推荐流中的推广视频"
+  },
+  "video_playback_and_channel": {
+    "message": "播放与频道"
+  },
+  "slider_playback_speed_control": {
+    "message": "播放速度调节滑块"
+  },
+  "player": {
+    "message": "播放器"
+  },
+  "hide_mini_size_button": {
+    "message": "隐藏迷你播放器按钮"
+  },
+  "hide_wide_size_button": {
+    "message": "隐藏影院模式按钮"
+  },
+  "hide_subtitles_button": {
+    "message": "隐藏字幕按钮"
+  },
+  "hide_autoplay_switcher": {
+    "message": "隐藏自动播放开关"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "速度控制"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "自动播放下一个视频"
+  },
+  "channel": {
+    "message": "频道"
+  },
+  "hide_channel_trailer": {
+    "message": "隐藏频道预告片"
+  },
+  "hide_channel_banner": {
+    "message": "隐藏频道横幅"
+  },
+  "sidebar": {
+    "message": "侧边栏"
+  },
+  "hide_sidebar_completely": {
+    "message": "完全隐藏侧边栏"
+  },
+  "main_menu": {
+    "message": "主菜单"
+  },
+  "hide_shorts": {
+    "message": "隐藏“Shorts 短视频”"
+  },
+  "you": {
+    "message": "个人中心"
+  },
+  "hide_history": {
+    "message": "隐藏“历史记录”"
+  },
+  "hide_playlists": {
+    "message": "隐藏“播放列表”"
+  },
+  "hide_your_video": {
+    "message": "隐藏“您的视频”"
+  },
+  "hide_watch_later": {
+    "message": "隐藏“稍后观看”"
+  },
+  "hide_liked_videos": {
+    "message": "隐藏“顶过的视频”"
+  },
+  "your_movies": {
+    "message": "隐藏“您的电影”"
+  },
+  "hide_subscriptions_list": {
+    "message": "隐藏订阅列表"
+  },
+  "explore": {
+    "message": "探索"
+  },
+  "hide_trending": {
+    "message": "隐藏“时下流行”"
+  },
+  "hide_music": {
+    "message": "隐藏“音乐”"
+  },
+  "hide_gaming": {
+    "message": "隐藏“游戏”"
+  },
+  "hide_news": {
+    "message": "隐藏“新闻”"
+  },
+  "hide_sports": {
+    "message": "隐藏“体育”"
+  },
+  "more_from_youtube": {
+    "message": "更多 YouTube 服务"
+  },
+  "hide_youtube_premium": {
+    "message": "隐藏“YouTube Premium”"
+  },
+  "hide_youtube_music": {
+    "message": "隐藏“YouTube Music”"
+  },
+  "hide_youtube_kids": {
+    "message": "隐藏“YouTube Kids”"
+  },
+  "hide_youtube_studio": {
+    "message": "隐藏“YouTube 工作室”"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}

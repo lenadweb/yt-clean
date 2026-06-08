@@ -1,0 +1,179 @@
+{
+  "appName": {
+    "message": "YouTube Clean : Personnaliser & Masquer les Shorts"
+  },
+  "appDescription": {
+    "message": "Optimisez et personnalisez YouTube, masquez les Shorts et nettoyez les éléments distrayants."
+  },
+  "actionTitle": {
+    "message": "Paramètres de YouTube Clean"
+  },
+  "toggle_extension": {
+    "message": "Activer/désactiver l'extension"
+  },
+  "new": {
+    "message": "nouveau"
+  },
+  "basic_template": {
+    "message": "Modèle de base"
+  },
+  "search_bar": {
+    "message": "Barre de recherche"
+  },
+  "hide_voice_search_button": {
+    "message": "Masquer le bouton de recherche vocale"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Masquer le bouton du clavier virtuel"
+  },
+  "hide_search_tags": {
+    "message": "Masquer les puces de recherche"
+  },
+  "actions_and_user": {
+    "message": "Actions & utilisateur"
+  },
+  "hide_upload_button": {
+    "message": "Masquer le bouton de création"
+  },
+  "hide_notifications": {
+    "message": "Masquer les notifications"
+  },
+  "feed_and_recommendations": {
+    "message": "Flux & recommandations"
+  },
+  "content_blocks": {
+    "message": "Blocs de contenu"
+  },
+  "hide_shorts_sections": {
+    "message": "Masquer les sections Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Masquer Explorer & Actus"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Désactiver la lecture automatique au survol"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Masquer les Mix & Playlists"
+  },
+  "ads": {
+    "message": "Publicités"
+  },
+  "hide_youtube_banners": {
+    "message": "Masquer les bannières YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Masquer les vidéos sponsorisées"
+  },
+  "video_playback_and_channel": {
+    "message": "Lecture & chaînes"
+  },
+  "slider_playback_speed_control": {
+    "message": "Curseur de vitesse de lecture"
+  },
+  "player": {
+    "message": "Lecteur"
+  },
+  "hide_mini_size_button": {
+    "message": "Masquer le bouton mini-lecteur"
+  },
+  "hide_wide_size_button": {
+    "message": "Masquer le bouton mode cinéma"
+  },
+  "hide_subtitles_button": {
+    "message": "Masquer le bouton sous-titres"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Masquer le bouton lecture automatique"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Contrôle de vitesse"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Passer automatiquement au suivant"
+  },
+  "channel": {
+    "message": "Chaîne"
+  },
+  "hide_channel_trailer": {
+    "message": "Masquer la bande-annonce de chaîne"
+  },
+  "hide_channel_banner": {
+    "message": "Masquer la bannière de chaîne"
+  },
+  "sidebar": {
+    "message": "Barre latérale"
+  },
+  "hide_sidebar_completely": {
+    "message": "Masquer la barre latérale complètement"
+  },
+  "main_menu": {
+    "message": "Menu principal"
+  },
+  "hide_shorts": {
+    "message": "Masquer \"Shorts\""
+  },
+  "you": {
+    "message": "Vous"
+  },
+  "hide_history": {
+    "message": "Masquer \"Historique\""
+  },
+  "hide_playlists": {
+    "message": "Masquer \"Playlists\""
+  },
+  "hide_your_video": {
+    "message": "Masquer \"Vos vidéos\""
+  },
+  "hide_watch_later": {
+    "message": "Masquer \"À regarder plus tard\""
+  },
+  "hide_liked_videos": {
+    "message": "Masquer \"Vidéos j'aime\""
+  },
+  "your_movies": {
+    "message": "Vos \"Films\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Masquer la liste des abonnements"
+  },
+  "explore": {
+    "message": "Explorer"
+  },
+  "hide_trending": {
+    "message": "Masquer \"Tendances\""
+  },
+  "hide_music": {
+    "message": "Masquer \"Musique\""
+  },
+  "hide_gaming": {
+    "message": "Masquer \"Jeux vidéo\""
+  },
+  "hide_news": {
+    "message": "Masquer \"Actualités\""
+  },
+  "hide_sports": {
+    "message": "Masquer \"Sport\""
+  },
+  "more_from_youtube": {
+    "message": "Plus de YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Masquer \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Masquer \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Masquer \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Masquer \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  }
+}
