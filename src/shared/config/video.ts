@@ -1,4 +1,4 @@
-import { IFeatureConfig } from 'src/shared/types/config';
+import { IFeatureDraft } from 'src/shared/types/config';
 import { UrlRegExps } from 'src/shared/const';
 import { setPlaybackSpeed } from 'src/shared/utils/yt';
 import { observeElementChanges, waitForElement } from 'src/shared/utils/dom';
@@ -18,12 +18,11 @@ const playerFeature = createFeature(video, 'Player');
 const shortsFeature = createFeature(video, 'Shorts');
 const channelFeature = createFeature(video, 'Channel');
 
-export const videoFeatures: IFeatureConfig[] = [
+export const videoFeatures: IFeatureDraft[] = [
     playbackFeature({
         storageKey: 'speedControl',
         actions: [
             componentAction(
-                'playback-speed',
                 'PlaybackSpeed',
                 '.ytp-right-controls .ytp-button.ytp-settings-button',
                 {
@@ -48,58 +47,39 @@ export const videoFeatures: IFeatureConfig[] = [
     playerFeature({
         title: 'Hide mini-size button',
         storageKey: 'hidePlayerMiniSizePlayerButton',
-        actions: [
-            hideAction('hide-player-minisize-button', [
-                'button.ytp-miniplayer-button.ytp-button',
-            ]),
-        ],
+        actions: [hideAction(['button.ytp-miniplayer-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide wide-size button',
         storageKey: 'hidePlayerWideSizePlayerButton',
-        actions: [
-            hideAction('hide-player-wide-size-button', [
-                'button.ytp-size-button.ytp-button',
-            ]),
-        ],
+        actions: [hideAction(['button.ytp-size-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide subtitles button',
         storageKey: 'hidePlayerSubtitlesButton',
-        actions: [
-            hideAction('hide-player-subtitles-button', [
-                'button.ytp-subtitles-button.ytp-button',
-            ]),
-        ],
+        actions: [hideAction(['button.ytp-subtitles-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide autoplay switcher',
         storageKey: 'hidePlayerAutoplay',
         actions: [
-            hideAction('hide-player-autoplay', [
-                '[data-tooltip-target-id=ytp-autonav-toggle-button]',
-            ]),
+            hideAction(['[data-tooltip-target-id=ytp-autonav-toggle-button]']),
         ],
     }),
     shortsFeature({
         title: 'Speed Control',
         storageKey: 'shortSpeedControl',
         actions: [
-            componentAction(
-                undefined,
-                'ShortsSpeedControl',
-                '#cinematic-container',
-                {
-                    urlRegExp: [UrlRegExps.Shorts],
-                }
-            ),
+            componentAction('ShortsSpeedControl', '#cinematic-container', {
+                urlRegExp: [UrlRegExps.Shorts],
+            }),
         ],
     }),
     shortsFeature({
         title: 'Automatic switching to the next',
         storageKey: 'autoNextShorts',
         actions: [
-            customAction(undefined, {
+            customAction({
                 urlRegExp: [UrlRegExps.Shorts],
                 onEnable: async () => {
                     try {
@@ -152,7 +132,6 @@ export const videoFeatures: IFeatureConfig[] = [
         storageKey: 'hideChannelTrailer',
         actions: [
             hideAction(
-                'channel-trailer',
                 [
                     'ytd-two-column-browse-results-renderer ytd-channel-video-player-renderer',
                 ],
@@ -160,7 +139,7 @@ export const videoFeatures: IFeatureConfig[] = [
                     urlRegExp: [UrlRegExps.Channel],
                 }
             ),
-            customAction('channel-trailer', {
+            customAction({
                 urlRegExp: [UrlRegExps.Channel],
                 onEnable: async () => {
                     try {
@@ -214,6 +193,6 @@ export const videoFeatures: IFeatureConfig[] = [
     channelFeature({
         title: 'Hide Channel banner',
         storageKey: 'hideChannelBanner',
-        actions: [hideAction('channel-banner', ['#page-header-banner'])],
+        actions: [hideAction(['#page-header-banner'])],
     }),
 ];

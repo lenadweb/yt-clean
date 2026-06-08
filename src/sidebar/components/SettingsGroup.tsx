@@ -1,7 +1,7 @@
 import React, { FC, Fragment } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
-import { IFeatureConfig } from 'src/shared/types/config';
+import { INormalizedFeature } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
@@ -14,7 +14,7 @@ interface ISettingsGroup {
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
-    groups: IFeatureConfig[];
+    groups: INormalizedFeature[];
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
     settings: IStorage;

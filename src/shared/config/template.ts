@@ -1,4 +1,4 @@
-import { IFeatureConfig } from 'src/shared/types/config';
+import { IFeatureDraft } from 'src/shared/types/config';
 import {
     createFeature,
     hideAction,
@@ -10,31 +10,29 @@ const basicTemplate = 'Basic template';
 const searchBarFeature = createFeature(basicTemplate, 'Search Bar');
 const actionsFeature = createFeature(basicTemplate, 'Actions & user');
 
-export const templateFeatures: IFeatureConfig[] = [
+export const templateFeatures: IFeatureDraft[] = [
     searchBarFeature({
         title: 'Hide voice search button',
         storageKey: 'voiceButtonInSearch',
-        actions: [hideAction('hide-voice-search', ['#voice-search-button'])],
+        actions: [hideAction(['#voice-search-button'])],
     }),
     searchBarFeature({
         title: 'Hide virtual keyboard button',
         storageKey: 'virtualKeyboard',
         actions: [
-            hideAction('hide-virtual-keyboard', [
-                '.ytSearchboxComponentYtdTextInputAssistantWrapper',
-            ]),
+            hideAction(['.ytSearchboxComponentYtdTextInputAssistantWrapper']),
         ],
     }),
     searchBarFeature({
         title: 'Hide search tags',
         storageKey: 'hideSearchTags',
         actions: [
-            hideAction('hide-search-tags', [
+            hideAction([
                 '.ytd-feed-filter-chip-bar-renderer',
                 '#header.ytd-rich-grid-renderer',
                 'yt-related-chip-cloud-renderer',
             ]),
-            stylesAction('hide-search-tags', [
+            stylesAction([
                 `#chip-bar {
                     opacity: 0;
                     pointer-events: none;
@@ -49,17 +47,13 @@ export const templateFeatures: IFeatureConfig[] = [
     actionsFeature({
         title: 'Hide upload button',
         storageKey: 'hideCreateVideo',
-        actions: [
-            hideAction('hide-create-video', [
-                '#buttons .ytd-masthead:first-child',
-            ]),
-        ],
+        actions: [hideAction(['#buttons .ytd-masthead:first-child'])],
     }),
     actionsFeature({
         title: 'Hide notifications',
         storageKey: 'notificationButton',
         actions: [
-            hideAction('hide-notification-button', [
+            hideAction([
                 'ytd-notification-topbar-button-renderer.ytd-masthead',
             ]),
         ],

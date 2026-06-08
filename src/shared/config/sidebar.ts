@@ -1,4 +1,4 @@
-import { IFeatureConfig } from 'src/shared/types/config';
+import { IFeatureDraft } from 'src/shared/types/config';
 import {
     createFeature,
     hideAction,
@@ -21,17 +21,17 @@ const subscriptionsFeature = createFeature(sidebar, 'Hide Subscriptions list', {
 const exploreFeature = createFeature(sidebar, 'Explore');
 const moreFromYoutubeFeature = createFeature(sidebar, 'More from YouTube');
 
-export const sidebarFeatures: IFeatureConfig[] = [
+export const sidebarFeatures: IFeatureDraft[] = [
     hideSidebarFeature({
         title: 'Hide sidebar completely',
         storageKey: 'hideSidebar',
         actions: [
-            hideAction('hide-sidebar', [
+            hideAction([
                 'tp-yt-app-drawer#guide',
                 'ytd-mini-guide-renderer',
                 '#guide-button',
             ]),
-            stylesAction('hide-sidebar', [
+            stylesAction([
                 `#page-manager {
                     margin-left: 12px !important;
                 }`,
@@ -42,7 +42,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Shorts"',
         storageKey: 'hideMenuShorts',
         actions: [
-            hideAction('hide-menu-shorts', [
+            hideAction([
                 'ytd-mini-guide-entry-renderer[aria-label=Shorts]',
                 '#sections #items > ytd-guide-entry-renderer:has([title=Shorts])',
             ]),
@@ -53,13 +53,13 @@ export const sidebarFeatures: IFeatureConfig[] = [
         storageKey: 'hideMenuHistory',
         ui: {
             onFullGroupEnabledActions: [
-                hideAction('full-group-you', [
+                hideAction([
                     '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
                 ]),
             ],
         },
         actions: [
-            hideAction('hide-menu-history', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/feed/history"])',
             ]),
         ],
@@ -68,7 +68,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Playlists"',
         storageKey: 'hideMenuPlaylists',
         actions: [
-            hideAction('hide-menu-playlists', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/feed/playlists"])',
             ]),
         ],
@@ -77,7 +77,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Your video"',
         storageKey: 'hideMenuYourVideo',
         actions: [
-            hideAction('hide-menu-your-video', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href*="studio.youtube"])',
             ]),
         ],
@@ -86,7 +86,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Watch later"',
         storageKey: 'hideMenuWatchLater',
         actions: [
-            hideAction('hide-menu-watch-later', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=WL"])',
             ]),
         ],
@@ -95,7 +95,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Liked videos"',
         storageKey: 'hideMenuLikedVideos',
         actions: [
-            hideAction('hide-menu-liked-videos', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=LL"])',
             ]),
         ],
@@ -104,7 +104,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Your "Movies"',
         storageKey: 'hideYourMovies',
         actions: [
-            hideAction('hide-your-movies', [
+            hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href*="/feed/storefront"])',
             ]),
         ],
@@ -113,7 +113,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide Subscriptions list',
         storageKey: 'hideMenuSubscriptionsList',
         actions: [
-            hideAction('hide-menu-subscriptions-list', [
+            hideAction([
                 "#sections ytd-guide-section-renderer:has([href*='@'])",
                 "ytd-mini-guide-renderer ytd-mini-guide-entry-renderer:has([href='/feed/subscriptions'])",
             ]),
@@ -124,13 +124,13 @@ export const sidebarFeatures: IFeatureConfig[] = [
         storageKey: 'hideMenuExploreTrending',
         ui: {
             onFullGroupEnabledActions: [
-                hideAction('explore-group', [
+                hideAction([
                     "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
                 ]),
             ],
         },
         actions: [
-            hideAction('hide-menu-explore-trending', [
+            hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='feed/trending'])",
             ]),
         ],
@@ -139,7 +139,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Music"',
         storageKey: 'hideMenuExploreMusic',
         actions: [
-            hideAction('hide-menu-explore-music', [
+            hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='channel/UC-9'])",
             ]),
         ],
@@ -148,7 +148,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Gaming"',
         storageKey: 'hideMenuExploreGaming',
         actions: [
-            hideAction('hide-menu-explore-gaming', [
+            hideAction([
                 "#sections ytd-guide-entry-renderer:has([href='/gaming'])",
             ]),
         ],
@@ -157,7 +157,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "News"',
         storageKey: 'hideMenuExploreNews',
         actions: [
-            hideAction('hide-menu-explore-news', [
+            hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
             ]),
         ],
@@ -166,7 +166,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "Sports"',
         storageKey: 'hideMenuExploreSports',
         actions: [
-            hideAction('hide-menu-explore-sports', [
+            hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='UCEgdi0XIXXZ-qJOFPf4JSKw'])",
             ]),
         ],
@@ -176,13 +176,13 @@ export const sidebarFeatures: IFeatureConfig[] = [
         storageKey: 'hideMenuMorePremium',
         ui: {
             onFullGroupEnabledActions: [
-                hideAction('more-from-yt-group', [
+                hideAction([
                     "#sections ytd-guide-section-renderer:has([href='https://music.youtube.com/'])",
                 ]),
             ],
         },
         actions: [
-            hideAction('hide-menu-more-premium', [
+            hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href='/premium'])",
             ]),
         ],
@@ -191,7 +191,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "YouTube Music"',
         storageKey: 'hideMenuMoreMusic',
         actions: [
-            hideAction('hide-menu-more-music', [
+            hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href='https://music.youtube.com/'])",
             ]),
         ],
@@ -200,7 +200,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "YouTube Kids"',
         storageKey: 'hideMenuMoreKids',
         actions: [
-            hideAction('hide-menu-more-kids', [
+            hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href*='youtubekids.com'])",
             ]),
         ],
@@ -209,7 +209,7 @@ export const sidebarFeatures: IFeatureConfig[] = [
         title: 'Hide "YouTube Studio"',
         storageKey: 'hideMenuMoreStudio',
         actions: [
-            hideAction('hide-menu-more-studio', [
+            hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href*='studio.youtube.com'])",
             ]),
         ],

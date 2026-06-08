@@ -11,8 +11,7 @@ export enum ElementActions {
 
 type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 
-export interface IAttrAction {
-    attr: string;
+export interface IActionConfig {
     selectors: string[];
     customStyles?: string[];
     onEnable?: () => Promise<any> | any;
@@ -23,27 +22,34 @@ export interface IAttrAction {
     urlRegExp?: UrlRegExp[];
 }
 
-export interface ISettingsSectionOptions {
+export interface IAttrAction extends IActionConfig {
+    attr: string;
+}
+
+export interface ISettingsSectionOptions<TAction = IActionConfig> {
     isNew?: boolean;
     withoutCheckboxes?: boolean;
     withoutSwitch?: boolean;
-    onFullGroupEnabledActions?: IAttrAction[];
+    onFullGroupEnabledActions?: TAction[];
 }
 
-export interface IFeatureConfig {
+export interface IFeatureConfig<TAction = IActionConfig> {
     category: string;
     section: string;
     title?: string;
     isNew?: boolean;
     storageKey: keyof ISettings;
-    actions: IAttrAction[];
+    actions: TAction[];
     onChange?: (value: any) => void;
-    ui?: ISettingsSectionOptions;
+    ui?: ISettingsSectionOptions<TAction>;
 }
 
-export interface ISettingsSection extends ISettingsSectionOptions {
+export type IFeatureDraft = IFeatureConfig<IActionConfig>;
+export type INormalizedFeature = IFeatureConfig<IAttrAction>;
+
+export interface ISettingsSection extends ISettingsSectionOptions<IAttrAction> {
     title: string;
-    groups: IFeatureConfig[];
+    groups: INormalizedFeature[];
 }
 
 export interface ISettingsCategory {
@@ -52,5 +58,5 @@ export interface ISettingsCategory {
 }
 
 export interface IConfig {
-    features: IFeatureConfig[];
+    features: INormalizedFeature[];
 }

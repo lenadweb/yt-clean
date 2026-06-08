@@ -1,4 +1,4 @@
-import { IConfig, IFeatureConfig } from 'src/shared/types/config';
+import { IConfig, INormalizedFeature } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import { ISettings } from 'src/shared/types/settings';
 import { FeatureActionPlan, StorageChanges } from 'src/content/features/types';
@@ -24,11 +24,11 @@ const isSettingEnabled = (
     storageKey: keyof ISettings
 ): boolean => Boolean(settings.isEnabled && settings[storageKey]?.enabled);
 
-const getSectionKey = (feature: IFeatureConfig): string =>
+const getSectionKey = (feature: INormalizedFeature): string =>
     `${feature.category}::${feature.section}`;
 
-const getSections = (features: IFeatureConfig[]): IFeatureConfig[][] =>
-    features.reduce<IFeatureConfig[][]>((sections, feature) => {
+const getSections = (features: INormalizedFeature[]): INormalizedFeature[][] =>
+    features.reduce<INormalizedFeature[][]>((sections, feature) => {
         const section = sections.find(
             ([item]) => getSectionKey(item) === getSectionKey(feature)
         );
@@ -43,7 +43,7 @@ const getSections = (features: IFeatureConfig[]): IFeatureConfig[][] =>
     }, []);
 
 const buildFeaturePlans = (
-    features: IFeatureConfig[],
+    features: INormalizedFeature[],
     settings: IStorage,
     changes?: StorageChanges
 ): FeatureActionPlan[] =>
@@ -59,7 +59,7 @@ const buildFeaturePlans = (
         }));
 
 const isSectionChanged = (
-    features: IFeatureConfig[],
+    features: INormalizedFeature[],
     changes?: StorageChanges
 ): boolean =>
     !changes ||
@@ -67,7 +67,7 @@ const isSectionChanged = (
     features.some(({ storageKey }) => changes[storageKey as keyof IStorage]);
 
 const areAllSectionFeaturesEnabled = (
-    features: IFeatureConfig[],
+    features: INormalizedFeature[],
     settings: IStorage
 ): boolean =>
     Boolean(
@@ -75,20 +75,23 @@ const areAllSectionFeaturesEnabled = (
             features.every(({ storageKey }) => settings[storageKey]?.enabled)
     );
 
+const getSectionActions = (features: INormalizedFeature[]) =>
+    features.flatMap((feature) => feature.ui?.onFullGroupEnabledActions || []);
+
 const buildSectionPlans = (
-    features: IFeatureConfig[],
+    features: INormalizedFeature[],
     settings: IStorage,
     changes?: StorageChanges
 ): FeatureActionPlan[] =>
     getSections(features)
-        .filter(([feature]) => Boolean(feature.ui?.onFullGroupEnabledActions))
+        .filter((section) => getSectionActions(section).length > 0)
         .filter((section) => isSectionChanged(section, changes))
         .map((section) => ({
             status: {
                 enabled: areAllSectionFeaturesEnabled(section, settings),
                 value: null,
             },
-            actions: section[0].ui?.onFullGroupEnabledActions || [],
+            actions: getSectionActions(section),
             feature: null,
         }));
 
