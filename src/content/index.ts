@@ -32,19 +32,34 @@ class Content {
     private elementCache = new Map<string, CachedElement[]>();
 
     constructor(config: IConfig, defaults: IStorage) {
+        console.log('[YT-Clean Content] Constructor initialized', {
+            url: window.location.href,
+        });
         this.config = config;
         this.storage = new Storage(defaults);
         this.currentUrl = window.location.href;
 
         this.observeUrlChanges();
-        this.storage.onChange((changes) => this.processActions(changes));
+        this.storage.onChange((changes) => {
+            console.log('[YT-Clean Content] Storage change detected', changes);
+            this.processActions(changes);
+        });
         this.init();
     }
 
     observeUrlChanges(): void {
         waitForDocumentReady().then(() => {
+            console.log(
+                '[YT-Clean Content] Document ready, starting MutationObserver for URL changes'
+            );
             const observer = new MutationObserver(() => {
                 if (window.location.href !== this.currentUrl) {
+                    console.log(
+                        '[YT-Clean Content] URL changed from',
+                        this.currentUrl,
+                        'to',
+                        window.location.href
+                    );
                     this.currentUrl = window.location.href;
                     this.processActions();
                 }
@@ -55,13 +70,25 @@ class Content {
     }
 
     init(): void {
+        console.log('[YT-Clean Content] init() waiting for html body');
         waitForElement('html body').then(() => {
+            console.log(
+                '[YT-Clean Content] html body found, performing initial actions processing'
+            );
             this.processActions();
         });
     }
 
     processActions(changes?: Record<keyof IStorage, StorageChange>) {
+        console.log('[YT-Clean Content] processActions called', {
+            hasChanges: !!changes,
+            isEnabled: this.storage.settings.isEnabled,
+        });
         const enabledActions = this.getEnabledActions(changes);
+        console.log(
+            '[YT-Clean Content] Found enabled actions count:',
+            enabledActions.length
+        );
         enabledActions.forEach((item) => {
             const { status, actions, group } = item;
             for (const act of actions) {
@@ -71,9 +98,25 @@ class Content {
                       )
                     : true;
 
+                console.log('[YT-Clean Content] Processing act', {
+                    attr: act.attr,
+                    action: act.action,
+                    enabled: status.enabled,
+                    isTargetUrl,
+                });
+
                 if (status.enabled && isTargetUrl && act.attr) {
+                    console.log(
+                        '[YT-Clean Content] Setting attribute',
+                        act.attr,
+                        'to true'
+                    );
                     document.body?.setAttribute(act.attr, 'true');
                 } else if (act.attr) {
+                    console.log(
+                        '[YT-Clean Content] Removing attribute',
+                        act.attr
+                    );
                     document.body?.removeAttribute(act.attr);
                 }
 
@@ -82,9 +125,19 @@ class Content {
                     status.enabled &&
                     isTargetUrl
                 ) {
+                    console.log(
+                        '[YT-Clean Content] Triggering click action for selectors',
+                        act.selectors
+                    );
                     act.selectors.forEach((selector) => {
                         waitForElement(selector).then((element) => {
-                            if (element) (element as HTMLElement).click();
+                            if (element) {
+                                console.log(
+                                    '[YT-Clean Content] Clicking element',
+                                    selector
+                                );
+                                (element as HTMLElement).click();
+                            }
                         });
                     });
                 }
@@ -95,6 +148,10 @@ class Content {
                     isTargetUrl &&
                     act.onEnable
                 ) {
+                    console.log(
+                        '[YT-Clean Content] Triggering custom onEnable for attr',
+                        act.attr
+                    );
                     act.onEnable().then((result: any) => {
                         if (result && act.attr) {
                             this.elementCache.set(
@@ -111,6 +168,10 @@ class Content {
                     act.onDisable &&
                     isTargetUrl
                 ) {
+                    console.log(
+                        '[YT-Clean Content] Triggering custom onDisable for attr',
+                        act.attr
+                    );
                     act.onDisable(this.elementCache.get(act.attr));
                 }
             }
@@ -152,7 +213,9 @@ class Content {
             groups
                 .filter(
                     ({ storageKey }) =>
-                        (changes && changes?.[storageKey]) || !changes
+                        (changes &&
+                            (changes?.[storageKey] || changes?.isEnabled)) ||
+                        !changes
                 )
                 .map((group) => ({
                     status: {
@@ -179,7 +242,7 @@ class Content {
                 const hasChanges = changes
                     ? action.groups.some(
                           ({ storageKey }) => changes?.[storageKey]
-                      )
+                      ) || changes?.isEnabled
                     : true;
                 return action.onFullGroupEnabledActions && hasChanges
                     ? [

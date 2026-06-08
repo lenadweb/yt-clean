@@ -47,8 +47,13 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     const [settings, setSettings] = useState<IStorage>(DEFAULT_STORAGE);
 
     useEffect(() => {
+        console.log('[YT-Clean useStorage] Initializing StorageProvider');
         chrome.storage.local.get(null, (data) => {
             const mergedSettings = { ...DEFAULT_STORAGE, ...data };
+            console.log(
+                '[YT-Clean useStorage] Loaded from local storage:',
+                mergedSettings
+            );
             setSettings(mergedSettings);
             setIsInit(true);
             chrome.storage.local.set(mergedSettings);
@@ -57,6 +62,10 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
         const handleStorageChange = (
             changes: Record<string, chrome.storage.StorageChange>
         ) => {
+            console.log(
+                '[YT-Clean useStorage] onChanged detected in hook:',
+                changes
+            );
             setSettings((prev) => ({
                 ...prev,
                 ...Object.keys(changes).reduce(
@@ -77,6 +86,10 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     }, []);
 
     const updateSetting: UpdateSetting = useCallback((key, value) => {
+        console.log('[YT-Clean useStorage] updateSetting hook called:', {
+            key,
+            value,
+        });
         setSettings((prev) => ({ ...prev, [key]: value }));
         chrome.storage.local.set({ [key]: value });
     }, []);
