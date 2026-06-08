@@ -1,8 +1,15 @@
-import React, { FC, useCallback, useRef, useState, useEffect } from 'react';
+import React, {
+    FC,
+    MutableRefObject,
+    useCallback,
+    useEffect,
+    useRef,
+    useState,
+} from 'react';
 
 type SliderProps = {
     value: number;
-    _ref?: any;
+    containerRef?: MutableRefObject<HTMLDivElement | null>;
     onChange: (value: number) => void;
     min?: number;
     max?: number;
@@ -13,8 +20,18 @@ type SliderProps = {
     stops?: number[];
 };
 
+const clamp = (value: number, min: number, max: number): number =>
+    Math.min(Math.max(value, min), max);
+
+const roundToStep = (
+    percent: number,
+    min: number,
+    max: number,
+    step: number
+): number => Math.round((percent * (max - min)) / step) * step + min;
+
 export const Slider: FC<SliderProps> = ({
-    _ref,
+    containerRef,
     value,
     onChange,
     min = 0,
@@ -28,41 +45,42 @@ export const Slider: FC<SliderProps> = ({
     const trackRef = useRef<HTMLDivElement>(null);
     const [isDragging, setIsDragging] = useState(false);
 
-    const getPercentFromEvent = (e: MouseEvent | React.MouseEvent) => {
-        const rect = trackRef.current?.getBoundingClientRect();
-        if (!rect) return 0;
+    const getPercentFromEvent = useCallback(
+        (e: MouseEvent | React.MouseEvent) => {
+            const rect = trackRef.current?.getBoundingClientRect();
+            if (!rect) return 0;
 
-        let percent: number;
+            if (vertical) {
+                const offsetY = e.clientY - rect.top;
+                return clamp(1 - offsetY / rect.height, 0, 1);
+            }
 
-        if (vertical) {
-            const offsetY = e.clientY - rect.top;
-            percent = 1 - offsetY / rect.height;
-        } else {
             const offsetX = e.clientX - rect.left;
-            percent = offsetX / rect.width;
-        }
+            return clamp(offsetX / rect.width, 0, 1);
+        },
+        [vertical]
+    );
 
-        return Math.min(Math.max(percent, 0), 1);
-    };
+    const updateValueFromEvent = useCallback(
+        (e: MouseEvent | React.MouseEvent) => {
+            const percent = getPercentFromEvent(e);
+            onChange(roundToStep(percent, min, max, step));
+        },
+        [getPercentFromEvent, max, min, onChange, step]
+    );
 
     const handleMouseDown = (e: React.MouseEvent) => {
         e.preventDefault();
         setIsDragging(true);
-        const percent = getPercentFromEvent(e);
-        const newValue =
-            Math.round((percent * (max - min)) / step) * step + min;
-        onChange(newValue);
+        updateValueFromEvent(e);
     };
 
     const handleMouseMove = useCallback(
         (e: MouseEvent) => {
             if (!isDragging) return;
-            const percent = getPercentFromEvent(e);
-            const newValue =
-                Math.round((percent * (max - min)) / step) * step + min;
-            onChange(newValue);
+            updateValueFromEvent(e);
         },
-        [isDragging, max, min, step, onChange, vertical]
+        [isDragging, updateValueFromEvent]
     );
 
     const handleMouseUp = useCallback(() => {
@@ -88,7 +106,7 @@ export const Slider: FC<SliderProps> = ({
 
     return (
         <div
-            ref={_ref}
+            ref={containerRef}
             className={`relative flex ${
                 vertical ? 'flex-row' : 'flex-col'
             } items-center`}

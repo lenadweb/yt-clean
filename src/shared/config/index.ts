@@ -56,25 +56,21 @@ export const getSettingsCategories = (): ISettingsCategory[] =>
     }, []);
 
 export const getComponentsAction = () =>
-    CONFIG.features
-        .flatMap((item) => {
-            const hasComponents = item.actions.some(
-                ({ action }) => action === ElementActions.component
-            );
-            return hasComponents
-                ? {
+    CONFIG.features.flatMap((item) => {
+        const components = item.actions
+            .filter(({ action }) => action === ElementActions.component)
+            .map(({ component, insertAfter, urlRegExp }) => ({
+                insertAfter: insertAfter as string,
+                component: component as string,
+                urlRegExp,
+            }));
+
+        return components.length
+            ? [
+                  {
                       storageKey: item.storageKey,
-                      components: item.actions
-                          .filter(
-                              ({ action }) =>
-                                  action === ElementActions.component
-                          )
-                          .map(({ component, insertAfter, urlRegExp }) => ({
-                              insertAfter: insertAfter as string,
-                              component: component as string,
-                              urlRegExp,
-                          })),
-                  }
-                : null;
-        })
-        .filter(Boolean);
+                      components,
+                  },
+              ]
+            : [];
+    });

@@ -7,8 +7,9 @@ import { Injection } from 'src/content/Injection';
 import { waitForElement } from 'src/shared/utils/dom';
 import PlaybackSpeed from 'src/content/components/PlaybackSpeed';
 import { useUrl } from 'src/shared/hooks/useUrl';
+import { IStorage } from 'src/shared/storage/config';
 
-const componentsMap: Record<string, ReactElement> = {
+const componentRegistry: Record<string, ReactElement> = {
     ShortsSpeedControl: <ShortsSpeedControl />,
     PlaybackSpeed: <PlaybackSpeed />,
 };
@@ -19,6 +20,37 @@ interface RenderableComponent {
     component: ReactElement;
 }
 
+type ComponentConfig = ReturnType<typeof getComponentsAction>[number];
+
+const isTargetUrl = (
+    component: ComponentConfig['components'][number],
+    url: string
+): boolean =>
+    component.urlRegExp
+        ? component.urlRegExp.some((regexp) => new RegExp(regexp).test(url))
+        : true;
+
+const getComponentId = (
+    component: ComponentConfig['components'][number]
+): string => component.component;
+
+const getComponentTargetSelector = (
+    component: ComponentConfig['components'][number]
+): string => component.insertAfter || 'body';
+
+const getEnabledComponentConfigs = (storage: IStorage): ComponentConfig[] =>
+    getComponentsAction().filter(
+        (item) => storage[item.storageKey]?.enabled && item.components.length
+    );
+
+const stillEnabled = (
+    id: string,
+    componentConfigs: ComponentConfig[]
+): boolean =>
+    componentConfigs.some((item) =>
+        item.components.some((component) => getComponentId(component) === id)
+    );
+
 const App: FC = () => {
     const url = useUrl();
     const [storage] = useStorage();
@@ -27,47 +59,36 @@ const App: FC = () => {
     >([]);
 
     useEffect(() => {
-        const enabledItems = getComponentsAction().filter(
-            (item) =>
-                item?.storageKey &&
-                storage[item.storageKey]?.enabled &&
-                item.components.length
-        );
+        const enabledItems = getEnabledComponentConfigs(storage);
 
         setReadyComponents((prev) =>
-            prev.filter(({ id }) =>
-                enabledItems.some((item) =>
-                    item?.components.some((comp) => comp.component === id)
-                )
-            )
+            prev.filter(({ id }) => stillEnabled(id, enabledItems))
         );
 
         enabledItems.forEach((item) => {
-            item?.components.forEach((componentDef) => {
-                const key = componentDef.component || 'default';
-                const selector = componentDef.insertAfter || 'body';
-                const isTargetUrl = componentDef.urlRegExp
-                    ? componentDef.urlRegExp.some((regexp) =>
-                          new RegExp(regexp).test(url)
-                      )
-                    : true;
+            item.components.forEach((componentDef) => {
+                const id = getComponentId(componentDef);
+                const component = componentRegistry[id];
 
-                if (!isTargetUrl) return;
+                if (!component || !isTargetUrl(componentDef, url)) return;
 
-                waitForElement(selector).then((el) => {
-                    if (!el) return;
-                    setReadyComponents((prev) => {
-                        if (prev.some((c) => c.id === key)) return prev;
-                        return [
-                            ...prev,
-                            {
-                                id: key,
-                                element: el,
-                                component: componentsMap[key],
-                            },
-                        ];
-                    });
-                });
+                waitForElement(getComponentTargetSelector(componentDef)).then(
+                    (el) => {
+                        if (!el) return;
+                        setReadyComponents((prev) => {
+                            if (prev.some((item) => item.id === id))
+                                return prev;
+                            return [
+                                ...prev,
+                                {
+                                    id,
+                                    element: el,
+                                    component,
+                                },
+                            ];
+                        });
+                    }
+                );
             });
         });
     }, [url, storage.shortSpeedControl.enabled, storage.speedControl.enabled]);

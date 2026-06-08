@@ -6,7 +6,7 @@ import { useOutsideClick } from 'src/shared/hooks/useOutsideClick';
 const PlaybackSpeed: FC = () => {
     const [sliderIsOpen, setSliderIsOpen] = useState(false);
     const refContainer = useRef(null);
-    const refSlider = useRef(null);
+    const refSlider = useRef<HTMLDivElement>(null);
 
     useOutsideClick([refContainer, refSlider], () => {
         if (sliderIsOpen) {
@@ -39,7 +39,7 @@ const PlaybackSpeed: FC = () => {
                 <div className="absolute -top-[210px]">
                     <Slider
                         stops={[1, 1.5, 2]}
-                        _ref={refSlider}
+                        containerRef={refSlider}
                         vertical={true}
                         min={0.3}
                         step={0.05}

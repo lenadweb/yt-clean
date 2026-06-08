@@ -17,22 +17,26 @@ export const Injection: React.FC<InjectionProps> = ({
     position = 'afterend',
 }) => {
     const [containerEl, setContainerEl] = useState<null | HTMLElement>(null);
+
     useLayoutEffect(() => {
         const targetEl = selectTargetElement();
-        let _containerEl: HTMLElement | null = null;
+        let nextContainerEl: HTMLElement | null = null;
+
         if (targetEl) {
-            _containerEl = document.createElement(containerTagName);
-            containerClassName &&
-                _containerEl.classList.add(containerClassName);
-            targetEl.insertAdjacentElement(position, _containerEl);
-            setContainerEl(_containerEl);
+            nextContainerEl = document.createElement(containerTagName);
+            if (containerClassName) {
+                nextContainerEl.classList.add(containerClassName);
+            }
+            targetEl.insertAdjacentElement(position, nextContainerEl);
+            setContainerEl(nextContainerEl);
         }
+
         return () => {
-            if (_containerEl) {
-                _containerEl.remove();
+            if (nextContainerEl) {
+                nextContainerEl.remove();
             }
         };
-    }, []);
+    }, [containerClassName, containerTagName, position, selectTargetElement]);
 
     if (containerEl === null) return null;
     return ReactDOM.createPortal(children, containerEl);
