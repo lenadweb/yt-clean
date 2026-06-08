@@ -13,19 +13,19 @@ const actionsFeature = createFeature(basicTemplate, 'Actions & user');
 export const templateFeatures: IFeatureDraft[] = [
     searchBarFeature({
         title: 'Hide voice search button',
-        storageKey: 'voiceButtonInSearch',
+        id: 'voiceButtonInSearch',
         actions: [hideAction(['#voice-search-button'])],
     }),
     searchBarFeature({
         title: 'Hide virtual keyboard button',
-        storageKey: 'virtualKeyboard',
+        id: 'virtualKeyboard',
         actions: [
             hideAction(['.ytSearchboxComponentYtdTextInputAssistantWrapper']),
         ],
     }),
     searchBarFeature({
         title: 'Hide search tags',
-        storageKey: 'hideSearchTags',
+        id: 'hideSearchTags',
         actions: [
             hideAction([
                 '.ytd-feed-filter-chip-bar-renderer',
@@ -46,12 +46,12 @@ export const templateFeatures: IFeatureDraft[] = [
     }),
     actionsFeature({
         title: 'Hide upload button',
-        storageKey: 'hideCreateVideo',
+        id: 'hideCreateVideo',
         actions: [hideAction(['#buttons .ytd-masthead:first-child'])],
     }),
     actionsFeature({
         title: 'Hide notifications',
-        storageKey: 'notificationButton',
+        id: 'notificationButton',
         actions: [
             hideAction([
                 'ytd-notification-topbar-button-renderer.ytd-masthead',

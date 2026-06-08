@@ -13,14 +13,14 @@ const adsFeature = createFeature(feed, 'Ads');
 export const feedFeatures: IFeatureDraft[] = [
     contentBlockFeature({
         title: 'Hide Shorts sections',
-        storageKey: 'hideShorts',
+        id: 'hideShorts',
         actions: [
             hideAction(['#player-container-wrapper', '.ytd-video-preview']),
         ],
     }),
     contentBlockFeature({
         title: 'Hide Explore & News',
-        storageKey: 'hideNewsSection',
+        id: 'hideNewsSection',
         actions: [
             hideAction([
                 'ytd-rich-section-renderer:has(#rich-shelf-header):not(:has(.shortsLockupViewModelHostThumbnail))',
@@ -30,12 +30,12 @@ export const feedFeatures: IFeatureDraft[] = [
     contentBlockFeature({
         title: 'Disable auto-preview on hover',
         isNew: true,
-        storageKey: 'hideHoverPreview',
+        id: 'hideHoverPreview',
         actions: [customAction()],
     }),
     contentBlockFeature({
         title: 'Hide Mixes & Playlists',
-        storageKey: 'hideJams',
+        id: 'hideJams',
         actions: [
             hideAction([
                 'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
@@ -44,7 +44,7 @@ export const feedFeatures: IFeatureDraft[] = [
     }),
     adsFeature({
         title: 'Hide YouTube Banners',
-        storageKey: 'adsYoutubeBanner',
+        id: 'adsYoutubeBanner',
         actions: [
             hideAction([
                 'ytd-banner-promo-renderer',
@@ -55,7 +55,7 @@ export const feedFeatures: IFeatureDraft[] = [
     }),
     adsFeature({
         title: 'Hide Sponsored feed video',
-        storageKey: 'adsFeedVideo',
+        id: 'adsFeedVideo',
         actions: [
             hideAction(['ytd-rich-item-renderer:has(ytd-ad-slot-renderer)']),
             hideAction(['ytd-search-pyv-renderer']),

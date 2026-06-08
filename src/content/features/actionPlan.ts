@@ -5,24 +5,18 @@ import { FeatureActionPlan, StorageChanges } from 'src/content/features/types';
 
 const hasStorageChange = (
     changes: StorageChanges | undefined,
-    storageKey: keyof ISettings
+    id: keyof ISettings
 ): boolean =>
-    !changes ||
-    Boolean(changes[storageKey as keyof IStorage] || changes.isEnabled);
+    !changes || Boolean(changes[id as keyof IStorage] || changes.isEnabled);
 
-const getSettingValue = (
-    settings: IStorage,
-    storageKey: keyof ISettings
-): unknown => {
-    const setting = settings[storageKey] as { value?: unknown } | undefined;
+const getSettingValue = (settings: IStorage, id: keyof ISettings): unknown => {
+    const setting = settings[id] as { value?: unknown } | undefined;
 
     return setting?.value;
 };
 
-const isSettingEnabled = (
-    settings: IStorage,
-    storageKey: keyof ISettings
-): boolean => Boolean(settings.isEnabled && settings[storageKey]?.enabled);
+const isSettingEnabled = (settings: IStorage, id: keyof ISettings): boolean =>
+    Boolean(settings.isEnabled && settings[id]?.enabled);
 
 const getSectionKey = (feature: INormalizedFeature): string =>
     `${feature.category}::${feature.section}`;
@@ -48,11 +42,11 @@ const buildFeaturePlans = (
     changes?: StorageChanges
 ): FeatureActionPlan[] =>
     features
-        .filter(({ storageKey }) => hasStorageChange(changes, storageKey))
+        .filter(({ id }) => hasStorageChange(changes, id))
         .map((feature) => ({
             status: {
-                enabled: isSettingEnabled(settings, feature.storageKey),
-                value: getSettingValue(settings, feature.storageKey),
+                enabled: isSettingEnabled(settings, feature.id),
+                value: getSettingValue(settings, feature.id),
             },
             actions: feature.actions,
             feature,
@@ -64,15 +58,14 @@ const isSectionChanged = (
 ): boolean =>
     !changes ||
     Boolean(changes.isEnabled) ||
-    features.some(({ storageKey }) => changes[storageKey as keyof IStorage]);
+    features.some(({ id }) => changes[id as keyof IStorage]);
 
 const areAllSectionFeaturesEnabled = (
     features: INormalizedFeature[],
     settings: IStorage
 ): boolean =>
     Boolean(
-        settings.isEnabled &&
-            features.every(({ storageKey }) => settings[storageKey]?.enabled)
+        settings.isEnabled && features.every(({ id }) => settings[id]?.enabled)
     );
 
 const getSectionActions = (features: INormalizedFeature[]) =>

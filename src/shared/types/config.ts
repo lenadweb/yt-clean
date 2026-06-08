@@ -38,7 +38,7 @@ export interface IFeatureConfig<TAction = IActionConfig> {
     section: string;
     title?: string;
     isNew?: boolean;
-    storageKey: keyof ISettings;
+    id: keyof ISettings;
     actions: TAction[];
     onChange?: (value: any) => void;
     ui?: ISettingsSectionOptions<TAction>;

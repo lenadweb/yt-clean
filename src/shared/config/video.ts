@@ -20,7 +20,7 @@ const channelFeature = createFeature(video, 'Channel');
 
 export const videoFeatures: IFeatureDraft[] = [
     playbackFeature({
-        storageKey: 'speedControl',
+        id: 'speedControl',
         actions: [
             componentAction(
                 'PlaybackSpeed',
@@ -46,29 +46,29 @@ export const videoFeatures: IFeatureDraft[] = [
     }),
     playerFeature({
         title: 'Hide mini-size button',
-        storageKey: 'hidePlayerMiniSizePlayerButton',
+        id: 'hidePlayerMiniSizePlayerButton',
         actions: [hideAction(['button.ytp-miniplayer-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide wide-size button',
-        storageKey: 'hidePlayerWideSizePlayerButton',
+        id: 'hidePlayerWideSizePlayerButton',
         actions: [hideAction(['button.ytp-size-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide subtitles button',
-        storageKey: 'hidePlayerSubtitlesButton',
+        id: 'hidePlayerSubtitlesButton',
         actions: [hideAction(['button.ytp-subtitles-button.ytp-button'])],
     }),
     playerFeature({
         title: 'Hide autoplay switcher',
-        storageKey: 'hidePlayerAutoplay',
+        id: 'hidePlayerAutoplay',
         actions: [
             hideAction(['[data-tooltip-target-id=ytp-autonav-toggle-button]']),
         ],
     }),
     shortsFeature({
         title: 'Speed Control',
-        storageKey: 'shortSpeedControl',
+        id: 'shortSpeedControl',
         actions: [
             componentAction('ShortsSpeedControl', '#cinematic-container', {
                 urlRegExp: [UrlRegExps.Shorts],
@@ -77,7 +77,7 @@ export const videoFeatures: IFeatureDraft[] = [
     }),
     shortsFeature({
         title: 'Automatic switching to the next',
-        storageKey: 'autoNextShorts',
+        id: 'autoNextShorts',
         actions: [
             customAction({
                 urlRegExp: [UrlRegExps.Shorts],
@@ -129,7 +129,7 @@ export const videoFeatures: IFeatureDraft[] = [
     }),
     channelFeature({
         title: 'Hide Channel trailer',
-        storageKey: 'hideChannelTrailer',
+        id: 'hideChannelTrailer',
         actions: [
             hideAction(
                 [
@@ -192,7 +192,7 @@ export const videoFeatures: IFeatureDraft[] = [
     }),
     channelFeature({
         title: 'Hide Channel banner',
-        storageKey: 'hideChannelBanner',
+        id: 'hideChannelBanner',
         actions: [hideAction(['#page-header-banner'])],
     }),
 ];

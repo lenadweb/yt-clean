@@ -33,14 +33,13 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     title,
 }) => {
     const groupEnabled = groups.some(
-        (value) => value.storageKey && settings[value.storageKey]?.enabled
+        (value) => value.id && settings[value.id]?.enabled
     );
 
     const toggleGroup = (value: boolean) => {
         groups.forEach((item) => {
-            if (!item.storageKey) return;
-            const oldValue = settings[item.storageKey];
-            setSetting(item.storageKey, {
+            const oldValue = settings[item.id];
+            setSetting(item.id, {
                 ...(oldValue || {}),
                 enabled: value,
             });
@@ -74,22 +73,16 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                 <div className="ml-3 flex flex-col gap-3">
                     {groups.map((group, index) => (
                         <Fragment
-                            key={
-                                group.storageKey ||
-                                group.title ||
-                                `group-${index}`
-                            }
+                            key={group.id || group.title || `group-${index}`}
                         >
                             <Checkbox
                                 isGrey={!groupEnabled}
                                 isNew={group.isNew}
                                 label={t(group.title || '')}
-                                checked={
-                                    settings[group.storageKey]?.enabled ?? false
-                                }
+                                checked={settings[group.id]?.enabled ?? false}
                                 disabled={!enabled}
                                 onChange={(value) =>
-                                    setSetting(group.storageKey, {
+                                    setSetting(group.id, {
                                         enabled: value,
                                     })
                                 }

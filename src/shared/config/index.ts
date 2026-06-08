@@ -28,7 +28,7 @@ const toKebabCase = (value: string): string =>
         .toLowerCase();
 
 const getFeatureAttr = (feature: IFeatureDraft): string =>
-    getAttr(`feature-${toKebabCase(feature.storageKey)}`);
+    getAttr(`feature-${toKebabCase(feature.id)}`);
 
 const getSectionAttr = (feature: IFeatureDraft): string =>
     getAttr(
@@ -114,7 +114,7 @@ export const getComponentsAction = () =>
         return components.length
             ? [
                   {
-                      storageKey: item.storageKey,
+                      id: item.id,
                       components,
                   },
               ]

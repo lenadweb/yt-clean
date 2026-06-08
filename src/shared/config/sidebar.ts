@@ -24,7 +24,7 @@ const moreFromYoutubeFeature = createFeature(sidebar, 'More from YouTube');
 export const sidebarFeatures: IFeatureDraft[] = [
     hideSidebarFeature({
         title: 'Hide sidebar completely',
-        storageKey: 'hideSidebar',
+        id: 'hideSidebar',
         actions: [
             hideAction([
                 'tp-yt-app-drawer#guide',
@@ -40,7 +40,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     mainMenuFeature({
         title: 'Hide "Shorts"',
-        storageKey: 'hideMenuShorts',
+        id: 'hideMenuShorts',
         actions: [
             hideAction([
                 'ytd-mini-guide-entry-renderer[aria-label=Shorts]',
@@ -50,7 +50,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Hide "History"',
-        storageKey: 'hideMenuHistory',
+        id: 'hideMenuHistory',
         ui: {
             onFullGroupEnabledActions: [
                 hideAction([
@@ -66,7 +66,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Hide "Playlists"',
-        storageKey: 'hideMenuPlaylists',
+        id: 'hideMenuPlaylists',
         actions: [
             hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/feed/playlists"])',
@@ -75,7 +75,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Hide "Your video"',
-        storageKey: 'hideMenuYourVideo',
+        id: 'hideMenuYourVideo',
         actions: [
             hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href*="studio.youtube"])',
@@ -84,7 +84,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Hide "Watch later"',
-        storageKey: 'hideMenuWatchLater',
+        id: 'hideMenuWatchLater',
         actions: [
             hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=WL"])',
@@ -93,7 +93,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Hide "Liked videos"',
-        storageKey: 'hideMenuLikedVideos',
+        id: 'hideMenuLikedVideos',
         actions: [
             hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=LL"])',
@@ -102,7 +102,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     youFeature({
         title: 'Your "Movies"',
-        storageKey: 'hideYourMovies',
+        id: 'hideYourMovies',
         actions: [
             hideAction([
                 '#section-items ytd-guide-entry-renderer:has([href*="/feed/storefront"])',
@@ -111,7 +111,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     subscriptionsFeature({
         title: 'Hide Subscriptions list',
-        storageKey: 'hideMenuSubscriptionsList',
+        id: 'hideMenuSubscriptionsList',
         actions: [
             hideAction([
                 "#sections ytd-guide-section-renderer:has([href*='@'])",
@@ -121,7 +121,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     exploreFeature({
         title: 'Hide "Trending"',
-        storageKey: 'hideMenuExploreTrending',
+        id: 'hideMenuExploreTrending',
         ui: {
             onFullGroupEnabledActions: [
                 hideAction([
@@ -137,7 +137,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     exploreFeature({
         title: 'Hide "Music"',
-        storageKey: 'hideMenuExploreMusic',
+        id: 'hideMenuExploreMusic',
         actions: [
             hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='channel/UC-9'])",
@@ -146,7 +146,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     exploreFeature({
         title: 'Hide "Gaming"',
-        storageKey: 'hideMenuExploreGaming',
+        id: 'hideMenuExploreGaming',
         actions: [
             hideAction([
                 "#sections ytd-guide-entry-renderer:has([href='/gaming'])",
@@ -155,7 +155,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     exploreFeature({
         title: 'Hide "News"',
-        storageKey: 'hideMenuExploreNews',
+        id: 'hideMenuExploreNews',
         actions: [
             hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
@@ -164,7 +164,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     exploreFeature({
         title: 'Hide "Sports"',
-        storageKey: 'hideMenuExploreSports',
+        id: 'hideMenuExploreSports',
         actions: [
             hideAction([
                 "#sections ytd-guide-entry-renderer:has([href*='UCEgdi0XIXXZ-qJOFPf4JSKw'])",
@@ -173,7 +173,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     moreFromYoutubeFeature({
         title: 'Hide "YouTube Premium"',
-        storageKey: 'hideMenuMorePremium',
+        id: 'hideMenuMorePremium',
         ui: {
             onFullGroupEnabledActions: [
                 hideAction([
@@ -189,7 +189,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     moreFromYoutubeFeature({
         title: 'Hide "YouTube Music"',
-        storageKey: 'hideMenuMoreMusic',
+        id: 'hideMenuMoreMusic',
         actions: [
             hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href='https://music.youtube.com/'])",
@@ -198,7 +198,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     moreFromYoutubeFeature({
         title: 'Hide "YouTube Kids"',
-        storageKey: 'hideMenuMoreKids',
+        id: 'hideMenuMoreKids',
         actions: [
             hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href*='youtubekids.com'])",
@@ -207,7 +207,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
     }),
     moreFromYoutubeFeature({
         title: 'Hide "YouTube Studio"',
-        storageKey: 'hideMenuMoreStudio',
+        id: 'hideMenuMoreStudio',
         actions: [
             hideAction([
                 "#sections #items ytd-guide-entry-renderer:has([href*='studio.youtube.com'])",

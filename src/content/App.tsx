@@ -40,7 +40,7 @@ const getComponentTargetSelector = (
 
 const getEnabledComponentConfigs = (storage: IStorage): ComponentConfig[] =>
     getComponentsAction().filter(
-        (item) => storage[item.storageKey]?.enabled && item.components.length
+        (item) => storage[item.id]?.enabled && item.components.length
     );
 
 const stillEnabled = (
