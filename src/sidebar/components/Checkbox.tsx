@@ -2,6 +2,7 @@ import React, { FC, useCallback } from 'react';
 import { Checkbox as HeadlessCheckbox, Field, Label } from '@headlessui/react';
 import cn from 'classnames';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
+import CheckIcon from 'src/assets/icons/check.svg';
 
 type Props = {
     label: string;
@@ -42,7 +43,7 @@ export const Checkbox: FC<Props> = ({
                     }
                 )}
             >
-                <svg
+                <CheckIcon
                     className={cn(
                         'stroke-white opacity-0 group-data-[checked]:opacity-100',
                         {
@@ -51,17 +52,7 @@ export const Checkbox: FC<Props> = ({
                     )}
                     width="10"
                     height="7"
-                    viewBox="0 0 10 7"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <path
-                        d="M8.875 1.00897L4.2465 5.63747C4.15274 5.73121 4.02558 5.78387 3.893 5.78387C3.76042 5.78387 3.63326 5.73121 3.5395 5.63747L1.125 3.22297"
-                        strokeWidth="0.75"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    />
-                </svg>
+                />
             </HeadlessCheckbox>
             <Label
                 className={cn(
