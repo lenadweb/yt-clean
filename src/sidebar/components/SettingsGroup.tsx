@@ -1,16 +1,11 @@
 import React, { FC, Fragment } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
-import {
-    IAttrAction,
-    SettingsGroup as ISettingsGroupConfig,
-} from 'src/shared/types/config';
+import { IFeatureConfig } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
-import { Dropdown } from 'src/sidebar/components/Dropdown';
-import { IAllSetting, IDropdownSettings } from 'src/shared/types/settings';
-import { Subtitle } from 'src/sidebar/components/Subtitle';
+import { IAllSetting } from 'src/shared/types/settings';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
@@ -19,7 +14,7 @@ interface ISettingsGroup {
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
-    groups: Array<ISettingsGroupConfig<IAttrAction[]>>;
+    groups: IFeatureConfig[];
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
     settings: IStorage;
@@ -85,55 +80,20 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                                 `group-${index}`
                             }
                         >
-                            {'type' in group && group.type === 'dropdown' ? (
-                                <Dropdown
-                                    label={t(group.title || '')}
-                                    isNew={group.isNew}
-                                    value={
-                                        (
-                                            settings[
-                                                group.storageKey
-                                            ] as IDropdownSettings
-                                        ).value
-                                    }
-                                    options={group.options || []}
-                                    disabled={!enabled || !groupEnabled}
-                                    onChange={(value) => {
-                                        setSetting(group.storageKey, {
-                                            enabled: true,
-                                            value,
-                                        });
-                                    }}
-                                />
-                            ) : 'type' in group &&
-                              group.type === 'subtitle' &&
-                              group.subtitle ? (
-                                <Subtitle
-                                    label={t(group.title || '')}
-                                    value={group.subtitle(
-                                        settings[
-                                            group.storageKey
-                                        ] as IDropdownSettings
-                                    )}
-                                    disabled={!enabled || !groupEnabled}
-                                />
-                            ) : (
-                                <Checkbox
-                                    isGrey={!groupEnabled}
-                                    isNew={group.isNew}
-                                    label={t(group.title || '')}
-                                    checked={
-                                        settings[group.storageKey]?.enabled ??
-                                        false
-                                    }
-                                    disabled={!enabled}
-                                    onChange={(value) =>
-                                        setSetting(group.storageKey, {
-                                            enabled: value,
-                                        })
-                                    }
-                                />
-                            )}
+                            <Checkbox
+                                isGrey={!groupEnabled}
+                                isNew={group.isNew}
+                                label={t(group.title || '')}
+                                checked={
+                                    settings[group.storageKey]?.enabled ?? false
+                                }
+                                disabled={!enabled}
+                                onChange={(value) =>
+                                    setSetting(group.storageKey, {
+                                        enabled: value,
+                                    })
+                                }
+                            />
                         </Fragment>
                     ))}
                 </div>

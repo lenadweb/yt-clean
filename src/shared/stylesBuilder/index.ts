@@ -1,4 +1,4 @@
-import { ElementActions } from 'src/shared/types/config';
+import { ElementActions, IAttrAction } from 'src/shared/types/config';
 import { CONFIG } from 'src/shared/config/index';
 import { getAttr } from 'src/shared/utils/getAttr';
 
@@ -69,38 +69,27 @@ ${RIGHT_MODE_STYLES}
 
 export const ALLOWED_COMMANDS: ElementActions[] = [ElementActions.hide];
 
-export const styles = CONFIG.domActions
-    .flatMap((item) =>
-        item.settings.flatMap(({ groups, onFullGroupEnabledActions }) =>
-            groups
-                .map((item) => {
-                    if (!('actions' in item)) return null;
-                    return {
-                        ...item,
-                        actions: [
-                            ...item.actions,
-                            ...(onFullGroupEnabledActions || []),
-                        ],
-                    };
-                })
-                .flatMap((group) =>
-                    group?.actions.flatMap((action) =>
-                        ALLOWED_COMMANDS.includes(action.action)
-                            ? action.selectors.map(
-                                  (selector) =>
-                                      `[${action.attr}] ${selector} { ${
-                                          CSS_BY_COMMAND[action.action]
-                                      } }`
-                              )
-                            : action?.customStyles
-                            ? action.customStyles.map(
-                                  (item) => `[${action.attr}] ${item}`
-                              )
-                            : []
-                    )
-                )
-        )
-    )
+const buildActionStyles = (action: IAttrAction): string[] => {
+    if (ALLOWED_COMMANDS.includes(action.action)) {
+        return action.selectors.map(
+            (selector) =>
+                `[${action.attr}] ${selector} { ${
+                    CSS_BY_COMMAND[action.action]
+                } }`
+        );
+    }
+
+    return action.customStyles?.map((item) => `[${action.attr}] ${item}`) || [];
+};
+
+const getSectionActions = (): IAttrAction[] =>
+    CONFIG.features.flatMap(
+        (feature) => feature.ui?.onFullGroupEnabledActions || []
+    );
+
+export const styles = [...CONFIG.features.flatMap(({ actions }) => actions)]
+    .concat(getSectionActions())
+    .flatMap(buildActionStyles)
     .filter(Boolean)
     .join('\n')
     .concat(`\n${DEFAULT_STYLES}`);

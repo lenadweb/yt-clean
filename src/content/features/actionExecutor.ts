@@ -73,10 +73,10 @@ export class DomActionExecutor {
     }
 
     private notifyGroupChange(plan: FeatureActionPlan): void {
-        const { group, status } = plan;
+        const { feature, status } = plan;
 
-        if (group && 'onChange' in group && group.onChange) {
-            group.onChange(status.enabled ? status.value : 'disabled');
+        if (feature?.onChange) {
+            feature.onChange(status.enabled ? status.value : 'disabled');
         }
     }
 }

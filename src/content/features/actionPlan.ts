@@ -1,18 +1,7 @@
-import {
-    IAttrAction,
-    IConfig,
-    IDomActions,
-    ISettingsBlock,
-    SettingsGroup,
-} from 'src/shared/types/config';
+import { IConfig, IFeatureConfig } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import { ISettings } from 'src/shared/types/settings';
 import { FeatureActionPlan, StorageChanges } from 'src/content/features/types';
-
-const hasActions = (
-    group: SettingsGroup<IAttrAction[]>
-): group is SettingsGroup<IAttrAction[]> & { actions: IAttrAction[] } =>
-    'actions' in group;
 
 const hasStorageChange = (
     changes: StorageChanges | undefined,
@@ -35,81 +24,79 @@ const isSettingEnabled = (
     storageKey: keyof ISettings
 ): boolean => Boolean(settings.isEnabled && settings[storageKey]?.enabled);
 
-const getSettingsGroups = (
-    sections: IDomActions<IAttrAction[]>[]
-): SettingsGroup<IAttrAction[]>[] =>
-    sections.flatMap((section) => section.groups);
+const getSectionKey = (feature: IFeatureConfig): string =>
+    `${feature.category}::${feature.section}`;
 
-const getConfigSections = (
-    config: IConfig
-): ISettingsBlock<IAttrAction[]>['settings'] =>
-    config.domActions.flatMap((block) => block.settings);
+const getSections = (features: IFeatureConfig[]): IFeatureConfig[][] =>
+    features.reduce<IFeatureConfig[][]>((sections, feature) => {
+        const section = sections.find(
+            ([item]) => getSectionKey(item) === getSectionKey(feature)
+        );
 
-const buildGroupActionPlans = (
-    groups: SettingsGroup<IAttrAction[]>[],
+        if (section) {
+            section.push(feature);
+            return sections;
+        }
+
+        sections.push([feature]);
+        return sections;
+    }, []);
+
+const buildFeaturePlans = (
+    features: IFeatureConfig[],
     settings: IStorage,
     changes?: StorageChanges
 ): FeatureActionPlan[] =>
-    groups
-        .filter(hasActions)
+    features
         .filter(({ storageKey }) => hasStorageChange(changes, storageKey))
-        .map((group) => ({
+        .map((feature) => ({
             status: {
-                enabled: isSettingEnabled(settings, group.storageKey),
-                value: getSettingValue(settings, group.storageKey),
+                enabled: isSettingEnabled(settings, feature.storageKey),
+                value: getSettingValue(settings, feature.storageKey),
             },
-            actions: group.actions,
-            group,
+            actions: feature.actions,
+            feature,
         }));
 
 const isSectionChanged = (
-    section: IDomActions<IAttrAction[]>,
+    features: IFeatureConfig[],
     changes?: StorageChanges
 ): boolean =>
     !changes ||
     Boolean(changes.isEnabled) ||
-    section.groups.some(
-        ({ storageKey }) => changes[storageKey as keyof IStorage]
-    );
+    features.some(({ storageKey }) => changes[storageKey as keyof IStorage]);
 
-const areAllSectionGroupsEnabled = (
-    section: IDomActions<IAttrAction[]>,
+const areAllSectionFeaturesEnabled = (
+    features: IFeatureConfig[],
     settings: IStorage
 ): boolean =>
     Boolean(
         settings.isEnabled &&
-            section.groups.every(
-                ({ storageKey }) => settings[storageKey]?.enabled
-            )
+            features.every(({ storageKey }) => settings[storageKey]?.enabled)
     );
 
-const buildFullGroupActionPlans = (
-    sections: IDomActions<IAttrAction[]>[],
+const buildSectionPlans = (
+    features: IFeatureConfig[],
     settings: IStorage,
     changes?: StorageChanges
 ): FeatureActionPlan[] =>
-    sections
-        .filter((section) => Boolean(section.onFullGroupEnabledActions))
+    getSections(features)
+        .filter(([feature]) => Boolean(feature.ui?.onFullGroupEnabledActions))
         .filter((section) => isSectionChanged(section, changes))
         .map((section) => ({
             status: {
-                enabled: areAllSectionGroupsEnabled(section, settings),
+                enabled: areAllSectionFeaturesEnabled(section, settings),
                 value: null,
             },
-            actions: section.onFullGroupEnabledActions || [],
-            group: null,
+            actions: section[0].ui?.onFullGroupEnabledActions || [],
+            feature: null,
         }));
 
 export const buildFeatureActionPlans = (
     config: IConfig,
     settings: IStorage,
     changes?: StorageChanges
-): FeatureActionPlan[] => {
-    const sections = getConfigSections(config);
-    const groups = getSettingsGroups(sections);
-
-    return [
-        ...buildGroupActionPlans(groups, settings, changes),
-        ...buildFullGroupActionPlans(sections, settings, changes),
-    ];
-};
+): FeatureActionPlan[] => [
+    ...buildFeaturePlans(config.features, settings, changes),
+    ...buildSectionPlans(config.features, settings, changes),
+];

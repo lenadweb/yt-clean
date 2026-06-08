@@ -1,101 +1,67 @@
+import { IFeatureConfig } from 'src/shared/types/config';
 import {
-    ElementActions,
-    IAttrAction,
-    ISettingsBlock,
-} from 'src/shared/types/config';
-import { getAttr } from 'src/shared/utils/getAttr';
+    createFeature,
+    hideAction,
+    stylesAction,
+} from 'src/shared/config/helpers';
 
-export const templateConfig: ISettingsBlock<IAttrAction[]> = {
-    title: 'Basic template',
-    settings: [
-        {
-            title: 'Search Bar',
-            groups: [
-                {
-                    title: 'Hide voice search button',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-voice-search'),
-                            selectors: ['#voice-search-button'],
-                        },
-                    ],
-                    storageKey: 'voiceButtonInSearch',
-                },
-                {
-                    title: 'Hide virtual keyboard button',
-                    actions: [
-                        {
-                            title: 'Virtual keyboard button',
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-virtual-keyboard'),
-                            selectors: [
-                                '.ytSearchboxComponentYtdTextInputAssistantWrapper',
-                            ],
-                        },
-                    ],
-                    storageKey: 'virtualKeyboard',
-                },
-                {
-                    title: 'Hide search tags',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-search-tags'),
-                            selectors: [
-                                '.ytd-feed-filter-chip-bar-renderer',
-                                '#header.ytd-rich-grid-renderer',
-                                'yt-related-chip-cloud-renderer',
-                            ],
-                        },
-                        {
-                            action: ElementActions.customStyles,
-                            attr: getAttr('hide-search-tags'),
-                            selectors: [],
-                            customStyles: [
-                                `#chip-bar {
-                                opacity: 0;
-                                pointer-events: none;
-                            }
-                            #frosted-glass.with-chipbar.ytd-app {
-                                height:64px!important;
-                            }
-                            `,
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideSearchTags',
-                },
-            ],
-        },
-        {
-            title: 'Actions & user',
-            groups: [
-                {
-                    title: 'Hide upload button',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-create-video'),
-                            selectors: ['#buttons .ytd-masthead:first-child'],
-                        },
-                    ],
-                    storageKey: 'hideCreateVideo',
-                },
-                {
-                    title: 'Hide notifications',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-notification-button'),
-                            selectors: [
-                                'ytd-notification-topbar-button-renderer.ytd-masthead',
-                            ],
-                        },
-                    ],
-                    storageKey: 'notificationButton',
-                },
-            ],
-        },
-    ],
-};
+const basicTemplate = 'Basic template';
+
+const searchBarFeature = createFeature(basicTemplate, 'Search Bar');
+const actionsFeature = createFeature(basicTemplate, 'Actions & user');
+
+export const templateFeatures: IFeatureConfig[] = [
+    searchBarFeature({
+        title: 'Hide voice search button',
+        storageKey: 'voiceButtonInSearch',
+        actions: [hideAction('hide-voice-search', ['#voice-search-button'])],
+    }),
+    searchBarFeature({
+        title: 'Hide virtual keyboard button',
+        storageKey: 'virtualKeyboard',
+        actions: [
+            hideAction('hide-virtual-keyboard', [
+                '.ytSearchboxComponentYtdTextInputAssistantWrapper',
+            ]),
+        ],
+    }),
+    searchBarFeature({
+        title: 'Hide search tags',
+        storageKey: 'hideSearchTags',
+        actions: [
+            hideAction('hide-search-tags', [
+                '.ytd-feed-filter-chip-bar-renderer',
+                '#header.ytd-rich-grid-renderer',
+                'yt-related-chip-cloud-renderer',
+            ]),
+            stylesAction('hide-search-tags', [
+                `#chip-bar {
+                    opacity: 0;
+                    pointer-events: none;
+                }
+                #frosted-glass.with-chipbar.ytd-app {
+                    height:64px!important;
+                }
+                `,
+            ]),
+        ],
+    }),
+    actionsFeature({
+        title: 'Hide upload button',
+        storageKey: 'hideCreateVideo',
+        actions: [
+            hideAction('hide-create-video', [
+                '#buttons .ytd-masthead:first-child',
+            ]),
+        ],
+    }),
+    actionsFeature({
+        title: 'Hide notifications',
+        storageKey: 'notificationButton',
+        actions: [
+            hideAction('hide-notification-button', [
+                'ytd-notification-topbar-button-renderer.ytd-masthead',
+            ]),
+        ],
+    }),
+];

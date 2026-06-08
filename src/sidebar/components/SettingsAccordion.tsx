@@ -7,14 +7,14 @@ import {
 import { IStorage } from 'src/shared/storage/config';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import cn from 'classnames';
-import { IAttrAction, IDomActions } from 'src/shared/types/config';
+import { ISettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
 import { IAllSetting } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 
 type Props = {
     title: string;
-    settings: IDomActions<IAttrAction[]>[];
+    settings: ISettingsSection[];
     storageSettings: IStorage;
     enabled: boolean;
     setSetting: (key: keyof IStorage, value: IAllSetting) => void;

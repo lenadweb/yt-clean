@@ -1,107 +1,69 @@
+import { IFeatureConfig } from 'src/shared/types/config';
 import {
-    ElementActions,
-    IAttrAction,
-    ISettingsBlock,
-} from 'src/shared/types/config';
-import { getAttr } from 'src/shared/utils/getAttr';
+    createFeature,
+    customAction,
+    hideAction,
+} from 'src/shared/config/helpers';
 
-export const feedConfig: ISettingsBlock<IAttrAction[]> = {
-    title: 'Feed & Recommendations',
-    settings: [
-        {
-            title: 'Content blocks',
-            groups: [
-                {
-                    title: 'Hide Shorts sections',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-shorts'),
-                            selectors: [
-                                '#player-container-wrapper',
-                                '.ytd-video-preview',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideShorts',
-                },
-                {
-                    title: 'Hide Explore & News',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-news-section'),
-                            selectors: [
-                                'ytd-rich-section-renderer:has(#rich-shelf-header):not(:has(.shortsLockupViewModelHostThumbnail))',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideNewsSection',
-                },
-                {
-                    title: 'Disable auto-preview on hover',
-                    isNew: true,
-                    actions: [
-                        {
-                            action: ElementActions.custom,
-                            attr: getAttr('hide-hover-preview'),
-                            selectors: [],
-                        },
-                    ],
-                    storageKey: 'hideHoverPreview',
-                },
-                {
-                    title: 'Hide Mixes & Playlists',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('hide-jams'),
-                            selectors: [
-                                'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
-                            ],
-                        },
-                    ],
-                    storageKey: 'hideJams',
-                },
-            ],
-        },
-        {
-            title: 'Ads',
-            groups: [
-                {
-                    title: 'Hide YouTube Banners',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('youtube-banners'),
-                            selectors: [
-                                'ytd-banner-promo-renderer',
-                                'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
-                                'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
-                            ],
-                        },
-                    ],
-                    storageKey: 'adsYoutubeBanner',
-                },
-                {
-                    title: 'Hide Sponsored feed video',
-                    actions: [
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('sponsored-feed-video'),
-                            selectors: [
-                                'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
-                            ],
-                        },
-                        {
-                            action: ElementActions.hide,
-                            attr: getAttr('sponsored-search'),
-                            selectors: ['ytd-search-pyv-renderer'],
-                        },
-                    ],
-                    storageKey: 'adsFeedVideo',
-                },
-            ],
-        },
-    ],
-};
+const feed = 'Feed & Recommendations';
+
+const contentBlockFeature = createFeature(feed, 'Content blocks');
+const adsFeature = createFeature(feed, 'Ads');
+
+export const feedFeatures: IFeatureConfig[] = [
+    contentBlockFeature({
+        title: 'Hide Shorts sections',
+        storageKey: 'hideShorts',
+        actions: [
+            hideAction('hide-shorts', [
+                '#player-container-wrapper',
+                '.ytd-video-preview',
+            ]),
+        ],
+    }),
+    contentBlockFeature({
+        title: 'Hide Explore & News',
+        storageKey: 'hideNewsSection',
+        actions: [
+            hideAction('hide-news-section', [
+                'ytd-rich-section-renderer:has(#rich-shelf-header):not(:has(.shortsLockupViewModelHostThumbnail))',
+            ]),
+        ],
+    }),
+    contentBlockFeature({
+        title: 'Disable auto-preview on hover',
+        isNew: true,
+        storageKey: 'hideHoverPreview',
+        actions: [customAction('hide-hover-preview')],
+    }),
+    contentBlockFeature({
+        title: 'Hide Mixes & Playlists',
+        storageKey: 'hideJams',
+        actions: [
+            hideAction('hide-jams', [
+                'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
+            ]),
+        ],
+    }),
+    adsFeature({
+        title: 'Hide YouTube Banners',
+        storageKey: 'adsYoutubeBanner',
+        actions: [
+            hideAction('youtube-banners', [
+                'ytd-banner-promo-renderer',
+                'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
+                'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
+            ]),
+        ],
+    }),
+    adsFeature({
+        title: 'Hide Sponsored feed video',
+        storageKey: 'adsFeedVideo',
+        actions: [
+            hideAction('sponsored-feed-video', [
+                'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
+            ]),
+            hideAction('sponsored-search', ['ytd-search-pyv-renderer']),
+        ],
+    }),
+];

@@ -1,6 +1,6 @@
 import React, { FC, useCallback, useMemo } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
-import { CONFIG } from 'src/shared/config';
+import { getSettingsCategories } from 'src/shared/config';
 import { IStorage } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import { IAllSetting } from 'src/shared/types/settings';
@@ -24,7 +24,7 @@ const Settings: FC = () => {
 
     const SettingsComponents = useMemo(
         () =>
-            [...CONFIG.domActions].map((value, index) => (
+            getSettingsCategories().map((value, index) => (
                 <SettingsAccordion
                     enabled={isEnabled}
                     key={index}

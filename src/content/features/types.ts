@@ -1,4 +1,4 @@
-import { IAttrAction, SettingsGroup } from 'src/shared/types/config';
+import { IAttrAction, IFeatureConfig } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 
 export type StorageChanges = Partial<
@@ -19,5 +19,5 @@ export type FeatureStatus = {
 export type FeatureActionPlan = {
     status: FeatureStatus;
     actions: IAttrAction[];
-    group: SettingsGroup<IAttrAction[]> | null;
+    feature: IFeatureConfig | null;
 };
