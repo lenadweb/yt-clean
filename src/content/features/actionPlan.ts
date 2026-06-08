@@ -19,7 +19,7 @@ const isSettingEnabled = (settings: IStorage, id: keyof ISettings): boolean =>
     Boolean(settings.isEnabled && settings[id]?.enabled);
 
 const getSectionKey = (feature: INormalizedFeature): string =>
-    `${feature.category}::${feature.section}`;
+    `${feature.categoryKey}::${feature.sectionKey}`;
 
 const getSections = (features: INormalizedFeature[]): INormalizedFeature[][] =>
     features.reduce<INormalizedFeature[][]>((sections, feature) => {

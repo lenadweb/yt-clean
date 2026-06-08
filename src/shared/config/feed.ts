@@ -5,21 +5,21 @@ import {
     hideAction,
 } from 'src/shared/config/helpers';
 
-const feed = 'Feed & Recommendations';
+const feed = 'feed_and_recommendations';
 
-const contentBlockFeature = createFeature(feed, 'Content blocks');
-const adsFeature = createFeature(feed, 'Ads');
+const contentBlockFeature = createFeature(feed, 'content_blocks');
+const adsFeature = createFeature(feed, 'ads');
 
 export const feedFeatures: IFeatureDraft[] = [
     contentBlockFeature({
-        title: 'Hide Shorts sections',
+        titleKey: 'hide_shorts_sections',
         id: 'hideShorts',
         actions: [
             hideAction(['#player-container-wrapper', '.ytd-video-preview']),
         ],
     }),
     contentBlockFeature({
-        title: 'Hide Explore & News',
+        titleKey: 'hide_explore_and_news',
         id: 'hideNewsSection',
         actions: [
             hideAction([
@@ -28,13 +28,13 @@ export const feedFeatures: IFeatureDraft[] = [
         ],
     }),
     contentBlockFeature({
-        title: 'Disable auto-preview on hover',
+        titleKey: 'disable_auto_preview_on_hover',
         isNew: true,
         id: 'hideHoverPreview',
         actions: [customAction()],
     }),
     contentBlockFeature({
-        title: 'Hide Mixes & Playlists',
+        titleKey: 'hide_mixes_and_playlists',
         id: 'hideJams',
         actions: [
             hideAction([
@@ -43,7 +43,7 @@ export const feedFeatures: IFeatureDraft[] = [
         ],
     }),
     adsFeature({
-        title: 'Hide YouTube Banners',
+        titleKey: 'hide_youtube_banners',
         id: 'adsYoutubeBanner',
         actions: [
             hideAction([
@@ -54,7 +54,7 @@ export const feedFeatures: IFeatureDraft[] = [
         ],
     }),
     adsFeature({
-        title: 'Hide Sponsored feed video',
+        titleKey: 'hide_sponsored_feed_video',
         id: 'adsFeedVideo',
         actions: [
             hideAction(['ytd-rich-item-renderer:has(ytd-ad-slot-renderer)']),

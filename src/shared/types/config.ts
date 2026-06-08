@@ -10,6 +10,7 @@ export enum ElementActions {
 }
 
 type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
+export type I18nKey = string;
 
 export interface IActionConfig {
     selectors: string[];
@@ -34,9 +35,9 @@ export interface ISettingsSectionOptions<TAction = IActionConfig> {
 }
 
 export interface IFeatureConfig<TAction = IActionConfig> {
-    category: string;
-    section: string;
-    title?: string;
+    categoryKey: I18nKey;
+    sectionKey: I18nKey;
+    titleKey?: I18nKey;
     isNew?: boolean;
     id: keyof ISettings;
     actions: TAction[];
@@ -48,12 +49,12 @@ export type IFeatureDraft = IFeatureConfig<IActionConfig>;
 export type INormalizedFeature = IFeatureConfig<IAttrAction>;
 
 export interface ISettingsSection extends ISettingsSectionOptions<IAttrAction> {
-    title: string;
+    titleKey: I18nKey;
     groups: INormalizedFeature[];
 }
 
 export interface ISettingsCategory {
-    title: string;
+    titleKey: I18nKey;
     settings: ISettingsSection[];
 }
 

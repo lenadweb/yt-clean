@@ -29,7 +29,7 @@ const Settings: FC = () => {
                     enabled={isEnabled}
                     key={index}
                     defaultOpen={index === 0}
-                    title={value.title}
+                    titleKey={value.titleKey}
                     settings={value.settings}
                     storageSettings={settings}
                     setSetting={setSetting}
@@ -44,13 +44,13 @@ const Settings: FC = () => {
                 <div className="flex items-center gap-4">
                     <Logo className="size-8" />
                     <h1 className="flex items-center gap-2 text-[20px] font-medium">
-                        {t('YouTube Clean')}
+                        {t('youtube_clean')}
                     </h1>
                 </div>
                 <button
                     onClick={() => setEnabled(!isEnabled)}
                     className="flex items-center justify-center transition duration-150 focus:outline-none active:scale-95"
-                    aria-label={t('Toggle extension')}
+                    aria-label={t('toggle_extension')}
                 >
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>

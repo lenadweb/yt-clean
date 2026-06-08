@@ -5,25 +5,25 @@ import {
     stylesAction,
 } from 'src/shared/config/helpers';
 
-const sidebar = 'Sidebar';
+const sidebar = 'sidebar';
 
-const hideSidebarFeature = createFeature(sidebar, 'Hide sidebar completely', {
+const hideSidebarFeature = createFeature(sidebar, 'hide_sidebar_completely', {
     isNew: true,
     withoutCheckboxes: true,
 });
-const mainMenuFeature = createFeature(sidebar, 'Main menu', {
+const mainMenuFeature = createFeature(sidebar, 'main_menu', {
     withoutSwitch: true,
 });
-const youFeature = createFeature(sidebar, 'You');
-const subscriptionsFeature = createFeature(sidebar, 'Hide Subscriptions list', {
+const youFeature = createFeature(sidebar, 'you');
+const subscriptionsFeature = createFeature(sidebar, 'hide_subscriptions_list', {
     withoutCheckboxes: true,
 });
-const exploreFeature = createFeature(sidebar, 'Explore');
-const moreFromYoutubeFeature = createFeature(sidebar, 'More from YouTube');
+const exploreFeature = createFeature(sidebar, 'explore');
+const moreFromYoutubeFeature = createFeature(sidebar, 'more_from_youtube');
 
 export const sidebarFeatures: IFeatureDraft[] = [
     hideSidebarFeature({
-        title: 'Hide sidebar completely',
+        titleKey: 'hide_sidebar_completely',
         id: 'hideSidebar',
         actions: [
             hideAction([
@@ -39,7 +39,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     mainMenuFeature({
-        title: 'Hide "Shorts"',
+        titleKey: 'hide_shorts',
         id: 'hideMenuShorts',
         actions: [
             hideAction([
@@ -49,7 +49,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Hide "History"',
+        titleKey: 'hide_history',
         id: 'hideMenuHistory',
         ui: {
             onFullGroupEnabledActions: [
@@ -65,7 +65,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Hide "Playlists"',
+        titleKey: 'hide_playlists',
         id: 'hideMenuPlaylists',
         actions: [
             hideAction([
@@ -74,7 +74,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Hide "Your video"',
+        titleKey: 'hide_your_video',
         id: 'hideMenuYourVideo',
         actions: [
             hideAction([
@@ -83,7 +83,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Hide "Watch later"',
+        titleKey: 'hide_watch_later',
         id: 'hideMenuWatchLater',
         actions: [
             hideAction([
@@ -92,7 +92,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Hide "Liked videos"',
+        titleKey: 'hide_liked_videos',
         id: 'hideMenuLikedVideos',
         actions: [
             hideAction([
@@ -101,7 +101,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     youFeature({
-        title: 'Your "Movies"',
+        titleKey: 'your_movies',
         id: 'hideYourMovies',
         actions: [
             hideAction([
@@ -110,7 +110,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     subscriptionsFeature({
-        title: 'Hide Subscriptions list',
+        titleKey: 'hide_subscriptions_list',
         id: 'hideMenuSubscriptionsList',
         actions: [
             hideAction([
@@ -120,7 +120,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     exploreFeature({
-        title: 'Hide "Trending"',
+        titleKey: 'hide_trending',
         id: 'hideMenuExploreTrending',
         ui: {
             onFullGroupEnabledActions: [
@@ -136,7 +136,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     exploreFeature({
-        title: 'Hide "Music"',
+        titleKey: 'hide_music',
         id: 'hideMenuExploreMusic',
         actions: [
             hideAction([
@@ -145,7 +145,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     exploreFeature({
-        title: 'Hide "Gaming"',
+        titleKey: 'hide_gaming',
         id: 'hideMenuExploreGaming',
         actions: [
             hideAction([
@@ -154,7 +154,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     exploreFeature({
-        title: 'Hide "News"',
+        titleKey: 'hide_news',
         id: 'hideMenuExploreNews',
         actions: [
             hideAction([
@@ -163,7 +163,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     exploreFeature({
-        title: 'Hide "Sports"',
+        titleKey: 'hide_sports',
         id: 'hideMenuExploreSports',
         actions: [
             hideAction([
@@ -172,7 +172,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     moreFromYoutubeFeature({
-        title: 'Hide "YouTube Premium"',
+        titleKey: 'hide_youtube_premium',
         id: 'hideMenuMorePremium',
         ui: {
             onFullGroupEnabledActions: [
@@ -188,7 +188,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     moreFromYoutubeFeature({
-        title: 'Hide "YouTube Music"',
+        titleKey: 'hide_youtube_music',
         id: 'hideMenuMoreMusic',
         actions: [
             hideAction([
@@ -197,7 +197,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     moreFromYoutubeFeature({
-        title: 'Hide "YouTube Kids"',
+        titleKey: 'hide_youtube_kids',
         id: 'hideMenuMoreKids',
         actions: [
             hideAction([
@@ -206,7 +206,7 @@ export const sidebarFeatures: IFeatureDraft[] = [
         ],
     }),
     moreFromYoutubeFeature({
-        title: 'Hide "YouTube Studio"',
+        titleKey: 'hide_youtube_studio',
         id: 'hideMenuMoreStudio',
         actions: [
             hideAction([

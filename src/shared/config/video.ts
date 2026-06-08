@@ -9,14 +9,14 @@ import {
     hideAction,
 } from 'src/shared/config/helpers';
 
-const video = 'Video Playback & Channel';
+const video = 'video_playback_and_channel';
 
-const playbackFeature = createFeature(video, 'Slider playback speed control', {
+const playbackFeature = createFeature(video, 'slider_playback_speed_control', {
     withoutCheckboxes: true,
 });
-const playerFeature = createFeature(video, 'Player');
-const shortsFeature = createFeature(video, 'Shorts');
-const channelFeature = createFeature(video, 'Channel');
+const playerFeature = createFeature(video, 'player');
+const shortsFeature = createFeature(video, 'shorts');
+const channelFeature = createFeature(video, 'channel');
 
 export const videoFeatures: IFeatureDraft[] = [
     playbackFeature({
@@ -45,29 +45,29 @@ export const videoFeatures: IFeatureDraft[] = [
         },
     }),
     playerFeature({
-        title: 'Hide mini-size button',
+        titleKey: 'hide_mini_size_button',
         id: 'hidePlayerMiniSizePlayerButton',
         actions: [hideAction(['button.ytp-miniplayer-button.ytp-button'])],
     }),
     playerFeature({
-        title: 'Hide wide-size button',
+        titleKey: 'hide_wide_size_button',
         id: 'hidePlayerWideSizePlayerButton',
         actions: [hideAction(['button.ytp-size-button.ytp-button'])],
     }),
     playerFeature({
-        title: 'Hide subtitles button',
+        titleKey: 'hide_subtitles_button',
         id: 'hidePlayerSubtitlesButton',
         actions: [hideAction(['button.ytp-subtitles-button.ytp-button'])],
     }),
     playerFeature({
-        title: 'Hide autoplay switcher',
+        titleKey: 'hide_autoplay_switcher',
         id: 'hidePlayerAutoplay',
         actions: [
             hideAction(['[data-tooltip-target-id=ytp-autonav-toggle-button]']),
         ],
     }),
     shortsFeature({
-        title: 'Speed Control',
+        titleKey: 'speed_control',
         id: 'shortSpeedControl',
         actions: [
             componentAction('ShortsSpeedControl', '#cinematic-container', {
@@ -76,7 +76,7 @@ export const videoFeatures: IFeatureDraft[] = [
         ],
     }),
     shortsFeature({
-        title: 'Automatic switching to the next',
+        titleKey: 'automatic_switching_to_the_next',
         id: 'autoNextShorts',
         actions: [
             customAction({
@@ -128,7 +128,7 @@ export const videoFeatures: IFeatureDraft[] = [
         ],
     }),
     channelFeature({
-        title: 'Hide Channel trailer',
+        titleKey: 'hide_channel_trailer',
         id: 'hideChannelTrailer',
         actions: [
             hideAction(
@@ -191,7 +191,7 @@ export const videoFeatures: IFeatureDraft[] = [
         ],
     }),
     channelFeature({
-        title: 'Hide Channel banner',
+        titleKey: 'hide_channel_banner',
         id: 'hideChannelBanner',
         actions: [hideAction(['#page-header-banner'])],
     }),

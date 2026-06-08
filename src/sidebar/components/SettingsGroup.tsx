@@ -10,7 +10,7 @@ import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
 interface ISettingsGroup {
-    title: string;
+    titleKey: string;
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
@@ -30,7 +30,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     withoutSwitch,
     settings,
     setSetting,
-    title,
+    titleKey,
 }) => {
     const groupEnabled = groups.some(
         (value) => value.id && settings[value.id]?.enabled
@@ -58,7 +58,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                         }
                     )}
                 >
-                    {t(title)}
+                    {t(titleKey)}
                     {isNew && <NewBadge />}
                 </div>
                 {!withoutSwitch ? (
@@ -73,12 +73,12 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                 <div className="ml-3 flex flex-col gap-3">
                     {groups.map((group, index) => (
                         <Fragment
-                            key={group.id || group.title || `group-${index}`}
+                            key={group.id || group.titleKey || `group-${index}`}
                         >
                             <Checkbox
                                 isGrey={!groupEnabled}
                                 isNew={group.isNew}
-                                label={t(group.title || '')}
+                                label={t(group.titleKey || '')}
                                 checked={settings[group.id]?.enabled ?? false}
                                 disabled={!enabled}
                                 onChange={(value) =>

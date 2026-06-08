@@ -5,18 +5,18 @@ import {
     ISettingsSectionOptions,
 } from 'src/shared/types/config';
 
-type FeatureInput = Omit<IFeatureDraft, 'category' | 'section'>;
+type FeatureInput = Omit<IFeatureDraft, 'categoryKey' | 'sectionKey'>;
 type ActionOptions = Partial<Omit<IActionConfig, 'action' | 'selectors'>>;
 
 export const createFeature =
     (
-        category: string,
-        section: string,
+        categoryKey: string,
+        sectionKey: string,
         sectionOptions?: ISettingsSectionOptions
     ) =>
     (feature: FeatureInput): IFeatureDraft => ({
-        category,
-        section,
+        categoryKey,
+        sectionKey,
         ...feature,
         ui: {
             ...sectionOptions,

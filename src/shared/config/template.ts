@@ -5,26 +5,26 @@ import {
     stylesAction,
 } from 'src/shared/config/helpers';
 
-const basicTemplate = 'Basic template';
+const basicTemplate = 'basic_template';
 
-const searchBarFeature = createFeature(basicTemplate, 'Search Bar');
-const actionsFeature = createFeature(basicTemplate, 'Actions & user');
+const searchBarFeature = createFeature(basicTemplate, 'search_bar');
+const actionsFeature = createFeature(basicTemplate, 'actions_and_user');
 
 export const templateFeatures: IFeatureDraft[] = [
     searchBarFeature({
-        title: 'Hide voice search button',
+        titleKey: 'hide_voice_search_button',
         id: 'voiceButtonInSearch',
         actions: [hideAction(['#voice-search-button'])],
     }),
     searchBarFeature({
-        title: 'Hide virtual keyboard button',
+        titleKey: 'hide_virtual_keyboard_button',
         id: 'virtualKeyboard',
         actions: [
             hideAction(['.ytSearchboxComponentYtdTextInputAssistantWrapper']),
         ],
     }),
     searchBarFeature({
-        title: 'Hide search tags',
+        titleKey: 'hide_search_tags',
         id: 'hideSearchTags',
         actions: [
             hideAction([
@@ -45,12 +45,12 @@ export const templateFeatures: IFeatureDraft[] = [
         ],
     }),
     actionsFeature({
-        title: 'Hide upload button',
+        titleKey: 'hide_upload_button',
         id: 'hideCreateVideo',
         actions: [hideAction(['#buttons .ytd-masthead:first-child'])],
     }),
     actionsFeature({
-        title: 'Hide notifications',
+        titleKey: 'hide_notifications',
         id: 'notificationButton',
         actions: [
             hideAction([

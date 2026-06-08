@@ -32,8 +32,8 @@ const getFeatureAttr = (feature: IFeatureDraft): string =>
 
 const getSectionAttr = (feature: IFeatureDraft): string =>
     getAttr(
-        `section-${toKebabCase(feature.category)}-${toKebabCase(
-            feature.section
+        `section-${toKebabCase(feature.categoryKey)}-${toKebabCase(
+            feature.sectionKey
         )}`
     );
 
@@ -67,29 +67,29 @@ export const CONFIG: IConfig = {
 
 const getCategory = (
     categories: ISettingsCategory[],
-    title: string
+    titleKey: string
 ): ISettingsCategory | undefined =>
-    categories.find((category) => category.title === title);
+    categories.find((category) => category.titleKey === titleKey);
 
 export const getSettingsCategories = (): ISettingsCategory[] =>
     CONFIG.features.reduce<ISettingsCategory[]>((categories, feature) => {
-        let category = getCategory(categories, feature.category);
+        let category = getCategory(categories, feature.categoryKey);
 
         if (!category) {
             category = {
-                title: feature.category,
+                titleKey: feature.categoryKey,
                 settings: [],
             };
             categories.push(category);
         }
 
         let section = category.settings.find(
-            (item) => item.title === feature.section
+            (item) => item.titleKey === feature.sectionKey
         );
 
         if (!section) {
             section = {
-                title: feature.section,
+                titleKey: feature.sectionKey,
                 groups: [],
                 ...feature.ui,
             };
