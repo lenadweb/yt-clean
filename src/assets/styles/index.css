@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@config "../../../tailwind.config.ts";
+@import 'tailwindcss';
 
 @font-face {
     font-family: 'Manrope';
@@ -15,5 +14,5 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Manrope'!important;
+    font-family: 'Manrope' !important;
 }

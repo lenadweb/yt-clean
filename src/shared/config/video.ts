@@ -169,7 +169,7 @@ export const videoFeatures: IFeatureDraft[] = [
                             }
                         }
                         return results;
-                    } catch (error) {
+                    } catch {
                         //
                     }
                 },

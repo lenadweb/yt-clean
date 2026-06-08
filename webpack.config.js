@@ -33,10 +33,6 @@ module.exports = (env) => ({
                 use: ['@svgr/webpack'],
             },
             {
-                test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
-                loader: 'url-loader',
-            },
-            {
                 test: /\.css$/i,
                 include: path.resolve(__dirname, 'src'),
                 oneOf: [
@@ -64,10 +60,6 @@ module.exports = (env) => ({
                 generator: {
                     filename: 'fonts/[name][ext]',
                 },
-            },
-            {
-                test: /\.less$/i,
-                use: ['style-loader', 'css-loader', 'less-loader'],
             },
         ],
     },

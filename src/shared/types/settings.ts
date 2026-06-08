@@ -2,15 +2,11 @@ export interface IBaseSetting {
     enabled?: boolean;
 }
 
-interface IRelatedSettings extends IBaseSetting {
-    maxVideo?: number;
-}
-
 export interface IDropdownSettings extends IBaseSetting {
     value?: string;
 }
 
-export interface IAllSetting extends IDropdownSettings, IRelatedSettings {}
+export interface IAllSetting extends IDropdownSettings {}
 
 export interface ISettings {
     hideShorts: IBaseSetting;
