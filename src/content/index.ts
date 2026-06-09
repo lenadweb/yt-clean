@@ -1,7 +1,7 @@
 import { IConfig } from 'src/shared/types/config';
 import { CONFIG } from 'src/shared/featureConfig';
 import { storage } from 'src/shared/storage';
-import { waitForDocumentReady } from 'src/shared/utils/browser';
+import { onUrlChange } from 'src/shared/utils/navigation';
 import { waitForElement } from 'src/shared/utils/dom';
 import { injectComponents } from 'src/content/components';
 import { DomActionExecutor } from 'src/content/features/actionExecutor';
@@ -16,22 +16,12 @@ class Content {
     constructor(config: IConfig) {
         this.config = config;
 
-        this.watchUrlChanges();
+        onUrlChange((url) => {
+            this.currentUrl = url;
+            this.runFeatures();
+        });
         storage.onChange((changes) => this.runFeatures(changes));
         this.runWhenBodyIsReady();
-    }
-
-    private watchUrlChanges(): void {
-        waitForDocumentReady().then(() => {
-            const observer = new MutationObserver(() => {
-                if (window.location.href !== this.currentUrl) {
-                    this.currentUrl = window.location.href;
-                    this.runFeatures();
-                }
-            });
-
-            observer.observe(document.body, { childList: true, subtree: true });
-        });
     }
 
     private runWhenBodyIsReady(): void {

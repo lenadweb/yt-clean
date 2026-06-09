@@ -1,22 +1,10 @@
 import { useEffect, useState } from 'react';
+import { getCurrentUrl, onUrlChange } from 'src/shared/utils/navigation';
 
 export function useUrl() {
-    const [href, setHref] = useState(() => window.location.href);
+    const [href, setHref] = useState(getCurrentUrl);
 
-    useEffect(() => {
-        const observer = new MutationObserver(() => {
-            if (window.location.href !== href) {
-                setHref(window.location.href);
-            }
-        });
-
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true,
-        });
-
-        return () => observer.disconnect();
-    }, [href]);
+    useEffect(() => onUrlChange(setHref), []);
 
     return href;
 }
