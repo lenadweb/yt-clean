@@ -1,6 +1,5 @@
 node_modules
 .env
-.yarn
 **/dist
 **/export
 **/npm
@@ -10,5 +9,4 @@ results
 .idea
 .DS_Store
 *.diff
-yarn-error.log
 /release

@@ -25,7 +25,7 @@ export const useMountedComponents = (
     );
 
     useEffect(() => {
-        let isCancelled = false;
+        const controller = new AbortController();
         const activeIds = getComponentIds(componentDefinitions);
 
         setMountedComponents((components) =>
@@ -33,17 +33,19 @@ export const useMountedComponents = (
         );
 
         componentDefinitions.forEach((definition) => {
-            findComponentTarget(definition).then((mountedComponent) => {
-                if (isCancelled || !mountedComponent) return;
+            findComponentTarget(definition, controller.signal).then(
+                (mountedComponent) => {
+                    if (!mountedComponent) return;
 
-                setMountedComponents((components) =>
-                    addMountedComponent(components, mountedComponent)
-                );
-            });
+                    setMountedComponents((components) =>
+                        addMountedComponent(components, mountedComponent)
+                    );
+                }
+            );
         });
 
         return () => {
-            isCancelled = true;
+            controller.abort();
         };
     }, [componentDefinitions]);
 

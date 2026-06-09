@@ -8,9 +8,14 @@
     "type": "git",
     "url": "https://github.com/lenadweb/yt-clean.git"
   },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.9"
+  },
   "scripts": {
     "dev": "webpack --env development --watch",
     "bump": "node bumpVersion.js",
+    "build": "webpack --env platform=chrome",
     "build:chrome": "node bumpVersion.js && webpack --env platform=chrome",
     "build:opera": "node bumpVersion.js && webpack --env platform=opera",
     "lint": "eslint .",

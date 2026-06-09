@@ -1,5 +1,9 @@
 import { UrlRegExps } from 'src/shared/const';
-import { observeElementChanges, waitForElement } from 'src/shared/utils/dom';
+import {
+    disconnectObserver,
+    observeElementChanges,
+    waitForElement,
+} from 'src/shared/utils/dom';
 import { setPlaybackSpeed } from 'src/shared/utils/yt';
 
 const SHORTS_LOOP_OBSERVER_ID = '498d5cf9-dbda-4ded-b2a0-0218d1bc833d';
@@ -76,6 +80,10 @@ export const enableAutoNextShorts = async () => {
     } catch (error) {
         console.error('Element not found or error occurred:', error);
     }
+};
+
+export const disableAutoNextShorts = () => {
+    disconnectObserver(SHORTS_LOOP_OBSERVER_ID);
 };
 
 const cacheAndRemoveElement = (element: Element): CachedElement | null => {

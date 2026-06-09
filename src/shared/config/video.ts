@@ -1,6 +1,7 @@
 import { UrlRegExps } from 'src/shared/const';
 import { defineCategory } from 'src/shared/featureConfig/dsl';
 import {
+    disableAutoNextShorts,
     enableAutoNextShorts,
     hideChannelTrailer,
     restoreChannelTrailer,
@@ -60,6 +61,7 @@ export const videoFeatures = [
         url: [UrlRegExps.Shorts],
         custom: {
             enable: enableAutoNextShorts,
+            disable: disableAutoNextShorts,
         },
     }),
     channel.feature({

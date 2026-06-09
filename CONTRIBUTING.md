@@ -45,7 +45,8 @@ For a new setting id, also update:
 Run checks before opening a PR:
 
 ```bash
-yarn lint
-npx tsc --noEmit
-npx webpack --env platform=chrome
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm build
 ```

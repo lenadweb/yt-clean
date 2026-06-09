@@ -21,11 +21,12 @@ toggle enables or disables the whole extension at once.
 
 ## Getting started
 
-Requires [Node.js](https://nodejs.org) and [Yarn](https://yarnpkg.com).
+Requires [Node.js](https://nodejs.org) (>= 20.9) and [pnpm](https://pnpm.io)
+(`corepack enable` will pick the version from `package.json`).
 
 ```bash
-yarn install
-yarn dev          # watch build into ./dist
+pnpm install
+pnpm dev          # watch build into ./dist
 ```
 
 Then load the unpacked extension:
@@ -37,16 +38,18 @@ Then load the unpacked extension:
 ### Production builds
 
 ```bash
-yarn build:chrome   # bumps version, outputs release/build-<version>.zip
-yarn build:opera    # Opera-specific manifest
+pnpm build          # one-off chrome build into ./dist
+pnpm build:chrome   # bumps version, outputs release/build-<version>.zip
+pnpm build:opera    # Opera-specific manifest
 ```
 
 ### Checks
 
 ```bash
-yarn lint
-yarn typecheck
-yarn format
+pnpm lint
+pnpm typecheck
+pnpm test
+pnpm format
 ```
 
 ## How it works

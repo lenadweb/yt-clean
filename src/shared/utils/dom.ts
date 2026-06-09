@@ -1,6 +1,7 @@
 export const waitForElement = (
     selector: string,
     maxTimeout = 0,
+    signal?: AbortSignal,
     root: HTMLElement | Document = document.documentElement
 ): Promise<Element | null> =>
     new Promise((resolve) => {
@@ -8,12 +9,14 @@ export const waitForElement = (
 
         const existing = check();
         if (existing) return resolve(existing);
+        if (signal?.aborted) return resolve(null);
 
         let timeoutId: ReturnType<typeof setTimeout> | null = null;
         let throttleId: ReturnType<typeof setTimeout> | null = null;
 
         const cleanup = () => {
             observer.disconnect();
+            signal?.removeEventListener('abort', onAbort);
             if (timeoutId) {
                 clearTimeout(timeoutId);
                 timeoutId = null;
@@ -22,6 +25,11 @@ export const waitForElement = (
                 clearTimeout(throttleId);
                 throttleId = null;
             }
+        };
+
+        const onAbort = () => {
+            cleanup();
+            resolve(null);
         };
 
         const throttledCheck = () => {
@@ -45,6 +53,8 @@ export const waitForElement = (
             childList: true,
             subtree: true,
         });
+
+        signal?.addEventListener('abort', onAbort, { once: true });
 
         if (maxTimeout > 0) {
             timeoutId = setTimeout(() => {
@@ -82,10 +92,7 @@ export const observeElementChanges = (
         window.__elementObservers__ = {};
     }
 
-    if (window.__elementObservers__[id]) {
-        window.__elementObservers__[id].disconnect();
-        delete window.__elementObservers__[id];
-    }
+    disconnectObserver(id);
 
     const checkAndCallback = () => {
         const element = document.querySelector(selector);
@@ -101,4 +108,12 @@ export const observeElementChanges = (
     observer.observe(root, options);
 
     window.__elementObservers__[id] = observer;
+};
+
+export const disconnectObserver = (id: string): void => {
+    const observer = window.__elementObservers__?.[id];
+    if (observer) {
+        observer.disconnect();
+        delete window.__elementObservers__![id];
+    }
 };
