@@ -19,7 +19,6 @@ describe('mergeStorage', () => {
 
         expect(merged.isEnabled).toBe(false);
         expect(merged.hideShorts).toEqual({ enabled: true });
-        // Untouched keys still come from defaults.
         expect(merged.hideJams).toEqual(DEFAULT_STORAGE.hideJams);
     });
 });
@@ -40,7 +39,7 @@ describe('applyStorageChanges', () => {
         );
 
         expect(next.hideShorts).toEqual({ enabled: true });
-        expect(next).not.toBe(DEFAULT_STORAGE); // returns a new object
+        expect(next).not.toBe(DEFAULT_STORAGE);
     });
 
     it('falls back to defaults when a change has no new value', () => {

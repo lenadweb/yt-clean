@@ -50,7 +50,7 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
         };
 
         const unsubscribe = storage.onChange(sync);
-        sync(); // Catch state that loaded before this subscription.
+        sync();
 
         return unsubscribe;
     }, []);

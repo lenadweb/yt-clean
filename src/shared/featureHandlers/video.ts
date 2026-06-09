@@ -114,7 +114,7 @@ export const hideChannelTrailer = async (): Promise<CachedElement[] | void> => {
         const trailer = await waitForElement(CHANNEL_TRAILER_SELECTOR);
         return removeElements([trailer]);
     } catch {
-        //
+        return;
     }
 };
 

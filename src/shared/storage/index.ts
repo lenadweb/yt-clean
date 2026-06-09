@@ -7,12 +7,6 @@ import {
 
 type Listener = (changes?: StorageChanges) => void;
 
-/**
- * Single source of truth for extension settings. Mirrors `chrome.storage.local`
- * in memory, applies defaults, and notifies subscribers on every change.
- * One instance per execution context (see the `storage` singleton below) is
- * shared by both the imperative DOM layer and the React UI.
- */
 export class Storage {
     settings: IStorage;
     isReady = false;
