@@ -1511,15 +1511,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@heroicons/react@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "@heroicons/react@npm:2.2.0"
-  peerDependencies:
-    react: ">= 16 || ^19.0.0-rc"
-  checksum: 10c0/f8d3cf689b56716339c91df3542f3948115042d1e70e6bc940a3f3e347c0bc78b56aa563917fbd7ce097fe2f38ebb21bffb0db39be914cbc545a754bddae9ab4
-  languageName: node
-  linkType: hard
-
 "@humanfs/core@npm:^0.19.2":
   version: 0.19.2
   resolution: "@humanfs/core@npm:0.19.2"
@@ -6694,13 +6685,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"youtube-boost@workspace:.":
+"yt-clean@workspace:.":
   version: 0.0.0-use.local
-  resolution: "youtube-boost@workspace:."
+  resolution: "yt-clean@workspace:."
   dependencies:
     "@eslint/js": "npm:^9"
     "@headlessui/react": "npm:^2.2.10"
-    "@heroicons/react": "npm:^2.2.0"
     "@svgr/webpack": "npm:^8.1.0"
     "@tailwindcss/postcss": "npm:^4.3.0"
     "@types/chrome": "npm:^0.1.43"
@@ -6720,7 +6710,6 @@ __metadata:
     postcss: "npm:^8.5.15"
     postcss-loader: "npm:^8.2.1"
     prettier: "npm:^3.8.3"
-    prop-types: "npm:^15.8.1"
     react: "npm:^19.2.7"
     react-dom: "npm:^19.2.7"
     react-shadow: "npm:^20.6.0"

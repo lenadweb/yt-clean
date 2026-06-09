@@ -5,7 +5,7 @@ import {
     DisclosurePanel,
 } from '@headlessui/react';
 import { IStorage } from 'src/shared/storage/config';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import ChevronDownIcon from 'src/assets/icons/chevron-down.svg';
 import cn from 'classnames';
 import { ISettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
