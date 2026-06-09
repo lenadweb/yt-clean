@@ -16,22 +16,19 @@ import {
 type ComponentDefinition = {
     name: string;
     after: string;
-    url?: UrlRegExp[];
 };
 
 type CustomDefinition = {
     enable?: IActionConfig['onEnable'];
     disable?: IActionConfig['onDisable'];
-    url?: UrlRegExp[];
 };
 
 type ActionFields = {
     url?: UrlRegExp[];
     hide?: string[];
     styles?: string[];
-    component?: ComponentDefinition | ComponentDefinition[];
-    custom?: true | CustomDefinition | CustomDefinition[];
-    actions?: IActionConfig[];
+    component?: ComponentDefinition;
+    custom?: true | CustomDefinition;
 };
 
 type SectionOptions = Omit<
@@ -44,55 +41,35 @@ type SectionOptions = Omit<
 type FeatureInput = ActionFields & {
     id: keyof ISettings;
     title?: I18nKey;
-    titleKey?: I18nKey;
     isNew?: boolean;
     onChange?: IFeatureDraft['onChange'];
-    ui?: ISettingsSectionOptions;
 };
 
-const toArray = <T>(value: T | T[] | undefined): T[] => {
-    if (!value) return [];
-    return Array.isArray(value) ? value : [value];
-};
-
-const getUrlRegExp = (
-    actionUrl: UrlRegExp[] | undefined,
-    featureUrl: UrlRegExp[] | undefined
-): UrlRegExp[] | undefined => actionUrl ?? featureUrl;
-
-const getComponentActions = ({
-    component,
+const getActions = ({
     url,
-}: ActionFields): IActionConfig[] =>
-    toArray(component).map((item) =>
-        componentAction(item.name, item.after, {
-            urlRegExp: getUrlRegExp(item.url, url),
-        })
-    );
-
-const getCustomActions = ({ custom, url }: ActionFields): IActionConfig[] =>
-    toArray(custom).map((item) => {
-        if (item === true) {
-            return customAction({ urlRegExp: url });
-        }
-
-        return customAction({
-            urlRegExp: getUrlRegExp(item.url, url),
-            onEnable: item.enable,
-            onDisable: item.disable,
-        });
-    });
-
-const getActions = (fields: ActionFields): IActionConfig[] => [
-    ...(fields.hide
-        ? [hideAction(fields.hide, { urlRegExp: fields.url })]
+    hide,
+    styles,
+    component,
+    custom,
+}: ActionFields): IActionConfig[] => [
+    ...(hide ? [hideAction(hide, { urlRegExp: url })] : []),
+    ...(styles ? [stylesAction(styles, { urlRegExp: url })] : []),
+    ...(component
+        ? [componentAction(component.name, component.after, { urlRegExp: url })]
         : []),
-    ...(fields.styles
-        ? [stylesAction(fields.styles, { urlRegExp: fields.url })]
+    ...(custom
+        ? [
+              customAction(
+                  custom === true
+                      ? { urlRegExp: url }
+                      : {
+                            urlRegExp: url,
+                            onEnable: custom.enable,
+                            onDisable: custom.disable,
+                        }
+              ),
+          ]
         : []),
-    ...getComponentActions(fields),
-    ...getCustomActions(fields),
-    ...(fields.actions ?? []),
 ];
 
 const getSectionOptions = (
@@ -118,15 +95,12 @@ export const defineCategory = (categoryKey: I18nKey) => ({
             feature: (feature: FeatureInput): IFeatureDraft => ({
                 categoryKey,
                 sectionKey,
-                titleKey: feature.titleKey ?? feature.title,
+                titleKey: feature.title,
                 id: feature.id,
                 isNew: feature.isNew,
                 actions: getActions(feature),
                 onChange: feature.onChange,
-                ui: {
-                    ...ui,
-                    ...feature.ui,
-                },
+                ui,
             }),
         };
     },
