@@ -1,4 +1,4 @@
-import React, { FC, Fragment } from 'react';
+import React, { FC } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
 import { INormalizedFeature } from 'src/shared/types/config';
@@ -21,6 +21,11 @@ interface ISettingsGroup {
     setSetting: (key: keyof IStorage, value: IAllSetting) => void;
 }
 
+const isGroupEnabled = (
+    groups: INormalizedFeature[],
+    settings: IStorage
+): boolean => groups.some(({ id }) => Boolean(settings[id]?.enabled));
+
 const SettingsGroup: FC<ISettingsGroup> = ({
     groups,
     isFirst,
@@ -32,15 +37,12 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     setSetting,
     titleKey,
 }) => {
-    const groupEnabled = groups.some(
-        (value) => value.id && settings[value.id]?.enabled
-    );
+    const groupEnabled = isGroupEnabled(groups, settings);
 
-    const toggleGroup = (value: boolean) => {
+    const setGroupEnabled = (value: boolean) => {
         groups.forEach((item) => {
-            const oldValue = settings[item.id];
             setSetting(item.id, {
-                ...(oldValue || {}),
+                ...settings[item.id],
                 enabled: value,
             });
         });
@@ -65,29 +67,26 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                     <Switch
                         disabled={!enabled}
                         enabled={groupEnabled}
-                        setEnabled={toggleGroup}
+                        setEnabled={setGroupEnabled}
                     />
                 ) : null}
             </div>
             {!withoutCheckboxes ? (
                 <div className="ml-3 flex flex-col gap-3">
-                    {groups.map((group, index) => (
-                        <Fragment
-                            key={group.id || group.titleKey || `group-${index}`}
-                        >
-                            <Checkbox
-                                isGrey={!groupEnabled}
-                                isNew={group.isNew}
-                                label={t(group.titleKey || '')}
-                                checked={settings[group.id]?.enabled ?? false}
-                                disabled={!enabled}
-                                onChange={(value) =>
-                                    setSetting(group.id, {
-                                        enabled: value,
-                                    })
-                                }
-                            />
-                        </Fragment>
+                    {groups.map((group) => (
+                        <Checkbox
+                            key={group.id}
+                            isGrey={!groupEnabled}
+                            isNew={group.isNew}
+                            label={t(group.titleKey || '')}
+                            checked={settings[group.id]?.enabled ?? false}
+                            disabled={!enabled}
+                            onChange={(value) =>
+                                setSetting(group.id, {
+                                    enabled: value,
+                                })
+                            }
+                        />
                     ))}
                 </div>
             ) : null}

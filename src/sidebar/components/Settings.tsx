@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useMemo } from 'react';
+import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { getSettingsCategories } from 'src/shared/config';
 import { IStorage } from 'src/shared/storage/config';
@@ -9,34 +9,18 @@ import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
 import PowerOffIcon from 'src/assets/icons/power-off.svg';
 
+const settingsCategories = getSettingsCategories();
+
 const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
 
+    const isEnabled = settings.isEnabled;
     const setSetting = (key: keyof IStorage, value: IAllSetting) => {
         updateSettings(key, value);
     };
-
-    const setEnabled = useCallback((value: boolean) => {
-        updateSettings('isEnabled', value);
-    }, []);
-
-    const isEnabled = settings.isEnabled;
-
-    const SettingsComponents = useMemo(
-        () =>
-            getSettingsCategories().map((value, index) => (
-                <SettingsAccordion
-                    enabled={isEnabled}
-                    key={index}
-                    defaultOpen={index === 0}
-                    titleKey={value.titleKey}
-                    settings={value.settings}
-                    storageSettings={settings}
-                    setSetting={setSetting}
-                />
-            )),
-        [settings, isEnabled]
-    );
+    const toggleEnabled = () => {
+        updateSettings('isEnabled', !isEnabled);
+    };
 
     return (
         <div className="min-h-screen w-full space-y-2.5 rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
@@ -48,14 +32,24 @@ const Settings: FC = () => {
                     </h1>
                 </div>
                 <button
-                    onClick={() => setEnabled(!isEnabled)}
+                    onClick={toggleEnabled}
                     className="flex items-center justify-center transition duration-150 focus:outline-none active:scale-95"
                     aria-label={t('toggle_extension')}
                 >
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
-            {SettingsComponents}
+            {settingsCategories.map((category, index) => (
+                <SettingsAccordion
+                    enabled={isEnabled}
+                    key={category.titleKey}
+                    defaultOpen={index === 0}
+                    titleKey={category.titleKey}
+                    settings={category.settings}
+                    storageSettings={settings}
+                    setSetting={setSetting}
+                />
+            ))}
         </div>
     );
 };

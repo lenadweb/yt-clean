@@ -1,4 +1,4 @@
-import React, { FC, useCallback, useMemo } from 'react';
+import React, { FC } from 'react';
 import { Switch as SwitchHeadless } from '@headlessui/react';
 import cn from 'classnames';
 
@@ -13,18 +13,13 @@ const Switch: FC<ISwitch> = ({
     enabled: enabledProp,
     disabled,
 }) => {
-    const onChange = useCallback(
-        (value: boolean) => {
-            if (!disabled) {
-                setEnabled(value);
-            }
-        },
-        [disabled, setEnabled]
-    );
-    const enabled = useMemo(
-        () => (disabled ? false : enabledProp),
-        [enabledProp, disabled]
-    );
+    const enabled = !disabled && enabledProp;
+    const onChange = (value: boolean) => {
+        if (!disabled) {
+            setEnabled(value);
+        }
+    };
+
     return (
         <SwitchHeadless
             checked={enabled}
