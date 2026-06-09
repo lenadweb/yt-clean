@@ -1,6 +1,6 @@
 import { IConfig } from 'src/shared/types/config';
 import { CONFIG } from 'src/shared/featureConfig';
-import { Storage } from 'src/shared/storage';
+import { storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
 import { waitForElement } from 'src/shared/utils/dom';
 import { injectComponents } from 'src/content/components';
@@ -12,14 +12,12 @@ class Content {
     private currentUrl = window.location.href;
     private readonly actionExecutor = new DomActionExecutor();
     private readonly config: IConfig;
-    private readonly storage: Storage;
 
     constructor(config: IConfig) {
         this.config = config;
-        this.storage = new Storage();
 
         this.watchUrlChanges();
-        this.storage.onChange((changes) => this.runFeatures(changes));
+        storage.onChange((changes) => this.runFeatures(changes));
         this.runWhenBodyIsReady();
     }
 
@@ -45,7 +43,7 @@ class Content {
     private runFeatures(changes?: StorageChanges): void {
         const actionPlans = buildFeatureActionPlans(
             this.config,
-            this.storage.settings,
+            storage.settings,
             changes
         );
 

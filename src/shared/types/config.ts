@@ -3,7 +3,6 @@ import { UrlRegExps } from 'src/shared/const';
 
 export enum ElementActions {
     hide = 'hide',
-    click = 'click',
     custom = 'custom',
     customStyles = 'customStyles',
     component = 'component',

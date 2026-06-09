@@ -1,5 +1,4 @@
 import { ElementActions, IAttrAction } from 'src/shared/types/config';
-import { waitForElement } from 'src/shared/utils/dom';
 import { CachedElement, FeatureActionPlan } from 'src/content/features/types';
 
 const isTargetUrl = (action: IAttrAction, url: string): boolean =>
@@ -38,23 +37,9 @@ export class DomActionExecutor {
 
         setBodyAttribute(action, shouldEnable);
 
-        if (action.action === ElementActions.click && shouldEnable) {
-            this.clickTargets(action);
-        }
-
         if (action.action === ElementActions.custom) {
             this.runCustomAction(action, shouldEnable);
         }
-    }
-
-    private clickTargets(action: IAttrAction): void {
-        action.selectors.forEach((selector) => {
-            waitForElement(selector).then((element) => {
-                if (element) {
-                    (element as HTMLElement).click();
-                }
-            });
-        });
     }
 
     private runCustomAction(action: IAttrAction, shouldEnable: boolean): void {

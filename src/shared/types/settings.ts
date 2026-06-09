@@ -6,7 +6,7 @@ export interface IDropdownSettings extends IBaseSetting {
     value?: string;
 }
 
-export interface IAllSetting extends IDropdownSettings {}
+export type IAllSetting = IDropdownSettings;
 
 export interface ISettings {
     hideShorts: IBaseSetting;

@@ -5,17 +5,15 @@ import React, {
     useEffect,
     useState,
 } from 'react';
-import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
-import {
-    applyStorageChanges,
-    mergeStorage,
-    StorageChanges,
-} from 'src/shared/storage/helpers';
+import { IStorage } from 'src/shared/storage/config';
+import { storage } from 'src/shared/storage';
 
 type UpdateSetting = <K extends keyof IStorage>(
     key: K,
     value: IStorage[K]
 ) => void;
+
+const updateSetting: UpdateSetting = (key, value) => storage.update(key, value);
 
 const StorageContext = createContext<[IStorage, UpdateSetting] | null>(null);
 
@@ -30,63 +28,34 @@ export const useStorage = (): [IStorage, UpdateSetting] => {
 export const useStorageValue = <K extends keyof IStorage>(
     key: K
 ): [IStorage[K], (value: IStorage[K]) => void] => {
-    const context = useContext(StorageContext);
-    if (!context) {
-        throw new Error('useStorage must be used within a StorageProvider');
-    }
-    const [settings, updateSetting] = context;
-
-    const value = settings[key];
+    const [settings] = useStorage();
     const setValue = useCallback(
-        (v: IStorage[K]) => updateSetting(key, v),
-        [key, updateSetting]
+        (value: IStorage[K]) => updateSetting(key, value),
+        [key]
     );
 
-    return [value, setValue];
+    return [settings[key], setValue];
 };
 
 export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     children,
 }) => {
-    const [isInit, setIsInit] = useState(false);
-    const [settings, setSettings] = useState<IStorage>(DEFAULT_STORAGE);
+    const [settings, setSettings] = useState<IStorage>(storage.settings);
+    const [isReady, setIsReady] = useState(storage.isReady);
 
     useEffect(() => {
-        chrome.storage.local.get(null, (data) => {
-            const mergedSettings = mergeStorage(
-                DEFAULT_STORAGE,
-                data as Partial<IStorage>
-            );
-
-            setSettings(mergedSettings);
-            setIsInit(true);
-            chrome.storage.local.set(mergedSettings);
-        });
-
-        const handleStorageChange = (
-            changes: Record<string, chrome.storage.StorageChange>
-        ) => {
-            setSettings((prev) =>
-                applyStorageChanges(
-                    prev,
-                    changes as StorageChanges,
-                    DEFAULT_STORAGE
-                )
-            );
+        const sync = () => {
+            setSettings({ ...storage.settings });
+            setIsReady(storage.isReady);
         };
 
-        chrome.storage.onChanged.addListener(handleStorageChange);
-        return () => {
-            chrome.storage.onChanged.removeListener(handleStorageChange);
-        };
+        const unsubscribe = storage.onChange(sync);
+        sync(); // Catch state that loaded before this subscription.
+
+        return unsubscribe;
     }, []);
 
-    const updateSetting: UpdateSetting = useCallback((key, value) => {
-        setSettings((prev) => ({ ...prev, [key]: value }));
-        chrome.storage.local.set({ [key]: value });
-    }, []);
-
-    if (!isInit) {
+    if (!isReady) {
         return null;
     }
 

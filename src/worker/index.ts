@@ -1,49 +1,9 @@
 import { isOpera } from 'src/shared/utils/browser';
-import { Storage } from 'src/shared/storage';
-import { Message } from 'src/shared/types/messages';
 
-declare global {
-    var background: Background | undefined;
+// Open the side panel when the toolbar icon is clicked.
+// Opera has no sidePanel API, so this is Chromium-only.
+if (!isOpera() && chrome.sidePanel) {
+    chrome.sidePanel
+        .setPanelBehavior({ openPanelOnActionClick: true })
+        .catch((error) => console.error(error));
 }
-
-export class Background {
-    isOpera = isOpera();
-    private storage: Storage;
-
-    constructor() {
-        this.setEvents();
-        this.storage = new Storage();
-    }
-
-    setEvents() {
-        if (isOpera()) return;
-        if (typeof chrome.sidePanel !== 'undefined') {
-            chrome.sidePanel
-                .setPanelBehavior({ openPanelOnActionClick: true })
-                .catch((error) => console.error(error));
-        }
-        chrome.runtime.onMessage.addListener(
-            (message: Message, sender, sendResponse) => {
-                const handler = this?.[message.type as keyof typeof this];
-                if (typeof handler === 'function') {
-                    (async () => {
-                        const response = await handler.call(
-                            this,
-                            message.payload
-                        );
-                        sendResponse(response);
-                    })();
-                }
-                return true;
-            }
-        );
-    }
-}
-
-async function createBackgroundInstance() {
-    return new Background();
-}
-
-createBackgroundInstance().then((instance) => {
-    globalThis.background = instance;
-});
