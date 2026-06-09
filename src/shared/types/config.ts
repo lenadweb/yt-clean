@@ -11,20 +11,49 @@ export enum ElementActions {
 export type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 export type I18nKey = string;
 
-export interface IActionConfig {
-    selectors?: string[];
-    customStyles?: string[];
-    onEnable?: () => Promise<any> | any;
-    onDisable?: (value?: any) => any;
-    action: ElementActions;
-    component?: string;
-    insertAfter?: string;
+interface ActionBase {
     urlRegExp?: UrlRegExp[];
 }
 
-export interface IAttrAction extends IActionConfig {
-    attr: string;
+export type CachedElement = {
+    element: Element;
+    parent: Node;
+    nextSibling: ChildNode | null;
+};
+
+export type CustomActionResult = CachedElement[] | void;
+
+export interface IHideAction extends ActionBase {
+    action: ElementActions.hide;
+    selectors: string[];
 }
+
+export interface IStylesAction extends ActionBase {
+    action: ElementActions.customStyles;
+    customStyles: string[];
+}
+
+export interface ICustomAction extends ActionBase {
+    action: ElementActions.custom;
+    onEnable?: () => Promise<CustomActionResult> | CustomActionResult;
+    onDisable?: (value?: CachedElement[]) => unknown;
+}
+
+export interface IComponentAction extends ActionBase {
+    action: ElementActions.component;
+    component: string;
+    insertAfter: string;
+}
+
+export type IActionConfig =
+    | IHideAction
+    | IStylesAction
+    | ICustomAction
+    | IComponentAction;
+
+export type IAttrAction = IActionConfig & {
+    attr: string;
+};
 
 export interface ISettingsSectionOptions<TAction = IActionConfig> {
     isNew?: boolean;
@@ -40,7 +69,7 @@ export interface IFeatureConfig<TAction = IActionConfig> {
     isNew?: boolean;
     id: keyof ISettings;
     actions: TAction[];
-    onChange?: (value: any) => void;
+    onChange?: (value: unknown) => void;
     ui?: ISettingsSectionOptions<TAction>;
 }
 

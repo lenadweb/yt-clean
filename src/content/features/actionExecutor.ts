@@ -1,5 +1,10 @@
-import { ElementActions, IAttrAction } from 'src/shared/types/config';
-import { CachedElement, FeatureActionPlan } from 'src/content/features/types';
+import {
+    ElementActions,
+    IAttrAction,
+    ICustomAction,
+    CachedElement,
+} from 'src/shared/types/config';
+import { FeatureActionPlan } from 'src/content/features/types';
 
 const isTargetUrl = (action: IAttrAction, url: string): boolean =>
     action.urlRegExp
@@ -42,7 +47,10 @@ export class DomActionExecutor {
         }
     }
 
-    private runCustomAction(action: IAttrAction, shouldEnable: boolean): void {
+    private runCustomAction(
+        action: IAttrAction & ICustomAction,
+        shouldEnable: boolean
+    ): void {
         if (shouldEnable && action.onEnable) {
             Promise.resolve(action.onEnable()).then((result) => {
                 if (result && action.attr) {

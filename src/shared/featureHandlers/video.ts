@@ -5,6 +5,7 @@ import {
     waitForElement,
 } from 'src/shared/utils/dom';
 import { setPlaybackSpeed } from 'src/shared/utils/yt';
+import { CachedElement } from 'src/shared/types/config';
 
 const SHORTS_LOOP_OBSERVER_ID = '498d5cf9-dbda-4ded-b2a0-0218d1bc833d';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
@@ -18,18 +19,13 @@ const CHANNEL_TRAILER_VIDEO_SELECTOR = `${CHANNEL_TRAILER_SELECTOR} .html5-video
 const VIDEO_PLAYER_SELECTOR =
     '.html5-video-player:not(.unstarted-mode) video[src]';
 
-interface CachedElement {
-    element: Element;
-    parent: Node;
-    nextSibling: ChildNode | null;
-}
-
 type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 
 const isCurrentUrlMatched = (urlRegExps: UrlRegExp[]): boolean =>
     urlRegExps.some((regexp) => new RegExp(regexp).test(window.location.href));
 
-export const syncPlaybackSpeed = async (value: string) => {
+export const syncPlaybackSpeed = async (value: unknown) => {
+    if (typeof value !== 'string') return;
     if (value === 'disabled') return;
 
     if (!isCurrentUrlMatched([UrlRegExps.Watch, UrlRegExps.Channel])) {

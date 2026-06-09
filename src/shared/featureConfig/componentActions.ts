@@ -1,16 +1,15 @@
 import {
     ElementActions,
     IAttrAction,
+    IComponentAction,
     INormalizedFeature,
-    UrlRegExp,
 } from 'src/shared/types/config';
 import { ISettings } from 'src/shared/types/settings';
 
-type ComponentAction = {
-    insertAfter: string;
-    component: string;
-    urlRegExp?: UrlRegExp[];
-};
+type ComponentAction = Pick<
+    IComponentAction,
+    'component' | 'insertAfter' | 'urlRegExp'
+>;
 
 export type ComponentActionGroup = {
     id: keyof ISettings;
@@ -20,8 +19,7 @@ export type ComponentActionGroup = {
 const isComponentAction = (
     action: IAttrAction
 ): action is IAttrAction & ComponentAction =>
-    action.action === ElementActions.component &&
-    Boolean(action.component && action.insertAfter);
+    action.action === ElementActions.component;
 
 export const getComponentActionGroups = (
     features: INormalizedFeature[]

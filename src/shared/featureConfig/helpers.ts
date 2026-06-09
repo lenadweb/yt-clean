@@ -1,11 +1,20 @@
-import { ElementActions, IActionConfig } from 'src/shared/types/config';
+import {
+    ElementActions,
+    IComponentAction,
+    ICustomAction,
+    IHideAction,
+    IStylesAction,
+    UrlRegExp,
+} from 'src/shared/types/config';
 
-type ActionOptions = Partial<Omit<IActionConfig, 'action' | 'selectors'>>;
+type UrlOptions = {
+    urlRegExp?: UrlRegExp[];
+};
 
 export const hideAction = (
     selectors: string[],
-    options: ActionOptions = {}
-): IActionConfig => ({
+    options: UrlOptions = {}
+): IHideAction => ({
     action: ElementActions.hide,
     selectors,
     ...options,
@@ -13,14 +22,16 @@ export const hideAction = (
 
 export const stylesAction = (
     customStyles: string[],
-    options: ActionOptions = {}
-): IActionConfig => ({
+    options: UrlOptions = {}
+): IStylesAction => ({
     action: ElementActions.customStyles,
     customStyles,
     ...options,
 });
 
-export const customAction = (options: ActionOptions = {}): IActionConfig => ({
+export const customAction = (
+    options: Omit<ICustomAction, 'action'> = {}
+): ICustomAction => ({
     action: ElementActions.custom,
     ...options,
 });
@@ -28,8 +39,8 @@ export const customAction = (options: ActionOptions = {}): IActionConfig => ({
 export const componentAction = (
     component: string,
     insertAfter: string,
-    options: ActionOptions = {}
-): IActionConfig => ({
+    options: UrlOptions = {}
+): IComponentAction => ({
     action: ElementActions.component,
     component,
     insertAfter,

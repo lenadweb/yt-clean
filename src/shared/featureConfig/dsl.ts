@@ -1,5 +1,6 @@
 import {
     IActionConfig,
+    ICustomAction,
     IFeatureDraft,
     I18nKey,
     ISettingsSectionOptions,
@@ -19,8 +20,8 @@ type ComponentDefinition = {
 };
 
 type CustomDefinition = {
-    enable?: IActionConfig['onEnable'];
-    disable?: IActionConfig['onDisable'];
+    enable?: ICustomAction['onEnable'];
+    disable?: ICustomAction['onDisable'];
 };
 
 type ActionFields = {
