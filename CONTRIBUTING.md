@@ -10,7 +10,8 @@ the YouTube area you are changing:
 - `video.ts` - player, Shorts, channel pages
 - `sidebar.ts` - sidebar menu items
 
-Use the config DSL instead of runtime action objects.
+Use `defineCategory` from `src/shared/featureConfig/dsl` instead of runtime
+action objects.
 
 ```ts
 const feed = defineCategory('feed_and_recommendations');

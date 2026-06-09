@@ -1,4 +1,4 @@
-import { defineCategory } from 'src/shared/config/dsl';
+import { defineCategory } from 'src/shared/featureConfig/dsl';
 
 const feed = defineCategory('feed_and_recommendations');
 const contentBlocks = feed.section('content_blocks');

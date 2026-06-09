@@ -3,7 +3,7 @@ import type {
     ComponentName,
 } from 'src/content/features/componentRegistry';
 import { componentRegistry } from 'src/content/features/componentRegistry';
-import { getComponentsAction } from 'src/shared/config';
+import { getComponentsAction } from 'src/shared/featureConfig';
 import { IStorage } from 'src/shared/storage/config';
 import { waitForElement } from 'src/shared/utils/dom';
 

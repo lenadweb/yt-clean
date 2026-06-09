@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
-import { getSettingsCategories } from 'src/shared/config';
+import { getSettingsCategories } from 'src/shared/featureConfig';
 import { IStorage } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import { IAllSetting } from 'src/shared/types/settings';

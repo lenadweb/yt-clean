@@ -11,7 +11,7 @@ import {
     customAction,
     hideAction,
     stylesAction,
-} from 'src/shared/config/helpers';
+} from 'src/shared/featureConfig/helpers';
 
 type ComponentDefinition = {
     name: string;

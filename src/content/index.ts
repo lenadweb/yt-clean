@@ -1,5 +1,5 @@
 import { IConfig } from 'src/shared/types/config';
-import { CONFIG } from 'src/shared/config';
+import { CONFIG } from 'src/shared/featureConfig';
 import { Storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
 import { waitForElement } from 'src/shared/utils/dom';

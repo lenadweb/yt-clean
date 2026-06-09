@@ -1,11 +1,11 @@
 import { UrlRegExps } from 'src/shared/const';
-import { defineCategory } from 'src/shared/config/dsl';
+import { defineCategory } from 'src/shared/featureConfig/dsl';
 import {
     enableAutoNextShorts,
     hideChannelTrailer,
     restoreChannelTrailer,
     syncPlaybackSpeed,
-} from 'src/shared/config/videoHandlers';
+} from 'src/shared/featureHandlers/video';
 
 const video = defineCategory('video_playback_and_channel');
 const playback = video.section('slider_playback_speed_control', {

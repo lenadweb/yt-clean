@@ -1,5 +1,5 @@
 import { ElementActions, IAttrAction } from 'src/shared/types/config';
-import { CONFIG } from 'src/shared/config/index';
+import { CONFIG } from 'src/shared/featureConfig';
 import { getAttr } from 'src/shared/utils/getAttr';
 
 export const CSS_BY_COMMAND: Partial<Record<ElementActions, string>> = {
