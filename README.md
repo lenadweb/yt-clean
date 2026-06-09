@@ -63,14 +63,14 @@ src/shared/config/*.ts        Feature definitions (the only file most PRs touch)
         ▼
 src/shared/featureConfig/      Normalizes drafts → attaches a body attribute per feature
         │                      and derives the settings tree + component list
-        ├── CONFIG ───────────────────────────────┐
+        ├── FEATURES ─────────────────────────────┐
         ▼                                          ▼
 src/shared/stylesBuilder       src/content/features/   →  content.js
   static CSS (hide/styles)        runtime DOM actions      (toggles body attrs,
   emitted as content.css          + React component           runs custom handlers)
                                   injection
         ▼
-src/sidebar/                   Side-panel UI generated from the same CONFIG
+src/sidebar/                   Side-panel UI generated from the same FEATURES
 ```
 
 The three entry points (`webpack.config.js`):
