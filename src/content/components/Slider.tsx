@@ -29,16 +29,19 @@ type ClientPoint = {
 type SliderAxisProps = Pick<SliderProps, 'vertical' | 'size'>;
 type SliderRangeProps = Required<Pick<SliderProps, 'min' | 'max' | 'step'>>;
 
-const clamp = (value: number, min: number, max: number): number =>
+export const clamp = (value: number, min: number, max: number): number =>
     Math.min(Math.max(value, min), max);
 
-const getValuePercent = (value: number, min: number, max: number): number =>
-    clamp(((value - min) / (max - min)) * 100, 0, 100);
+export const getValuePercent = (
+    value: number,
+    min: number,
+    max: number
+): number => clamp(((value - min) / (max - min)) * 100, 0, 100);
 
 const getStopPercent = (stop: number, min: number, max: number): number =>
     ((stop - min) / (max - min)) * 100;
 
-const getSteppedValue = (
+export const getSteppedValue = (
     percent: number,
     min: number,
     max: number,
