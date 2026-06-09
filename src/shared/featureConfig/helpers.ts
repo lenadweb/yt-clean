@@ -16,14 +16,12 @@ export const stylesAction = (
     options: ActionOptions = {}
 ): IActionConfig => ({
     action: ElementActions.customStyles,
-    selectors: [],
     customStyles,
     ...options,
 });
 
 export const customAction = (options: ActionOptions = {}): IActionConfig => ({
     action: ElementActions.custom,
-    selectors: [],
     ...options,
 });
 
@@ -33,7 +31,6 @@ export const componentAction = (
     options: ActionOptions = {}
 ): IActionConfig => ({
     action: ElementActions.component,
-    selectors: [],
     component,
     insertAfter,
     ...options,

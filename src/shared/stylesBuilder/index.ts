@@ -63,8 +63,10 @@ ${RIGHT_MODE_STYLES}
 
 const buildActionStyles = (action: IAttrAction): string[] => {
     if (action.action === ElementActions.hide) {
-        return action.selectors.map(
-            (selector) => `[${action.attr}] ${selector} { ${HIDE_STYLE} }`
+        return (
+            action.selectors?.map(
+                (selector) => `[${action.attr}] ${selector} { ${HIDE_STYLE} }`
+            ) ?? []
         );
     }
 

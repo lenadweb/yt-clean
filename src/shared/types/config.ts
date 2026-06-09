@@ -12,7 +12,7 @@ export type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 export type I18nKey = string;
 
 export interface IActionConfig {
-    selectors: string[];
+    selectors?: string[];
     customStyles?: string[];
     onEnable?: () => Promise<any> | any;
     onDisable?: (value?: any) => any;
