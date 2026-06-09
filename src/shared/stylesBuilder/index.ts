@@ -2,13 +2,7 @@ import { ElementActions, IAttrAction } from 'src/shared/types/config';
 import { CONFIG } from 'src/shared/featureConfig';
 import { getAttr } from 'src/shared/utils/getAttr';
 
-export const CSS_BY_COMMAND: Partial<Record<ElementActions, string>> = {
-    [ElementActions.hide]: 'display: none !important;',
-};
-
-export const DEFAULT_CLASSES = {
-    hide: getAttr('hide-class'),
-};
+const HIDE_STYLE = 'display: none !important;';
 
 const RIGHT_MODE_ATTR = getAttr('right-comment-mode');
 
@@ -61,25 +55,26 @@ const RIGHT_MODE_STYLES = `
 
 const DEFAULT_STYLES = `
 .${getAttr('hide-class')} {
-    ${CSS_BY_COMMAND.hide}
+    ${HIDE_STYLE}
 }
 
 ${RIGHT_MODE_STYLES}
 `;
 
-export const ALLOWED_COMMANDS: ElementActions[] = [ElementActions.hide];
-
 const buildActionStyles = (action: IAttrAction): string[] => {
-    if (ALLOWED_COMMANDS.includes(action.action)) {
+    if (action.action === ElementActions.hide) {
         return action.selectors.map(
-            (selector) =>
-                `[${action.attr}] ${selector} { ${
-                    CSS_BY_COMMAND[action.action]
-                } }`
+            (selector) => `[${action.attr}] ${selector} { ${HIDE_STYLE} }`
         );
     }
 
-    return action.customStyles?.map((item) => `[${action.attr}] ${item}`) || [];
+    if (action.action === ElementActions.customStyles) {
+        return (
+            action.customStyles?.map((item) => `[${action.attr}] ${item}`) ?? []
+        );
+    }
+
+    return [];
 };
 
 const getSectionActions = (): IAttrAction[] =>
