@@ -90,15 +90,15 @@ const getSectionOptions = (
     };
 };
 
-export const defineCategory = (categoryKey: I18nKey) => ({
-    section: (sectionKey: I18nKey, sectionOptions?: SectionOptions) => {
+export const defineCategory = (category: I18nKey) => ({
+    section: (section: I18nKey, sectionOptions?: SectionOptions) => {
         const ui = getSectionOptions(sectionOptions);
 
         return {
             feature: (feature: FeatureInput): IFeatureDraft => ({
-                categoryKey,
-                sectionKey,
-                titleKey: feature.title,
+                category,
+                section,
+                title: feature.title,
                 id: feature.id,
                 isNew: feature.isNew,
                 defaultEnabled: feature.defaultEnabled,

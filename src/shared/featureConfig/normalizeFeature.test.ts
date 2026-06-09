@@ -5,8 +5,8 @@ import { normalizeFeature } from 'src/shared/featureConfig/normalizeFeature';
 import { getAttr } from 'src/shared/utils/getAttr';
 
 const draft: IFeatureDraft = {
-    categoryKey: 'feed_and_recommendations',
-    sectionKey: 'content_blocks',
+    category: 'feed_and_recommendations',
+    section: 'content_blocks',
     id: 'hideShorts',
     actions: [hideAction(['#shorts'])],
     ui: {

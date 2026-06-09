@@ -42,9 +42,9 @@ const Settings: FC = () => {
             {settingsCategories.map((category, index) => (
                 <SettingsAccordion
                     enabled={isEnabled}
-                    key={category.titleKey}
+                    key={category.title}
                     defaultOpen={index === 0}
-                    titleKey={category.titleKey}
+                    title={category.title}
                     settings={category.settings}
                     storageSettings={settings}
                     setSetting={setSetting}

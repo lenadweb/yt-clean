@@ -6,8 +6,8 @@ import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 
 const draft: IFeatureDraft = {
-    categoryKey: 'feed_and_recommendations',
-    sectionKey: 'content_blocks',
+    category: 'feed_and_recommendations',
+    section: 'content_blocks',
     id: 'hideShorts',
     actions: [hideAction(['#shorts'])],
 };

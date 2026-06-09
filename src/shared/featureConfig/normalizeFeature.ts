@@ -18,8 +18,8 @@ const getFeatureAttr = (feature: IFeatureDraft): string =>
 
 const getSectionAttr = (feature: IFeatureDraft): string =>
     getAttr(
-        `section-${toKebabCase(feature.categoryKey)}-${toKebabCase(
-            feature.sectionKey
+        `section-${toKebabCase(feature.category)}-${toKebabCase(
+            feature.section
         )}`
     );
 

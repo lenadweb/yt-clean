@@ -2,31 +2,31 @@ import { INormalizedFeature, ISettingsCategory } from 'src/shared/types/config';
 
 const getCategory = (
     categories: ISettingsCategory[],
-    titleKey: string
+    title: string
 ): ISettingsCategory | undefined =>
-    categories.find((category) => category.titleKey === titleKey);
+    categories.find((category) => category.title === title);
 
 export const buildSettingsCategories = (
     features: INormalizedFeature[]
 ): ISettingsCategory[] =>
     features.reduce<ISettingsCategory[]>((categories, feature) => {
-        let category = getCategory(categories, feature.categoryKey);
+        let category = getCategory(categories, feature.category);
 
         if (!category) {
             category = {
-                titleKey: feature.categoryKey,
+                title: feature.category,
                 settings: [],
             };
             categories.push(category);
         }
 
         let section = category.settings.find(
-            (item) => item.titleKey === feature.sectionKey
+            (item) => item.title === feature.section
         );
 
         if (!section) {
             section = {
-                titleKey: feature.sectionKey,
+                title: feature.section,
                 groups: [],
                 ...feature.ui,
             };

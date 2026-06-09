@@ -10,7 +10,7 @@ import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
 interface ISettingsGroup {
-    titleKey: string;
+    title: string;
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
@@ -35,7 +35,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
     withoutSwitch,
     settings,
     setSetting,
-    titleKey,
+    title,
 }) => {
     const groupEnabled = isGroupEnabled(groups, settings);
 
@@ -60,7 +60,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                         }
                     )}
                 >
-                    {t(titleKey)}
+                    {t(title)}
                     {isNew && <NewBadge />}
                 </div>
                 {!withoutSwitch ? (
@@ -78,7 +78,7 @@ const SettingsGroup: FC<ISettingsGroup> = ({
                             key={group.id}
                             isGrey={!groupEnabled}
                             isNew={group.isNew}
-                            label={t(group.titleKey || '')}
+                            label={t(group.title || '')}
                             checked={settings[group.id]?.enabled ?? false}
                             disabled={!enabled}
                             onChange={(value) =>

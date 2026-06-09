@@ -63,9 +63,9 @@ export interface ISettingsSectionOptions<TAction = IActionConfig> {
 }
 
 export interface IFeatureConfig<TAction = IActionConfig> {
-    categoryKey: I18nKey;
-    sectionKey: I18nKey;
-    titleKey?: I18nKey;
+    category: I18nKey;
+    section: I18nKey;
+    title?: I18nKey;
     isNew?: boolean;
     id: keyof ISettings;
     defaultEnabled?: boolean;
@@ -79,11 +79,11 @@ export type IFeatureDraft = IFeatureConfig<IActionConfig>;
 export type INormalizedFeature = IFeatureConfig<IAttrAction>;
 
 export interface ISettingsSection extends ISettingsSectionOptions<IAttrAction> {
-    titleKey: I18nKey;
+    title: I18nKey;
     groups: INormalizedFeature[];
 }
 
 export interface ISettingsCategory {
-    titleKey: I18nKey;
+    title: I18nKey;
     settings: ISettingsSection[];
 }

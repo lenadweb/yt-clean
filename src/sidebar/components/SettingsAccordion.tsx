@@ -13,7 +13,7 @@ import { IAllSetting } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 
 type Props = {
-    titleKey: string;
+    title: string;
     settings: ISettingsSection[];
     storageSettings: IStorage;
     enabled: boolean;
@@ -22,7 +22,7 @@ type Props = {
 };
 
 export const SettingsAccordion: FC<Props> = ({
-    titleKey,
+    title,
     storageSettings,
     enabled,
     settings,
@@ -44,7 +44,7 @@ export const SettingsAccordion: FC<Props> = ({
                     <div className="flex items-center justify-between">
                         <DisclosureButton className="flex w-full items-center justify-between gap-2 p-5">
                             <div className="text-base leading-[1.2]">
-                                {t(titleKey)}
+                                {t(title)}
                             </div>
                             <ChevronDownIcon
                                 className={cn(
@@ -71,7 +71,7 @@ export const SettingsAccordion: FC<Props> = ({
                                 withoutSwitch={!!setting.withoutSwitch}
                                 groups={setting.groups}
                                 setSetting={setSetting}
-                                titleKey={setting.titleKey}
+                                title={setting.title}
                             />
                         ))}
                     </DisclosurePanel>
