@@ -1,7 +1,7 @@
 import { RefObject, useEffect } from 'react';
 
 export const useOutsideClick = (
-    ref: RefObject<any> | RefObject<any>[],
+    ref: RefObject<Element | null> | RefObject<Element | null>[],
     callback: () => void
 ): void => {
     useEffect(() => {

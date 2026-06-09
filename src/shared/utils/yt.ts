@@ -5,7 +5,9 @@ export const setPlaybackSpeed = (value: string) => {
         '#ytd-player:not(:has(.ytp-ad-player-overlay-layout__player-card-container)) #movie_player video'
     ).then((player) => {
         if (player) {
-            (player as any).playbackRate = Number(Number(value).toFixed(2));
+            (player as HTMLVideoElement).playbackRate = Number(
+                Number(value).toFixed(2)
+            );
         }
         const newLocalStorageValue = {
             creation: Date.now(),
@@ -21,7 +23,7 @@ export const setPlaybackSpeed = (value: string) => {
 };
 
 export const setShortsPlaybackSpeed = (value: string) => {
-    let movieContainer = document.querySelector('#shorts-player');
+    const movieContainer = document.querySelector('#shorts-player');
     if (movieContainer) {
         const player = movieContainer.getElementsByTagName('video')[0];
         player.playbackRate = Number(Number(value).toFixed(2));
