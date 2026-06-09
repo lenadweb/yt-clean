@@ -9,7 +9,7 @@ export enum ElementActions {
     component = 'component',
 }
 
-type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
+export type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
 export type I18nKey = string;
 
 export interface IActionConfig {

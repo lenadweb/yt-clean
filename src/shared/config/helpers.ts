@@ -1,28 +1,6 @@
-import {
-    ElementActions,
-    IActionConfig,
-    IFeatureDraft,
-    ISettingsSectionOptions,
-} from 'src/shared/types/config';
+import { ElementActions, IActionConfig } from 'src/shared/types/config';
 
-type FeatureInput = Omit<IFeatureDraft, 'categoryKey' | 'sectionKey'>;
 type ActionOptions = Partial<Omit<IActionConfig, 'action' | 'selectors'>>;
-
-export const createFeature =
-    (
-        categoryKey: string,
-        sectionKey: string,
-        sectionOptions?: ISettingsSectionOptions
-    ) =>
-    (feature: FeatureInput): IFeatureDraft => ({
-        categoryKey,
-        sectionKey,
-        ...feature,
-        ui: {
-            ...sectionOptions,
-            ...feature.ui,
-        },
-    });
 
 export const hideAction = (
     selectors: string[],

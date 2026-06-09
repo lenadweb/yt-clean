@@ -1,217 +1,171 @@
-import { IFeatureDraft } from 'src/shared/types/config';
-import {
-    createFeature,
-    hideAction,
-    stylesAction,
-} from 'src/shared/config/helpers';
+import { defineCategory } from 'src/shared/config/dsl';
 
-const sidebar = 'sidebar';
+const sidebar = defineCategory('sidebar');
 
-const hideSidebarFeature = createFeature(sidebar, 'hide_sidebar_completely', {
+const hideSidebar = sidebar.section('hide_sidebar_completely', {
     isNew: true,
     withoutCheckboxes: true,
 });
-const mainMenuFeature = createFeature(sidebar, 'main_menu', {
+const mainMenu = sidebar.section('main_menu', {
     withoutSwitch: true,
 });
-const youFeature = createFeature(sidebar, 'you');
-const subscriptionsFeature = createFeature(sidebar, 'hide_subscriptions_list', {
+const you = sidebar.section('you', {
+    whenAllEnabled: {
+        hide: [
+            '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
+        ],
+    },
+});
+const subscriptions = sidebar.section('hide_subscriptions_list', {
     withoutCheckboxes: true,
 });
-const exploreFeature = createFeature(sidebar, 'explore');
-const moreFromYoutubeFeature = createFeature(sidebar, 'more_from_youtube');
+const explore = sidebar.section('explore', {
+    whenAllEnabled: {
+        hide: [
+            "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
+        ],
+    },
+});
+const moreFromYoutube = sidebar.section('more_from_youtube', {
+    whenAllEnabled: {
+        hide: [
+            "#sections ytd-guide-section-renderer:has([href='https://music.youtube.com/'])",
+        ],
+    },
+});
 
-export const sidebarFeatures: IFeatureDraft[] = [
-    hideSidebarFeature({
-        titleKey: 'hide_sidebar_completely',
+export const sidebarFeatures = [
+    hideSidebar.feature({
         id: 'hideSidebar',
-        actions: [
-            hideAction([
-                'tp-yt-app-drawer#guide',
-                'ytd-mini-guide-renderer',
-                '#guide-button',
-            ]),
-            stylesAction([
-                `#page-manager {
+        title: 'hide_sidebar_completely',
+        hide: [
+            'tp-yt-app-drawer#guide',
+            'ytd-mini-guide-renderer',
+            '#guide-button',
+        ],
+        styles: [
+            `#page-manager {
                     margin-left: 12px !important;
                 }`,
-            ]),
         ],
     }),
-    mainMenuFeature({
-        titleKey: 'hide_shorts',
+    mainMenu.feature({
         id: 'hideMenuShorts',
-        actions: [
-            hideAction([
-                'ytd-mini-guide-entry-renderer[aria-label=Shorts]',
-                '#sections #items > ytd-guide-entry-renderer:has([title=Shorts])',
-            ]),
+        title: 'hide_shorts',
+        hide: [
+            'ytd-mini-guide-entry-renderer[aria-label=Shorts]',
+            '#sections #items > ytd-guide-entry-renderer:has([title=Shorts])',
         ],
     }),
-    youFeature({
-        titleKey: 'hide_history',
+    you.feature({
         id: 'hideMenuHistory',
-        ui: {
-            onFullGroupEnabledActions: [
-                hideAction([
-                    '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
-                ]),
-            ],
-        },
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href="/feed/history"])',
-            ]),
+        title: 'hide_history',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href="/feed/history"])',
         ],
     }),
-    youFeature({
-        titleKey: 'hide_playlists',
+    you.feature({
         id: 'hideMenuPlaylists',
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href="/feed/playlists"])',
-            ]),
+        title: 'hide_playlists',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href="/feed/playlists"])',
         ],
     }),
-    youFeature({
-        titleKey: 'hide_your_video',
+    you.feature({
         id: 'hideMenuYourVideo',
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href*="studio.youtube"])',
-            ]),
+        title: 'hide_your_video',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href*="studio.youtube"])',
         ],
     }),
-    youFeature({
-        titleKey: 'hide_watch_later',
+    you.feature({
         id: 'hideMenuWatchLater',
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=WL"])',
-            ]),
+        title: 'hide_watch_later',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=WL"])',
         ],
     }),
-    youFeature({
-        titleKey: 'hide_liked_videos',
+    you.feature({
         id: 'hideMenuLikedVideos',
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=LL"])',
-            ]),
+        title: 'hide_liked_videos',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href="/playlist?list=LL"])',
         ],
     }),
-    youFeature({
-        titleKey: 'your_movies',
+    you.feature({
         id: 'hideYourMovies',
-        actions: [
-            hideAction([
-                '#section-items ytd-guide-entry-renderer:has([href*="/feed/storefront"])',
-            ]),
+        title: 'your_movies',
+        hide: [
+            '#section-items ytd-guide-entry-renderer:has([href*="/feed/storefront"])',
         ],
     }),
-    subscriptionsFeature({
-        titleKey: 'hide_subscriptions_list',
+    subscriptions.feature({
         id: 'hideMenuSubscriptionsList',
-        actions: [
-            hideAction([
-                "#sections ytd-guide-section-renderer:has([href*='@'])",
-                "ytd-mini-guide-renderer ytd-mini-guide-entry-renderer:has([href='/feed/subscriptions'])",
-            ]),
+        title: 'hide_subscriptions_list',
+        hide: [
+            "#sections ytd-guide-section-renderer:has([href*='@'])",
+            "ytd-mini-guide-renderer ytd-mini-guide-entry-renderer:has([href='/feed/subscriptions'])",
         ],
     }),
-    exploreFeature({
-        titleKey: 'hide_trending',
+    explore.feature({
         id: 'hideMenuExploreTrending',
-        ui: {
-            onFullGroupEnabledActions: [
-                hideAction([
-                    "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
-                ]),
-            ],
-        },
-        actions: [
-            hideAction([
-                "#sections ytd-guide-entry-renderer:has([href*='feed/trending'])",
-            ]),
+        title: 'hide_trending',
+        hide: [
+            "#sections ytd-guide-entry-renderer:has([href*='feed/trending'])",
         ],
     }),
-    exploreFeature({
-        titleKey: 'hide_music',
+    explore.feature({
         id: 'hideMenuExploreMusic',
-        actions: [
-            hideAction([
-                "#sections ytd-guide-entry-renderer:has([href*='channel/UC-9'])",
-            ]),
+        title: 'hide_music',
+        hide: [
+            "#sections ytd-guide-entry-renderer:has([href*='channel/UC-9'])",
         ],
     }),
-    exploreFeature({
-        titleKey: 'hide_gaming',
+    explore.feature({
         id: 'hideMenuExploreGaming',
-        actions: [
-            hideAction([
-                "#sections ytd-guide-entry-renderer:has([href='/gaming'])",
-            ]),
-        ],
+        title: 'hide_gaming',
+        hide: ["#sections ytd-guide-entry-renderer:has([href='/gaming'])"],
     }),
-    exploreFeature({
-        titleKey: 'hide_news',
+    explore.feature({
         id: 'hideMenuExploreNews',
-        actions: [
-            hideAction([
-                "#sections ytd-guide-entry-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
-            ]),
+        title: 'hide_news',
+        hide: [
+            "#sections ytd-guide-entry-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
         ],
     }),
-    exploreFeature({
-        titleKey: 'hide_sports',
+    explore.feature({
         id: 'hideMenuExploreSports',
-        actions: [
-            hideAction([
-                "#sections ytd-guide-entry-renderer:has([href*='UCEgdi0XIXXZ-qJOFPf4JSKw'])",
-            ]),
+        title: 'hide_sports',
+        hide: [
+            "#sections ytd-guide-entry-renderer:has([href*='UCEgdi0XIXXZ-qJOFPf4JSKw'])",
         ],
     }),
-    moreFromYoutubeFeature({
-        titleKey: 'hide_youtube_premium',
+    moreFromYoutube.feature({
         id: 'hideMenuMorePremium',
-        ui: {
-            onFullGroupEnabledActions: [
-                hideAction([
-                    "#sections ytd-guide-section-renderer:has([href='https://music.youtube.com/'])",
-                ]),
-            ],
-        },
-        actions: [
-            hideAction([
-                "#sections #items ytd-guide-entry-renderer:has([href='/premium'])",
-            ]),
+        title: 'hide_youtube_premium',
+        hide: [
+            "#sections #items ytd-guide-entry-renderer:has([href='/premium'])",
         ],
     }),
-    moreFromYoutubeFeature({
-        titleKey: 'hide_youtube_music',
+    moreFromYoutube.feature({
         id: 'hideMenuMoreMusic',
-        actions: [
-            hideAction([
-                "#sections #items ytd-guide-entry-renderer:has([href='https://music.youtube.com/'])",
-            ]),
+        title: 'hide_youtube_music',
+        hide: [
+            "#sections #items ytd-guide-entry-renderer:has([href='https://music.youtube.com/'])",
         ],
     }),
-    moreFromYoutubeFeature({
-        titleKey: 'hide_youtube_kids',
+    moreFromYoutube.feature({
         id: 'hideMenuMoreKids',
-        actions: [
-            hideAction([
-                "#sections #items ytd-guide-entry-renderer:has([href*='youtubekids.com'])",
-            ]),
+        title: 'hide_youtube_kids',
+        hide: [
+            "#sections #items ytd-guide-entry-renderer:has([href*='youtubekids.com'])",
         ],
     }),
-    moreFromYoutubeFeature({
-        titleKey: 'hide_youtube_studio',
+    moreFromYoutube.feature({
         id: 'hideMenuMoreStudio',
-        actions: [
-            hideAction([
-                "#sections #items ytd-guide-entry-renderer:has([href*='studio.youtube.com'])",
-            ]),
+        title: 'hide_youtube_studio',
+        hide: [
+            "#sections #items ytd-guide-entry-renderer:has([href*='studio.youtube.com'])",
         ],
     }),
 ];

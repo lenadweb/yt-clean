@@ -1,39 +1,30 @@
-import { IFeatureDraft } from 'src/shared/types/config';
-import {
-    createFeature,
-    hideAction,
-    stylesAction,
-} from 'src/shared/config/helpers';
+import { defineCategory } from 'src/shared/config/dsl';
 
-const basicTemplate = 'basic_template';
+const basicTemplate = defineCategory('basic_template');
+const searchBar = basicTemplate.section('search_bar');
+const actions = basicTemplate.section('actions_and_user');
 
-const searchBarFeature = createFeature(basicTemplate, 'search_bar');
-const actionsFeature = createFeature(basicTemplate, 'actions_and_user');
-
-export const templateFeatures: IFeatureDraft[] = [
-    searchBarFeature({
-        titleKey: 'hide_voice_search_button',
+export const templateFeatures = [
+    searchBar.feature({
         id: 'voiceButtonInSearch',
-        actions: [hideAction(['#voice-search-button'])],
+        title: 'hide_voice_search_button',
+        hide: ['#voice-search-button'],
     }),
-    searchBarFeature({
-        titleKey: 'hide_virtual_keyboard_button',
+    searchBar.feature({
         id: 'virtualKeyboard',
-        actions: [
-            hideAction(['.ytSearchboxComponentYtdTextInputAssistantWrapper']),
-        ],
+        title: 'hide_virtual_keyboard_button',
+        hide: ['.ytSearchboxComponentYtdTextInputAssistantWrapper'],
     }),
-    searchBarFeature({
-        titleKey: 'hide_search_tags',
+    searchBar.feature({
         id: 'hideSearchTags',
-        actions: [
-            hideAction([
-                '.ytd-feed-filter-chip-bar-renderer',
-                '#header.ytd-rich-grid-renderer',
-                'yt-related-chip-cloud-renderer',
-            ]),
-            stylesAction([
-                `#chip-bar {
+        title: 'hide_search_tags',
+        hide: [
+            '.ytd-feed-filter-chip-bar-renderer',
+            '#header.ytd-rich-grid-renderer',
+            'yt-related-chip-cloud-renderer',
+        ],
+        styles: [
+            `#chip-bar {
                     opacity: 0;
                     pointer-events: none;
                 }
@@ -41,21 +32,16 @@ export const templateFeatures: IFeatureDraft[] = [
                     height:64px!important;
                 }
                 `,
-            ]),
         ],
     }),
-    actionsFeature({
-        titleKey: 'hide_upload_button',
+    actions.feature({
         id: 'hideCreateVideo',
-        actions: [hideAction(['#buttons .ytd-masthead:first-child'])],
+        title: 'hide_upload_button',
+        hide: ['#buttons .ytd-masthead:first-child'],
     }),
-    actionsFeature({
-        titleKey: 'hide_notifications',
+    actions.feature({
         id: 'notificationButton',
-        actions: [
-            hideAction([
-                'ytd-notification-topbar-button-renderer.ytd-masthead',
-            ]),
-        ],
+        title: 'hide_notifications',
+        hide: ['ytd-notification-topbar-button-renderer.ytd-masthead'],
     }),
 ];
