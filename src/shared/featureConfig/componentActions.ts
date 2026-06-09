@@ -4,7 +4,6 @@ import {
     ComponentAction as FeatureComponentAction,
     Feature,
 } from 'src/shared/types/config';
-import { SettingsState } from 'src/shared/types/settings';
 
 type ComponentMountAction = Pick<
     FeatureComponentAction,
@@ -12,7 +11,7 @@ type ComponentMountAction = Pick<
 >;
 
 export type ComponentActionGroup = {
-    id: keyof SettingsState;
+    id: Feature['id'];
     components: ComponentMountAction[];
 };
 

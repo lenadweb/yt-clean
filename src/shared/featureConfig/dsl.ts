@@ -6,7 +6,6 @@ import {
     SettingsSectionOptions,
     UrlRegExp,
 } from 'src/shared/types/config';
-import { SettingsState } from 'src/shared/types/settings';
 import {
     componentAction,
     customAction,
@@ -39,8 +38,8 @@ type SectionOptions = Omit<
     whenAllEnabled?: ActionFields;
 };
 
-type FeatureInput = ActionFields & {
-    id: keyof SettingsState;
+type FeatureInput<TId extends string = string> = ActionFields & {
+    id: TId;
     title?: I18nKey;
     isNew?: boolean;
     defaultEnabled?: boolean;
@@ -95,7 +94,9 @@ export const defineCategory = (category: I18nKey) => ({
         const ui = getSectionOptions(sectionOptions);
 
         return {
-            feature: (feature: FeatureInput): FeatureDraft => ({
+            feature: <const TId extends string>(
+                feature: FeatureInput<TId>
+            ): FeatureDraft<TId> => ({
                 category,
                 section,
                 title: feature.title,

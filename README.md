@@ -92,8 +92,8 @@ Only behavioral features (`custom`, `component`) run JavaScript.
 ## Adding a feature
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add one entry in the relevant
-`src/shared/config/*.ts` file, register its `id` in `settings.ts`, and add the
-i18n key to every `src/_locales/*/messages.json`. Storage defaults are generated
+`src/shared/config/*.ts` file and add the i18n key to every
+`src/_locales/*/messages.json`. Setting ids and storage defaults are generated
 from the feature list.
 
 ## License

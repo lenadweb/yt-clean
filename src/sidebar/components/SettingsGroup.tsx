@@ -2,7 +2,12 @@ import React, { FC } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
 import { Feature } from 'src/shared/types/config';
-import { StorageState } from 'src/shared/storage/config';
+import {
+    FeatureId,
+    getFeatureSetting,
+    StorageState,
+    toFeatureId,
+} from 'src/shared/storage/config';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
 import { SettingValue } from 'src/shared/types/settings';
@@ -18,11 +23,11 @@ interface SettingsGroupProps {
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
     settings: StorageState;
-    setSetting: (key: keyof StorageState, value: SettingValue) => void;
+    setSetting: (key: FeatureId, value: SettingValue) => void;
 }
 
 const isGroupEnabled = (groups: Feature[], settings: StorageState): boolean =>
-    groups.some(({ id }) => Boolean(settings[id]?.enabled));
+    groups.some(({ id }) => Boolean(getFeatureSetting(settings, id)?.enabled));
 
 const SettingsGroup: FC<SettingsGroupProps> = ({
     groups,
@@ -39,8 +44,8 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
 
     const setGroupEnabled = (value: boolean) => {
         groups.forEach((item) => {
-            setSetting(item.id, {
-                ...settings[item.id],
+            setSetting(toFeatureId(item.id), {
+                ...getFeatureSetting(settings, item.id),
                 enabled: value,
             });
         });
@@ -77,10 +82,13 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                             isGrey={!groupEnabled}
                             isNew={group.isNew}
                             label={t(group.title || '')}
-                            checked={settings[group.id]?.enabled ?? false}
+                            checked={
+                                getFeatureSetting(settings, group.id)
+                                    ?.enabled ?? false
+                            }
                             disabled={!enabled}
                             onChange={(value) =>
-                                setSetting(group.id, {
+                                setSetting(toFeatureId(group.id), {
                                     enabled: value,
                                 })
                             }

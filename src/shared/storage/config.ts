@@ -1,10 +1,20 @@
-import { SettingsState } from 'src/shared/types/settings';
 import { FEATURES } from 'src/shared/featureConfig';
 import { Feature } from 'src/shared/types/config';
+import { SettingValue } from 'src/shared/types/settings';
 
-export interface StorageState extends SettingsState {
+export type FeatureId = (typeof FEATURES)[number]['id'];
+export type SettingsState = Record<FeatureId, SettingValue>;
+
+export type StorageState = SettingsState & {
     isEnabled: boolean;
-}
+};
+
+export const toFeatureId = (id: string): FeatureId => id as FeatureId;
+
+export const getFeatureSetting = (
+    settings: StorageState,
+    id: string
+): SettingValue => settings[toFeatureId(id)];
 
 const getDefaultSetting = (feature: Feature) => ({
     enabled: feature.defaultEnabled ?? false,

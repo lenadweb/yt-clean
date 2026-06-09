@@ -1,27 +1,28 @@
 import { Feature } from 'src/shared/types/config';
-import { StorageState } from 'src/shared/storage/config';
-import { SettingsState } from 'src/shared/types/settings';
+import {
+    getFeatureSetting,
+    StorageState,
+    toFeatureId,
+} from 'src/shared/storage/config';
 import { FeatureActionPlan, StorageChanges } from 'src/content/features/types';
 
 const hasStorageChange = (
     changes: StorageChanges | undefined,
-    id: keyof SettingsState
+    id: Feature['id']
 ): boolean =>
-    !changes || Boolean(changes[id as keyof StorageState] || changes.isEnabled);
+    !changes || Boolean(changes[toFeatureId(id)] || changes.isEnabled);
 
 const getSettingValue = (
     settings: StorageState,
-    id: keyof SettingsState
+    id: Feature['id']
 ): unknown => {
-    const setting = settings[id] as { value?: unknown } | undefined;
+    const setting = getFeatureSetting(settings, id);
 
     return setting?.value;
 };
 
-const isSettingEnabled = (
-    settings: StorageState,
-    id: keyof SettingsState
-): boolean => Boolean(settings.isEnabled && settings[id]?.enabled);
+const isSettingEnabled = (settings: StorageState, id: Feature['id']): boolean =>
+    Boolean(settings.isEnabled && getFeatureSetting(settings, id)?.enabled);
 
 const getSectionKey = (feature: Feature): string =>
     `${feature.category}::${feature.section}`;
@@ -63,14 +64,15 @@ const isSectionChanged = (
 ): boolean =>
     !changes ||
     Boolean(changes.isEnabled) ||
-    features.some(({ id }) => changes[id as keyof StorageState]);
+    features.some(({ id }) => changes[toFeatureId(id)]);
 
 const areAllSectionFeaturesEnabled = (
     features: Feature[],
     settings: StorageState
 ): boolean =>
     Boolean(
-        settings.isEnabled && features.every(({ id }) => settings[id]?.enabled)
+        settings.isEnabled &&
+        features.every(({ id }) => getFeatureSetting(settings, id)?.enabled)
     );
 
 const getSectionActions = (features: Feature[]) =>

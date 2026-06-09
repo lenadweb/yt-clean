@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { getSettingsCategories } from 'src/shared/featureConfig';
-import { StorageState } from 'src/shared/storage/config';
+import { FeatureId } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import { SettingValue } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
@@ -15,7 +15,7 @@ const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
 
     const isEnabled = settings.isEnabled;
-    const setSetting = (key: keyof StorageState, value: SettingValue) => {
+    const setSetting = (key: FeatureId, value: SettingValue) => {
         updateSettings(key, value);
     };
     const toggleEnabled = () => {

@@ -4,7 +4,7 @@ import {
     DisclosureButton,
     DisclosurePanel,
 } from '@headlessui/react';
-import { StorageState } from 'src/shared/storage/config';
+import { FeatureId, StorageState } from 'src/shared/storage/config';
 import ChevronDownIcon from 'src/assets/icons/chevron-down.svg';
 import cn from 'classnames';
 import { SettingsSection } from 'src/shared/types/config';
@@ -17,7 +17,7 @@ type Props = {
     settings: SettingsSection[];
     storageSettings: StorageState;
     enabled: boolean;
-    setSetting: (key: keyof StorageState, value: SettingValue) => void;
+    setSetting: (key: FeatureId, value: SettingValue) => void;
     defaultOpen?: boolean;
 };
 

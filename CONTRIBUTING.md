@@ -36,13 +36,13 @@ Common feature fields:
 - `component` - React component injection target.
 - `custom` - custom enable/disable handlers for non-CSS behavior.
 
-For a new setting id, also update:
+For a new title, also update:
 
-- `src/shared/types/settings.ts`
 - every `src/_locales/*/messages.json`
 
-Storage defaults are generated from the feature config. Add `defaultValue` only
-for settings that need a saved value, such as sliders or dropdowns.
+Setting ids and storage defaults are generated from the feature config. Add
+`defaultValue` only for settings that need a saved value, such as sliders or
+dropdowns.
 
 Run checks before opening a PR:
 

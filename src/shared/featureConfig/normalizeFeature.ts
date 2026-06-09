@@ -28,7 +28,9 @@ const addAttr = (action: ActionConfig, attr: string): RuntimeAction => ({
     attr,
 });
 
-export const normalizeFeature = (feature: FeatureDraft): Feature => ({
+export const normalizeFeature = <TId extends string>(
+    feature: FeatureDraft<TId>
+): Feature<TId> => ({
     ...feature,
     actions: feature.actions.map((action) =>
         addAttr(action, getFeatureAttr(feature))
@@ -44,5 +46,6 @@ export const normalizeFeature = (feature: FeatureDraft): Feature => ({
         : undefined,
 });
 
-export const normalizeFeatures = (features: FeatureDraft[]): Feature[] =>
-    features.map(normalizeFeature);
+export const normalizeFeatures = <TFeature extends FeatureDraft>(
+    features: TFeature[]
+): Array<Feature<TFeature['id']>> => features.map(normalizeFeature);

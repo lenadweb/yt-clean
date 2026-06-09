@@ -1,4 +1,3 @@
-import { SettingsState } from 'src/shared/types/settings';
 import { UrlRegExps } from 'src/shared/const';
 
 export enum ElementActions {
@@ -62,12 +61,15 @@ export interface SettingsSectionOptions<TAction = ActionConfig> {
     onFullGroupEnabledActions?: TAction[];
 }
 
-export interface FeatureConfig<TAction = ActionConfig> {
+export interface FeatureConfig<
+    TAction = ActionConfig,
+    TId extends string = string,
+> {
     category: I18nKey;
     section: I18nKey;
     title?: I18nKey;
     isNew?: boolean;
-    id: keyof SettingsState;
+    id: TId;
     defaultEnabled?: boolean;
     defaultValue?: string;
     actions: TAction[];
@@ -75,8 +77,14 @@ export interface FeatureConfig<TAction = ActionConfig> {
     ui?: SettingsSectionOptions<TAction>;
 }
 
-export type FeatureDraft = FeatureConfig<ActionConfig>;
-export type Feature = FeatureConfig<RuntimeAction>;
+export type FeatureDraft<TId extends string = string> = FeatureConfig<
+    ActionConfig,
+    TId
+>;
+export type Feature<TId extends string = string> = FeatureConfig<
+    RuntimeAction,
+    TId
+>;
 
 export interface SettingsSection extends SettingsSectionOptions<RuntimeAction> {
     title: I18nKey;
