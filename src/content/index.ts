@@ -1,5 +1,4 @@
 import { IConfig } from 'src/shared/types/config';
-import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
 import { CONFIG } from 'src/shared/config';
 import { Storage } from 'src/shared/storage';
 import { waitForDocumentReady } from 'src/shared/utils/browser';
@@ -15,9 +14,9 @@ class Content {
     private readonly config: IConfig;
     private readonly storage: Storage;
 
-    constructor(config: IConfig, defaults: IStorage) {
+    constructor(config: IConfig) {
         this.config = config;
-        this.storage = new Storage(defaults);
+        this.storage = new Storage();
 
         this.watchUrlChanges();
         this.storage.onChange((changes) => this.runFeatures(changes));
@@ -56,5 +55,5 @@ class Content {
     }
 }
 
-new Content(CONFIG, DEFAULT_STORAGE);
+new Content(CONFIG);
 injectComponents();

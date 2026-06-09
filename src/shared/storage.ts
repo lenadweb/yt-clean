@@ -1,41 +1,38 @@
-import { IStorage } from 'src/shared/storage/config';
-import { ISettings } from 'src/shared/types/settings';
+import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
+import {
+    applyStorageChanges,
+    mergeStorage,
+    StorageChanges,
+} from 'src/shared/storage/helpers';
 import StorageChange = chrome.storage.StorageChange;
 
 export class Storage {
     settings: IStorage;
-    private listeners: ((
-        changes?: Record<keyof IStorage, StorageChange>
-    ) => void)[] = [];
+    private listeners: ((changes?: StorageChanges) => void)[] = [];
 
-    constructor(defaults: IStorage) {
-        console.log('[YT-Clean Storage] Initializing Storage class');
+    constructor(private readonly defaults: IStorage = DEFAULT_STORAGE) {
         this.settings = { ...defaults };
         chrome.storage.local.get(null, (data) => {
-            console.log('[YT-Clean Storage] Loaded from local storage:', data);
-            this.settings = { ...defaults, ...data };
+            this.settings = mergeStorage(defaults, data as Partial<IStorage>);
             chrome.storage.local.set(this.settings);
             this.notifyListeners();
         });
 
         chrome.storage.onChanged.addListener(
-            // @ts-ignore
-            (changes: Record<keyof IStorage, StorageChange>) => {
-                console.log(
-                    '[YT-Clean Storage] onChanged listener fired:',
-                    changes
+            (changes: Record<string, StorageChange>) => {
+                const storageChanges = changes as StorageChanges;
+
+                this.settings = applyStorageChanges(
+                    this.settings,
+                    storageChanges,
+                    this.defaults
                 );
-                // @ts-ignore
-                Object.keys(changes).forEach((key: keyof ISettings) => {
-                    this.settings[key] = changes[key].newValue ?? defaults[key];
-                });
-                this.notifyListeners(changes);
+                this.notifyListeners(storageChanges);
             }
         );
     }
 
     update<K extends keyof IStorage>(key: K, value: IStorage[K]): void {
-        console.log('[YT-Clean Storage] update called:', { key, value });
         this.settings[key] = value;
         chrome.storage.local.set({ [key]: value });
         this.notifyListeners();
@@ -45,15 +42,11 @@ export class Storage {
         return this.settings[key];
     }
 
-    onChange(
-        callback: (changes?: Record<keyof IStorage, StorageChange>) => void
-    ): void {
+    onChange(callback: (changes?: StorageChanges) => void): void {
         this.listeners.push(callback);
     }
 
-    private notifyListeners(
-        changes?: Record<keyof IStorage, StorageChange>
-    ): void {
+    private notifyListeners(changes?: StorageChanges): void {
         this.listeners.forEach((cb) => cb(changes));
     }
 }

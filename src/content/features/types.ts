@@ -1,9 +1,5 @@
 import { IAttrAction, INormalizedFeature } from 'src/shared/types/config';
-import { IStorage } from 'src/shared/storage/config';
-
-export type StorageChanges = Partial<
-    Record<keyof IStorage, chrome.storage.StorageChange>
->;
+export type { StorageChanges } from 'src/shared/storage/helpers';
 
 export type CachedElement = {
     element: Element;

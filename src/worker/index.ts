@@ -1,7 +1,10 @@
 import { isOpera } from 'src/shared/utils/browser';
 import { Storage } from 'src/shared/storage';
-import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import { Message } from 'src/shared/types/messages';
+
+declare global {
+    var background: Background | undefined;
+}
 
 export class Background {
     isOpera = isOpera();
@@ -9,7 +12,7 @@ export class Background {
 
     constructor() {
         this.setEvents();
-        this.storage = new Storage(DEFAULT_STORAGE);
+        this.storage = new Storage();
     }
 
     setEvents() {
@@ -42,5 +45,5 @@ async function createBackgroundInstance() {
 }
 
 createBackgroundInstance().then((instance) => {
-    (globalThis as any).background = instance;
+    globalThis.background = instance;
 });
