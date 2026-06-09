@@ -1,13 +1,21 @@
 {
-  "name": "youtube-boost",
+  "name": "yt-clean",
   "version": "1.0.32",
-  "description": "Youtube Cleaner",
+  "description": "Browser extension that declutters YouTube — hide Shorts, ads, sidebar items, and more.",
+  "license": "MIT",
+  "author": "lenadweb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lenadweb/yt-clean.git"
+  },
   "scripts": {
     "dev": "webpack --env development --watch",
     "bump": "node bumpVersion.js",
     "build:chrome": "node bumpVersion.js && webpack --env platform=chrome",
     "build:opera": "node bumpVersion.js && webpack --env platform=opera",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@headlessui/react": "^2.2.10",

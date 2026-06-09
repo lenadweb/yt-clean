@@ -18,7 +18,6 @@
     "types": ["chrome", "node", "webpack-env"],
     "paths": {
       "@assets/*": ["src/assets/*"],
-      "@common/*": ["src/common/*"],
       "src/*": ["src/*"]
     }
   },

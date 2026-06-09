@@ -1,0 +1,97 @@
+# YouTube Clean
+
+A browser extension that declutters YouTube. Hide Shorts, ads, and sidebar
+items, simplify the player and feed, and add handy controls like a playback
+speed slider — all toggled from a side panel.
+
+> Manifest V3 · React 19 · TypeScript · Tailwind CSS · Chrome & Opera
+
+## Features
+
+- Hide Shorts sections, mixes, and playlists across the feed
+- Remove sponsored videos and promotional banners
+- Clean up the search bar, masthead, and player controls
+- Playback speed slider for videos and a dedicated one for Shorts
+- Auto-advance to the next Short
+- Trim the sidebar (You, Explore, More from YouTube, …) item by item
+- Channel page cleanup (banner, trailer)
+
+Every feature is opt-in and persists in `chrome.storage.local`. A master
+toggle enables or disables the whole extension at once.
+
+## Getting started
+
+Requires [Node.js](https://nodejs.org) and [Yarn](https://yarnpkg.com).
+
+```bash
+yarn install
+yarn dev          # watch build into ./dist
+```
+
+Then load the unpacked extension:
+
+1. Open `chrome://extensions`
+2. Enable **Developer mode**
+3. **Load unpacked** → select the `dist` folder
+
+### Production builds
+
+```bash
+yarn build:chrome   # bumps version, outputs release/build-<version>.zip
+yarn build:opera    # Opera-specific manifest
+```
+
+### Checks
+
+```bash
+yarn lint
+yarn typecheck
+yarn format
+```
+
+## How it works
+
+Everything is driven by a declarative feature config — you describe *what* a
+feature does, and the build/runtime turn that into UI, CSS, and DOM behavior.
+
+```
+src/shared/config/*.ts        Feature definitions (the only file most PRs touch)
+        │  defineCategory().section().feature({ id, hide, styles, component, … })
+        ▼
+src/shared/featureConfig/      Normalizes drafts → attaches a body attribute per feature
+        │                      and derives the settings tree + component list
+        ├── CONFIG ───────────────────────────────┐
+        ▼                                          ▼
+src/shared/stylesBuilder       src/content/features/   →  content.js
+  static CSS (hide/styles)        runtime DOM actions      (toggles body attrs,
+  emitted as content.css          + React component           runs custom handlers)
+                                  injection
+        ▼
+src/sidebar/                   Side-panel UI generated from the same CONFIG
+```
+
+The three entry points (`webpack.config.js`):
+
+| Entry     | Source                | Role                                            |
+| --------- | --------------------- | ----------------------------------------------- |
+| `content` | `src/content/`        | Applies features on the page                    |
+| `sidebar` | `src/sidebar/`        | Settings UI (Chrome side panel)                 |
+| `worker`  | `src/worker/index.ts` | Opens the side panel on toolbar click           |
+
+Settings are a single source of truth: the [`Storage`](src/shared/storage/index.ts)
+singleton mirrors `chrome.storage.local` in memory and feeds both the imperative
+DOM layer and the React UI (via `StorageProvider`).
+
+CSS-only features (`hide` / `styles`) cost nothing at runtime — they are
+compiled into `content.css` and switched on by a per-feature body attribute.
+Only behavioral features (`custom`, `component`) run JavaScript.
+
+## Adding a feature
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). In short: add one entry in the relevant
+`src/shared/config/*.ts` file, register its `id` in `settings.ts` /
+`storage/config.ts`, and add the i18n key to every `src/_locales/*/messages.json`.
+
+## License
+
+[MIT](LICENSE) © lenadweb
