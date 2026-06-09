@@ -6,14 +6,14 @@ import { injectComponents } from 'src/content/components';
 import { DomActionExecutor } from 'src/content/features/actionExecutor';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 import { StorageChanges } from 'src/content/features/types';
-import { INormalizedFeature } from 'src/shared/types/config';
+import { Feature } from 'src/shared/types/config';
 
 class Content {
     private currentUrl = window.location.href;
     private readonly actionExecutor = new DomActionExecutor();
-    private readonly features: INormalizedFeature[];
+    private readonly features: Feature[];
 
-    constructor(features: INormalizedFeature[]) {
+    constructor(features: Feature[]) {
         this.features = features;
 
         onUrlChange((url) => {

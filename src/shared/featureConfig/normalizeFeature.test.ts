@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { IFeatureDraft } from 'src/shared/types/config';
+import { FeatureDraft } from 'src/shared/types/config';
 import { hideAction } from 'src/shared/featureConfig/helpers';
 import { normalizeFeature } from 'src/shared/featureConfig/normalizeFeature';
 import { getAttr } from 'src/shared/utils/getAttr';
 
-const draft: IFeatureDraft = {
+const draft: FeatureDraft = {
     category: 'feed_and_recommendations',
     section: 'content_blocks',
     id: 'hideShorts',

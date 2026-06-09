@@ -1,15 +1,15 @@
-import { INormalizedFeature, ISettingsCategory } from 'src/shared/types/config';
+import { Feature, SettingsCategory } from 'src/shared/types/config';
 
 const getCategory = (
-    categories: ISettingsCategory[],
+    categories: SettingsCategory[],
     title: string
-): ISettingsCategory | undefined =>
+): SettingsCategory | undefined =>
     categories.find((category) => category.title === title);
 
 export const buildSettingsCategories = (
-    features: INormalizedFeature[]
-): ISettingsCategory[] =>
-    features.reduce<ISettingsCategory[]>((categories, feature) => {
+    features: Feature[]
+): SettingsCategory[] =>
+    features.reduce<SettingsCategory[]>((categories, feature) => {
         let category = getCategory(categories, feature.category);
 
         if (!category) {

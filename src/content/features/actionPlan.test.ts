@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { IFeatureDraft } from 'src/shared/types/config';
+import { FeatureDraft } from 'src/shared/types/config';
 import { hideAction } from 'src/shared/featureConfig/helpers';
 import { normalizeFeatures } from 'src/shared/featureConfig/normalizeFeature';
-import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
+import { DEFAULT_STORAGE, StorageState } from 'src/shared/storage/config';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 
-const draft: IFeatureDraft = {
+const draft: FeatureDraft = {
     category: 'feed_and_recommendations',
     section: 'content_blocks',
     id: 'hideShorts',
@@ -14,7 +14,7 @@ const draft: IFeatureDraft = {
 
 const features = normalizeFeatures([draft]);
 
-const settings = (overrides: Partial<IStorage> = {}): IStorage => ({
+const settings = (overrides: Partial<StorageState> = {}): StorageState => ({
     ...DEFAULT_STORAGE,
     isEnabled: true,
     ...overrides,

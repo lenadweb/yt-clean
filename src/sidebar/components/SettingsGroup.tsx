@@ -1,32 +1,30 @@
 import React, { FC } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
-import { INormalizedFeature } from 'src/shared/types/config';
-import { IStorage } from 'src/shared/storage/config';
+import { Feature } from 'src/shared/types/config';
+import { StorageState } from 'src/shared/storage/config';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
-import { IAllSetting } from 'src/shared/types/settings';
+import { SettingValue } from 'src/shared/types/settings';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
-interface ISettingsGroup {
+interface SettingsGroupProps {
     title: string;
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
-    groups: INormalizedFeature[];
+    groups: Feature[];
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
-    settings: IStorage;
-    setSetting: (key: keyof IStorage, value: IAllSetting) => void;
+    settings: StorageState;
+    setSetting: (key: keyof StorageState, value: SettingValue) => void;
 }
 
-const isGroupEnabled = (
-    groups: INormalizedFeature[],
-    settings: IStorage
-): boolean => groups.some(({ id }) => Boolean(settings[id]?.enabled));
+const isGroupEnabled = (groups: Feature[], settings: StorageState): boolean =>
+    groups.some(({ id }) => Boolean(settings[id]?.enabled));
 
-const SettingsGroup: FC<ISettingsGroup> = ({
+const SettingsGroup: FC<SettingsGroupProps> = ({
     groups,
     isFirst,
     enabled,

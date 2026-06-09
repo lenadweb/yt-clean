@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
-import { IFeatureDraft } from 'src/shared/types/config';
+import { FeatureDraft } from 'src/shared/types/config';
 import { hideAction } from 'src/shared/featureConfig/helpers';
 import { normalizeFeatures } from 'src/shared/featureConfig/normalizeFeature';
 import { buildSettingsCategories } from 'src/shared/featureConfig/settingsTree';
 
-const draft = (section: string, id: IFeatureDraft['id']): IFeatureDraft => ({
+const draft = (section: string, id: FeatureDraft['id']): FeatureDraft => ({
     category: 'feed_and_recommendations',
     section,
     id,

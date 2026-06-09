@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { getSettingsCategories } from 'src/shared/featureConfig';
-import { IStorage } from 'src/shared/storage/config';
+import { StorageState } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
-import { IAllSetting } from 'src/shared/types/settings';
+import { SettingValue } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
@@ -15,7 +15,7 @@ const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
 
     const isEnabled = settings.isEnabled;
-    const setSetting = (key: keyof IStorage, value: IAllSetting) => {
+    const setSetting = (key: keyof StorageState, value: SettingValue) => {
         updateSettings(key, value);
     };
     const toggleEnabled = () => {

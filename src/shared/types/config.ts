@@ -1,4 +1,4 @@
-import { ISettings } from 'src/shared/types/settings';
+import { SettingsState } from 'src/shared/types/settings';
 import { UrlRegExps } from 'src/shared/const';
 
 export enum ElementActions {
@@ -23,67 +23,67 @@ export type CachedElement = {
 
 export type CustomActionResult = CachedElement[] | void;
 
-export interface IHideAction extends ActionBase {
+export interface HideAction extends ActionBase {
     action: ElementActions.hide;
     selectors: string[];
 }
 
-export interface IStylesAction extends ActionBase {
+export interface StylesAction extends ActionBase {
     action: ElementActions.customStyles;
     customStyles: string[];
 }
 
-export interface ICustomAction extends ActionBase {
+export interface CustomAction extends ActionBase {
     action: ElementActions.custom;
     onEnable?: () => Promise<CustomActionResult> | CustomActionResult;
     onDisable?: (value?: CachedElement[]) => unknown;
 }
 
-export interface IComponentAction extends ActionBase {
+export interface ComponentAction extends ActionBase {
     action: ElementActions.component;
     component: string;
     insertAfter: string;
 }
 
-export type IActionConfig =
-    | IHideAction
-    | IStylesAction
-    | ICustomAction
-    | IComponentAction;
+export type ActionConfig =
+    | HideAction
+    | StylesAction
+    | CustomAction
+    | ComponentAction;
 
-export type IAttrAction = IActionConfig & {
+export type RuntimeAction = ActionConfig & {
     attr: string;
 };
 
-export interface ISettingsSectionOptions<TAction = IActionConfig> {
+export interface SettingsSectionOptions<TAction = ActionConfig> {
     isNew?: boolean;
     withoutCheckboxes?: boolean;
     withoutSwitch?: boolean;
     onFullGroupEnabledActions?: TAction[];
 }
 
-export interface IFeatureConfig<TAction = IActionConfig> {
+export interface FeatureConfig<TAction = ActionConfig> {
     category: I18nKey;
     section: I18nKey;
     title?: I18nKey;
     isNew?: boolean;
-    id: keyof ISettings;
+    id: keyof SettingsState;
     defaultEnabled?: boolean;
     defaultValue?: string;
     actions: TAction[];
     onChange?: (value: unknown) => void;
-    ui?: ISettingsSectionOptions<TAction>;
+    ui?: SettingsSectionOptions<TAction>;
 }
 
-export type IFeatureDraft = IFeatureConfig<IActionConfig>;
-export type INormalizedFeature = IFeatureConfig<IAttrAction>;
+export type FeatureDraft = FeatureConfig<ActionConfig>;
+export type Feature = FeatureConfig<RuntimeAction>;
 
-export interface ISettingsSection extends ISettingsSectionOptions<IAttrAction> {
+export interface SettingsSection extends SettingsSectionOptions<RuntimeAction> {
     title: I18nKey;
-    groups: INormalizedFeature[];
+    groups: Feature[];
 }
 
-export interface ISettingsCategory {
+export interface SettingsCategory {
     title: I18nKey;
-    settings: ISettingsSection[];
+    settings: SettingsSection[];
 }

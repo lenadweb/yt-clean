@@ -1,4 +1,4 @@
-import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
+import { DEFAULT_STORAGE, StorageState } from 'src/shared/storage/config';
 import {
     applyStorageChanges,
     mergeStorage,
@@ -8,15 +8,18 @@ import {
 type Listener = (changes?: StorageChanges) => void;
 
 export class Storage {
-    settings: IStorage;
+    settings: StorageState;
     isReady = false;
     private readonly listeners = new Set<Listener>();
 
-    constructor(private readonly defaults: IStorage = DEFAULT_STORAGE) {
+    constructor(private readonly defaults: StorageState = DEFAULT_STORAGE) {
         this.settings = { ...defaults };
 
         chrome.storage.local.get(null, (data) => {
-            this.settings = mergeStorage(defaults, data as Partial<IStorage>);
+            this.settings = mergeStorage(
+                defaults,
+                data as Partial<StorageState>
+            );
             chrome.storage.local.set(this.settings);
             this.isReady = true;
             this.notify();
@@ -33,7 +36,7 @@ export class Storage {
         });
     }
 
-    update<K extends keyof IStorage>(key: K, value: IStorage[K]): void {
+    update<K extends keyof StorageState>(key: K, value: StorageState[K]): void {
         this.settings = { ...this.settings, [key]: value };
         chrome.storage.local.set({ [key]: value });
         this.notify();

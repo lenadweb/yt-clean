@@ -1,50 +1,50 @@
-export interface IBaseSetting {
+export interface ToggleSetting {
     enabled?: boolean;
 }
 
-export interface IDropdownSettings extends IBaseSetting {
+export interface ValuedSetting extends ToggleSetting {
     value?: string;
 }
 
-export type IAllSetting = IDropdownSettings;
+export type SettingValue = ValuedSetting;
 
-export interface ISettings {
-    hideShorts: IBaseSetting;
-    hideHoverPreview: IBaseSetting;
-    hideSearchTags: IBaseSetting;
-    speedControl: IDropdownSettings;
-    adsYoutubeBanner: IBaseSetting;
-    adsFeedVideo: IBaseSetting;
-    hideJams: IBaseSetting;
-    hideCreateVideo: IBaseSetting;
-    voiceButtonInSearch: IBaseSetting;
-    virtualKeyboard: IBaseSetting;
-    notificationButton: IBaseSetting;
-    hideNewsSection: IBaseSetting;
-    hideChannelBanner: IBaseSetting;
-    hideChannelTrailer: IBaseSetting;
-    autoNextShorts: IBaseSetting;
-    hidePlayerAutoplay: IBaseSetting;
-    hidePlayerSubtitlesButton: IBaseSetting;
-    hidePlayerWideSizePlayerButton: IBaseSetting;
-    hidePlayerMiniSizePlayerButton: IBaseSetting;
-    hideSidebar: IBaseSetting;
-    hideMenuShorts: IBaseSetting;
-    hideMenuHistory: IBaseSetting;
-    hideMenuPlaylists: IBaseSetting;
-    hideMenuYourVideo: IBaseSetting;
-    hideMenuWatchLater: IBaseSetting;
-    hideMenuLikedVideos: IBaseSetting;
-    hideYourMovies: IBaseSetting;
-    hideMenuSubscriptionsList: IBaseSetting;
-    hideMenuExploreTrending: IBaseSetting;
-    hideMenuExploreMusic: IBaseSetting;
-    hideMenuExploreGaming: IBaseSetting;
-    hideMenuExploreNews: IBaseSetting;
-    hideMenuExploreSports: IBaseSetting;
-    hideMenuMorePremium: IBaseSetting;
-    hideMenuMoreMusic: IBaseSetting;
-    hideMenuMoreKids: IBaseSetting;
-    hideMenuMoreStudio: IBaseSetting;
-    shortSpeedControl: IBaseSetting;
+export interface SettingsState {
+    hideShorts: ToggleSetting;
+    hideHoverPreview: ToggleSetting;
+    hideSearchTags: ToggleSetting;
+    speedControl: ValuedSetting;
+    adsYoutubeBanner: ToggleSetting;
+    adsFeedVideo: ToggleSetting;
+    hideJams: ToggleSetting;
+    hideCreateVideo: ToggleSetting;
+    voiceButtonInSearch: ToggleSetting;
+    virtualKeyboard: ToggleSetting;
+    notificationButton: ToggleSetting;
+    hideNewsSection: ToggleSetting;
+    hideChannelBanner: ToggleSetting;
+    hideChannelTrailer: ToggleSetting;
+    autoNextShorts: ToggleSetting;
+    hidePlayerAutoplay: ToggleSetting;
+    hidePlayerSubtitlesButton: ToggleSetting;
+    hidePlayerWideSizePlayerButton: ToggleSetting;
+    hidePlayerMiniSizePlayerButton: ToggleSetting;
+    hideSidebar: ToggleSetting;
+    hideMenuShorts: ToggleSetting;
+    hideMenuHistory: ToggleSetting;
+    hideMenuPlaylists: ToggleSetting;
+    hideMenuYourVideo: ToggleSetting;
+    hideMenuWatchLater: ToggleSetting;
+    hideMenuLikedVideos: ToggleSetting;
+    hideYourMovies: ToggleSetting;
+    hideMenuSubscriptionsList: ToggleSetting;
+    hideMenuExploreTrending: ToggleSetting;
+    hideMenuExploreMusic: ToggleSetting;
+    hideMenuExploreGaming: ToggleSetting;
+    hideMenuExploreNews: ToggleSetting;
+    hideMenuExploreSports: ToggleSetting;
+    hideMenuMorePremium: ToggleSetting;
+    hideMenuMoreMusic: ToggleSetting;
+    hideMenuMoreKids: ToggleSetting;
+    hideMenuMoreStudio: ToggleSetting;
+    shortSpeedControl: ToggleSetting;
 }

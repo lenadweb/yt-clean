@@ -4,7 +4,7 @@ import type {
 } from 'src/content/features/componentRegistry';
 import { componentRegistry } from 'src/content/features/componentRegistry';
 import { getComponentsAction } from 'src/shared/featureConfig';
-import { IStorage } from 'src/shared/storage/config';
+import { StorageState } from 'src/shared/storage/config';
 import { waitForElement } from 'src/shared/utils/dom';
 
 type ComponentConfig = ReturnType<typeof getComponentsAction>[number];
@@ -24,7 +24,7 @@ const matchesUrl = (component: ComponentAction, url: string): boolean =>
 
 const isFeatureEnabled = (
     config: ComponentConfig,
-    storage: IStorage
+    storage: StorageState
 ): boolean => Boolean(storage[config.id]?.enabled && config.components.length);
 
 const getComponentDefinition = (
@@ -46,7 +46,7 @@ const getComponentDefinition = (
 };
 
 export const getActiveComponentDefinitions = (
-    storage: IStorage,
+    storage: StorageState,
     url: string
 ): ComponentDefinition[] =>
     getComponentsAction()

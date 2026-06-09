@@ -1,7 +1,7 @@
 import React, { FC, useCallback, useEffect, useMemo, useState } from 'react';
 import { Injection } from 'src/content/Injection';
 import ShadowRoot from 'src/content/ShadowRoot';
-import { IStorage } from 'src/shared/storage/config';
+import { StorageState } from 'src/shared/storage/config';
 import {
     addMountedComponent,
     findComponentTarget,
@@ -12,7 +12,7 @@ import {
 import type { MountedComponent } from 'src/content/features/componentInjectionPlan';
 
 export const useMountedComponents = (
-    storage: IStorage,
+    storage: StorageState,
     url: string
 ): MountedComponent[] => {
     const [mountedComponents, setMountedComponents] = useState<

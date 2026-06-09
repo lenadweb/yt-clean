@@ -1,28 +1,28 @@
 import {
     ElementActions,
-    IAttrAction,
-    IComponentAction,
-    INormalizedFeature,
+    RuntimeAction,
+    ComponentAction as FeatureComponentAction,
+    Feature,
 } from 'src/shared/types/config';
-import { ISettings } from 'src/shared/types/settings';
+import { SettingsState } from 'src/shared/types/settings';
 
-type ComponentAction = Pick<
-    IComponentAction,
+type ComponentMountAction = Pick<
+    FeatureComponentAction,
     'component' | 'insertAfter' | 'urlRegExp'
 >;
 
 export type ComponentActionGroup = {
-    id: keyof ISettings;
-    components: ComponentAction[];
+    id: keyof SettingsState;
+    components: ComponentMountAction[];
 };
 
 const isComponentAction = (
-    action: IAttrAction
-): action is IAttrAction & ComponentAction =>
+    action: RuntimeAction
+): action is RuntimeAction & FeatureComponentAction =>
     action.action === ElementActions.component;
 
 export const getComponentActionGroups = (
-    features: INormalizedFeature[]
+    features: Feature[]
 ): ComponentActionGroup[] =>
     features.flatMap((feature) => {
         const components = feature.actions

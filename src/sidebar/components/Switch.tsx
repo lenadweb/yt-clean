@@ -2,13 +2,13 @@ import React, { FC } from 'react';
 import { Switch as SwitchHeadless } from '@headlessui/react';
 import cn from 'classnames';
 
-interface ISwitch {
+interface SwitchProps {
     enabled: boolean;
     disabled?: boolean;
     setEnabled: (enabled: boolean) => void;
 }
 
-const Switch: FC<ISwitch> = ({
+const Switch: FC<SwitchProps> = ({
     setEnabled,
     enabled: enabledProp,
     disabled,

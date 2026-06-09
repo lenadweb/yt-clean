@@ -5,19 +5,21 @@ import React, {
     useEffect,
     useState,
 } from 'react';
-import { IStorage } from 'src/shared/storage/config';
+import { StorageState } from 'src/shared/storage/config';
 import { storage } from 'src/shared/storage';
 
-type UpdateSetting = <K extends keyof IStorage>(
+type UpdateSetting = <K extends keyof StorageState>(
     key: K,
-    value: IStorage[K]
+    value: StorageState[K]
 ) => void;
 
 const updateSetting: UpdateSetting = (key, value) => storage.update(key, value);
 
-const StorageContext = createContext<[IStorage, UpdateSetting] | null>(null);
+const StorageContext = createContext<[StorageState, UpdateSetting] | null>(
+    null
+);
 
-export const useStorage = (): [IStorage, UpdateSetting] => {
+export const useStorage = (): [StorageState, UpdateSetting] => {
     const context = useContext(StorageContext);
     if (!context) {
         throw new Error('useStorage must be used within a StorageProvider');
@@ -25,12 +27,12 @@ export const useStorage = (): [IStorage, UpdateSetting] => {
     return context;
 };
 
-export const useStorageValue = <K extends keyof IStorage>(
+export const useStorageValue = <K extends keyof StorageState>(
     key: K
-): [IStorage[K], (value: IStorage[K]) => void] => {
+): [StorageState[K], (value: StorageState[K]) => void] => {
     const [settings] = useStorage();
     const setValue = useCallback(
-        (value: IStorage[K]) => updateSetting(key, value),
+        (value: StorageState[K]) => updateSetting(key, value),
         [key]
     );
 
@@ -40,7 +42,7 @@ export const useStorageValue = <K extends keyof IStorage>(
 export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
     children,
 }) => {
-    const [settings, setSettings] = useState<IStorage>(storage.settings);
+    const [settings, setSettings] = useState<StorageState>(storage.settings);
     const [isReady, setIsReady] = useState(storage.isReady);
 
     useEffect(() => {

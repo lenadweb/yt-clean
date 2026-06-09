@@ -1,21 +1,21 @@
-import { ISettings } from 'src/shared/types/settings';
+import { SettingsState } from 'src/shared/types/settings';
 import { FEATURES } from 'src/shared/featureConfig';
-import { INormalizedFeature } from 'src/shared/types/config';
+import { Feature } from 'src/shared/types/config';
 
-export interface IStorage extends ISettings {
+export interface StorageState extends SettingsState {
     isEnabled: boolean;
 }
 
-const getDefaultSetting = (feature: INormalizedFeature) => ({
+const getDefaultSetting = (feature: Feature) => ({
     enabled: feature.defaultEnabled ?? false,
     ...(feature.defaultValue === undefined
         ? {}
         : { value: feature.defaultValue }),
 });
 
-export const DEFAULT_STORAGE: IStorage = {
+export const DEFAULT_STORAGE: StorageState = {
     isEnabled: true,
     ...Object.fromEntries(
         FEATURES.map((feature) => [feature.id, getDefaultSetting(feature)])
     ),
-} as IStorage;
+} as StorageState;

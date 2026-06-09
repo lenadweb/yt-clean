@@ -1,8 +1,8 @@
 import {
-    IAttrAction,
-    IActionConfig,
-    IFeatureDraft,
-    INormalizedFeature,
+    RuntimeAction,
+    ActionConfig,
+    FeatureDraft,
+    Feature,
 } from 'src/shared/types/config';
 import { getAttr } from 'src/shared/utils/getAttr';
 
@@ -13,24 +13,22 @@ const toKebabCase = (value: string): string =>
         .replace(/^-|-$/g, '')
         .toLowerCase();
 
-const getFeatureAttr = (feature: IFeatureDraft): string =>
+const getFeatureAttr = (feature: FeatureDraft): string =>
     getAttr(`feature-${toKebabCase(feature.id)}`);
 
-const getSectionAttr = (feature: IFeatureDraft): string =>
+const getSectionAttr = (feature: FeatureDraft): string =>
     getAttr(
         `section-${toKebabCase(feature.category)}-${toKebabCase(
             feature.section
         )}`
     );
 
-const addAttr = (action: IActionConfig, attr: string): IAttrAction => ({
+const addAttr = (action: ActionConfig, attr: string): RuntimeAction => ({
     ...action,
     attr,
 });
 
-export const normalizeFeature = (
-    feature: IFeatureDraft
-): INormalizedFeature => ({
+export const normalizeFeature = (feature: FeatureDraft): Feature => ({
     ...feature,
     actions: feature.actions.map((action) =>
         addAttr(action, getFeatureAttr(feature))
@@ -46,6 +44,5 @@ export const normalizeFeature = (
         : undefined,
 });
 
-export const normalizeFeatures = (
-    features: IFeatureDraft[]
-): INormalizedFeature[] => features.map(normalizeFeature);
+export const normalizeFeatures = (features: FeatureDraft[]): Feature[] =>
+    features.map(normalizeFeature);

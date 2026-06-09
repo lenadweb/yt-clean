@@ -4,20 +4,20 @@ import {
     DisclosureButton,
     DisclosurePanel,
 } from '@headlessui/react';
-import { IStorage } from 'src/shared/storage/config';
+import { StorageState } from 'src/shared/storage/config';
 import ChevronDownIcon from 'src/assets/icons/chevron-down.svg';
 import cn from 'classnames';
-import { ISettingsSection } from 'src/shared/types/config';
+import { SettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
-import { IAllSetting } from 'src/shared/types/settings';
+import { SettingValue } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 
 type Props = {
     title: string;
-    settings: ISettingsSection[];
-    storageSettings: IStorage;
+    settings: SettingsSection[];
+    storageSettings: StorageState;
     enabled: boolean;
-    setSetting: (key: keyof IStorage, value: IAllSetting) => void;
+    setSetting: (key: keyof StorageState, value: SettingValue) => void;
     defaultOpen?: boolean;
 };
 

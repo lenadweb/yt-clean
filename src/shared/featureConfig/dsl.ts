@@ -1,12 +1,12 @@
 import {
-    IActionConfig,
-    ICustomAction,
-    IFeatureDraft,
+    ActionConfig,
+    CustomAction,
+    FeatureDraft,
     I18nKey,
-    ISettingsSectionOptions,
+    SettingsSectionOptions,
     UrlRegExp,
 } from 'src/shared/types/config';
-import { ISettings } from 'src/shared/types/settings';
+import { SettingsState } from 'src/shared/types/settings';
 import {
     componentAction,
     customAction,
@@ -20,8 +20,8 @@ type ComponentDefinition = {
 };
 
 type CustomDefinition = {
-    enable?: ICustomAction['onEnable'];
-    disable?: ICustomAction['onDisable'];
+    enable?: CustomAction['onEnable'];
+    disable?: CustomAction['onDisable'];
 };
 
 type ActionFields = {
@@ -33,19 +33,19 @@ type ActionFields = {
 };
 
 type SectionOptions = Omit<
-    ISettingsSectionOptions,
+    SettingsSectionOptions,
     'onFullGroupEnabledActions'
 > & {
     whenAllEnabled?: ActionFields;
 };
 
 type FeatureInput = ActionFields & {
-    id: keyof ISettings;
+    id: keyof SettingsState;
     title?: I18nKey;
     isNew?: boolean;
     defaultEnabled?: boolean;
     defaultValue?: string;
-    onChange?: IFeatureDraft['onChange'];
+    onChange?: FeatureDraft['onChange'];
 };
 
 const getActions = ({
@@ -54,7 +54,7 @@ const getActions = ({
     styles,
     component,
     custom,
-}: ActionFields): IActionConfig[] => [
+}: ActionFields): ActionConfig[] => [
     ...(hide ? [hideAction(hide, { urlRegExp: url })] : []),
     ...(styles ? [stylesAction(styles, { urlRegExp: url })] : []),
     ...(component
@@ -77,7 +77,7 @@ const getActions = ({
 
 const getSectionOptions = (
     sectionOptions?: SectionOptions
-): ISettingsSectionOptions | undefined => {
+): SettingsSectionOptions | undefined => {
     if (!sectionOptions) return undefined;
 
     const { whenAllEnabled, ...uiOptions } = sectionOptions;
@@ -95,7 +95,7 @@ export const defineCategory = (category: I18nKey) => ({
         const ui = getSectionOptions(sectionOptions);
 
         return {
-            feature: (feature: FeatureInput): IFeatureDraft => ({
+            feature: (feature: FeatureInput): FeatureDraft => ({
                 category,
                 section,
                 title: feature.title,
