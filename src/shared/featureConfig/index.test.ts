@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
-    CONFIG,
+    FEATURES,
     getComponentsAction,
     getSettingsCategories,
 } from 'src/shared/featureConfig';
@@ -9,13 +9,13 @@ import { BASE_ATTR_PREFIX } from 'src/shared/const';
 
 const storageKeys = new Set(Object.keys(DEFAULT_STORAGE));
 
-describe('CONFIG', () => {
+describe('FEATURES', () => {
     it('builds a non-empty feature list', () => {
-        expect(CONFIG.features.length).toBeGreaterThan(0);
+        expect(FEATURES.length).toBeGreaterThan(0);
     });
 
     it('gives every action a prefixed body attribute', () => {
-        const actions = CONFIG.features.flatMap((f) => f.actions);
+        const actions = FEATURES.flatMap((f) => f.actions);
         expect(actions.length).toBeGreaterThan(0);
         actions.forEach((action) => {
             expect(action.attr.startsWith(`${BASE_ATTR_PREFIX}-`)).toBe(true);
@@ -23,7 +23,7 @@ describe('CONFIG', () => {
     });
 
     it('only references settings ids that exist in storage defaults', () => {
-        CONFIG.features.forEach((feature) => {
+        FEATURES.forEach((feature) => {
             expect(storageKeys.has(feature.id)).toBe(true);
         });
     });
@@ -38,7 +38,7 @@ describe('getSettingsCategories', () => {
             .flatMap((c) => c.settings)
             .flatMap((s) => s.groups).length;
 
-        expect(featureCount).toBe(CONFIG.features.length);
+        expect(featureCount).toBe(FEATURES.length);
     });
 });
 

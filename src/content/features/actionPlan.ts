@@ -1,4 +1,4 @@
-import { IConfig, INormalizedFeature } from 'src/shared/types/config';
+import { INormalizedFeature } from 'src/shared/types/config';
 import { IStorage } from 'src/shared/storage/config';
 import { ISettings } from 'src/shared/types/settings';
 import { FeatureActionPlan, StorageChanges } from 'src/content/features/types';
@@ -89,10 +89,10 @@ const buildSectionPlans = (
         }));
 
 export const buildFeatureActionPlans = (
-    config: IConfig,
+    features: INormalizedFeature[],
     settings: IStorage,
     changes?: StorageChanges
 ): FeatureActionPlan[] => [
-    ...buildFeaturePlans(config.features, settings, changes),
-    ...buildSectionPlans(config.features, settings, changes),
+    ...buildFeaturePlans(features, settings, changes),
+    ...buildSectionPlans(features, settings, changes),
 ];

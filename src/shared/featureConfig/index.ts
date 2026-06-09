@@ -1,4 +1,3 @@
-import { IConfig } from 'src/shared/types/config';
 import { templateFeatures } from 'src/shared/config/template';
 import { feedFeatures } from 'src/shared/config/feed';
 import { videoFeatures } from 'src/shared/config/video';
@@ -16,12 +15,6 @@ const featureDrafts = [
 
 export const FEATURES = normalizeFeatures(featureDrafts);
 
-export const CONFIG: IConfig = {
-    features: FEATURES,
-};
+export const getSettingsCategories = () => buildSettingsCategories(FEATURES);
 
-export const getSettingsCategories = () =>
-    buildSettingsCategories(CONFIG.features);
-
-export const getComponentsAction = () =>
-    getComponentActionGroups(CONFIG.features);
+export const getComponentsAction = () => getComponentActionGroups(FEATURES);

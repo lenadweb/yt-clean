@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { IConfig, IFeatureDraft } from 'src/shared/types/config';
+import { IFeatureDraft } from 'src/shared/types/config';
 import { hideAction } from 'src/shared/featureConfig/helpers';
 import { normalizeFeatures } from 'src/shared/featureConfig/normalizeFeature';
 import { DEFAULT_STORAGE, IStorage } from 'src/shared/storage/config';
@@ -12,7 +12,7 @@ const draft: IFeatureDraft = {
     actions: [hideAction(['#shorts'])],
 };
 
-const config: IConfig = { features: normalizeFeatures([draft]) };
+const features = normalizeFeatures([draft]);
 
 const settings = (overrides: Partial<IStorage> = {}): IStorage => ({
     ...DEFAULT_STORAGE,
@@ -23,7 +23,7 @@ const settings = (overrides: Partial<IStorage> = {}): IStorage => ({
 describe('buildFeatureActionPlans', () => {
     it('marks a feature enabled when the master toggle and feature are on', () => {
         const plans = buildFeatureActionPlans(
-            config,
+            features,
             settings({ hideShorts: { enabled: true } })
         );
 
@@ -33,7 +33,7 @@ describe('buildFeatureActionPlans', () => {
 
     it('treats a feature as disabled when the master toggle is off', () => {
         const plans = buildFeatureActionPlans(
-            config,
+            features,
             settings({ isEnabled: false, hideShorts: { enabled: true } })
         );
 
@@ -43,7 +43,7 @@ describe('buildFeatureActionPlans', () => {
 
     it('skips features unrelated to the change set', () => {
         const plans = buildFeatureActionPlans(
-            config,
+            features,
             settings({ hideShorts: { enabled: true } }),
             { hideJams: { oldValue: {}, newValue: { enabled: true } } }
         );

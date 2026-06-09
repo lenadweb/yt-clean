@@ -56,7 +56,3 @@ export interface ISettingsCategory {
     titleKey: I18nKey;
     settings: ISettingsSection[];
 }
-
-export interface IConfig {
-    features: INormalizedFeature[];
-}

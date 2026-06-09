@@ -1,5 +1,5 @@
 import { ElementActions, IAttrAction } from 'src/shared/types/config';
-import { CONFIG } from 'src/shared/featureConfig';
+import { FEATURES } from 'src/shared/featureConfig';
 import { getAttr } from 'src/shared/utils/getAttr';
 
 const HIDE_STYLE = 'display: none !important;';
@@ -80,11 +80,9 @@ const buildActionStyles = (action: IAttrAction): string[] => {
 };
 
 const getSectionActions = (): IAttrAction[] =>
-    CONFIG.features.flatMap(
-        (feature) => feature.ui?.onFullGroupEnabledActions || []
-    );
+    FEATURES.flatMap((feature) => feature.ui?.onFullGroupEnabledActions || []);
 
-export const styles = [...CONFIG.features.flatMap(({ actions }) => actions)]
+export const styles = [...FEATURES.flatMap(({ actions }) => actions)]
     .concat(getSectionActions())
     .flatMap(buildActionStyles)
     .filter(Boolean)
