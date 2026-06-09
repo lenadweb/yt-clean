@@ -43,6 +43,8 @@ type FeatureInput = ActionFields & {
     id: keyof ISettings;
     title?: I18nKey;
     isNew?: boolean;
+    defaultEnabled?: boolean;
+    defaultValue?: string;
     onChange?: IFeatureDraft['onChange'];
 };
 
@@ -99,6 +101,8 @@ export const defineCategory = (categoryKey: I18nKey) => ({
                 titleKey: feature.title,
                 id: feature.id,
                 isNew: feature.isNew,
+                defaultEnabled: feature.defaultEnabled,
+                defaultValue: feature.defaultValue,
                 actions: getActions(feature),
                 onChange: feature.onChange,
                 ui,

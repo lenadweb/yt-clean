@@ -39,8 +39,10 @@ Common feature fields:
 For a new setting id, also update:
 
 - `src/shared/types/settings.ts`
-- `src/shared/storage/config.ts`
 - every `src/_locales/*/messages.json`
+
+Storage defaults are generated from the feature config. Add `defaultValue` only
+for settings that need a saved value, such as sliders or dropdowns.
 
 Run checks before opening a PR:
 

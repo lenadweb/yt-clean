@@ -21,6 +21,14 @@ describe('mergeStorage', () => {
         expect(merged.hideShorts).toEqual({ enabled: true });
         expect(merged.hideJams).toEqual(DEFAULT_STORAGE.hideJams);
     });
+
+    it('keeps new default fields inside stored settings', () => {
+        const merged = mergeStorage(DEFAULT_STORAGE, {
+            speedControl: { enabled: true },
+        });
+
+        expect(merged.speedControl).toEqual({ enabled: true, value: '1.00' });
+    });
 });
 
 describe('applyStorageChanges', () => {

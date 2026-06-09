@@ -1,47 +1,21 @@
 import { ISettings } from 'src/shared/types/settings';
+import { FEATURES } from 'src/shared/featureConfig';
+import { INormalizedFeature } from 'src/shared/types/config';
 
 export interface IStorage extends ISettings {
     isEnabled: boolean;
 }
 
+const getDefaultSetting = (feature: INormalizedFeature) => ({
+    enabled: feature.defaultEnabled ?? false,
+    ...(feature.defaultValue === undefined
+        ? {}
+        : { value: feature.defaultValue }),
+});
+
 export const DEFAULT_STORAGE: IStorage = {
     isEnabled: true,
-    hideShorts: { enabled: false },
-    hideHoverPreview: { enabled: false },
-    hideChannelBanner: { enabled: false },
-    adsFeedVideo: { enabled: false },
-    speedControl: { enabled: false, value: '1.00' },
-    adsYoutubeBanner: { enabled: false },
-    hideChannelTrailer: { enabled: false },
-    autoNextShorts: { enabled: false },
-    hideJams: { enabled: false },
-    hideSearchTags: { enabled: false },
-    hidePlayerSubtitlesButton: { enabled: false },
-    hideCreateVideo: { enabled: false },
-    voiceButtonInSearch: { enabled: false },
-    hidePlayerWideSizePlayerButton: { enabled: false },
-    hidePlayerMiniSizePlayerButton: { enabled: false },
-    virtualKeyboard: { enabled: false },
-    notificationButton: { enabled: false },
-    hideYourMovies: { enabled: false },
-    hideNewsSection: { enabled: false },
-    hidePlayerAutoplay: { enabled: false },
-    hideSidebar: { enabled: false },
-    hideMenuShorts: { enabled: false },
-    hideMenuPlaylists: { enabled: false },
-    hideMenuYourVideo: { enabled: false },
-    hideMenuHistory: { enabled: false },
-    hideMenuWatchLater: { enabled: false },
-    hideMenuLikedVideos: { enabled: false },
-    hideMenuSubscriptionsList: { enabled: false },
-    hideMenuExploreMusic: { enabled: false },
-    hideMenuExploreGaming: { enabled: false },
-    hideMenuExploreSports: { enabled: false },
-    hideMenuExploreNews: { enabled: false },
-    hideMenuExploreTrending: { enabled: false },
-    hideMenuMorePremium: { enabled: false },
-    hideMenuMoreKids: { enabled: false },
-    hideMenuMoreMusic: { enabled: false },
-    shortSpeedControl: { enabled: false },
-    hideMenuMoreStudio: { enabled: false },
-};
+    ...Object.fromEntries(
+        FEATURES.map((feature) => [feature.id, getDefaultSetting(feature)])
+    ),
+} as IStorage;

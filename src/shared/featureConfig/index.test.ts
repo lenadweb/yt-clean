@@ -27,6 +27,10 @@ describe('FEATURES', () => {
             expect(storageKeys.has(feature.id)).toBe(true);
         });
     });
+
+    it('generates one default setting per feature', () => {
+        expect(storageKeys.size).toBe(FEATURES.length + 1);
+    });
 });
 
 describe('getSettingsCategories', () => {

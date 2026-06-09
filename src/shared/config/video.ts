@@ -19,6 +19,7 @@ const channel = video.section('channel');
 export const videoFeatures = [
     playback.feature({
         id: 'speedControl',
+        defaultValue: '1.00',
         url: [UrlRegExps.Watch],
         component: {
             name: 'PlaybackSpeed',

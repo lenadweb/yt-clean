@@ -4,13 +4,36 @@ export type StorageChanges = Partial<
     Record<keyof IStorage, chrome.storage.StorageChange>
 >;
 
+type StorageSetting = Record<string, unknown>;
+
 export const mergeStorage = (
     defaults: IStorage,
     data: Partial<IStorage>
-): IStorage => ({
-    ...defaults,
-    ...data,
+): IStorage => {
+    const storage = { ...defaults, ...data };
+
+    (Object.keys(defaults) as Array<keyof IStorage>).forEach((key) => {
+        const defaultValue = defaults[key];
+        const storedValue = data[key];
+
+        if (isSetting(defaultValue) && isSetting(storedValue)) {
+            storage[key] = mergeSetting(defaultValue, storedValue) as never;
+        }
+    });
+
+    return storage;
+};
+
+const mergeSetting = (
+    defaultValue: StorageSetting,
+    storedValue: StorageSetting
+): StorageSetting => ({
+    ...defaultValue,
+    ...storedValue,
 });
+
+const isSetting = (value: unknown): value is StorageSetting =>
+    Boolean(value && typeof value === 'object' && !Array.isArray(value));
 
 const getChangeValue = <K extends keyof IStorage>(
     changes: StorageChanges,

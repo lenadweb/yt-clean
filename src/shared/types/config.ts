@@ -68,6 +68,8 @@ export interface IFeatureConfig<TAction = IActionConfig> {
     titleKey?: I18nKey;
     isNew?: boolean;
     id: keyof ISettings;
+    defaultEnabled?: boolean;
+    defaultValue?: string;
     actions: TAction[];
     onChange?: (value: unknown) => void;
     ui?: ISettingsSectionOptions<TAction>;
