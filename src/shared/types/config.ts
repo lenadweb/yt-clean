@@ -56,7 +56,6 @@ export interface Feature<TId extends string = string> {
     title?: I18nKey;
     isNew?: boolean;
     defaultEnabled?: boolean;
-    defaultValue?: string;
     actions: FeatureAction[];
     onChange?: (value: unknown) => void;
 }

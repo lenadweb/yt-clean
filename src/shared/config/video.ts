@@ -12,7 +12,6 @@ export const videoCategory = category('video_playback_and_channel', [
     section('slider_playback_speed_control', { controls: 'switch' }, [
         feature({
             id: 'speedControl',
-            defaultValue: '1.00',
             url: [UrlRegExps.Watch],
             component: {
                 name: 'PlaybackSpeed',

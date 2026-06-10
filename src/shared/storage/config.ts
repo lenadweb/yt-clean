@@ -1,5 +1,4 @@
 import { FEATURES, FeatureId } from 'src/shared/featureConfig';
-import { Feature } from 'src/shared/types/config';
 import { SettingValue } from 'src/shared/types/settings';
 
 export type { FeatureId };
@@ -16,16 +15,12 @@ export const getFeatureSetting = (
     id: string
 ): SettingValue => settings[toFeatureId(id)];
 
-const getDefaultSetting = (feature: Feature) => ({
-    enabled: feature.defaultEnabled ?? false,
-    ...(feature.defaultValue === undefined
-        ? {}
-        : { value: feature.defaultValue }),
-});
-
 export const DEFAULT_STORAGE: StorageState = {
     isEnabled: true,
     ...Object.fromEntries(
-        FEATURES.map((feature) => [feature.id, getDefaultSetting(feature)])
+        FEATURES.map((feature) => [
+            feature.id,
+            { enabled: feature.defaultEnabled ?? false },
+        ])
     ),
 } as StorageState;

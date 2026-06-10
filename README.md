@@ -195,8 +195,7 @@ feature({
         enable: onEnable,          // may return cached elements…
         disable: onDisable,        // …restored here on disable
     },
-    defaultValue: '1.00',          // for features that store a value (slider)
-    onChange: syncValue,           // called when the value changes
+    onChange: syncValue,           // called when the stored value changes (slider)
 })
 ```
 

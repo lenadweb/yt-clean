@@ -32,7 +32,6 @@ type FeatureInput<TId extends string = string> = {
     title?: I18nKey;
     isNew?: boolean;
     defaultEnabled?: boolean;
-    defaultValue?: string;
     onChange?: Feature['onChange'];
     url?: RegExp[];
     hide?: string[];
@@ -107,7 +106,6 @@ export const feature = <const TId extends string>(
     title: input.title,
     isNew: input.isNew,
     defaultEnabled: input.defaultEnabled,
-    defaultValue: input.defaultValue,
     onChange: input.onChange,
     actions: getActions(input, getAttr(`feature-${toKebabCase(input.id)}`)),
 });

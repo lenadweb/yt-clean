@@ -23,7 +23,12 @@ describe('mergeStorage', () => {
     });
 
     it('keeps new default fields inside stored settings', () => {
-        const merged = mergeStorage(DEFAULT_STORAGE, {
+        const defaults = {
+            ...DEFAULT_STORAGE,
+            speedControl: { enabled: false, value: '1.00' },
+        };
+
+        const merged = mergeStorage(defaults, {
             speedControl: { enabled: true },
         });
 
