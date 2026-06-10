@@ -1,5 +1,5 @@
-import { ElementActions, RuntimeAction } from 'src/shared/types/config';
-import { FEATURES } from 'src/shared/featureConfig';
+import { ElementActions, FeatureAction } from 'src/shared/types/config';
+import { FEATURES, SECTIONS } from 'src/shared/featureConfig';
 import { getAttr } from 'src/shared/utils/getAttr';
 
 const HIDE_STYLE = 'display: none !important;';
@@ -61,7 +61,7 @@ const DEFAULT_STYLES = `
 ${RIGHT_MODE_STYLES}
 `;
 
-const buildActionStyles = (action: RuntimeAction): string[] => {
+const buildActionStyles = (action: FeatureAction): string[] => {
     if (action.action === ElementActions.hide) {
         return (
             action.selectors?.map(
@@ -79,8 +79,8 @@ const buildActionStyles = (action: RuntimeAction): string[] => {
     return [];
 };
 
-const getSectionActions = (): RuntimeAction[] =>
-    FEATURES.flatMap((feature) => feature.ui?.onFullGroupEnabledActions || []);
+const getSectionActions = (): FeatureAction[] =>
+    SECTIONS.flatMap((section) => section.onFullGroupEnabledActions ?? []);
 
 export const styles = [...FEATURES.flatMap(({ actions }) => actions)]
     .concat(getSectionActions())

@@ -7,14 +7,14 @@ import {
 import { FeatureId, StorageState } from 'src/shared/storage/config';
 import ChevronDownIcon from 'src/assets/icons/chevron-down.svg';
 import cn from 'classnames';
-import { SettingsSection } from 'src/shared/types/config';
+import { I18nKey, SettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
 import { SettingValue } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 
 type Props = {
-    title: string;
-    settings: SettingsSection[];
+    title: I18nKey;
+    sections: SettingsSection[];
     storageSettings: StorageState;
     enabled: boolean;
     setSetting: (key: FeatureId, value: SettingValue) => void;
@@ -25,7 +25,7 @@ export const SettingsAccordion: FC<Props> = ({
     title,
     storageSettings,
     enabled,
-    settings,
+    sections,
     defaultOpen,
     setSetting,
 }) => (
@@ -60,18 +60,18 @@ export const SettingsAccordion: FC<Props> = ({
                         transition
                         className="origin-top space-y-2 px-6 pb-5 pt-1 transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
                     >
-                        {settings.map((setting, i) => (
+                        {sections.map((section, i) => (
                             <SettingsGroup
                                 isFirst={i === 0}
                                 enabled={enabled}
-                                key={i}
-                                isNew={!!setting.isNew}
+                                key={section.title}
+                                isNew={!!section.isNew}
                                 settings={storageSettings}
-                                withoutCheckboxes={!!setting.withoutCheckboxes}
-                                withoutSwitch={!!setting.withoutSwitch}
-                                groups={setting.groups}
+                                withoutCheckboxes={!!section.withoutCheckboxes}
+                                withoutSwitch={!!section.withoutSwitch}
+                                features={section.features}
                                 setSetting={setSetting}
-                                title={setting.title}
+                                title={section.title}
                             />
                         ))}
                     </DisclosurePanel>

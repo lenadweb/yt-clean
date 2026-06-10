@@ -1,8 +1,8 @@
-import { FEATURES } from 'src/shared/featureConfig';
+import { FEATURES, FeatureId } from 'src/shared/featureConfig';
 import { Feature } from 'src/shared/types/config';
 import { SettingValue } from 'src/shared/types/settings';
 
-export type FeatureId = (typeof FEATURES)[number]['id'];
+export type { FeatureId };
 export type SettingsState = Record<FeatureId, SettingValue>;
 
 export type StorageState = SettingsState & {

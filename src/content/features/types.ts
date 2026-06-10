@@ -1,4 +1,4 @@
-import { RuntimeAction, Feature } from 'src/shared/types/config';
+import { FeatureAction, Feature } from 'src/shared/types/config';
 export type { StorageChanges } from 'src/shared/storage/helpers';
 
 export type FeatureStatus = {
@@ -8,6 +8,6 @@ export type FeatureStatus = {
 
 export type FeatureActionPlan = {
     status: FeatureStatus;
-    actions: RuntimeAction[];
+    actions: FeatureAction[];
     feature: Feature | null;
 };

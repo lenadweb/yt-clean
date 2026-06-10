@@ -1,12 +1,12 @@
 import {
     ElementActions,
-    RuntimeAction,
-    ComponentAction as FeatureComponentAction,
+    FeatureAction,
+    ComponentAction,
     Feature,
 } from 'src/shared/types/config';
 
 type ComponentMountAction = Pick<
-    FeatureComponentAction,
+    ComponentAction,
     'component' | 'insertAfter' | 'urlRegExp'
 >;
 
@@ -15,9 +15,7 @@ export type ComponentActionGroup = {
     components: ComponentMountAction[];
 };
 
-const isComponentAction = (
-    action: RuntimeAction
-): action is RuntimeAction & FeatureComponentAction =>
+const isComponentAction = (action: FeatureAction): action is ComponentAction =>
     action.action === ElementActions.component;
 
 export const getComponentActionGroups = (

@@ -1,4 +1,5 @@
-import { UrlRegExps } from 'src/shared/const';
+import type enMessages from 'src/_locales/en/messages.json';
+import { ComponentName } from 'src/shared/const';
 
 export enum ElementActions {
     hide = 'hide',
@@ -7,11 +8,11 @@ export enum ElementActions {
     component = 'component',
 }
 
-export type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
-export type I18nKey = string;
+export type I18nKey = keyof typeof enMessages;
 
 interface ActionBase {
-    urlRegExp?: UrlRegExp[];
+    attr: string;
+    urlRegExp?: RegExp[];
 }
 
 export type CachedElement = {
@@ -40,58 +41,36 @@ export interface CustomAction extends ActionBase {
 
 export interface ComponentAction extends ActionBase {
     action: ElementActions.component;
-    component: string;
+    component: ComponentName;
     insertAfter: string;
 }
 
-export type ActionConfig =
+export type FeatureAction =
     | HideAction
     | StylesAction
     | CustomAction
     | ComponentAction;
 
-export type RuntimeAction = ActionConfig & {
-    attr: string;
-};
+export interface Feature<TId extends string = string> {
+    id: TId;
+    title?: I18nKey;
+    isNew?: boolean;
+    defaultEnabled?: boolean;
+    defaultValue?: string;
+    actions: FeatureAction[];
+    onChange?: (value: unknown) => void;
+}
 
-export interface SettingsSectionOptions<TAction = ActionConfig> {
+export interface SettingsSection<TId extends string = string> {
+    title: I18nKey;
     isNew?: boolean;
     withoutCheckboxes?: boolean;
     withoutSwitch?: boolean;
-    onFullGroupEnabledActions?: TAction[];
+    onFullGroupEnabledActions?: FeatureAction[];
+    features: Feature<TId>[];
 }
 
-export interface FeatureConfig<
-    TAction = ActionConfig,
-    TId extends string = string,
-> {
-    category: I18nKey;
-    section: I18nKey;
-    title?: I18nKey;
-    isNew?: boolean;
-    id: TId;
-    defaultEnabled?: boolean;
-    defaultValue?: string;
-    actions: TAction[];
-    onChange?: (value: unknown) => void;
-    ui?: SettingsSectionOptions<TAction>;
-}
-
-export type FeatureDraft<TId extends string = string> = FeatureConfig<
-    ActionConfig,
-    TId
->;
-export type Feature<TId extends string = string> = FeatureConfig<
-    RuntimeAction,
-    TId
->;
-
-export interface SettingsSection extends SettingsSectionOptions<RuntimeAction> {
+export interface SettingsCategory<TId extends string = string> {
     title: I18nKey;
-    groups: Feature[];
-}
-
-export interface SettingsCategory {
-    title: I18nKey;
-    settings: SettingsSection[];
+    sections: SettingsSection<TId>[];
 }

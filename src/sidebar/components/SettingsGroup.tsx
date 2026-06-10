@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
-import { Feature } from 'src/shared/types/config';
+import { Feature, I18nKey } from 'src/shared/types/config';
 import {
     FeatureId,
     getFeatureSetting,
@@ -15,22 +15,24 @@ import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
 interface SettingsGroupProps {
-    title: string;
+    title: I18nKey;
     isFirst: boolean;
     enabled: boolean;
     isNew?: boolean;
-    groups: Feature[];
+    features: Feature[];
     withoutCheckboxes: boolean;
     withoutSwitch: boolean;
     settings: StorageState;
     setSetting: (key: FeatureId, value: SettingValue) => void;
 }
 
-const isGroupEnabled = (groups: Feature[], settings: StorageState): boolean =>
-    groups.some(({ id }) => Boolean(getFeatureSetting(settings, id)?.enabled));
+const isGroupEnabled = (features: Feature[], settings: StorageState): boolean =>
+    features.some(({ id }) =>
+        Boolean(getFeatureSetting(settings, id)?.enabled)
+    );
 
 const SettingsGroup: FC<SettingsGroupProps> = ({
-    groups,
+    features,
     isFirst,
     enabled,
     isNew,
@@ -40,10 +42,10 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
     setSetting,
     title,
 }) => {
-    const groupEnabled = isGroupEnabled(groups, settings);
+    const groupEnabled = isGroupEnabled(features, settings);
 
     const setGroupEnabled = (value: boolean) => {
-        groups.forEach((item) => {
+        features.forEach((item) => {
             setSetting(toFeatureId(item.id), {
                 ...getFeatureSetting(settings, item.id),
                 enabled: value,
@@ -76,19 +78,19 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
             </div>
             {!withoutCheckboxes ? (
                 <div className="ml-3 flex flex-col gap-3">
-                    {groups.map((group) => (
+                    {features.map((feature) => (
                         <Checkbox
-                            key={group.id}
+                            key={feature.id}
                             isGrey={!groupEnabled}
-                            isNew={group.isNew}
-                            label={t(group.title || '')}
+                            isNew={feature.isNew}
+                            label={feature.title ? t(feature.title) : ''}
                             checked={
-                                getFeatureSetting(settings, group.id)
+                                getFeatureSetting(settings, feature.id)
                                     ?.enabled ?? false
                             }
                             disabled={!enabled}
                             onChange={(value) =>
-                                setSetting(toFeatureId(group.id), {
+                                setSetting(toFeatureId(feature.id), {
                                     enabled: value,
                                 })
                             }

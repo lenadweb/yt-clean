@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
-import { getSettingsCategories } from 'src/shared/featureConfig';
+import { CATEGORIES } from 'src/shared/featureConfig';
 import { FeatureId } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import { SettingValue } from 'src/shared/types/settings';
@@ -8,8 +8,6 @@ import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
 import PowerOffIcon from 'src/assets/icons/power-off.svg';
-
-const settingsCategories = getSettingsCategories();
 
 const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
@@ -39,13 +37,13 @@ const Settings: FC = () => {
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
-            {settingsCategories.map((category, index) => (
+            {CATEGORIES.map((category, index) => (
                 <SettingsAccordion
                     enabled={isEnabled}
                     key={category.title}
                     defaultOpen={index === 0}
                     title={category.title}
-                    settings={category.settings}
+                    sections={category.sections}
                     storageSettings={settings}
                     setSetting={setSetting}
                 />

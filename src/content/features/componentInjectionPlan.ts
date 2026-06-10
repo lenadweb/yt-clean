@@ -14,12 +14,9 @@ export interface MountedComponent extends ComponentDefinition {
     element: Element;
 }
 
-const isRegisteredComponent = (name: string): name is ComponentName =>
-    name in componentRegistry;
-
 const matchesUrl = (component: ComponentAction, url: string): boolean =>
     component.urlRegExp
-        ? component.urlRegExp.some((regexp) => new RegExp(regexp).test(url))
+        ? component.urlRegExp.some((regexp) => regexp.test(url))
         : true;
 
 const isFeatureEnabled = (
@@ -35,10 +32,7 @@ const getComponentDefinition = (
     component: ComponentAction,
     url: string
 ): ComponentDefinition | null => {
-    if (
-        !isRegisteredComponent(component.component) ||
-        !matchesUrl(component, url)
-    ) {
+    if (!matchesUrl(component, url)) {
         return null;
     }
 

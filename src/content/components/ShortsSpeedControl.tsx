@@ -9,7 +9,7 @@ const ShortsSpeedControl: FC = () => {
     const url = useUrl();
 
     useEffect(() => {
-        if (new RegExp(UrlRegExps.Shorts).test(url)) {
+        if (UrlRegExps.Shorts.test(url)) {
             setShortsPlaybackSpeed(speed.toString());
         }
     }, [speed, url]);

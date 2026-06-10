@@ -1,20 +1,34 @@
-import { templateFeatures } from 'src/shared/config/template';
-import { feedFeatures } from 'src/shared/config/feed';
-import { videoFeatures } from 'src/shared/config/video';
-import { sidebarFeatures } from 'src/shared/config/sidebar';
-import { normalizeFeatures } from 'src/shared/featureConfig/normalizeFeature';
-import { buildSettingsCategories } from 'src/shared/featureConfig/settingsTree';
+import { templateCategory } from 'src/shared/config/template';
+import { feedCategory } from 'src/shared/config/feed';
+import { videoCategory } from 'src/shared/config/video';
+import { sidebarCategory } from 'src/shared/config/sidebar';
+import {
+    Feature,
+    SettingsCategory,
+    SettingsSection,
+} from 'src/shared/types/config';
 import { getComponentActionGroups } from 'src/shared/featureConfig/componentActions';
 
-const featureDrafts = [
-    ...templateFeatures,
-    ...feedFeatures,
-    ...videoFeatures,
-    ...sidebarFeatures,
+const categories = [
+    templateCategory,
+    feedCategory,
+    videoCategory,
+    sidebarCategory,
 ];
 
-export const FEATURES = normalizeFeatures(featureDrafts);
+type CategoryFeatureIds<TCategory> =
+    TCategory extends SettingsCategory<infer TId> ? TId : never;
 
-export const getSettingsCategories = () => buildSettingsCategories(FEATURES);
+export type FeatureId = CategoryFeatureIds<(typeof categories)[number]>;
+
+export const CATEGORIES: SettingsCategory<FeatureId>[] = categories;
+
+export const SECTIONS: SettingsSection<FeatureId>[] = CATEGORIES.flatMap(
+    (category) => category.sections
+);
+
+export const FEATURES: Feature<FeatureId>[] = SECTIONS.flatMap(
+    (section) => section.features
+);
 
 export const getComponentsAction = () => getComponentActionGroups(FEATURES);

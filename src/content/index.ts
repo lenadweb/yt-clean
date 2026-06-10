@@ -1,4 +1,4 @@
-import { FEATURES } from 'src/shared/featureConfig';
+import { SECTIONS } from 'src/shared/featureConfig';
 import { storage } from 'src/shared/storage';
 import { onUrlChange } from 'src/shared/utils/navigation';
 import { waitForElement } from 'src/shared/utils/dom';
@@ -6,15 +6,15 @@ import { injectComponents } from 'src/content/components';
 import { DomActionExecutor } from 'src/content/features/actionExecutor';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 import { StorageChanges } from 'src/content/features/types';
-import { Feature } from 'src/shared/types/config';
+import { SettingsSection } from 'src/shared/types/config';
 
 class Content {
     private currentUrl = window.location.href;
     private readonly actionExecutor = new DomActionExecutor();
-    private readonly features: Feature[];
+    private readonly sections: SettingsSection[];
 
-    constructor(features: Feature[]) {
-        this.features = features;
+    constructor(sections: SettingsSection[]) {
+        this.sections = sections;
 
         onUrlChange((url) => {
             this.currentUrl = url;
@@ -32,7 +32,7 @@ class Content {
 
     private runFeatures(changes?: StorageChanges): void {
         const actionPlans = buildFeatureActionPlans(
-            this.features,
+            this.sections,
             storage.settings,
             changes
         );
@@ -43,5 +43,5 @@ class Content {
     }
 }
 
-new Content(FEATURES);
+new Content(SECTIONS);
 injectComponents();

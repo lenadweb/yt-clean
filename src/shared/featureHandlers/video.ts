@@ -19,10 +19,8 @@ const CHANNEL_TRAILER_VIDEO_SELECTOR = `${CHANNEL_TRAILER_SELECTOR} .html5-video
 const VIDEO_PLAYER_SELECTOR =
     '.html5-video-player:not(.unstarted-mode) video[src]';
 
-type UrlRegExp = (typeof UrlRegExps)[keyof typeof UrlRegExps];
-
-const isCurrentUrlMatched = (urlRegExps: UrlRegExp[]): boolean =>
-    urlRegExps.some((regexp) => new RegExp(regexp).test(window.location.href));
+const isCurrentUrlMatched = (urlRegExps: RegExp[]): boolean =>
+    urlRegExps.some((regexp) => regexp.test(window.location.href));
 
 export const syncPlaybackSpeed = async (value: unknown) => {
     if (typeof value !== 'string') return;

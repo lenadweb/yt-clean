@@ -1,17 +1,17 @@
 import {
     ElementActions,
-    RuntimeAction,
+    FeatureAction,
     CustomAction,
     CachedElement,
 } from 'src/shared/types/config';
 import { FeatureActionPlan } from 'src/content/features/types';
 
-const isTargetUrl = (action: RuntimeAction, url: string): boolean =>
+const isTargetUrl = (action: FeatureAction, url: string): boolean =>
     action.urlRegExp
-        ? action.urlRegExp.some((regexp) => new RegExp(regexp).test(url))
+        ? action.urlRegExp.some((regexp) => regexp.test(url))
         : true;
 
-const setBodyAttribute = (action: RuntimeAction, enabled: boolean): void => {
+const setBodyAttribute = (action: FeatureAction, enabled: boolean): void => {
     if (!action.attr) return;
 
     if (enabled) {
@@ -34,7 +34,7 @@ export class DomActionExecutor {
     }
 
     private runAction(
-        action: RuntimeAction,
+        action: FeatureAction,
         featureEnabled: boolean,
         url: string
     ): void {
@@ -47,10 +47,7 @@ export class DomActionExecutor {
         }
     }
 
-    private runCustomAction(
-        action: RuntimeAction & CustomAction,
-        shouldEnable: boolean
-    ): void {
+    private runCustomAction(action: CustomAction, shouldEnable: boolean): void {
         if (shouldEnable && action.onEnable) {
             Promise.resolve(action.onEnable()).then((result) => {
                 if (result && action.attr) {

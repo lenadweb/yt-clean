@@ -1,18 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { FeatureDraft } from 'src/shared/types/config';
-import { hideAction } from 'src/shared/featureConfig/helpers';
-import { normalizeFeatures } from 'src/shared/featureConfig/normalizeFeature';
+import { category, feature, section } from 'src/shared/featureConfig/dsl';
 import { DEFAULT_STORAGE, StorageState } from 'src/shared/storage/config';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 
-const draft: FeatureDraft = {
-    category: 'feed_and_recommendations',
-    section: 'content_blocks',
-    id: 'hideShorts',
-    actions: [hideAction(['#shorts'])],
-};
-
-const features = normalizeFeatures([draft]);
+const { sections } = category('feed_and_recommendations', [
+    section('content_blocks', [
+        feature({ id: 'hideShorts', hide: ['#shorts'] }),
+    ]),
+]);
 
 const settings = (overrides: Partial<StorageState> = {}): StorageState => ({
     ...DEFAULT_STORAGE,
@@ -23,7 +18,7 @@ const settings = (overrides: Partial<StorageState> = {}): StorageState => ({
 describe('buildFeatureActionPlans', () => {
     it('marks a feature enabled when the master toggle and feature are on', () => {
         const plans = buildFeatureActionPlans(
-            features,
+            sections,
             settings({ hideShorts: { enabled: true } })
         );
 
@@ -33,7 +28,7 @@ describe('buildFeatureActionPlans', () => {
 
     it('treats a feature as disabled when the master toggle is off', () => {
         const plans = buildFeatureActionPlans(
-            features,
+            sections,
             settings({ isEnabled: false, hideShorts: { enabled: true } })
         );
 
@@ -43,7 +38,7 @@ describe('buildFeatureActionPlans', () => {
 
     it('skips features unrelated to the change set', () => {
         const plans = buildFeatureActionPlans(
-            features,
+            sections,
             settings({ hideShorts: { enabled: true } }),
             { hideJams: { oldValue: {}, newValue: { enabled: true } } }
         );
