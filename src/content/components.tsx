@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { waitForElement } from 'src/shared/utils/dom';
 import { StorageProvider } from 'src/shared/hooks/useStorage';
+import { getAttr } from 'src/shared/utils/getAttr';
 
-const ROOT_ID = 'root';
-const FONT_STYLE_ID = 'yt-clean-font-style';
+const ROOT_ID = getAttr('root');
+const FONT_STYLE_ID = getAttr('font-style');
 
 const injectFontFace = (): void => {
     if (document.getElementById(FONT_STYLE_ID)) return;
