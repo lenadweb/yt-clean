@@ -7,7 +7,7 @@ import {
 import { setPlaybackSpeed } from 'src/shared/utils/yt';
 import { CachedElement } from 'src/shared/types/config';
 
-const SHORTS_LOOP_OBSERVER_ID = '498d5cf9-dbda-4ded-b2a0-0218d1bc833d';
+const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
 const SHORTS_VIDEO_SELECTOR = `${SHORTS_PLAYER_SELECTOR} video`;
 const SHORTS_ENDED_PLAYER_SELECTOR = `${SHORTS_PLAYER_SELECTOR}.ended-mode`;

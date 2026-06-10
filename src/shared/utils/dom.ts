@@ -77,15 +77,7 @@ export const waitForBody = (): Promise<Element | null> =>
 
 type ObserverCallback = (element: Element) => void;
 
-interface ObserverRegistry {
-    [id: string]: MutationObserver;
-}
-
-declare global {
-    interface Window {
-        __elementObservers__?: ObserverRegistry;
-    }
-}
+const elementObservers = new Map<string, MutationObserver>();
 
 export const observeElementChanges = (
     id: string,
@@ -99,10 +91,6 @@ export const observeElementChanges = (
     },
     root: Element = document.documentElement
 ) => {
-    if (!window.__elementObservers__) {
-        window.__elementObservers__ = {};
-    }
-
     disconnectObserver(id);
 
     const checkAndCallback = () => {
@@ -118,13 +106,10 @@ export const observeElementChanges = (
 
     observer.observe(root, options);
 
-    window.__elementObservers__[id] = observer;
+    elementObservers.set(id, observer);
 };
 
 export const disconnectObserver = (id: string): void => {
-    const observer = window.__elementObservers__?.[id];
-    if (observer) {
-        observer.disconnect();
-        delete window.__elementObservers__![id];
-    }
+    elementObservers.get(id)?.disconnect();
+    elementObservers.delete(id);
 };
