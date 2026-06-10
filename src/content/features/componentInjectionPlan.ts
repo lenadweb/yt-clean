@@ -4,7 +4,7 @@ import type {
 } from 'src/content/features/componentRegistry';
 import { componentRegistry } from 'src/content/features/componentRegistry';
 import { getComponentsAction } from 'src/shared/featureConfig';
-import { getFeatureSetting, StorageState } from 'src/shared/storage/config';
+import { isFeatureEnabled, StorageState } from 'src/shared/storage/config';
 import { waitForElement } from 'src/shared/utils/dom';
 
 type ComponentConfig = ReturnType<typeof getComponentsAction>[number];
@@ -19,14 +19,11 @@ const matchesUrl = (component: ComponentAction, url: string): boolean =>
         ? component.urlRegExp.some((regexp) => regexp.test(url))
         : true;
 
-const isFeatureEnabled = (
+const isConfigActive = (
     config: ComponentConfig,
     storage: StorageState
 ): boolean =>
-    Boolean(
-        getFeatureSetting(storage, config.id)?.enabled &&
-        config.components.length
-    );
+    Boolean(isFeatureEnabled(storage, config.id) && config.components.length);
 
 const getComponentDefinition = (
     component: ComponentAction,
@@ -48,7 +45,7 @@ export const getActiveComponentDefinitions = (
     url: string
 ): ComponentDefinition[] =>
     getComponentsAction()
-        .filter((config) => isFeatureEnabled(config, storage))
+        .filter((config) => isConfigActive(config, storage))
         .flatMap((config) =>
             config.components.flatMap((component) => {
                 const definition = getComponentDefinition(component, url);

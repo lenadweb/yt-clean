@@ -1,6 +1,7 @@
 import { Feature, SettingsSection } from 'src/shared/types/config';
 import {
     getFeatureSetting,
+    isFeatureEnabled,
     StorageState,
     toFeatureId,
 } from 'src/shared/storage/config';
@@ -21,9 +22,6 @@ const getSettingValue = (
     return setting?.value;
 };
 
-const isSettingEnabled = (settings: StorageState, id: Feature['id']): boolean =>
-    Boolean(settings.isEnabled && getFeatureSetting(settings, id)?.enabled);
-
 const buildFeaturePlans = (
     features: Feature[],
     settings: StorageState,
@@ -33,7 +31,7 @@ const buildFeaturePlans = (
         .filter(({ id }) => hasStorageChange(changes, id))
         .map((feature) => ({
             status: {
-                enabled: isSettingEnabled(settings, feature.id),
+                enabled: isFeatureEnabled(settings, feature.id),
                 value: getSettingValue(settings, feature.id),
             },
             actions: feature.actions,

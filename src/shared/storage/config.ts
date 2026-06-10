@@ -15,6 +15,9 @@ export const getFeatureSetting = (
     id: string
 ): SettingValue => settings[toFeatureId(id)];
 
+export const isFeatureEnabled = (settings: StorageState, id: string): boolean =>
+    Boolean(settings.isEnabled && getFeatureSetting(settings, id)?.enabled);
+
 export const DEFAULT_STORAGE: StorageState = {
     isEnabled: true,
     ...Object.fromEntries(
