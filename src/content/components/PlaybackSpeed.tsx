@@ -2,6 +2,7 @@ import React, { FC, useCallback, useRef, useState } from 'react';
 import { Slider } from 'src/content/components/Slider';
 import { useStorageValue } from 'src/shared/hooks/useStorage';
 import { useOutsideClick } from 'src/shared/hooks/useOutsideClick';
+import { parseSpeed } from 'src/shared/utils/yt';
 
 const PlaybackSpeed: FC = () => {
     const [sliderIsOpen, setSliderIsOpen] = useState(false);
@@ -33,7 +34,7 @@ const PlaybackSpeed: FC = () => {
             className="relative top-1.5 flex size-12 items-center justify-center"
         >
             <div onClick={toggleSlider} className="font-semibold">
-                {parseFloat(Number(speedControl.value).toFixed(2))}x
+                {parseSpeed(speedControl.value)}x
             </div>
             {sliderIsOpen && (
                 <div className="absolute -top-[210px]">
@@ -45,7 +46,7 @@ const PlaybackSpeed: FC = () => {
                         step={0.05}
                         max={2.5}
                         size="150px"
-                        value={Number(speedControl.value || '1')}
+                        value={parseSpeed(speedControl.value)}
                         onChange={onChange}
                     />
                 </div>
