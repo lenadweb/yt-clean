@@ -30,11 +30,9 @@ export const sidebarCategory = category('sidebar', [
     section(
         'you',
         {
-            whenAllEnabled: {
-                hide: [
-                    '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
-                ],
-            },
+            hideWhenAllEnabled: [
+                '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
+            ],
         },
         [
             feature({
@@ -94,11 +92,9 @@ export const sidebarCategory = category('sidebar', [
     section(
         'explore',
         {
-            whenAllEnabled: {
-                hide: [
-                    "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
-                ],
-            },
+            hideWhenAllEnabled: [
+                "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
+            ],
         },
         [
             feature({
@@ -141,11 +137,9 @@ export const sidebarCategory = category('sidebar', [
     section(
         'more_from_youtube',
         {
-            whenAllEnabled: {
-                hide: [
-                    "#sections ytd-guide-section-renderer:has([href='https://music.youtube.com/'])",
-                ],
-            },
+            hideWhenAllEnabled: [
+                "#sections ytd-guide-section-renderer:has([href='https://music.youtube.com/'])",
+            ],
         },
         [
             feature({
