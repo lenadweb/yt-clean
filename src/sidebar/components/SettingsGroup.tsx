@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
-import { Feature, I18nKey } from 'src/shared/types/config';
+import { Feature, I18nKey, SectionControls } from 'src/shared/types/config';
 import {
     FeatureId,
     getFeatureSetting,
@@ -20,8 +20,7 @@ interface SettingsGroupProps {
     enabled: boolean;
     isNew?: boolean;
     features: Feature[];
-    withoutCheckboxes: boolean;
-    withoutSwitch: boolean;
+    controls?: SectionControls;
     settings: StorageState;
     setSetting: (key: FeatureId, value: SettingValue) => void;
 }
@@ -36,8 +35,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
     isFirst,
     enabled,
     isNew,
-    withoutCheckboxes,
-    withoutSwitch,
+    controls,
     settings,
     setSetting,
     title,
@@ -68,7 +66,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                     {t(title)}
                     {isNew && <NewBadge />}
                 </div>
-                {!withoutSwitch ? (
+                {controls !== 'checkboxes' ? (
                     <Switch
                         disabled={!enabled}
                         enabled={groupEnabled}
@@ -76,7 +74,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                     />
                 ) : null}
             </div>
-            {!withoutCheckboxes ? (
+            {controls !== 'switch' ? (
                 <div className="ml-3 flex flex-col gap-3">
                     {features.map((feature) => (
                         <Checkbox
