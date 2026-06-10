@@ -10,14 +10,20 @@ type Listener = (changes?: StorageChanges) => void;
 export class Storage {
     settings: StorageState;
     isReady = false;
+    private initialized = false;
     private readonly listeners = new Set<Listener>();
 
     constructor(private readonly defaults: StorageState = DEFAULT_STORAGE) {
         this.settings = { ...defaults };
+    }
+
+    init(): void {
+        if (this.initialized) return;
+        this.initialized = true;
 
         chrome.storage.local.get(null, (data) => {
             this.settings = mergeStorage(
-                defaults,
+                this.defaults,
                 data as Partial<StorageState>
             );
             chrome.storage.local.set(this.settings);

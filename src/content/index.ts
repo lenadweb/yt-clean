@@ -8,40 +8,30 @@ import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 import { StorageChanges } from 'src/content/features/types';
 import { SettingsSection } from 'src/shared/types/config';
 
-class Content {
-    private currentUrl = window.location.href;
-    private readonly actionExecutor = new DomActionExecutor();
-    private readonly sections: SettingsSection[];
+const startFeatureRunner = (sections: SettingsSection[]) => {
+    const actionExecutor = new DomActionExecutor();
+    let currentUrl = window.location.href;
 
-    constructor(sections: SettingsSection[]) {
-        this.sections = sections;
-
-        onUrlChange((url) => {
-            this.currentUrl = url;
-            this.runFeatures();
-        });
-        storage.onChange((changes) => this.runFeatures(changes));
-        this.runWhenBodyIsReady();
-    }
-
-    private runWhenBodyIsReady(): void {
-        waitForBody().then(() => {
-            this.runFeatures();
-        });
-    }
-
-    private runFeatures(changes?: StorageChanges): void {
+    const runFeatures = (changes?: StorageChanges) => {
         const actionPlans = buildFeatureActionPlans(
-            this.sections,
+            sections,
             storage.settings,
             changes
         );
 
         actionPlans.forEach((plan) => {
-            this.actionExecutor.run(plan, this.currentUrl);
+            actionExecutor.run(plan, currentUrl);
         });
-    }
-}
+    };
 
-new Content(SECTIONS);
+    onUrlChange((url) => {
+        currentUrl = url;
+        runFeatures();
+    });
+    storage.onChange((changes) => runFeatures(changes));
+    waitForBody().then(() => runFeatures());
+};
+
+storage.init();
+startFeatureRunner(SECTIONS);
 injectComponents();
