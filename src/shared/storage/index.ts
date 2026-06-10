@@ -37,9 +37,10 @@ export class Storage {
     }
 
     update<K extends keyof StorageState>(key: K, value: StorageState[K]): void {
+        const oldValue = this.settings[key];
         this.settings = { ...this.settings, [key]: value };
         chrome.storage.local.set({ [key]: value });
-        this.notify();
+        this.notify({ [key]: { oldValue, newValue: value } } as StorageChanges);
     }
 
     onChange(listener: Listener): () => void {
