@@ -5,7 +5,7 @@ import { getAttr } from 'src/shared/utils/getAttr';
 
 const buildCategory = () =>
     category('feed_and_recommendations', [
-        section('content_blocks', { whenAllEnabled: { hide: ['#group'] } }, [
+        section('content_blocks', { hideWhenAllEnabled: ['#group'] }, [
             feature({ id: 'hideShorts', hide: ['#shorts'] }),
             feature({ id: 'hideJams', hide: ['#jams'] }),
         ]),
@@ -49,7 +49,7 @@ describe('category', () => {
         expect(result.sections[1].features).toHaveLength(1);
     });
 
-    it('attaches a section attribute to whenAllEnabled actions', () => {
+    it('attaches a section attribute to hideWhenAllEnabled actions', () => {
         const result = buildCategory();
 
         expect(result.sections[0].onFullGroupEnabledActions?.[0].attr).toBe(

@@ -21,27 +21,24 @@ type CustomDefinition = {
     disable?: CustomAction['onDisable'];
 };
 
-type ActionFields = {
-    url?: RegExp[];
-    hide?: string[];
-    styles?: string[];
-    component?: ComponentDefinition;
-    custom?: true | CustomDefinition;
-};
-
 type SectionOptions = {
     isNew?: boolean;
     controls?: SectionControls;
-    whenAllEnabled?: ActionFields;
+    hideWhenAllEnabled?: string[];
 };
 
-type FeatureInput<TId extends string = string> = ActionFields & {
+type FeatureInput<TId extends string = string> = {
     id: TId;
     title?: I18nKey;
     isNew?: boolean;
     defaultEnabled?: boolean;
     defaultValue?: string;
     onChange?: Feature['onChange'];
+    url?: RegExp[];
+    hide?: string[];
+    styles?: string[];
+    component?: ComponentDefinition;
+    custom?: true | CustomDefinition;
 };
 
 type SectionDraft<TId extends string> = (
@@ -56,7 +53,7 @@ const toKebabCase = (value: string): string =>
         .toLowerCase();
 
 const getActions = (
-    { url, hide, styles, component, custom }: ActionFields,
+    { url, hide, styles, component, custom }: FeatureInput,
     attr: string
 ): FeatureAction[] => {
     const actions: FeatureAction[] = [];
@@ -130,7 +127,7 @@ export function section<TId extends string>(
     maybeFeatures?: Feature<TId>[]
 ): SectionDraft<TId> {
     const hasOptions = !Array.isArray(optionsOrFeatures);
-    const { whenAllEnabled, ...uiOptions } = hasOptions
+    const { hideWhenAllEnabled, ...uiOptions } = hasOptions
         ? optionsOrFeatures
         : ({} as SectionOptions);
     const features = hasOptions
@@ -140,13 +137,18 @@ export function section<TId extends string>(
     return (category) => ({
         title,
         ...uiOptions,
-        onFullGroupEnabledActions: whenAllEnabled
-            ? getActions(
-                  whenAllEnabled,
-                  getAttr(
-                      `section-${toKebabCase(category)}-${toKebabCase(title)}`
-                  )
-              )
+        onFullGroupEnabledActions: hideWhenAllEnabled
+            ? [
+                  {
+                      action: ElementActions.hide,
+                      selectors: hideWhenAllEnabled,
+                      attr: getAttr(
+                          `section-${toKebabCase(category)}-${toKebabCase(
+                              title
+                          )}`
+                      ),
+                  },
+              ]
             : undefined,
         features,
     });
