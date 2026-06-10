@@ -61,11 +61,12 @@ export interface Feature<TId extends string = string> {
     onChange?: (value: unknown) => void;
 }
 
+export type SectionControls = 'switch' | 'checkboxes';
+
 export interface SettingsSection<TId extends string = string> {
     title: I18nKey;
     isNew?: boolean;
-    withoutCheckboxes?: boolean;
-    withoutSwitch?: boolean;
+    controls?: SectionControls;
     onFullGroupEnabledActions?: FeatureAction[];
     features: Feature<TId>[];
 }

@@ -1,27 +1,23 @@
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 
 export const sidebarCategory = category('sidebar', [
-    section(
-        'hide_sidebar_completely',
-        { isNew: true, withoutCheckboxes: true },
-        [
-            feature({
-                id: 'hideSidebar',
-                title: 'hide_sidebar_completely',
-                hide: [
-                    'tp-yt-app-drawer#guide',
-                    'ytd-mini-guide-renderer',
-                    '#guide-button',
-                ],
-                styles: [
-                    `#page-manager {
+    section('hide_sidebar_completely', { isNew: true, controls: 'switch' }, [
+        feature({
+            id: 'hideSidebar',
+            title: 'hide_sidebar_completely',
+            hide: [
+                'tp-yt-app-drawer#guide',
+                'ytd-mini-guide-renderer',
+                '#guide-button',
+            ],
+            styles: [
+                `#page-manager {
                     margin-left: 12px !important;
                 }`,
-                ],
-            }),
-        ]
-    ),
-    section('main_menu', { withoutSwitch: true }, [
+            ],
+        }),
+    ]),
+    section('main_menu', { controls: 'checkboxes' }, [
         feature({
             id: 'hideMenuShorts',
             title: 'hide_shorts',
@@ -85,7 +81,7 @@ export const sidebarCategory = category('sidebar', [
             }),
         ]
     ),
-    section('hide_subscriptions_list', { withoutCheckboxes: true }, [
+    section('hide_subscriptions_list', { controls: 'switch' }, [
         feature({
             id: 'hideMenuSubscriptionsList',
             title: 'hide_subscriptions_list',

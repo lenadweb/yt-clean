@@ -4,6 +4,7 @@ import {
     Feature,
     FeatureAction,
     I18nKey,
+    SectionControls,
     SettingsCategory,
     SettingsSection,
 } from 'src/shared/types/config';
@@ -30,8 +31,7 @@ type ActionFields = {
 
 type SectionOptions = {
     isNew?: boolean;
-    withoutCheckboxes?: boolean;
-    withoutSwitch?: boolean;
+    controls?: SectionControls;
     whenAllEnabled?: ActionFields;
 };
 
