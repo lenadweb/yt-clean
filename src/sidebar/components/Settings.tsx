@@ -1,9 +1,7 @@
 import React, { FC } from 'react';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { CATEGORIES } from 'src/shared/featureConfig';
-import { FeatureId } from 'src/shared/storage/config';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
-import { SettingValue } from 'src/shared/types/settings';
 import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
@@ -13,9 +11,6 @@ const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
 
     const isEnabled = settings.isEnabled;
-    const setSetting = (key: FeatureId, value: SettingValue) => {
-        updateSettings(key, value);
-    };
     const toggleEnabled = () => {
         updateSettings('isEnabled', !isEnabled);
     };
@@ -39,13 +34,10 @@ const Settings: FC = () => {
             </div>
             {CATEGORIES.map((category, index) => (
                 <SettingsAccordion
-                    enabled={isEnabled}
                     key={category.title}
                     defaultOpen={index === 0}
                     title={category.title}
                     sections={category.sections}
-                    storageSettings={settings}
-                    setSetting={setSetting}
                 />
             ))}
         </div>

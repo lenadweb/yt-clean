@@ -4,34 +4,30 @@ import {
     DisclosureButton,
     DisclosurePanel,
 } from '@headlessui/react';
-import { FeatureId, StorageState } from 'src/shared/storage/config';
 import ChevronDownIcon from 'src/assets/icons/chevron-down.svg';
 import cn from 'classnames';
 import { I18nKey, SettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
-import { SettingValue } from 'src/shared/types/settings';
+import { useStorage } from 'src/shared/hooks/useStorage';
 import { t } from 'src/shared/utils/i18n';
 
 type Props = {
     title: I18nKey;
     sections: SettingsSection[];
-    storageSettings: StorageState;
-    enabled: boolean;
-    setSetting: (key: FeatureId, value: SettingValue) => void;
     defaultOpen?: boolean;
 };
 
 export const SettingsAccordion: FC<Props> = ({
     title,
-    storageSettings,
-    enabled,
     sections,
     defaultOpen,
-    setSetting,
-}) => (
-    <Disclosure defaultOpen={defaultOpen}>
-        {({ open }) => (
-            <>
+}) => {
+    const [settings] = useStorage();
+    const enabled = settings.isEnabled;
+
+    return (
+        <Disclosure defaultOpen={defaultOpen}>
+            {({ open }) => (
                 <div
                     className={cn(
                         'rounded-3xl bg-black-700 transition-colors',
@@ -63,19 +59,16 @@ export const SettingsAccordion: FC<Props> = ({
                         {sections.map((section, i) => (
                             <SettingsGroup
                                 isFirst={i === 0}
-                                enabled={enabled}
                                 key={section.title}
                                 isNew={!!section.isNew}
-                                settings={storageSettings}
                                 controls={section.controls}
                                 features={section.features}
-                                setSetting={setSetting}
                                 title={section.title}
                             />
                         ))}
                     </DisclosurePanel>
                 </div>
-            </>
-        )}
-    </Disclosure>
-);
+            )}
+        </Disclosure>
+    );
+};

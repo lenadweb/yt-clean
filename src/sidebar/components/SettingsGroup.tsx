@@ -3,26 +3,22 @@ import cn from 'classnames';
 import { Checkbox } from 'src/sidebar/components/Checkbox';
 import { Feature, I18nKey, SectionControls } from 'src/shared/types/config';
 import {
-    FeatureId,
     getFeatureSetting,
     StorageState,
     toFeatureId,
 } from 'src/shared/storage/config';
+import { useStorage } from 'src/shared/hooks/useStorage';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
-import { SettingValue } from 'src/shared/types/settings';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { t } from 'src/shared/utils/i18n';
 
 interface SettingsGroupProps {
     title: I18nKey;
     isFirst: boolean;
-    enabled: boolean;
     isNew?: boolean;
     features: Feature[];
     controls?: SectionControls;
-    settings: StorageState;
-    setSetting: (key: FeatureId, value: SettingValue) => void;
 }
 
 const isGroupEnabled = (features: Feature[], settings: StorageState): boolean =>
@@ -33,21 +29,24 @@ const isGroupEnabled = (features: Feature[], settings: StorageState): boolean =>
 const SettingsGroup: FC<SettingsGroupProps> = ({
     features,
     isFirst,
-    enabled,
     isNew,
     controls,
-    settings,
-    setSetting,
     title,
 }) => {
+    const [settings, updateSettings] = useStorage();
+    const enabled = settings.isEnabled;
     const groupEnabled = isGroupEnabled(features, settings);
 
+    const setFeatureEnabled = (id: string, value: boolean) => {
+        updateSettings(toFeatureId(id), {
+            ...getFeatureSetting(settings, id),
+            enabled: value,
+        });
+    };
+
     const setGroupEnabled = (value: boolean) => {
-        features.forEach((item) => {
-            setSetting(toFeatureId(item.id), {
-                ...getFeatureSetting(settings, item.id),
-                enabled: value,
-            });
+        features.forEach((feature) => {
+            setFeatureEnabled(feature.id, value);
         });
     };
     return (
@@ -88,9 +87,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                             }
                             disabled={!enabled}
                             onChange={(value) =>
-                                setSetting(toFeatureId(feature.id), {
-                                    enabled: value,
-                                })
+                                setFeatureEnabled(feature.id, value)
                             }
                         />
                     ))}
