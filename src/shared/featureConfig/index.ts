@@ -31,4 +31,4 @@ export const FEATURES: Feature<FeatureId>[] = SECTIONS.flatMap(
     (section) => section.features
 );
 
-export const getComponentsAction = () => getComponentActionGroups(FEATURES);
+export const getComponentGroups = () => getComponentActionGroups(FEATURES);

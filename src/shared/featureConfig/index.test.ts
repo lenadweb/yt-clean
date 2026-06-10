@@ -3,7 +3,7 @@ import {
     CATEGORIES,
     FEATURES,
     SECTIONS,
-    getComponentsAction,
+    getComponentGroups,
 } from 'src/shared/featureConfig';
 import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import { BASE_ATTR_PREFIX } from 'src/shared/const';
@@ -59,9 +59,9 @@ describe('CATEGORIES', () => {
     });
 });
 
-describe('getComponentsAction', () => {
+describe('getComponentGroups', () => {
     it('returns component groups bound to known settings ids', () => {
-        getComponentsAction().forEach((group) => {
+        getComponentGroups().forEach((group) => {
             expect(storageKeys.has(group.id)).toBe(true);
             expect(group.components.length).toBeGreaterThan(0);
         });

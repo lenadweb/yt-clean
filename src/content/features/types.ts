@@ -9,5 +9,5 @@ export type FeatureStatus = {
 export type FeatureActionPlan = {
     status: FeatureStatus;
     actions: FeatureAction[];
-    feature: Feature | null;
+    feature?: Feature;
 };

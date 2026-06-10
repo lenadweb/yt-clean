@@ -66,7 +66,6 @@ const buildSectionPlans = (
                 enabled: areAllSectionFeaturesEnabled(section, settings),
             },
             actions: section.onFullGroupEnabledActions ?? [],
-            feature: null,
         }));
 
 export const buildFeatureActionPlans = (

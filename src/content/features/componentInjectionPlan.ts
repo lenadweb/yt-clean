@@ -3,11 +3,11 @@ import type {
     ComponentName,
 } from 'src/content/features/componentRegistry';
 import { componentRegistry } from 'src/content/features/componentRegistry';
-import { getComponentsAction } from 'src/shared/featureConfig';
+import { getComponentGroups } from 'src/shared/featureConfig';
 import { isFeatureEnabled, StorageState } from 'src/shared/storage/config';
 import { waitForElement } from 'src/shared/utils/dom';
 
-type ComponentConfig = ReturnType<typeof getComponentsAction>[number];
+type ComponentConfig = ReturnType<typeof getComponentGroups>[number];
 type ComponentAction = ComponentConfig['components'][number];
 
 export interface MountedComponent extends ComponentDefinition {
@@ -44,7 +44,7 @@ export const getActiveComponentDefinitions = (
     storage: StorageState,
     url: string
 ): ComponentDefinition[] =>
-    getComponentsAction()
+    getComponentGroups()
         .filter((config) => isConfigActive(config, storage))
         .flatMap((config) =>
             config.components.flatMap((component) => {
