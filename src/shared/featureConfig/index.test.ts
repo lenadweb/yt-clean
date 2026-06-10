@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest';
 import {
+    CATEGORIES,
     FEATURES,
+    SECTIONS,
     getComponentsAction,
-    getSettingsCategories,
 } from 'src/shared/featureConfig';
 import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import { BASE_ATTR_PREFIX } from 'src/shared/const';
@@ -22,6 +23,11 @@ describe('FEATURES', () => {
         });
     });
 
+    it('has no duplicated feature ids', () => {
+        const ids = FEATURES.map((feature) => feature.id);
+        expect(new Set(ids).size).toBe(ids.length);
+    });
+
     it('only references settings ids that exist in storage defaults', () => {
         FEATURES.forEach((feature) => {
             expect(storageKeys.has(feature.id)).toBe(true);
@@ -33,16 +39,23 @@ describe('FEATURES', () => {
     });
 });
 
-describe('getSettingsCategories', () => {
+describe('CATEGORIES', () => {
     it('exposes every feature through a category and section', () => {
-        const categories = getSettingsCategories();
-        expect(categories.length).toBeGreaterThan(0);
+        expect(CATEGORIES.length).toBeGreaterThan(0);
 
-        const featureCount = categories
-            .flatMap((c) => c.settings)
-            .flatMap((s) => s.groups).length;
+        const featureCount = CATEGORIES.flatMap((c) => c.sections).flatMap(
+            (s) => s.features
+        ).length;
 
         expect(featureCount).toBe(FEATURES.length);
+    });
+
+    it('gives every section action a prefixed body attribute', () => {
+        SECTIONS.flatMap(
+            (section) => section.onFullGroupEnabledActions ?? []
+        ).forEach((action) => {
+            expect(action.attr.startsWith(`${BASE_ATTR_PREFIX}-`)).toBe(true);
+        });
     });
 });
 
