@@ -22,9 +22,11 @@ const VIDEO_PLAYER_SELECTOR =
 const isCurrentUrlMatched = (urlRegExps: RegExp[]): boolean =>
     urlRegExps.some((regexp) => regexp.test(window.location.href));
 
-export const syncPlaybackSpeed = async (value: unknown) => {
-    if (typeof value !== 'string') return;
-    if (value === 'disabled') return;
+export const syncPlaybackSpeed = async (
+    value: string | undefined,
+    enabled: boolean
+) => {
+    if (!enabled || !value) return;
 
     if (!isCurrentUrlMatched([UrlRegExps.Watch, UrlRegExps.Channel])) {
         return;

@@ -16,11 +16,7 @@ const hasStorageChange = (
 const getSettingValue = (
     settings: StorageState,
     id: Feature['id']
-): unknown => {
-    const setting = getFeatureSetting(settings, id);
-
-    return setting?.value;
-};
+): string | undefined => getFeatureSetting(settings, id)?.value;
 
 const buildFeaturePlans = (
     features: Feature[],
@@ -68,7 +64,6 @@ const buildSectionPlans = (
         .map((section) => ({
             status: {
                 enabled: areAllSectionFeaturesEnabled(section, settings),
-                value: null,
             },
             actions: section.onFullGroupEnabledActions ?? [],
             feature: null,

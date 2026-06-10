@@ -3,7 +3,7 @@ export type { StorageChanges } from 'src/shared/storage/helpers';
 
 export type FeatureStatus = {
     enabled: boolean;
-    value: unknown;
+    value?: string;
 };
 
 export type FeatureActionPlan = {
