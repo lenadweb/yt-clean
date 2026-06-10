@@ -40,8 +40,8 @@ Common feature fields:
 
 Section options go in the optional second argument of `section`: `isNew`,
 `controls` (`'switch'` renders only the master switch, `'checkboxes'` only
-the checkbox list, omit for both), and `whenAllEnabled` for actions that
-apply when every feature in the section is enabled.
+the checkbox list, omit for both), and `hideWhenAllEnabled` for selectors
+hidden only when every feature in the section is enabled.
 
 For a new title, also update every `src/_locales/*/messages.json`. Missing
 keys fail `pnpm typecheck` (config titles) and `pnpm test` (locale parity).
