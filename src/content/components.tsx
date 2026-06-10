@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { waitForElement } from 'src/shared/utils/dom';
+import { waitForBody } from 'src/shared/utils/dom';
 import { StorageProvider } from 'src/shared/hooks/useStorage';
 import { getAttr } from 'src/shared/utils/getAttr';
 
@@ -36,7 +36,7 @@ const createRootElement = (): HTMLElement => {
 };
 
 export const injectComponents = () => {
-    waitForElement('body').then(() => {
+    waitForBody().then(() => {
         const root = createRootElement();
         injectFontFace();
 

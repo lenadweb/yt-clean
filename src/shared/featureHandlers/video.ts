@@ -66,7 +66,9 @@ const clickNextShort = async () => {
 
 export const enableAutoNextShorts = async () => {
     try {
-        const root = await waitForElement(SHORTS_VIDEO_SELECTOR, 3000);
+        const root = await waitForElement(SHORTS_VIDEO_SELECTOR, {
+            timeout: 3000,
+        });
         if (!root) return;
 
         observeShortsLoopAttribute(root as HTMLElement);

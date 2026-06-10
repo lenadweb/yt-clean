@@ -77,6 +77,6 @@ export const findComponentTarget = async (
     definition: ComponentDefinition,
     signal?: AbortSignal
 ): Promise<MountedComponent | null> => {
-    const element = await waitForElement(definition.targetSelector, 0, signal);
+    const element = await waitForElement(definition.targetSelector, { signal });
     return element ? { ...definition, element } : null;
 };

@@ -1,8 +1,16 @@
+type WaitForElementOptions = {
+    timeout?: number;
+    signal?: AbortSignal;
+    root?: HTMLElement | Document;
+};
+
 export const waitForElement = (
     selector: string,
-    maxTimeout = 0,
-    signal?: AbortSignal,
-    root: HTMLElement | Document = document.documentElement
+    {
+        timeout = 0,
+        signal,
+        root = document.documentElement,
+    }: WaitForElementOptions = {}
 ): Promise<Element | null> =>
     new Promise((resolve) => {
         const check = () => root.querySelector(selector);
@@ -56,13 +64,16 @@ export const waitForElement = (
 
         signal?.addEventListener('abort', onAbort, { once: true });
 
-        if (maxTimeout > 0) {
+        if (timeout > 0) {
             timeoutId = setTimeout(() => {
                 cleanup();
                 resolve(null);
-            }, maxTimeout);
+            }, timeout);
         }
     });
+
+export const waitForBody = (): Promise<Element | null> =>
+    waitForElement('body');
 
 type ObserverCallback = (element: Element) => void;
 

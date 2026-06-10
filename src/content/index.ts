@@ -1,7 +1,7 @@
 import { SECTIONS } from 'src/shared/featureConfig';
 import { storage } from 'src/shared/storage';
 import { onUrlChange } from 'src/shared/utils/navigation';
-import { waitForElement } from 'src/shared/utils/dom';
+import { waitForBody } from 'src/shared/utils/dom';
 import { injectComponents } from 'src/content/components';
 import { DomActionExecutor } from 'src/content/features/actionExecutor';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
@@ -25,7 +25,7 @@ class Content {
     }
 
     private runWhenBodyIsReady(): void {
-        waitForElement('html body').then(() => {
+        waitForBody().then(() => {
             this.runFeatures();
         });
     }
