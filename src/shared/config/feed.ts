@@ -8,7 +8,11 @@ export const feedFeatures = [
     contentBlocks.feature({
         id: 'hideShorts',
         title: 'hide_shorts_sections',
-        hide: ['#player-container-wrapper', '.ytd-video-preview'],
+        hide: [
+            '#player-container-wrapper',
+            '.ytd-video-preview',
+            'grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)',
+        ],
     }),
     contentBlocks.feature({
         id: 'hideNewsSection',
