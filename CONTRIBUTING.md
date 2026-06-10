@@ -10,35 +10,40 @@ the YouTube area you are changing:
 - `video.ts` - player, Shorts, channel pages
 - `sidebar.ts` - sidebar menu items
 
-Use `defineCategory` from `src/shared/featureConfig/dsl` instead of runtime
-action objects.
+Use `category`, `section`, and `feature` from `src/shared/featureConfig/dsl`
+instead of runtime action objects. Each config file exports one category tree:
 
 ```ts
-const feed = defineCategory('feed_and_recommendations');
-const contentBlocks = feed.section('content_blocks');
-
-export const feedFeatures = [
-    contentBlocks.feature({
-        id: 'hideExample',
-        title: 'hide_example',
-        hide: ['ytd-example-renderer'],
-    }),
-];
+export const feedCategory = category('feed_and_recommendations', [
+    section('content_blocks', [
+        feature({
+            id: 'hideExample',
+            title: 'hide_example',
+            hide: ['ytd-example-renderer'],
+        }),
+    ]),
+]);
 ```
 
 Common feature fields:
 
 - `id` - stable storage key. Do not rename it after release.
-- `title` - Chrome i18n message key.
+- `title` - Chrome i18n message key, checked against `en/messages.json` at
+  compile time.
 - `hide` - CSS selectors hidden when the feature is enabled.
 - `styles` - custom CSS enabled through a generated body attribute.
 - `url` - optional URL filters from `UrlRegExps`.
-- `component` - React component injection target.
+- `component` - React component injection target. The name must be registered
+  in `COMPONENT_NAMES` in `src/shared/const.ts` and in the content component
+  registry.
 - `custom` - custom enable/disable handlers for non-CSS behavior.
 
-For a new title, also update:
+Section options go in the optional second argument of `section`:
+`isNew`, `withoutCheckboxes`, `withoutSwitch`, and `whenAllEnabled` for
+actions that apply when every feature in the section is enabled.
 
-- every `src/_locales/*/messages.json`
+For a new title, also update every `src/_locales/*/messages.json`. Missing
+keys fail `pnpm typecheck` (config titles) and `pnpm test` (locale parity).
 
 Setting ids and storage defaults are generated from the feature config. Add
 `defaultValue` only for settings that need a saved value, such as sliders or
