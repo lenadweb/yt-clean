@@ -42,6 +42,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-banner-promo-renderer',
                 'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
                 'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
+                '#player-ads',
             ],
         }),
         feature({
