@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "Recherche"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Masquer l'étagère vidéos de la chaîne"
   }
 }

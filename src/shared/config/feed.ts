@@ -85,6 +85,12 @@ export const feedCategory = category('feed_and_recommendations', [
             isNew: true,
             hide: ['ytd-secondary-search-container-renderer'],
         }),
+        feature({
+            id: 'hideSearchChannelShelf',
+            title: 'hide_channel_video_shelf',
+            isNew: true,
+            hide: ['ytd-shelf-renderer:has(ytd-video-renderer[is-search])'],
+        }),
     ]),
     section('ads', [
         feature({

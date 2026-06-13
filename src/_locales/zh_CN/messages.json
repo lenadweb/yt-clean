@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "搜索"
+  },
+  "hide_channel_video_shelf": {
+    "message": "隐藏频道视频栏"
   }
 }

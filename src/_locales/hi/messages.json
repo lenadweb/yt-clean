@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "खोज"
+  },
+  "hide_channel_video_shelf": {
+    "message": "चैनल वीडियो शेल्फ़ छिपाएँ"
   }
 }

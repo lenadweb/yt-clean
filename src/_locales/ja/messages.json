@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "検索"
+  },
+  "hide_channel_video_shelf": {
+    "message": "チャンネル動画の棚を非表示"
   }
 }

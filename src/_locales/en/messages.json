@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "Search"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Hide channel video shelf"
   }
 }

@@ -190,5 +190,8 @@
   },
   "search": {
     "message": "Pesquisa"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Ocultar vídeos do canal"
   }
 }
