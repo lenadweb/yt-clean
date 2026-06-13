@@ -59,7 +59,7 @@ Then load the unpacked extension:
 
 ```bash
 pnpm build          # one-off chrome build into ./dist
-pnpm build:chrome   # bumps version, outputs release/build-<version>.zip
+pnpm build:chrome   # bumps version, outputs release/build-chrome-<version>.zip
 pnpm build:opera    # Opera-specific manifest
 ```
 

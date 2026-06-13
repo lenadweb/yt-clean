@@ -56,5 +56,5 @@ jobs:
           gh release create "v$VERSION" \
             --title "v$VERSION" \
             --generate-notes \
-            "release/build-$VERSION.zip" \
+            "release/build-chrome-$VERSION.zip" \
             "release/build-opera-$VERSION.zip"

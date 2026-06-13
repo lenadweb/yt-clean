@@ -126,7 +126,7 @@ module.exports = (env) => ({
             filename:
                 env?.platform === 'opera'
                     ? `build-opera-${version}.zip`
-                    : `build-${version}.zip`,
+                    : `build-chrome-${version}.zip`,
         }),
     ],
     optimization: {
