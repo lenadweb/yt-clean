@@ -1,4 +1,9 @@
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
+import { UrlRegExps } from 'src/shared/const';
+import {
+    disableAutoSkipAds,
+    enableAutoSkipAds,
+} from 'src/shared/featureHandlers/ads';
 
 export const feedCategory = category('feed_and_recommendations', [
     section('compact_mode', { isNew: true, controls: 'switch' }, [
@@ -120,6 +125,16 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
                 'ytd-search-pyv-renderer',
             ],
+        }),
+        feature({
+            id: 'autoSkipAds',
+            title: 'auto_skip_ads',
+            isNew: true,
+            url: [UrlRegExps.Watch],
+            custom: {
+                enable: enableAutoSkipAds,
+                disable: disableAutoSkipAds,
+            },
         }),
     ]),
 ]);
