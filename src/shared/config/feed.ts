@@ -104,7 +104,10 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideSearchChannelShelf',
             title: 'hide_channel_video_shelf',
-            hide: ['ytd-shelf-renderer:has(ytd-video-renderer[is-search])'],
+            hide: [
+                'ytd-shelf-renderer:has(ytd-video-renderer[is-search])',
+                'ytd-shelf-renderer:has(yt-horizontal-list-renderer)',
+            ],
         }),
     ]),
     section('ads', [
