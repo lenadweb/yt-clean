@@ -60,6 +60,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 '#player-container-wrapper',
                 '.ytd-video-preview',
                 'grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)',
+                'ytd-reel-shelf-renderer:has(ytm-shorts-lockup-view-model-v2)',
             ],
         }),
         feature({
