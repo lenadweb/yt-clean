@@ -31,6 +31,7 @@ export const feedCategory = category('feed_and_recommendations', [
             hide: [
                 'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
                 '.ytd-rich-item-renderer:has(yt-collections-stack)',
+                'yt-lockup-view-model:has(a[href*="/playlist"])',
             ],
         }),
     ]),
