@@ -184,5 +184,8 @@
   },
   "hide_related_searches": {
     "message": "Ocultar buscas relacionadas"
+  },
+  "hide_search_info_card": {
+    "message": "Ocultar cartão de informações"
   }
 }

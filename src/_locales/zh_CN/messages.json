@@ -184,5 +184,8 @@
   },
   "hide_related_searches": {
     "message": "隐藏相关搜索"
+  },
+  "hide_search_info_card": {
+    "message": "隐藏搜索信息卡片"
   }
 }

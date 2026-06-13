@@ -77,6 +77,12 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-horizontal-card-list-renderer[is-search]:has(ytd-search-refinement-card-renderer)',
             ],
         }),
+        feature({
+            id: 'hideSearchInfoCard',
+            title: 'hide_search_info_card',
+            isNew: true,
+            hide: ['ytd-secondary-search-container-renderer'],
+        }),
     ]),
     section('ads', [
         feature({
