@@ -24,6 +24,7 @@ export const sidebarCategory = category('sidebar', [
             hide: [
                 'ytd-mini-guide-entry-renderer[aria-label=Shorts]',
                 '#sections #items > ytd-guide-entry-renderer:has([title=Shorts])',
+                'ytd-video-renderer:has(ytd-thumbnail a[href*="/shorts/"])',
             ],
         }),
     ]),
