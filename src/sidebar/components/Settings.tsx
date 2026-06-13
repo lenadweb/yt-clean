@@ -6,6 +6,9 @@ import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
 import PowerOffIcon from 'src/assets/icons/power-off.svg';
+import GithubIcon from 'src/assets/icons/github.svg';
+
+const GITHUB_URL = 'https://github.com/lenadweb/yt-clean';
 
 const Settings: FC = () => {
     const [settings, updateSettings] = useStorage();
@@ -16,7 +19,7 @@ const Settings: FC = () => {
     };
 
     return (
-        <div className="min-h-screen w-full space-y-2.5 rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
+        <div className="flex min-h-screen w-full flex-col rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
             <div className="mb-[26px] ml-2 flex items-center justify-between">
                 <div className="flex items-center gap-4">
                     <Logo className="size-8" />
@@ -32,14 +35,25 @@ const Settings: FC = () => {
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
-            {CATEGORIES.map((category, index) => (
-                <SettingsAccordion
-                    key={category.title}
-                    defaultOpen={index === 0}
-                    title={category.title}
-                    sections={category.sections}
-                />
-            ))}
+            <div className="space-y-2.5">
+                {CATEGORIES.map((category, index) => (
+                    <SettingsAccordion
+                        key={category.title}
+                        defaultOpen={index === 0}
+                        title={category.title}
+                        sections={category.sections}
+                    />
+                ))}
+            </div>
+            <a
+                href={GITHUB_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-auto flex items-center justify-center gap-1.5 pt-6 pb-2 text-sm text-white/60 transition hover:text-white"
+            >
+                <GithubIcon className="size-4" />
+                {t('view_on_github')}
+            </a>
         </div>
     );
 };

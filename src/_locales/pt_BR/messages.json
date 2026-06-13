@@ -175,5 +175,8 @@
   },
   "youtube_clean": {
     "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Ver no GitHub"
   }
 }
