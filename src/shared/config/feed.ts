@@ -27,8 +27,10 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideJams',
             title: 'hide_mixes_and_playlists',
+            isNew: true,
             hide: [
                 'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
+                '.ytd-rich-item-renderer:has(yt-collections-stack)',
             ],
         }),
     ]),
