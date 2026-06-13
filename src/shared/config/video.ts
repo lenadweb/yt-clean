@@ -42,26 +42,26 @@ export const videoCategory = category('video_playback_and_channel', [
             hide: ['[data-tooltip-target-id=ytp-autonav-toggle-button]'],
         }),
     ]),
-    section('shorts', [
-        feature({
-            id: 'shortSpeedControl',
-            title: 'speed_control',
-            url: [UrlRegExps.Shorts],
-            component: {
-                name: 'ShortsSpeedControl',
-                after: '#cinematic-container',
-            },
-        }),
-        feature({
-            id: 'autoNextShorts',
-            title: 'automatic_switching_to_the_next',
-            url: [UrlRegExps.Shorts],
-            custom: {
-                enable: enableAutoNextShorts,
-                disable: disableAutoNextShorts,
-            },
-        }),
-    ]),
+    // section('shorts', [
+    //     feature({
+    //         id: 'shortSpeedControl',
+    //         title: 'speed_control',
+    //         url: [UrlRegExps.Shorts],
+    //         component: {
+    //             name: 'ShortsSpeedControl',
+    //             after: '#shorts-inner-container',
+    //         },
+    //     }),
+    //     feature({
+    //         id: 'autoNextShorts',
+    //         title: 'automatic_switching_to_the_next',
+    //         url: [UrlRegExps.Shorts],
+    //         custom: {
+    //             enable: enableAutoNextShorts,
+    //             disable: disableAutoNextShorts,
+    //         },
+    //     }),
+    // ]),
     section('channel', [
         feature({
             id: 'hideChannelTrailer',

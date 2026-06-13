@@ -78,11 +78,10 @@ export const feedCategory = category('feed_and_recommendations', [
             ],
         }),
     ]),
-    section('search', [
+    section('search', { isNew: true }, [
         feature({
             id: 'hideSearchRefinements',
             title: 'hide_related_searches',
-            isNew: true,
             hide: [
                 'ytd-horizontal-card-list-renderer[is-search]:has(ytd-search-refinement-card-renderer)',
             ],
@@ -90,13 +89,11 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideSearchInfoCard',
             title: 'hide_search_info_card',
-            isNew: true,
             hide: ['ytd-secondary-search-container-renderer'],
         }),
         feature({
             id: 'hideSearchChannelShelf',
             title: 'hide_channel_video_shelf',
-            isNew: true,
             hide: ['ytd-shelf-renderer:has(ytd-video-renderer[is-search])'],
         }),
     ]),
