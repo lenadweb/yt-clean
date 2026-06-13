@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "Masquer la fiche d'information"
+  },
+  "search": {
+    "message": "Recherche"
   }
 }

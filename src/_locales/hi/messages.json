@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "खोज जानकारी कार्ड छिपाएँ"
+  },
+  "search": {
+    "message": "खोज"
   }
 }

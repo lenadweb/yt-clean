@@ -69,6 +69,8 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-item-renderer:has(yt-lockup-view-model:has(a[href*="/playlist"]))',
             ],
         }),
+    ]),
+    section('search', [
         feature({
             id: 'hideSearchRefinements',
             title: 'hide_related_searches',

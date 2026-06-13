@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "隐藏搜索信息卡片"
+  },
+  "search": {
+    "message": "搜索"
   }
 }

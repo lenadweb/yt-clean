@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "検索情報カードを非表示"
+  },
+  "search": {
+    "message": "検索"
   }
 }

@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "Ocultar cartão de informações"
+  },
+  "search": {
+    "message": "Pesquisa"
   }
 }

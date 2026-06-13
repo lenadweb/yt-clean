@@ -187,5 +187,8 @@
   },
   "hide_search_info_card": {
     "message": "Such-Infokarte ausblenden"
+  },
+  "search": {
+    "message": "Suche"
   }
 }
