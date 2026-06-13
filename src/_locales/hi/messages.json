@@ -178,5 +178,8 @@
   },
   "view_on_github": {
     "message": "GitHub पर देखें"
+  },
+  "compact_mode": {
+    "message": "कॉम्पैक्ट मोड"
   }
 }

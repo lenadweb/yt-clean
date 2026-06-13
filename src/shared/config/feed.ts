@@ -1,6 +1,40 @@
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 
 export const feedCategory = category('feed_and_recommendations', [
+    section('compact_mode', { isNew: true, controls: 'switch' }, [
+        feature({
+            id: 'compactMode',
+            title: 'compact_mode',
+            styles: [
+                'ytd-rich-grid-renderer ytd-rich-grid-row { display: contents !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-row { display: contents !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(max(360px, calc(33.333% - 11px)), 1fr)) !important; gap: 4px 16px !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer { width: 100% !important; max-width: none !important; min-width: 0 !important; margin: 0 !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-section-renderer { grid-column: 1 / -1 !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupViewModelHost { display: flex !important; flex-direction: row !important; gap: 12px !important; align-items: flex-start !important; margin: 0 !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupViewModelContentImage { flex: 0 0 180px !important; width: 180px !important; max-width: 180px !important; margin: 0 !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytThumbnailViewModelHost { width: 100% !important; height: auto !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupViewModelMetadata { flex: 1 1 auto !important; min-width: 0 !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupMetadataViewModelAvatar { display: none !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupMetadataViewModelTitle { display: -webkit-box !important; -webkit-line-clamp: 2 !important; -webkit-box-orient: vertical !important; overflow: hidden !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(max(360px, calc(33.333% - 11px)), 1fr)) !important; gap: 8px 16px !important; grid-auto-flow: row dense !important; align-items: start !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-shelf-renderer { grid-column: 1 / -1 !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-horizontal-card-list-renderer { grid-column: 1 / -1 !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-reel-shelf-renderer { grid-column: 1 / -1 !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-channel-renderer { grid-column: 1 / -1 !important; }',
+                'ytd-search ytd-video-renderer { width: 100% !important; margin: 0 !important; }',
+                'ytd-search ytd-video-renderer ytd-thumbnail { flex: 0 0 180px !important; width: 180px !important; min-width: 180px !important; max-width: 180px !important; margin: 0 12px 0 0 !important; }',
+                'ytd-search ytd-video-renderer ytd-thumbnail a#thumbnail { width: 180px !important; height: auto !important; aspect-ratio: 16 / 9 !important; }',
+                'ytd-search ytd-video-renderer .metadata-snippet-container { display: none !important; }',
+                'ytd-search ytd-video-renderer .metadata-snippet-container-one-line { display: none !important; }',
+                'ytd-search ytd-video-renderer #channel-thumbnail { display: none !important; }',
+                'ytd-search ytd-video-renderer #expandable-metadata { display: none !important; }',
+                'ytd-search ytd-video-renderer a#video-title { display: -webkit-box !important; -webkit-line-clamp: 2 !important; -webkit-box-orient: vertical !important; overflow: hidden !important; white-space: normal !important; }',
+                'ytd-search yt-lockup-view-model .ytLockupViewModelContentImage { flex: 0 0 180px !important; width: 180px !important; max-width: 180px !important; }',
+                'ytd-channel-renderer.ytd-item-section-renderer { margin: 40px 0!important; }',
+            ],
+        }),
+    ]),
     section('content_blocks', [
         feature({
             id: 'hideShorts',

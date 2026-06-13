@@ -178,5 +178,8 @@
   },
   "view_on_github": {
     "message": "Vedi su GitHub"
+  },
+  "compact_mode": {
+    "message": "Modalità compatta"
   }
 }

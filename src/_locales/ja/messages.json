@@ -178,5 +178,8 @@
   },
   "view_on_github": {
     "message": "GitHub で見る"
+  },
+  "compact_mode": {
+    "message": "コンパクト表示"
   }
 }

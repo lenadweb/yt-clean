@@ -178,5 +178,8 @@
   },
   "view_on_github": {
     "message": "在 GitHub 上查看"
+  },
+  "compact_mode": {
+    "message": "紧凑模式"
   }
 }
