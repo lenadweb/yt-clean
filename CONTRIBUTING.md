@@ -2,8 +2,12 @@
 
 ## Add a YouTube cleanup feature
 
-The full step-by-step guide lives in
-[README → Adding a feature](README.md#adding-a-feature). The short version:
+The full step-by-step guide lives in [docs/adding-feature.md](docs/adding-feature.md).
+Use [docs/selector-guide.md](docs/selector-guide.md) when choosing selectors
+and [docs/feature-catalog.md](docs/feature-catalog.md) to check whether a
+similar feature already exists.
+
+The short version:
 
 1. Add a `feature()` entry to the matching `src/shared/config/*.ts` file
    using `category` / `section` / `feature` from
