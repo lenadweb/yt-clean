@@ -8,7 +8,7 @@ interface ShadowRootProps {
 }
 
 const ShadowRoot: React.FC<ShadowRootProps> = ({ children }) => (
-    <root.span mode="open">
+    <root.span mode="open" id="ytc-sr">
         <style type="text/css">{styles.toString()}</style>
         <span className="pointer-events-auto !z-max inline-block">
             {children}
