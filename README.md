@@ -7,10 +7,19 @@
 </p>
 
 <p align="center">
+  <a href="https://chromewebstore.google.com/detail/dnglnblikgiogcfdbhaapakjamhfldhd?utm_source=gh"><img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/v/dnglnblikgiogcfdbhaapakjamhfldhd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
   <a href="https://github.com/lenadweb/yt-clean/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/lenadweb/yt-clean/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Manifest V3" src="https://img.shields.io/badge/Manifest-V3-success.svg">
   <img alt="Chrome &amp; Opera" src="https://img.shields.io/badge/Chrome%20%26%20Opera-supported-orange.svg">
+</p>
+
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/dnglnblikgiogcfdbhaapakjamhfldhd?utm_source=gh">
+    <img alt="Install from the Chrome Web Store" src="https://fonts.gstatic.com/s/i/productlogos/chrome_store/v7/192px.svg" height="56">
+  </a>
+  <br>
+  <strong><a href="https://chromewebstore.google.com/detail/dnglnblikgiogcfdbhaapakjamhfldhd?utm_source=gh">Install from the Chrome Web Store</a></strong>
 </p>
 
 <p align="center">
