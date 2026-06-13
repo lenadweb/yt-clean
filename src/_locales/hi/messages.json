@@ -181,5 +181,8 @@
   },
   "compact_mode": {
     "message": "कॉम्पैक्ट मोड"
+  },
+  "hide_related_searches": {
+    "message": "संबंधित खोजें छिपाएँ"
   }
 }

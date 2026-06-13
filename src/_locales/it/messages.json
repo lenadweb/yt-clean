@@ -181,5 +181,8 @@
   },
   "compact_mode": {
     "message": "Modalità compatta"
+  },
+  "hide_related_searches": {
+    "message": "Nascondi ricerche correlate"
   }
 }

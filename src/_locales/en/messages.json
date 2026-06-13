@@ -181,5 +181,8 @@
   },
   "compact_mode": {
     "message": "Compact mode"
+  },
+  "hide_related_searches": {
+    "message": "Hide related searches"
   }
 }

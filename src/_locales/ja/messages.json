@@ -181,5 +181,8 @@
   },
   "compact_mode": {
     "message": "コンパクト表示"
+  },
+  "hide_related_searches": {
+    "message": "関連する検索を非表示"
   }
 }
