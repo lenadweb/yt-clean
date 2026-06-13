@@ -1,0 +1,97 @@
+<svg width="1040" height="772" viewBox="0 0 1040 772" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .title  { font-size: 28px; font-weight: 700; fill: #0f172a; }
+      .sub     { font-size: 15px; fill: #64748b; }
+      .h       { font-size: 17px; font-weight: 700; fill: #0f172a; }
+      .mono    { font-size: 13px; font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace; }
+      .desc    { font-size: 13px; fill: #475569; }
+      .badge   { font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrowStart" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M7,0 L0,3 L7,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="772" rx="18" fill="#f8fafc"/>
+  <rect x="0.5" y="0.5" width="1039" height="771" rx="18" fill="none" stroke="#e2e8f0"/>
+
+  <!-- title -->
+  <text x="520" y="52" text-anchor="middle" class="title">How yt-clean works</text>
+  <text x="520" y="80" text-anchor="middle" class="sub">One declarative config compiles into CSS, runtime behavior, and the settings UI</text>
+
+  <!-- 1. config -->
+  <rect x="170" y="108" width="700" height="92" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="192" y="132" class="mono" fill="#6366f1">src/shared/config/*.ts</text>
+  <text x="192" y="158" class="h">Declarative feature config</text>
+  <text x="192" y="182" class="mono" font-size="12" fill="#475569">category() &#8250; section() &#8250; feature({ id, hide, styles, component, custom })</text>
+
+  <!-- arrow config -> featureConfig -->
+  <path d="M520,200 V238" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- 2. featureConfig -->
+  <rect x="170" y="244" width="700" height="80" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="192" y="272" class="h">featureConfig</text>
+  <text x="192" y="296" class="desc">Builds the CATEGORIES &#183; SECTIONS &#183; FEATURES tree —</text>
+  <text x="192" y="314" class="desc">assigns each feature a storage id and a body attribute.</text>
+
+  <!-- distribution bus -->
+  <path d="M520,324 V352" stroke="#94a3b8" stroke-width="1.5" fill="none"/>
+  <path d="M180,352 H860" stroke="#94a3b8" stroke-width="1.5" fill="none"/>
+  <path d="M180,352 V384" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M520,352 V384" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M860,352 V384" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- 3a. stylesBuilder -->
+  <rect x="30" y="388" width="300" height="124" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="50" y="412" class="mono" fill="#059669">src/shared/stylesBuilder</text>
+  <text x="50" y="438" class="h">&#8594; content.css</text>
+  <text x="50" y="462" class="desc">Static hide / styles CSS.</text>
+  <text x="50" y="480" class="desc">Zero runtime cost — toggled</text>
+  <text x="50" y="498" class="desc">purely by a body attribute.</text>
+
+  <!-- 3b. content runtime -->
+  <rect x="370" y="388" width="300" height="124" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="390" y="412" class="mono" fill="#2563eb">src/content</text>
+  <text x="390" y="438" class="h">&#8594; content.js</text>
+  <text x="390" y="462" class="desc">Toggles body attributes, runs</text>
+  <text x="390" y="480" class="desc">custom handlers, injects React</text>
+  <text x="390" y="498" class="desc">components into shadow roots.</text>
+
+  <!-- 3c. sidebar -->
+  <rect x="710" y="388" width="300" height="124" rx="12" fill="#fdf2f8" stroke="#ec4899" stroke-width="1.5"/>
+  <text x="730" y="412" class="mono" fill="#db2777">src/sidebar</text>
+  <text x="730" y="438" class="h">&#8594; sidebar.html</text>
+  <text x="730" y="462" class="desc">Side-panel settings UI.</text>
+  <text x="730" y="480" class="desc">Checkboxes generated from the</text>
+  <text x="730" y="498" class="desc">same config tree.</text>
+
+  <!-- arrows to runtime -->
+  <path d="M180,512 V566" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M520,512 V566" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M860,512 V566" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- 4a. YouTube page -->
+  <rect x="30" y="570" width="640" height="104" rx="12" fill="#fff1f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="50" y="598" class="badge" fill="#ef4444">RUNTIME</text>
+  <text x="50" y="624" class="h">YouTube page</text>
+  <text x="50" y="648" class="desc">content.css hides elements instantly at document_start;</text>
+  <text x="50" y="666" class="desc">content.js applies behavioral features and mounts React components.</text>
+
+  <!-- 4b. side panel -->
+  <rect x="710" y="570" width="300" height="104" rx="12" fill="#faf5ff" stroke="#a855f7" stroke-width="1.5"/>
+  <text x="730" y="598" class="badge" fill="#a855f7">RUNTIME</text>
+  <text x="730" y="624" class="h">Chrome side panel</text>
+  <text x="730" y="648" class="desc">Opened by the worker on</text>
+  <text x="730" y="666" class="desc">toolbar click.</text>
+
+  <!-- storage bus -->
+  <path d="M350,674 V710" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
+  <path d="M860,674 V710" stroke="#94a3b8" stroke-width="1.5" fill="none" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
+
+  <rect x="180" y="714" width="710" height="44" rx="22" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5"/>
+  <text x="535" y="741" text-anchor="middle" class="desc"><tspan font-weight="700" fill="#334155">Storage</tspan> — in-memory mirror of chrome.storage.local, the single source of truth</text>
+</svg>

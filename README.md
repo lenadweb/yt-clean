@@ -1,10 +1,21 @@
-# YouTube Clean
+<h1 align="center">YouTube Clean</h1>
 
-A browser extension that declutters YouTube. Hide Shorts, ads, and sidebar
-items, simplify the player and feed, and add handy controls like a playback
-speed slider — all toggled from a side panel.
+<p align="center">
+  A browser extension that declutters YouTube — hide Shorts, ads, and sidebar
+  items, simplify the player and feed, and add handy controls like a playback
+  speed slider, all toggled from a side panel.
+</p>
 
-> Manifest V3 · React 19 · TypeScript · Tailwind CSS · Chrome & Opera
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+  <a href="https://github.com/lenadweb/yt-clean/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/lenadweb/yt-clean/actions/workflows/ci.yml/badge.svg"></a>
+  <img alt="Manifest V3" src="https://img.shields.io/badge/Manifest-V3-success.svg">
+  <img alt="Chrome &amp; Opera" src="https://img.shields.io/badge/Chrome%20%26%20Opera-supported-orange.svg">
+</p>
+
+<p align="center">
+  <em>Manifest V3 · React 19 · TypeScript · Tailwind CSS</em>
+</p>
 
 ## Features
 
@@ -57,21 +68,9 @@ pnpm format
 Everything is driven by a declarative feature config — you describe *what* a
 feature does, and the build/runtime turn that into UI, CSS, and DOM behavior.
 
-```
-src/shared/config/*.ts         Feature definitions (the only files most PRs touch)
-        │  category('…', [ section('…', [ feature({ id, hide, … }) ]) ])
-        ▼
-src/shared/featureConfig/      Derives CATEGORIES / SECTIONS / FEATURES, setting
-        │                      ids, and a body attribute per feature
-        ├── FEATURES ─────────────────────────────┐
-        ▼                                          ▼
-src/shared/stylesBuilder       src/content/features/   →  content.js
-  static CSS (hide/styles)        runtime DOM actions      (toggles body attrs,
-  emitted as content.css          + React component           runs custom handlers)
-                                  injection
-        ▼
-src/sidebar/                   Side-panel UI generated from the same config tree
-```
+<p align="center">
+  <img src="docs/architecture.svg" alt="yt-clean architecture: one declarative config compiles into content.css, content.js, and the side-panel UI, with Storage as the shared source of truth" width="100%">
+</p>
 
 The three entry points (`webpack.config.js`):
 
