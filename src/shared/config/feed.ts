@@ -93,17 +93,20 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideSearchRefinements',
             title: 'hide_related_searches',
+            url: [UrlRegExps.Search],
             hide: [
                 'ytd-horizontal-card-list-renderer[is-search]:has(ytd-search-refinement-card-renderer)',
             ],
         }),
         feature({
             id: 'hideSearchInfoCard',
+            url: [UrlRegExps.Search],
             title: 'hide_search_info_card',
             hide: ['ytd-secondary-search-container-renderer'],
         }),
         feature({
             id: 'hideSearchChannelShelf',
+            url: [UrlRegExps.Search],
             title: 'hide_channel_video_shelf',
             hide: [
                 'ytd-shelf-renderer:has(ytd-video-renderer[is-search])',
