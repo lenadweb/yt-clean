@@ -1,28 +1,41 @@
-YouTube Clean: Boost, Customize & Hide Shorts is a browser extension for people who want a cleaner, more focused YouTube experience. Remove visual clutter, hide Shorts, simplify recommendations, and customize key interface elements so you can focus on the videos that matter most.
+YouTube Clean is a distraction-free browser extension that removes clutter from YouTube — hide Shorts, skip ads, cut feed clutter, and turn the feed into a clean, compact list. Focus on the videos you actually came for.
 
-Whether you use YouTube for learning, work, research, or long-form entertainment, YouTube Clean helps reduce distractions and gives you direct control over what appears on screen. You choose which elements stay and which ones go.
+Whether you use YouTube for learning, work, research, or long-form viewing, YouTube Clean gives you direct control over what stays on screen and what disappears. Every feature is opt-in and toggled from a simple side panel — make YouTube minimal, focused, and distraction-free.
 
-Key features:
+With YouTube Clean you can:
 
-- Hide Shorts sections across YouTube surfaces
-- Clean up feed and recommendation blocks
-- Reduce promotional and distracting UI elements
-- Customize search bar interface elements
-- Clean up player controls for a simpler viewing layout
+- Remove distractions — hide Shorts, mixes, playlists, and feed clutter.
+- Block & auto-skip ads — automatically skip video ads and hide ad banners and sponsored feed videos.
+- Compact mode — turn the feed, search results, and watch-page recommendations into a tidy list/grid that fits more on screen.
+- Control playback — playback speed slider for videos and a dedicated speed control for Shorts.
+- Stay focused — strip the sidebar, search bar, and player down to the essentials.
+
+Features:
+
+- Compact mode — list / grid layout for feed, search & recommendations
+- Auto-skip video ads
+- Hide ad banners & sponsored feed videos
+- Hide Shorts (feed & sidebar)
+- Hide mixes & playlists
+- Hide Explore, Trending, Music, Gaming, News & Sports
+- Hide Explore & News shelves in the home feed
+- Disable auto-preview on hover
 - Playback speed slider for regular videos
-- Dedicated speed control for YouTube Shorts
-- Sidebar customization (You, Explore, More from YouTube, and more)
-- Channel page cleanup options
+- Speed control & auto-advance for Shorts
+- Hide or trim the left sidebar (You, History, Subscriptions, More from YouTube…)
+- Clean up the search bar & top header (voice search, virtual keyboard, upload, notifications)
+- Clean up player controls for a simpler layout
+- Channel page cleanup (banner, trailer)
+- Clean up search results (related searches, info cards, channel shelves)
 
 Why users choose YouTube Clean:
-- Fast, practical YouTube customization
-- Cleaner UI with fewer distractions
-- Better focus for study and productivity
-- Useful for language learning, tutorials, lectures, and deep work
-- Simple side-panel controls with quick enable/disable options
 
-Great for:
-- Users who want to hide Shorts and stop endless short-form scrolling
-- Users who prefer a minimal YouTube interface
-- Professionals and students who rely on YouTube as a tool
-- Anyone who wants more control over the YouTube layout
+- Distraction-free, minimalist YouTube for focus and productivity
+- Great for studying, language learning, lectures, tutorials, and deep work
+- Stop endless short-form scrolling — hide Shorts everywhere
+- Fast, practical customization with quick enable / disable toggles
+- Open source, lightweight, and privacy-friendly
+
+Streamline your YouTube experience with YouTube Clean — the essential extension for a cleaner, more focused, distraction-free YouTube.
+
+YouTube Clean is open source — view the code, report issues, or request features on GitHub: https://github.com/lenadweb/yt-clean

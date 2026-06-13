@@ -1,27 +1,41 @@
-YouTube Clean: Anpassen & Shorts ausblenden ist eine Browser-Erweiterung für Menschen, die sich ein saubereres, fokussierteres YouTube-Erlebnis wünschen. Entfernen Sie visuellen Ballast, blenden Sie Shorts aus, vereinfachen Sie Empfehlungen und passen Sie wichtige Interface-Elemente an, damit Sie sich auf die Videos konzentrieren können, die wirklich zählen.
+YouTube Clean ist eine ablenkungsfreie Browser-Erweiterung, die den Ballast von YouTube entfernt – Shorts ausblenden, Werbung überspringen, den Feed aufräumen und ihn in eine saubere, kompakte Liste verwandeln. Konzentriere dich auf die Videos, für die du wirklich gekommen bist.
 
-Egal, ob Sie YouTube zum Lernen, Arbeiten, für Recherchen oder zur Unterhaltung nutzen – YouTube Clean hilft Ihnen, Ablenkungen zu reduzieren, und gibt Ihnen die volle Kontrolle darüber, was auf Ihrem Bildschirm erscheint. Sie entscheiden, was bleibt und was ausgeblendet wird.
+Ob du YouTube zum Lernen, Arbeiten, Recherchieren oder für lange Videos nutzt – YouTube Clean gibt dir die direkte Kontrolle darüber, was auf dem Bildschirm bleibt und was verschwindet. Jede Funktion ist optional und wird über ein einfaches Seitenpanel umgeschaltet – mach YouTube minimal, fokussiert und ablenkungsfrei.
 
-Hauptmerkmale:
-- Shorts-Bereiche auf ganz YouTube ausblenden
-- Startseite und Empfehlungsblöcke aufräumen
-- Werbebanner und ablenkende UI-Elemente reduzieren
-- Elemente der Suchleiste anpassen
-- Player-Steuerelemente für ein einfacheres Layout bereinigen
-- Wiedergabegeschwindigkeit-Regler für reguläre Videos
-- Eigener Geschwindigkeitsregler für YouTube Shorts
-- Anpassung der Seitenleiste (Mediathek, Entdecken, Mehr von YouTube usw.)
-- Optionen zum Aufräumen von Kanalseiten
+Mit YouTube Clean kannst du:
 
-Warum Nutzer YouTube Clean wählen:
-- Schnelle, praktische YouTube-Anpassung
-- Aufgeräumte Benutzeroberfläche mit weniger Ablenkungen
-- Besserer Fokus beim Lernen und produktiven Arbeiten
-- Nützlich für das Sprachenlernen, Tutorials, Vorlesungen und Deep Work
-- Einfache Seitenleisten-Steuerung mit schnellen Optionen zum Ein-/Ausschalten
+- Ablenkungen entfernen – Shorts, Mixe, Playlists und Feed-Ballast ausblenden.
+- Werbung blockieren & automatisch überspringen – Videowerbung automatisch überspringen und Werbebanner sowie gesponserte Feed-Videos ausblenden.
+- Kompaktmodus – Feed, Suchergebnisse und Empfehlungen auf der Wiedergabeseite in eine aufgeräumte Listen-/Rasteransicht verwandeln, die mehr auf den Bildschirm bringt.
+- Wiedergabe steuern – Geschwindigkeitsregler für Videos und eine eigene Geschwindigkeitskontrolle für Shorts.
+- Fokussiert bleiben – Seitenleiste, Suchleiste und Player auf das Wesentliche reduzieren.
 
-Ideal für:
-- Nutzer, die Shorts ausblenden und das endlose Scrollen beenden möchten
-- Nutzer, die eine minimalistische YouTube-Benutzeroberfläche bevorzugen
-- Berufstätige und Studierende, die YouTube als Arbeitswerkzeug nutzen
-- Jeden, der mehr Kontrolle über das YouTube-Layout haben möchte
+Funktionen:
+
+- Kompaktmodus – Listen-/Rasteransicht für Feed, Suche & Empfehlungen
+- Videowerbung automatisch überspringen
+- Werbebanner & gesponserte Feed-Videos ausblenden
+- Shorts ausblenden (Feed & Seitenleiste)
+- Mixe & Playlists ausblenden
+- Explore, Trends, Musik, Gaming, News & Sport ausblenden
+- Explore- & News-Blöcke im Startfeed ausblenden
+- Automatische Vorschau beim Überfahren deaktivieren
+- Geschwindigkeitsregler für normale Videos
+- Geschwindigkeitskontrolle & Auto-Weiter für Shorts
+- Linke Seitenleiste ausblenden oder kürzen (Du, Verlauf, Abos, Mehr von YouTube …)
+- Suchleiste & Kopfzeile aufräumen (Sprachsuche, virtuelle Tastatur, Upload, Benachrichtigungen)
+- Player-Steuerung für ein einfacheres Layout aufräumen
+- Kanalseite aufräumen (Banner, Trailer)
+- Suchergebnisse aufräumen (ähnliche Suchanfragen, Infokarten, Kanal-Regale)
+
+Warum sich Nutzer für YouTube Clean entscheiden:
+
+- Ablenkungsfreies, minimalistisches YouTube für Fokus und Produktivität
+- Ideal zum Lernen, für Sprachen, Vorlesungen, Tutorials und konzentriertes Arbeiten
+- Schluss mit endlosem Short-Scrollen – Shorts überall ausblenden
+- Schnelle, praktische Anpassung mit Ein-/Aus-Schaltern
+- Open Source, leichtgewichtig und datenschutzfreundlich
+
+Optimiere dein YouTube-Erlebnis mit YouTube Clean – die unverzichtbare Erweiterung für ein saubereres, fokussierteres und ablenkungsfreies YouTube.
+
+YouTube Clean ist Open Source – sieh dir den Code an, melde Probleme oder schlage Funktionen auf GitHub vor: https://github.com/lenadweb/yt-clean

@@ -1,27 +1,41 @@
-YouTube Clean: Personaliza e itera sin Shorts es una extensión de navegador para personas que desean una experiencia de YouTube más limpia y enfocada. Elimine el desorden visual, oculte los Shorts, simplifique las recomendaciones y personalice los elementos clave de la interfaz para que pueda concentrarse en los videos que más importan.
+YouTube Clean es una extensión de navegador sin distracciones que elimina el desorden de YouTube: oculta Shorts, salta anuncios, reduce el desorden del feed y lo convierte en una lista limpia y compacta. Concéntrate en los videos que realmente viniste a ver.
 
-Ya sea que use YouTube para aprender, trabajar, investigar o para entretenimiento de formato largo, YouTube Clean ayuda a reducir las distracciones y le brinda control directo sobre lo que aparece en pantalla. Tú eliges qué elementos se quedan y cuáles se van.
+Tanto si usas YouTube para aprender, trabajar, investigar o ver contenido largo, YouTube Clean te da control directo sobre lo que permanece en pantalla y lo que desaparece. Cada función es opcional y se activa desde un sencillo panel lateral: haz que YouTube sea minimalista, enfocado y sin distracciones.
 
-Características clave:
-- Ocultar las secciones de Shorts en todas las superficies de YouTube
-- Limpiar el feed y los bloques de recomendaciones
-- Reducir los elementos promocionales y distractores de la interfaz
-- Personalizar los elementos de la interfaz de la barra de búsqueda
-- Limpiar los controles del reproductor para un diseño de visualización más simple
-- Deslizador de velocidad de reproducción para videos normales
-- Control de velocidad dedicado para YouTube Shorts
-- Personalización de la barra lateral (Tú, Explorar, Más de YouTube y más)
-- Opciones de limpieza de la página del canal
+Con YouTube Clean puedes:
+
+- Eliminar distracciones: oculta Shorts, mixes, playlists y el desorden del feed.
+- Bloquear y saltar anuncios automáticamente: salta los anuncios de video automáticamente y oculta banners y videos patrocinados del feed.
+- Modo compacto: convierte el feed, los resultados de búsqueda y las recomendaciones en una vista de lista/cuadrícula ordenada que aprovecha mejor la pantalla.
+- Controlar la reproducción: control deslizante de velocidad para videos y un control de velocidad dedicado para Shorts.
+- Mantener el enfoque: reduce la barra lateral, la barra de búsqueda y el reproductor a lo esencial.
+
+Funciones:
+
+- Modo compacto: vista de lista/cuadrícula para feed, búsqueda y recomendaciones
+- Saltar anuncios de video automáticamente
+- Ocultar banners y videos patrocinados del feed
+- Ocultar Shorts (feed y barra lateral)
+- Ocultar mixes y playlists
+- Ocultar Explorar, Tendencias, Música, Juegos, Noticias y Deportes
+- Ocultar bloques de Explorar y Noticias en el feed principal
+- Desactivar la vista previa automática al pasar el cursor
+- Control deslizante de velocidad para videos normales
+- Control de velocidad y avance automático para Shorts
+- Ocultar o recortar la barra lateral izquierda (Tú, Historial, Suscripciones, Más de YouTube…)
+- Limpiar la barra de búsqueda y la cabecera (búsqueda por voz, teclado virtual, subir, notificaciones)
+- Limpiar los controles del reproductor para un diseño más simple
+- Limpiar la página del canal (banner, tráiler)
+- Limpiar los resultados de búsqueda (búsquedas relacionadas, tarjetas de información, estantes de canal)
 
 Por qué los usuarios eligen YouTube Clean:
-- Personalización rápida y práctica de YouTube
-- Interfaz de usuario más limpia con menos distracciones
-- Mayor enfoque para el estudio y la productividad.
-- Útil para el aprendizaje de idiomas, tutoriales, conferencias y trabajo profundo
-- Controles sencillos en el panel lateral con opciones rápidas de activación/desactivación
 
-Ideal para:
-- Usuarios que desean ocultar Shorts y detener el desplazamiento interminable de formato corto
-- Usuarios que prefieren una interfaz de YouTube minimalista
-- Profesionales y estudiantes que confían en YouTube como herramienta.
-- Cualquiera que quiera más control sobre el diseño de YouTube
+- YouTube minimalista y sin distracciones para enfoque y productividad
+- Ideal para estudiar, aprender idiomas, clases, tutoriales y trabajo profundo
+- Deja de hacer scroll infinito de Shorts: ocúltalos en todas partes
+- Personalización rápida y práctica con interruptores de activar/desactivar
+- Código abierto, ligero y respetuoso con la privacidad
+
+Optimiza tu experiencia en YouTube con YouTube Clean: la extensión esencial para un YouTube más limpio, enfocado y sin distracciones.
+
+YouTube Clean es de código abierto: consulta el código, reporta problemas o solicita funciones en GitHub: https://github.com/lenadweb/yt-clean
