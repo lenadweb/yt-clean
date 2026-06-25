@@ -131,6 +131,7 @@ export const feedCategory = category('feed_and_recommendations', [
             title: 'hide_sponsored_feed_video',
             hide: [
                 'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
+                'ytd-ad-slot-renderer',
                 'ytd-search-pyv-renderer',
             ],
         }),
