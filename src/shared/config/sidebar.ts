@@ -32,7 +32,7 @@ export const sidebarCategory = category('sidebar', [
         'you',
         {
             hideWhenAllEnabled: [
-                '#sections ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"])',
+                '#sections ytd-guide-section-renderer:has([href="/feed/history"])',
             ],
         },
         [
@@ -94,7 +94,8 @@ export const sidebarCategory = category('sidebar', [
         'explore',
         {
             hideWhenAllEnabled: [
-                "#sections ytd-guide-section-renderer:has([href*='feed/trending'])",
+                "#sections ytd-guide-section-renderer:has([href='/gaming'])",
+                "#sections ytd-guide-section-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
             ],
         },
         [
