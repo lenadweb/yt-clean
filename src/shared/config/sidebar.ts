@@ -37,6 +37,13 @@ export const sidebarCategory = category('sidebar', [
         },
         [
             feature({
+                id: 'hideMenuMyChannel',
+                title: 'hide_my_channel',
+                hide: [
+                    'ytd-guide-collapsible-section-entry-renderer:has([href="/feed/history"]) #section-items ytd-guide-entry-renderer:has([href^="/@"])',
+                ],
+            }),
+            feature({
                 id: 'hideMenuHistory',
                 title: 'hide_history',
                 hide: [
@@ -76,6 +83,14 @@ export const sidebarCategory = category('sidebar', [
                 title: 'your_movies',
                 hide: [
                     '#section-items ytd-guide-entry-renderer:has([href*="/feed/storefront"])',
+                ],
+            }),
+            feature({
+                id: 'hideMenuDownloads',
+                title: 'hide_downloads',
+                hide: [
+                    '#section-items ytd-guide-downloads-entry-renderer',
+                    '#section-items ytd-guide-entry-renderer:has([href="/feed/downloads"])',
                 ],
             }),
         ]

@@ -199,5 +199,11 @@
   },
   "hide_footer": {
     "message": "Hide Footer & About links"
+  },
+  "hide_my_channel": {
+    "message": "Hide My channel"
+  },
+  "hide_downloads": {
+    "message": "Hide Downloads"
   }
 }

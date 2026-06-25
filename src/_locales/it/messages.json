@@ -199,5 +199,11 @@
   },
   "hide_footer": {
     "message": "Nascondi footer e link informativi"
+  },
+  "hide_my_channel": {
+    "message": "Nascondi Il mio canale"
+  },
+  "hide_downloads": {
+    "message": "Nascondi Download"
   }
 }

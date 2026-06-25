@@ -199,5 +199,11 @@
   },
   "hide_footer": {
     "message": "Ocultar rodapé e links"
+  },
+  "hide_my_channel": {
+    "message": "Ocultar Meu canal"
+  },
+  "hide_downloads": {
+    "message": "Ocultar Downloads"
   }
 }

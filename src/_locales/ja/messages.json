@@ -199,5 +199,11 @@
   },
   "hide_footer": {
     "message": "フッターと情報リンクを非表示"
+  },
+  "hide_my_channel": {
+    "message": "マイチャンネルを非表示"
+  },
+  "hide_downloads": {
+    "message": "ダウンロードを非表示"
   }
 }

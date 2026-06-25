@@ -199,5 +199,11 @@
   },
   "hide_footer": {
     "message": "Fußzeile & Info-Links ausblenden"
+  },
+  "hide_my_channel": {
+    "message": "Mein Kanal ausblenden"
+  },
+  "hide_downloads": {
+    "message": "Downloads ausblenden"
   }
 }
