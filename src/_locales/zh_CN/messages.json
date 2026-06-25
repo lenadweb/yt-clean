@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "隐藏“展开”按钮"
+  },
+  "hide_live": {
+    "message": "隐藏“直播”"
   }
 }

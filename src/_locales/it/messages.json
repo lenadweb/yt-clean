@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "Nascondi pulsante \"Mostra altro\""
+  },
+  "hide_live": {
+    "message": "Nascondi \"Live\""
   }
 }

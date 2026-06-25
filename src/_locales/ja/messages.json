@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "「もっと見る」ボタンを非表示"
+  },
+  "hide_live": {
+    "message": "「ライブ」を非表示"
   }
 }

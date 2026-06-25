@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "Masquer le bouton \"Afficher plus\""
+  },
+  "hide_live": {
+    "message": "Masquer \"En direct\""
   }
 }

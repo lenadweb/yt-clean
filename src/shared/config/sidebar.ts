@@ -137,6 +137,14 @@ export const sidebarCategory = category('sidebar', [
                 ],
             }),
             feature({
+                id: 'hideMenuExploreLive',
+                title: 'hide_live',
+                isNew: true,
+                hide: [
+                    "#sections ytd-guide-entry-renderer:has([href*='UC4R8DWoMoI7CAwX8_LjQHig'])",
+                ],
+            }),
+            feature({
                 id: 'hideMenuExploreGaming',
                 title: 'hide_gaming',
                 hide: [

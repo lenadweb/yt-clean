@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "Schaltfläche \"Mehr anzeigen\" ausblenden"
+  },
+  "hide_live": {
+    "message": "\"Live\" ausblenden"
   }
 }

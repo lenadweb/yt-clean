@@ -223,5 +223,8 @@
   },
   "hide_expand_button": {
     "message": "\"और दिखाएं\" बटन छिपाएं"
+  },
+  "hide_live": {
+    "message": "\"लाइव\" छिपाएं"
   }
 }
