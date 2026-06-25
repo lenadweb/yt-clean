@@ -201,10 +201,10 @@
     "message": "फ़ुटर और जानकारी लिंक छिपाएं"
   },
   "hide_my_channel": {
-    "message": "मेरा चैनल छिपाएं"
+    "message": "\"मेरा चैनल\" छिपाएं"
   },
   "hide_downloads": {
-    "message": "डाउनलोड छिपाएं"
+    "message": "\"डाउनलोड\" छिपाएं"
   },
   "experimental": {
     "message": "प्रायोगिक"

@@ -201,10 +201,10 @@
     "message": "Masquer le pied de page et les liens"
   },
   "hide_my_channel": {
-    "message": "Masquer Ma chaîne"
+    "message": "Masquer \"Ma chaîne\""
   },
   "hide_downloads": {
-    "message": "Masquer les téléchargements"
+    "message": "Masquer \"Téléchargements\""
   },
   "experimental": {
     "message": "expérimental"

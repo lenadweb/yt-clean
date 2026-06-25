@@ -201,10 +201,10 @@
     "message": "Ocultar pie de página y enlaces"
   },
   "hide_my_channel": {
-    "message": "Ocultar Mi canal"
+    "message": "Ocultar \"Mi canal\""
   },
   "hide_downloads": {
-    "message": "Ocultar Descargas"
+    "message": "Ocultar \"Descargas\""
   },
   "experimental": {
     "message": "experimental"

@@ -201,10 +201,10 @@
     "message": "フッターと情報リンクを非表示"
   },
   "hide_my_channel": {
-    "message": "マイチャンネルを非表示"
+    "message": "「マイチャンネル」を非表示"
   },
   "hide_downloads": {
-    "message": "ダウンロードを非表示"
+    "message": "「ダウンロード」を非表示"
   },
   "experimental": {
     "message": "実験的"

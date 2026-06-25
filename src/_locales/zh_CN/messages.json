@@ -201,10 +201,10 @@
     "message": "隐藏页脚和关于链接"
   },
   "hide_my_channel": {
-    "message": "隐藏我的频道"
+    "message": "隐藏“我的频道”"
   },
   "hide_downloads": {
-    "message": "隐藏下载内容"
+    "message": "隐藏“下载内容”"
   },
   "experimental": {
     "message": "实验性"

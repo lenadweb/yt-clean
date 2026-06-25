@@ -201,10 +201,10 @@
     "message": "Fußzeile & Info-Links ausblenden"
   },
   "hide_my_channel": {
-    "message": "Mein Kanal ausblenden"
+    "message": "\"Mein Kanal\" ausblenden"
   },
   "hide_downloads": {
-    "message": "Downloads ausblenden"
+    "message": "\"Downloads\" ausblenden"
   },
   "experimental": {
     "message": "experimentell"

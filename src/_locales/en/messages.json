@@ -201,10 +201,10 @@
     "message": "Hide Footer & About links"
   },
   "hide_my_channel": {
-    "message": "Hide My channel"
+    "message": "Hide \"My channel\""
   },
   "hide_downloads": {
-    "message": "Hide Downloads"
+    "message": "Hide \"Downloads\""
   },
   "experimental": {
     "message": "experimental"
