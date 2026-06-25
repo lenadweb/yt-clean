@@ -100,7 +100,7 @@ export const sidebarCategory = category('sidebar', [
             id: 'hideMenuSubscriptionsList',
             title: 'hide_subscriptions_list',
             hide: [
-                "#sections ytd-guide-section-renderer:has([href*='@'])",
+                "#sections ytd-guide-section-renderer:has([href='/feed/subscriptions'])",
                 "ytd-mini-guide-renderer ytd-mini-guide-entry-renderer:has([href='/feed/subscriptions'])",
             ],
         }),
