@@ -28,13 +28,6 @@ export const sidebarCategory = category('sidebar', [
             ],
         }),
     ]),
-    section('hide_expand_button', { isNew: true, controls: 'switch' }, [
-        feature({
-            id: 'hideExpandButton',
-            title: 'hide_expand_button',
-            hide: ['#sections ytd-guide-collapsible-entry-renderer'],
-        }),
-    ]),
     section(
         'you',
         {
@@ -100,6 +93,14 @@ export const sidebarCategory = category('sidebar', [
                     '#section-items ytd-guide-entry-renderer:has([href="/feed/downloads"])',
                 ],
             }),
+            feature({
+                id: 'hideMenuYouExpand',
+                title: 'hide_expand_button',
+                isNew: true,
+                hide: [
+                    'ytd-guide-section-renderer:has([href="/feed/history"]) ytd-guide-collapsible-entry-renderer',
+                ],
+            }),
         ]
     ),
     section('hide_subscriptions_list', { controls: 'switch' }, [
@@ -154,6 +155,14 @@ export const sidebarCategory = category('sidebar', [
                 title: 'hide_sports',
                 hide: [
                     "#sections ytd-guide-entry-renderer:has([href*='UCEgdi0XIXXZ-qJOFPf4JSKw'])",
+                ],
+            }),
+            feature({
+                id: 'hideMenuExploreExpand',
+                title: 'hide_expand_button',
+                isNew: true,
+                hide: [
+                    "ytd-guide-section-renderer:has([href='/gaming']) ytd-guide-collapsible-entry-renderer",
                 ],
             }),
         ]
