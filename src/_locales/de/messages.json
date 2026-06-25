@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "Werbung automatisch überspringen"
+  },
+  "hide_footer": {
+    "message": "Fußzeile & Info-Links ausblenden"
   }
 }

@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "自动跳过广告"
+  },
+  "hide_footer": {
+    "message": "隐藏页脚和关于链接"
   }
 }

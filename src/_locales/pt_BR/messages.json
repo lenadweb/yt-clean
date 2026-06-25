@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "Pular anúncios automaticamente"
+  },
+  "hide_footer": {
+    "message": "Ocultar rodapé e links"
   }
 }

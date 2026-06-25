@@ -174,4 +174,14 @@ export const sidebarCategory = category('sidebar', [
             }),
         ]
     ),
+    section('hide_footer', { isNew: true, controls: 'switch' }, [
+        feature({
+            id: 'hideFooter',
+            title: 'hide_footer',
+            hide: [
+                '#sections ytd-guide-section-renderer:has([href="/reporthistory"])',
+                'ytd-guide-renderer #footer',
+            ],
+        }),
+    ]),
 ]);

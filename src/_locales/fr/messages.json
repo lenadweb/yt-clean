@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "Passer les pubs automatiquement"
+  },
+  "hide_footer": {
+    "message": "Masquer le pied de page et les liens"
   }
 }

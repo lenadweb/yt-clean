@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "Salta annunci automaticamente"
+  },
+  "hide_footer": {
+    "message": "Nascondi footer e link informativi"
   }
 }

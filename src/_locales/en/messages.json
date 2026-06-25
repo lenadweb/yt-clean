@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "Auto-skip ads"
+  },
+  "hide_footer": {
+    "message": "Hide Footer & About links"
   }
 }

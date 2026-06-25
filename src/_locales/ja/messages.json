@@ -196,5 +196,8 @@
   },
   "auto_skip_ads": {
     "message": "広告を自動スキップ"
+  },
+  "hide_footer": {
+    "message": "フッターと情報リンクを非表示"
   }
 }
