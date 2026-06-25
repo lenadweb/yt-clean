@@ -220,5 +220,8 @@
   },
   "enable_anyway": {
     "message": "फिर भी सक्षम करें"
+  },
+  "hide_expand_button": {
+    "message": "\"और दिखाएं\" बटन छिपाएं"
   }
 }

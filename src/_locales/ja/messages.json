@@ -220,5 +220,8 @@
   },
   "enable_anyway": {
     "message": "それでも有効にする"
+  },
+  "hide_expand_button": {
+    "message": "「もっと見る」ボタンを非表示"
   }
 }

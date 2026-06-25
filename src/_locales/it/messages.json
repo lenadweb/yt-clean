@@ -220,5 +220,8 @@
   },
   "enable_anyway": {
     "message": "Attiva comunque"
+  },
+  "hide_expand_button": {
+    "message": "Nascondi pulsante \"Mostra altro\""
   }
 }

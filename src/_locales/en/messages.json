@@ -220,5 +220,8 @@
   },
   "enable_anyway": {
     "message": "Enable anyway"
+  },
+  "hide_expand_button": {
+    "message": "Hide \"Show more\" button"
   }
 }

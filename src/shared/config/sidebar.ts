@@ -28,6 +28,13 @@ export const sidebarCategory = category('sidebar', [
             ],
         }),
     ]),
+    section('hide_expand_button', { isNew: true, controls: 'switch' }, [
+        feature({
+            id: 'hideExpandButton',
+            title: 'hide_expand_button',
+            hide: ['#sections ytd-guide-collapsible-entry-renderer'],
+        }),
+    ]),
     section(
         'you',
         {

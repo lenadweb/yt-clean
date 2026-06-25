@@ -220,5 +220,8 @@
   },
   "enable_anyway": {
     "message": "仍然启用"
+  },
+  "hide_expand_button": {
+    "message": "隐藏“展开”按钮"
   }
 }
