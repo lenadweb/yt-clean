@@ -5,6 +5,8 @@ import {
     enableAutoSkipAds,
 } from 'src/shared/featureHandlers/ads';
 
+const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
+
 export const feedCategory = category('feed_and_recommendations', [
     section('compact_mode', { isNew: true, controls: 'switch' }, [
         feature({
@@ -61,6 +63,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 '.ytd-video-preview',
                 'grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)',
                 'ytd-reel-shelf-renderer:has(ytm-shorts-lockup-view-model-v2)',
+                GHOST_GRID_SKELETON,
             ],
         }),
         feature({
@@ -87,6 +90,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 'yt-lockup-view-model:has(a[href*="/playlist"])',
                 'yt-lockup-view-model:has(yt-collection-thumbnail-view-model)',
                 'ytd-rich-item-renderer:has(yt-lockup-view-model:has(a[href*="/playlist"]))',
+                GHOST_GRID_SKELETON,
             ],
         }),
     ]),
@@ -133,6 +137,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
                 'ytd-ad-slot-renderer',
                 'ytd-search-pyv-renderer',
+                GHOST_GRID_SKELETON,
             ],
         }),
         feature({
