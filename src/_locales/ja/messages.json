@@ -205,5 +205,11 @@
   },
   "hide_downloads": {
     "message": "ダウンロードを非表示"
+  },
+  "experimental": {
+    "message": "実験的"
+  },
+  "experimental_notice": {
+    "message": "この機能は実験的で、不安定な場合があります。現在テスト中です。改善のためにフィードバックをお寄せください。"
   }
 }

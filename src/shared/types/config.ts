@@ -55,6 +55,7 @@ export interface Feature<TId extends string = string> {
     id: TId;
     title?: I18nKey;
     isNew?: boolean;
+    isExperimental?: boolean;
     defaultEnabled?: boolean;
     actions: FeatureAction[];
     onChange?: (value: string | undefined, enabled: boolean) => void;
@@ -65,6 +66,7 @@ export type SectionControls = 'switch' | 'checkboxes';
 export interface SettingsSection<TId extends string = string> {
     title: I18nKey;
     isNew?: boolean;
+    isExperimental?: boolean;
     controls?: SectionControls;
     onFullGroupEnabledActions?: FeatureAction[];
     features: Feature<TId>[];

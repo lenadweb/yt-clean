@@ -138,7 +138,7 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'autoSkipAds',
             title: 'auto_skip_ads',
-            isNew: true,
+            isExperimental: true,
             url: [UrlRegExps.Watch],
             custom: {
                 enable: enableAutoSkipAds,

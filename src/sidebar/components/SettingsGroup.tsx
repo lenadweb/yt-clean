@@ -11,12 +11,15 @@ import { useStorage } from 'src/shared/hooks/useStorage';
 import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
+import { ExperimentalBadge } from 'src/sidebar/components/ExperimentalBadge';
+import { useToast } from 'src/sidebar/components/Toast';
 import { t } from 'src/shared/utils/i18n';
 
 interface SettingsGroupProps {
     title: I18nKey;
     isFirst: boolean;
     isNew?: boolean;
+    isExperimental?: boolean;
     features: Feature[];
     controls?: SectionControls;
 }
@@ -30,10 +33,12 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
     features,
     isFirst,
     isNew,
+    isExperimental,
     controls,
     title,
 }) => {
     const [settings, updateSettings] = useStorage();
+    const { showToast } = useToast();
     const enabled = settings.isEnabled;
     const groupEnabled = isGroupEnabled(features, settings);
 
@@ -44,10 +49,22 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
         });
     };
 
+    const notifyExperimental = (isExperimentalItem?: boolean) => {
+        if (isExperimentalItem) {
+            showToast(t('experimental_notice'));
+        }
+    };
+
     const setGroupEnabled = (value: boolean) => {
         features.forEach((feature) => {
             setFeatureEnabled(feature.id, value);
         });
+        if (value) {
+            notifyExperimental(
+                isExperimental ||
+                    features.some((feature) => feature.isExperimental)
+            );
+        }
     };
     return (
         <div className="last:!mb-2">
@@ -64,6 +81,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                 >
                     {t(title)}
                     {isNew && <NewBadge />}
+                    {isExperimental && <ExperimentalBadge />}
                 </div>
                 {controls !== 'checkboxes' ? (
                     <Switch
@@ -80,15 +98,19 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                             key={feature.id}
                             isGrey={!groupEnabled}
                             isNew={feature.isNew}
+                            isExperimental={feature.isExperimental}
                             label={feature.title ? t(feature.title) : ''}
                             checked={
                                 getFeatureSetting(settings, feature.id)
                                     ?.enabled ?? false
                             }
                             disabled={!enabled}
-                            onChange={(value) =>
-                                setFeatureEnabled(feature.id, value)
-                            }
+                            onChange={(value) => {
+                                setFeatureEnabled(feature.id, value);
+                                if (value) {
+                                    notifyExperimental(feature.isExperimental);
+                                }
+                            }}
                         />
                     ))}
                 </div>

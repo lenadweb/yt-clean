@@ -205,5 +205,11 @@
   },
   "hide_downloads": {
     "message": "Nascondi Download"
+  },
+  "experimental": {
+    "message": "sperimentale"
+  },
+  "experimental_notice": {
+    "message": "Questa funzione è sperimentale e potrebbe essere instabile. La stiamo testando attivamente: lascia un feedback per aiutarci a migliorarla."
   }
 }

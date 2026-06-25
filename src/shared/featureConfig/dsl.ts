@@ -23,6 +23,7 @@ type CustomDefinition = {
 
 type SectionOptions = {
     isNew?: boolean;
+    isExperimental?: boolean;
     controls?: SectionControls;
     hideWhenAllEnabled?: string[];
 };
@@ -31,6 +32,7 @@ type FeatureInput<TId extends string = string> = {
     id: TId;
     title?: I18nKey;
     isNew?: boolean;
+    isExperimental?: boolean;
     defaultEnabled?: boolean;
     onChange?: Feature['onChange'];
     url?: RegExp[];
@@ -105,6 +107,7 @@ export const feature = <const TId extends string>(
     id: input.id,
     title: input.title,
     isNew: input.isNew,
+    isExperimental: input.isExperimental,
     defaultEnabled: input.defaultEnabled,
     onChange: input.onChange,
     actions: getActions(input, getAttr(`feature-${toKebabCase(input.id)}`)),

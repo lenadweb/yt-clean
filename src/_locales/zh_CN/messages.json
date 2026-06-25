@@ -205,5 +205,11 @@
   },
   "hide_downloads": {
     "message": "隐藏下载内容"
+  },
+  "experimental": {
+    "message": "实验性"
+  },
+  "experimental_notice": {
+    "message": "此功能处于实验阶段，可能不稳定。我们正在积极测试——欢迎反馈以帮助我们改进。"
   }
 }

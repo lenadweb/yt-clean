@@ -2,6 +2,7 @@ import React, { FC } from 'react';
 import { Checkbox as HeadlessCheckbox, Field, Label } from '@headlessui/react';
 import cn from 'classnames';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
+import { ExperimentalBadge } from 'src/sidebar/components/ExperimentalBadge';
 import CheckIcon from 'src/assets/icons/check.svg';
 
 type Props = {
@@ -10,6 +11,7 @@ type Props = {
     disabled: boolean;
     isGrey?: boolean;
     isNew?: boolean;
+    isExperimental?: boolean;
     onChange: (value: boolean) => void;
 };
 
@@ -18,6 +20,7 @@ export const Checkbox: FC<Props> = ({
     checked,
     isGrey,
     isNew,
+    isExperimental,
     onChange: onChangeProp,
     disabled,
 }) => {
@@ -62,6 +65,7 @@ export const Checkbox: FC<Props> = ({
             >
                 {label}
                 {isNew && <NewBadge />}
+                {isExperimental && <ExperimentalBadge />}
             </Label>
         </Field>
     );

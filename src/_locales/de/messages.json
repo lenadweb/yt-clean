@@ -205,5 +205,11 @@
   },
   "hide_downloads": {
     "message": "Downloads ausblenden"
+  },
+  "experimental": {
+    "message": "experimentell"
+  },
+  "experimental_notice": {
+    "message": "Diese Funktion ist experimentell und kann instabil sein. Wir testen sie aktiv – teile dein Feedback, um uns bei der Verbesserung zu helfen."
   }
 }

@@ -61,6 +61,7 @@ export const SettingsAccordion: FC<Props> = ({
                                 isFirst={i === 0}
                                 key={section.title}
                                 isNew={!!section.isNew}
+                                isExperimental={!!section.isExperimental}
                                 controls={section.controls}
                                 features={section.features}
                                 title={section.title}
