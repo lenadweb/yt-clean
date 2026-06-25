@@ -14,7 +14,6 @@ import {
     Transition,
     TransitionChild,
 } from '@headlessui/react';
-import { ExperimentalBadge } from 'src/sidebar/components/ExperimentalBadge';
 import { t } from 'src/shared/utils/i18n';
 
 type ConfirmFn = () => Promise<boolean>;
@@ -76,7 +75,6 @@ export const ExperimentalModalProvider: FC<{ children: ReactNode }> = ({
                             <DialogPanel className="w-full max-w-[320px] rounded-3xl bg-black-700 p-5 text-white-100 shadow-3xl">
                                 <DialogTitle className="mb-3 flex items-center gap-2 text-base font-medium">
                                     {t('experimental_title')}
-                                    <ExperimentalBadge />
                                 </DialogTitle>
                                 <p className="mb-5 text-sm font-light leading-snug text-black-200">
                                     {t('experimental_notice')}
