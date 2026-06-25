@@ -1,13 +1,13 @@
 import React from 'react';
 import { StorageProvider } from 'src/shared/hooks/useStorage';
 import Settings from 'src/sidebar/components/Settings';
-import { ToastProvider } from 'src/sidebar/components/Toast';
+import { ExperimentalModalProvider } from 'src/sidebar/components/ExperimentalModal';
 
 const App = () => (
     <StorageProvider>
-        <ToastProvider>
+        <ExperimentalModalProvider>
             <Settings />
-        </ToastProvider>
+        </ExperimentalModalProvider>
     </StorageProvider>
 );
 

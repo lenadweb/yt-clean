@@ -211,5 +211,14 @@
   },
   "experimental_notice": {
     "message": "Este recurso é experimental e pode ser instável. Estamos testando ativamente — envie seu feedback para nos ajudar a melhorar."
+  },
+  "experimental_title": {
+    "message": "Recurso experimental"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "enable_anyway": {
+    "message": "Ativar mesmo assim"
   }
 }

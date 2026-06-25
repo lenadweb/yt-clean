@@ -12,7 +12,7 @@ import Divider from 'src/sidebar/components/Divider';
 import Switch from 'src/sidebar/components/Switch';
 import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { ExperimentalBadge } from 'src/sidebar/components/ExperimentalBadge';
-import { useToast } from 'src/sidebar/components/Toast';
+import { useExperimentalConfirm } from 'src/sidebar/components/ExperimentalModal';
 import { t } from 'src/shared/utils/i18n';
 
 interface SettingsGroupProps {
@@ -38,7 +38,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
     title,
 }) => {
     const [settings, updateSettings] = useStorage();
-    const { showToast } = useToast();
+    const confirmExperimental = useExperimentalConfirm();
     const enabled = settings.isEnabled;
     const groupEnabled = isGroupEnabled(features, settings);
 
@@ -49,22 +49,29 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
         });
     };
 
-    const notifyExperimental = (isExperimentalItem?: boolean) => {
-        if (isExperimentalItem) {
-            showToast(t('experimental_notice'));
+    const confirmIfExperimental = async (
+        isExperimentalItem: boolean
+    ): Promise<boolean> => !isExperimentalItem || (await confirmExperimental());
+
+    const toggleFeature = async (feature: Feature, value: boolean) => {
+        if (value && !(await confirmIfExperimental(!!feature.isExperimental))) {
+            return;
         }
+        setFeatureEnabled(feature.id, value);
     };
 
-    const setGroupEnabled = (value: boolean) => {
+    const setGroupEnabled = async (value: boolean) => {
+        const hasExperimental =
+            isExperimental ||
+            features.some((feature) => feature.isExperimental);
+
+        if (value && !(await confirmIfExperimental(hasExperimental))) {
+            return;
+        }
+
         features.forEach((feature) => {
             setFeatureEnabled(feature.id, value);
         });
-        if (value) {
-            notifyExperimental(
-                isExperimental ||
-                    features.some((feature) => feature.isExperimental)
-            );
-        }
     };
     return (
         <div className="last:!mb-2">
@@ -106,10 +113,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                             }
                             disabled={!enabled}
                             onChange={(value) => {
-                                setFeatureEnabled(feature.id, value);
-                                if (value) {
-                                    notifyExperimental(feature.isExperimental);
-                                }
+                                void toggleFeature(feature, value);
                             }}
                         />
                     ))}

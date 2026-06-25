@@ -9,7 +9,7 @@ type Props = {
 export const ExperimentalBadge: FC<Props> = ({ className }) => (
     <span
         className={cn(
-            'inline-flex shrink-0 items-center rounded-full bg-amber-500 px-2 py-0.5 text-[10px] font-medium uppercase leading-none tracking-wide text-black',
+            'inline-flex shrink-0 items-center rounded-full bg-red-accent px-2 py-0.5 text-[10px] font-medium uppercase leading-none tracking-wide text-white',
             className
         )}
     >

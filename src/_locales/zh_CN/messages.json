@@ -211,5 +211,14 @@
   },
   "experimental_notice": {
     "message": "此功能处于实验阶段，可能不稳定。我们正在积极测试——欢迎反馈以帮助我们改进。"
+  },
+  "experimental_title": {
+    "message": "实验性功能"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "enable_anyway": {
+    "message": "仍然启用"
   }
 }

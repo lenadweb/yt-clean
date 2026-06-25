@@ -211,5 +211,14 @@
   },
   "experimental_notice": {
     "message": "Esta función es experimental y puede ser inestable. La estamos probando activamente: comparte tus comentarios para ayudarnos a mejorarla."
+  },
+  "experimental_title": {
+    "message": "Función experimental"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "enable_anyway": {
+    "message": "Activar de todos modos"
   }
 }

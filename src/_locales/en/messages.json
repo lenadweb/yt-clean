@@ -211,5 +211,14 @@
   },
   "experimental_notice": {
     "message": "This feature is experimental and may be unstable. We’re actively testing it — share your feedback to help us improve it."
+  },
+  "experimental_title": {
+    "message": "Experimental feature"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "enable_anyway": {
+    "message": "Enable anyway"
   }
 }
