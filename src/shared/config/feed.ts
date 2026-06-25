@@ -66,6 +66,7 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideNewsSection',
             title: 'hide_explore_and_news',
+            url: [UrlRegExps.Home],
             hide: [
                 'ytd-rich-section-renderer:has(#rich-shelf-header):not(:has(.shortsLockupViewModelHostThumbnail))',
             ],
