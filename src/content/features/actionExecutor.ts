@@ -11,15 +11,15 @@ const isTargetUrl = (action: FeatureAction, url: string): boolean =>
         ? action.urlRegExp.some((regexp) => regexp.test(url))
         : true;
 
-const setBodyAttribute = (action: FeatureAction, enabled: boolean): void => {
+const setRootAttribute = (action: FeatureAction, enabled: boolean): void => {
     if (!action.attr) return;
 
     if (enabled) {
-        document.body?.setAttribute(action.attr, 'true');
+        document.documentElement.setAttribute(action.attr, 'true');
         return;
     }
 
-    document.body?.removeAttribute(action.attr);
+    document.documentElement.removeAttribute(action.attr);
 };
 
 export class DomActionExecutor {
@@ -40,7 +40,7 @@ export class DomActionExecutor {
     ): void {
         const shouldEnable = featureEnabled && isTargetUrl(action, url);
 
-        setBodyAttribute(action, shouldEnable);
+        setRootAttribute(action, shouldEnable);
 
         if (action.action === ElementActions.custom) {
             this.runCustomAction(action, shouldEnable);

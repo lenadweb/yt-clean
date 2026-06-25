@@ -7,6 +7,21 @@ import { DomActionExecutor } from 'src/content/features/actionExecutor';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 import { StorageChanges } from 'src/content/features/types';
 import { SettingsSection } from 'src/shared/types/config';
+import {
+    applyAttributes,
+    computeActiveAttributes,
+} from 'src/content/features/attributes';
+import {
+    readCachedSettings,
+    writeCachedSettings,
+} from 'src/content/settingsCache';
+
+const applyCachedAttributes = () => {
+    const cached = readCachedSettings();
+    if (!cached) return;
+
+    applyAttributes(computeActiveAttributes(cached, window.location.href));
+};
 
 const startFeatureRunner = (sections: SettingsSection[]) => {
     const actionExecutor = new DomActionExecutor();
@@ -28,10 +43,14 @@ const startFeatureRunner = (sections: SettingsSection[]) => {
         currentUrl = url;
         runFeatures();
     });
-    storage.onChange((changes) => runFeatures(changes));
+    storage.onChange((changes) => {
+        writeCachedSettings(storage.settings);
+        runFeatures(changes);
+    });
     waitForBody().then(() => runFeatures());
 };
 
+applyCachedAttributes();
 storage.init();
 startFeatureRunner(SECTIONS);
 injectComponents();
