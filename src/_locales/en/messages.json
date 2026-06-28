@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "Hide \"Live\""
+  },
+  "playback_speed": {
+    "message": "Playback speed"
+  },
+  "normal_speed": {
+    "message": "Normal"
   }
 }

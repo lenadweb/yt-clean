@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "Ocultar \"Ao vivo\""
+  },
+  "playback_speed": {
+    "message": "Velocidade de reprodução"
+  },
+  "normal_speed": {
+    "message": "Normal"
   }
 }

@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "「ライブ」を非表示"
+  },
+  "playback_speed": {
+    "message": "再生速度"
+  },
+  "normal_speed": {
+    "message": "標準"
   }
 }

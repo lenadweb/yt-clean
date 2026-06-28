@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "Ocultar \"En directo\""
+  },
+  "playback_speed": {
+    "message": "Velocidad de reproducción"
+  },
+  "normal_speed": {
+    "message": "Normal"
   }
 }

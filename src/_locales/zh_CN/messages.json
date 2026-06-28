@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "隐藏“直播”"
+  },
+  "playback_speed": {
+    "message": "播放速度"
+  },
+  "normal_speed": {
+    "message": "正常"
   }
 }

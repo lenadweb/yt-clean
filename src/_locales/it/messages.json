@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "Nascondi \"Live\""
+  },
+  "playback_speed": {
+    "message": "Velocità di riproduzione"
+  },
+  "normal_speed": {
+    "message": "Normale"
   }
 }

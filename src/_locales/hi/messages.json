@@ -226,5 +226,11 @@
   },
   "hide_live": {
     "message": "\"लाइव\" छिपाएं"
+  },
+  "playback_speed": {
+    "message": "प्लेबैक गति"
+  },
+  "normal_speed": {
+    "message": "सामान्य"
   }
 }
