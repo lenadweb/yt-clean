@@ -232,5 +232,26 @@
   },
   "normal_speed": {
     "message": "標準"
+  },
+  "video_page": {
+    "message": "動画ページ"
+  },
+  "video_page_elements": {
+    "message": "ページ要素"
+  },
+  "hide_comments": {
+    "message": "コメントを非表示"
+  },
+  "hide_recommended_videos": {
+    "message": "おすすめ動画を非表示"
+  },
+  "hide_live_chat": {
+    "message": "ライブチャットを非表示"
+  },
+  "hide_merch_and_tickets": {
+    "message": "グッズ・チケットを非表示"
+  },
+  "hide_end_screen_cards": {
+    "message": "終了画面カードを非表示"
   }
 }

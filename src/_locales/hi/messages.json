@@ -232,5 +232,26 @@
   },
   "normal_speed": {
     "message": "सामान्य"
+  },
+  "video_page": {
+    "message": "वीडियो पेज"
+  },
+  "video_page_elements": {
+    "message": "पेज तत्व"
+  },
+  "hide_comments": {
+    "message": "टिप्पणियाँ छिपाएं"
+  },
+  "hide_recommended_videos": {
+    "message": "अनुशंसित वीडियो छिपाएं"
+  },
+  "hide_live_chat": {
+    "message": "लाइव चैट छिपाएं"
+  },
+  "hide_merch_and_tickets": {
+    "message": "मर्च और टिकट छिपाएं"
+  },
+  "hide_end_screen_cards": {
+    "message": "एंड स्क्रीन कार्ड छिपाएं"
   }
 }

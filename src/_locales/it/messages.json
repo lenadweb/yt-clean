@@ -232,5 +232,26 @@
   },
   "normal_speed": {
     "message": "Normale"
+  },
+  "video_page": {
+    "message": "Pagina video"
+  },
+  "video_page_elements": {
+    "message": "Elementi della pagina"
+  },
+  "hide_comments": {
+    "message": "Nascondi commenti"
+  },
+  "hide_recommended_videos": {
+    "message": "Nascondi video consigliati"
+  },
+  "hide_live_chat": {
+    "message": "Nascondi chat dal vivo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Nascondi merch e biglietti"
+  },
+  "hide_end_screen_cards": {
+    "message": "Nascondi schede finali"
   }
 }

@@ -232,5 +232,26 @@
   },
   "normal_speed": {
     "message": "正常"
+  },
+  "video_page": {
+    "message": "视频页面"
+  },
+  "video_page_elements": {
+    "message": "页面元素"
+  },
+  "hide_comments": {
+    "message": "隐藏评论"
+  },
+  "hide_recommended_videos": {
+    "message": "隐藏推荐视频"
+  },
+  "hide_live_chat": {
+    "message": "隐藏实时聊天"
+  },
+  "hide_merch_and_tickets": {
+    "message": "隐藏商品和门票"
+  },
+  "hide_end_screen_cards": {
+    "message": "隐藏片尾卡片"
   }
 }

@@ -232,5 +232,26 @@
   },
   "normal_speed": {
     "message": "Normale"
+  },
+  "video_page": {
+    "message": "Page vidéo"
+  },
+  "video_page_elements": {
+    "message": "Éléments de la page"
+  },
+  "hide_comments": {
+    "message": "Masquer les commentaires"
+  },
+  "hide_recommended_videos": {
+    "message": "Masquer les vidéos recommandées"
+  },
+  "hide_live_chat": {
+    "message": "Masquer le chat en direct"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Masquer produits et billets"
+  },
+  "hide_end_screen_cards": {
+    "message": "Masquer les cartes de fin"
   }
 }
