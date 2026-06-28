@@ -70,7 +70,7 @@ const PlaybackSpeed: FC = () => {
         >
             <button
                 onClick={toggle}
-                className="inline-flex items-center rounded-full px-2.5 py-1.5 text-[13px] font-semibold leading-none text-white transition-colors hover:bg-white/10"
+                className="flex h-8 w-12 items-center justify-center rounded-full text-[13px] font-semibold leading-none text-white transition-colors hover:bg-white/10"
             >
                 {value}x
             </button>
