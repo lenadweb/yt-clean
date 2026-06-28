@@ -60,7 +60,10 @@ export const watchCategory = category('video_page', [
             id: 'hideDescriptionAi',
             title: 'hide_description_ai',
             url: [UrlRegExps.Watch],
-            hide: ['yt-video-description-youchat-section-view-model'],
+            hide: [
+                'yt-video-description-youchat-section-view-model',
+                '#video-summary',
+            ],
         }),
         feature({
             id: 'hideDescriptionTranscript',
@@ -78,7 +81,10 @@ export const watchCategory = category('video_page', [
             id: 'hideDescriptionRelated',
             title: 'hide_description_related',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-video-description-infocards-section-renderer'],
+            hide: [
+                'ytd-compact-infocard-renderer:has(ytd-structured-description-video-lockup-renderer)',
+                'ytd-structured-description-video-lockup-renderer',
+            ],
         }),
     ]),
 ]);
