@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "Tu propia configuración. Ajusta lo que quieras."
+  },
+  "reset_action": {
+    "message": "Restablecer"
+  },
+  "reset_confirm_text": {
+    "message": "¿Restablecer el preajuste actual a su estado predeterminado? Se perderán tus cambios en este preajuste."
   }
 }

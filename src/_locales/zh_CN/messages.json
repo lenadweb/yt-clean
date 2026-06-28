@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "你自己的配置，随意调整。"
+  },
+  "reset_action": {
+    "message": "重置"
+  },
+  "reset_confirm_text": {
+    "message": "将当前预设重置为默认状态？你对该预设的更改将丢失。"
   }
 }

@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "Deine eigene Konfiguration. Passe alles an."
+  },
+  "reset_action": {
+    "message": "Zurücksetzen"
+  },
+  "reset_confirm_text": {
+    "message": "Aktuelle Voreinstellung auf den Standard zurücksetzen? Deine Änderungen an dieser Voreinstellung gehen verloren."
   }
 }

@@ -1,10 +1,9 @@
 import React, { FC } from 'react';
-import cn from 'classnames';
 import { useStorage } from 'src/shared/hooks/useStorage';
-import { storage } from 'src/shared/storage';
 import { CATEGORIES } from 'src/shared/featureConfig';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
 import PresetTags from 'src/sidebar/components/PresetTags';
+import ResetPresetLink from 'src/sidebar/components/ResetPresetLink';
 import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
@@ -49,16 +48,7 @@ const Settings: FC = () => {
                     />
                 ))}
             </div>
-            <button
-                onClick={() => storage.resetActivePreset()}
-                disabled={!isEnabled}
-                className={cn(
-                    'mt-4 w-full rounded-2xl bg-black-700 py-2.5 text-sm text-black-200 transition-colors hover:bg-black-600 hover:text-white',
-                    isEnabled ? 'cursor-pointer' : 'cursor-default opacity-50'
-                )}
-            >
-                {t('reset_preset')}
-            </button>
+            <ResetPresetLink />
             <a
                 href={GITHUB_URL}
                 target="_blank"

@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "自分専用の設定。好きなように調整できます。"
+  },
+  "reset_action": {
+    "message": "リセット"
+  },
+  "reset_confirm_text": {
+    "message": "現在のプリセットを既定の状態にリセットしますか？このプリセットへの変更は失われます。"
   }
 }

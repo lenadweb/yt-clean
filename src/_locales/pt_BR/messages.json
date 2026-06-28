@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "Sua própria configuração. Ajuste o que quiser."
+  },
+  "reset_action": {
+    "message": "Redefinir"
+  },
+  "reset_confirm_text": {
+    "message": "Redefinir a predefinição atual para o estado padrão? Suas alterações nesta predefinição serão perdidas."
   }
 }

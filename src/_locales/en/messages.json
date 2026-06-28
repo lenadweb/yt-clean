@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "Your own configuration. Tweak anything you like."
+  },
+  "reset_action": {
+    "message": "Reset"
+  },
+  "reset_confirm_text": {
+    "message": "Reset the current preset to its default state? Your changes to this preset will be lost."
   }
 }

@@ -331,5 +331,11 @@
   },
   "preset_custom_desc": {
     "message": "La tua configurazione. Modifica ciò che vuoi."
+  },
+  "reset_action": {
+    "message": "Reimposta"
+  },
+  "reset_confirm_text": {
+    "message": "Reimpostare il preset attuale allo stato predefinito? Le tue modifiche a questo preset andranno perse."
   }
 }
