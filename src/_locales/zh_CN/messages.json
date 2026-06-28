@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "隐藏操作按钮"
+  },
+  "hide_like_dislike": {
+    "message": "隐藏顶/踩按钮"
+  },
+  "hide_description": {
+    "message": "隐藏简介"
   }
 }

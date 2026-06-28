@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "एक्शन बटन छिपाएं"
+  },
+  "hide_like_dislike": {
+    "message": "लाइक/डिसलाइक छिपाएं"
+  },
+  "hide_description": {
+    "message": "विवरण छिपाएं"
   }
 }

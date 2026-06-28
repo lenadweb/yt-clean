@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "Ocultar botones de acción"
+  },
+  "hide_like_dislike": {
+    "message": "Ocultar me gusta/no me gusta"
+  },
+  "hide_description": {
+    "message": "Ocultar descripción"
   }
 }

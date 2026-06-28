@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "Aktionsschaltflächen ausblenden"
+  },
+  "hide_like_dislike": {
+    "message": "Mag ich/Mag ich nicht ausblenden"
+  },
+  "hide_description": {
+    "message": "Beschreibung ausblenden"
   }
 }

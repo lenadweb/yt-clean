@@ -10,10 +10,27 @@ export const watchCategory = category('video_page', [
             hide: ['ytd-comments#comments'],
         }),
         feature({
+            id: 'hideLikeDislike',
+            title: 'hide_like_dislike',
+            url: [UrlRegExps.Watch],
+            hide: [
+                'ytd-watch-metadata segmented-like-dislike-button-view-model',
+            ],
+        }),
+        feature({
             id: 'hideActionButtons',
             title: 'hide_action_buttons',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-watch-metadata #actions'],
+            hide: [
+                'ytd-watch-metadata #flexible-item-buttons',
+                'ytd-watch-metadata #top-level-buttons-computed > *:not(segmented-like-dislike-button-view-model)',
+            ],
+        }),
+        feature({
+            id: 'hideDescription',
+            title: 'hide_description',
+            url: [UrlRegExps.Watch],
+            hide: ['ytd-watch-metadata #description'],
         }),
         feature({
             id: 'hideLiveChat',

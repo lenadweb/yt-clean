@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "操作ボタンを非表示"
+  },
+  "hide_like_dislike": {
+    "message": "高評価/低評価を非表示"
+  },
+  "hide_description": {
+    "message": "説明を非表示"
   }
 }

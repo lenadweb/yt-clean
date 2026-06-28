@@ -256,5 +256,11 @@
   },
   "hide_action_buttons": {
     "message": "Nascondi pulsanti azione"
+  },
+  "hide_like_dislike": {
+    "message": "Nascondi mi piace/non mi piace"
+  },
+  "hide_description": {
+    "message": "Nascondi descrizione"
   }
 }
