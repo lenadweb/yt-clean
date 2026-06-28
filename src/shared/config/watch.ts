@@ -98,5 +98,13 @@ export const watchCategory = category('video_page', [
             url: [UrlRegExps.Watch],
             hide: ['how-this-was-made-section-view-model'],
         }),
+        feature({
+            id: 'hideDescriptionChapters',
+            title: 'hide_description_chapters',
+            url: [UrlRegExps.Watch],
+            hide: [
+                'ytd-structured-description-content-renderer ytd-horizontal-card-list-renderer:has(ytd-macro-markers-list-item-renderer)',
+            ],
+        }),
     ]),
 ]);

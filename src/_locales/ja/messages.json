@@ -340,5 +340,8 @@
   },
   "settings_label": {
     "message": "設定"
+  },
+  "hide_description_chapters": {
+    "message": "チャプターとエピソードを非表示"
   }
 }

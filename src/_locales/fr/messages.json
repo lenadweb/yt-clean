@@ -340,5 +340,8 @@
   },
   "settings_label": {
     "message": "Paramètres"
+  },
+  "hide_description_chapters": {
+    "message": "Masquer chapitres et épisodes"
   }
 }

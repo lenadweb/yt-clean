@@ -340,5 +340,8 @@
   },
   "settings_label": {
     "message": "Settings"
+  },
+  "hide_description_chapters": {
+    "message": "Hide chapters & episodes"
   }
 }

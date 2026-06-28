@@ -340,5 +340,8 @@
   },
   "settings_label": {
     "message": "Einstellungen"
+  },
+  "hide_description_chapters": {
+    "message": "Kapitel & Folgen ausblenden"
   }
 }
