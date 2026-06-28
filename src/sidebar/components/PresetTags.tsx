@@ -29,8 +29,12 @@ const PresetTags: FC = () => {
                         'rounded-full py-1.5 text-[12px] font-medium transition-colors',
                         enabled ? 'cursor-pointer' : 'cursor-default',
                         active === preset
-                            ? 'bg-red-accent text-white'
-                            : 'bg-black-700 text-black-200 hover:bg-black-600 hover:text-white'
+                            ? enabled
+                                ? 'bg-red-accent text-white'
+                                : 'bg-black-600 text-black-400'
+                            : enabled
+                              ? 'bg-black-700 text-black-200 hover:bg-black-600 hover:text-white'
+                              : 'bg-black-700 text-black-500'
                     )}
                 >
                     {t(PRESET_TITLES[preset])}
