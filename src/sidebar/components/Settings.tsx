@@ -37,9 +37,12 @@ const Settings: FC = () => {
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
-            <p className="mb-2 ml-1 text-xs font-medium uppercase tracking-wide text-black-400">
-                {t('presets')}
-            </p>
+            <div className="mb-2 ml-1 flex items-center justify-between">
+                <span className="text-xs font-medium uppercase tracking-wide text-black-400">
+                    {t('presets')}
+                </span>
+                <ResetPresetLink />
+            </div>
             <PresetTags />
             <p className="mb-2 ml-1 text-xs font-medium uppercase tracking-wide text-black-400">
                 {t('settings_label')}
@@ -54,7 +57,6 @@ const Settings: FC = () => {
                     />
                 ))}
             </div>
-            <ResetPresetLink />
             <a
                 href={GITHUB_URL}
                 target="_blank"

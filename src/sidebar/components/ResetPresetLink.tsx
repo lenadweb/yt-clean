@@ -8,25 +8,35 @@ import {
 } from '@headlessui/react';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { storage } from 'src/shared/storage';
+import { getFeatureSetting, toFeatureId } from 'src/shared/storage/config';
+import { MANAGED_FEATURE_IDS, PRESET_DEFAULTS } from 'src/shared/presets';
 import { t } from 'src/shared/utils/i18n';
 
 const ResetPresetLink: FC = () => {
     const [settings] = useStorage();
     const [open, setOpen] = useState(false);
 
+    const defaults = PRESET_DEFAULTS[settings.activePreset];
+    const isModified = MANAGED_FEATURE_IDS.some(
+        (id) =>
+            Boolean(getFeatureSetting(settings, id)?.enabled) !==
+            Boolean(defaults[toFeatureId(id)]?.enabled)
+    );
+
     const confirmReset = () => {
         storage.resetActivePreset();
         setOpen(false);
     };
 
+    if (!settings.isEnabled || !isModified) return null;
+
     return (
-        <div className="mt-4 flex justify-center">
+        <>
             <button
                 onClick={() => setOpen(true)}
-                disabled={!settings.isEnabled}
-                className="cursor-pointer text-xs text-black-400 underline-offset-2 transition-colors hover:text-white hover:underline disabled:cursor-default disabled:opacity-50"
+                className="cursor-pointer text-xs text-black-400 transition-colors hover:text-white"
             >
-                {t('reset_preset')}
+                {t('reset_action')}
             </button>
 
             <Transition appear show={open}>
@@ -81,7 +91,7 @@ const ResetPresetLink: FC = () => {
                     </div>
                 </Dialog>
             </Transition>
-        </div>
+        </>
     );
 };
 
