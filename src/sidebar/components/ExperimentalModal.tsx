@@ -82,13 +82,13 @@ export const ExperimentalModalProvider: FC<{ children: ReactNode }> = ({
                                 <div className="flex justify-end gap-2">
                                     <button
                                         onClick={() => settle(false)}
-                                        className="rounded-full bg-black-600 px-4 py-2 text-sm text-white-100 transition hover:bg-black-500 active:scale-95"
+                                        className="cursor-pointer rounded-full bg-black-600 px-4 py-2 text-sm text-white-100 transition hover:bg-black-500 active:scale-95"
                                     >
                                         {t('cancel')}
                                     </button>
                                     <button
                                         onClick={() => settle(true)}
-                                        className="rounded-full bg-red-accent px-4 py-2 text-sm text-white transition hover:opacity-90 active:scale-95"
+                                        className="cursor-pointer rounded-full bg-red-accent px-4 py-2 text-sm text-white transition hover:opacity-90 active:scale-95"
                                     >
                                         {t('enable_anyway')}
                                     </button>

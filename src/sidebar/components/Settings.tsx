@@ -29,7 +29,7 @@ const Settings: FC = () => {
                 </div>
                 <button
                     onClick={toggleEnabled}
-                    className="flex items-center justify-center transition duration-150 focus:outline-none active:scale-95"
+                    className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95"
                     aria-label={t('toggle_extension')}
                 >
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}

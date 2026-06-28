@@ -26,6 +26,7 @@ const Switch: FC<SwitchProps> = ({
             onChange={onChange}
             className={cn(
                 'relative inline-flex h-4 w-[30px] items-center rounded-full transition',
+                disabled ? 'cursor-default' : 'cursor-pointer',
                 {
                     ['bg-red-accent']: enabled,
                     ['bg-black-600']: !enabled,

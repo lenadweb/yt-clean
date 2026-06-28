@@ -38,7 +38,7 @@ export const SettingsAccordion: FC<Props> = ({
                     )}
                 >
                     <div className="flex items-center justify-between">
-                        <DisclosureButton className="flex w-full items-center justify-between gap-2 p-5">
+                        <DisclosureButton className="flex w-full cursor-pointer items-center justify-between gap-2 p-5">
                             <div className="text-base leading-[1.2]">
                                 {t(title)}
                             </div>

@@ -38,6 +38,7 @@ export const Checkbox: FC<Props> = ({
                 onChange={onChange}
                 className={cn(
                     'group flex size-5 shrink-0 items-center justify-center rounded-[7px] border border-red-accent transition-colors data-[checked]:bg-red-600',
+                    disabled ? 'cursor-default' : 'cursor-pointer',
                     {
                         ['!border-black-600']: isGrey || disabled,
                         ['!bg-black-600']: checked && (isGrey || disabled),
@@ -58,6 +59,7 @@ export const Checkbox: FC<Props> = ({
             <Label
                 className={cn(
                     'flex w-full items-center gap-2 text-sm text-white font-light',
+                    disabled ? 'cursor-default' : 'cursor-pointer',
                     {
                         ['text-black-400']: disabled || isGrey,
                     }
