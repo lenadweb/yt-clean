@@ -2,7 +2,7 @@ import { UrlRegExps } from 'src/shared/const';
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 
 export const watchCategory = category('video_page', [
-    section('video_page_elements', { controls: 'checkboxes' }, [
+    section('video_page_elements', { isNew: true, controls: 'checkboxes' }, [
         feature({
             id: 'hideComments',
             title: 'hide_comments',
@@ -10,10 +10,10 @@ export const watchCategory = category('video_page', [
             hide: ['ytd-comments#comments'],
         }),
         feature({
-            id: 'hideRelatedVideos',
-            title: 'hide_recommended_videos',
+            id: 'hideActionButtons',
+            title: 'hide_action_buttons',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-watch-next-secondary-results-renderer'],
+            hide: ['ytd-watch-metadata #actions'],
         }),
         feature({
             id: 'hideLiveChat',

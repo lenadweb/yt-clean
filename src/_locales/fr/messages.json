@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "Masquer les cartes de fin"
+  },
+  "hide_action_buttons": {
+    "message": "Masquer les boutons d’action"
   }
 }

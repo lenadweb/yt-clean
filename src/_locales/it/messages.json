@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "Nascondi schede finali"
+  },
+  "hide_action_buttons": {
+    "message": "Nascondi pulsanti azione"
   }
 }

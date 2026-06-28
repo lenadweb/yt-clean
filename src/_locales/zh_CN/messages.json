@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "隐藏片尾卡片"
+  },
+  "hide_action_buttons": {
+    "message": "隐藏操作按钮"
   }
 }

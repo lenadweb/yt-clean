@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "Abspann-Karten ausblenden"
+  },
+  "hide_action_buttons": {
+    "message": "Aktionsschaltflächen ausblenden"
   }
 }

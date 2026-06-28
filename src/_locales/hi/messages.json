@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "एंड स्क्रीन कार्ड छिपाएं"
+  },
+  "hide_action_buttons": {
+    "message": "एक्शन बटन छिपाएं"
   }
 }

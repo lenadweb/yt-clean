@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "Hide end screen cards"
+  },
+  "hide_action_buttons": {
+    "message": "Hide action buttons"
   }
 }

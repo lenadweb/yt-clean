@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "終了画面カードを非表示"
+  },
+  "hide_action_buttons": {
+    "message": "操作ボタンを非表示"
   }
 }

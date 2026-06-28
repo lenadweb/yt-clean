@@ -253,5 +253,8 @@
   },
   "hide_end_screen_cards": {
     "message": "Ocultar tarjetas finales"
+  },
+  "hide_action_buttons": {
+    "message": "Ocultar botones de acción"
   }
 }
