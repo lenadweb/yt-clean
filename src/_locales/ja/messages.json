@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "説明を非表示"
+  },
+  "hide_ad_info_panels": {
+    "message": "広告情報パネルを非表示"
   }
 }

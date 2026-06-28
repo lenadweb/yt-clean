@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "विवरण छिपाएं"
+  },
+  "hide_ad_info_panels": {
+    "message": "विज्ञापन जानकारी पैनल छिपाएं"
   }
 }

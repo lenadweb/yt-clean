@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "Ocultar descrição"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ocultar painéis de info de anúncios"
   }
 }

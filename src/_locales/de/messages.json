@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "Beschreibung ausblenden"
+  },
+  "hide_ad_info_panels": {
+    "message": "Anzeigen-Infofelder ausblenden"
   }
 }

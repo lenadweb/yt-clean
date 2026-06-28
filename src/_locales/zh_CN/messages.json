@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "隐藏简介"
+  },
+  "hide_ad_info_panels": {
+    "message": "隐藏广告信息面板"
   }
 }

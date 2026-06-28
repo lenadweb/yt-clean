@@ -262,5 +262,8 @@
   },
   "hide_description": {
     "message": "Nascondi descrizione"
+  },
+  "hide_ad_info_panels": {
+    "message": "Nascondi pannelli info annunci"
   }
 }
