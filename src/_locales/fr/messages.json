@@ -280,5 +280,11 @@
   },
   "hide_description_related": {
     "message": "Masquer les vidéos associées"
+  },
+  "hide_description_channel": {
+    "message": "Masquer la carte de la chaîne"
+  },
+  "hide_how_this_was_made": {
+    "message": "Masquer \"Comment c’est fait\""
   }
 }

@@ -280,5 +280,11 @@
   },
   "hide_description_related": {
     "message": "Nascondi video correlati"
+  },
+  "hide_description_channel": {
+    "message": "Nascondi scheda del canale"
+  },
+  "hide_how_this_was_made": {
+    "message": "Nascondi \"Come è stato realizzato\""
   }
 }

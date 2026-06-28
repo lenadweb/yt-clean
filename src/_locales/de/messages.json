@@ -280,5 +280,11 @@
   },
   "hide_description_related": {
     "message": "Ähnliche Videos ausblenden"
+  },
+  "hide_description_channel": {
+    "message": "Kanalkarte ausblenden"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"Wie es gemacht wurde\" ausblenden"
   }
 }

@@ -86,5 +86,17 @@ export const watchCategory = category('video_page', [
                 'ytd-structured-description-video-lockup-renderer',
             ],
         }),
+        feature({
+            id: 'hideDescriptionChannel',
+            title: 'hide_description_channel',
+            url: [UrlRegExps.Watch],
+            hide: ['ytd-video-description-infocards-section-renderer'],
+        }),
+        feature({
+            id: 'hideDescriptionHowMade',
+            title: 'hide_how_this_was_made',
+            url: [UrlRegExps.Watch],
+            hide: ['how-this-was-made-section-view-model'],
+        }),
     ]),
 ]);

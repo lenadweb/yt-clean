@@ -280,5 +280,11 @@
   },
   "hide_description_related": {
     "message": "隐藏相关视频"
+  },
+  "hide_description_channel": {
+    "message": "隐藏频道卡片"
+  },
+  "hide_how_this_was_made": {
+    "message": "隐藏“制作方式”"
   }
 }

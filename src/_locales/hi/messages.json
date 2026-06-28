@@ -280,5 +280,11 @@
   },
   "hide_description_related": {
     "message": "संबंधित वीडियो छिपाएं"
+  },
+  "hide_description_channel": {
+    "message": "चैनल कार्ड छिपाएं"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"यह कैसे बना\" छिपाएं"
   }
 }
