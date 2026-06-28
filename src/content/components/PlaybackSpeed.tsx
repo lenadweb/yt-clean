@@ -66,11 +66,11 @@ const PlaybackSpeed: FC = () => {
     return (
         <div
             ref={triggerRef}
-            className="relative top-1.5 flex size-12 items-center justify-center"
+            className="relative top-[9px] flex size-12 items-center justify-center"
         >
             <button
                 onClick={toggle}
-                className="flex h-8 w-12 items-center justify-center rounded-full text-[13px] font-semibold leading-none text-white transition-colors hover:bg-white/10"
+                className="flex h-8 w-12 items-center justify-center rounded-full text-[13px] font-semibold leading-none text-white transition-colors hover:bg-white/10 hover:cursor-pointer"
             >
                 {value}x
             </button>
@@ -81,7 +81,7 @@ const PlaybackSpeed: FC = () => {
                     <ShadowRoot>
                         <div
                             ref={panelRef}
-                            className="w-[330px] overflow-hidden rounded-[12px] bg-black/60 text-white [backdrop-filter:blur(16px)]"
+                            className="ytc-speed-panel w-[340px] overflow-hidden rounded-[12px] bg-black/60 text-white"
                             style={{
                                 position: 'absolute',
                                 right: '12px',
@@ -89,15 +89,15 @@ const PlaybackSpeed: FC = () => {
                                 zIndex: 6000,
                             }}
                         >
-                            <div className="flex items-center gap-1 border-b border-white/10 px-2.5 py-2">
+                            <div className="flex items-center gap-2 border-b border-white/10 px-3 py-2.5">
                                 <button
                                     onClick={() => setIsOpen(false)}
                                     aria-label={t('playback_speed')}
-                                    className="flex size-8 items-center justify-center rounded-full transition-colors hover:bg-white/10"
+                                    className="flex size-9 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-white/10"
                                 >
                                     <svg
-                                        width="20"
-                                        height="20"
+                                        width="24"
+                                        height="24"
                                         viewBox="0 0 24 24"
                                         fill="none"
                                     >
@@ -110,22 +110,22 @@ const PlaybackSpeed: FC = () => {
                                         />
                                     </svg>
                                 </button>
-                                <span className="text-[13px] font-medium">
+                                <span className="text-[12px] font-normal">
                                     {t('playback_speed')}
                                 </span>
                             </div>
 
-                            <div className="py-3 text-center text-[20px] font-medium">
+                            <div className="py-4 text-center text-[17px] font-bold">
                                 {value.toFixed(2)}x
                             </div>
 
-                            <div className="flex items-center gap-2.5 px-3">
+                            <div className="flex items-center gap-3 px-4">
                                 <button
                                     onClick={() =>
                                         setValue(roundSpeed(value - STEP))
                                     }
                                     aria-label="-"
-                                    className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white/10 text-[18px] leading-none transition-colors hover:bg-white/20"
+                                    className="flex size-8 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/10 text-[15px] leading-none transition-colors hover:bg-white/20"
                                 >
                                     −
                                 </button>
@@ -148,22 +148,22 @@ const PlaybackSpeed: FC = () => {
                                         setValue(roundSpeed(value + STEP))
                                     }
                                     aria-label="+"
-                                    className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white/10 text-[18px] leading-none transition-colors hover:bg-white/20"
+                                    className="flex size-8 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/10 text-[15px] leading-none transition-colors hover:bg-white/20"
                                 >
                                     +
                                 </button>
                             </div>
 
-                            <div className="flex items-start justify-between gap-1 px-3 pb-3 pt-4">
+                            <div className="flex items-start justify-between gap-2 px-3 pb-4 pt-5">
                                 {PRESETS.map((preset) => (
                                     <div
                                         key={preset}
-                                        className="flex flex-1 flex-col items-center gap-1"
+                                        className="flex flex-1 flex-col items-center gap-1.5"
                                     >
                                         <button
                                             onClick={() => setValue(preset)}
                                             className={cn(
-                                                'w-full rounded-full px-2 py-1.5 text-[12px] transition-colors',
+                                                'w-full cursor-pointer rounded-full px-2 py-2 text-[12px] transition-colors',
                                                 isActive(value, preset)
                                                     ? 'bg-white text-black'
                                                     : 'bg-white/10 text-white hover:bg-white/20'
@@ -172,7 +172,7 @@ const PlaybackSpeed: FC = () => {
                                             {formatPreset(preset)}
                                         </button>
                                         {preset === 1 && (
-                                            <span className="text-[10px] text-white/50">
+                                            <span className="text-[10px] text-white/60">
                                                 {t('normal_speed')}
                                             </span>
                                         )}
@@ -181,6 +181,10 @@ const PlaybackSpeed: FC = () => {
                             </div>
 
                             <style>{`
+                                .ytc-speed-panel,
+                                .ytc-speed-panel * {
+                                    font-family: "Roboto", "Arial", sans-serif !important;
+                                }
                                 .ytc-speed-range::-webkit-slider-thumb {
                                     -webkit-appearance: none;
                                     appearance: none;
