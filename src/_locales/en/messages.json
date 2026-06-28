@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "Hide \"How this was made\""
+  },
+  "preset_balanced": {
+    "message": "Balanced"
+  },
+  "preset_maximum": {
+    "message": "Maximum"
+  },
+  "preset_custom": {
+    "message": "Custom"
+  },
+  "reset_preset": {
+    "message": "Reset preset to default"
+  },
+  "preset_warning_title": {
+    "message": "Editing a built-in preset"
+  },
+  "preset_warning_text": {
+    "message": "You’re changing a built-in preset. Your edits are saved to it and can be reset to default anytime."
+  },
+  "preset_warning_dont_show": {
+    "message": "Don’t show this again"
+  },
+  "continue_action": {
+    "message": "Continue"
   }
 }

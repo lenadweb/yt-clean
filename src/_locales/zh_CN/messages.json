@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "隐藏“制作方式”"
+  },
+  "preset_balanced": {
+    "message": "平衡"
+  },
+  "preset_maximum": {
+    "message": "最大"
+  },
+  "preset_custom": {
+    "message": "自定义"
+  },
+  "reset_preset": {
+    "message": "重置预设"
+  },
+  "preset_warning_title": {
+    "message": "正在编辑内置预设"
+  },
+  "preset_warning_text": {
+    "message": "你正在修改内置预设。更改会保存在该预设中，随时可以重置为默认。"
+  },
+  "preset_warning_dont_show": {
+    "message": "不再显示"
+  },
+  "continue_action": {
+    "message": "继续"
   }
 }

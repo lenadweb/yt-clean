@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "Ocultar \"Como foi feito\""
+  },
+  "preset_balanced": {
+    "message": "Equilibrado"
+  },
+  "preset_maximum": {
+    "message": "Máximo"
+  },
+  "preset_custom": {
+    "message": "Personalizado"
+  },
+  "reset_preset": {
+    "message": "Redefinir predefinição"
+  },
+  "preset_warning_title": {
+    "message": "Editando uma predefinição integrada"
+  },
+  "preset_warning_text": {
+    "message": "Você está alterando uma predefinição integrada. Suas mudanças são salvas nela e podem ser redefinidas a qualquer momento."
+  },
+  "preset_warning_dont_show": {
+    "message": "Não mostrar novamente"
+  },
+  "continue_action": {
+    "message": "Continuar"
   }
 }

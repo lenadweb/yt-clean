@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "Masquer \"Comment c’est fait\""
+  },
+  "preset_balanced": {
+    "message": "Équilibré"
+  },
+  "preset_maximum": {
+    "message": "Maximum"
+  },
+  "preset_custom": {
+    "message": "Personnalisé"
+  },
+  "reset_preset": {
+    "message": "Réinitialiser le préréglage"
+  },
+  "preset_warning_text": {
+    "message": "Vous modifiez un préréglage intégré. Vos modifications y sont enregistrées et peuvent être réinitialisées à tout moment."
+  },
+  "preset_warning_title": {
+    "message": "Modifier un préréglage intégré"
+  },
+  "preset_warning_dont_show": {
+    "message": "Ne plus afficher"
+  },
+  "continue_action": {
+    "message": "Continuer"
   }
 }

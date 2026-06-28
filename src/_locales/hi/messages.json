@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "\"यह कैसे बना\" छिपाएं"
+  },
+  "preset_balanced": {
+    "message": "संतुलित"
+  },
+  "preset_maximum": {
+    "message": "अधिकतम"
+  },
+  "preset_custom": {
+    "message": "कस्टम"
+  },
+  "reset_preset": {
+    "message": "प्रीसेट रीसेट करें"
+  },
+  "preset_warning_title": {
+    "message": "बिल्ट-इन प्रीसेट संपादित करना"
+  },
+  "preset_warning_text": {
+    "message": "आप एक बिल्ट-इन प्रीसेट बदल रहे हैं। आपके बदलाव इसमें सहेजे जाते हैं और कभी भी रीसेट किए जा सकते हैं।"
+  },
+  "preset_warning_dont_show": {
+    "message": "फिर से न दिखाएं"
+  },
+  "continue_action": {
+    "message": "जारी रखें"
   }
 }

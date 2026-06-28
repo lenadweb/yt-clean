@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "\"Wie es gemacht wurde\" ausblenden"
+  },
+  "preset_balanced": {
+    "message": "Ausgewogen"
+  },
+  "preset_maximum": {
+    "message": "Maximal"
+  },
+  "preset_custom": {
+    "message": "Benutzerdefiniert"
+  },
+  "reset_preset": {
+    "message": "Voreinstellung zurücksetzen"
+  },
+  "preset_warning_title": {
+    "message": "Vordefinierte Voreinstellung bearbeiten"
+  },
+  "preset_warning_text": {
+    "message": "Du änderst eine vordefinierte Voreinstellung. Deine Änderungen werden darin gespeichert und können jederzeit zurükgesetzt werden."
+  },
+  "preset_warning_dont_show": {
+    "message": "Nicht mehr anzeigen"
+  },
+  "continue_action": {
+    "message": "Weiter"
   }
 }

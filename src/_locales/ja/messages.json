@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "「制作方法」を非表示"
+  },
+  "preset_balanced": {
+    "message": "バランス"
+  },
+  "preset_maximum": {
+    "message": "最大"
+  },
+  "preset_custom": {
+    "message": "カスタム"
+  },
+  "reset_preset": {
+    "message": "プリセットをリセット"
+  },
+  "preset_warning_title": {
+    "message": "組み込みプリセットの編集"
+  },
+  "preset_warning_text": {
+    "message": "組み込みプリセットを変更しています。変更は保存され、いつでもデフォルトにリセットできます。"
+  },
+  "preset_warning_dont_show": {
+    "message": "今後表示しない"
+  },
+  "continue_action": {
+    "message": "続行"
   }
 }

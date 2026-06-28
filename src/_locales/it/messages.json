@@ -286,5 +286,29 @@
   },
   "hide_how_this_was_made": {
     "message": "Nascondi \"Come è stato realizzato\""
+  },
+  "preset_balanced": {
+    "message": "Bilanciato"
+  },
+  "preset_maximum": {
+    "message": "Massimo"
+  },
+  "preset_custom": {
+    "message": "Personalizzato"
+  },
+  "reset_preset": {
+    "message": "Reimposta preset"
+  },
+  "preset_warning_title": {
+    "message": "Modifica di un preset predefinito"
+  },
+  "preset_warning_text": {
+    "message": "Stai modificando un preset predefinito. Le modifiche vengono salvate e puoi reimpostarlo in qualsiasi momento."
+  },
+  "preset_warning_dont_show": {
+    "message": "Non mostrare più"
+  },
+  "continue_action": {
+    "message": "Continua"
   }
 }
