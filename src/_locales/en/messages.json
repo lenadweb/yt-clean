@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "Reset the current preset to its default state? Your changes to this preset will be lost."
+  },
+  "settings_label": {
+    "message": "Settings"
   }
 }

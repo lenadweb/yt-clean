@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "将当前预设重置为默认状态？你对该预设的更改将丢失。"
+  },
+  "settings_label": {
+    "message": "设置"
   }
 }

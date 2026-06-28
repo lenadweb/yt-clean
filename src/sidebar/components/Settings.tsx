@@ -37,7 +37,13 @@ const Settings: FC = () => {
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
+            <p className="mb-2 ml-1 text-xs font-medium uppercase tracking-wide text-black-400">
+                {t('presets')}
+            </p>
             <PresetTags />
+            <p className="mb-2 ml-1 text-xs font-medium uppercase tracking-wide text-black-400">
+                {t('settings_label')}
+            </p>
             <div className="space-y-2.5">
                 {CATEGORIES.map((category, index) => (
                     <SettingsAccordion

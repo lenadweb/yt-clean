@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "Reimpostare il preset attuale allo stato predefinito? Le tue modifiche a questo preset andranno perse."
+  },
+  "settings_label": {
+    "message": "Impostazioni"
   }
 }

@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "Redefinir a predefinição atual para o estado padrão? Suas alterações nesta predefinição serão perdidas."
+  },
+  "settings_label": {
+    "message": "Configurações"
   }
 }

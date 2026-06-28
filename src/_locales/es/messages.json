@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "¿Restablecer el preajuste actual a su estado predeterminado? Se perderán tus cambios en este preajuste."
+  },
+  "settings_label": {
+    "message": "Ajustes"
   }
 }

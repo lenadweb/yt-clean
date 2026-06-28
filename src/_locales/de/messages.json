@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "Aktuelle Voreinstellung auf den Standard zurücksetzen? Deine Änderungen an dieser Voreinstellung gehen verloren."
+  },
+  "settings_label": {
+    "message": "Einstellungen"
   }
 }

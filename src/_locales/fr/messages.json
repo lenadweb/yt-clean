@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "Réinitialiser le préréglage actuel à son état par défaut ? Vos modifications de ce préréglage seront perdues."
+  },
+  "settings_label": {
+    "message": "Paramètres"
   }
 }

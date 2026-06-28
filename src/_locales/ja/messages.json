@@ -337,5 +337,8 @@
   },
   "reset_confirm_text": {
     "message": "現在のプリセットを既定の状態にリセットしますか？このプリセットへの変更は失われます。"
+  },
+  "settings_label": {
+    "message": "設定"
   }
 }
