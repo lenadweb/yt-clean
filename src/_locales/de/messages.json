@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "Anzeigen-Infofelder ausblenden"
+  },
+  "video_description": {
+    "message": "Beschreibung"
+  },
+  "hide_description_ai": {
+    "message": "KI-Bereich ausblenden (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Transkript ausblenden"
+  },
+  "hide_description_people": {
+    "message": "Erwähnte Personen ausblenden"
+  },
+  "hide_description_related": {
+    "message": "Ähnliche Videos ausblenden"
   }
 }

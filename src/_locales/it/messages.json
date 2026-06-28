@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "Nascondi pannelli info annunci"
+  },
+  "video_description": {
+    "message": "Descrizione"
+  },
+  "hide_description_ai": {
+    "message": "Nascondi sezione IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Nascondi trascrizione"
+  },
+  "hide_description_people": {
+    "message": "Nascondi persone menzionate"
+  },
+  "hide_description_related": {
+    "message": "Nascondi video correlati"
   }
 }

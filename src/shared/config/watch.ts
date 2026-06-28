@@ -41,7 +41,6 @@ export const watchCategory = category('video_page', [
         feature({
             id: 'hideMerch',
             title: 'hide_merch_and_tickets',
-            isNew: true,
             url: [UrlRegExps.Watch],
             hide: [
                 'ytd-merch-shelf-renderer',
@@ -52,9 +51,34 @@ export const watchCategory = category('video_page', [
         feature({
             id: 'hideEndScreenCards',
             title: 'hide_end_screen_cards',
-            isNew: true,
             url: [UrlRegExps.Watch],
             hide: ['.ytp-ce-element', '.ytp-cards-teaser'],
+        }),
+    ]),
+    section('video_description', { isNew: true, controls: 'checkboxes' }, [
+        feature({
+            id: 'hideDescriptionAi',
+            title: 'hide_description_ai',
+            url: [UrlRegExps.Watch],
+            hide: ['yt-video-description-youchat-section-view-model'],
+        }),
+        feature({
+            id: 'hideDescriptionTranscript',
+            title: 'hide_description_transcript',
+            url: [UrlRegExps.Watch],
+            hide: ['ytd-video-description-transcript-section-renderer'],
+        }),
+        feature({
+            id: 'hideDescriptionPeople',
+            title: 'hide_description_people',
+            url: [UrlRegExps.Watch],
+            hide: ['yt-video-attributes-section-view-model'],
+        }),
+        feature({
+            id: 'hideDescriptionRelated',
+            title: 'hide_description_related',
+            url: [UrlRegExps.Watch],
+            hide: ['ytd-video-description-infocards-section-renderer'],
         }),
     ]),
 ]);

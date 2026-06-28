@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "広告情報パネルを非表示"
+  },
+  "video_description": {
+    "message": "説明"
+  },
+  "hide_description_ai": {
+    "message": "AIセクション（Gemini）を非表示"
+  },
+  "hide_description_transcript": {
+    "message": "文字起こしを非表示"
+  },
+  "hide_description_people": {
+    "message": "言及された人物を非表示"
+  },
+  "hide_description_related": {
+    "message": "関連動画を非表示"
   }
 }

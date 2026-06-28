@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "Ocultar paneles de info de anuncios"
+  },
+  "video_description": {
+    "message": "Descripción"
+  },
+  "hide_description_ai": {
+    "message": "Ocultar sección de IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ocultar transcripción"
+  },
+  "hide_description_people": {
+    "message": "Ocultar personas mencionadas"
+  },
+  "hide_description_related": {
+    "message": "Ocultar videos relacionados"
   }
 }

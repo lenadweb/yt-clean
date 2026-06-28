@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "विज्ञापन जानकारी पैनल छिपाएं"
+  },
+  "video_description": {
+    "message": "विवरण"
+  },
+  "hide_description_ai": {
+    "message": "AI सेक्शन (Gemini) छिपाएं"
+  },
+  "hide_description_transcript": {
+    "message": "ट्रांसक्रिप्ट छिपाएं"
+  },
+  "hide_description_people": {
+    "message": "उल्लिखित लोग छिपाएं"
+  },
+  "hide_description_related": {
+    "message": "संबंधित वीडियो छिपाएं"
   }
 }

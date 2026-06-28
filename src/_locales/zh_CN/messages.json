@@ -265,5 +265,20 @@
   },
   "hide_ad_info_panels": {
     "message": "隐藏广告信息面板"
+  },
+  "video_description": {
+    "message": "简介"
+  },
+  "hide_description_ai": {
+    "message": "隐藏 AI 板块（Gemini）"
+  },
+  "hide_description_transcript": {
+    "message": "隐藏字幕文稿"
+  },
+  "hide_description_people": {
+    "message": "隐藏提及的人物"
+  },
+  "hide_description_related": {
+    "message": "隐藏相关视频"
   }
 }
