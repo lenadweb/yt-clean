@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "続行"
+  },
+  "presets": {
+    "message": "プリセット"
+  },
+  "features_hidden": {
+    "message": "{count} 件非表示"
+  },
+  "preset_light": {
+    "message": "ライト"
+  },
+  "preset_light_desc": {
+    "message": "YouTube の最も気が散る部分を軽く整理します。"
+  },
+  "preset_balanced_desc": {
+    "message": "バランスの取れた、集中できる YouTube。"
+  },
+  "preset_maximum_desc": {
+    "message": "最大限の整理 — 余分なものをほぼすべて非表示。"
+  },
+  "preset_custom_desc": {
+    "message": "自分専用の設定。好きなように調整できます。"
   }
 }

@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "继续"
+  },
+  "presets": {
+    "message": "预设"
+  },
+  "features_hidden": {
+    "message": "已隐藏 {count}"
+  },
+  "preset_light": {
+    "message": "轻度"
+  },
+  "preset_light_desc": {
+    "message": "轻度清理 YouTube 中最分散注意力的部分。"
+  },
+  "preset_balanced_desc": {
+    "message": "均衡、专注无干扰的 YouTube。"
+  },
+  "preset_maximum_desc": {
+    "message": "最大化清理——几乎隐藏所有多余内容。"
+  },
+  "preset_custom_desc": {
+    "message": "你自己的配置，随意调整。"
   }
 }

@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "जारी रखें"
+  },
+  "presets": {
+    "message": "प्रीसेट"
+  },
+  "features_hidden": {
+    "message": "{count} छिपे"
+  },
+  "preset_light": {
+    "message": "हल्का"
+  },
+  "preset_light_desc": {
+    "message": "YouTube के सबसे ध्यान भटकाने वाले हिस्सों की हल्की सफाई।"
+  },
+  "preset_balanced_desc": {
+    "message": "संतुलित, ध्यान न भटकाने वाला YouTube।"
+  },
+  "preset_maximum_desc": {
+    "message": "अधिकतम सफाई — लगभग सब कुछ अतिरिक्त छिपाता है।"
+  },
+  "preset_custom_desc": {
+    "message": "आपका अपना कॉन्फ़िगरेशन। जो चाहें बदलें।"
   }
 }

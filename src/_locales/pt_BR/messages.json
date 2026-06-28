@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "Continuar"
+  },
+  "presets": {
+    "message": "Predefinições"
+  },
+  "features_hidden": {
+    "message": "{count} ocultos"
+  },
+  "preset_light": {
+    "message": "Leve"
+  },
+  "preset_light_desc": {
+    "message": "Limpeza leve das partes mais distrativas do YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Um YouTube equilibrado e sem distrações."
+  },
+  "preset_maximum_desc": {
+    "message": "Limpeza máxima — oculta quase tudo a mais."
+  },
+  "preset_custom_desc": {
+    "message": "Sua própria configuração. Ajuste o que quiser."
   }
 }

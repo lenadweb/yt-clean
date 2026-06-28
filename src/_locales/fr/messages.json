@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "Continuer"
+  },
+  "presets": {
+    "message": "Préréglages"
+  },
+  "features_hidden": {
+    "message": "{count} masqués"
+  },
+  "preset_light": {
+    "message": "Léger"
+  },
+  "preset_light_desc": {
+    "message": "Nettoyage léger des parties les plus distrayantes de YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube équilibré et sans distraction."
+  },
+  "preset_maximum_desc": {
+    "message": "Nettoyage maximal — masque presque tout le superflu."
+  },
+  "preset_custom_desc": {
+    "message": "Votre propre configuration. Ajustez tout ce que vous voulez."
   }
 }

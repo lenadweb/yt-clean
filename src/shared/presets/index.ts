@@ -2,11 +2,11 @@ import { FEATURES } from 'src/shared/featureConfig';
 import { SettingValue } from 'src/shared/types/settings';
 import type { SettingsState } from 'src/shared/storage/config';
 
-export const PRESET_IDS = ['balanced', 'maximum', 'custom'] as const;
+export const PRESET_IDS = ['light', 'balanced', 'maximum', 'custom'] as const;
 export type PresetId = (typeof PRESET_IDS)[number];
 
 export const isStandardPreset = (preset: PresetId): boolean =>
-    preset === 'balanced' || preset === 'maximum';
+    preset !== 'custom';
 
 // Features that presets must NOT touch when switching (UI/value settings,
 // not "cleanliness" toggles).
@@ -15,21 +15,27 @@ const PRESET_EXCLUDED = new Set<string>(['speedControl']);
 // Excluded from the "Maximum" preset specifically (experimental / risky).
 const MAXIMUM_EXCLUDED = new Set<string>(['autoSkipAds']);
 
-const BALANCED_IDS = new Set<string>([
+const LIGHT_IDS = new Set<string>([
     'hideShorts',
     'hideNewsSection',
-    'hideJams',
     'hideHoverPreview',
     'adsYoutubeBanner',
     'adsFeedVideo',
     'adsInfoPanel',
+    'hideMenuShorts',
+]);
+
+const BALANCED_IDS = new Set<string>([
+    ...LIGHT_IDS,
+    'hideJams',
     'hideMerch',
     'hideEndScreenCards',
     'hideDescriptionAi',
     'hideDescriptionHowMade',
     'hideSearchRefinements',
     'hideSearchTags',
-    'hideMenuShorts',
+    'hideMenuExploreTrending',
+    'hideMenuExploreNews',
 ]);
 
 export const MANAGED_FEATURE_IDS: string[] = FEATURES.map(
@@ -46,6 +52,7 @@ const buildConfig = (isEnabled: (id: string) => boolean): SettingsState =>
 
 export const PRESET_DEFAULTS: Record<PresetId, SettingsState> = {
     custom: buildConfig(() => false),
+    light: buildConfig((id) => LIGHT_IDS.has(id)),
     balanced: buildConfig((id) => BALANCED_IDS.has(id)),
     maximum: buildConfig((id) => !MAXIMUM_EXCLUDED.has(id)),
 };

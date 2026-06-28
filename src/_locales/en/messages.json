@@ -310,5 +310,26 @@
   },
   "continue_action": {
     "message": "Continue"
+  },
+  "presets": {
+    "message": "Presets"
+  },
+  "features_hidden": {
+    "message": "{count} hidden"
+  },
+  "preset_light": {
+    "message": "Light"
+  },
+  "preset_light_desc": {
+    "message": "Light cleanup of the most distracting parts of YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "A balanced, distraction-free YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximum cleanup — hides almost everything extra."
+  },
+  "preset_custom_desc": {
+    "message": "Your own configuration. Tweak anything you like."
   }
 }
