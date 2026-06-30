@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import cn from 'classnames';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { CATEGORIES } from 'src/shared/featureConfig';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
@@ -24,14 +25,19 @@ const Settings: FC = () => {
         <div className="flex min-h-screen w-full flex-col rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
             <div className="mb-[26px] ml-2 flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                    <Logo className="size-8" />
+                    <Logo
+                        className={cn(
+                            'size-8 transition duration-150',
+                            !isEnabled && 'grayscale'
+                        )}
+                    />
                     <h1 className="flex items-center gap-2 text-[20px] font-medium">
                         {t('youtube_clean')}
                     </h1>
                 </div>
                 <button
                     onClick={toggleEnabled}
-                    className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95"
+                    className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95 [&_rect]:transition-colors [&_rect]:duration-150 hover:[&_rect]:fill-black-600"
                     aria-label={t('toggle_extension')}
                 >
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}

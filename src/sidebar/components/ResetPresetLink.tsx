@@ -11,6 +11,7 @@ import { storage } from 'src/shared/storage';
 import { getFeatureSetting, toFeatureId } from 'src/shared/storage/config';
 import { MANAGED_FEATURE_IDS, PRESET_DEFAULTS } from 'src/shared/presets';
 import { t } from 'src/shared/utils/i18n';
+import ResetIcon from 'src/assets/icons/reset.svg';
 
 const ResetPresetLink: FC = () => {
     const [settings] = useStorage();
@@ -32,12 +33,18 @@ const ResetPresetLink: FC = () => {
 
     return (
         <>
-            <button
-                onClick={() => setOpen(true)}
-                className="cursor-pointer text-xs text-black-400 transition-colors hover:text-white"
-            >
-                {t('reset_action')}
-            </button>
+            <div className="group relative flex">
+                <button
+                    onClick={() => setOpen(true)}
+                    aria-label={t('reset_preset')}
+                    className="cursor-pointer text-black-400 transition-colors hover:text-white"
+                >
+                    <ResetIcon className="w-4" />
+                </button>
+                <div className="pointer-events-none absolute bottom-full right-0 z-10 mb-1.5 whitespace-nowrap rounded-lg bg-black-600 px-2 py-1 text-[10px] text-white-100 opacity-0 shadow-3xl transition-opacity duration-150 group-hover:opacity-100">
+                    {t('reset_preset')}
+                </div>
+            </div>
 
             <Transition appear show={open}>
                 <Dialog

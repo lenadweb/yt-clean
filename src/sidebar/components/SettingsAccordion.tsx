@@ -38,13 +38,13 @@ export const SettingsAccordion: FC<Props> = ({
                     )}
                 >
                     <div className="flex items-center justify-between">
-                        <DisclosureButton className="flex w-full cursor-pointer items-center justify-between gap-2 p-5">
+                        <DisclosureButton className="group flex w-full cursor-pointer items-center justify-between gap-2 p-5">
                             <div className="text-base leading-[1.2]">
                                 {t(title)}
                             </div>
                             <ChevronDownIcon
                                 className={cn(
-                                    'w-5 transition',
+                                    'w-5 transition group-hover:opacity-100',
                                     !open && '-rotate-90 opacity-65',
                                     open && '-rotate-180'
                                 )}

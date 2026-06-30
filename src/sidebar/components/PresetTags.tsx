@@ -25,7 +25,7 @@ const PresetTags: FC = () => {
                     disabled={!enabled}
                     onClick={() => storage.applyPreset(preset)}
                     className={cn(
-                        'rounded-full py-1.5 text-[12px] font-medium transition-colors',
+                        'rounded-xl py-1.5 text-[12px] font-medium transition-colors',
                         enabled ? 'cursor-pointer' : 'cursor-default',
                         active === preset
                             ? enabled
