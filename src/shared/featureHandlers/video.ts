@@ -4,7 +4,7 @@ import {
     observeElementChanges,
     waitForElement,
 } from 'src/shared/utils/dom';
-import { setPlaybackSpeed } from 'src/shared/utils/yt';
+import { parseSpeed, setPlaybackSpeed } from 'src/shared/utils/yt';
 import { CachedElement } from 'src/shared/types/config';
 
 const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
@@ -19,21 +19,75 @@ const CHANNEL_TRAILER_VIDEO_SELECTOR = `${CHANNEL_TRAILER_SELECTOR} .html5-video
 const VIDEO_PLAYER_SELECTOR =
     '.html5-video-player:not(.unstarted-mode) video[src]';
 
+const MOVIE_PLAYER_SELECTOR = '#movie_player';
+const AD_SHOWING_SELECTOR = '.html5-video-player.ad-showing';
+const MOVIE_PLAYER_VIDEO_SELECTOR = `${MOVIE_PLAYER_SELECTOR} video`;
+const PLAYBACK_SPEED_OBSERVER_ID = 'playback-speed-enforce';
+
+let desiredSpeed: string | undefined;
+let trackedVideo: HTMLVideoElement | null = null;
+
 const isCurrentUrlMatched = (urlRegExps: RegExp[]): boolean =>
     urlRegExps.some((regexp) => regexp.test(window.location.href));
+
+const isAdShowing = (): boolean =>
+    Boolean(document.querySelector(AD_SHOWING_SELECTOR));
+
+const enforcePlaybackSpeed = () => {
+    if (!desiredSpeed || isAdShowing()) return;
+
+    const video = document.querySelector(MOVIE_PLAYER_VIDEO_SELECTOR);
+    if (!(video instanceof HTMLVideoElement)) return;
+
+    const target = parseSpeed(desiredSpeed);
+    if (Math.abs(video.playbackRate - target) > 0.001) {
+        video.playbackRate = target;
+    }
+
+    if (video !== trackedVideo) {
+        trackedVideo?.removeEventListener('ratechange', enforcePlaybackSpeed);
+        video.addEventListener('ratechange', enforcePlaybackSpeed);
+        trackedVideo = video;
+    }
+};
+
+const stopPlaybackSpeedEnforcement = () => {
+    disconnectObserver(PLAYBACK_SPEED_OBSERVER_ID);
+    trackedVideo?.removeEventListener('ratechange', enforcePlaybackSpeed);
+    trackedVideo = null;
+    desiredSpeed = undefined;
+};
 
 export const syncPlaybackSpeed = async (
     value: string | undefined,
     enabled: boolean
 ) => {
-    if (!enabled || !value) return;
-
-    if (!isCurrentUrlMatched([UrlRegExps.Watch, UrlRegExps.Channel])) {
+    if (
+        !enabled ||
+        !value ||
+        !isCurrentUrlMatched([UrlRegExps.Watch, UrlRegExps.Channel])
+    ) {
+        stopPlaybackSpeedEnforcement();
         return;
     }
 
+    desiredSpeed = value;
+
     await waitForElement(VIDEO_PLAYER_SELECTOR);
     setPlaybackSpeed(value);
+
+    observeElementChanges(
+        PLAYBACK_SPEED_OBSERVER_ID,
+        MOVIE_PLAYER_SELECTOR,
+        enforcePlaybackSpeed,
+        {
+            childList: true,
+            subtree: true,
+            attributes: true,
+            attributeFilter: ['class'],
+        },
+        document.documentElement
+    );
 };
 
 const removeLoopAttribute = (element: Element) => {
