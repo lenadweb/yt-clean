@@ -9,7 +9,6 @@ import { t } from 'src/shared/utils/i18n';
 const PRESET_TITLES: Record<PresetId, I18nKey> = {
     light: 'preset_light',
     balanced: 'preset_balanced',
-    maximum: 'preset_maximum',
     custom: 'preset_custom',
 };
 
@@ -19,7 +18,7 @@ const PresetTags: FC = () => {
     const enabled = settings.isEnabled;
 
     return (
-        <div className="mb-4 grid grid-cols-4 gap-1.5">
+        <div className="mb-4 grid grid-cols-3 gap-1.5">
             {PRESET_IDS.map((preset) => (
                 <button
                     key={preset}

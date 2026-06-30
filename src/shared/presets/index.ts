@@ -2,7 +2,7 @@ import { FEATURES } from 'src/shared/featureConfig';
 import { SettingValue } from 'src/shared/types/settings';
 import type { SettingsState } from 'src/shared/storage/config';
 
-export const PRESET_IDS = ['light', 'balanced', 'maximum', 'custom'] as const;
+export const PRESET_IDS = ['light', 'balanced', 'custom'] as const;
 export type PresetId = (typeof PRESET_IDS)[number];
 
 export const isStandardPreset = (preset: PresetId): boolean =>
@@ -11,9 +11,6 @@ export const isStandardPreset = (preset: PresetId): boolean =>
 // Features that presets must NOT touch when switching (UI/value settings,
 // not "cleanliness" toggles).
 const PRESET_EXCLUDED = new Set<string>(['speedControl']);
-
-// Excluded from the "Maximum" preset specifically (experimental / risky).
-const MAXIMUM_EXCLUDED = new Set<string>(['autoSkipAds']);
 
 const LIGHT_IDS = new Set<string>([
     'hideShorts',
@@ -54,7 +51,6 @@ export const PRESET_DEFAULTS: Record<PresetId, SettingsState> = {
     custom: buildConfig(() => false),
     light: buildConfig((id) => LIGHT_IDS.has(id)),
     balanced: buildConfig((id) => BALANCED_IDS.has(id)),
-    maximum: buildConfig((id) => !MAXIMUM_EXCLUDED.has(id)),
 };
 
 export const getPresetConfig = (
