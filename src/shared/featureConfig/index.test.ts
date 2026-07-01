@@ -35,7 +35,13 @@ describe('FEATURES', () => {
     });
 
     it('generates one default setting per feature', () => {
-        expect(storageKeys.size).toBe(FEATURES.length + 1);
+        const nonFeatureKeys = [
+            'isEnabled',
+            'activePreset',
+            'presets',
+            'presetWarningDismissed',
+        ];
+        expect(storageKeys.size).toBe(FEATURES.length + nonFeatureKeys.length);
     });
 });
 
