@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "Masquer \"En direct\""
+  },
+  "playback_speed": {
+    "message": "Vitesse de lecture"
+  },
+  "normal_speed": {
+    "message": "Normale"
+  },
+  "video_page": {
+    "message": "Page vidéo"
+  },
+  "video_page_elements": {
+    "message": "Éléments de la page"
+  },
+  "hide_comments": {
+    "message": "Masquer les commentaires"
+  },
+  "hide_recommended_videos": {
+    "message": "Masquer les vidéos recommandées"
+  },
+  "hide_live_chat": {
+    "message": "Masquer le chat en direct"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Masquer produits et billets"
+  },
+  "hide_end_screen_cards": {
+    "message": "Masquer les cartes de fin"
+  },
+  "hide_action_buttons": {
+    "message": "Masquer les boutons d’action"
+  },
+  "hide_like_dislike": {
+    "message": "Masquer j’aime/je n’aime pas"
+  },
+  "hide_description": {
+    "message": "Masquer la description"
+  },
+  "hide_ad_info_panels": {
+    "message": "Masquer les panneaux d’info des annonces"
+  },
+  "video_description": {
+    "message": "Description"
+  },
+  "hide_description_ai": {
+    "message": "Masquer la section IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Masquer la transcription"
+  },
+  "hide_description_people": {
+    "message": "Masquer les personnes mentionnées"
+  },
+  "hide_description_related": {
+    "message": "Masquer les vidéos associées"
+  },
+  "hide_description_channel": {
+    "message": "Masquer la carte de la chaîne"
+  },
+  "hide_how_this_was_made": {
+    "message": "Masquer \"Comment c’est fait\""
+  },
+  "preset_balanced": {
+    "message": "Équilibré"
+  },
+  "preset_maximum": {
+    "message": "Maximum"
+  },
+  "preset_custom": {
+    "message": "Personnalisé"
+  },
+  "reset_preset": {
+    "message": "Réinitialiser le préréglage"
+  },
+  "preset_warning_text": {
+    "message": "Vous modifiez un préréglage intégré. Vos modifications y sont enregistrées et peuvent être réinitialisées à tout moment."
+  },
+  "preset_warning_title": {
+    "message": "Modifier un préréglage intégré"
+  },
+  "preset_warning_dont_show": {
+    "message": "Ne plus afficher"
+  },
+  "continue_action": {
+    "message": "Continuer"
+  },
+  "presets": {
+    "message": "Préréglages"
+  },
+  "features_hidden": {
+    "message": "{count} masqués"
+  },
+  "preset_light": {
+    "message": "Léger"
+  },
+  "preset_light_desc": {
+    "message": "Nettoyage léger des parties les plus distrayantes de YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube équilibré et sans distraction."
+  },
+  "preset_maximum_desc": {
+    "message": "Nettoyage maximal — masque presque tout le superflu."
+  },
+  "preset_custom_desc": {
+    "message": "Votre propre configuration. Ajustez tout ce que vous voulez."
+  },
+  "reset_action": {
+    "message": "Réinitialiser"
+  },
+  "reset_confirm_text": {
+    "message": "Réinitialiser le préréglage actuel à son état par défaut ? Vos modifications de ce préréglage seront perdues."
+  },
+  "settings_label": {
+    "message": "Paramètres"
+  },
+  "hide_description_chapters": {
+    "message": "Masquer chapitres et épisodes"
   }
 }

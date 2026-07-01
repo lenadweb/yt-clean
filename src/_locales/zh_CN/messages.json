@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "隐藏“直播”"
+  },
+  "playback_speed": {
+    "message": "播放速度"
+  },
+  "normal_speed": {
+    "message": "正常"
+  },
+  "video_page": {
+    "message": "视频页面"
+  },
+  "video_page_elements": {
+    "message": "页面元素"
+  },
+  "hide_comments": {
+    "message": "隐藏评论"
+  },
+  "hide_recommended_videos": {
+    "message": "隐藏推荐视频"
+  },
+  "hide_live_chat": {
+    "message": "隐藏实时聊天"
+  },
+  "hide_merch_and_tickets": {
+    "message": "隐藏商品和门票"
+  },
+  "hide_end_screen_cards": {
+    "message": "隐藏片尾卡片"
+  },
+  "hide_action_buttons": {
+    "message": "隐藏操作按钮"
+  },
+  "hide_like_dislike": {
+    "message": "隐藏顶/踩按钮"
+  },
+  "hide_description": {
+    "message": "隐藏简介"
+  },
+  "hide_ad_info_panels": {
+    "message": "隐藏广告信息面板"
+  },
+  "video_description": {
+    "message": "简介"
+  },
+  "hide_description_ai": {
+    "message": "隐藏 AI 板块（Gemini）"
+  },
+  "hide_description_transcript": {
+    "message": "隐藏字幕文稿"
+  },
+  "hide_description_people": {
+    "message": "隐藏提及的人物"
+  },
+  "hide_description_related": {
+    "message": "隐藏相关视频"
+  },
+  "hide_description_channel": {
+    "message": "隐藏频道卡片"
+  },
+  "hide_how_this_was_made": {
+    "message": "隐藏“制作方式”"
+  },
+  "preset_balanced": {
+    "message": "平衡"
+  },
+  "preset_maximum": {
+    "message": "最大"
+  },
+  "preset_custom": {
+    "message": "自定义"
+  },
+  "reset_preset": {
+    "message": "重置预设"
+  },
+  "preset_warning_title": {
+    "message": "正在编辑内置预设"
+  },
+  "preset_warning_text": {
+    "message": "你正在修改内置预设。更改会保存在该预设中，随时可以重置为默认。"
+  },
+  "preset_warning_dont_show": {
+    "message": "不再显示"
+  },
+  "continue_action": {
+    "message": "继续"
+  },
+  "presets": {
+    "message": "预设"
+  },
+  "features_hidden": {
+    "message": "已隐藏 {count}"
+  },
+  "preset_light": {
+    "message": "轻度"
+  },
+  "preset_light_desc": {
+    "message": "轻度清理 YouTube 中最分散注意力的部分。"
+  },
+  "preset_balanced_desc": {
+    "message": "均衡、专注无干扰的 YouTube。"
+  },
+  "preset_maximum_desc": {
+    "message": "最大化清理——几乎隐藏所有多余内容。"
+  },
+  "preset_custom_desc": {
+    "message": "你自己的配置，随意调整。"
+  },
+  "reset_action": {
+    "message": "重置"
+  },
+  "reset_confirm_text": {
+    "message": "将当前预设重置为默认状态？你对该预设的更改将丢失。"
+  },
+  "settings_label": {
+    "message": "设置"
+  },
+  "hide_description_chapters": {
+    "message": "隐藏章节和剧集"
   }
 }

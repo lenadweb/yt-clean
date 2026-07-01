@@ -141,6 +141,13 @@ export const feedCategory = category('feed_and_recommendations', [
             ],
         }),
         feature({
+            id: 'adsInfoPanel',
+            title: 'hide_ad_info_panels',
+            isNew: true,
+            url: [UrlRegExps.Watch],
+            hide: ['ytd-engagement-panel-section-list-renderer[target-id]'],
+        }),
+        feature({
             id: 'autoSkipAds',
             title: 'auto_skip_ads',
             isExperimental: true,

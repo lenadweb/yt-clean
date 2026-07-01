@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "\"Live\" ausblenden"
+  },
+  "playback_speed": {
+    "message": "Wiedergabegeschwindigkeit"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Videoseite"
+  },
+  "video_page_elements": {
+    "message": "Seitenelemente"
+  },
+  "hide_comments": {
+    "message": "Kommentare ausblenden"
+  },
+  "hide_recommended_videos": {
+    "message": "Empfohlene Videos ausblenden"
+  },
+  "hide_live_chat": {
+    "message": "Live-Chat ausblenden"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Merch & Tickets ausblenden"
+  },
+  "hide_end_screen_cards": {
+    "message": "Abspann-Karten ausblenden"
+  },
+  "hide_action_buttons": {
+    "message": "Aktionsschaltflächen ausblenden"
+  },
+  "hide_like_dislike": {
+    "message": "Mag ich/Mag ich nicht ausblenden"
+  },
+  "hide_description": {
+    "message": "Beschreibung ausblenden"
+  },
+  "hide_ad_info_panels": {
+    "message": "Anzeigen-Infofelder ausblenden"
+  },
+  "video_description": {
+    "message": "Beschreibung"
+  },
+  "hide_description_ai": {
+    "message": "KI-Bereich ausblenden (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Transkript ausblenden"
+  },
+  "hide_description_people": {
+    "message": "Erwähnte Personen ausblenden"
+  },
+  "hide_description_related": {
+    "message": "Ähnliche Videos ausblenden"
+  },
+  "hide_description_channel": {
+    "message": "Kanalkarte ausblenden"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"Wie es gemacht wurde\" ausblenden"
+  },
+  "preset_balanced": {
+    "message": "Ausgewogen"
+  },
+  "preset_maximum": {
+    "message": "Maximal"
+  },
+  "preset_custom": {
+    "message": "Benutzerdefiniert"
+  },
+  "reset_preset": {
+    "message": "Voreinstellung zurücksetzen"
+  },
+  "preset_warning_title": {
+    "message": "Vordefinierte Voreinstellung bearbeiten"
+  },
+  "preset_warning_text": {
+    "message": "Du änderst eine vordefinierte Voreinstellung. Deine Änderungen werden darin gespeichert und können jederzeit zurükgesetzt werden."
+  },
+  "preset_warning_dont_show": {
+    "message": "Nicht mehr anzeigen"
+  },
+  "continue_action": {
+    "message": "Weiter"
+  },
+  "presets": {
+    "message": "Voreinstellungen"
+  },
+  "features_hidden": {
+    "message": "{count} ausgeblendet"
+  },
+  "preset_light": {
+    "message": "Leicht"
+  },
+  "preset_light_desc": {
+    "message": "Leichte Bereinigung der ablenkendsten Teile von YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Ein ausgewogenes, ablenkungsfreies YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximale Bereinigung – blendet fast alles Zusätzliche aus."
+  },
+  "preset_custom_desc": {
+    "message": "Deine eigene Konfiguration. Passe alles an."
+  },
+  "reset_action": {
+    "message": "Zurücksetzen"
+  },
+  "reset_confirm_text": {
+    "message": "Aktuelle Voreinstellung auf den Standard zurücksetzen? Deine Änderungen an dieser Voreinstellung gehen verloren."
+  },
+  "settings_label": {
+    "message": "Einstellungen"
+  },
+  "hide_description_chapters": {
+    "message": "Kapitel & Folgen ausblenden"
   }
 }

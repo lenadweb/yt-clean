@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "\"लाइव\" छिपाएं"
+  },
+  "playback_speed": {
+    "message": "प्लेबैक गति"
+  },
+  "normal_speed": {
+    "message": "सामान्य"
+  },
+  "video_page": {
+    "message": "वीडियो पेज"
+  },
+  "video_page_elements": {
+    "message": "पेज तत्व"
+  },
+  "hide_comments": {
+    "message": "टिप्पणियाँ छिपाएं"
+  },
+  "hide_recommended_videos": {
+    "message": "अनुशंसित वीडियो छिपाएं"
+  },
+  "hide_live_chat": {
+    "message": "लाइव चैट छिपाएं"
+  },
+  "hide_merch_and_tickets": {
+    "message": "मर्च और टिकट छिपाएं"
+  },
+  "hide_end_screen_cards": {
+    "message": "एंड स्क्रीन कार्ड छिपाएं"
+  },
+  "hide_action_buttons": {
+    "message": "एक्शन बटन छिपाएं"
+  },
+  "hide_like_dislike": {
+    "message": "लाइक/डिसलाइक छिपाएं"
+  },
+  "hide_description": {
+    "message": "विवरण छिपाएं"
+  },
+  "hide_ad_info_panels": {
+    "message": "विज्ञापन जानकारी पैनल छिपाएं"
+  },
+  "video_description": {
+    "message": "विवरण"
+  },
+  "hide_description_ai": {
+    "message": "AI सेक्शन (Gemini) छिपाएं"
+  },
+  "hide_description_transcript": {
+    "message": "ट्रांसक्रिप्ट छिपाएं"
+  },
+  "hide_description_people": {
+    "message": "उल्लिखित लोग छिपाएं"
+  },
+  "hide_description_related": {
+    "message": "संबंधित वीडियो छिपाएं"
+  },
+  "hide_description_channel": {
+    "message": "चैनल कार्ड छिपाएं"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"यह कैसे बना\" छिपाएं"
+  },
+  "preset_balanced": {
+    "message": "संतुलित"
+  },
+  "preset_maximum": {
+    "message": "अधिकतम"
+  },
+  "preset_custom": {
+    "message": "कस्टम"
+  },
+  "reset_preset": {
+    "message": "प्रीसेट रीसेट करें"
+  },
+  "preset_warning_title": {
+    "message": "बिल्ट-इन प्रीसेट संपादित करना"
+  },
+  "preset_warning_text": {
+    "message": "आप एक बिल्ट-इन प्रीसेट बदल रहे हैं। आपके बदलाव इसमें सहेजे जाते हैं और कभी भी रीसेट किए जा सकते हैं।"
+  },
+  "preset_warning_dont_show": {
+    "message": "फिर से न दिखाएं"
+  },
+  "continue_action": {
+    "message": "जारी रखें"
+  },
+  "presets": {
+    "message": "प्रीसेट"
+  },
+  "features_hidden": {
+    "message": "{count} छिपे"
+  },
+  "preset_light": {
+    "message": "हल्का"
+  },
+  "preset_light_desc": {
+    "message": "YouTube के सबसे ध्यान भटकाने वाले हिस्सों की हल्की सफाई।"
+  },
+  "preset_balanced_desc": {
+    "message": "संतुलित, ध्यान न भटकाने वाला YouTube।"
+  },
+  "preset_maximum_desc": {
+    "message": "अधिकतम सफाई — लगभग सब कुछ अतिरिक्त छिपाता है।"
+  },
+  "preset_custom_desc": {
+    "message": "आपका अपना कॉन्फ़िगरेशन। जो चाहें बदलें।"
+  },
+  "reset_action": {
+    "message": "रीसेट"
+  },
+  "reset_confirm_text": {
+    "message": "मौजूदा प्रीसेट को उसकी डिफ़ॉल्ट स्थिति में रीसेट करें? इस प्रीसेट में किए गए आपके बदलाव खो जाएंगे।"
+  },
+  "settings_label": {
+    "message": "सेटिंग्स"
+  },
+  "hide_description_chapters": {
+    "message": "अध्याय और एपिसोड छिपाएं"
   }
 }

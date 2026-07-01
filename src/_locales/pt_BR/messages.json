@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "Ocultar \"Ao vivo\""
+  },
+  "playback_speed": {
+    "message": "Velocidade de reprodução"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Página de vídeo"
+  },
+  "video_page_elements": {
+    "message": "Elementos da página"
+  },
+  "hide_comments": {
+    "message": "Ocultar comentários"
+  },
+  "hide_recommended_videos": {
+    "message": "Ocultar vídeos recomendados"
+  },
+  "hide_live_chat": {
+    "message": "Ocultar chat ao vivo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ocultar produtos e ingressos"
+  },
+  "hide_end_screen_cards": {
+    "message": "Ocultar cards finais"
+  },
+  "hide_action_buttons": {
+    "message": "Ocultar botões de ação"
+  },
+  "hide_like_dislike": {
+    "message": "Ocultar gostei/não gostei"
+  },
+  "hide_description": {
+    "message": "Ocultar descrição"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ocultar painéis de info de anúncios"
+  },
+  "video_description": {
+    "message": "Descrição"
+  },
+  "hide_description_ai": {
+    "message": "Ocultar seção de IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ocultar transcrição"
+  },
+  "hide_description_people": {
+    "message": "Ocultar pessoas mencionadas"
+  },
+  "hide_description_related": {
+    "message": "Ocultar vídeos relacionados"
+  },
+  "hide_description_channel": {
+    "message": "Ocultar cartão do canal"
+  },
+  "hide_how_this_was_made": {
+    "message": "Ocultar \"Como foi feito\""
+  },
+  "preset_balanced": {
+    "message": "Equilibrado"
+  },
+  "preset_maximum": {
+    "message": "Máximo"
+  },
+  "preset_custom": {
+    "message": "Personalizado"
+  },
+  "reset_preset": {
+    "message": "Redefinir predefinição"
+  },
+  "preset_warning_title": {
+    "message": "Editando uma predefinição integrada"
+  },
+  "preset_warning_text": {
+    "message": "Você está alterando uma predefinição integrada. Suas mudanças são salvas nela e podem ser redefinidas a qualquer momento."
+  },
+  "preset_warning_dont_show": {
+    "message": "Não mostrar novamente"
+  },
+  "continue_action": {
+    "message": "Continuar"
+  },
+  "presets": {
+    "message": "Predefinições"
+  },
+  "features_hidden": {
+    "message": "{count} ocultos"
+  },
+  "preset_light": {
+    "message": "Leve"
+  },
+  "preset_light_desc": {
+    "message": "Limpeza leve das partes mais distrativas do YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Um YouTube equilibrado e sem distrações."
+  },
+  "preset_maximum_desc": {
+    "message": "Limpeza máxima — oculta quase tudo a mais."
+  },
+  "preset_custom_desc": {
+    "message": "Sua própria configuração. Ajuste o que quiser."
+  },
+  "reset_action": {
+    "message": "Redefinir"
+  },
+  "reset_confirm_text": {
+    "message": "Redefinir a predefinição atual para o estado padrão? Suas alterações nesta predefinição serão perdidas."
+  },
+  "settings_label": {
+    "message": "Configurações"
+  },
+  "hide_description_chapters": {
+    "message": "Ocultar capítulos e episódios"
   }
 }

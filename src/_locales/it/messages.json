@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "Nascondi \"Live\""
+  },
+  "playback_speed": {
+    "message": "Velocità di riproduzione"
+  },
+  "normal_speed": {
+    "message": "Normale"
+  },
+  "video_page": {
+    "message": "Pagina video"
+  },
+  "video_page_elements": {
+    "message": "Elementi della pagina"
+  },
+  "hide_comments": {
+    "message": "Nascondi commenti"
+  },
+  "hide_recommended_videos": {
+    "message": "Nascondi video consigliati"
+  },
+  "hide_live_chat": {
+    "message": "Nascondi chat dal vivo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Nascondi merch e biglietti"
+  },
+  "hide_end_screen_cards": {
+    "message": "Nascondi schede finali"
+  },
+  "hide_action_buttons": {
+    "message": "Nascondi pulsanti azione"
+  },
+  "hide_like_dislike": {
+    "message": "Nascondi mi piace/non mi piace"
+  },
+  "hide_description": {
+    "message": "Nascondi descrizione"
+  },
+  "hide_ad_info_panels": {
+    "message": "Nascondi pannelli info annunci"
+  },
+  "video_description": {
+    "message": "Descrizione"
+  },
+  "hide_description_ai": {
+    "message": "Nascondi sezione IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Nascondi trascrizione"
+  },
+  "hide_description_people": {
+    "message": "Nascondi persone menzionate"
+  },
+  "hide_description_related": {
+    "message": "Nascondi video correlati"
+  },
+  "hide_description_channel": {
+    "message": "Nascondi scheda del canale"
+  },
+  "hide_how_this_was_made": {
+    "message": "Nascondi \"Come è stato realizzato\""
+  },
+  "preset_balanced": {
+    "message": "Bilanciato"
+  },
+  "preset_maximum": {
+    "message": "Massimo"
+  },
+  "preset_custom": {
+    "message": "Personalizzato"
+  },
+  "reset_preset": {
+    "message": "Reimposta preset"
+  },
+  "preset_warning_title": {
+    "message": "Modifica di un preset predefinito"
+  },
+  "preset_warning_text": {
+    "message": "Stai modificando un preset predefinito. Le modifiche vengono salvate e puoi reimpostarlo in qualsiasi momento."
+  },
+  "preset_warning_dont_show": {
+    "message": "Non mostrare più"
+  },
+  "continue_action": {
+    "message": "Continua"
+  },
+  "presets": {
+    "message": "Preset"
+  },
+  "features_hidden": {
+    "message": "{count} nascosti"
+  },
+  "preset_light": {
+    "message": "Leggero"
+  },
+  "preset_light_desc": {
+    "message": "Pulizia leggera delle parti più distraenti di YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube equilibrato e senza distrazioni."
+  },
+  "preset_maximum_desc": {
+    "message": "Pulizia massima: nasconde quasi tutto il superfluo."
+  },
+  "preset_custom_desc": {
+    "message": "La tua configurazione. Modifica ciò che vuoi."
+  },
+  "reset_action": {
+    "message": "Reimposta"
+  },
+  "reset_confirm_text": {
+    "message": "Reimpostare il preset attuale allo stato predefinito? Le tue modifiche a questo preset andranno perse."
+  },
+  "settings_label": {
+    "message": "Impostazioni"
+  },
+  "hide_description_chapters": {
+    "message": "Nascondi capitoli ed episodi"
   }
 }

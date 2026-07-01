@@ -1,5 +1,6 @@
 import { templateCategory } from 'src/shared/config/template';
 import { feedCategory } from 'src/shared/config/feed';
+import { watchCategory } from 'src/shared/config/watch';
 import { videoCategory } from 'src/shared/config/video';
 import { sidebarCategory } from 'src/shared/config/sidebar';
 import {
@@ -12,6 +13,7 @@ import { getComponentActionGroups } from 'src/shared/featureConfig/componentActi
 const categories = [
     templateCategory,
     feedCategory,
+    watchCategory,
     videoCategory,
     sidebarCategory,
 ];

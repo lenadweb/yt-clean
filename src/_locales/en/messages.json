@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "Hide \"Live\""
+  },
+  "playback_speed": {
+    "message": "Playback speed"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Video page"
+  },
+  "video_page_elements": {
+    "message": "Page elements"
+  },
+  "hide_comments": {
+    "message": "Hide comments"
+  },
+  "hide_recommended_videos": {
+    "message": "Hide recommended videos"
+  },
+  "hide_live_chat": {
+    "message": "Hide live chat"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Hide merch & tickets"
+  },
+  "hide_end_screen_cards": {
+    "message": "Hide end screen cards"
+  },
+  "hide_action_buttons": {
+    "message": "Hide action buttons"
+  },
+  "hide_like_dislike": {
+    "message": "Hide like/dislike"
+  },
+  "hide_description": {
+    "message": "Hide description"
+  },
+  "hide_ad_info_panels": {
+    "message": "Hide ad info panels"
+  },
+  "video_description": {
+    "message": "Description"
+  },
+  "hide_description_ai": {
+    "message": "Hide AI section (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Hide transcript"
+  },
+  "hide_description_people": {
+    "message": "Hide mentioned people"
+  },
+  "hide_description_related": {
+    "message": "Hide related videos"
+  },
+  "hide_description_channel": {
+    "message": "Hide channel card"
+  },
+  "hide_how_this_was_made": {
+    "message": "Hide \"How this was made\""
+  },
+  "preset_balanced": {
+    "message": "Balanced"
+  },
+  "preset_maximum": {
+    "message": "Maximum"
+  },
+  "preset_custom": {
+    "message": "Custom"
+  },
+  "reset_preset": {
+    "message": "Reset preset to default"
+  },
+  "preset_warning_title": {
+    "message": "Editing a built-in preset"
+  },
+  "preset_warning_text": {
+    "message": "You’re changing a built-in preset. Your edits are saved to it and can be reset to default anytime."
+  },
+  "preset_warning_dont_show": {
+    "message": "Don’t show this again"
+  },
+  "continue_action": {
+    "message": "Continue"
+  },
+  "presets": {
+    "message": "Presets"
+  },
+  "features_hidden": {
+    "message": "{count} hidden"
+  },
+  "preset_light": {
+    "message": "Light"
+  },
+  "preset_light_desc": {
+    "message": "Light cleanup of the most distracting parts of YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "A balanced, distraction-free YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximum cleanup — hides almost everything extra."
+  },
+  "preset_custom_desc": {
+    "message": "Your own configuration. Tweak anything you like."
+  },
+  "reset_action": {
+    "message": "Reset"
+  },
+  "reset_confirm_text": {
+    "message": "Reset the current preset to its default state? Your changes to this preset will be lost."
+  },
+  "settings_label": {
+    "message": "Settings"
+  },
+  "hide_description_chapters": {
+    "message": "Hide chapters & episodes"
   }
 }

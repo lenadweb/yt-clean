@@ -16,7 +16,7 @@ export const templateCategory = category('basic_template', [
             id: 'hideSearchTags',
             title: 'hide_search_tags',
             hide: [
-                '.ytd-feed-filter-chip-bar-renderer',
+                'ytd-feed-filter-chip-bar-renderer',
                 '#header.ytd-rich-grid-renderer',
                 'yt-related-chip-cloud-renderer',
             ],

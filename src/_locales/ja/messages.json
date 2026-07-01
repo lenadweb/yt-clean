@@ -226,5 +226,122 @@
   },
   "hide_live": {
     "message": "「ライブ」を非表示"
+  },
+  "playback_speed": {
+    "message": "再生速度"
+  },
+  "normal_speed": {
+    "message": "標準"
+  },
+  "video_page": {
+    "message": "動画ページ"
+  },
+  "video_page_elements": {
+    "message": "ページ要素"
+  },
+  "hide_comments": {
+    "message": "コメントを非表示"
+  },
+  "hide_recommended_videos": {
+    "message": "おすすめ動画を非表示"
+  },
+  "hide_live_chat": {
+    "message": "ライブチャットを非表示"
+  },
+  "hide_merch_and_tickets": {
+    "message": "グッズ・チケットを非表示"
+  },
+  "hide_end_screen_cards": {
+    "message": "終了画面カードを非表示"
+  },
+  "hide_action_buttons": {
+    "message": "操作ボタンを非表示"
+  },
+  "hide_like_dislike": {
+    "message": "高評価/低評価を非表示"
+  },
+  "hide_description": {
+    "message": "説明を非表示"
+  },
+  "hide_ad_info_panels": {
+    "message": "広告情報パネルを非表示"
+  },
+  "video_description": {
+    "message": "説明"
+  },
+  "hide_description_ai": {
+    "message": "AIセクション（Gemini）を非表示"
+  },
+  "hide_description_transcript": {
+    "message": "文字起こしを非表示"
+  },
+  "hide_description_people": {
+    "message": "言及された人物を非表示"
+  },
+  "hide_description_related": {
+    "message": "関連動画を非表示"
+  },
+  "hide_description_channel": {
+    "message": "チャンネルカードを非表示"
+  },
+  "hide_how_this_was_made": {
+    "message": "「制作方法」を非表示"
+  },
+  "preset_balanced": {
+    "message": "バランス"
+  },
+  "preset_maximum": {
+    "message": "最大"
+  },
+  "preset_custom": {
+    "message": "カスタム"
+  },
+  "reset_preset": {
+    "message": "プリセットをリセット"
+  },
+  "preset_warning_title": {
+    "message": "組み込みプリセットの編集"
+  },
+  "preset_warning_text": {
+    "message": "組み込みプリセットを変更しています。変更は保存され、いつでもデフォルトにリセットできます。"
+  },
+  "preset_warning_dont_show": {
+    "message": "今後表示しない"
+  },
+  "continue_action": {
+    "message": "続行"
+  },
+  "presets": {
+    "message": "プリセット"
+  },
+  "features_hidden": {
+    "message": "{count} 件非表示"
+  },
+  "preset_light": {
+    "message": "ライト"
+  },
+  "preset_light_desc": {
+    "message": "YouTube の最も気が散る部分を軽く整理します。"
+  },
+  "preset_balanced_desc": {
+    "message": "バランスの取れた、集中できる YouTube。"
+  },
+  "preset_maximum_desc": {
+    "message": "最大限の整理 — 余分なものをほぼすべて非表示。"
+  },
+  "preset_custom_desc": {
+    "message": "自分専用の設定。好きなように調整できます。"
+  },
+  "reset_action": {
+    "message": "リセット"
+  },
+  "reset_confirm_text": {
+    "message": "現在のプリセットを既定の状態にリセットしますか？このプリセットへの変更は失われます。"
+  },
+  "settings_label": {
+    "message": "設定"
+  },
+  "hide_description_chapters": {
+    "message": "チャプターとエピソードを非表示"
   }
 }

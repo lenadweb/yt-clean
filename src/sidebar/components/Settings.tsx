@@ -1,7 +1,10 @@
 import React, { FC } from 'react';
+import cn from 'classnames';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { CATEGORIES } from 'src/shared/featureConfig';
 import { SettingsAccordion } from 'src/sidebar/components/SettingsAccordion';
+import PresetTags from 'src/sidebar/components/PresetTags';
+import ResetPresetLink from 'src/sidebar/components/ResetPresetLink';
 import { t } from 'src/shared/utils/i18n';
 import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
@@ -22,19 +25,34 @@ const Settings: FC = () => {
         <div className="flex min-h-screen w-full flex-col rounded-2xl bg-background p-3 pt-5 text-white shadow-xl">
             <div className="mb-[26px] ml-2 flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                    <Logo className="size-8" />
+                    <Logo
+                        className={cn(
+                            'size-8 transition duration-150',
+                            !isEnabled && 'grayscale'
+                        )}
+                    />
                     <h1 className="flex items-center gap-2 text-[20px] font-medium">
                         {t('youtube_clean')}
                     </h1>
                 </div>
                 <button
                     onClick={toggleEnabled}
-                    className="flex items-center justify-center transition duration-150 focus:outline-none active:scale-95"
+                    className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95 [&_rect]:transition-colors [&_rect]:duration-150 hover:[&_rect]:fill-black-600"
                     aria-label={t('toggle_extension')}
                 >
                     {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
                 </button>
             </div>
+            <div className="mb-2 ml-1 flex items-center justify-between">
+                <span className="text-xs font-medium uppercase tracking-wide text-black-400">
+                    {t('presets')}
+                </span>
+                <ResetPresetLink />
+            </div>
+            <PresetTags />
+            <p className="mb-2 ml-1 text-xs font-medium uppercase tracking-wide text-black-400">
+                {t('settings_label')}
+            </p>
             <div className="space-y-2.5">
                 {CATEGORIES.map((category, index) => (
                     <SettingsAccordion
