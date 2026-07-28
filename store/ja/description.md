@@ -1,6 +1,8 @@
-YouTube Clean は、YouTube から雑音を取り除く「集中できる（distraction-free）」ブラウザ拡張機能です。ショートを非表示、広告をスキップ、フィードの散らかりを減らし、すっきりしたコンパクトなリストに変えます。本当に見たい動画に集中できます。
+# YouTube Clean — Shorts を非表示、広告を減らし、YouTube をカスタマイズ
 
-学習、仕事、リサーチ、長尺動画の視聴など、用途を問わず、YouTube Clean は画面に何を残し何を消すかを直接コントロールできます。各機能はオプトインで、シンプルなサイドパネルから切り替え可能。YouTube をミニマルで集中できる、distraction-free な状態にしましょう。
+YouTube Clean は Chrome と Opera 向けのオープンソース YouTube 拡張機能です。YouTube Shorts、広告、おすすめを非表示にし、フィードとサイドバーを整理して、見たい動画に集中できる YouTube を作れます。
+
+学習、仕事、リサーチ、語学学習、チュートリアル、長尺動画の視聴に活用できます。ホームフィード、検索結果、動画ページ、プレーヤー、左サイドバーに何を表示するかを選べます。すべての機能は任意で、シンプルなサイドパネルから切り替え可能です。
 
 YouTube Clean でできること:
 
@@ -36,6 +38,6 @@ YouTube Clean でできること:
 - オン／オフの切り替えで素早く実用的にカスタマイズ
 - オープンソース、軽量、プライバシー重視
 
-YouTube Clean で YouTube 体験を快適に — よりクリーンで集中できる、distraction-free な YouTube に欠かせない拡張機能です。
+YouTube Clean で、よりすっきり集中できる YouTube 体験を。自分で選んだ動画を見るための、カスタマイズ可能な拡張機能です。
 
 YouTube Clean はオープンソースです — コードの閲覧、問題の報告、機能のリクエストは GitHub で: https://github.com/lenadweb/yt-clean

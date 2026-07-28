@@ -1,6 +1,8 @@
-YouTube Clean es una extensión de navegador sin distracciones que elimina el desorden de YouTube: oculta Shorts, salta anuncios, reduce el desorden del feed y lo convierte en una lista limpia y compacta. Concéntrate en los videos que realmente viniste a ver.
+# YouTube Clean: oculta Shorts, reduce anuncios y personaliza YouTube
 
-Tanto si usas YouTube para aprender, trabajar, investigar o ver contenido largo, YouTube Clean te da control directo sobre lo que permanece en pantalla y lo que desaparece. Cada función es opcional y se activa desde un sencillo panel lateral: haz que YouTube sea minimalista, enfocado y sin distracciones.
+YouTube Clean es una extensión de YouTube de código abierto para Chrome y Opera. Oculta YouTube Shorts, reduce anuncios, elimina recomendaciones y limpia el feed y la barra lateral para crear una experiencia de YouTube sin distracciones.
+
+Usa YouTube Clean para estudiar, trabajar, investigar, aprender idiomas, ver tutoriales o contenido largo. Elige qué aparece en el inicio, los resultados de búsqueda, las páginas de vídeo, el reproductor y la barra lateral. Todas las funciones son opcionales y se controlan desde un sencillo panel lateral.
 
 Con YouTube Clean puedes:
 
@@ -36,6 +38,6 @@ Por qué los usuarios eligen YouTube Clean:
 - Personalización rápida y práctica con interruptores de activar/desactivar
 - Código abierto, ligero y respetuoso con la privacidad
 
-Optimiza tu experiencia en YouTube con YouTube Clean: la extensión esencial para un YouTube más limpio, enfocado y sin distracciones.
+Disfruta de un YouTube más limpio y concentrado con YouTube Clean: una extensión personalizable y sin distracciones para ver lo que eliges.
 
 YouTube Clean es de código abierto: consulta el código, reporta problemas o solicita funciones en GitHub: https://github.com/lenadweb/yt-clean

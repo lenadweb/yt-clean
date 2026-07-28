@@ -1,6 +1,8 @@
-YouTube Clean est une extension de navigateur sans distractions qui élimine le désordre de YouTube : masquez les Shorts, passez les pubs, réduisez l'encombrement du fil et transformez-le en une liste propre et compacte. Concentrez-vous sur les vidéos qui vous intéressent vraiment.
+# YouTube Clean : masquez les Shorts, réduisez les pubs et personnalisez YouTube
 
-Que vous utilisiez YouTube pour apprendre, travailler, faire des recherches ou regarder de longues vidéos, YouTube Clean vous donne le contrôle direct de ce qui reste à l'écran et de ce qui disparaît. Chaque fonction est optionnelle et s'active depuis un simple panneau latéral : rendez YouTube minimal, ciblé et sans distractions.
+YouTube Clean est une extension YouTube open source pour Chrome et Opera. Masquez les YouTube Shorts, réduisez les publicités, retirez les recommandations et nettoyez le fil ainsi que la barre latérale pour une expérience YouTube sans distractions.
+
+Utilisez YouTube Clean pour étudier, travailler, faire des recherches, apprendre une langue, suivre des tutoriels ou regarder des vidéos longues. Choisissez ce qui apparaît sur l'accueil, dans les résultats de recherche, sur les pages vidéo, dans le lecteur et dans la barre latérale. Chaque fonction est optionnelle et se contrôle depuis un simple panneau latéral.
 
 Avec YouTube Clean, vous pouvez :
 
@@ -36,6 +38,6 @@ Pourquoi les utilisateurs choisissent YouTube Clean :
 - Personnalisation rapide et pratique avec des interrupteurs activer/désactiver
 - Open source, léger et respectueux de la vie privée
 
-Optimisez votre expérience YouTube avec YouTube Clean : l'extension indispensable pour un YouTube plus propre, plus ciblé et sans distractions.
+Créez une expérience YouTube plus propre et plus concentrée avec YouTube Clean : une extension personnalisable et sans distractions pour regarder ce qui vous intéresse.
 
 YouTube Clean est open source — consultez le code, signalez des problèmes ou proposez des fonctionnalités sur GitHub : https://github.com/lenadweb/yt-clean

@@ -1,6 +1,8 @@
-YouTube Clean 是一款无干扰（distraction-free）的浏览器扩展，帮你清除 YouTube 的杂乱——隐藏 Shorts、跳过广告、减少信息流杂乱，并把信息流变成简洁紧凑的列表。专注于你真正想看的视频。
+# YouTube Clean：隐藏 Shorts、减少广告并自定义 YouTube
 
-无论你用 YouTube 来学习、工作、做研究还是观看长视频，YouTube Clean 都能让你直接掌控屏幕上保留什么、隐藏什么。每项功能都可选，通过简单的侧边面板开关——让 YouTube 极简、专注、无干扰。
+YouTube Clean 是适用于 Chrome 和 Opera 的开源 YouTube 扩展。隐藏 YouTube Shorts、减少广告、移除推荐内容，并整理信息流和侧边栏，打造围绕你想看视频的无干扰 YouTube 体验。
+
+可用于学习、工作、研究、语言学习、教程和长视频观看。选择在首页信息流、搜索结果、视频页、播放器和左侧边栏显示什么内容。每项功能都可选，并可通过简洁的侧边面板控制。
 
 使用 YouTube Clean，你可以：
 
@@ -36,6 +38,6 @@ YouTube Clean 是一款无干扰（distraction-free）的浏览器扩展，帮�
 - 通过开关快速、实用地自定义
 - 开源、轻量、注重隐私
 
-用 YouTube Clean 优化你的 YouTube 体验——打造更清爽、更专注、无干扰 YouTube 的必备扩展。
+使用 YouTube Clean，获得更简洁、更专注的 YouTube 体验：一款可自定义的无干扰扩展，只看你想看的内容。
 
 YouTube Clean 是开源项目——在 GitHub 查看代码、报告问题或提交功能请求：https://github.com/lenadweb/yt-clean
