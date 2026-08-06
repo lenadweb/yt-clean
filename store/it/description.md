@@ -1,43 +1,117 @@
-# YouTube Clean: nascondi Shorts, riduci gli annunci e personalizza YouTube
+# YouTube Clean — Nascondi Shorts, rimuovi consigli, focus e detox
 
-YouTube Clean è un'estensione YouTube open source per Chrome e Opera. Nascondi YouTube Shorts, riduci gli annunci, rimuovi i consigli e ripulisci feed e barra laterale per un'esperienza YouTube senza distrazioni.
+Rendi YouTube più silenzioso, più pulito e più facile da seguire con
+attenzione.
 
-Usa YouTube Clean per studiare, lavorare, fare ricerca, imparare le lingue, seguire tutorial o guardare contenuti lunghi. Scegli cosa appare nella home, nei risultati di ricerca, nelle pagine video, nel player e nella barra laterale. Ogni funzione è opzionale e si controlla da un semplice pannello laterale.
+YouTube Clean trasforma YouTube in uno spazio calmo e intenzionale che controlli
+davvero tu.
 
-Con YouTube Clean puoi:
+Rimuove ciò che ruba l'attenzione — Shorts, consigli, annunci, commenti e
+disordine dell'interfaccia — così guardi quello per cui sei venuto e poi esci.
 
-- Rimuovere le distrazioni: nascondi Shorts, mix, playlist e il disordine del feed.
-- Bloccare e saltare gli annunci automaticamente: salta automaticamente gli annunci video e nascondi banner e video sponsorizzati nel feed.
-- Modalità compatta: trasforma feed, risultati di ricerca e consigli in una vista a elenco/griglia ordinata che mostra di più sullo schermo.
-- Controllare la riproduzione: cursore della velocità per i video e un controllo della velocità dedicato agli Shorts.
-- Rimanere concentrato: riduci barra laterale, barra di ricerca e player all'essenziale.
+YouTube Clean offre oltre 60 opzioni per personalizzare completamente l'aspetto
+e il comportamento di YouTube: dal layout del feed alla pulizia dei contenuti,
+fino ai controlli del player, alla velocità di riproduzione e ai profili di
+concentrazione. Tutto è facoltativo, si applica subito e si disattiva altrettanto
+in fretta.
 
-Funzioni:
+🧩 Shorts e scroll infinito, sotto controllo
 
-- Modalità compatta: vista a elenco/griglia per feed, ricerca e consigli
-- Salta automaticamente gli annunci video
-- Nascondi banner e video sponsorizzati nel feed
-- Nascondi gli Shorts (feed e barra laterale)
-- Nascondi mix e playlist
-- Nascondi Esplora, Tendenze, Musica, Gaming, Notizie e Sport
-- Nascondi i blocchi Esplora e Notizie nel feed iniziale
-- Disattiva l'anteprima automatica al passaggio del mouse
-- Cursore della velocità per i video normali
-- Controllo della velocità e avanzamento automatico per gli Shorts
-- Nascondi o riduci la barra laterale sinistra (Tu, Cronologia, Iscrizioni, Altro da YouTube…)
-- Pulisci la barra di ricerca e l'intestazione (ricerca vocale, tastiera virtuale, carica, notifiche)
-- Pulisci i controlli del player per un layout più semplice
-- Pulizia della pagina del canale (banner, trailer)
-- Pulisci i risultati di ricerca (ricerche correlate, schede informative, scaffali del canale)
+I video brevi sono una delle più grandi trappole per l'attenzione.
 
-Perché gli utenti scelgono YouTube Clean:
+YouTube Clean nasconde gli Shorts nel feed principale, nei risultati di ricerca,
+nella barra laterale e nelle pagine dei canali, così una visita veloce non
+diventa un'ora di scroll.
 
-- YouTube minimale e senza distrazioni per concentrazione e produttività
-- Ottimo per studiare, imparare le lingue, lezioni, tutorial e lavoro intenso
-- Basta scroll infinito di Shorts: nascondili ovunque
-- Personalizzazione rapida e pratica con interruttori on/off
-- Open source, leggero e rispettoso della privacy
+Preferisci tenerli? Usa il controllo di velocità dedicato agli Shorts e
+disattiva l'avanzamento automatico: uno Short resta uno Short.
 
-Rendi YouTube più pulito e concentrato con YouTube Clean: un'estensione personalizzabile e senza distrazioni per guardare ciò che scegli.
+🧹 Un YouTube pulito, meno rumore
 
-YouTube Clean è open source: consulta il codice, segnala problemi o richiedi funzioni su GitHub: https://github.com/lenadweb/yt-clean
+Decidi tu cosa resta e cosa sparisce.
+
+Rimuovi consigli, mix e playlist, commenti, chat dal vivo, schede finali,
+sezioni merchandising e biglietti, notifiche e blocchi di tendenze quando ti
+distraggono.
+
+Riduci il rumore visivo: disattiva l'anteprima automatica al passaggio del
+mouse, nascondi banner e trailer dei canali e lascia nella descrizione solo ciò
+che leggi davvero.
+
+🚫 Meno annunci, meno interruzioni
+
+Gli annunci video vengono saltati automaticamente appena è possibile.
+
+Banner pubblicitari, video sponsorizzati nel feed e pannelli promozionali
+vengono nascosti nel feed e nella pagina del video: la navigazione resta senza
+interruzioni.
+
+🧠 Un'esperienza di concentrazione più serena
+
+YouTube Clean è uno strumento di concentrazione gentile, non un blocco
+aggressivo.
+
+Niente viene rimosso finché non lo chiedi tu, e un pannello laterale sobrio
+tiene ogni controllo a un clic: nessun account, nessuna dashboard, nessuna
+insistenza.
+
+Molti lo usano come un leggero strumento di detox digitale per YouTube:
+incentrato sul controllo, non sul divieto.
+
+⏱ Produttività e visione intenzionale
+
+Parti da un profilo pronto — Light per una pulizia leggera, Balanced per una
+configurazione concentrata — oppure costruisci il tuo, opzione dopo opzione.
+
+Cambia profilo quando passi dal lavoro al tempo libero: YouTube è uno strumento
+quando serve e si fa da parte quando non serve.
+
+📐 Layout compatto che sfrutta lo schermo
+
+La modalità compatta trasforma il feed principale, i risultati di ricerca e i
+consigli nella pagina del video in un elenco o una griglia ordinata.
+
+Meno scroll, più risultati per schermata e un layout che finalmente rispetta i
+monitor grandi.
+
+🎥 Player e riproduzione, migliorati
+
+Regola la riproduzione con un cursore di velocità direttamente nel player.
+
+Ripulisci i controlli nascondendo i pulsanti miniplayer, modalità cinema e
+sottotitoli, e disattiva l'interruttore di riproduzione automatica perché il
+video successivo non parta mai da solo.
+
+🔎 Pulizia di ricerca, intestazione e barra laterale
+
+Semplifica la barra superiore nascondendo ricerca vocale, tastiera virtuale, tag
+di ricerca, pulsante di caricamento e notifiche.
+
+Riduci la barra laterale sinistra all'essenziale — o nascondila del tutto —
+incluse le voci Tu, Cronologia, Playlist, Guarda più tardi, Video che mi
+piacciono, Iscrizioni, Esplora, Tendenze, Music, Live, Gaming, Notizie, Sport,
+Premium, YouTube Music, Kids, Studio e il footer.
+
+Pulisci anche i risultati di ricerca: ricerche correlate, schede informative e
+scaffali dei canali.
+
+🔓 Open source, leggera e rispettosa della privacy
+
+YouTube Clean è completamente open source.
+
+Nessun account, nessun tracciamento, nessuna raccolta dati: le tue impostazioni
+restano nel browser. Leggi il codice, segnala un problema o richiedi una
+funzione su GitHub.
+
+🌍 Funziona dove guardi
+
+YouTube Clean funziona su Chrome e Opera e agisce su tutto il sito: feed
+principale, ricerca, pagina del video, canali e player.
+
+YouTube si adatta a te, non il contrario.
+
+Perfetta per studiare, lavorare in profondità, fare ricerca, imparare le lingue,
+seguire lezioni, tutorial e contenuti lunghi.
+
+Codice sorgente, segnalazioni e richieste di funzionalità:
+https://github.com/lenadweb/yt-clean
