@@ -66,6 +66,7 @@ Add the `title` key to every file in `src/_locales/*/messages.json`:
 - `it`
 - `ja`
 - `pt_BR`
+- `ru`
 - `zh_CN`
 
 Example:
