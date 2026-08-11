@@ -1,5 +1,3 @@
-# YouTube Clean: blokeeri Shorts, peida soovitused ja reklaamid
-
 Blokeeri YouTube Shorts, peida soovitused, jäta reklaamid vahele ja eemalda kõik
 muu, mis tähelepanu tõmbab. YouTube Clean muudab YouTube'i rahulikuks,
 häirevabaks kohaks, mida sina juhid.

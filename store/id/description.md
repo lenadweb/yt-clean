@@ -1,5 +1,3 @@
-# YouTube Clean: blokir Shorts, sembunyikan rekomendasi dan iklan
-
 Blokir YouTube Shorts, sembunyikan rekomendasi, lewati iklan, dan hapus semua hal
 lain yang menyita perhatian. YouTube Clean mengubah YouTube menjadi ruang yang
 tenang dan bebas gangguan yang Anda kendalikan.

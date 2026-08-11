@@ -1,5 +1,3 @@
-# YouTube Clean: blokovať Shorts, skryť odporúčania a reklamy
-
 Blokujte YouTube Shorts, skryte odporúčania, preskakujte reklamy a odstráňte
 všetko ostatné, čo odvádza pozornosť. YouTube Clean premení YouTube na pokojný
 priestor bez rozptýlenia, ktorý ovládate vy.

@@ -1,5 +1,3 @@
-# YouTube Clean: Shorts blokkeren, aanbevelingen en ads verbergen
-
 Blokkeer YouTube Shorts, verberg aanbevelingen, sla advertenties over en haal
 alles weg wat je aandacht afleidt. YouTube Clean maakt van YouTube een rustige,
 afleidingsvrije plek die jij zelf beheert.

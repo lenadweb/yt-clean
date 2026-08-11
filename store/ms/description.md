@@ -1,5 +1,3 @@
-# YouTube Clean: sekat Shorts, sembunyikan cadangan dan iklan
-
 Sekat YouTube Shorts, sembunyikan cadangan, langkau iklan dan buang segala yang
 lain yang menarik perhatian anda. YouTube Clean menjadikan YouTube ruang yang
 tenang dan bebas gangguan yang anda kawal.

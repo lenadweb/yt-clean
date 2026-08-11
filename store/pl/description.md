@@ -1,5 +1,3 @@
-# YouTube Clean: blokuj Shorts, ukryj rekomendacje i reklamy
-
 Blokuj YouTube Shorts, ukrywaj rekomendacje, pomijaj reklamy i usuwaj wszystko
 inne, co odciąga uwagę. YouTube Clean zamienia YouTube w spokojną przestrzeń bez
 rozpraszaczy, którą kontrolujesz Ty.

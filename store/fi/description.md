@@ -1,5 +1,3 @@
-# YouTube Clean: estä Shorts, piilota suositukset ja mainokset
-
 Estä YouTube Shorts, piilota suositukset, ohita mainokset ja poista kaikki muu,
 mikä vie huomion. YouTube Clean tekee YouTubesta rauhallisen, häiriöttömän
 paikan, jota sinä hallitset.

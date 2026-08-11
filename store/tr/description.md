@@ -1,5 +1,3 @@
-# YouTube Clean: Shorts engelle, önerileri ve reklamları gizle
-
 YouTube Shorts'u engelleyin, önerileri gizleyin, reklamları atlayın ve dikkatinizi
 dağıtan her şeyi kaldırın. YouTube Clean, YouTube'u kendi kontrolünüzdeki sakin
 ve dikkat dağıtmayan bir alana dönüştürür.

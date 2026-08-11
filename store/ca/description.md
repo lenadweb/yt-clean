@@ -1,5 +1,3 @@
-# YouTube Clean: bloqueja Shorts, amaga recomanacions i anuncis
-
 Bloqueja els Shorts de YouTube, amaga les recomanacions, salta els anuncis i
 elimina tota la resta que et distreu. YouTube Clean converteix YouTube en un
 espai tranquil i sense distraccions que controles tu.

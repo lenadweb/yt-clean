@@ -1,5 +1,3 @@
-# YouTube Clean: Block Shorts, Hide Recommendations, Skip Ads | Focus
-
 Block YouTube Shorts, hide recommendations, skip ads and remove everything else
 that pulls your attention away. YouTube Clean turns YouTube into a calm,
 distraction free space you actually control.

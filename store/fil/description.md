@@ -1,5 +1,3 @@
-# YouTube Clean: i-block ang Shorts, itago ang rekomendasyon at ads
-
 I-block ang YouTube Shorts, itago ang mga rekomendasyon, laktawan ang mga ad, at
 alisin ang lahat ng iba pang humahatak ng atensyon mo. Ginagawa ng YouTube Clean
 ang YouTube na tahimik at walang distraction na espasyo na ikaw ang kumokontrol.

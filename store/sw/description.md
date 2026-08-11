@@ -1,5 +1,3 @@
-# YouTube Clean: zuia Shorts, ficha mapendekezo na matangazo
-
 Zuia YouTube Shorts, ficha mapendekezo, ruka matangazo na ondoa kila kitu kingine
 kinachovuta umakini wako. YouTube Clean hugeuza YouTube kuwa mahali tulivu, pasipo
 vikwazo vya umakini, unapopadhibiti wewe mwenyewe.

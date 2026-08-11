@@ -1,5 +1,3 @@
-# YouTube Clean: blokker Shorts, skjul anbefalinger og annonser
-
 Blokker YouTube Shorts, skjul anbefalinger, hopp over annonser og fjern alt annet
 som stjeler oppmerksomheten. YouTube Clean gjør YouTube til et rolig sted uten
 distraksjoner, som du selv styrer.

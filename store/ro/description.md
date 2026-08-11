@@ -1,5 +1,3 @@
-# YouTube Clean: blochează Shorts, ascunde recomandări și reclame
-
 Blochează YouTube Shorts, ascunde recomandările, sari peste reclame și elimină
 tot ce îți fură atenția. YouTube Clean transformă YouTube într-un spațiu calm,
 fără distrageri, pe care îl controlezi tu.

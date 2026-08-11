@@ -1,5 +1,3 @@
-# YouTube Clean: blokiraj Shorts, sakrij preporuke i oglase
-
 Blokirajte YouTube Shorts, sakrijte preporuke, preskočite oglase i uklonite sve
 ostalo što odvlači pozornost. YouTube Clean pretvara YouTube u miran prostor bez
 ometanja kojim upravljate vi.

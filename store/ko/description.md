@@ -1,5 +1,3 @@
-# YouTube Clean: Shorts 차단, 추천·광고 숨기기
-
 YouTube Shorts를 차단하고, 추천을 숨기고, 광고를 건너뛰고, 주의를 빼앗는 나머지
 요소를 모두 제거하세요. YouTube Clean은 YouTube를 여러분이 직접 제어하는 조용하고
 방해 없는 공간으로 바꿔줍니다.

@@ -1,5 +1,3 @@
-# YouTube Clean: Shorts blockieren, Empfehlungen & Werbung ausblenden
-
 Blockiere YouTube Shorts, blende Empfehlungen aus, überspringe Werbung und
 entferne alles andere, was dich ablenkt. YouTube Clean macht YouTube zu einem
 ruhigen, ablenkungsfreien Ort, den du selbst steuerst.

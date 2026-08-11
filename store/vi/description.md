@@ -1,5 +1,3 @@
-# YouTube Clean: chặn Shorts, ẩn đề xuất và quảng cáo
-
 Chặn YouTube Shorts, ẩn đề xuất, bỏ qua quảng cáo và loại bỏ mọi thứ khác đang
 kéo sự chú ý của bạn. YouTube Clean biến YouTube thành một không gian yên tĩnh,
 không xao nhãng mà bạn kiểm soát.

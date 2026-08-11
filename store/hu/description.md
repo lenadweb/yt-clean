@@ -1,5 +1,3 @@
-# YouTube Clean: Shorts blokkolása, ajánlások és hirdetések elrejtése
-
 Blokkold a YouTube Shortsot, rejtsd el az ajánlásokat, ugord át a hirdetéseket és
 távolíts el mindent, ami elvonja a figyelmedet. A YouTube Clean nyugodt,
 figyelemelterelés-mentes térré alakítja a YouTube-ot, amelyet te irányítasz.

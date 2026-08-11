@@ -1,5 +1,3 @@
-# YouTube Clean: 封鎖 Shorts、隱藏推薦與廣告
-
 封鎖 YouTube Shorts，隱藏推薦，自動略過廣告，並清除其他分散注意力的元素。
 YouTube Clean 把 YouTube 變成一個安靜、零干擾、由你掌控的空間。
 

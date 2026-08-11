@@ -1,5 +1,3 @@
-# YouTube Clean: 屏蔽 Shorts、隐藏推荐与广告
-
 屏蔽 YouTube Shorts，隐藏推荐，自动跳过广告，并清除其他分散注意力的元素。
 YouTube Clean 把 YouTube 变成一个安静、无干扰、由你掌控的空间。
 
