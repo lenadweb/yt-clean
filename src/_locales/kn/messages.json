@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts ನಿರ್ಬಂಧಿಸಿ, ಶಿಫಾರಸು ಮತ್ತು ಜಾಹೀರಾತು ಮರೆಮಾಡಿ"
+  },
+  "appDescription": {
+    "message": "Shorts ನಿರ್ಬಂಧಿಸಿ, ಶಿಫಾರಸುಗಳು, ಕಾಮೆಂಟ್‌ಗಳು, ಜಾಹೀರಾತು ಮರೆಮಾಡಿ. 60+ ಟಾಗಲ್‌ಗಳಿಂದ ಸ್ವಚ್ಛ YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
+  },
+  "toggle_extension": {
+    "message": "ವಿಸ್ತರಣೆ ಆನ್ ಮಾಡಿ"
+  },
+  "new": {
+    "message": "ಹೊಸದು"
+  },
+  "basic_template": {
+    "message": "ಮೂಲ ಟೆಂಪ್ಲೇಟ್"
+  },
+  "search_bar": {
+    "message": "ಹುಡುಕಾಟ ಪಟ್ಟಿ"
+  },
+  "hide_voice_search_button": {
+    "message": "ಧ್ವನಿ ಹುಡುಕಾಟ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "ವರ್ಚುವಲ್ ಕೀಬೋರ್ಡ್ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_search_tags": {
+    "message": "ಹುಡುಕಾಟ ಟ್ಯಾಗ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "actions_and_user": {
+    "message": "ಕ್ರಿಯೆಗಳು ಮತ್ತು ಪ್ರೊಫೈಲ್"
+  },
+  "hide_upload_button": {
+    "message": "ಅಪ್‌ಲೋಡ್ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_notifications": {
+    "message": "ಅಧಿಸೂಚನೆಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "feed_and_recommendations": {
+    "message": "ಫೀಡ್ ಮತ್ತು ಶಿಫಾರಸುಗಳು"
+  },
+  "content_blocks": {
+    "message": "ವಿಷಯ ಬ್ಲಾಕ್‌ಗಳು"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts ವಿಭಾಗಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_explore_and_news": {
+    "message": "ಎಕ್ಸ್‌ಪ್ಲೋರ್ ಮತ್ತು ಸುದ್ದಿ ಮರೆಮಾಡಿ"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "ಹೋವರ್‌ನಲ್ಲಿ ಸ್ವಯಂ ಪೂರ್ವವೀಕ್ಷಣೆ ಆಫ್ ಮಾಡಿ"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "ಮಿಕ್ಸ್ ಮತ್ತು ಪ್ಲೇಪಟ್ಟಿ ಮರೆಮಾಡಿ"
+  },
+  "ads": {
+    "message": "ಜಾಹೀರಾತುಗಳು"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube ಬ್ಯಾನರ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ಫೀಡ್‌ನಲ್ಲಿ ಪ್ರಾಯೋಜಿತ ವೀಡಿಯೊ ಮರೆಮಾಡಿ"
+  },
+  "video_playback_and_channel": {
+    "message": "ಪ್ಲೇಬ್ಯಾಕ್ ಮತ್ತು ಚಾನಲ್"
+  },
+  "slider_playback_speed_control": {
+    "message": "ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ ಸ್ಲೈಡರ್"
+  },
+  "player": {
+    "message": "ಪ್ಲೇಯರ್"
+  },
+  "hide_mini_size_button": {
+    "message": "ಮಿನಿ ಪ್ಲೇಯರ್ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_wide_size_button": {
+    "message": "ಥಿಯೇಟರ್ ಮೋಡ್ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_subtitles_button": {
+    "message": "ಉಪಶೀರ್ಷಿಕೆ ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ಸ್ವಯಂಪ್ಲೇ ಸ್ವಿಚ್ ಮರೆಮಾಡಿ"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "ವೇಗ ನಿಯಂತ್ರಣ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "ಮುಂದಿನದಕ್ಕೆ ಸ್ವಯಂಚಾಲಿತ ಬದಲಾವಣೆ"
+  },
+  "channel": {
+    "message": "ಚಾನಲ್"
+  },
+  "hide_channel_trailer": {
+    "message": "ಚಾನಲ್ ಟ್ರೈಲರ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_channel_banner": {
+    "message": "ಚಾನಲ್ ಬ್ಯಾನರ್ ಮರೆಮಾಡಿ"
+  },
+  "sidebar": {
+    "message": "ಸೈಡ್‌ಬಾರ್"
+  },
+  "hide_sidebar_completely": {
+    "message": "ಸೈಡ್‌ಬಾರ್ ಸಂಪೂರ್ಣವಾಗಿ ಮರೆಮಾಡಿ"
+  },
+  "main_menu": {
+    "message": "ಮುಖ್ಯ ಮೆನು"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" ಮರೆಮಾಡಿ"
+  },
+  "you": {
+    "message": "ನೀವು"
+  },
+  "hide_history": {
+    "message": "\"ಇತಿಹಾಸ\" ಮರೆಮಾಡಿ"
+  },
+  "hide_playlists": {
+    "message": "\"ಪ್ಲೇಪಟ್ಟಿಗಳು\" ಮರೆಮಾಡಿ"
+  },
+  "hide_your_video": {
+    "message": "\"ನಿಮ್ಮ ವೀಡಿಯೊಗಳು\" ಮರೆಮಾಡಿ"
+  },
+  "hide_watch_later": {
+    "message": "\"ನಂತರ ವೀಕ್ಷಿಸಿ\" ಮರೆಮಾಡಿ"
+  },
+  "hide_liked_videos": {
+    "message": "\"ಇಷ್ಟಪಟ್ಟ ವೀಡಿಯೊಗಳು\" ಮರೆಮಾಡಿ"
+  },
+  "your_movies": {
+    "message": "\"ಚಲನಚಿತ್ರಗಳು\" ಮರೆಮಾಡಿ"
+  },
+  "hide_subscriptions_list": {
+    "message": "ಚಂದಾದಾರಿಕೆ ಪಟ್ಟಿ ಮರೆಮಾಡಿ"
+  },
+  "explore": {
+    "message": "ಎಕ್ಸ್‌ಪ್ಲೋರ್"
+  },
+  "hide_trending": {
+    "message": "\"ಟ್ರೆಂಡಿಂಗ್\" ಮರೆಮಾಡಿ"
+  },
+  "hide_music": {
+    "message": "\"ಸಂಗೀತ\" ಮರೆಮಾಡಿ"
+  },
+  "hide_gaming": {
+    "message": "\"ಗೇಮಿಂಗ್\" ಮರೆಮಾಡಿ"
+  },
+  "hide_news": {
+    "message": "\"ಸುದ್ದಿ\" ಮರೆಮಾಡಿ"
+  },
+  "hide_sports": {
+    "message": "\"ಕ್ರೀಡೆ\" ಮರೆಮಾಡಿ"
+  },
+  "more_from_youtube": {
+    "message": "YouTube ನಿಂದ ಇನ್ನಷ್ಟು"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" ಮರೆಮಾಡಿ"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" ಮರೆಮಾಡಿ"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" ಮರೆಮಾಡಿ"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" ಮರೆಮಾಡಿ"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ"
+  },
+  "compact_mode": {
+    "message": "ಸಾಂದ್ರ ಮೋಡ್"
+  },
+  "hide_related_searches": {
+    "message": "ಸಂಬಂಧಿತ ಹುಡುಕಾಟ ಮರೆಮಾಡಿ"
+  },
+  "hide_search_info_card": {
+    "message": "ಹುಡುಕಾಟ ಮಾಹಿತಿ ಕಾರ್ಡ್ ಮರೆಮಾಡಿ"
+  },
+  "search": {
+    "message": "ಹುಡುಕಾಟ"
+  },
+  "hide_channel_video_shelf": {
+    "message": "ಚಾನಲ್ ವೀಡಿಯೊ ಶೆಲ್ಫ್ ಮರೆಮಾಡಿ"
+  },
+  "auto_skip_ads": {
+    "message": "ಜಾಹೀರಾತುಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬಿಟ್ಟುಬಿಡಿ"
+  },
+  "hide_footer": {
+    "message": "ಅಡಿಟಿಪ್ಪಣಿ ಮತ್ತು About ಲಿಂಕ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_my_channel": {
+    "message": "\"ನನ್ನ ಚಾನಲ್\" ಮರೆಮಾಡಿ"
+  },
+  "hide_downloads": {
+    "message": "\"ಡೌನ್‌ಲೋಡ್‌ಗಳು\" ಮರೆಮಾಡಿ"
+  },
+  "experimental": {
+    "message": "ಪ್ರಾಯೋಗಿಕ"
+  },
+  "experimental_notice": {
+    "message": "ಈ ವೈಶಿಷ್ಟ್ಯ ಪ್ರಾಯೋಗಿಕವಾಗಿದೆ ಮತ್ತು ಅಸ್ಥಿರವಾಗಿರಬಹುದು. ನಾವು ಸಕ್ರಿಯವಾಗಿ ಪರೀಕ್ಷಿಸುತ್ತಿದ್ದೇವೆ, ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡಲು ಪ್ರತಿಕ್ರಿಯೆ ನೀಡಿ."
+  },
+  "experimental_title": {
+    "message": "ಪ್ರಾಯೋಗಿಕ ವೈಶಿಷ್ಟ್ಯ"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ"
+  },
+  "enable_anyway": {
+    "message": "ಹೇಗಾದರೂ ಆನ್ ಮಾಡಿ"
+  },
+  "hide_expand_button": {
+    "message": "\"ಇನ್ನಷ್ಟು ತೋರಿಸಿ\" ಬಟನ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_live": {
+    "message": "\"ಲೈವ್\" ಮರೆಮಾಡಿ"
+  },
+  "playback_speed": {
+    "message": "ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ"
+  },
+  "normal_speed": {
+    "message": "ಸಾಮಾನ್ಯ"
+  },
+  "video_page": {
+    "message": "ವೀಡಿಯೊ ಪುಟ"
+  },
+  "video_page_elements": {
+    "message": "ಪುಟದ ಅಂಶಗಳು"
+  },
+  "hide_comments": {
+    "message": "ಕಾಮೆಂಟ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_recommended_videos": {
+    "message": "ಶಿಫಾರಸು ಮಾಡಿದ ವೀಡಿಯೊಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_live_chat": {
+    "message": "ಲೈವ್ ಚಾಟ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_merch_and_tickets": {
+    "message": "ಸರಕು ಮತ್ತು ಟಿಕೆಟ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_end_screen_cards": {
+    "message": "ಅಂತಿಮ ಪರದೆಯ ಕಾರ್ಡ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_action_buttons": {
+    "message": "ಕ್ರಿಯೆ ಬಟನ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_like_dislike": {
+    "message": "ಇಷ್ಟ/ಇಷ್ಟವಿಲ್ಲ ಮರೆಮಾಡಿ"
+  },
+  "hide_description": {
+    "message": "ವಿವರಣೆ ಮರೆಮಾಡಿ"
+  },
+  "hide_ad_info_panels": {
+    "message": "ಜಾಹೀರಾತು ಮಾಹಿತಿ ಫಲಕ ಮರೆಮಾಡಿ"
+  },
+  "video_description": {
+    "message": "ವಿವರಣೆ"
+  },
+  "hide_description_ai": {
+    "message": "AI ವಿಭಾಗ ಮರೆಮಾಡಿ (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ಪ್ರತಿಲಿಪಿ ಮರೆಮಾಡಿ"
+  },
+  "hide_description_people": {
+    "message": "ಉಲ್ಲೇಖಿಸಿದ ವ್ಯಕ್ತಿಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_description_related": {
+    "message": "ಸಂಬಂಧಿತ ವೀಡಿಯೊಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "hide_description_channel": {
+    "message": "ಚಾನಲ್ ಕಾರ್ಡ್ ಮರೆಮಾಡಿ"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"ಇದನ್ನು ಹೇಗೆ ಮಾಡಲಾಯಿತು\" ಮರೆಮಾಡಿ"
+  },
+  "preset_balanced": {
+    "message": "ಸಮತೋಲಿತ"
+  },
+  "preset_maximum": {
+    "message": "ಗರಿಷ್ಠ"
+  },
+  "preset_custom": {
+    "message": "ಕಸ್ಟಮ್"
+  },
+  "reset_preset": {
+    "message": "ಪ್ರೀಸೆಟ್ ಅನ್ನು ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರುಹೊಂದಿಸಿ"
+  },
+  "preset_warning_title": {
+    "message": "ಅಂತರ್ನಿರ್ಮಿತ ಪ್ರೀಸೆಟ್ ಸಂಪಾದನೆ"
+  },
+  "preset_warning_text": {
+    "message": "ನೀವು ಅಂತರ್ನಿರ್ಮಿತ ಪ್ರೀಸೆಟ್ ಬದಲಾಯಿಸುತ್ತಿದ್ದೀರಿ. ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಅದರಲ್ಲಿ ಉಳಿಸಲಾಗುತ್ತದೆ ಮತ್ತು ಯಾವಾಗ ಬೇಕಾದರೂ ಡೀಫಾಲ್ಟ್‌ಗೆ ಮರುಹೊಂದಿಸಬಹುದು."
+  },
+  "preset_warning_dont_show": {
+    "message": "ಇದನ್ನು ಮತ್ತೆ ತೋರಿಸಬೇಡಿ"
+  },
+  "continue_action": {
+    "message": "ಮುಂದುವರಿಸಿ"
+  },
+  "presets": {
+    "message": "ಪ್ರೀಸೆಟ್‌ಗಳು"
+  },
+  "features_hidden": {
+    "message": "{count} ಮರೆಮಾಡಲಾಗಿದೆ"
+  },
+  "preset_light": {
+    "message": "ಹಗುರ"
+  },
+  "preset_light_desc": {
+    "message": "YouTube ನ ಅತಿ ಹೆಚ್ಚು ಗಮನ ಸೆಳೆಯುವ ಭಾಗಗಳ ಹಗುರ ಸ್ವಚ್ಛತೆ."
+  },
+  "preset_balanced_desc": {
+    "message": "ಸಮತೋಲಿತ, ಗಮನ ಚದುರಿಸದ YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "ಗರಿಷ್ಠ ಸ್ವಚ್ಛತೆ: ಹೆಚ್ಚುವರಿ ಎಲ್ಲವನ್ನೂ ಬಹುತೇಕ ಮರೆಮಾಡುತ್ತದೆ."
+  },
+  "preset_custom_desc": {
+    "message": "ನಿಮ್ಮದೇ ಸಂರಚನೆ. ಬೇಕಾದದ್ದನ್ನು ಹೊಂದಿಸಿ."
+  },
+  "reset_action": {
+    "message": "ಮರುಹೊಂದಿಸಿ"
+  },
+  "reset_confirm_text": {
+    "message": "ಪ್ರಸ್ತುತ ಪ್ರೀಸೆಟ್ ಅನ್ನು ಡೀಫಾಲ್ಟ್ ಸ್ಥಿತಿಗೆ ಮರುಹೊಂದಿಸುವುದೇ? ಈ ಪ್ರೀಸೆಟ್‌ನಲ್ಲಿನ ನಿಮ್ಮ ಬದಲಾವಣೆಗಳು ಕಳೆದುಹೋಗುತ್ತವೆ."
+  },
+  "settings_label": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "hide_description_chapters": {
+    "message": "ಅಧ್ಯಾಯಗಳು ಮತ್ತು ಸಂಚಿಕೆಗಳನ್ನು ಮರೆಮಾಡಿ"
+  }
+}

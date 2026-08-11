@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts ব্লক করুন, সুপারিশ ও বিজ্ঞাপন লুকান"
+  },
+  "appDescription": {
+    "message": "Shorts ব্লক করুন, সুপারিশ, মন্তব্য ও বিজ্ঞাপন লুকান। ৬০+ টগল দিয়ে পান পরিচ্ছন্ন, মনোযোগবান্ধব YouTube।"
+  },
+  "actionTitle": {
+    "message": "YouTube সেটিংস খুলুন"
+  },
+  "toggle_extension": {
+    "message": "এক্সটেনশন চালু করুন"
+  },
+  "new": {
+    "message": "নতুন"
+  },
+  "basic_template": {
+    "message": "মৌলিক টেমপ্লেট"
+  },
+  "search_bar": {
+    "message": "সার্চ বার"
+  },
+  "hide_voice_search_button": {
+    "message": "ভয়েস সার্চ বোতাম লুকান"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "ভার্চুয়াল কীবোর্ড বোতাম লুকান"
+  },
+  "hide_search_tags": {
+    "message": "সার্চ ট্যাগ লুকান"
+  },
+  "actions_and_user": {
+    "message": "অ্যাকশন ও প্রোফাইল"
+  },
+  "hide_upload_button": {
+    "message": "আপলোড বোতাম লুকান"
+  },
+  "hide_notifications": {
+    "message": "বিজ্ঞপ্তি লুকান"
+  },
+  "feed_and_recommendations": {
+    "message": "ফিড ও সুপারিশ"
+  },
+  "content_blocks": {
+    "message": "কনটেন্ট ব্লক"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts বিভাগ লুকান"
+  },
+  "hide_explore_and_news": {
+    "message": "এক্সপ্লোর ও সংবাদ লুকান"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "হোভারে অটো-প্রিভিউ বন্ধ করুন"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "মিক্স ও প্লেলিস্ট লুকান"
+  },
+  "ads": {
+    "message": "বিজ্ঞাপন"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube ব্যানার লুকান"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ফিডে স্পনসর করা ভিডিও লুকান"
+  },
+  "video_playback_and_channel": {
+    "message": "প্লেব্যাক ও চ্যানেল"
+  },
+  "slider_playback_speed_control": {
+    "message": "প্লেব্যাক গতির স্লাইডার"
+  },
+  "player": {
+    "message": "প্লেয়ার"
+  },
+  "hide_mini_size_button": {
+    "message": "মিনি প্লেয়ার বোতাম লুকান"
+  },
+  "hide_wide_size_button": {
+    "message": "থিয়েটার মোড বোতাম লুকান"
+  },
+  "hide_subtitles_button": {
+    "message": "সাবটাইটেল বোতাম লুকান"
+  },
+  "hide_autoplay_switcher": {
+    "message": "অটোপ্লে সুইচ লুকান"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "গতি নিয়ন্ত্রণ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "পরবর্তীতে স্বয়ংক্রিয় পরিবর্তন"
+  },
+  "channel": {
+    "message": "চ্যানেল"
+  },
+  "hide_channel_trailer": {
+    "message": "চ্যানেল ট্রেলার লুকান"
+  },
+  "hide_channel_banner": {
+    "message": "চ্যানেল ব্যানার লুকান"
+  },
+  "sidebar": {
+    "message": "সাইডবার"
+  },
+  "hide_sidebar_completely": {
+    "message": "সাইডবার সম্পূর্ণ লুকান"
+  },
+  "main_menu": {
+    "message": "প্রধান মেনু"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" লুকান"
+  },
+  "you": {
+    "message": "আপনি"
+  },
+  "hide_history": {
+    "message": "\"ইতিহাস\" লুকান"
+  },
+  "hide_playlists": {
+    "message": "\"প্লেলিস্ট\" লুকান"
+  },
+  "hide_your_video": {
+    "message": "\"আপনার ভিডিও\" লুকান"
+  },
+  "hide_watch_later": {
+    "message": "\"পরে দেখুন\" লুকান"
+  },
+  "hide_liked_videos": {
+    "message": "\"পছন্দের ভিডিও\" লুকান"
+  },
+  "your_movies": {
+    "message": "\"সিনেমা\" লুকান"
+  },
+  "hide_subscriptions_list": {
+    "message": "সাবস্ক্রিপশন তালিকা লুকান"
+  },
+  "explore": {
+    "message": "এক্সপ্লোর"
+  },
+  "hide_trending": {
+    "message": "\"ট্রেন্ডিং\" লুকান"
+  },
+  "hide_music": {
+    "message": "\"সংগীত\" লুকান"
+  },
+  "hide_gaming": {
+    "message": "\"গেমিং\" লুকান"
+  },
+  "hide_news": {
+    "message": "\"সংবাদ\" লুকান"
+  },
+  "hide_sports": {
+    "message": "\"খেলাধুলা\" লুকান"
+  },
+  "more_from_youtube": {
+    "message": "YouTube থেকে আরও"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" লুকান"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" লুকান"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" লুকান"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" লুকান"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub-এ দেখুন"
+  },
+  "compact_mode": {
+    "message": "কমপ্যাক্ট মোড"
+  },
+  "hide_related_searches": {
+    "message": "সম্পর্কিত সার্চ লুকান"
+  },
+  "hide_search_info_card": {
+    "message": "সার্চ তথ্য কার্ড লুকান"
+  },
+  "search": {
+    "message": "সার্চ"
+  },
+  "hide_channel_video_shelf": {
+    "message": "চ্যানেল ভিডিও শেল্ফ লুকান"
+  },
+  "auto_skip_ads": {
+    "message": "স্বয়ংক্রিয়ভাবে বিজ্ঞাপন এড়ান"
+  },
+  "hide_footer": {
+    "message": "ফুটার ও About লিংক লুকান"
+  },
+  "hide_my_channel": {
+    "message": "\"আমার চ্যানেল\" লুকান"
+  },
+  "hide_downloads": {
+    "message": "\"ডাউনলোড\" লুকান"
+  },
+  "experimental": {
+    "message": "পরীক্ষামূলক"
+  },
+  "experimental_notice": {
+    "message": "এই বৈশিষ্ট্যটি পরীক্ষামূলক এবং অস্থিতিশীল হতে পারে। আমরা সক্রিয়ভাবে পরীক্ষা করছি, উন্নত করতে সাহায্য করতে মতামত দিন।"
+  },
+  "experimental_title": {
+    "message": "পরীক্ষামূলক বৈশিষ্ট্য"
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "enable_anyway": {
+    "message": "তবুও চালু করুন"
+  },
+  "hide_expand_button": {
+    "message": "\"আরও দেখুন\" বোতাম লুকান"
+  },
+  "hide_live": {
+    "message": "\"লাইভ\" লুকান"
+  },
+  "playback_speed": {
+    "message": "প্লেব্যাক গতি"
+  },
+  "normal_speed": {
+    "message": "স্বাভাবিক"
+  },
+  "video_page": {
+    "message": "ভিডিও পৃষ্ঠা"
+  },
+  "video_page_elements": {
+    "message": "পৃষ্ঠার উপাদান"
+  },
+  "hide_comments": {
+    "message": "মন্তব্য লুকান"
+  },
+  "hide_recommended_videos": {
+    "message": "প্রস্তাবিত ভিডিও লুকান"
+  },
+  "hide_live_chat": {
+    "message": "লাইভ চ্যাট লুকান"
+  },
+  "hide_merch_and_tickets": {
+    "message": "পণ্য ও টিকিট লুকান"
+  },
+  "hide_end_screen_cards": {
+    "message": "শেষ স্ক্রিনের কার্ড লুকান"
+  },
+  "hide_action_buttons": {
+    "message": "অ্যাকশন বোতাম লুকান"
+  },
+  "hide_like_dislike": {
+    "message": "লাইক/ডিসলাইক লুকান"
+  },
+  "hide_description": {
+    "message": "বিবরণ লুকান"
+  },
+  "hide_ad_info_panels": {
+    "message": "বিজ্ঞাপনের তথ্য প্যানেল লুকান"
+  },
+  "video_description": {
+    "message": "বিবরণ"
+  },
+  "hide_description_ai": {
+    "message": "AI বিভাগ লুকান (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ট্রান্সক্রিপ্ট লুকান"
+  },
+  "hide_description_people": {
+    "message": "উল্লিখিত ব্যক্তিদের লুকান"
+  },
+  "hide_description_related": {
+    "message": "সম্পর্কিত ভিডিও লুকান"
+  },
+  "hide_description_channel": {
+    "message": "চ্যানেল কার্ড লুকান"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"এটি কীভাবে তৈরি\" লুকান"
+  },
+  "preset_balanced": {
+    "message": "ভারসাম্যপূর্ণ"
+  },
+  "preset_maximum": {
+    "message": "সর্বোচ্চ"
+  },
+  "preset_custom": {
+    "message": "কাস্টম"
+  },
+  "reset_preset": {
+    "message": "প্রিসেট ডিফল্টে রিসেট করুন"
+  },
+  "preset_warning_title": {
+    "message": "বিল্ট-ইন প্রিসেট সম্পাদনা"
+  },
+  "preset_warning_text": {
+    "message": "আপনি একটি বিল্ট-ইন প্রিসেট পরিবর্তন করছেন। আপনার পরিবর্তন এতে সংরক্ষিত হয় এবং যেকোনো সময় ডিফল্টে ফেরানো যায়।"
+  },
+  "preset_warning_dont_show": {
+    "message": "আর দেখাবেন না"
+  },
+  "continue_action": {
+    "message": "চালিয়ে যান"
+  },
+  "presets": {
+    "message": "প্রিসেট"
+  },
+  "features_hidden": {
+    "message": "{count} লুকানো"
+  },
+  "preset_light": {
+    "message": "হালকা"
+  },
+  "preset_light_desc": {
+    "message": "YouTube-এর সবচেয়ে মনোযোগ নষ্টকারী অংশের হালকা পরিচ্ছন্নতা।"
+  },
+  "preset_balanced_desc": {
+    "message": "ভারসাম্যপূর্ণ, মনোযোগবান্ধব YouTube।"
+  },
+  "preset_maximum_desc": {
+    "message": "সর্বোচ্চ পরিচ্ছন্নতা: প্রায় সব অতিরিক্ত জিনিস লুকায়।"
+  },
+  "preset_custom_desc": {
+    "message": "আপনার নিজস্ব কনফিগারেশন। যা খুশি পরিবর্তন করুন।"
+  },
+  "reset_action": {
+    "message": "রিসেট"
+  },
+  "reset_confirm_text": {
+    "message": "বর্তমান প্রিসেট ডিফল্ট অবস্থায় রিসেট করবেন? এই প্রিসেটে আপনার পরিবর্তন হারিয়ে যাবে।"
+  },
+  "settings_label": {
+    "message": "সেটিংস"
+  },
+  "hide_description_chapters": {
+    "message": "অধ্যায় ও পর্ব লুকান"
+  }
+}

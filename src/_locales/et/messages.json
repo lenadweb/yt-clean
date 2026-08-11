@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokeeri Shorts, peida soovitused ja reklaamid"
+  },
+  "appDescription": {
+    "message": "Blokeeri Shorts, peida soovitused, kommentaarid ja reklaamid. 60+ lülitit puhta, häirevaba YouTube'i jaoks."
+  },
+  "actionTitle": {
+    "message": "Ava YouTube'i seaded"
+  },
+  "toggle_extension": {
+    "message": "Lülita laiendus sisse"
+  },
+  "new": {
+    "message": "uus"
+  },
+  "basic_template": {
+    "message": "Põhimall"
+  },
+  "search_bar": {
+    "message": "Otsinguriba"
+  },
+  "hide_voice_search_button": {
+    "message": "Peida häälotsingu nupp"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Peida virtuaalklaviatuuri nupp"
+  },
+  "hide_search_tags": {
+    "message": "Peida otsingusildid"
+  },
+  "actions_and_user": {
+    "message": "Toimingud ja profiil"
+  },
+  "hide_upload_button": {
+    "message": "Peida üleslaadimise nupp"
+  },
+  "hide_notifications": {
+    "message": "Peida teavitused"
+  },
+  "feed_and_recommendations": {
+    "message": "Voog ja soovitused"
+  },
+  "content_blocks": {
+    "message": "Sisuplokid"
+  },
+  "hide_shorts_sections": {
+    "message": "Peida Shortsi jaotised"
+  },
+  "hide_explore_and_news": {
+    "message": "Peida Avasta ja Uudised"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Lülita automaatne eelvaade välja"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Peida miksid ja esitusloendid"
+  },
+  "ads": {
+    "message": "Reklaamid"
+  },
+  "hide_youtube_banners": {
+    "message": "Peida YouTube'i bännerid"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Peida sponsoreeritud videod voos"
+  },
+  "video_playback_and_channel": {
+    "message": "Taasesitus ja kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Taasesituskiiruse liugur"
+  },
+  "player": {
+    "message": "Mängija"
+  },
+  "hide_mini_size_button": {
+    "message": "Peida minimängija nupp"
+  },
+  "hide_wide_size_button": {
+    "message": "Peida kinorežiimi nupp"
+  },
+  "hide_subtitles_button": {
+    "message": "Peida subtiitrite nupp"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Peida automaatesituse lüliti"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Kiiruse juhtimine"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automaatne liikumine järgmisele"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Peida kanali treiler"
+  },
+  "hide_channel_banner": {
+    "message": "Peida kanali bänner"
+  },
+  "sidebar": {
+    "message": "Külgriba"
+  },
+  "hide_sidebar_completely": {
+    "message": "Peida külgriba täielikult"
+  },
+  "main_menu": {
+    "message": "Peamenüü"
+  },
+  "hide_shorts": {
+    "message": "Peida „Shorts“"
+  },
+  "you": {
+    "message": "Sina"
+  },
+  "hide_history": {
+    "message": "Peida „Ajalugu“"
+  },
+  "hide_playlists": {
+    "message": "Peida „Esitusloendid“"
+  },
+  "hide_your_video": {
+    "message": "Peida „Sinu videod“"
+  },
+  "hide_watch_later": {
+    "message": "Peida „Vaata hiljem“"
+  },
+  "hide_liked_videos": {
+    "message": "Peida „Meeldinud videod“"
+  },
+  "your_movies": {
+    "message": "Peida „Filmid“"
+  },
+  "hide_subscriptions_list": {
+    "message": "Peida tellimuste loend"
+  },
+  "explore": {
+    "message": "Avasta"
+  },
+  "hide_trending": {
+    "message": "Peida „Populaarne“"
+  },
+  "hide_music": {
+    "message": "Peida „Muusika“"
+  },
+  "hide_gaming": {
+    "message": "Peida „Mängud“"
+  },
+  "hide_news": {
+    "message": "Peida „Uudised“"
+  },
+  "hide_sports": {
+    "message": "Peida „Sport“"
+  },
+  "more_from_youtube": {
+    "message": "Rohkem YouTube'ist"
+  },
+  "hide_youtube_premium": {
+    "message": "Peida „YouTube Premium“"
+  },
+  "hide_youtube_music": {
+    "message": "Peida „YouTube Music“"
+  },
+  "hide_youtube_kids": {
+    "message": "Peida „YouTube Kids“"
+  },
+  "hide_youtube_studio": {
+    "message": "Peida „YouTube Studio“"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Vaata GitHubis"
+  },
+  "compact_mode": {
+    "message": "Kompaktne režiim"
+  },
+  "hide_related_searches": {
+    "message": "Peida seotud otsingud"
+  },
+  "hide_search_info_card": {
+    "message": "Peida otsingu infokaart"
+  },
+  "search": {
+    "message": "Otsing"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Peida kanali videoriiul"
+  },
+  "auto_skip_ads": {
+    "message": "Jäta reklaamid automaatselt vahele"
+  },
+  "hide_footer": {
+    "message": "Peida jalus ja Teave lingid"
+  },
+  "hide_my_channel": {
+    "message": "Peida „Minu kanal“"
+  },
+  "hide_downloads": {
+    "message": "Peida „Allalaadimised“"
+  },
+  "experimental": {
+    "message": "eksperimentaalne"
+  },
+  "experimental_notice": {
+    "message": "See funktsioon on eksperimentaalne ja võib olla ebastabiilne. Testime seda aktiivselt, jaga tagasisidet, et aidata meil seda parandada."
+  },
+  "experimental_title": {
+    "message": "Eksperimentaalne funktsioon"
+  },
+  "cancel": {
+    "message": "Tühista"
+  },
+  "enable_anyway": {
+    "message": "Luba siiski"
+  },
+  "hide_expand_button": {
+    "message": "Peida nupp „Näita rohkem“"
+  },
+  "hide_live": {
+    "message": "Peida „Otseülekanne“"
+  },
+  "playback_speed": {
+    "message": "Taasesituskiirus"
+  },
+  "normal_speed": {
+    "message": "Tavaline"
+  },
+  "video_page": {
+    "message": "Video leht"
+  },
+  "video_page_elements": {
+    "message": "Lehe elemendid"
+  },
+  "hide_comments": {
+    "message": "Peida kommentaarid"
+  },
+  "hide_recommended_videos": {
+    "message": "Peida soovitatud videod"
+  },
+  "hide_live_chat": {
+    "message": "Peida otsevestlus"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Peida tooted ja piletid"
+  },
+  "hide_end_screen_cards": {
+    "message": "Peida lõpuekraani kaardid"
+  },
+  "hide_action_buttons": {
+    "message": "Peida tegevusnupud"
+  },
+  "hide_like_dislike": {
+    "message": "Peida meeldimised"
+  },
+  "hide_description": {
+    "message": "Peida kirjeldus"
+  },
+  "hide_ad_info_panels": {
+    "message": "Peida reklaami infopaneelid"
+  },
+  "video_description": {
+    "message": "Kirjeldus"
+  },
+  "hide_description_ai": {
+    "message": "Peida TI jaotis (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Peida transkriptsioon"
+  },
+  "hide_description_people": {
+    "message": "Peida mainitud inimesed"
+  },
+  "hide_description_related": {
+    "message": "Peida seotud videod"
+  },
+  "hide_description_channel": {
+    "message": "Peida kanali kaart"
+  },
+  "hide_how_this_was_made": {
+    "message": "Peida „Kuidas see tehti“"
+  },
+  "preset_balanced": {
+    "message": "Tasakaalustatud"
+  },
+  "preset_maximum": {
+    "message": "Maksimaalne"
+  },
+  "preset_custom": {
+    "message": "Kohandatud"
+  },
+  "reset_preset": {
+    "message": "Lähtesta eelseadistus vaikeväärtusele"
+  },
+  "preset_warning_title": {
+    "message": "Sisseehitatud eelseadistuse muutmine"
+  },
+  "preset_warning_text": {
+    "message": "Muudad sisseehitatud eelseadistust. Sinu muudatused salvestatakse sinna ja neid saab igal ajal vaikeväärtusele lähtestada."
+  },
+  "preset_warning_dont_show": {
+    "message": "Ära näita seda uuesti"
+  },
+  "continue_action": {
+    "message": "Jätka"
+  },
+  "presets": {
+    "message": "Eelseadistused"
+  },
+  "features_hidden": {
+    "message": "{count} peidetud"
+  },
+  "preset_light": {
+    "message": "Kerge"
+  },
+  "preset_light_desc": {
+    "message": "YouTube'i kõige häirivamate osade kerge puhastus."
+  },
+  "preset_balanced_desc": {
+    "message": "Tasakaalustatud, häirevaba YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimaalne puhastus: peidab peaaegu kõik üleliigse."
+  },
+  "preset_custom_desc": {
+    "message": "Sinu enda seadistus. Kohanda mida iganes soovid."
+  },
+  "reset_action": {
+    "message": "Lähtesta"
+  },
+  "reset_confirm_text": {
+    "message": "Kas lähtestada praegune eelseadistus vaikeolekusse? Sinu muudatused selles lähevad kaotsi."
+  },
+  "settings_label": {
+    "message": "Seaded"
+  },
+  "hide_description_chapters": {
+    "message": "Peida peatükid ja osad"
+  }
+}

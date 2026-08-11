@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts blokkolása, ajánlások és hirdetések elrejtése"
+  },
+  "appDescription": {
+    "message": "Blokkold a Shortsot, rejtsd el az ajánlásokat, kommenteket és hirdetéseket. 60+ kapcsoló a tiszta YouTube-hoz."
+  },
+  "actionTitle": {
+    "message": "YouTube-beállítások megnyitása"
+  },
+  "toggle_extension": {
+    "message": "Bővítmény be- és kikapcsolása"
+  },
+  "new": {
+    "message": "új"
+  },
+  "basic_template": {
+    "message": "Alapsablon"
+  },
+  "search_bar": {
+    "message": "Keresősáv"
+  },
+  "hide_voice_search_button": {
+    "message": "Hangalapú keresés gomb elrejtése"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Virtuális billentyűzet gomb elrejtése"
+  },
+  "hide_search_tags": {
+    "message": "Keresési címkék elrejtése"
+  },
+  "actions_and_user": {
+    "message": "Műveletek és profil"
+  },
+  "hide_upload_button": {
+    "message": "Feltöltés gomb elrejtése"
+  },
+  "hide_notifications": {
+    "message": "Értesítések elrejtése"
+  },
+  "feed_and_recommendations": {
+    "message": "Hírfolyam és ajánlások"
+  },
+  "content_blocks": {
+    "message": "Tartalmi blokkok"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts szakaszok elrejtése"
+  },
+  "hide_explore_and_news": {
+    "message": "Felfedezés és Hírek elrejtése"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Automatikus előnézet kikapcsolása"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Mixek és lejátszási listák elrejtése"
+  },
+  "ads": {
+    "message": "Hirdetések"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube-bannerek elrejtése"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Szponzorált videók elrejtése"
+  },
+  "video_playback_and_channel": {
+    "message": "Lejátszás és csatorna"
+  },
+  "slider_playback_speed_control": {
+    "message": "Lejátszási sebesség csúszka"
+  },
+  "player": {
+    "message": "Lejátszó"
+  },
+  "hide_mini_size_button": {
+    "message": "Minilejátszó gomb elrejtése"
+  },
+  "hide_wide_size_button": {
+    "message": "Mozi mód gomb elrejtése"
+  },
+  "hide_subtitles_button": {
+    "message": "Felirat gomb elrejtése"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Automatikus lejátszás kapcsoló elrejtése"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Sebességszabályzó"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatikus váltás a következőre"
+  },
+  "channel": {
+    "message": "Csatorna"
+  },
+  "hide_channel_trailer": {
+    "message": "Csatorna előzetes elrejtése"
+  },
+  "hide_channel_banner": {
+    "message": "Csatorna banner elrejtése"
+  },
+  "sidebar": {
+    "message": "Oldalsáv"
+  },
+  "hide_sidebar_completely": {
+    "message": "Oldalsáv teljes elrejtése"
+  },
+  "main_menu": {
+    "message": "Főmenü"
+  },
+  "hide_shorts": {
+    "message": "„Shorts” elrejtése"
+  },
+  "you": {
+    "message": "Te"
+  },
+  "hide_history": {
+    "message": "„Előzmények” elrejtése"
+  },
+  "hide_playlists": {
+    "message": "„Lejátszási listák” elrejtése"
+  },
+  "hide_your_video": {
+    "message": "„Videóid” elrejtése"
+  },
+  "hide_watch_later": {
+    "message": "„Későbbre” elrejtése"
+  },
+  "hide_liked_videos": {
+    "message": "„Kedvelt videók” elrejtése"
+  },
+  "your_movies": {
+    "message": "„Filmek” elrejtése"
+  },
+  "hide_subscriptions_list": {
+    "message": "Feliratkozások listájának elrejtése"
+  },
+  "explore": {
+    "message": "Felfedezés"
+  },
+  "hide_trending": {
+    "message": "„Népszerű” elrejtése"
+  },
+  "hide_music": {
+    "message": "„Zene” elrejtése"
+  },
+  "hide_gaming": {
+    "message": "„Játék” elrejtése"
+  },
+  "hide_news": {
+    "message": "„Hírek” elrejtése"
+  },
+  "hide_sports": {
+    "message": "„Sport” elrejtése"
+  },
+  "more_from_youtube": {
+    "message": "További YouTube-szolgáltatások"
+  },
+  "hide_youtube_premium": {
+    "message": "„YouTube Premium” elrejtése"
+  },
+  "hide_youtube_music": {
+    "message": "„YouTube Music” elrejtése"
+  },
+  "hide_youtube_kids": {
+    "message": "„YouTube Kids” elrejtése"
+  },
+  "hide_youtube_studio": {
+    "message": "„YouTube Studio” elrejtése"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Megtekintés a GitHubon"
+  },
+  "compact_mode": {
+    "message": "Kompakt mód"
+  },
+  "hide_related_searches": {
+    "message": "Kapcsolódó keresések elrejtése"
+  },
+  "hide_search_info_card": {
+    "message": "Keresési infókártya elrejtése"
+  },
+  "search": {
+    "message": "Keresés"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Csatorna videópolc elrejtése"
+  },
+  "auto_skip_ads": {
+    "message": "Hirdetések automatikus átugrása"
+  },
+  "hide_footer": {
+    "message": "Lábléc és Névjegy hivatkozások elrejtése"
+  },
+  "hide_my_channel": {
+    "message": "„Saját csatorna” elrejtése"
+  },
+  "hide_downloads": {
+    "message": "„Letöltések” elrejtése"
+  },
+  "experimental": {
+    "message": "kísérleti"
+  },
+  "experimental_notice": {
+    "message": "Ez a funkció kísérleti és instabil lehet. Aktívan teszteljük, oszd meg a visszajelzésedet, hogy segíts jobbá tenni."
+  },
+  "experimental_title": {
+    "message": "Kísérleti funkció"
+  },
+  "cancel": {
+    "message": "Mégse"
+  },
+  "enable_anyway": {
+    "message": "Bekapcsolás mindenképp"
+  },
+  "hide_expand_button": {
+    "message": "„Több megjelenítése” gomb elrejtése"
+  },
+  "hide_live": {
+    "message": "„Élő” elrejtése"
+  },
+  "playback_speed": {
+    "message": "Lejátszási sebesség"
+  },
+  "normal_speed": {
+    "message": "Normál"
+  },
+  "video_page": {
+    "message": "Videóoldal"
+  },
+  "video_page_elements": {
+    "message": "Oldalelemek"
+  },
+  "hide_comments": {
+    "message": "Kommentek elrejtése"
+  },
+  "hide_recommended_videos": {
+    "message": "Ajánlott videók elrejtése"
+  },
+  "hide_live_chat": {
+    "message": "Élő chat elrejtése"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Termékek és jegyek elrejtése"
+  },
+  "hide_end_screen_cards": {
+    "message": "Záróképernyő kártyák elrejtése"
+  },
+  "hide_action_buttons": {
+    "message": "Műveleti gombok elrejtése"
+  },
+  "hide_like_dislike": {
+    "message": "Tetszik/nem tetszik elrejtése"
+  },
+  "hide_description": {
+    "message": "Leírás elrejtése"
+  },
+  "hide_ad_info_panels": {
+    "message": "Hirdetési infópanelek elrejtése"
+  },
+  "video_description": {
+    "message": "Leírás"
+  },
+  "hide_description_ai": {
+    "message": "MI-szakasz elrejtése (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Átirat elrejtése"
+  },
+  "hide_description_people": {
+    "message": "Említett személyek elrejtése"
+  },
+  "hide_description_related": {
+    "message": "Kapcsolódó videók elrejtése"
+  },
+  "hide_description_channel": {
+    "message": "Csatornakártya elrejtése"
+  },
+  "hide_how_this_was_made": {
+    "message": "„Hogyan készült” elrejtése"
+  },
+  "preset_balanced": {
+    "message": "Kiegyensúlyozott"
+  },
+  "preset_maximum": {
+    "message": "Maximális"
+  },
+  "preset_custom": {
+    "message": "Egyéni"
+  },
+  "reset_preset": {
+    "message": "Előbeállítás visszaállítása"
+  },
+  "preset_warning_title": {
+    "message": "Beépített előbeállítás szerkesztése"
+  },
+  "preset_warning_text": {
+    "message": "Beépített előbeállítást módosítasz. A módosítások mentésre kerülnek, és bármikor visszaállíthatók az alapértelmezettre."
+  },
+  "preset_warning_dont_show": {
+    "message": "Ne jelenjen meg többé"
+  },
+  "continue_action": {
+    "message": "Folytatás"
+  },
+  "presets": {
+    "message": "Előbeállítások"
+  },
+  "features_hidden": {
+    "message": "{count} elrejtve"
+  },
+  "preset_light": {
+    "message": "Könnyű"
+  },
+  "preset_light_desc": {
+    "message": "A YouTube legzavaróbb részeinek könnyű tisztítása."
+  },
+  "preset_balanced_desc": {
+    "message": "Kiegyensúlyozott, zavaró elemektől mentes YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximális tisztítás: szinte minden felesleget elrejt."
+  },
+  "preset_custom_desc": {
+    "message": "A saját konfigurációd. Állíts be bármit."
+  },
+  "reset_action": {
+    "message": "Visszaállítás"
+  },
+  "reset_confirm_text": {
+    "message": "Visszaállítod a jelenlegi előbeállítást az alapértelmezettre? A módosításaid elvesznek."
+  },
+  "settings_label": {
+    "message": "Beállítások"
+  },
+  "hide_description_chapters": {
+    "message": "Fejezetek és epizódok elrejtése"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: блокирај Shorts, сакриј препоруке и рекламе"
+  },
+  "appDescription": {
+    "message": "Блокирајте Shorts, сакријте препоруке, коментаре и рекламе. Преко 60 прекидача за чист YouTube без ометања."
+  },
+  "actionTitle": {
+    "message": "Отвори подешавања YouTube-а"
+  },
+  "toggle_extension": {
+    "message": "Укључи додатак"
+  },
+  "new": {
+    "message": "ново"
+  },
+  "basic_template": {
+    "message": "Основни шаблон"
+  },
+  "search_bar": {
+    "message": "Трака за претрагу"
+  },
+  "hide_voice_search_button": {
+    "message": "Сакриј дугме за гласовну претрагу"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Сакриј дугме виртуелне тастатуре"
+  },
+  "hide_search_tags": {
+    "message": "Сакриј ознаке претраге"
+  },
+  "actions_and_user": {
+    "message": "Радње и профил"
+  },
+  "hide_upload_button": {
+    "message": "Сакриј дугме за отпремање"
+  },
+  "hide_notifications": {
+    "message": "Сакриј обавештења"
+  },
+  "feed_and_recommendations": {
+    "message": "Фид и препоруке"
+  },
+  "content_blocks": {
+    "message": "Блокови садржаја"
+  },
+  "hide_shorts_sections": {
+    "message": "Сакриј Shorts одељке"
+  },
+  "hide_explore_and_news": {
+    "message": "Сакриј Истражи и Вести"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Искључи аутоматски преглед при преласку"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Сакриј миксеве и плејлисте"
+  },
+  "ads": {
+    "message": "Рекламе"
+  },
+  "hide_youtube_banners": {
+    "message": "Сакриј YouTube банере"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Сакриј спонзорисане видео снимке"
+  },
+  "video_playback_and_channel": {
+    "message": "Репродукција и канал"
+  },
+  "slider_playback_speed_control": {
+    "message": "Клизач брзине репродукције"
+  },
+  "player": {
+    "message": "Плејер"
+  },
+  "hide_mini_size_button": {
+    "message": "Сакриј дугме мини плејера"
+  },
+  "hide_wide_size_button": {
+    "message": "Сакриј дугме биоскопског режима"
+  },
+  "hide_subtitles_button": {
+    "message": "Сакриј дугме титлова"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Сакриј прекидач аутоматске репродукције"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Контрола брзине"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Аутоматски прелаз на следећи"
+  },
+  "channel": {
+    "message": "Канал"
+  },
+  "hide_channel_trailer": {
+    "message": "Сакриј најаву канала"
+  },
+  "hide_channel_banner": {
+    "message": "Сакриј банер канала"
+  },
+  "sidebar": {
+    "message": "Бочна трака"
+  },
+  "hide_sidebar_completely": {
+    "message": "Потпуно сакриј бочну траку"
+  },
+  "main_menu": {
+    "message": "Главни мени"
+  },
+  "hide_shorts": {
+    "message": "Сакриј „Shorts“"
+  },
+  "you": {
+    "message": "Ви"
+  },
+  "hide_history": {
+    "message": "Сакриј „Историја“"
+  },
+  "hide_playlists": {
+    "message": "Сакриј „Плејлисте“"
+  },
+  "hide_your_video": {
+    "message": "Сакриј „Ваши видео снимци“"
+  },
+  "hide_watch_later": {
+    "message": "Сакриј „Погледај касније“"
+  },
+  "hide_liked_videos": {
+    "message": "Сакриј „Видео снимци који ми се свиђају“"
+  },
+  "your_movies": {
+    "message": "Сакриј „Филмови“"
+  },
+  "hide_subscriptions_list": {
+    "message": "Сакриј листу претплата"
+  },
+  "explore": {
+    "message": "Истражи"
+  },
+  "hide_trending": {
+    "message": "Сакриј „У тренду“"
+  },
+  "hide_music": {
+    "message": "Сакриј „Музика“"
+  },
+  "hide_gaming": {
+    "message": "Сакриј „Игре“"
+  },
+  "hide_news": {
+    "message": "Сакриј „Вести“"
+  },
+  "hide_sports": {
+    "message": "Сакриј „Спорт“"
+  },
+  "more_from_youtube": {
+    "message": "Још са YouTube-а"
+  },
+  "hide_youtube_premium": {
+    "message": "Сакриј „YouTube Premium“"
+  },
+  "hide_youtube_music": {
+    "message": "Сакриј „YouTube Music“"
+  },
+  "hide_youtube_kids": {
+    "message": "Сакриј „YouTube Kids“"
+  },
+  "hide_youtube_studio": {
+    "message": "Сакриј „YouTube Studio“"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Погледај на GitHub-у"
+  },
+  "compact_mode": {
+    "message": "Компактни режим"
+  },
+  "hide_related_searches": {
+    "message": "Сакриј сродне претраге"
+  },
+  "hide_search_info_card": {
+    "message": "Сакриј информативну картицу"
+  },
+  "search": {
+    "message": "Претрага"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Сакриј полицу видео снимака канала"
+  },
+  "auto_skip_ads": {
+    "message": "Аутоматски прескочи рекламе"
+  },
+  "hide_footer": {
+    "message": "Сакриј подножје и линкове О нама"
+  },
+  "hide_my_channel": {
+    "message": "Сакриј „Мој канал“"
+  },
+  "hide_downloads": {
+    "message": "Сакриј „Преузимања“"
+  },
+  "experimental": {
+    "message": "експериментално"
+  },
+  "experimental_notice": {
+    "message": "Ова функција је експериментална и може бити нестабилна. Активно је тестирамо, поделите повратне информације да нам помогнете да је побољшамо."
+  },
+  "experimental_title": {
+    "message": "Експериментална функција"
+  },
+  "cancel": {
+    "message": "Откажи"
+  },
+  "enable_anyway": {
+    "message": "Ипак укључи"
+  },
+  "hide_expand_button": {
+    "message": "Сакриј дугме „Прикажи више“"
+  },
+  "hide_live": {
+    "message": "Сакриј „Уживо“"
+  },
+  "playback_speed": {
+    "message": "Брзина репродукције"
+  },
+  "normal_speed": {
+    "message": "Нормална"
+  },
+  "video_page": {
+    "message": "Страница видео снимка"
+  },
+  "video_page_elements": {
+    "message": "Елементи странице"
+  },
+  "hide_comments": {
+    "message": "Сакриј коментаре"
+  },
+  "hide_recommended_videos": {
+    "message": "Сакриј препоручене видео снимке"
+  },
+  "hide_live_chat": {
+    "message": "Сакриј ћаскање уживо"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Сакриј производе и карте"
+  },
+  "hide_end_screen_cards": {
+    "message": "Сакриј картице на крају"
+  },
+  "hide_action_buttons": {
+    "message": "Сакриј дугмад за радње"
+  },
+  "hide_like_dislike": {
+    "message": "Сакриј свиђања"
+  },
+  "hide_description": {
+    "message": "Сакриј опис"
+  },
+  "hide_ad_info_panels": {
+    "message": "Сакриј рекламне информативне панеле"
+  },
+  "video_description": {
+    "message": "Опис"
+  },
+  "hide_description_ai": {
+    "message": "Сакриј ВИ одељак (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Сакриј транскрипт"
+  },
+  "hide_description_people": {
+    "message": "Сакриј поменуте особе"
+  },
+  "hide_description_related": {
+    "message": "Сакриј сродне видео снимке"
+  },
+  "hide_description_channel": {
+    "message": "Сакриј картицу канала"
+  },
+  "hide_how_this_was_made": {
+    "message": "Сакриј „Како је ово настало“"
+  },
+  "preset_balanced": {
+    "message": "Уравнотежен"
+  },
+  "preset_maximum": {
+    "message": "Максималан"
+  },
+  "preset_custom": {
+    "message": "Прилагођен"
+  },
+  "reset_preset": {
+    "message": "Врати профил на подразумевано"
+  },
+  "preset_warning_title": {
+    "message": "Уређивање уграђеног профила"
+  },
+  "preset_warning_text": {
+    "message": "Мењате уграђени профил. Ваше измене се чувају у њему и увек се могу вратити на подразумеване вредности."
+  },
+  "preset_warning_dont_show": {
+    "message": "Не приказуј ово поново"
+  },
+  "continue_action": {
+    "message": "Настави"
+  },
+  "presets": {
+    "message": "Профили"
+  },
+  "features_hidden": {
+    "message": "{count} сакривено"
+  },
+  "preset_light": {
+    "message": "Лаган"
+  },
+  "preset_light_desc": {
+    "message": "Лагано чишћење најометајућих делова YouTube-а."
+  },
+  "preset_balanced_desc": {
+    "message": "Уравнотежен YouTube без ометања."
+  },
+  "preset_maximum_desc": {
+    "message": "Максимално чишћење: сакрива готово све сувишно."
+  },
+  "preset_custom_desc": {
+    "message": "Ваша сопствена конфигурација. Подесите шта год желите."
+  },
+  "reset_action": {
+    "message": "Ресетуј"
+  },
+  "reset_confirm_text": {
+    "message": "Вратити тренутни профил на подразумевано стање? Ваше измене у овом профилу биће изгубљене."
+  },
+  "settings_label": {
+    "message": "Подешавања"
+  },
+  "hide_description_chapters": {
+    "message": "Сакриј поглавља и епизоде"
+  }
+}

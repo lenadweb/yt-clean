@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: حظر Shorts وإخفاء التوصيات والإعلانات"
+  },
+  "appDescription": {
+    "message": "احظر Shorts وأخفِ التوصيات والتعليقات والإعلانات. أكثر من 60 مفتاحًا ليوتيوب نظيف وخالٍ من التشتيت."
+  },
+  "actionTitle": {
+    "message": "فتح إعدادات YouTube"
+  },
+  "toggle_extension": {
+    "message": "تشغيل الإضافة"
+  },
+  "new": {
+    "message": "جديد"
+  },
+  "basic_template": {
+    "message": "القالب الأساسي"
+  },
+  "search_bar": {
+    "message": "شريط البحث"
+  },
+  "hide_voice_search_button": {
+    "message": "إخفاء زر البحث الصوتي"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "إخفاء زر لوحة المفاتيح الافتراضية"
+  },
+  "hide_search_tags": {
+    "message": "إخفاء وسوم البحث"
+  },
+  "actions_and_user": {
+    "message": "الإجراءات والملف الشخصي"
+  },
+  "hide_upload_button": {
+    "message": "إخفاء زر الرفع"
+  },
+  "hide_notifications": {
+    "message": "إخفاء الإشعارات"
+  },
+  "feed_and_recommendations": {
+    "message": "الخلاصة والتوصيات"
+  },
+  "content_blocks": {
+    "message": "كتل المحتوى"
+  },
+  "hide_shorts_sections": {
+    "message": "إخفاء أقسام Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "إخفاء استكشاف والأخبار"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "إيقاف المعاينة التلقائية عند التمرير"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "إخفاء المزيج وقوائم التشغيل"
+  },
+  "ads": {
+    "message": "الإعلانات"
+  },
+  "hide_youtube_banners": {
+    "message": "إخفاء لافتات YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "إخفاء الفيديوهات المموّلة في الخلاصة"
+  },
+  "video_playback_and_channel": {
+    "message": "التشغيل والقناة"
+  },
+  "slider_playback_speed_control": {
+    "message": "شريط تمرير سرعة التشغيل"
+  },
+  "player": {
+    "message": "المشغّل"
+  },
+  "hide_mini_size_button": {
+    "message": "إخفاء زر المشغّل المصغّر"
+  },
+  "hide_wide_size_button": {
+    "message": "إخفاء زر وضع المسرح"
+  },
+  "hide_subtitles_button": {
+    "message": "إخفاء زر الترجمة"
+  },
+  "hide_autoplay_switcher": {
+    "message": "إخفاء مفتاح التشغيل التلقائي"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "التحكم في السرعة"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "الانتقال التلقائي إلى التالي"
+  },
+  "channel": {
+    "message": "القناة"
+  },
+  "hide_channel_trailer": {
+    "message": "إخفاء مقدّمة القناة"
+  },
+  "hide_channel_banner": {
+    "message": "إخفاء لافتة القناة"
+  },
+  "sidebar": {
+    "message": "الشريط الجانبي"
+  },
+  "hide_sidebar_completely": {
+    "message": "إخفاء الشريط الجانبي بالكامل"
+  },
+  "main_menu": {
+    "message": "القائمة الرئيسية"
+  },
+  "hide_shorts": {
+    "message": "إخفاء \"Shorts\""
+  },
+  "you": {
+    "message": "أنت"
+  },
+  "hide_history": {
+    "message": "إخفاء \"السجل\""
+  },
+  "hide_playlists": {
+    "message": "إخفاء \"قوائم التشغيل\""
+  },
+  "hide_your_video": {
+    "message": "إخفاء \"فيديوهاتك\""
+  },
+  "hide_watch_later": {
+    "message": "إخفاء \"المشاهدة لاحقًا\""
+  },
+  "hide_liked_videos": {
+    "message": "إخفاء \"الفيديوهات المُعجب بها\""
+  },
+  "your_movies": {
+    "message": "إخفاء \"الأفلام\""
+  },
+  "hide_subscriptions_list": {
+    "message": "إخفاء قائمة الاشتراكات"
+  },
+  "explore": {
+    "message": "استكشاف"
+  },
+  "hide_trending": {
+    "message": "إخفاء \"الأكثر رواجًا\""
+  },
+  "hide_music": {
+    "message": "إخفاء \"الموسيقى\""
+  },
+  "hide_gaming": {
+    "message": "إخفاء \"الألعاب\""
+  },
+  "hide_news": {
+    "message": "إخفاء \"الأخبار\""
+  },
+  "hide_sports": {
+    "message": "إخفاء \"الرياضة\""
+  },
+  "more_from_youtube": {
+    "message": "المزيد من YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "إخفاء \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "إخفاء \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "إخفاء \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "إخفاء \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "عرض على GitHub"
+  },
+  "compact_mode": {
+    "message": "الوضع المضغوط"
+  },
+  "hide_related_searches": {
+    "message": "إخفاء عمليات البحث ذات الصلة"
+  },
+  "hide_search_info_card": {
+    "message": "إخفاء بطاقة معلومات البحث"
+  },
+  "search": {
+    "message": "البحث"
+  },
+  "hide_channel_video_shelf": {
+    "message": "إخفاء رف فيديوهات القناة"
+  },
+  "auto_skip_ads": {
+    "message": "تخطي الإعلانات تلقائيًا"
+  },
+  "hide_footer": {
+    "message": "إخفاء التذييل وروابط حول"
+  },
+  "hide_my_channel": {
+    "message": "إخفاء \"قناتي\""
+  },
+  "hide_downloads": {
+    "message": "إخفاء \"التنزيلات\""
+  },
+  "experimental": {
+    "message": "تجريبي"
+  },
+  "experimental_notice": {
+    "message": "هذه الميزة تجريبية وقد تكون غير مستقرة. نختبرها بنشاط، شاركنا ملاحظاتك لمساعدتنا على تحسينها."
+  },
+  "experimental_title": {
+    "message": "ميزة تجريبية"
+  },
+  "cancel": {
+    "message": "إلغاء"
+  },
+  "enable_anyway": {
+    "message": "التفعيل على أي حال"
+  },
+  "hide_expand_button": {
+    "message": "إخفاء زر \"عرض المزيد\""
+  },
+  "hide_live": {
+    "message": "إخفاء \"البث المباشر\""
+  },
+  "playback_speed": {
+    "message": "سرعة التشغيل"
+  },
+  "normal_speed": {
+    "message": "عادي"
+  },
+  "video_page": {
+    "message": "صفحة الفيديو"
+  },
+  "video_page_elements": {
+    "message": "عناصر الصفحة"
+  },
+  "hide_comments": {
+    "message": "إخفاء التعليقات"
+  },
+  "hide_recommended_videos": {
+    "message": "إخفاء الفيديوهات المقترحة"
+  },
+  "hide_live_chat": {
+    "message": "إخفاء الدردشة المباشرة"
+  },
+  "hide_merch_and_tickets": {
+    "message": "إخفاء المنتجات والتذاكر"
+  },
+  "hide_end_screen_cards": {
+    "message": "إخفاء بطاقات شاشة النهاية"
+  },
+  "hide_action_buttons": {
+    "message": "إخفاء أزرار الإجراءات"
+  },
+  "hide_like_dislike": {
+    "message": "إخفاء الإعجاب وعدم الإعجاب"
+  },
+  "hide_description": {
+    "message": "إخفاء الوصف"
+  },
+  "hide_ad_info_panels": {
+    "message": "إخفاء لوحات معلومات الإعلانات"
+  },
+  "video_description": {
+    "message": "الوصف"
+  },
+  "hide_description_ai": {
+    "message": "إخفاء قسم الذكاء الاصطناعي (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "إخفاء النص المكتوب"
+  },
+  "hide_description_people": {
+    "message": "إخفاء الأشخاص المذكورين"
+  },
+  "hide_description_related": {
+    "message": "إخفاء الفيديوهات ذات الصلة"
+  },
+  "hide_description_channel": {
+    "message": "إخفاء بطاقة القناة"
+  },
+  "hide_how_this_was_made": {
+    "message": "إخفاء \"كيف صُنع هذا\""
+  },
+  "preset_balanced": {
+    "message": "متوازن"
+  },
+  "preset_maximum": {
+    "message": "أقصى"
+  },
+  "preset_custom": {
+    "message": "مخصص"
+  },
+  "reset_preset": {
+    "message": "إعادة تعيين الإعداد المسبق"
+  },
+  "preset_warning_title": {
+    "message": "تعديل إعداد مسبق مدمج"
+  },
+  "preset_warning_text": {
+    "message": "أنت تغيّر إعدادًا مسبقًا مدمجًا. تُحفظ تعديلاتك فيه ويمكن إعادته إلى الوضع الافتراضي في أي وقت."
+  },
+  "preset_warning_dont_show": {
+    "message": "عدم إظهار هذا مرة أخرى"
+  },
+  "continue_action": {
+    "message": "متابعة"
+  },
+  "presets": {
+    "message": "الإعدادات المسبقة"
+  },
+  "features_hidden": {
+    "message": "{count} مخفي"
+  },
+  "preset_light": {
+    "message": "خفيف"
+  },
+  "preset_light_desc": {
+    "message": "تنظيف خفيف لأكثر أجزاء YouTube تشتيتًا."
+  },
+  "preset_balanced_desc": {
+    "message": "يوتيوب متوازن وخالٍ من التشتيت."
+  },
+  "preset_maximum_desc": {
+    "message": "تنظيف أقصى: يخفي كل شيء زائد تقريبًا."
+  },
+  "preset_custom_desc": {
+    "message": "إعدادك الخاص. عدّل ما تشاء."
+  },
+  "reset_action": {
+    "message": "إعادة تعيين"
+  },
+  "reset_confirm_text": {
+    "message": "إعادة تعيين الإعداد المسبق الحالي إلى حالته الافتراضية؟ ستفقد تغييراتك عليه."
+  },
+  "settings_label": {
+    "message": "الإعدادات"
+  },
+  "hide_description_chapters": {
+    "message": "إخفاء الفصول والحلقات"
+  }
+}

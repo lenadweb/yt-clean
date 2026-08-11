@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts አግድ፣ ምክረ ሃሳቦችን እና ማስታወቂያዎችን ደብቅ"
+  },
+  "appDescription": {
+    "message": "Shorts ያግዱ፣ ምክረ ሃሳቦችን፣ አስተያየቶችን እና ማስታወቂያዎችን ይደብቁ። ከ60+ ማብሪያዎች ጋር ንጹህ YouTube።"
+  },
+  "actionTitle": {
+    "message": "የYouTube ቅንብሮችን ክፈት"
+  },
+  "toggle_extension": {
+    "message": "ቅጥያውን አብራ"
+  },
+  "new": {
+    "message": "አዲስ"
+  },
+  "basic_template": {
+    "message": "መሠረታዊ አብነት"
+  },
+  "search_bar": {
+    "message": "የፍለጋ አሞሌ"
+  },
+  "hide_voice_search_button": {
+    "message": "የድምፅ ፍለጋ አዝራርን ደብቅ"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "የምናባዊ ቁልፍ ሰሌዳ አዝራርን ደብቅ"
+  },
+  "hide_search_tags": {
+    "message": "የፍለጋ መለያዎችን ደብቅ"
+  },
+  "actions_and_user": {
+    "message": "ድርጊቶች እና መገለጫ"
+  },
+  "hide_upload_button": {
+    "message": "የመስቀያ አዝራርን ደብቅ"
+  },
+  "hide_notifications": {
+    "message": "ማሳወቂያዎችን ደብቅ"
+  },
+  "feed_and_recommendations": {
+    "message": "ምግብ እና ምክረ ሃሳቦች"
+  },
+  "content_blocks": {
+    "message": "የይዘት ብሎኮች"
+  },
+  "hide_shorts_sections": {
+    "message": "የShorts ክፍሎችን ደብቅ"
+  },
+  "hide_explore_and_news": {
+    "message": "አስስ እና ዜናን ደብቅ"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "በማንዣበብ ራስ-ቅድመ እይታን አጥፋ"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "ቅይጦችን እና የአጫዋች ዝርዝሮችን ደብቅ"
+  },
+  "ads": {
+    "message": "ማስታወቂያዎች"
+  },
+  "hide_youtube_banners": {
+    "message": "የYouTube ባነሮችን ደብቅ"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "በምግብ ውስጥ የስፖንሰር ቪዲዮዎችን ደብቅ"
+  },
+  "video_playback_and_channel": {
+    "message": "አጫወት እና ቻናል"
+  },
+  "slider_playback_speed_control": {
+    "message": "የአጫወት ፍጥነት ተንሸራታች"
+  },
+  "player": {
+    "message": "አጫዋች"
+  },
+  "hide_mini_size_button": {
+    "message": "የትንሽ አጫዋች አዝራርን ደብቅ"
+  },
+  "hide_wide_size_button": {
+    "message": "የቲያትር ሁነታ አዝራርን ደብቅ"
+  },
+  "hide_subtitles_button": {
+    "message": "የትርጉም ጽሑፍ አዝራርን ደብቅ"
+  },
+  "hide_autoplay_switcher": {
+    "message": "የራስ-አጫወት መቀየሪያን ደብቅ"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "የፍጥነት መቆጣጠሪያ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "ወደ ቀጣዩ በራስ-ሰር መቀየር"
+  },
+  "channel": {
+    "message": "ቻናል"
+  },
+  "hide_channel_trailer": {
+    "message": "የቻናል ቅድመ ዕይታን ደብቅ"
+  },
+  "hide_channel_banner": {
+    "message": "የቻናል ባነርን ደብቅ"
+  },
+  "sidebar": {
+    "message": "የጎን አሞሌ"
+  },
+  "hide_sidebar_completely": {
+    "message": "የጎን አሞሌን ሙሉ በሙሉ ደብቅ"
+  },
+  "main_menu": {
+    "message": "ዋና ምናሌ"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" ደብቅ"
+  },
+  "you": {
+    "message": "እርስዎ"
+  },
+  "hide_history": {
+    "message": "\"ታሪክ\" ደብቅ"
+  },
+  "hide_playlists": {
+    "message": "\"የአጫዋች ዝርዝሮች\" ደብቅ"
+  },
+  "hide_your_video": {
+    "message": "\"የእርስዎ ቪዲዮዎች\" ደብቅ"
+  },
+  "hide_watch_later": {
+    "message": "\"በኋላ ይመልከቱ\" ደብቅ"
+  },
+  "hide_liked_videos": {
+    "message": "\"የወደዷቸው ቪዲዮዎች\" ደብቅ"
+  },
+  "your_movies": {
+    "message": "\"ፊልሞች\" ደብቅ"
+  },
+  "hide_subscriptions_list": {
+    "message": "የምዝገባ ዝርዝርን ደብቅ"
+  },
+  "explore": {
+    "message": "አስስ"
+  },
+  "hide_trending": {
+    "message": "\"በመታየት ላይ\" ደብቅ"
+  },
+  "hide_music": {
+    "message": "\"ሙዚቃ\" ደብቅ"
+  },
+  "hide_gaming": {
+    "message": "\"ጨዋታ\" ደብቅ"
+  },
+  "hide_news": {
+    "message": "\"ዜና\" ደብቅ"
+  },
+  "hide_sports": {
+    "message": "\"ስፖርት\" ደብቅ"
+  },
+  "more_from_youtube": {
+    "message": "ተጨማሪ ከYouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" ደብቅ"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" ደብቅ"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" ደብቅ"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" ደብቅ"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "በGitHub ላይ ይመልከቱ"
+  },
+  "compact_mode": {
+    "message": "የተጨመቀ ሁነታ"
+  },
+  "hide_related_searches": {
+    "message": "ተዛማጅ ፍለጋዎችን ደብቅ"
+  },
+  "hide_search_info_card": {
+    "message": "የፍለጋ መረጃ ካርድን ደብቅ"
+  },
+  "search": {
+    "message": "ፍለጋ"
+  },
+  "hide_channel_video_shelf": {
+    "message": "የቻናል ቪዲዮ መደርደሪያን ደብቅ"
+  },
+  "auto_skip_ads": {
+    "message": "ማስታወቂያዎችን በራስ-ሰር ዝለል"
+  },
+  "hide_footer": {
+    "message": "የግርጌ ማስታወሻ እና About አገናኞችን ደብቅ"
+  },
+  "hide_my_channel": {
+    "message": "\"የእኔ ቻናል\" ደብቅ"
+  },
+  "hide_downloads": {
+    "message": "\"ውርዶች\" ደብቅ"
+  },
+  "experimental": {
+    "message": "የሙከራ"
+  },
+  "experimental_notice": {
+    "message": "ይህ ባህሪ የሙከራ ነው እና ያልተረጋጋ ሊሆን ይችላል። በንቃት እየሞከርነው ነው፣ እንድናሻሽለው ለመርዳት አስተያየትዎን ያካፍሉ።"
+  },
+  "experimental_title": {
+    "message": "የሙከራ ባህሪ"
+  },
+  "cancel": {
+    "message": "ሰርዝ"
+  },
+  "enable_anyway": {
+    "message": "ለማንኛውም አንቃ"
+  },
+  "hide_expand_button": {
+    "message": "\"ተጨማሪ አሳይ\" አዝራርን ደብቅ"
+  },
+  "hide_live": {
+    "message": "\"ቀጥታ\" ደብቅ"
+  },
+  "playback_speed": {
+    "message": "የአጫወት ፍጥነት"
+  },
+  "normal_speed": {
+    "message": "መደበኛ"
+  },
+  "video_page": {
+    "message": "የቪዲዮ ገጽ"
+  },
+  "video_page_elements": {
+    "message": "የገጽ አካላት"
+  },
+  "hide_comments": {
+    "message": "አስተያየቶችን ደብቅ"
+  },
+  "hide_recommended_videos": {
+    "message": "የሚመከሩ ቪዲዮዎችን ደብቅ"
+  },
+  "hide_live_chat": {
+    "message": "የቀጥታ ውይይትን ደብቅ"
+  },
+  "hide_merch_and_tickets": {
+    "message": "ሸቀጦችን እና ቲኬቶችን ደብቅ"
+  },
+  "hide_end_screen_cards": {
+    "message": "የመጨረሻ ማያ ካርዶችን ደብቅ"
+  },
+  "hide_action_buttons": {
+    "message": "የድርጊት አዝራሮችን ደብቅ"
+  },
+  "hide_like_dislike": {
+    "message": "ወደድኩ/አልወደድኩም ደብቅ"
+  },
+  "hide_description": {
+    "message": "መግለጫን ደብቅ"
+  },
+  "hide_ad_info_panels": {
+    "message": "የማስታወቂያ መረጃ ፓነሎችን ደብቅ"
+  },
+  "video_description": {
+    "message": "መግለጫ"
+  },
+  "hide_description_ai": {
+    "message": "የAI ክፍልን ደብቅ (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ግልባጭን ደብቅ"
+  },
+  "hide_description_people": {
+    "message": "የተጠቀሱ ሰዎችን ደብቅ"
+  },
+  "hide_description_related": {
+    "message": "ተዛማጅ ቪዲዮዎችን ደብቅ"
+  },
+  "hide_description_channel": {
+    "message": "የቻናል ካርድን ደብቅ"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"ይህ እንዴት እንደተሰራ\" ደብቅ"
+  },
+  "preset_balanced": {
+    "message": "ሚዛናዊ"
+  },
+  "preset_maximum": {
+    "message": "ከፍተኛ"
+  },
+  "preset_custom": {
+    "message": "ብጁ"
+  },
+  "reset_preset": {
+    "message": "ቅድመ-ቅምጡን ወደ ነባሪ ዳግም አስጀምር"
+  },
+  "preset_warning_title": {
+    "message": "አብሮ የተሰራ ቅድመ-ቅምጥ ማረም"
+  },
+  "preset_warning_text": {
+    "message": "አብሮ የተሰራ ቅድመ-ቅምጥ እየቀየሩ ነው። ለውጦችዎ በእሱ ውስጥ ይቀመጣሉ እና በማንኛውም ጊዜ ወደ ነባሪ መመለስ ይችላሉ።"
+  },
+  "preset_warning_dont_show": {
+    "message": "ይህን እንደገና አታሳይ"
+  },
+  "continue_action": {
+    "message": "ቀጥል"
+  },
+  "presets": {
+    "message": "ቅድመ-ቅምጦች"
+  },
+  "features_hidden": {
+    "message": "{count} ተደብቀዋል"
+  },
+  "preset_light": {
+    "message": "ቀላል"
+  },
+  "preset_light_desc": {
+    "message": "የYouTube በጣም አስተኩሮ የሚሰርቁ ክፍሎችን ቀላል ጽዳት።"
+  },
+  "preset_balanced_desc": {
+    "message": "ሚዛናዊ እና ትኩረት የማይሰርቅ YouTube።"
+  },
+  "preset_maximum_desc": {
+    "message": "ከፍተኛ ጽዳት፡ ተጨማሪውን ሁሉ ማለት ይቻላል ይደብቃል።"
+  },
+  "preset_custom_desc": {
+    "message": "የራስዎ ውቅር። የፈለጉትን ያስተካክሉ።"
+  },
+  "reset_action": {
+    "message": "ዳግም አስጀምር"
+  },
+  "reset_confirm_text": {
+    "message": "አሁን ያለውን ቅድመ-ቅምጥ ወደ ነባሪ ሁኔታ ዳግም ማስጀመር? በዚህ ቅድመ-ቅምጥ ውስጥ ያደረጓቸው ለውጦች ይጠፋሉ።"
+  },
+  "settings_label": {
+    "message": "ቅንብሮች"
+  },
+  "hide_description_chapters": {
+    "message": "ምዕራፎችን እና ክፍሎችን ደብቅ"
+  }
+}

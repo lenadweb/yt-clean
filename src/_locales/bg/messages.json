@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: блокиране на Shorts, скриване на препоръки и реклами"
+  },
+  "appDescription": {
+    "message": "Блокирайте Shorts, скрийте препоръки, коментари и реклами. 60+ превключвателя за чист YouTube без разсейване."
+  },
+  "actionTitle": {
+    "message": "Отваряне на настройките на YouTube"
+  },
+  "toggle_extension": {
+    "message": "Включване на разширението"
+  },
+  "new": {
+    "message": "ново"
+  },
+  "basic_template": {
+    "message": "Основен шаблон"
+  },
+  "search_bar": {
+    "message": "Лента за търсене"
+  },
+  "hide_voice_search_button": {
+    "message": "Скриване на бутона за гласово търсене"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Скриване на бутона за виртуална клавиатура"
+  },
+  "hide_search_tags": {
+    "message": "Скриване на етикетите за търсене"
+  },
+  "actions_and_user": {
+    "message": "Действия и профил"
+  },
+  "hide_upload_button": {
+    "message": "Скриване на бутона за качване"
+  },
+  "hide_notifications": {
+    "message": "Скриване на известията"
+  },
+  "feed_and_recommendations": {
+    "message": "Емисия и препоръки"
+  },
+  "content_blocks": {
+    "message": "Блокове със съдържание"
+  },
+  "hide_shorts_sections": {
+    "message": "Скриване на секциите Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Скриване на Разглеждане и Новини"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Изключване на автоматичния преглед"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Скриване на миксове и плейлисти"
+  },
+  "ads": {
+    "message": "Реклами"
+  },
+  "hide_youtube_banners": {
+    "message": "Скриване на банерите на YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Скриване на спонсорирани видеа"
+  },
+  "video_playback_and_channel": {
+    "message": "Възпроизвеждане и канал"
+  },
+  "slider_playback_speed_control": {
+    "message": "Плъзгач за скорост на възпроизвеждане"
+  },
+  "player": {
+    "message": "Плейър"
+  },
+  "hide_mini_size_button": {
+    "message": "Скриване на бутона за мини плейър"
+  },
+  "hide_wide_size_button": {
+    "message": "Скриване на бутона за широк екран"
+  },
+  "hide_subtitles_button": {
+    "message": "Скриване на бутона за субтитри"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Скриване на превключвателя за авт. възпроизвеждане"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Контрол на скоростта"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Автоматично преминаване към следващото"
+  },
+  "channel": {
+    "message": "Канал"
+  },
+  "hide_channel_trailer": {
+    "message": "Скриване на трейлъра на канала"
+  },
+  "hide_channel_banner": {
+    "message": "Скриване на банера на канала"
+  },
+  "sidebar": {
+    "message": "Странична лента"
+  },
+  "hide_sidebar_completely": {
+    "message": "Пълно скриване на страничната лента"
+  },
+  "main_menu": {
+    "message": "Главно меню"
+  },
+  "hide_shorts": {
+    "message": "Скриване на „Shorts“"
+  },
+  "you": {
+    "message": "Вие"
+  },
+  "hide_history": {
+    "message": "Скриване на „История“"
+  },
+  "hide_playlists": {
+    "message": "Скриване на „Плейлисти“"
+  },
+  "hide_your_video": {
+    "message": "Скриване на „Вашите видеа“"
+  },
+  "hide_watch_later": {
+    "message": "Скриване на „Гледане по-късно“"
+  },
+  "hide_liked_videos": {
+    "message": "Скриване на „Харесани видеа“"
+  },
+  "your_movies": {
+    "message": "Скриване на „Филми“"
+  },
+  "hide_subscriptions_list": {
+    "message": "Скриване на списъка с абонаменти"
+  },
+  "explore": {
+    "message": "Разглеждане"
+  },
+  "hide_trending": {
+    "message": "Скриване на „Популярни“"
+  },
+  "hide_music": {
+    "message": "Скриване на „Музика“"
+  },
+  "hide_gaming": {
+    "message": "Скриване на „Игри“"
+  },
+  "hide_news": {
+    "message": "Скриване на „Новини“"
+  },
+  "hide_sports": {
+    "message": "Скриване на „Спорт“"
+  },
+  "more_from_youtube": {
+    "message": "Още от YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Скриване на „YouTube Premium“"
+  },
+  "hide_youtube_music": {
+    "message": "Скриване на „YouTube Music“"
+  },
+  "hide_youtube_kids": {
+    "message": "Скриване на „YouTube Kids“"
+  },
+  "hide_youtube_studio": {
+    "message": "Скриване на „YouTube Studio“"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Вижте в GitHub"
+  },
+  "compact_mode": {
+    "message": "Компактен режим"
+  },
+  "hide_related_searches": {
+    "message": "Скриване на свързаните търсения"
+  },
+  "hide_search_info_card": {
+    "message": "Скриване на информационната карта"
+  },
+  "search": {
+    "message": "Търсене"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Скриване на видео рафта на канала"
+  },
+  "auto_skip_ads": {
+    "message": "Автоматично пропускане на реклами"
+  },
+  "hide_footer": {
+    "message": "Скриване на долния колонтитул и връзките"
+  },
+  "hide_my_channel": {
+    "message": "Скриване на „Моят канал“"
+  },
+  "hide_downloads": {
+    "message": "Скриване на „Изтегляния“"
+  },
+  "experimental": {
+    "message": "експериментално"
+  },
+  "experimental_notice": {
+    "message": "Тази функция е експериментална и може да е нестабилна. Активно я тестваме, споделете отзив, за да ни помогнете да я подобрим."
+  },
+  "experimental_title": {
+    "message": "Експериментална функция"
+  },
+  "cancel": {
+    "message": "Отказ"
+  },
+  "enable_anyway": {
+    "message": "Включване въпреки това"
+  },
+  "hide_expand_button": {
+    "message": "Скриване на бутона „Показване на още“"
+  },
+  "hide_live": {
+    "message": "Скриване на „На живо“"
+  },
+  "playback_speed": {
+    "message": "Скорост на възпроизвеждане"
+  },
+  "normal_speed": {
+    "message": "Нормална"
+  },
+  "video_page": {
+    "message": "Страница на видеото"
+  },
+  "video_page_elements": {
+    "message": "Елементи на страницата"
+  },
+  "hide_comments": {
+    "message": "Скриване на коментарите"
+  },
+  "hide_recommended_videos": {
+    "message": "Скриване на препоръчаните видеа"
+  },
+  "hide_live_chat": {
+    "message": "Скриване на чата на живо"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Скриване на стоки и билети"
+  },
+  "hide_end_screen_cards": {
+    "message": "Скриване на финалните карти"
+  },
+  "hide_action_buttons": {
+    "message": "Скриване на бутоните за действие"
+  },
+  "hide_like_dislike": {
+    "message": "Скриване на харесванията"
+  },
+  "hide_description": {
+    "message": "Скриване на описанието"
+  },
+  "hide_ad_info_panels": {
+    "message": "Скриване на рекламните панели"
+  },
+  "video_description": {
+    "message": "Описание"
+  },
+  "hide_description_ai": {
+    "message": "Скриване на секцията с ИИ (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Скриване на транскрипцията"
+  },
+  "hide_description_people": {
+    "message": "Скриване на споменатите хора"
+  },
+  "hide_description_related": {
+    "message": "Скриване на свързаните видеа"
+  },
+  "hide_description_channel": {
+    "message": "Скриване на картата на канала"
+  },
+  "hide_how_this_was_made": {
+    "message": "Скриване на „Как е създадено“"
+  },
+  "preset_balanced": {
+    "message": "Балансиран"
+  },
+  "preset_maximum": {
+    "message": "Максимален"
+  },
+  "preset_custom": {
+    "message": "Персонализиран"
+  },
+  "reset_preset": {
+    "message": "Връщане на пресета по подразбиране"
+  },
+  "preset_warning_title": {
+    "message": "Редактиране на вграден пресет"
+  },
+  "preset_warning_text": {
+    "message": "Променяте вграден пресет. Промените ви се запазват в него и винаги могат да бъдат върнати към стойностите по подразбиране."
+  },
+  "preset_warning_dont_show": {
+    "message": "Да не се показва отново"
+  },
+  "continue_action": {
+    "message": "Продължаване"
+  },
+  "presets": {
+    "message": "Пресети"
+  },
+  "features_hidden": {
+    "message": "{count} скрити"
+  },
+  "preset_light": {
+    "message": "Лек"
+  },
+  "preset_light_desc": {
+    "message": "Леко почистване на най-разсейващите части на YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Балансиран YouTube без разсейване."
+  },
+  "preset_maximum_desc": {
+    "message": "Максимално почистване: скрива почти всичко излишно."
+  },
+  "preset_custom_desc": {
+    "message": "Вашата собствена конфигурация. Настройте каквото желаете."
+  },
+  "reset_action": {
+    "message": "Нулиране"
+  },
+  "reset_confirm_text": {
+    "message": "Да се върне ли текущият пресет към състоянието по подразбиране? Промените ви ще бъдат загубени."
+  },
+  "settings_label": {
+    "message": "Настройки"
+  },
+  "hide_description_chapters": {
+    "message": "Скриване на глави и епизоди"
+  }
+}

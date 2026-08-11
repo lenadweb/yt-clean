@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: บล็อก Shorts ซ่อนวิดีโอแนะนำและโฆษณา"
+  },
+  "appDescription": {
+    "message": "บล็อก Shorts ซ่อนวิดีโอแนะนำ ความคิดเห็น และโฆษณา สวิตช์กว่า 60 รายการเพื่อ YouTube ที่สะอาดและไม่วอกแวก"
+  },
+  "actionTitle": {
+    "message": "เปิดการตั้งค่า YouTube"
+  },
+  "toggle_extension": {
+    "message": "เปิดส่วนขยาย"
+  },
+  "new": {
+    "message": "ใหม่"
+  },
+  "basic_template": {
+    "message": "เทมเพลตพื้นฐาน"
+  },
+  "search_bar": {
+    "message": "แถบค้นหา"
+  },
+  "hide_voice_search_button": {
+    "message": "ซ่อนปุ่มค้นหาด้วยเสียง"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "ซ่อนปุ่มแป้นพิมพ์เสมือน"
+  },
+  "hide_search_tags": {
+    "message": "ซ่อนแท็กการค้นหา"
+  },
+  "actions_and_user": {
+    "message": "การกระทำและโปรไฟล์"
+  },
+  "hide_upload_button": {
+    "message": "ซ่อนปุ่มอัปโหลด"
+  },
+  "hide_notifications": {
+    "message": "ซ่อนการแจ้งเตือน"
+  },
+  "feed_and_recommendations": {
+    "message": "ฟีดและวิดีโอแนะนำ"
+  },
+  "content_blocks": {
+    "message": "บล็อกเนื้อหา"
+  },
+  "hide_shorts_sections": {
+    "message": "ซ่อนส่วน Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "ซ่อนสำรวจและข่าว"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "ปิดการแสดงตัวอย่างอัตโนมัติเมื่อชี้เมาส์"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "ซ่อนมิกซ์และเพลย์ลิสต์"
+  },
+  "ads": {
+    "message": "โฆษณา"
+  },
+  "hide_youtube_banners": {
+    "message": "ซ่อนแบนเนอร์ YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ซ่อนวิดีโอสปอนเซอร์ในฟีด"
+  },
+  "video_playback_and_channel": {
+    "message": "การเล่นและช่อง"
+  },
+  "slider_playback_speed_control": {
+    "message": "แถบเลื่อนความเร็วการเล่น"
+  },
+  "player": {
+    "message": "โปรแกรมเล่น"
+  },
+  "hide_mini_size_button": {
+    "message": "ซ่อนปุ่มมินิเพลเยอร์"
+  },
+  "hide_wide_size_button": {
+    "message": "ซ่อนปุ่มโหมดโรงภาพยนตร์"
+  },
+  "hide_subtitles_button": {
+    "message": "ซ่อนปุ่มคำบรรยาย"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ซ่อนสวิตช์เล่นอัตโนมัติ"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "ควบคุมความเร็ว"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "เปลี่ยนไปรายการถัดไปอัตโนมัติ"
+  },
+  "channel": {
+    "message": "ช่อง"
+  },
+  "hide_channel_trailer": {
+    "message": "ซ่อนตัวอย่างช่อง"
+  },
+  "hide_channel_banner": {
+    "message": "ซ่อนแบนเนอร์ช่อง"
+  },
+  "sidebar": {
+    "message": "แถบด้านข้าง"
+  },
+  "hide_sidebar_completely": {
+    "message": "ซ่อนแถบด้านข้างทั้งหมด"
+  },
+  "main_menu": {
+    "message": "เมนูหลัก"
+  },
+  "hide_shorts": {
+    "message": "ซ่อน \"Shorts\""
+  },
+  "you": {
+    "message": "คุณ"
+  },
+  "hide_history": {
+    "message": "ซ่อน \"ประวัติการดู\""
+  },
+  "hide_playlists": {
+    "message": "ซ่อน \"เพลย์ลิสต์\""
+  },
+  "hide_your_video": {
+    "message": "ซ่อน \"วิดีโอของคุณ\""
+  },
+  "hide_watch_later": {
+    "message": "ซ่อน \"ดูภายหลัง\""
+  },
+  "hide_liked_videos": {
+    "message": "ซ่อน \"วิดีโอที่ชอบ\""
+  },
+  "your_movies": {
+    "message": "ซ่อน \"ภาพยนตร์\""
+  },
+  "hide_subscriptions_list": {
+    "message": "ซ่อนรายการช่องที่ติดตาม"
+  },
+  "explore": {
+    "message": "สำรวจ"
+  },
+  "hide_trending": {
+    "message": "ซ่อน \"มาแรง\""
+  },
+  "hide_music": {
+    "message": "ซ่อน \"เพลง\""
+  },
+  "hide_gaming": {
+    "message": "ซ่อน \"เกม\""
+  },
+  "hide_news": {
+    "message": "ซ่อน \"ข่าว\""
+  },
+  "hide_sports": {
+    "message": "ซ่อน \"กีฬา\""
+  },
+  "more_from_youtube": {
+    "message": "เพิ่มเติมจาก YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "ซ่อน \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "ซ่อน \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "ซ่อน \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "ซ่อน \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "ดูบน GitHub"
+  },
+  "compact_mode": {
+    "message": "โหมดกะทัดรัด"
+  },
+  "hide_related_searches": {
+    "message": "ซ่อนการค้นหาที่เกี่ยวข้อง"
+  },
+  "hide_search_info_card": {
+    "message": "ซ่อนการ์ดข้อมูลในการค้นหา"
+  },
+  "search": {
+    "message": "ค้นหา"
+  },
+  "hide_channel_video_shelf": {
+    "message": "ซ่อนชั้นวิดีโอของช่อง"
+  },
+  "auto_skip_ads": {
+    "message": "ข้ามโฆษณาอัตโนมัติ"
+  },
+  "hide_footer": {
+    "message": "ซ่อนส่วนท้ายและลิงก์เกี่ยวกับ"
+  },
+  "hide_my_channel": {
+    "message": "ซ่อน \"ช่องของฉัน\""
+  },
+  "hide_downloads": {
+    "message": "ซ่อน \"ดาวน์โหลด\""
+  },
+  "experimental": {
+    "message": "ทดลอง"
+  },
+  "experimental_notice": {
+    "message": "ฟีเจอร์นี้อยู่ในขั้นทดลองและอาจไม่เสถียร เรากำลังทดสอบอย่างจริงจัง ส่งความคิดเห็นเพื่อช่วยเราปรับปรุง"
+  },
+  "experimental_title": {
+    "message": "ฟีเจอร์ทดลอง"
+  },
+  "cancel": {
+    "message": "ยกเลิก"
+  },
+  "enable_anyway": {
+    "message": "เปิดใช้งานต่อไป"
+  },
+  "hide_expand_button": {
+    "message": "ซ่อนปุ่ม \"แสดงเพิ่มเติม\""
+  },
+  "hide_live": {
+    "message": "ซ่อน \"สด\""
+  },
+  "playback_speed": {
+    "message": "ความเร็วในการเล่น"
+  },
+  "normal_speed": {
+    "message": "ปกติ"
+  },
+  "video_page": {
+    "message": "หน้าวิดีโอ"
+  },
+  "video_page_elements": {
+    "message": "องค์ประกอบหน้า"
+  },
+  "hide_comments": {
+    "message": "ซ่อนความคิดเห็น"
+  },
+  "hide_recommended_videos": {
+    "message": "ซ่อนวิดีโอแนะนำ"
+  },
+  "hide_live_chat": {
+    "message": "ซ่อนแชทสด"
+  },
+  "hide_merch_and_tickets": {
+    "message": "ซ่อนสินค้าและบัตร"
+  },
+  "hide_end_screen_cards": {
+    "message": "ซ่อนการ์ดหน้าจอปิดท้าย"
+  },
+  "hide_action_buttons": {
+    "message": "ซ่อนปุ่มการกระทำ"
+  },
+  "hide_like_dislike": {
+    "message": "ซ่อนชอบ/ไม่ชอบ"
+  },
+  "hide_description": {
+    "message": "ซ่อนคำอธิบาย"
+  },
+  "hide_ad_info_panels": {
+    "message": "ซ่อนแผงข้อมูลโฆษณา"
+  },
+  "video_description": {
+    "message": "คำอธิบาย"
+  },
+  "hide_description_ai": {
+    "message": "ซ่อนส่วน AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ซ่อนสคริปต์ถอดเสียง"
+  },
+  "hide_description_people": {
+    "message": "ซ่อนบุคคลที่กล่าวถึง"
+  },
+  "hide_description_related": {
+    "message": "ซ่อนวิดีโอที่เกี่ยวข้อง"
+  },
+  "hide_description_channel": {
+    "message": "ซ่อนการ์ดช่อง"
+  },
+  "hide_how_this_was_made": {
+    "message": "ซ่อน \"สร้างขึ้นอย่างไร\""
+  },
+  "preset_balanced": {
+    "message": "สมดุล"
+  },
+  "preset_maximum": {
+    "message": "สูงสุด"
+  },
+  "preset_custom": {
+    "message": "กำหนดเอง"
+  },
+  "reset_preset": {
+    "message": "รีเซ็ตพรีเซ็ตเป็นค่าเริ่มต้น"
+  },
+  "preset_warning_title": {
+    "message": "กำลังแก้ไขพรีเซ็ตในตัว"
+  },
+  "preset_warning_text": {
+    "message": "คุณกำลังเปลี่ยนพรีเซ็ตในตัว การแก้ไขจะถูกบันทึกไว้และสามารถรีเซ็ตกลับเป็นค่าเริ่มต้นได้ทุกเมื่อ"
+  },
+  "preset_warning_dont_show": {
+    "message": "ไม่ต้องแสดงอีก"
+  },
+  "continue_action": {
+    "message": "ดำเนินการต่อ"
+  },
+  "presets": {
+    "message": "พรีเซ็ต"
+  },
+  "features_hidden": {
+    "message": "ซ่อนแล้ว {count} รายการ"
+  },
+  "preset_light": {
+    "message": "เบา"
+  },
+  "preset_light_desc": {
+    "message": "ทำความสะอาดส่วนที่รบกวนสมาธิมากที่สุดของ YouTube แบบเบา ๆ"
+  },
+  "preset_balanced_desc": {
+    "message": "YouTube ที่สมดุลและไม่วอกแวก"
+  },
+  "preset_maximum_desc": {
+    "message": "ทำความสะอาดสูงสุด: ซ่อนเกือบทุกอย่างที่เกินจำเป็น"
+  },
+  "preset_custom_desc": {
+    "message": "การตั้งค่าของคุณเอง ปรับได้ตามต้องการ"
+  },
+  "reset_action": {
+    "message": "รีเซ็ต"
+  },
+  "reset_confirm_text": {
+    "message": "รีเซ็ตพรีเซ็ตปัจจุบันกลับเป็นค่าเริ่มต้นหรือไม่ การเปลี่ยนแปลงของคุณในพรีเซ็ตนี้จะหายไป"
+  },
+  "settings_label": {
+    "message": "การตั้งค่า"
+  },
+  "hide_description_chapters": {
+    "message": "ซ่อนบทและตอน"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean — Masquer Shorts, supprimer recommandations, focus & détox"
+    "message": "YouTube Clean : bloquer Shorts, masquer recommandations et pubs"
   },
   "appDescription": {
-    "message": "Masquez Shorts, recommandations, pubs et encombrement. Plus de 60 réglages pour un YouTube épuré et sans distraction."
+    "message": "Bloquez les Shorts, masquez recommandations, commentaires et pubs. Plus de 60 réglages pour un YouTube épuré et sans distraction."
   },
   "actionTitle": {
     "message": "Paramètres de YouTube Clean"
@@ -327,7 +327,7 @@
     "message": "Un YouTube équilibré et sans distraction."
   },
   "preset_maximum_desc": {
-    "message": "Nettoyage maximal — masque presque tout le superflu."
+    "message": "Nettoyage maximal : masque presque tout le superflu."
   },
   "preset_custom_desc": {
     "message": "Votre propre configuration. Ajustez tout ce que vous voulez."

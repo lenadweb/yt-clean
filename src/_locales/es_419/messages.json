@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: bloquear Shorts, ocultar recomendaciones y anuncios"
+  },
+  "appDescription": {
+    "message": "Bloquea Shorts y oculta recomendaciones, comentarios y anuncios. Más de 60 ajustes para un YouTube limpio y sin distracciones."
+  },
+  "actionTitle": {
+    "message": "Configuración de YouTube Clean"
+  },
+  "toggle_extension": {
+    "message": "Activar o desactivar la extensión"
+  },
+  "new": {
+    "message": "nuevo"
+  },
+  "basic_template": {
+    "message": "Plantilla básica"
+  },
+  "search_bar": {
+    "message": "Barra de búsqueda"
+  },
+  "hide_voice_search_button": {
+    "message": "Ocultar botón de búsqueda por voz"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Ocultar botón de teclado virtual"
+  },
+  "hide_search_tags": {
+    "message": "Ocultar etiquetas de búsqueda"
+  },
+  "actions_and_user": {
+    "message": "Acciones y usuario"
+  },
+  "hide_upload_button": {
+    "message": "Ocultar botón de subir video"
+  },
+  "hide_notifications": {
+    "message": "Ocultar notificaciones"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed y recomendaciones"
+  },
+  "content_blocks": {
+    "message": "Bloques de contenido"
+  },
+  "hide_shorts_sections": {
+    "message": "Ocultar secciones de Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Ocultar Explorar y Noticias"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Desactivar vista previa al pasar el cursor"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Ocultar Mixes y Listas de reproducción"
+  },
+  "ads": {
+    "message": "Anuncios"
+  },
+  "hide_youtube_banners": {
+    "message": "Ocultar banners de YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Ocultar videos patrocinados en el feed"
+  },
+  "video_playback_and_channel": {
+    "message": "Reproducción y canales"
+  },
+  "slider_playback_speed_control": {
+    "message": "Control deslizante de velocidad de reproducción"
+  },
+  "player": {
+    "message": "Reproductor"
+  },
+  "hide_mini_size_button": {
+    "message": "Ocultar botón de mini reproductor"
+  },
+  "hide_wide_size_button": {
+    "message": "Ocultar botón de modo cine"
+  },
+  "hide_subtitles_button": {
+    "message": "Ocultar botón de subtítulos"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Ocultar interruptor de reproducción automática"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Control de velocidad"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Cambiar automáticamente al siguiente"
+  },
+  "channel": {
+    "message": "Canal"
+  },
+  "hide_channel_trailer": {
+    "message": "Ocultar tráiler del canal"
+  },
+  "hide_channel_banner": {
+    "message": "Ocultar banner del canal"
+  },
+  "sidebar": {
+    "message": "Barra lateral"
+  },
+  "hide_sidebar_completely": {
+    "message": "Ocultar barra lateral por completo"
+  },
+  "main_menu": {
+    "message": "Menú principal"
+  },
+  "hide_shorts": {
+    "message": "Ocultar \"Shorts\""
+  },
+  "you": {
+    "message": "Tú"
+  },
+  "hide_history": {
+    "message": "Ocultar \"Historial\""
+  },
+  "hide_playlists": {
+    "message": "Ocultar \"Listas de reproducción\""
+  },
+  "hide_your_video": {
+    "message": "Ocultar \"Mis videos\""
+  },
+  "hide_watch_later": {
+    "message": "Ocultar \"Ver más tarde\""
+  },
+  "hide_liked_videos": {
+    "message": "Ocultar \"Videos que me gustan\""
+  },
+  "your_movies": {
+    "message": "Ocultar \"Películas\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Ocultar lista de Suscripciones"
+  },
+  "explore": {
+    "message": "Explorar"
+  },
+  "hide_trending": {
+    "message": "Ocultar \"Tendencias\""
+  },
+  "hide_music": {
+    "message": "Ocultar \"Música\""
+  },
+  "hide_gaming": {
+    "message": "Ocultar \"Videojuegos\""
+  },
+  "hide_news": {
+    "message": "Ocultar \"Noticias\""
+  },
+  "hide_sports": {
+    "message": "Ocultar \"Deportes\""
+  },
+  "more_from_youtube": {
+    "message": "Más de YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Ocultar \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Ocultar \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Ocultar \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Ocultar \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Ver en GitHub"
+  },
+  "compact_mode": {
+    "message": "Modo compacto"
+  },
+  "hide_related_searches": {
+    "message": "Ocultar búsquedas relacionadas"
+  },
+  "hide_search_info_card": {
+    "message": "Ocultar tarjeta de información"
+  },
+  "search": {
+    "message": "Búsqueda"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Ocultar estante de videos del canal"
+  },
+  "auto_skip_ads": {
+    "message": "Saltar anuncios automáticamente"
+  },
+  "hide_footer": {
+    "message": "Ocultar pie de página y enlaces"
+  },
+  "hide_my_channel": {
+    "message": "Ocultar \"Mi canal\""
+  },
+  "hide_downloads": {
+    "message": "Ocultar \"Descargas\""
+  },
+  "experimental": {
+    "message": "experimental"
+  },
+  "experimental_notice": {
+    "message": "Esta función es experimental y puede ser inestable. La estamos probando activamente: comparte tus comentarios para ayudarnos a mejorarla."
+  },
+  "experimental_title": {
+    "message": "Función experimental"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "enable_anyway": {
+    "message": "Activar de todas formas"
+  },
+  "hide_expand_button": {
+    "message": "Ocultar botón \"Mostrar más\""
+  },
+  "hide_live": {
+    "message": "Ocultar \"En vivo\""
+  },
+  "playback_speed": {
+    "message": "Velocidad de reproducción"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Página de video"
+  },
+  "video_page_elements": {
+    "message": "Elementos de la página"
+  },
+  "hide_comments": {
+    "message": "Ocultar comentarios"
+  },
+  "hide_recommended_videos": {
+    "message": "Ocultar videos recomendados"
+  },
+  "hide_live_chat": {
+    "message": "Ocultar chat en vivo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ocultar productos y boletos"
+  },
+  "hide_end_screen_cards": {
+    "message": "Ocultar tarjetas finales"
+  },
+  "hide_action_buttons": {
+    "message": "Ocultar botones de acción"
+  },
+  "hide_like_dislike": {
+    "message": "Ocultar me gusta/no me gusta"
+  },
+  "hide_description": {
+    "message": "Ocultar descripción"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ocultar paneles de info de anuncios"
+  },
+  "video_description": {
+    "message": "Descripción"
+  },
+  "hide_description_ai": {
+    "message": "Ocultar sección de IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ocultar transcripción"
+  },
+  "hide_description_people": {
+    "message": "Ocultar personas mencionadas"
+  },
+  "hide_description_related": {
+    "message": "Ocultar videos relacionados"
+  },
+  "hide_description_channel": {
+    "message": "Ocultar tarjeta del canal"
+  },
+  "hide_how_this_was_made": {
+    "message": "Ocultar \"Cómo se hizo\""
+  },
+  "preset_balanced": {
+    "message": "Equilibrado"
+  },
+  "preset_maximum": {
+    "message": "Máximo"
+  },
+  "preset_custom": {
+    "message": "Personalizado"
+  },
+  "reset_preset": {
+    "message": "Restablecer preajuste"
+  },
+  "preset_warning_title": {
+    "message": "Editando un preajuste predefinido"
+  },
+  "preset_warning_text": {
+    "message": "Estás cambiando un preajuste predefinido. Tus cambios se guardan en él y puedes restablecerlo cuando quieras."
+  },
+  "preset_warning_dont_show": {
+    "message": "No volver a mostrar"
+  },
+  "continue_action": {
+    "message": "Continuar"
+  },
+  "presets": {
+    "message": "Preajustes"
+  },
+  "features_hidden": {
+    "message": "{count} ocultos"
+  },
+  "preset_light": {
+    "message": "Ligero"
+  },
+  "preset_light_desc": {
+    "message": "Limpieza ligera de lo más distractor de YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube equilibrado y sin distracciones."
+  },
+  "preset_maximum_desc": {
+    "message": "Limpieza máxima: oculta casi todo lo extra."
+  },
+  "preset_custom_desc": {
+    "message": "Tu propia configuración. Ajusta lo que quieras."
+  },
+  "reset_action": {
+    "message": "Restablecer"
+  },
+  "reset_confirm_text": {
+    "message": "¿Restablecer el preajuste actual a su estado predeterminado? Se perderán tus cambios en este preajuste."
+  },
+  "settings_label": {
+    "message": "Configuración"
+  },
+  "hide_description_chapters": {
+    "message": "Ocultar capítulos y episodios"
+  }
+}

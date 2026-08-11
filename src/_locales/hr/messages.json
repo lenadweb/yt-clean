@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokiraj Shorts, sakrij preporuke i oglase"
+  },
+  "appDescription": {
+    "message": "Blokirajte Shorts, sakrijte preporuke, komentare i oglase. Više od 60 preklopnika za čist YouTube bez ometanja."
+  },
+  "actionTitle": {
+    "message": "Otvori postavke YouTubea"
+  },
+  "toggle_extension": {
+    "message": "Uključi proširenje"
+  },
+  "new": {
+    "message": "novo"
+  },
+  "basic_template": {
+    "message": "Osnovni predložak"
+  },
+  "search_bar": {
+    "message": "Traka za pretraživanje"
+  },
+  "hide_voice_search_button": {
+    "message": "Sakrij gumb glasovnog pretraživanja"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Sakrij gumb virtualne tipkovnice"
+  },
+  "hide_search_tags": {
+    "message": "Sakrij oznake pretraživanja"
+  },
+  "actions_and_user": {
+    "message": "Radnje i profil"
+  },
+  "hide_upload_button": {
+    "message": "Sakrij gumb za prijenos"
+  },
+  "hide_notifications": {
+    "message": "Sakrij obavijesti"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed i preporuke"
+  },
+  "content_blocks": {
+    "message": "Blokovi sadržaja"
+  },
+  "hide_shorts_sections": {
+    "message": "Sakrij Shorts odjeljke"
+  },
+  "hide_explore_and_news": {
+    "message": "Sakrij Istraži i Vijesti"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Isključi automatski pregled pri prelasku"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Sakrij mixeve i playliste"
+  },
+  "ads": {
+    "message": "Oglasi"
+  },
+  "hide_youtube_banners": {
+    "message": "Sakrij YouTube bannere"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Sakrij sponzorirane videozapise"
+  },
+  "video_playback_and_channel": {
+    "message": "Reprodukcija i kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Klizač brzine reprodukcije"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Sakrij gumb mini playera"
+  },
+  "hide_wide_size_button": {
+    "message": "Sakrij gumb kino načina"
+  },
+  "hide_subtitles_button": {
+    "message": "Sakrij gumb titlova"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Sakrij prekidač automatske reprodukcije"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Kontrola brzine"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatski prijelaz na sljedeći"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Sakrij najavu kanala"
+  },
+  "hide_channel_banner": {
+    "message": "Sakrij banner kanala"
+  },
+  "sidebar": {
+    "message": "Bočna traka"
+  },
+  "hide_sidebar_completely": {
+    "message": "Potpuno sakrij bočnu traku"
+  },
+  "main_menu": {
+    "message": "Glavni izbornik"
+  },
+  "hide_shorts": {
+    "message": "Sakrij „Shorts”"
+  },
+  "you": {
+    "message": "Vi"
+  },
+  "hide_history": {
+    "message": "Sakrij „Povijest”"
+  },
+  "hide_playlists": {
+    "message": "Sakrij „Playliste”"
+  },
+  "hide_your_video": {
+    "message": "Sakrij „Vaši videozapisi”"
+  },
+  "hide_watch_later": {
+    "message": "Sakrij „Gledaj poslije”"
+  },
+  "hide_liked_videos": {
+    "message": "Sakrij „Videozapisi koji mi se sviđaju”"
+  },
+  "your_movies": {
+    "message": "Sakrij „Filmovi”"
+  },
+  "hide_subscriptions_list": {
+    "message": "Sakrij popis pretplata"
+  },
+  "explore": {
+    "message": "Istraži"
+  },
+  "hide_trending": {
+    "message": "Sakrij „U trendu”"
+  },
+  "hide_music": {
+    "message": "Sakrij „Glazba”"
+  },
+  "hide_gaming": {
+    "message": "Sakrij „Igre”"
+  },
+  "hide_news": {
+    "message": "Sakrij „Vijesti”"
+  },
+  "hide_sports": {
+    "message": "Sakrij „Sport”"
+  },
+  "more_from_youtube": {
+    "message": "Više s YouTubea"
+  },
+  "hide_youtube_premium": {
+    "message": "Sakrij „YouTube Premium”"
+  },
+  "hide_youtube_music": {
+    "message": "Sakrij „YouTube Music”"
+  },
+  "hide_youtube_kids": {
+    "message": "Sakrij „YouTube Kids”"
+  },
+  "hide_youtube_studio": {
+    "message": "Sakrij „YouTube Studio”"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Pogledaj na GitHubu"
+  },
+  "compact_mode": {
+    "message": "Kompaktni način"
+  },
+  "hide_related_searches": {
+    "message": "Sakrij povezana pretraživanja"
+  },
+  "hide_search_info_card": {
+    "message": "Sakrij informativnu karticu"
+  },
+  "search": {
+    "message": "Pretraživanje"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Sakrij policu videozapisa kanala"
+  },
+  "auto_skip_ads": {
+    "message": "Automatski preskoči oglase"
+  },
+  "hide_footer": {
+    "message": "Sakrij podnožje i poveznice O nama"
+  },
+  "hide_my_channel": {
+    "message": "Sakrij „Moj kanal”"
+  },
+  "hide_downloads": {
+    "message": "Sakrij „Preuzimanja”"
+  },
+  "experimental": {
+    "message": "eksperimentalno"
+  },
+  "experimental_notice": {
+    "message": "Ova je značajka eksperimentalna i može biti nestabilna. Aktivno je testiramo, podijelite povratne informacije kako biste nam pomogli da je poboljšamo."
+  },
+  "experimental_title": {
+    "message": "Eksperimentalna značajka"
+  },
+  "cancel": {
+    "message": "Odustani"
+  },
+  "enable_anyway": {
+    "message": "Ipak uključi"
+  },
+  "hide_expand_button": {
+    "message": "Sakrij gumb „Prikaži više”"
+  },
+  "hide_live": {
+    "message": "Sakrij „Uživo”"
+  },
+  "playback_speed": {
+    "message": "Brzina reprodukcije"
+  },
+  "normal_speed": {
+    "message": "Normalna"
+  },
+  "video_page": {
+    "message": "Stranica videozapisa"
+  },
+  "video_page_elements": {
+    "message": "Elementi stranice"
+  },
+  "hide_comments": {
+    "message": "Sakrij komentare"
+  },
+  "hide_recommended_videos": {
+    "message": "Sakrij preporučene videozapise"
+  },
+  "hide_live_chat": {
+    "message": "Sakrij chat uživo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Sakrij proizvode i ulaznice"
+  },
+  "hide_end_screen_cards": {
+    "message": "Sakrij kartice na kraju"
+  },
+  "hide_action_buttons": {
+    "message": "Sakrij gumbe radnji"
+  },
+  "hide_like_dislike": {
+    "message": "Sakrij sviđanja"
+  },
+  "hide_description": {
+    "message": "Sakrij opis"
+  },
+  "hide_ad_info_panels": {
+    "message": "Sakrij oglasne informacijske ploče"
+  },
+  "video_description": {
+    "message": "Opis"
+  },
+  "hide_description_ai": {
+    "message": "Sakrij AI odjeljak (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Sakrij transkript"
+  },
+  "hide_description_people": {
+    "message": "Sakrij spomenute osobe"
+  },
+  "hide_description_related": {
+    "message": "Sakrij povezane videozapise"
+  },
+  "hide_description_channel": {
+    "message": "Sakrij karticu kanala"
+  },
+  "hide_how_this_was_made": {
+    "message": "Sakrij „Kako je ovo nastalo”"
+  },
+  "preset_balanced": {
+    "message": "Uravnotežen"
+  },
+  "preset_maximum": {
+    "message": "Maksimalan"
+  },
+  "preset_custom": {
+    "message": "Prilagođen"
+  },
+  "reset_preset": {
+    "message": "Vrati predložak na zadano"
+  },
+  "preset_warning_title": {
+    "message": "Uređivanje ugrađenog predloška"
+  },
+  "preset_warning_text": {
+    "message": "Mijenjate ugrađeni predložak. Vaše se izmjene spremaju u njega i uvijek se mogu vratiti na zadane vrijednosti."
+  },
+  "preset_warning_dont_show": {
+    "message": "Ne prikazuj ovo ponovno"
+  },
+  "continue_action": {
+    "message": "Nastavi"
+  },
+  "presets": {
+    "message": "Predlošci"
+  },
+  "features_hidden": {
+    "message": "{count} skriveno"
+  },
+  "preset_light": {
+    "message": "Lagan"
+  },
+  "preset_light_desc": {
+    "message": "Lagano čišćenje najviše ometajućih dijelova YouTubea."
+  },
+  "preset_balanced_desc": {
+    "message": "Uravnotežen YouTube bez ometanja."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimalno čišćenje: skriva gotovo sve suvišno."
+  },
+  "preset_custom_desc": {
+    "message": "Vaša vlastita konfiguracija. Prilagodite što želite."
+  },
+  "reset_action": {
+    "message": "Vrati"
+  },
+  "reset_confirm_text": {
+    "message": "Vratiti trenutni predložak na zadano stanje? Vaše izmjene u ovom predlošku bit će izgubljene."
+  },
+  "settings_label": {
+    "message": "Postavke"
+  },
+  "hide_description_chapters": {
+    "message": "Sakrij poglavlja i epizode"
+  }
+}

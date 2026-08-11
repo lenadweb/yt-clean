@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts தடு, பரிந்துரைகள் & விளம்பரங்களை மறை"
+  },
+  "appDescription": {
+    "message": "Shorts ஐத் தடுத்து, பரிந்துரைகள், கருத்துகள், விளம்பரங்களை மறையுங்கள். 60+ டாகிள்களுடன் கவனச்சிதறல் இல்லாத YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube அமைப்புகளைத் திற"
+  },
+  "toggle_extension": {
+    "message": "நீட்டிப்பை இயக்கு"
+  },
+  "new": {
+    "message": "புதிது"
+  },
+  "basic_template": {
+    "message": "அடிப்படை வார்ப்புரு"
+  },
+  "search_bar": {
+    "message": "தேடல் பட்டி"
+  },
+  "hide_voice_search_button": {
+    "message": "குரல் தேடல் பொத்தானை மறை"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "மெய்நிகர் விசைப்பலகை பொத்தானை மறை"
+  },
+  "hide_search_tags": {
+    "message": "தேடல் குறிச்சொற்களை மறை"
+  },
+  "actions_and_user": {
+    "message": "செயல்கள் & சுயவிவரம்"
+  },
+  "hide_upload_button": {
+    "message": "பதிவேற்ற பொத்தானை மறை"
+  },
+  "hide_notifications": {
+    "message": "அறிவிப்புகளை மறை"
+  },
+  "feed_and_recommendations": {
+    "message": "ஊட்டம் & பரிந்துரைகள்"
+  },
+  "content_blocks": {
+    "message": "உள்ளடக்கத் தொகுதிகள்"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts பிரிவுகளை மறை"
+  },
+  "hide_explore_and_news": {
+    "message": "ஆராய் & செய்திகளை மறை"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "சுட்டி வைக்கும்போது தானியங்கு முன்னோட்டத்தை அணை"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "கலவைகள் & பிளேலிஸ்ட்களை மறை"
+  },
+  "ads": {
+    "message": "விளம்பரங்கள்"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube பேனர்களை மறை"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ஊட்டத்தில் விளம்பர வீடியோக்களை மறை"
+  },
+  "video_playback_and_channel": {
+    "message": "இயக்கம் & சேனல்"
+  },
+  "slider_playback_speed_control": {
+    "message": "இயக்க வேக ஸ்லைடர்"
+  },
+  "player": {
+    "message": "பிளேயர்"
+  },
+  "hide_mini_size_button": {
+    "message": "மினி பிளேயர் பொத்தானை மறை"
+  },
+  "hide_wide_size_button": {
+    "message": "திரையரங்க முறை பொத்தானை மறை"
+  },
+  "hide_subtitles_button": {
+    "message": "வசன வரிகள் பொத்தானை மறை"
+  },
+  "hide_autoplay_switcher": {
+    "message": "தானியங்கு இயக்க சுவிட்சை மறை"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "வேகக் கட்டுப்பாடு"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "அடுத்ததற்கு தானாக மாறுதல்"
+  },
+  "channel": {
+    "message": "சேனல்"
+  },
+  "hide_channel_trailer": {
+    "message": "சேனல் டிரெய்லரை மறை"
+  },
+  "hide_channel_banner": {
+    "message": "சேனல் பேனரை மறை"
+  },
+  "sidebar": {
+    "message": "பக்கப்பட்டி"
+  },
+  "hide_sidebar_completely": {
+    "message": "பக்கப்பட்டியை முழுவதுமாக மறை"
+  },
+  "main_menu": {
+    "message": "முதன்மை மெனு"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" மறை"
+  },
+  "you": {
+    "message": "நீங்கள்"
+  },
+  "hide_history": {
+    "message": "\"வரலாறு\" மறை"
+  },
+  "hide_playlists": {
+    "message": "\"பிளேலிஸ்ட்கள்\" மறை"
+  },
+  "hide_your_video": {
+    "message": "\"உங்கள் வீடியோக்கள்\" மறை"
+  },
+  "hide_watch_later": {
+    "message": "\"பின்னர் பார்க்க\" மறை"
+  },
+  "hide_liked_videos": {
+    "message": "\"விருப்பமான வீடியோக்கள்\" மறை"
+  },
+  "your_movies": {
+    "message": "\"திரைப்படங்கள்\" மறை"
+  },
+  "hide_subscriptions_list": {
+    "message": "சந்தாப் பட்டியலை மறை"
+  },
+  "explore": {
+    "message": "ஆராய்"
+  },
+  "hide_trending": {
+    "message": "\"பிரபலமானவை\" மறை"
+  },
+  "hide_music": {
+    "message": "\"இசை\" மறை"
+  },
+  "hide_gaming": {
+    "message": "\"கேமிங்\" மறை"
+  },
+  "hide_news": {
+    "message": "\"செய்திகள்\" மறை"
+  },
+  "hide_sports": {
+    "message": "\"விளையாட்டு\" மறை"
+  },
+  "more_from_youtube": {
+    "message": "YouTube இலிருந்து மேலும்"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" மறை"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" மறை"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" மறை"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" மறை"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub இல் பார்க்க"
+  },
+  "compact_mode": {
+    "message": "சுருக்க முறை"
+  },
+  "hide_related_searches": {
+    "message": "தொடர்புடைய தேடல்களை மறை"
+  },
+  "hide_search_info_card": {
+    "message": "தேடல் தகவல் அட்டையை மறை"
+  },
+  "search": {
+    "message": "தேடல்"
+  },
+  "hide_channel_video_shelf": {
+    "message": "சேனல் வீடியோ அலமாரியை மறை"
+  },
+  "auto_skip_ads": {
+    "message": "விளம்பரங்களை தானாகத் தவிர்"
+  },
+  "hide_footer": {
+    "message": "அடிக்குறிப்பு & About இணைப்புகளை மறை"
+  },
+  "hide_my_channel": {
+    "message": "\"எனது சேனல்\" மறை"
+  },
+  "hide_downloads": {
+    "message": "\"பதிவிறக்கங்கள்\" மறை"
+  },
+  "experimental": {
+    "message": "சோதனை"
+  },
+  "experimental_notice": {
+    "message": "இந்த அம்சம் சோதனை நிலையில் உள்ளது, நிலையற்றதாக இருக்கலாம். நாங்கள் தீவிரமாகச் சோதிக்கிறோம், மேம்படுத்த உதவ கருத்தைப் பகிரவும்."
+  },
+  "experimental_title": {
+    "message": "சோதனை அம்சம்"
+  },
+  "cancel": {
+    "message": "ரத்து"
+  },
+  "enable_anyway": {
+    "message": "இருப்பினும் இயக்கு"
+  },
+  "hide_expand_button": {
+    "message": "\"மேலும் காட்டு\" பொத்தானை மறை"
+  },
+  "hide_live": {
+    "message": "\"நேரலை\" மறை"
+  },
+  "playback_speed": {
+    "message": "இயக்க வேகம்"
+  },
+  "normal_speed": {
+    "message": "இயல்பு"
+  },
+  "video_page": {
+    "message": "வீடியோ பக்கம்"
+  },
+  "video_page_elements": {
+    "message": "பக்க கூறுகள்"
+  },
+  "hide_comments": {
+    "message": "கருத்துகளை மறை"
+  },
+  "hide_recommended_videos": {
+    "message": "பரிந்துரைக்கப்பட்ட வீடியோக்களை மறை"
+  },
+  "hide_live_chat": {
+    "message": "நேரலை அரட்டையை மறை"
+  },
+  "hide_merch_and_tickets": {
+    "message": "பொருட்கள் & டிக்கெட்டுகளை மறை"
+  },
+  "hide_end_screen_cards": {
+    "message": "இறுதித் திரை அட்டைகளை மறை"
+  },
+  "hide_action_buttons": {
+    "message": "செயல் பொத்தான்களை மறை"
+  },
+  "hide_like_dislike": {
+    "message": "விருப்பம்/வெறுப்பை மறை"
+  },
+  "hide_description": {
+    "message": "விளக்கத்தை மறை"
+  },
+  "hide_ad_info_panels": {
+    "message": "விளம்பரத் தகவல் பலகங்களை மறை"
+  },
+  "video_description": {
+    "message": "விளக்கம்"
+  },
+  "hide_description_ai": {
+    "message": "AI பிரிவை மறை (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "எழுத்துப் பிரதியை மறை"
+  },
+  "hide_description_people": {
+    "message": "குறிப்பிடப்பட்டவர்களை மறை"
+  },
+  "hide_description_related": {
+    "message": "தொடர்புடைய வீடியோக்களை மறை"
+  },
+  "hide_description_channel": {
+    "message": "சேனல் அட்டையை மறை"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"இது எப்படி உருவானது\" மறை"
+  },
+  "preset_balanced": {
+    "message": "சமநிலை"
+  },
+  "preset_maximum": {
+    "message": "அதிகபட்சம்"
+  },
+  "preset_custom": {
+    "message": "தனிப்பயன்"
+  },
+  "reset_preset": {
+    "message": "முன்னமைவை இயல்பு நிலைக்கு மீட்டமை"
+  },
+  "preset_warning_title": {
+    "message": "உள்ளமைந்த முன்னமைவைத் திருத்துதல்"
+  },
+  "preset_warning_text": {
+    "message": "நீங்கள் உள்ளமைந்த முன்னமைவை மாற்றுகிறீர்கள். மாற்றங்கள் அதில் சேமிக்கப்படும், எப்போது வேண்டுமானாலும் இயல்புக்கு மீட்டமைக்கலாம்."
+  },
+  "preset_warning_dont_show": {
+    "message": "இதை மீண்டும் காட்ட வேண்டாம்"
+  },
+  "continue_action": {
+    "message": "தொடர்"
+  },
+  "presets": {
+    "message": "முன்னமைவுகள்"
+  },
+  "features_hidden": {
+    "message": "{count} மறைக்கப்பட்டது"
+  },
+  "preset_light": {
+    "message": "இலகுவானது"
+  },
+  "preset_light_desc": {
+    "message": "YouTube இன் மிகவும் கவனச்சிதறல் தரும் பகுதிகளை இலகுவாகச் சுத்தம் செய்கிறது."
+  },
+  "preset_balanced_desc": {
+    "message": "சமநிலையான, கவனச்சிதறல் இல்லாத YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "அதிகபட்ச சுத்தம்: கூடுதலான அனைத்தையும் ஏறக்குறைய மறைக்கிறது."
+  },
+  "preset_custom_desc": {
+    "message": "உங்கள் சொந்த அமைப்பு. விரும்பியதை மாற்றுங்கள்."
+  },
+  "reset_action": {
+    "message": "மீட்டமை"
+  },
+  "reset_confirm_text": {
+    "message": "தற்போதைய முன்னமைவை இயல்பு நிலைக்கு மீட்டமைக்கவா? இதில் உள்ள உங்கள் மாற்றங்கள் இழக்கப்படும்."
+  },
+  "settings_label": {
+    "message": "அமைப்புகள்"
+  },
+  "hide_description_chapters": {
+    "message": "அத்தியாயங்கள் & எபிசோடுகளை மறை"
+  }
+}

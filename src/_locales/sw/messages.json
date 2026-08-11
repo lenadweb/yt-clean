@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: zuia Shorts, ficha mapendekezo na matangazo"
+  },
+  "appDescription": {
+    "message": "Zuia Shorts, ficha mapendekezo, maoni na matangazo. Vidhibiti 60+ kwa YouTube safi isiyo na vikwazo vya umakini."
+  },
+  "actionTitle": {
+    "message": "Fungua mipangilio ya YouTube"
+  },
+  "toggle_extension": {
+    "message": "Washa kiendelezi"
+  },
+  "new": {
+    "message": "mpya"
+  },
+  "basic_template": {
+    "message": "Kiolezo cha msingi"
+  },
+  "search_bar": {
+    "message": "Upau wa kutafuta"
+  },
+  "hide_voice_search_button": {
+    "message": "Ficha kitufe cha kutafuta kwa sauti"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Ficha kitufe cha kibodi pepe"
+  },
+  "hide_search_tags": {
+    "message": "Ficha lebo za utafutaji"
+  },
+  "actions_and_user": {
+    "message": "Vitendo na wasifu"
+  },
+  "hide_upload_button": {
+    "message": "Ficha kitufe cha kupakia"
+  },
+  "hide_notifications": {
+    "message": "Ficha arifa"
+  },
+  "feed_and_recommendations": {
+    "message": "Mlisho na mapendekezo"
+  },
+  "content_blocks": {
+    "message": "Vizuizi vya maudhui"
+  },
+  "hide_shorts_sections": {
+    "message": "Ficha sehemu za Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Ficha Gundua na Habari"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Zima onyesho la kukagua otomatiki"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Ficha michanganyiko na orodha za kucheza"
+  },
+  "ads": {
+    "message": "Matangazo"
+  },
+  "hide_youtube_banners": {
+    "message": "Ficha mabango ya YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Ficha video zilizofadhiliwa kwenye mlisho"
+  },
+  "video_playback_and_channel": {
+    "message": "Uchezaji na kituo"
+  },
+  "slider_playback_speed_control": {
+    "message": "Kitelezi cha kasi ya uchezaji"
+  },
+  "player": {
+    "message": "Kicheza"
+  },
+  "hide_mini_size_button": {
+    "message": "Ficha kitufe cha kicheza kidogo"
+  },
+  "hide_wide_size_button": {
+    "message": "Ficha kitufe cha hali ya ukumbi"
+  },
+  "hide_subtitles_button": {
+    "message": "Ficha kitufe cha manukuu"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Ficha swichi ya kucheza otomatiki"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Udhibiti wa kasi"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Kubadilisha otomatiki hadi inayofuata"
+  },
+  "channel": {
+    "message": "Kituo"
+  },
+  "hide_channel_trailer": {
+    "message": "Ficha trela ya kituo"
+  },
+  "hide_channel_banner": {
+    "message": "Ficha bango la kituo"
+  },
+  "sidebar": {
+    "message": "Upau wa kando"
+  },
+  "hide_sidebar_completely": {
+    "message": "Ficha upau wa kando kabisa"
+  },
+  "main_menu": {
+    "message": "Menyu kuu"
+  },
+  "hide_shorts": {
+    "message": "Ficha \"Shorts\""
+  },
+  "you": {
+    "message": "Wewe"
+  },
+  "hide_history": {
+    "message": "Ficha \"Historia\""
+  },
+  "hide_playlists": {
+    "message": "Ficha \"Orodha za kucheza\""
+  },
+  "hide_your_video": {
+    "message": "Ficha \"Video zako\""
+  },
+  "hide_watch_later": {
+    "message": "Ficha \"Tazama baadaye\""
+  },
+  "hide_liked_videos": {
+    "message": "Ficha \"Video ulizopenda\""
+  },
+  "your_movies": {
+    "message": "Ficha \"Filamu\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Ficha orodha ya usajili"
+  },
+  "explore": {
+    "message": "Gundua"
+  },
+  "hide_trending": {
+    "message": "Ficha \"Zinazovuma\""
+  },
+  "hide_music": {
+    "message": "Ficha \"Muziki\""
+  },
+  "hide_gaming": {
+    "message": "Ficha \"Michezo ya video\""
+  },
+  "hide_news": {
+    "message": "Ficha \"Habari\""
+  },
+  "hide_sports": {
+    "message": "Ficha \"Michezo\""
+  },
+  "more_from_youtube": {
+    "message": "Zaidi kutoka YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Ficha \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Ficha \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Ficha \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Ficha \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Tazama kwenye GitHub"
+  },
+  "compact_mode": {
+    "message": "Hali fupi"
+  },
+  "hide_related_searches": {
+    "message": "Ficha utafutaji unaohusiana"
+  },
+  "hide_search_info_card": {
+    "message": "Ficha kadi ya maelezo ya utafutaji"
+  },
+  "search": {
+    "message": "Utafutaji"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Ficha rafu ya video za kituo"
+  },
+  "auto_skip_ads": {
+    "message": "Ruka matangazo kiotomatiki"
+  },
+  "hide_footer": {
+    "message": "Ficha kijachini na viungo vya Kuhusu"
+  },
+  "hide_my_channel": {
+    "message": "Ficha \"Kituo changu\""
+  },
+  "hide_downloads": {
+    "message": "Ficha \"Vipakuliwa\""
+  },
+  "experimental": {
+    "message": "majaribio"
+  },
+  "experimental_notice": {
+    "message": "Kipengele hiki ni cha majaribio na kinaweza kuwa si thabiti. Tunakijaribu kwa bidii, shiriki maoni yako ili kutusaidia kukiboresha."
+  },
+  "experimental_title": {
+    "message": "Kipengele cha majaribio"
+  },
+  "cancel": {
+    "message": "Ghairi"
+  },
+  "enable_anyway": {
+    "message": "Washa hata hivyo"
+  },
+  "hide_expand_button": {
+    "message": "Ficha kitufe cha \"Onyesha zaidi\""
+  },
+  "hide_live": {
+    "message": "Ficha \"Moja kwa moja\""
+  },
+  "playback_speed": {
+    "message": "Kasi ya uchezaji"
+  },
+  "normal_speed": {
+    "message": "Kawaida"
+  },
+  "video_page": {
+    "message": "Ukurasa wa video"
+  },
+  "video_page_elements": {
+    "message": "Vipengele vya ukurasa"
+  },
+  "hide_comments": {
+    "message": "Ficha maoni"
+  },
+  "hide_recommended_videos": {
+    "message": "Ficha video zinazopendekezwa"
+  },
+  "hide_live_chat": {
+    "message": "Ficha gumzo la moja kwa moja"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ficha bidhaa na tiketi"
+  },
+  "hide_end_screen_cards": {
+    "message": "Ficha kadi za skrini ya mwisho"
+  },
+  "hide_action_buttons": {
+    "message": "Ficha vitufe vya vitendo"
+  },
+  "hide_like_dislike": {
+    "message": "Ficha kupenda/kutopenda"
+  },
+  "hide_description": {
+    "message": "Ficha maelezo"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ficha paneli za maelezo ya matangazo"
+  },
+  "video_description": {
+    "message": "Maelezo"
+  },
+  "hide_description_ai": {
+    "message": "Ficha sehemu ya AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ficha nakala ya maandishi"
+  },
+  "hide_description_people": {
+    "message": "Ficha watu waliotajwa"
+  },
+  "hide_description_related": {
+    "message": "Ficha video zinazohusiana"
+  },
+  "hide_description_channel": {
+    "message": "Ficha kadi ya kituo"
+  },
+  "hide_how_this_was_made": {
+    "message": "Ficha \"Jinsi hii ilivyotengenezwa\""
+  },
+  "preset_balanced": {
+    "message": "Uwiano"
+  },
+  "preset_maximum": {
+    "message": "Kiwango cha juu"
+  },
+  "preset_custom": {
+    "message": "Maalum"
+  },
+  "reset_preset": {
+    "message": "Rejesha mpangilio kwa chaguomsingi"
+  },
+  "preset_warning_title": {
+    "message": "Unahariri mpangilio uliojengwa ndani"
+  },
+  "preset_warning_text": {
+    "message": "Unabadilisha mpangilio uliojengwa ndani. Mabadiliko yako yanahifadhiwa humo na yanaweza kurejeshwa kwa chaguomsingi wakati wowote."
+  },
+  "preset_warning_dont_show": {
+    "message": "Usionyeshe hii tena"
+  },
+  "continue_action": {
+    "message": "Endelea"
+  },
+  "presets": {
+    "message": "Mipangilio"
+  },
+  "features_hidden": {
+    "message": "{count} zimefichwa"
+  },
+  "preset_light": {
+    "message": "Nyepesi"
+  },
+  "preset_light_desc": {
+    "message": "Usafishaji mwepesi wa sehemu zinazovuruga zaidi za YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "YouTube yenye uwiano, isiyo na vikwazo vya umakini."
+  },
+  "preset_maximum_desc": {
+    "message": "Usafishaji wa juu: huficha karibu kila kitu cha ziada."
+  },
+  "preset_custom_desc": {
+    "message": "Usanidi wako mwenyewe. Rekebisha chochote unachotaka."
+  },
+  "reset_action": {
+    "message": "Rejesha"
+  },
+  "reset_confirm_text": {
+    "message": "Rejesha mpangilio wa sasa kwa hali ya chaguomsingi? Mabadiliko yako katika mpangilio huu yatapotea."
+  },
+  "settings_label": {
+    "message": "Mipangilio"
+  },
+  "hide_description_chapters": {
+    "message": "Ficha sura na vipindi"
+  }
+}

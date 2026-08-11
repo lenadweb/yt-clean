@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: chặn Shorts, ẩn đề xuất và quảng cáo"
+  },
+  "appDescription": {
+    "message": "Chặn Shorts, ẩn đề xuất, bình luận và quảng cáo. Hơn 60 công tắc cho một YouTube gọn gàng, không xao nhãng."
+  },
+  "actionTitle": {
+    "message": "Mở cài đặt YouTube"
+  },
+  "toggle_extension": {
+    "message": "Bật tiện ích"
+  },
+  "new": {
+    "message": "mới"
+  },
+  "basic_template": {
+    "message": "Mẫu cơ bản"
+  },
+  "search_bar": {
+    "message": "Thanh tìm kiếm"
+  },
+  "hide_voice_search_button": {
+    "message": "Ẩn nút tìm kiếm bằng giọng nói"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Ẩn nút bàn phím ảo"
+  },
+  "hide_search_tags": {
+    "message": "Ẩn thẻ tìm kiếm"
+  },
+  "actions_and_user": {
+    "message": "Thao tác và hồ sơ"
+  },
+  "hide_upload_button": {
+    "message": "Ẩn nút tải lên"
+  },
+  "hide_notifications": {
+    "message": "Ẩn thông báo"
+  },
+  "feed_and_recommendations": {
+    "message": "Nguồn cấp và đề xuất"
+  },
+  "content_blocks": {
+    "message": "Khối nội dung"
+  },
+  "hide_shorts_sections": {
+    "message": "Ẩn mục Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Ẩn Khám phá và Tin tức"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Tắt xem trước tự động khi di chuột"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Ẩn mix và danh sách phát"
+  },
+  "ads": {
+    "message": "Quảng cáo"
+  },
+  "hide_youtube_banners": {
+    "message": "Ẩn biểu ngữ YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Ẩn video được tài trợ trong nguồn cấp"
+  },
+  "video_playback_and_channel": {
+    "message": "Phát lại và kênh"
+  },
+  "slider_playback_speed_control": {
+    "message": "Thanh trượt tốc độ phát"
+  },
+  "player": {
+    "message": "Trình phát"
+  },
+  "hide_mini_size_button": {
+    "message": "Ẩn nút trình phát thu nhỏ"
+  },
+  "hide_wide_size_button": {
+    "message": "Ẩn nút chế độ rạp hát"
+  },
+  "hide_subtitles_button": {
+    "message": "Ẩn nút phụ đề"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Ẩn công tắc tự động phát"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Điều khiển tốc độ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Tự động chuyển sang video kế tiếp"
+  },
+  "channel": {
+    "message": "Kênh"
+  },
+  "hide_channel_trailer": {
+    "message": "Ẩn trailer của kênh"
+  },
+  "hide_channel_banner": {
+    "message": "Ẩn biểu ngữ kênh"
+  },
+  "sidebar": {
+    "message": "Thanh bên"
+  },
+  "hide_sidebar_completely": {
+    "message": "Ẩn hoàn toàn thanh bên"
+  },
+  "main_menu": {
+    "message": "Menu chính"
+  },
+  "hide_shorts": {
+    "message": "Ẩn \"Shorts\""
+  },
+  "you": {
+    "message": "Bạn"
+  },
+  "hide_history": {
+    "message": "Ẩn \"Nhật ký\""
+  },
+  "hide_playlists": {
+    "message": "Ẩn \"Danh sách phát\""
+  },
+  "hide_your_video": {
+    "message": "Ẩn \"Video của bạn\""
+  },
+  "hide_watch_later": {
+    "message": "Ẩn \"Xem sau\""
+  },
+  "hide_liked_videos": {
+    "message": "Ẩn \"Video đã thích\""
+  },
+  "your_movies": {
+    "message": "Ẩn \"Phim\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Ẩn danh sách kênh đăng ký"
+  },
+  "explore": {
+    "message": "Khám phá"
+  },
+  "hide_trending": {
+    "message": "Ẩn \"Thịnh hành\""
+  },
+  "hide_music": {
+    "message": "Ẩn \"Âm nhạc\""
+  },
+  "hide_gaming": {
+    "message": "Ẩn \"Trò chơi\""
+  },
+  "hide_news": {
+    "message": "Ẩn \"Tin tức\""
+  },
+  "hide_sports": {
+    "message": "Ẩn \"Thể thao\""
+  },
+  "more_from_youtube": {
+    "message": "Thêm từ YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Ẩn \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Ẩn \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Ẩn \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Ẩn \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Xem trên GitHub"
+  },
+  "compact_mode": {
+    "message": "Chế độ thu gọn"
+  },
+  "hide_related_searches": {
+    "message": "Ẩn tìm kiếm liên quan"
+  },
+  "hide_search_info_card": {
+    "message": "Ẩn thẻ thông tin tìm kiếm"
+  },
+  "search": {
+    "message": "Tìm kiếm"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Ẩn kệ video của kênh"
+  },
+  "auto_skip_ads": {
+    "message": "Tự động bỏ qua quảng cáo"
+  },
+  "hide_footer": {
+    "message": "Ẩn chân trang và liên kết Giới thiệu"
+  },
+  "hide_my_channel": {
+    "message": "Ẩn \"Kênh của tôi\""
+  },
+  "hide_downloads": {
+    "message": "Ẩn \"Nội dung tải xuống\""
+  },
+  "experimental": {
+    "message": "thử nghiệm"
+  },
+  "experimental_notice": {
+    "message": "Tính năng này đang trong giai đoạn thử nghiệm và có thể không ổn định. Chúng tôi đang tích cực kiểm thử, hãy gửi phản hồi để giúp chúng tôi cải thiện."
+  },
+  "experimental_title": {
+    "message": "Tính năng thử nghiệm"
+  },
+  "cancel": {
+    "message": "Hủy"
+  },
+  "enable_anyway": {
+    "message": "Vẫn bật"
+  },
+  "hide_expand_button": {
+    "message": "Ẩn nút \"Hiển thị thêm\""
+  },
+  "hide_live": {
+    "message": "Ẩn \"Trực tiếp\""
+  },
+  "playback_speed": {
+    "message": "Tốc độ phát"
+  },
+  "normal_speed": {
+    "message": "Bình thường"
+  },
+  "video_page": {
+    "message": "Trang video"
+  },
+  "video_page_elements": {
+    "message": "Thành phần trang"
+  },
+  "hide_comments": {
+    "message": "Ẩn bình luận"
+  },
+  "hide_recommended_videos": {
+    "message": "Ẩn video đề xuất"
+  },
+  "hide_live_chat": {
+    "message": "Ẩn trò chuyện trực tiếp"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ẩn hàng hóa và vé"
+  },
+  "hide_end_screen_cards": {
+    "message": "Ẩn thẻ màn hình kết thúc"
+  },
+  "hide_action_buttons": {
+    "message": "Ẩn nút thao tác"
+  },
+  "hide_like_dislike": {
+    "message": "Ẩn thích/không thích"
+  },
+  "hide_description": {
+    "message": "Ẩn mô tả"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ẩn bảng thông tin quảng cáo"
+  },
+  "video_description": {
+    "message": "Mô tả"
+  },
+  "hide_description_ai": {
+    "message": "Ẩn mục AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ẩn bản chép lời"
+  },
+  "hide_description_people": {
+    "message": "Ẩn những người được nhắc đến"
+  },
+  "hide_description_related": {
+    "message": "Ẩn video liên quan"
+  },
+  "hide_description_channel": {
+    "message": "Ẩn thẻ kênh"
+  },
+  "hide_how_this_was_made": {
+    "message": "Ẩn \"Cách tạo video này\""
+  },
+  "preset_balanced": {
+    "message": "Cân bằng"
+  },
+  "preset_maximum": {
+    "message": "Tối đa"
+  },
+  "preset_custom": {
+    "message": "Tùy chỉnh"
+  },
+  "reset_preset": {
+    "message": "Đặt lại cấu hình về mặc định"
+  },
+  "preset_warning_title": {
+    "message": "Đang chỉnh sửa cấu hình dựng sẵn"
+  },
+  "preset_warning_text": {
+    "message": "Bạn đang thay đổi một cấu hình dựng sẵn. Các thay đổi được lưu vào đó và có thể đặt lại về mặc định bất cứ lúc nào."
+  },
+  "preset_warning_dont_show": {
+    "message": "Không hiển thị lại"
+  },
+  "continue_action": {
+    "message": "Tiếp tục"
+  },
+  "presets": {
+    "message": "Cấu hình"
+  },
+  "features_hidden": {
+    "message": "đã ẩn {count}"
+  },
+  "preset_light": {
+    "message": "Nhẹ"
+  },
+  "preset_light_desc": {
+    "message": "Dọn dẹp nhẹ những phần gây xao nhãng nhất của YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Một YouTube cân bằng, không xao nhãng."
+  },
+  "preset_maximum_desc": {
+    "message": "Dọn dẹp tối đa: ẩn gần như mọi thứ thừa."
+  },
+  "preset_custom_desc": {
+    "message": "Cấu hình của riêng bạn. Tùy chỉnh bất cứ điều gì."
+  },
+  "reset_action": {
+    "message": "Đặt lại"
+  },
+  "reset_confirm_text": {
+    "message": "Đặt lại cấu hình hiện tại về trạng thái mặc định? Các thay đổi của bạn trong cấu hình này sẽ mất."
+  },
+  "settings_label": {
+    "message": "Cài đặt"
+  },
+  "hide_description_chapters": {
+    "message": "Ẩn chương và tập"
+  }
+}

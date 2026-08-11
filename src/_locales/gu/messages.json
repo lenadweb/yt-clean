@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts બ્લોક કરો, ભલામણો અને જાહેરાતો છુપાવો"
+  },
+  "appDescription": {
+    "message": "Shorts બ્લોક કરો, ભલામણો, ટિપ્પણીઓ અને જાહેરાતો છુપાવો. 60+ ટૉગલ સાથે સ્વચ્છ, ધ્યાનભંગ વગરનું YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube સેટિંગ્સ ખોલો"
+  },
+  "toggle_extension": {
+    "message": "એક્સ્ટેંશન ચાલુ કરો"
+  },
+  "new": {
+    "message": "નવું"
+  },
+  "basic_template": {
+    "message": "મૂળભૂત ટેમ્પ્લેટ"
+  },
+  "search_bar": {
+    "message": "શોધ પટ્ટી"
+  },
+  "hide_voice_search_button": {
+    "message": "વૉઇસ શોધ બટન છુપાવો"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "વર્ચ્યુઅલ કીબોર્ડ બટન છુપાવો"
+  },
+  "hide_search_tags": {
+    "message": "શોધ ટૅગ છુપાવો"
+  },
+  "actions_and_user": {
+    "message": "ક્રિયાઓ અને પ્રોફાઇલ"
+  },
+  "hide_upload_button": {
+    "message": "અપલોડ બટન છુપાવો"
+  },
+  "hide_notifications": {
+    "message": "સૂચનાઓ છુપાવો"
+  },
+  "feed_and_recommendations": {
+    "message": "ફીડ અને ભલામણો"
+  },
+  "content_blocks": {
+    "message": "સામગ્રી બ્લોક"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts વિભાગો છુપાવો"
+  },
+  "hide_explore_and_news": {
+    "message": "એક્સપ્લોર અને સમાચાર છુપાવો"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "હોવર પર ઑટો-પ્રીવ્યૂ બંધ કરો"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "મિક્સ અને પ્લેલિસ્ટ છુપાવો"
+  },
+  "ads": {
+    "message": "જાહેરાતો"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube બેનર છુપાવો"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ફીડમાં પ્રાયોજિત વિડિઓ છુપાવો"
+  },
+  "video_playback_and_channel": {
+    "message": "પ્લેબૅક અને ચેનલ"
+  },
+  "slider_playback_speed_control": {
+    "message": "પ્લેબૅક ઝડપ સ્લાઇડર"
+  },
+  "player": {
+    "message": "પ્લેયર"
+  },
+  "hide_mini_size_button": {
+    "message": "મિની પ્લેયર બટન છુપાવો"
+  },
+  "hide_wide_size_button": {
+    "message": "થિયેટર મોડ બટન છુપાવો"
+  },
+  "hide_subtitles_button": {
+    "message": "સબટાઇટલ બટન છુપાવો"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ઑટોપ્લે સ્વિચ છુપાવો"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "ઝડપ નિયંત્રણ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "આગળના પર આપોઆપ સ્વિચ"
+  },
+  "channel": {
+    "message": "ચેનલ"
+  },
+  "hide_channel_trailer": {
+    "message": "ચેનલ ટ્રેલર છુપાવો"
+  },
+  "hide_channel_banner": {
+    "message": "ચેનલ બેનર છુપાવો"
+  },
+  "sidebar": {
+    "message": "સાઇડબાર"
+  },
+  "hide_sidebar_completely": {
+    "message": "સાઇડબાર સંપૂર્ણપણે છુપાવો"
+  },
+  "main_menu": {
+    "message": "મુખ્ય મેનુ"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" છુપાવો"
+  },
+  "you": {
+    "message": "તમે"
+  },
+  "hide_history": {
+    "message": "\"ઇતિહાસ\" છુપાવો"
+  },
+  "hide_playlists": {
+    "message": "\"પ્લેલિસ્ટ\" છુપાવો"
+  },
+  "hide_your_video": {
+    "message": "\"તમારા વિડિઓ\" છુપાવો"
+  },
+  "hide_watch_later": {
+    "message": "\"પછી જુઓ\" છુપાવો"
+  },
+  "hide_liked_videos": {
+    "message": "\"પસંદ કરેલા વિડિઓ\" છુપાવો"
+  },
+  "your_movies": {
+    "message": "\"મૂવીઝ\" છુપાવો"
+  },
+  "hide_subscriptions_list": {
+    "message": "સબ્સ્ક્રિપ્શન સૂચિ છુપાવો"
+  },
+  "explore": {
+    "message": "એક્સપ્લોર"
+  },
+  "hide_trending": {
+    "message": "\"ટ્રેન્ડિંગ\" છુપાવો"
+  },
+  "hide_music": {
+    "message": "\"સંગીત\" છુપાવો"
+  },
+  "hide_gaming": {
+    "message": "\"ગેમિંગ\" છુપાવો"
+  },
+  "hide_news": {
+    "message": "\"સમાચાર\" છુપાવો"
+  },
+  "hide_sports": {
+    "message": "\"રમતગમત\" છુપાવો"
+  },
+  "more_from_youtube": {
+    "message": "YouTube તરફથી વધુ"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" છુપાવો"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" છુપાવો"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" છુપાવો"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" છુપાવો"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub પર જુઓ"
+  },
+  "compact_mode": {
+    "message": "કોમ્પેક્ટ મોડ"
+  },
+  "hide_related_searches": {
+    "message": "સંબંધિત શોધ છુપાવો"
+  },
+  "hide_search_info_card": {
+    "message": "શોધ માહિતી કાર્ડ છુપાવો"
+  },
+  "search": {
+    "message": "શોધ"
+  },
+  "hide_channel_video_shelf": {
+    "message": "ચેનલ વિડિઓ શેલ્ફ છુપાવો"
+  },
+  "auto_skip_ads": {
+    "message": "જાહેરાતો આપોઆપ છોડો"
+  },
+  "hide_footer": {
+    "message": "ફૂટર અને About લિંક છુપાવો"
+  },
+  "hide_my_channel": {
+    "message": "\"મારી ચેનલ\" છુપાવો"
+  },
+  "hide_downloads": {
+    "message": "\"ડાઉનલોડ\" છુપાવો"
+  },
+  "experimental": {
+    "message": "પ્રાયોગિક"
+  },
+  "experimental_notice": {
+    "message": "આ સુવિધા પ્રાયોગિક છે અને અસ્થિર હોઈ શકે છે. અમે તેને સક્રિયપણે ચકાસી રહ્યા છીએ, સુધારવામાં મદદ કરવા પ્રતિસાદ આપો."
+  },
+  "experimental_title": {
+    "message": "પ્રાયોગિક સુવિધા"
+  },
+  "cancel": {
+    "message": "રદ કરો"
+  },
+  "enable_anyway": {
+    "message": "તેમ છતાં ચાલુ કરો"
+  },
+  "hide_expand_button": {
+    "message": "\"વધુ બતાવો\" બટન છુપાવો"
+  },
+  "hide_live": {
+    "message": "\"લાઇવ\" છુપાવો"
+  },
+  "playback_speed": {
+    "message": "પ્લેબૅક ઝડપ"
+  },
+  "normal_speed": {
+    "message": "સામાન્ય"
+  },
+  "video_page": {
+    "message": "વિડિઓ પૃષ્ઠ"
+  },
+  "video_page_elements": {
+    "message": "પૃષ્ઠ ઘટકો"
+  },
+  "hide_comments": {
+    "message": "ટિપ્પણીઓ છુપાવો"
+  },
+  "hide_recommended_videos": {
+    "message": "ભલામણ કરેલા વિડિઓ છુપાવો"
+  },
+  "hide_live_chat": {
+    "message": "લાઇવ ચેટ છુપાવો"
+  },
+  "hide_merch_and_tickets": {
+    "message": "વસ્તુઓ અને ટિકિટ છુપાવો"
+  },
+  "hide_end_screen_cards": {
+    "message": "અંતિમ સ્ક્રીન કાર્ડ છુપાવો"
+  },
+  "hide_action_buttons": {
+    "message": "ક્રિયા બટન છુપાવો"
+  },
+  "hide_like_dislike": {
+    "message": "લાઇક/ડિસલાઇક છુપાવો"
+  },
+  "hide_description": {
+    "message": "વર્ણન છુપાવો"
+  },
+  "hide_ad_info_panels": {
+    "message": "જાહેરાત માહિતી પેનલ છુપાવો"
+  },
+  "video_description": {
+    "message": "વર્ણન"
+  },
+  "hide_description_ai": {
+    "message": "AI વિભાગ છુપાવો (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ટ્રાન્સક્રિપ્ટ છુપાવો"
+  },
+  "hide_description_people": {
+    "message": "ઉલ્લેખિત લોકો છુપાવો"
+  },
+  "hide_description_related": {
+    "message": "સંબંધિત વિડિઓ છુપાવો"
+  },
+  "hide_description_channel": {
+    "message": "ચેનલ કાર્ડ છુપાવો"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"આ કેવી રીતે બન્યું\" છુપાવો"
+  },
+  "preset_balanced": {
+    "message": "સંતુલિત"
+  },
+  "preset_maximum": {
+    "message": "મહત્તમ"
+  },
+  "preset_custom": {
+    "message": "કસ્ટમ"
+  },
+  "reset_preset": {
+    "message": "પ્રીસેટ ડિફોલ્ટ પર રીસેટ કરો"
+  },
+  "preset_warning_title": {
+    "message": "બિલ્ટ-ઇન પ્રીસેટ સંપાદિત કરી રહ્યા છો"
+  },
+  "preset_warning_text": {
+    "message": "તમે બિલ્ટ-ઇન પ્રીસેટ બદલી રહ્યા છો. તમારા ફેરફારો તેમાં સાચવાય છે અને કોઈપણ સમયે ડિફોલ્ટ પર રીસેટ કરી શકાય છે."
+  },
+  "preset_warning_dont_show": {
+    "message": "આ ફરીથી બતાવશો નહીં"
+  },
+  "continue_action": {
+    "message": "ચાલુ રાખો"
+  },
+  "presets": {
+    "message": "પ્રીસેટ"
+  },
+  "features_hidden": {
+    "message": "{count} છુપાવેલ"
+  },
+  "preset_light": {
+    "message": "હળવું"
+  },
+  "preset_light_desc": {
+    "message": "YouTube ના સૌથી વધુ ધ્યાનભંગ કરતા ભાગોની હળવી સફાઈ."
+  },
+  "preset_balanced_desc": {
+    "message": "સંતુલિત, ધ્યાનભંગ વગરનું YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "મહત્તમ સફાઈ: લગભગ બધું વધારાનું છુપાવે છે."
+  },
+  "preset_custom_desc": {
+    "message": "તમારું પોતાનું રૂપરેખાંકન. જે ગમે તે બદલો."
+  },
+  "reset_action": {
+    "message": "રીસેટ"
+  },
+  "reset_confirm_text": {
+    "message": "વર્તમાન પ્રીસેટને ડિફોલ્ટ સ્થિતિમાં રીસેટ કરવું? આ પ્રીસેટમાં તમારા ફેરફારો ગુમાવાશે."
+  },
+  "settings_label": {
+    "message": "સેટિંગ્સ"
+  },
+  "hide_description_chapters": {
+    "message": "પ્રકરણો અને એપિસોડ છુપાવો"
+  }
+}

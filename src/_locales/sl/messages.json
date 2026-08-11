@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokiraj Shorts, skrij priporočila in oglase"
+  },
+  "appDescription": {
+    "message": "Blokirajte Shorts, skrijte priporočila, komentarje in oglase. Več kot 60 stikal za čist YouTube brez motenj."
+  },
+  "actionTitle": {
+    "message": "Odpri nastavitve YouTuba"
+  },
+  "toggle_extension": {
+    "message": "Vklopi razširitev"
+  },
+  "new": {
+    "message": "novo"
+  },
+  "basic_template": {
+    "message": "Osnovna predloga"
+  },
+  "search_bar": {
+    "message": "Iskalna vrstica"
+  },
+  "hide_voice_search_button": {
+    "message": "Skrij gumb za glasovno iskanje"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Skrij gumb za navidezno tipkovnico"
+  },
+  "hide_search_tags": {
+    "message": "Skrij oznake iskanja"
+  },
+  "actions_and_user": {
+    "message": "Dejanja in profil"
+  },
+  "hide_upload_button": {
+    "message": "Skrij gumb za nalaganje"
+  },
+  "hide_notifications": {
+    "message": "Skrij obvestila"
+  },
+  "feed_and_recommendations": {
+    "message": "Vir in priporočila"
+  },
+  "content_blocks": {
+    "message": "Bloki vsebine"
+  },
+  "hide_shorts_sections": {
+    "message": "Skrij razdelke Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Skrij Razišči in Novice"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Izklopi samodejni predogled ob prehodu"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Skrij mešanice in sezname predvajanja"
+  },
+  "ads": {
+    "message": "Oglasi"
+  },
+  "hide_youtube_banners": {
+    "message": "Skrij pasice YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Skrij sponzorirane videoposnetke"
+  },
+  "video_playback_and_channel": {
+    "message": "Predvajanje in kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Drsnik hitrosti predvajanja"
+  },
+  "player": {
+    "message": "Predvajalnik"
+  },
+  "hide_mini_size_button": {
+    "message": "Skrij gumb mini predvajalnika"
+  },
+  "hide_wide_size_button": {
+    "message": "Skrij gumb kino načina"
+  },
+  "hide_subtitles_button": {
+    "message": "Skrij gumb podnapisov"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Skrij stikalo samodejnega predvajanja"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Nadzor hitrosti"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Samodejni prehod na naslednjega"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Skrij napovednik kanala"
+  },
+  "hide_channel_banner": {
+    "message": "Skrij pasico kanala"
+  },
+  "sidebar": {
+    "message": "Stranska vrstica"
+  },
+  "hide_sidebar_completely": {
+    "message": "Popolnoma skrij stransko vrstico"
+  },
+  "main_menu": {
+    "message": "Glavni meni"
+  },
+  "hide_shorts": {
+    "message": "Skrij »Shorts«"
+  },
+  "you": {
+    "message": "Vi"
+  },
+  "hide_history": {
+    "message": "Skrij »Zgodovina«"
+  },
+  "hide_playlists": {
+    "message": "Skrij »Seznami predvajanja«"
+  },
+  "hide_your_video": {
+    "message": "Skrij »Vaši videoposnetki«"
+  },
+  "hide_watch_later": {
+    "message": "Skrij »Oglej si pozneje«"
+  },
+  "hide_liked_videos": {
+    "message": "Skrij »Všečkani videoposnetki«"
+  },
+  "your_movies": {
+    "message": "Skrij »Filmi«"
+  },
+  "hide_subscriptions_list": {
+    "message": "Skrij seznam naročnin"
+  },
+  "explore": {
+    "message": "Razišči"
+  },
+  "hide_trending": {
+    "message": "Skrij »V trendu«"
+  },
+  "hide_music": {
+    "message": "Skrij »Glasba«"
+  },
+  "hide_gaming": {
+    "message": "Skrij »Igre«"
+  },
+  "hide_news": {
+    "message": "Skrij »Novice«"
+  },
+  "hide_sports": {
+    "message": "Skrij »Šport«"
+  },
+  "more_from_youtube": {
+    "message": "Več iz YouTuba"
+  },
+  "hide_youtube_premium": {
+    "message": "Skrij »YouTube Premium«"
+  },
+  "hide_youtube_music": {
+    "message": "Skrij »YouTube Music«"
+  },
+  "hide_youtube_kids": {
+    "message": "Skrij »YouTube Kids«"
+  },
+  "hide_youtube_studio": {
+    "message": "Skrij »YouTube Studio«"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Ogled na GitHubu"
+  },
+  "compact_mode": {
+    "message": "Strnjen način"
+  },
+  "hide_related_searches": {
+    "message": "Skrij sorodna iskanja"
+  },
+  "hide_search_info_card": {
+    "message": "Skrij informacijsko kartico"
+  },
+  "search": {
+    "message": "Iskanje"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Skrij polico videoposnetkov kanala"
+  },
+  "auto_skip_ads": {
+    "message": "Samodejno preskoči oglase"
+  },
+  "hide_footer": {
+    "message": "Skrij nogo in povezave O nas"
+  },
+  "hide_my_channel": {
+    "message": "Skrij »Moj kanal«"
+  },
+  "hide_downloads": {
+    "message": "Skrij »Prenosi«"
+  },
+  "experimental": {
+    "message": "eksperimentalno"
+  },
+  "experimental_notice": {
+    "message": "Ta funkcija je eksperimentalna in je lahko nestabilna. Aktivno jo preizkušamo, delite povratne informacije, da nam pomagate pri izboljšavah."
+  },
+  "experimental_title": {
+    "message": "Eksperimentalna funkcija"
+  },
+  "cancel": {
+    "message": "Prekliči"
+  },
+  "enable_anyway": {
+    "message": "Vseeno omogoči"
+  },
+  "hide_expand_button": {
+    "message": "Skrij gumb »Prikaži več«"
+  },
+  "hide_live": {
+    "message": "Skrij »V živo«"
+  },
+  "playback_speed": {
+    "message": "Hitrost predvajanja"
+  },
+  "normal_speed": {
+    "message": "Običajna"
+  },
+  "video_page": {
+    "message": "Stran videoposnetka"
+  },
+  "video_page_elements": {
+    "message": "Elementi strani"
+  },
+  "hide_comments": {
+    "message": "Skrij komentarje"
+  },
+  "hide_recommended_videos": {
+    "message": "Skrij priporočene videoposnetke"
+  },
+  "hide_live_chat": {
+    "message": "Skrij klepet v živo"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Skrij izdelke in vstopnice"
+  },
+  "hide_end_screen_cards": {
+    "message": "Skrij kartice na koncu"
+  },
+  "hide_action_buttons": {
+    "message": "Skrij gumbe dejanj"
+  },
+  "hide_like_dislike": {
+    "message": "Skrij všečke"
+  },
+  "hide_description": {
+    "message": "Skrij opis"
+  },
+  "hide_ad_info_panels": {
+    "message": "Skrij oglasne informacijske plošče"
+  },
+  "video_description": {
+    "message": "Opis"
+  },
+  "hide_description_ai": {
+    "message": "Skrij razdelek UI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Skrij prepis"
+  },
+  "hide_description_people": {
+    "message": "Skrij omenjene osebe"
+  },
+  "hide_description_related": {
+    "message": "Skrij sorodne videoposnetke"
+  },
+  "hide_description_channel": {
+    "message": "Skrij kartico kanala"
+  },
+  "hide_how_this_was_made": {
+    "message": "Skrij »Kako je bilo ustvarjeno«"
+  },
+  "preset_balanced": {
+    "message": "Uravnotežen"
+  },
+  "preset_maximum": {
+    "message": "Največji"
+  },
+  "preset_custom": {
+    "message": "Po meri"
+  },
+  "reset_preset": {
+    "message": "Ponastavi prednastavitev na privzeto"
+  },
+  "preset_warning_title": {
+    "message": "Urejanje vgrajene prednastavitve"
+  },
+  "preset_warning_text": {
+    "message": "Spreminjate vgrajeno prednastavitev. Vaše spremembe se shranijo vanjo in jih lahko kadar koli ponastavite na privzeto."
+  },
+  "preset_warning_dont_show": {
+    "message": "Tega ne prikaži več"
+  },
+  "continue_action": {
+    "message": "Nadaljuj"
+  },
+  "presets": {
+    "message": "Prednastavitve"
+  },
+  "features_hidden": {
+    "message": "{count} skritih"
+  },
+  "preset_light": {
+    "message": "Lahek"
+  },
+  "preset_light_desc": {
+    "message": "Lahko čiščenje najbolj motečih delov YouTuba."
+  },
+  "preset_balanced_desc": {
+    "message": "Uravnotežen YouTube brez motenj."
+  },
+  "preset_maximum_desc": {
+    "message": "Največje čiščenje: skrije skoraj vse odvečno."
+  },
+  "preset_custom_desc": {
+    "message": "Vaša lastna konfiguracija. Prilagodite kar želite."
+  },
+  "reset_action": {
+    "message": "Ponastavi"
+  },
+  "reset_confirm_text": {
+    "message": "Ponastavim trenutno prednastavitev na privzeto stanje? Vaše spremembe bodo izgubljene."
+  },
+  "settings_label": {
+    "message": "Nastavitve"
+  },
+  "hide_description_chapters": {
+    "message": "Skrij poglavja in epizode"
+  }
+}

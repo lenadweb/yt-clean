@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean — Hide Shorts, Remove Recommendations, Focus & Detox"
+    "message": "YouTube Clean: Block Shorts, Hide Recommendations, Skip Ads | Focus"
   },
   "appDescription": {
-    "message": "Hide YouTube Shorts, recommendations, ads and clutter. 60+ toggles for a clean, distraction-free YouTube built for focus."
+    "message": "Block Shorts, hide recommendations, comments and ads on YouTube. 60+ toggles for a clean, distraction free, focused YouTube."
   },
   "actionTitle": {
     "message": "Click to open Youtube Settings"
@@ -210,7 +210,7 @@
     "message": "experimental"
   },
   "experimental_notice": {
-    "message": "This feature is experimental and may be unstable. We’re actively testing it — share your feedback to help us improve it."
+    "message": "This feature is experimental and may be unstable. We’re actively testing it, share your feedback to help us improve it."
   },
   "experimental_title": {
     "message": "Experimental feature"
@@ -327,7 +327,7 @@
     "message": "A balanced, distraction-free YouTube."
   },
   "preset_maximum_desc": {
-    "message": "Maximum cleanup — hides almost everything extra."
+    "message": "Maximum cleanup: hides almost everything extra."
   },
   "preset_custom_desc": {
     "message": "Your own configuration. Tweak anything you like."

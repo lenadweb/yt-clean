@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: bloqueja Shorts, amaga recomanacions i anuncis"
+  },
+  "appDescription": {
+    "message": "Bloqueja Shorts i amaga recomanacions, comentaris i anuncis. Més de 60 opcions per a un YouTube net i sense distraccions."
+  },
+  "actionTitle": {
+    "message": "Obre la configuració de YouTube"
+  },
+  "toggle_extension": {
+    "message": "Activa l'extensió"
+  },
+  "new": {
+    "message": "nou"
+  },
+  "basic_template": {
+    "message": "Plantilla bàsica"
+  },
+  "search_bar": {
+    "message": "Barra de cerca"
+  },
+  "hide_voice_search_button": {
+    "message": "Amaga el botó de cerca per veu"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Amaga el botó de teclat virtual"
+  },
+  "hide_search_tags": {
+    "message": "Amaga les etiquetes de cerca"
+  },
+  "actions_and_user": {
+    "message": "Accions i perfil"
+  },
+  "hide_upload_button": {
+    "message": "Amaga el botó de pujada"
+  },
+  "hide_notifications": {
+    "message": "Amaga les notificacions"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed i recomanacions"
+  },
+  "content_blocks": {
+    "message": "Blocs de contingut"
+  },
+  "hide_shorts_sections": {
+    "message": "Amaga les seccions de Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Amaga Explora i Notícies"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Desactiva la previsualització automàtica"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Amaga mescles i llistes de reproducció"
+  },
+  "ads": {
+    "message": "Anuncis"
+  },
+  "hide_youtube_banners": {
+    "message": "Amaga els bàners de YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Amaga els vídeos patrocinats del feed"
+  },
+  "video_playback_and_channel": {
+    "message": "Reproducció i canal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Control lliscant de velocitat"
+  },
+  "player": {
+    "message": "Reproductor"
+  },
+  "hide_mini_size_button": {
+    "message": "Amaga el botó de minireproductor"
+  },
+  "hide_wide_size_button": {
+    "message": "Amaga el botó de mode cinema"
+  },
+  "hide_subtitles_button": {
+    "message": "Amaga el botó de subtítols"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Amaga l'interruptor de reproducció automàtica"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Control de velocitat"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Canvi automàtic al següent"
+  },
+  "channel": {
+    "message": "Canal"
+  },
+  "hide_channel_trailer": {
+    "message": "Amaga el tràiler del canal"
+  },
+  "hide_channel_banner": {
+    "message": "Amaga el bàner del canal"
+  },
+  "sidebar": {
+    "message": "Barra lateral"
+  },
+  "hide_sidebar_completely": {
+    "message": "Amaga la barra lateral del tot"
+  },
+  "main_menu": {
+    "message": "Menú principal"
+  },
+  "hide_shorts": {
+    "message": "Amaga «Shorts»"
+  },
+  "you": {
+    "message": "Tu"
+  },
+  "hide_history": {
+    "message": "Amaga «Historial»"
+  },
+  "hide_playlists": {
+    "message": "Amaga «Llistes de reproducció»"
+  },
+  "hide_your_video": {
+    "message": "Amaga «Els teus vídeos»"
+  },
+  "hide_watch_later": {
+    "message": "Amaga «Mira-ho més tard»"
+  },
+  "hide_liked_videos": {
+    "message": "Amaga «Vídeos que m'agraden»"
+  },
+  "your_movies": {
+    "message": "Amaga «Pel·lícules»"
+  },
+  "hide_subscriptions_list": {
+    "message": "Amaga la llista de subscripcions"
+  },
+  "explore": {
+    "message": "Explora"
+  },
+  "hide_trending": {
+    "message": "Amaga «Tendències»"
+  },
+  "hide_music": {
+    "message": "Amaga «Música»"
+  },
+  "hide_gaming": {
+    "message": "Amaga «Videojocs»"
+  },
+  "hide_news": {
+    "message": "Amaga «Notícies»"
+  },
+  "hide_sports": {
+    "message": "Amaga «Esports»"
+  },
+  "more_from_youtube": {
+    "message": "Més de YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Amaga «YouTube Premium»"
+  },
+  "hide_youtube_music": {
+    "message": "Amaga «YouTube Music»"
+  },
+  "hide_youtube_kids": {
+    "message": "Amaga «YouTube Kids»"
+  },
+  "hide_youtube_studio": {
+    "message": "Amaga «YouTube Studio»"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Mostra a GitHub"
+  },
+  "compact_mode": {
+    "message": "Mode compacte"
+  },
+  "hide_related_searches": {
+    "message": "Amaga les cerques relacionades"
+  },
+  "hide_search_info_card": {
+    "message": "Amaga la targeta d'informació"
+  },
+  "search": {
+    "message": "Cerca"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Amaga el prestatge de vídeos del canal"
+  },
+  "auto_skip_ads": {
+    "message": "Omet els anuncis automàticament"
+  },
+  "hide_footer": {
+    "message": "Amaga el peu de pàgina i els enllaços"
+  },
+  "hide_my_channel": {
+    "message": "Amaga «El meu canal»"
+  },
+  "hide_downloads": {
+    "message": "Amaga «Baixades»"
+  },
+  "experimental": {
+    "message": "experimental"
+  },
+  "experimental_notice": {
+    "message": "Aquesta funció és experimental i pot ser inestable. L'estem provant activament, comparteix els teus comentaris per ajudar-nos a millorar-la."
+  },
+  "experimental_title": {
+    "message": "Funció experimental"
+  },
+  "cancel": {
+    "message": "Cancel·la"
+  },
+  "enable_anyway": {
+    "message": "Activa igualment"
+  },
+  "hide_expand_button": {
+    "message": "Amaga el botó «Mostra'n més»"
+  },
+  "hide_live": {
+    "message": "Amaga «En directe»"
+  },
+  "playback_speed": {
+    "message": "Velocitat de reproducció"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Pàgina del vídeo"
+  },
+  "video_page_elements": {
+    "message": "Elements de la pàgina"
+  },
+  "hide_comments": {
+    "message": "Amaga els comentaris"
+  },
+  "hide_recommended_videos": {
+    "message": "Amaga els vídeos recomanats"
+  },
+  "hide_live_chat": {
+    "message": "Amaga el xat en directe"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Amaga productes i entrades"
+  },
+  "hide_end_screen_cards": {
+    "message": "Amaga les targetes finals"
+  },
+  "hide_action_buttons": {
+    "message": "Amaga els botons d'acció"
+  },
+  "hide_like_dislike": {
+    "message": "Amaga m'agrada/no m'agrada"
+  },
+  "hide_description": {
+    "message": "Amaga la descripció"
+  },
+  "hide_ad_info_panels": {
+    "message": "Amaga els panells d'informació d'anuncis"
+  },
+  "video_description": {
+    "message": "Descripció"
+  },
+  "hide_description_ai": {
+    "message": "Amaga la secció d'IA (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Amaga la transcripció"
+  },
+  "hide_description_people": {
+    "message": "Amaga les persones esmentades"
+  },
+  "hide_description_related": {
+    "message": "Amaga els vídeos relacionats"
+  },
+  "hide_description_channel": {
+    "message": "Amaga la targeta del canal"
+  },
+  "hide_how_this_was_made": {
+    "message": "Amaga «Com s'ha fet»"
+  },
+  "preset_balanced": {
+    "message": "Equilibrat"
+  },
+  "preset_maximum": {
+    "message": "Màxim"
+  },
+  "preset_custom": {
+    "message": "Personalitzat"
+  },
+  "reset_preset": {
+    "message": "Restableix el perfil predeterminat"
+  },
+  "preset_warning_title": {
+    "message": "Esteu editant un perfil integrat"
+  },
+  "preset_warning_text": {
+    "message": "Esteu canviant un perfil integrat. Els canvis es desen en aquest perfil i es poden restablir als valors predeterminats en qualsevol moment."
+  },
+  "preset_warning_dont_show": {
+    "message": "No ho tornis a mostrar"
+  },
+  "continue_action": {
+    "message": "Continua"
+  },
+  "presets": {
+    "message": "Perfils"
+  },
+  "features_hidden": {
+    "message": "{count} amagats"
+  },
+  "preset_light": {
+    "message": "Lleuger"
+  },
+  "preset_light_desc": {
+    "message": "Neteja lleugera de les parts més distractores de YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube equilibrat i sense distraccions."
+  },
+  "preset_maximum_desc": {
+    "message": "Neteja màxima: amaga gairebé tot el que sobra."
+  },
+  "preset_custom_desc": {
+    "message": "La teva pròpia configuració. Ajusta el que vulguis."
+  },
+  "reset_action": {
+    "message": "Restableix"
+  },
+  "reset_confirm_text": {
+    "message": "Voleu restablir el perfil actual al seu estat predeterminat? Es perdran els vostres canvis en aquest perfil."
+  },
+  "settings_label": {
+    "message": "Configuració"
+  },
+  "hide_description_chapters": {
+    "message": "Amaga capítols i episodis"
+  }
+}

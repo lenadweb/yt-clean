@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokuoti Shorts, slėpti rekomendacijas ir reklamas"
+  },
+  "appDescription": {
+    "message": "Blokuokite Shorts, slėpkite rekomendacijas, komentarus ir reklamas. 60+ jungiklių švariam YouTube be blaškymo."
+  },
+  "actionTitle": {
+    "message": "Atidaryti YouTube nustatymus"
+  },
+  "toggle_extension": {
+    "message": "Įjungti plėtinį"
+  },
+  "new": {
+    "message": "nauja"
+  },
+  "basic_template": {
+    "message": "Pagrindinis šablonas"
+  },
+  "search_bar": {
+    "message": "Paieškos juosta"
+  },
+  "hide_voice_search_button": {
+    "message": "Slėpti balso paieškos mygtuką"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Slėpti virtualios klaviatūros mygtuką"
+  },
+  "hide_search_tags": {
+    "message": "Slėpti paieškos žymas"
+  },
+  "actions_and_user": {
+    "message": "Veiksmai ir profilis"
+  },
+  "hide_upload_button": {
+    "message": "Slėpti įkėlimo mygtuką"
+  },
+  "hide_notifications": {
+    "message": "Slėpti pranešimus"
+  },
+  "feed_and_recommendations": {
+    "message": "Srautas ir rekomendacijos"
+  },
+  "content_blocks": {
+    "message": "Turinio blokai"
+  },
+  "hide_shorts_sections": {
+    "message": "Slėpti Shorts skiltis"
+  },
+  "hide_explore_and_news": {
+    "message": "Slėpti Naršyti ir Naujienos"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Išjungti automatinę peržiūrą užvedus"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Slėpti maišymus ir grojaraščius"
+  },
+  "ads": {
+    "message": "Reklamos"
+  },
+  "hide_youtube_banners": {
+    "message": "Slėpti YouTube reklamjuostes"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Slėpti remiamus vaizdo įrašus"
+  },
+  "video_playback_and_channel": {
+    "message": "Atkūrimas ir kanalas"
+  },
+  "slider_playback_speed_control": {
+    "message": "Atkūrimo greičio slankiklis"
+  },
+  "player": {
+    "message": "Grotuvas"
+  },
+  "hide_mini_size_button": {
+    "message": "Slėpti mini grotuvo mygtuką"
+  },
+  "hide_wide_size_button": {
+    "message": "Slėpti kino režimo mygtuką"
+  },
+  "hide_subtitles_button": {
+    "message": "Slėpti subtitrų mygtuką"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Slėpti automatinio paleidimo jungiklį"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Greičio valdymas"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatinis perėjimas prie kito"
+  },
+  "channel": {
+    "message": "Kanalas"
+  },
+  "hide_channel_trailer": {
+    "message": "Slėpti kanalo anonsą"
+  },
+  "hide_channel_banner": {
+    "message": "Slėpti kanalo reklamjuostę"
+  },
+  "sidebar": {
+    "message": "Šoninė juosta"
+  },
+  "hide_sidebar_completely": {
+    "message": "Visiškai slėpti šoninę juostą"
+  },
+  "main_menu": {
+    "message": "Pagrindinis meniu"
+  },
+  "hide_shorts": {
+    "message": "Slėpti „Shorts“"
+  },
+  "you": {
+    "message": "Jūs"
+  },
+  "hide_history": {
+    "message": "Slėpti „Istorija“"
+  },
+  "hide_playlists": {
+    "message": "Slėpti „Grojaraščiai“"
+  },
+  "hide_your_video": {
+    "message": "Slėpti „Jūsų vaizdo įrašai“"
+  },
+  "hide_watch_later": {
+    "message": "Slėpti „Žiūrėti vėliau“"
+  },
+  "hide_liked_videos": {
+    "message": "Slėpti „Patikę vaizdo įrašai“"
+  },
+  "your_movies": {
+    "message": "Slėpti „Filmai“"
+  },
+  "hide_subscriptions_list": {
+    "message": "Slėpti prenumeratų sąrašą"
+  },
+  "explore": {
+    "message": "Naršyti"
+  },
+  "hide_trending": {
+    "message": "Slėpti „Populiaru“"
+  },
+  "hide_music": {
+    "message": "Slėpti „Muzika“"
+  },
+  "hide_gaming": {
+    "message": "Slėpti „Žaidimai“"
+  },
+  "hide_news": {
+    "message": "Slėpti „Naujienos“"
+  },
+  "hide_sports": {
+    "message": "Slėpti „Sportas“"
+  },
+  "more_from_youtube": {
+    "message": "Daugiau iš YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Slėpti „YouTube Premium“"
+  },
+  "hide_youtube_music": {
+    "message": "Slėpti „YouTube Music“"
+  },
+  "hide_youtube_kids": {
+    "message": "Slėpti „YouTube Kids“"
+  },
+  "hide_youtube_studio": {
+    "message": "Slėpti „YouTube Studio“"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Peržiūrėti GitHub"
+  },
+  "compact_mode": {
+    "message": "Kompaktiškas režimas"
+  },
+  "hide_related_searches": {
+    "message": "Slėpti susijusias paieškas"
+  },
+  "hide_search_info_card": {
+    "message": "Slėpti informacinę kortelę"
+  },
+  "search": {
+    "message": "Paieška"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Slėpti kanalo vaizdo įrašų lentyną"
+  },
+  "auto_skip_ads": {
+    "message": "Automatiškai praleisti reklamas"
+  },
+  "hide_footer": {
+    "message": "Slėpti poraštę ir Apie nuorodas"
+  },
+  "hide_my_channel": {
+    "message": "Slėpti „Mano kanalas“"
+  },
+  "hide_downloads": {
+    "message": "Slėpti „Atsisiuntimai“"
+  },
+  "experimental": {
+    "message": "eksperimentinis"
+  },
+  "experimental_notice": {
+    "message": "Ši funkcija yra eksperimentinė ir gali veikti nestabiliai. Aktyviai ją testuojame, pasidalykite atsiliepimu, kad padėtumėte ją patobulinti."
+  },
+  "experimental_title": {
+    "message": "Eksperimentinė funkcija"
+  },
+  "cancel": {
+    "message": "Atšaukti"
+  },
+  "enable_anyway": {
+    "message": "Vis tiek įjungti"
+  },
+  "hide_expand_button": {
+    "message": "Slėpti mygtuką „Rodyti daugiau“"
+  },
+  "hide_live": {
+    "message": "Slėpti „Tiesiogiai“"
+  },
+  "playback_speed": {
+    "message": "Atkūrimo greitis"
+  },
+  "normal_speed": {
+    "message": "Normalus"
+  },
+  "video_page": {
+    "message": "Vaizdo įrašo puslapis"
+  },
+  "video_page_elements": {
+    "message": "Puslapio elementai"
+  },
+  "hide_comments": {
+    "message": "Slėpti komentarus"
+  },
+  "hide_recommended_videos": {
+    "message": "Slėpti rekomenduojamus vaizdo įrašus"
+  },
+  "hide_live_chat": {
+    "message": "Slėpti tiesioginį pokalbį"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Slėpti prekes ir bilietus"
+  },
+  "hide_end_screen_cards": {
+    "message": "Slėpti pabaigos ekrano korteles"
+  },
+  "hide_action_buttons": {
+    "message": "Slėpti veiksmų mygtukus"
+  },
+  "hide_like_dislike": {
+    "message": "Slėpti patiktukus"
+  },
+  "hide_description": {
+    "message": "Slėpti aprašymą"
+  },
+  "hide_ad_info_panels": {
+    "message": "Slėpti reklamos informacijos skydelius"
+  },
+  "video_description": {
+    "message": "Aprašymas"
+  },
+  "hide_description_ai": {
+    "message": "Slėpti DI skiltį (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Slėpti transkripciją"
+  },
+  "hide_description_people": {
+    "message": "Slėpti paminėtus žmones"
+  },
+  "hide_description_related": {
+    "message": "Slėpti susijusius vaizdo įrašus"
+  },
+  "hide_description_channel": {
+    "message": "Slėpti kanalo kortelę"
+  },
+  "hide_how_this_was_made": {
+    "message": "Slėpti „Kaip tai sukurta“"
+  },
+  "preset_balanced": {
+    "message": "Subalansuotas"
+  },
+  "preset_maximum": {
+    "message": "Maksimalus"
+  },
+  "preset_custom": {
+    "message": "Pasirinktinis"
+  },
+  "reset_preset": {
+    "message": "Atkurti numatytąjį profilį"
+  },
+  "preset_warning_title": {
+    "message": "Redaguojamas integruotas profilis"
+  },
+  "preset_warning_text": {
+    "message": "Keičiate integruotą profilį. Jūsų pakeitimai išsaugomi jame ir bet kada gali būti atkurti į numatytuosius."
+  },
+  "preset_warning_dont_show": {
+    "message": "Daugiau nerodyti"
+  },
+  "continue_action": {
+    "message": "Tęsti"
+  },
+  "presets": {
+    "message": "Profiliai"
+  },
+  "features_hidden": {
+    "message": "paslėpta: {count}"
+  },
+  "preset_light": {
+    "message": "Lengvas"
+  },
+  "preset_light_desc": {
+    "message": "Lengvas labiausiai blaškančių YouTube dalių valymas."
+  },
+  "preset_balanced_desc": {
+    "message": "Subalansuotas YouTube be blaškymo."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimalus valymas: paslepia beveik viską, kas pertekliška."
+  },
+  "preset_custom_desc": {
+    "message": "Jūsų pačių konfigūracija. Koreguokite ką norite."
+  },
+  "reset_action": {
+    "message": "Atkurti"
+  },
+  "reset_confirm_text": {
+    "message": "Atkurti dabartinį profilį į numatytąją būseną? Jūsų pakeitimai šiame profilyje bus prarasti."
+  },
+  "settings_label": {
+    "message": "Nustatymai"
+  },
+  "hide_description_chapters": {
+    "message": "Slėpti skyrius ir epizodus"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts ബ്ലോക്ക്, ശുപാർശകളും പരസ്യങ്ങളും മറയ്ക്കുക"
+  },
+  "appDescription": {
+    "message": "Shorts ബ്ലോക്ക് ചെയ്യുക, ശുപാർശകൾ, കമന്റുകൾ, പരസ്യങ്ങൾ മറയ്ക്കുക. 60+ ടോഗിളുകളോടെ വൃത്തിയുള്ള YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube ക്രമീകരണങ്ങൾ തുറക്കുക"
+  },
+  "toggle_extension": {
+    "message": "വിപുലീകരണം ഓണാക്കുക"
+  },
+  "new": {
+    "message": "പുതിയത്"
+  },
+  "basic_template": {
+    "message": "അടിസ്ഥാന ടെംപ്ലേറ്റ്"
+  },
+  "search_bar": {
+    "message": "തിരയൽ ബാർ"
+  },
+  "hide_voice_search_button": {
+    "message": "വോയ്‌സ് തിരയൽ ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "വെർച്വൽ കീബോർഡ് ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_search_tags": {
+    "message": "തിരയൽ ടാഗുകൾ മറയ്ക്കുക"
+  },
+  "actions_and_user": {
+    "message": "പ്രവർത്തനങ്ങളും പ്രൊഫൈലും"
+  },
+  "hide_upload_button": {
+    "message": "അപ്‌ലോഡ് ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_notifications": {
+    "message": "അറിയിപ്പുകൾ മറയ്ക്കുക"
+  },
+  "feed_and_recommendations": {
+    "message": "ഫീഡും ശുപാർശകളും"
+  },
+  "content_blocks": {
+    "message": "ഉള്ളടക്ക ബ്ലോക്കുകൾ"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts വിഭാഗങ്ങൾ മറയ്ക്കുക"
+  },
+  "hide_explore_and_news": {
+    "message": "എക്സ്പ്ലോറും വാർത്തകളും മറയ്ക്കുക"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "ഹോവറിൽ സ്വയം പ്രിവ്യൂ ഓഫ് ചെയ്യുക"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "മിക്സുകളും പ്ലേലിസ്റ്റുകളും മറയ്ക്കുക"
+  },
+  "ads": {
+    "message": "പരസ്യങ്ങൾ"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube ബാനറുകൾ മറയ്ക്കുക"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ഫീഡിലെ സ്പോൺസർ വീഡിയോകൾ മറയ്ക്കുക"
+  },
+  "video_playback_and_channel": {
+    "message": "പ്ലേബാക്കും ചാനലും"
+  },
+  "slider_playback_speed_control": {
+    "message": "പ്ലേബാക്ക് വേഗത സ്ലൈഡർ"
+  },
+  "player": {
+    "message": "പ്ലെയർ"
+  },
+  "hide_mini_size_button": {
+    "message": "മിനി പ്ലെയർ ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_wide_size_button": {
+    "message": "തിയേറ്റർ മോഡ് ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_subtitles_button": {
+    "message": "സബ്‌ടൈറ്റിൽ ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ഓട്ടോപ്ലേ സ്വിച്ച് മറയ്ക്കുക"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "വേഗത നിയന്ത്രണം"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "അടുത്തതിലേക്ക് സ്വയം മാറൽ"
+  },
+  "channel": {
+    "message": "ചാനൽ"
+  },
+  "hide_channel_trailer": {
+    "message": "ചാനൽ ട്രെയിലർ മറയ്ക്കുക"
+  },
+  "hide_channel_banner": {
+    "message": "ചാനൽ ബാനർ മറയ്ക്കുക"
+  },
+  "sidebar": {
+    "message": "സൈഡ്‌ബാർ"
+  },
+  "hide_sidebar_completely": {
+    "message": "സൈഡ്‌ബാർ പൂർണ്ണമായി മറയ്ക്കുക"
+  },
+  "main_menu": {
+    "message": "പ്രധാന മെനു"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" മറയ്ക്കുക"
+  },
+  "you": {
+    "message": "നിങ്ങൾ"
+  },
+  "hide_history": {
+    "message": "\"ചരിത്രം\" മറയ്ക്കുക"
+  },
+  "hide_playlists": {
+    "message": "\"പ്ലേലിസ്റ്റുകൾ\" മറയ്ക്കുക"
+  },
+  "hide_your_video": {
+    "message": "\"നിങ്ങളുടെ വീഡിയോകൾ\" മറയ്ക്കുക"
+  },
+  "hide_watch_later": {
+    "message": "\"പിന്നീട് കാണുക\" മറയ്ക്കുക"
+  },
+  "hide_liked_videos": {
+    "message": "\"ഇഷ്ടപ്പെട്ട വീഡിയോകൾ\" മറയ്ക്കുക"
+  },
+  "your_movies": {
+    "message": "\"സിനിമകൾ\" മറയ്ക്കുക"
+  },
+  "hide_subscriptions_list": {
+    "message": "സബ്‌സ്‌ക്രിപ്ഷൻ പട്ടിക മറയ്ക്കുക"
+  },
+  "explore": {
+    "message": "എക്സ്പ്ലോർ"
+  },
+  "hide_trending": {
+    "message": "\"ട്രെൻഡിംഗ്\" മറയ്ക്കുക"
+  },
+  "hide_music": {
+    "message": "\"സംഗീതം\" മറയ്ക്കുക"
+  },
+  "hide_gaming": {
+    "message": "\"ഗെയിമിംഗ്\" മറയ്ക്കുക"
+  },
+  "hide_news": {
+    "message": "\"വാർത്തകൾ\" മറയ്ക്കുക"
+  },
+  "hide_sports": {
+    "message": "\"കായികം\" മറയ്ക്കുക"
+  },
+  "more_from_youtube": {
+    "message": "YouTube ൽ നിന്ന് കൂടുതൽ"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" മറയ്ക്കുക"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" മറയ്ക്കുക"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" മറയ്ക്കുക"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" മറയ്ക്കുക"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub ൽ കാണുക"
+  },
+  "compact_mode": {
+    "message": "കോംപാക്റ്റ് മോഡ്"
+  },
+  "hide_related_searches": {
+    "message": "അനുബന്ധ തിരയലുകൾ മറയ്ക്കുക"
+  },
+  "hide_search_info_card": {
+    "message": "തിരയൽ വിവര കാർഡ് മറയ്ക്കുക"
+  },
+  "search": {
+    "message": "തിരയൽ"
+  },
+  "hide_channel_video_shelf": {
+    "message": "ചാനൽ വീഡിയോ ഷെൽഫ് മറയ്ക്കുക"
+  },
+  "auto_skip_ads": {
+    "message": "പരസ്യങ്ങൾ സ്വയം ഒഴിവാക്കുക"
+  },
+  "hide_footer": {
+    "message": "ഫൂട്ടറും About ലിങ്കുകളും മറയ്ക്കുക"
+  },
+  "hide_my_channel": {
+    "message": "\"എന്റെ ചാനൽ\" മറയ്ക്കുക"
+  },
+  "hide_downloads": {
+    "message": "\"ഡൗൺലോഡുകൾ\" മറയ്ക്കുക"
+  },
+  "experimental": {
+    "message": "പരീക്ഷണാത്മകം"
+  },
+  "experimental_notice": {
+    "message": "ഈ സവിശേഷത പരീക്ഷണാത്മകമാണ്, അസ്ഥിരമായേക്കാം. ഞങ്ങൾ സജീവമായി പരീക്ഷിക്കുന്നു, മെച്ചപ്പെടുത്താൻ സഹായിക്കാൻ അഭിപ്രായം അയയ്ക്കുക."
+  },
+  "experimental_title": {
+    "message": "പരീക്ഷണാത്മക സവിശേഷത"
+  },
+  "cancel": {
+    "message": "റദ്ദാക്കുക"
+  },
+  "enable_anyway": {
+    "message": "എന്നാലും ഓണാക്കുക"
+  },
+  "hide_expand_button": {
+    "message": "\"കൂടുതൽ കാണിക്കുക\" ബട്ടൺ മറയ്ക്കുക"
+  },
+  "hide_live": {
+    "message": "\"ലൈവ്\" മറയ്ക്കുക"
+  },
+  "playback_speed": {
+    "message": "പ്ലേബാക്ക് വേഗത"
+  },
+  "normal_speed": {
+    "message": "സാധാരണം"
+  },
+  "video_page": {
+    "message": "വീഡിയോ പേജ്"
+  },
+  "video_page_elements": {
+    "message": "പേജ് ഘടകങ്ങൾ"
+  },
+  "hide_comments": {
+    "message": "കമന്റുകൾ മറയ്ക്കുക"
+  },
+  "hide_recommended_videos": {
+    "message": "ശുപാർശ ചെയ്ത വീഡിയോകൾ മറയ്ക്കുക"
+  },
+  "hide_live_chat": {
+    "message": "ലൈവ് ചാറ്റ് മറയ്ക്കുക"
+  },
+  "hide_merch_and_tickets": {
+    "message": "ഉൽപ്പന്നങ്ങളും ടിക്കറ്റുകളും മറയ്ക്കുക"
+  },
+  "hide_end_screen_cards": {
+    "message": "അവസാന സ്ക്രീൻ കാർഡുകൾ മറയ്ക്കുക"
+  },
+  "hide_action_buttons": {
+    "message": "പ്രവർത്തന ബട്ടണുകൾ മറയ്ക്കുക"
+  },
+  "hide_like_dislike": {
+    "message": "ലൈക്ക്/ഡിസ്‌ലൈക്ക് മറയ്ക്കുക"
+  },
+  "hide_description": {
+    "message": "വിവരണം മറയ്ക്കുക"
+  },
+  "hide_ad_info_panels": {
+    "message": "പരസ്യ വിവര പാനലുകൾ മറയ്ക്കുക"
+  },
+  "video_description": {
+    "message": "വിവരണം"
+  },
+  "hide_description_ai": {
+    "message": "AI വിഭാഗം മറയ്ക്കുക (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "ട്രാൻസ്ക്രിപ്റ്റ് മറയ്ക്കുക"
+  },
+  "hide_description_people": {
+    "message": "പരാമർശിച്ച ആളുകളെ മറയ്ക്കുക"
+  },
+  "hide_description_related": {
+    "message": "അനുബന്ധ വീഡിയോകൾ മറയ്ക്കുക"
+  },
+  "hide_description_channel": {
+    "message": "ചാനൽ കാർഡ് മറയ്ക്കുക"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"ഇത് എങ്ങനെ ഉണ്ടാക്കി\" മറയ്ക്കുക"
+  },
+  "preset_balanced": {
+    "message": "സന്തുലിതം"
+  },
+  "preset_maximum": {
+    "message": "പരമാവധി"
+  },
+  "preset_custom": {
+    "message": "ഇഷ്ടാനുസൃതം"
+  },
+  "reset_preset": {
+    "message": "പ്രീസെറ്റ് ഡിഫോൾട്ടിലേക്ക് പുനഃസജ്ജമാക്കുക"
+  },
+  "preset_warning_title": {
+    "message": "ബിൽട്ട്-ഇൻ പ്രീസെറ്റ് എഡിറ്റ് ചെയ്യുന്നു"
+  },
+  "preset_warning_text": {
+    "message": "നിങ്ങൾ ബിൽട്ട്-ഇൻ പ്രീസെറ്റ് മാറ്റുകയാണ്. മാറ്റങ്ങൾ അതിൽ സംരക്ഷിക്കപ്പെടും, എപ്പോൾ വേണമെങ്കിലും ഡിഫോൾട്ടിലേക്ക് മടക്കാം."
+  },
+  "preset_warning_dont_show": {
+    "message": "ഇത് വീണ്ടും കാണിക്കരുത്"
+  },
+  "continue_action": {
+    "message": "തുടരുക"
+  },
+  "presets": {
+    "message": "പ്രീസെറ്റുകൾ"
+  },
+  "features_hidden": {
+    "message": "{count} മറച്ചു"
+  },
+  "preset_light": {
+    "message": "ലഘു"
+  },
+  "preset_light_desc": {
+    "message": "YouTube ലെ ഏറ്റവും ശ്രദ്ധ തിരിക്കുന്ന ഭാഗങ്ങളുടെ ലഘു വൃത്തിയാക്കൽ."
+  },
+  "preset_balanced_desc": {
+    "message": "സന്തുലിതവും ശ്രദ്ധ തിരിക്കാത്തതുമായ YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "പരമാവധി വൃത്തിയാക്കൽ: അധികമുള്ളതെല്ലാം ഏതാണ്ട് മറയ്ക്കുന്നു."
+  },
+  "preset_custom_desc": {
+    "message": "നിങ്ങളുടെ സ്വന്തം ക്രമീകരണം. ഇഷ്ടമുള്ളത് ക്രമീകരിക്കുക."
+  },
+  "reset_action": {
+    "message": "പുനഃസജ്ജമാക്കുക"
+  },
+  "reset_confirm_text": {
+    "message": "നിലവിലെ പ്രീസെറ്റ് ഡിഫോൾട്ട് നിലയിലേക്ക് പുനഃസജ്ജമാക്കണോ? ഈ പ്രീസെറ്റിലെ മാറ്റങ്ങൾ നഷ്ടപ്പെടും."
+  },
+  "settings_label": {
+    "message": "ക്രമീകരണങ്ങൾ"
+  },
+  "hide_description_chapters": {
+    "message": "അധ്യായങ്ങളും എപ്പിസോഡുകളും മറയ്ക്കുക"
+  }
+}

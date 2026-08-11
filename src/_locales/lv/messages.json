@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: bloķēt Shorts, slēpt ieteikumus un reklāmas"
+  },
+  "appDescription": {
+    "message": "Bloķējiet Shorts, slēpiet ieteikumus, komentārus un reklāmas. 60+ slēdži tīram YouTube bez traucēkļiem."
+  },
+  "actionTitle": {
+    "message": "Atvērt YouTube iestatījumus"
+  },
+  "toggle_extension": {
+    "message": "Ieslēgt paplašinājumu"
+  },
+  "new": {
+    "message": "jauns"
+  },
+  "basic_template": {
+    "message": "Pamata veidne"
+  },
+  "search_bar": {
+    "message": "Meklēšanas josla"
+  },
+  "hide_voice_search_button": {
+    "message": "Slēpt balss meklēšanas pogu"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Slēpt virtuālās tastatūras pogu"
+  },
+  "hide_search_tags": {
+    "message": "Slēpt meklēšanas tagus"
+  },
+  "actions_and_user": {
+    "message": "Darbības un profils"
+  },
+  "hide_upload_button": {
+    "message": "Slēpt augšupielādes pogu"
+  },
+  "hide_notifications": {
+    "message": "Slēpt paziņojumus"
+  },
+  "feed_and_recommendations": {
+    "message": "Plūsma un ieteikumi"
+  },
+  "content_blocks": {
+    "message": "Satura bloki"
+  },
+  "hide_shorts_sections": {
+    "message": "Slēpt Shorts sadaļas"
+  },
+  "hide_explore_and_news": {
+    "message": "Slēpt Izpētīt un Ziņas"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Izslēgt automātisko priekšskatījumu"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Slēpt miksus un atskaņošanas sarakstus"
+  },
+  "ads": {
+    "message": "Reklāmas"
+  },
+  "hide_youtube_banners": {
+    "message": "Slēpt YouTube reklāmkarogus"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Slēpt sponsorētos videoklipus"
+  },
+  "video_playback_and_channel": {
+    "message": "Atskaņošana un kanāls"
+  },
+  "slider_playback_speed_control": {
+    "message": "Atskaņošanas ātruma slīdnis"
+  },
+  "player": {
+    "message": "Atskaņotājs"
+  },
+  "hide_mini_size_button": {
+    "message": "Slēpt mini atskaņotāja pogu"
+  },
+  "hide_wide_size_button": {
+    "message": "Slēpt kinorežīma pogu"
+  },
+  "hide_subtitles_button": {
+    "message": "Slēpt subtitru pogu"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Slēpt automātiskās atskaņošanas slēdzi"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Ātruma vadība"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automātiska pāreja uz nākamo"
+  },
+  "channel": {
+    "message": "Kanāls"
+  },
+  "hide_channel_trailer": {
+    "message": "Slēpt kanāla treileri"
+  },
+  "hide_channel_banner": {
+    "message": "Slēpt kanāla reklāmkarogu"
+  },
+  "sidebar": {
+    "message": "Sānjosla"
+  },
+  "hide_sidebar_completely": {
+    "message": "Pilnībā slēpt sānjoslu"
+  },
+  "main_menu": {
+    "message": "Galvenā izvēlne"
+  },
+  "hide_shorts": {
+    "message": "Slēpt “Shorts”"
+  },
+  "you": {
+    "message": "Jūs"
+  },
+  "hide_history": {
+    "message": "Slēpt “Vēsture”"
+  },
+  "hide_playlists": {
+    "message": "Slēpt “Atskaņošanas saraksti”"
+  },
+  "hide_your_video": {
+    "message": "Slēpt “Jūsu videoklipi”"
+  },
+  "hide_watch_later": {
+    "message": "Slēpt “Skatīties vēlāk”"
+  },
+  "hide_liked_videos": {
+    "message": "Slēpt “Patīkošie videoklipi”"
+  },
+  "your_movies": {
+    "message": "Slēpt “Filmas”"
+  },
+  "hide_subscriptions_list": {
+    "message": "Slēpt abonementu sarakstu"
+  },
+  "explore": {
+    "message": "Izpētīt"
+  },
+  "hide_trending": {
+    "message": "Slēpt “Populārākie”"
+  },
+  "hide_music": {
+    "message": "Slēpt “Mūzika”"
+  },
+  "hide_gaming": {
+    "message": "Slēpt “Spēles”"
+  },
+  "hide_news": {
+    "message": "Slēpt “Ziņas”"
+  },
+  "hide_sports": {
+    "message": "Slēpt “Sports”"
+  },
+  "more_from_youtube": {
+    "message": "Vairāk no YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Slēpt “YouTube Premium”"
+  },
+  "hide_youtube_music": {
+    "message": "Slēpt “YouTube Music”"
+  },
+  "hide_youtube_kids": {
+    "message": "Slēpt “YouTube Kids”"
+  },
+  "hide_youtube_studio": {
+    "message": "Slēpt “YouTube Studio”"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Skatīt GitHub"
+  },
+  "compact_mode": {
+    "message": "Kompaktais režīms"
+  },
+  "hide_related_searches": {
+    "message": "Slēpt saistītos meklējumus"
+  },
+  "hide_search_info_card": {
+    "message": "Slēpt informācijas kartīti"
+  },
+  "search": {
+    "message": "Meklēšana"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Slēpt kanāla video plauktu"
+  },
+  "auto_skip_ads": {
+    "message": "Automātiski izlaist reklāmas"
+  },
+  "hide_footer": {
+    "message": "Slēpt kājeni un Par saitēm"
+  },
+  "hide_my_channel": {
+    "message": "Slēpt “Mans kanāls”"
+  },
+  "hide_downloads": {
+    "message": "Slēpt “Lejupielādes”"
+  },
+  "experimental": {
+    "message": "eksperimentāls"
+  },
+  "experimental_notice": {
+    "message": "Šī funkcija ir eksperimentāla un var būt nestabila. Mēs to aktīvi testējam, dalieties ar atsauksmēm, lai palīdzētu mums to uzlabot."
+  },
+  "experimental_title": {
+    "message": "Eksperimentāla funkcija"
+  },
+  "cancel": {
+    "message": "Atcelt"
+  },
+  "enable_anyway": {
+    "message": "Tomēr ieslēgt"
+  },
+  "hide_expand_button": {
+    "message": "Slēpt pogu “Rādīt vairāk”"
+  },
+  "hide_live": {
+    "message": "Slēpt “Tiešraide”"
+  },
+  "playback_speed": {
+    "message": "Atskaņošanas ātrums"
+  },
+  "normal_speed": {
+    "message": "Normāls"
+  },
+  "video_page": {
+    "message": "Video lapa"
+  },
+  "video_page_elements": {
+    "message": "Lapas elementi"
+  },
+  "hide_comments": {
+    "message": "Slēpt komentārus"
+  },
+  "hide_recommended_videos": {
+    "message": "Slēpt ieteiktos videoklipus"
+  },
+  "hide_live_chat": {
+    "message": "Slēpt tiešraides tērzēšanu"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Slēpt preces un biļetes"
+  },
+  "hide_end_screen_cards": {
+    "message": "Slēpt beigu ekrāna kartītes"
+  },
+  "hide_action_buttons": {
+    "message": "Slēpt darbību pogas"
+  },
+  "hide_like_dislike": {
+    "message": "Slēpt patīk/nepatīk"
+  },
+  "hide_description": {
+    "message": "Slēpt aprakstu"
+  },
+  "hide_ad_info_panels": {
+    "message": "Slēpt reklāmas informācijas paneļus"
+  },
+  "video_description": {
+    "message": "Apraksts"
+  },
+  "hide_description_ai": {
+    "message": "Slēpt MI sadaļu (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Slēpt transkripciju"
+  },
+  "hide_description_people": {
+    "message": "Slēpt minētās personas"
+  },
+  "hide_description_related": {
+    "message": "Slēpt saistītos videoklipus"
+  },
+  "hide_description_channel": {
+    "message": "Slēpt kanāla kartīti"
+  },
+  "hide_how_this_was_made": {
+    "message": "Slēpt “Kā tas tapa”"
+  },
+  "preset_balanced": {
+    "message": "Līdzsvarots"
+  },
+  "preset_maximum": {
+    "message": "Maksimāls"
+  },
+  "preset_custom": {
+    "message": "Pielāgots"
+  },
+  "reset_preset": {
+    "message": "Atiestatīt profilu uz noklusējumu"
+  },
+  "preset_warning_title": {
+    "message": "Iebūvēta profila rediģēšana"
+  },
+  "preset_warning_text": {
+    "message": "Jūs maināt iebūvētu profilu. Jūsu izmaiņas tiek saglabātas tajā un tās jebkurā laikā var atiestatīt uz noklusējumu."
+  },
+  "preset_warning_dont_show": {
+    "message": "Vairs nerādīt"
+  },
+  "continue_action": {
+    "message": "Turpināt"
+  },
+  "presets": {
+    "message": "Profili"
+  },
+  "features_hidden": {
+    "message": "paslēpti: {count}"
+  },
+  "preset_light": {
+    "message": "Viegls"
+  },
+  "preset_light_desc": {
+    "message": "Viegla YouTube visvairāk traucējošo daļu tīrīšana."
+  },
+  "preset_balanced_desc": {
+    "message": "Līdzsvarots YouTube bez traucēkļiem."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimāla tīrīšana: slēpj gandrīz visu lieko."
+  },
+  "preset_custom_desc": {
+    "message": "Jūsu pašu konfigurācija. Pielāgojiet visu, ko vēlaties."
+  },
+  "reset_action": {
+    "message": "Atiestatīt"
+  },
+  "reset_confirm_text": {
+    "message": "Atiestatīt pašreizējo profilu uz noklusējuma stāvokli? Jūsu izmaiņas šajā profilā tiks zaudētas."
+  },
+  "settings_label": {
+    "message": "Iestatījumi"
+  },
+  "hide_description_chapters": {
+    "message": "Slēpt nodaļas un epizodes"
+  }
+}

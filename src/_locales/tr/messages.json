@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts engelle, önerileri ve reklamları gizle"
+  },
+  "appDescription": {
+    "message": "Shorts'u engelleyin; önerileri, yorumları ve reklamları gizleyin. Temiz, dikkat dağıtmayan YouTube için 60+ ayar."
+  },
+  "actionTitle": {
+    "message": "YouTube ayarlarını aç"
+  },
+  "toggle_extension": {
+    "message": "Uzantıyı aç/kapat"
+  },
+  "new": {
+    "message": "yeni"
+  },
+  "basic_template": {
+    "message": "Temel şablon"
+  },
+  "search_bar": {
+    "message": "Arama çubuğu"
+  },
+  "hide_voice_search_button": {
+    "message": "Sesli arama düğmesini gizle"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Sanal klavye düğmesini gizle"
+  },
+  "hide_search_tags": {
+    "message": "Arama etiketlerini gizle"
+  },
+  "actions_and_user": {
+    "message": "İşlemler ve profil"
+  },
+  "hide_upload_button": {
+    "message": "Yükleme düğmesini gizle"
+  },
+  "hide_notifications": {
+    "message": "Bildirimleri gizle"
+  },
+  "feed_and_recommendations": {
+    "message": "Akış ve öneriler"
+  },
+  "content_blocks": {
+    "message": "İçerik blokları"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts bölümlerini gizle"
+  },
+  "hide_explore_and_news": {
+    "message": "Keşfet ve Haberler'i gizle"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Üzerine gelince otomatik önizlemeyi kapat"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Mix ve oynatma listelerini gizle"
+  },
+  "ads": {
+    "message": "Reklamlar"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube banner'larını gizle"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Akıştaki sponsorlu videoları gizle"
+  },
+  "video_playback_and_channel": {
+    "message": "Oynatma ve kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Oynatma hızı kaydırıcısı"
+  },
+  "player": {
+    "message": "Oynatıcı"
+  },
+  "hide_mini_size_button": {
+    "message": "Mini oynatıcı düğmesini gizle"
+  },
+  "hide_wide_size_button": {
+    "message": "Geniş ekran düğmesini gizle"
+  },
+  "hide_subtitles_button": {
+    "message": "Altyazı düğmesini gizle"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Otomatik oynatma anahtarını gizle"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Hız kontrolü"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Sonrakine otomatik geçiş"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Kanal fragmanını gizle"
+  },
+  "hide_channel_banner": {
+    "message": "Kanal banner'ını gizle"
+  },
+  "sidebar": {
+    "message": "Kenar çubuğu"
+  },
+  "hide_sidebar_completely": {
+    "message": "Kenar çubuğunu tamamen gizle"
+  },
+  "main_menu": {
+    "message": "Ana menü"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" gizle"
+  },
+  "you": {
+    "message": "Siz"
+  },
+  "hide_history": {
+    "message": "\"Geçmiş\" gizle"
+  },
+  "hide_playlists": {
+    "message": "\"Oynatma listeleri\" gizle"
+  },
+  "hide_your_video": {
+    "message": "\"Videolarınız\" gizle"
+  },
+  "hide_watch_later": {
+    "message": "\"Daha sonra izle\" gizle"
+  },
+  "hide_liked_videos": {
+    "message": "\"Beğenilen videolar\" gizle"
+  },
+  "your_movies": {
+    "message": "\"Filmler\" gizle"
+  },
+  "hide_subscriptions_list": {
+    "message": "Abonelik listesini gizle"
+  },
+  "explore": {
+    "message": "Keşfet"
+  },
+  "hide_trending": {
+    "message": "\"Trendler\" gizle"
+  },
+  "hide_music": {
+    "message": "\"Müzik\" gizle"
+  },
+  "hide_gaming": {
+    "message": "\"Oyun\" gizle"
+  },
+  "hide_news": {
+    "message": "\"Haberler\" gizle"
+  },
+  "hide_sports": {
+    "message": "\"Spor\" gizle"
+  },
+  "more_from_youtube": {
+    "message": "YouTube'dan daha fazlası"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" gizle"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" gizle"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" gizle"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" gizle"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub'da görüntüle"
+  },
+  "compact_mode": {
+    "message": "Kompakt mod"
+  },
+  "hide_related_searches": {
+    "message": "İlgili aramaları gizle"
+  },
+  "hide_search_info_card": {
+    "message": "Arama bilgi kartını gizle"
+  },
+  "search": {
+    "message": "Arama"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Kanal video rafını gizle"
+  },
+  "auto_skip_ads": {
+    "message": "Reklamları otomatik atla"
+  },
+  "hide_footer": {
+    "message": "Alt bilgi ve Hakkında bağlantılarını gizle"
+  },
+  "hide_my_channel": {
+    "message": "\"Kanalım\" gizle"
+  },
+  "hide_downloads": {
+    "message": "\"İndirilenler\" gizle"
+  },
+  "experimental": {
+    "message": "deneysel"
+  },
+  "experimental_notice": {
+    "message": "Bu özellik deneyseldir ve kararsız olabilir. Aktif olarak test ediyoruz, geliştirmemize yardımcı olmak için geri bildirim gönderin."
+  },
+  "experimental_title": {
+    "message": "Deneysel özellik"
+  },
+  "cancel": {
+    "message": "İptal"
+  },
+  "enable_anyway": {
+    "message": "Yine de etkinleştir"
+  },
+  "hide_expand_button": {
+    "message": "\"Daha fazla göster\" düğmesini gizle"
+  },
+  "hide_live": {
+    "message": "\"Canlı\" gizle"
+  },
+  "playback_speed": {
+    "message": "Oynatma hızı"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Video sayfası"
+  },
+  "video_page_elements": {
+    "message": "Sayfa öğeleri"
+  },
+  "hide_comments": {
+    "message": "Yorumları gizle"
+  },
+  "hide_recommended_videos": {
+    "message": "Önerilen videoları gizle"
+  },
+  "hide_live_chat": {
+    "message": "Canlı sohbeti gizle"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ürün ve biletleri gizle"
+  },
+  "hide_end_screen_cards": {
+    "message": "Bitiş ekranı kartlarını gizle"
+  },
+  "hide_action_buttons": {
+    "message": "İşlem düğmelerini gizle"
+  },
+  "hide_like_dislike": {
+    "message": "Beğeni/beğenmeme gizle"
+  },
+  "hide_description": {
+    "message": "Açıklamayı gizle"
+  },
+  "hide_ad_info_panels": {
+    "message": "Reklam bilgi panellerini gizle"
+  },
+  "video_description": {
+    "message": "Açıklama"
+  },
+  "hide_description_ai": {
+    "message": "Yapay zeka bölümünü gizle (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Transkripti gizle"
+  },
+  "hide_description_people": {
+    "message": "Bahsedilen kişileri gizle"
+  },
+  "hide_description_related": {
+    "message": "İlgili videoları gizle"
+  },
+  "hide_description_channel": {
+    "message": "Kanal kartını gizle"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"Bu nasıl yapıldı\" gizle"
+  },
+  "preset_balanced": {
+    "message": "Dengeli"
+  },
+  "preset_maximum": {
+    "message": "Maksimum"
+  },
+  "preset_custom": {
+    "message": "Özel"
+  },
+  "reset_preset": {
+    "message": "Profili varsayılana sıfırla"
+  },
+  "preset_warning_title": {
+    "message": "Yerleşik profili düzenleme"
+  },
+  "preset_warning_text": {
+    "message": "Yerleşik bir profili değiştiriyorsunuz. Değişiklikleriniz bu profile kaydedilir ve istediğiniz zaman varsayılana sıfırlanabilir."
+  },
+  "preset_warning_dont_show": {
+    "message": "Bunu bir daha gösterme"
+  },
+  "continue_action": {
+    "message": "Devam et"
+  },
+  "presets": {
+    "message": "Profiller"
+  },
+  "features_hidden": {
+    "message": "{count} gizli"
+  },
+  "preset_light": {
+    "message": "Hafif"
+  },
+  "preset_light_desc": {
+    "message": "YouTube'un en çok dikkat dağıtan kısımlarında hafif temizlik."
+  },
+  "preset_balanced_desc": {
+    "message": "Dengeli, dikkat dağıtmayan bir YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimum temizlik: fazlalıkların neredeyse tamamını gizler."
+  },
+  "preset_custom_desc": {
+    "message": "Kendi yapılandırmanız. Dilediğiniz gibi ayarlayın."
+  },
+  "reset_action": {
+    "message": "Sıfırla"
+  },
+  "reset_confirm_text": {
+    "message": "Geçerli profil varsayılan durumuna sıfırlansın mı? Bu profildeki değişiklikleriniz kaybolacak."
+  },
+  "settings_label": {
+    "message": "Ayarlar"
+  },
+  "hide_description_chapters": {
+    "message": "Bölümleri ve kısımları gizle"
+  }
+}

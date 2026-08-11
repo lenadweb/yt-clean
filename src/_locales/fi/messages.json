@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: estä Shorts, piilota suositukset ja mainokset"
+  },
+  "appDescription": {
+    "message": "Estä Shorts, piilota suositukset, kommentit ja mainokset. Yli 60 kytkintä siistiin, häiriöttömään YouTubeen."
+  },
+  "actionTitle": {
+    "message": "Avaa YouTube-asetukset"
+  },
+  "toggle_extension": {
+    "message": "Ota laajennus käyttöön"
+  },
+  "new": {
+    "message": "uusi"
+  },
+  "basic_template": {
+    "message": "Perusmalli"
+  },
+  "search_bar": {
+    "message": "Hakupalkki"
+  },
+  "hide_voice_search_button": {
+    "message": "Piilota äänihaun painike"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Piilota näppäimistöpainike"
+  },
+  "hide_search_tags": {
+    "message": "Piilota hakutagit"
+  },
+  "actions_and_user": {
+    "message": "Toiminnot ja profiili"
+  },
+  "hide_upload_button": {
+    "message": "Piilota latauspainike"
+  },
+  "hide_notifications": {
+    "message": "Piilota ilmoitukset"
+  },
+  "feed_and_recommendations": {
+    "message": "Syöte ja suositukset"
+  },
+  "content_blocks": {
+    "message": "Sisältölohkot"
+  },
+  "hide_shorts_sections": {
+    "message": "Piilota Shorts-osiot"
+  },
+  "hide_explore_and_news": {
+    "message": "Piilota Tutustu ja Uutiset"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Poista automaattinen esikatselu käytöstä"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Piilota miksit ja soittolistat"
+  },
+  "ads": {
+    "message": "Mainokset"
+  },
+  "hide_youtube_banners": {
+    "message": "Piilota YouTube-bannerit"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Piilota sponsoroidut videot syötteessä"
+  },
+  "video_playback_and_channel": {
+    "message": "Toisto ja kanava"
+  },
+  "slider_playback_speed_control": {
+    "message": "Toistonopeuden liukusäädin"
+  },
+  "player": {
+    "message": "Soitin"
+  },
+  "hide_mini_size_button": {
+    "message": "Piilota minisoitinpainike"
+  },
+  "hide_wide_size_button": {
+    "message": "Piilota teatteritilan painike"
+  },
+  "hide_subtitles_button": {
+    "message": "Piilota tekstityspainike"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Piilota automaattitoiston kytkin"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Nopeuden säätö"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automaattinen siirtyminen seuraavaan"
+  },
+  "channel": {
+    "message": "Kanava"
+  },
+  "hide_channel_trailer": {
+    "message": "Piilota kanavan traileri"
+  },
+  "hide_channel_banner": {
+    "message": "Piilota kanavan banneri"
+  },
+  "sidebar": {
+    "message": "Sivupalkki"
+  },
+  "hide_sidebar_completely": {
+    "message": "Piilota sivupalkki kokonaan"
+  },
+  "main_menu": {
+    "message": "Päävalikko"
+  },
+  "hide_shorts": {
+    "message": "Piilota \"Shorts\""
+  },
+  "you": {
+    "message": "Sinä"
+  },
+  "hide_history": {
+    "message": "Piilota \"Historia\""
+  },
+  "hide_playlists": {
+    "message": "Piilota \"Soittolistat\""
+  },
+  "hide_your_video": {
+    "message": "Piilota \"Omat videot\""
+  },
+  "hide_watch_later": {
+    "message": "Piilota \"Katso myöhemmin\""
+  },
+  "hide_liked_videos": {
+    "message": "Piilota \"Tykätyt videot\""
+  },
+  "your_movies": {
+    "message": "Piilota \"Elokuvat\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Piilota tilauslista"
+  },
+  "explore": {
+    "message": "Tutustu"
+  },
+  "hide_trending": {
+    "message": "Piilota \"Suositut\""
+  },
+  "hide_music": {
+    "message": "Piilota \"Musiikki\""
+  },
+  "hide_gaming": {
+    "message": "Piilota \"Pelit\""
+  },
+  "hide_news": {
+    "message": "Piilota \"Uutiset\""
+  },
+  "hide_sports": {
+    "message": "Piilota \"Urheilu\""
+  },
+  "more_from_youtube": {
+    "message": "Lisää YouTubesta"
+  },
+  "hide_youtube_premium": {
+    "message": "Piilota \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Piilota \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Piilota \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Piilota \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Katso GitHubissa"
+  },
+  "compact_mode": {
+    "message": "Tiivis tila"
+  },
+  "hide_related_searches": {
+    "message": "Piilota aiheeseen liittyvät haut"
+  },
+  "hide_search_info_card": {
+    "message": "Piilota haun tietokortti"
+  },
+  "search": {
+    "message": "Haku"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Piilota kanavan videohylly"
+  },
+  "auto_skip_ads": {
+    "message": "Ohita mainokset automaattisesti"
+  },
+  "hide_footer": {
+    "message": "Piilota alatunniste ja Tietoja-linkit"
+  },
+  "hide_my_channel": {
+    "message": "Piilota \"Oma kanava\""
+  },
+  "hide_downloads": {
+    "message": "Piilota \"Lataukset\""
+  },
+  "experimental": {
+    "message": "kokeellinen"
+  },
+  "experimental_notice": {
+    "message": "Tämä ominaisuus on kokeellinen ja voi olla epävakaa. Testaamme sitä aktiivisesti, jaa palautteesi ja auta meitä parantamaan sitä."
+  },
+  "experimental_title": {
+    "message": "Kokeellinen ominaisuus"
+  },
+  "cancel": {
+    "message": "Peruuta"
+  },
+  "enable_anyway": {
+    "message": "Ota silti käyttöön"
+  },
+  "hide_expand_button": {
+    "message": "Piilota \"Näytä lisää\" -painike"
+  },
+  "hide_live": {
+    "message": "Piilota \"Live\""
+  },
+  "playback_speed": {
+    "message": "Toistonopeus"
+  },
+  "normal_speed": {
+    "message": "Normaali"
+  },
+  "video_page": {
+    "message": "Videosivu"
+  },
+  "video_page_elements": {
+    "message": "Sivun elementit"
+  },
+  "hide_comments": {
+    "message": "Piilota kommentit"
+  },
+  "hide_recommended_videos": {
+    "message": "Piilota suositellut videot"
+  },
+  "hide_live_chat": {
+    "message": "Piilota live-chat"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Piilota oheistuotteet ja liput"
+  },
+  "hide_end_screen_cards": {
+    "message": "Piilota lopetusnäytön kortit"
+  },
+  "hide_action_buttons": {
+    "message": "Piilota toimintopainikkeet"
+  },
+  "hide_like_dislike": {
+    "message": "Piilota tykkäykset"
+  },
+  "hide_description": {
+    "message": "Piilota kuvaus"
+  },
+  "hide_ad_info_panels": {
+    "message": "Piilota mainostietopaneelit"
+  },
+  "video_description": {
+    "message": "Kuvaus"
+  },
+  "hide_description_ai": {
+    "message": "Piilota tekoälyosio (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Piilota tekstivastine"
+  },
+  "hide_description_people": {
+    "message": "Piilota mainitut henkilöt"
+  },
+  "hide_description_related": {
+    "message": "Piilota liittyvät videot"
+  },
+  "hide_description_channel": {
+    "message": "Piilota kanavakortti"
+  },
+  "hide_how_this_was_made": {
+    "message": "Piilota \"Miten tämä tehtiin\""
+  },
+  "preset_balanced": {
+    "message": "Tasapainoinen"
+  },
+  "preset_maximum": {
+    "message": "Maksimi"
+  },
+  "preset_custom": {
+    "message": "Oma"
+  },
+  "reset_preset": {
+    "message": "Palauta esiasetus oletukseksi"
+  },
+  "preset_warning_title": {
+    "message": "Muokkaat sisäänrakennettua esiasetusta"
+  },
+  "preset_warning_text": {
+    "message": "Muutat sisäänrakennettua esiasetusta. Muutoksesi tallennetaan siihen ja voit palauttaa oletukset milloin tahansa."
+  },
+  "preset_warning_dont_show": {
+    "message": "Älä näytä tätä uudelleen"
+  },
+  "continue_action": {
+    "message": "Jatka"
+  },
+  "presets": {
+    "message": "Esiasetukset"
+  },
+  "features_hidden": {
+    "message": "{count} piilotettu"
+  },
+  "preset_light": {
+    "message": "Kevyt"
+  },
+  "preset_light_desc": {
+    "message": "Kevyt siivous YouTuben häiritsevimmistä osista."
+  },
+  "preset_balanced_desc": {
+    "message": "Tasapainoinen, häiriötön YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimaalinen siivous: piilottaa lähes kaiken ylimääräisen."
+  },
+  "preset_custom_desc": {
+    "message": "Oma kokoonpanosi. Säädä mitä haluat."
+  },
+  "reset_action": {
+    "message": "Palauta"
+  },
+  "reset_confirm_text": {
+    "message": "Palautetaanko nykyinen esiasetus oletustilaan? Tähän esiasetukseen tekemäsi muutokset menetetään."
+  },
+  "settings_label": {
+    "message": "Asetukset"
+  },
+  "hide_description_chapters": {
+    "message": "Piilota luvut ja jaksot"
+  }
+}

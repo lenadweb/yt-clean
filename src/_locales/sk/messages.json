@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokovať Shorts, skryť odporúčania a reklamy"
+  },
+  "appDescription": {
+    "message": "Blokujte Shorts, skryte odporúčania, komentáre a reklamy. Viac než 60 prepínačov pre čistý YouTube bez rozptýlenia."
+  },
+  "actionTitle": {
+    "message": "Otvoriť nastavenia YouTube"
+  },
+  "toggle_extension": {
+    "message": "Zapnúť rozšírenie"
+  },
+  "new": {
+    "message": "nové"
+  },
+  "basic_template": {
+    "message": "Základná šablóna"
+  },
+  "search_bar": {
+    "message": "Vyhľadávací panel"
+  },
+  "hide_voice_search_button": {
+    "message": "Skryť tlačidlo hlasového vyhľadávania"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Skryť tlačidlo virtuálnej klávesnice"
+  },
+  "hide_search_tags": {
+    "message": "Skryť značky vyhľadávania"
+  },
+  "actions_and_user": {
+    "message": "Akcie a profil"
+  },
+  "hide_upload_button": {
+    "message": "Skryť tlačidlo nahrávania"
+  },
+  "hide_notifications": {
+    "message": "Skryť upozornenia"
+  },
+  "feed_and_recommendations": {
+    "message": "Kanál a odporúčania"
+  },
+  "content_blocks": {
+    "message": "Bloky obsahu"
+  },
+  "hide_shorts_sections": {
+    "message": "Skryť sekcie Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Skryť Preskúmať a Správy"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Vypnúť automatickú ukážku pri prejdení"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Skryť mixy a playlisty"
+  },
+  "ads": {
+    "message": "Reklamy"
+  },
+  "hide_youtube_banners": {
+    "message": "Skryť bannery YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Skryť sponzorované videá v kanáli"
+  },
+  "video_playback_and_channel": {
+    "message": "Prehrávanie a kanál"
+  },
+  "slider_playback_speed_control": {
+    "message": "Posuvník rýchlosti prehrávania"
+  },
+  "player": {
+    "message": "Prehrávač"
+  },
+  "hide_mini_size_button": {
+    "message": "Skryť tlačidlo mini prehrávača"
+  },
+  "hide_wide_size_button": {
+    "message": "Skryť tlačidlo režimu kina"
+  },
+  "hide_subtitles_button": {
+    "message": "Skryť tlačidlo titulkov"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Skryť prepínač automatického prehrávania"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Ovládanie rýchlosti"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatický prechod na ďalšie"
+  },
+  "channel": {
+    "message": "Kanál"
+  },
+  "hide_channel_trailer": {
+    "message": "Skryť upútavku kanála"
+  },
+  "hide_channel_banner": {
+    "message": "Skryť banner kanála"
+  },
+  "sidebar": {
+    "message": "Bočný panel"
+  },
+  "hide_sidebar_completely": {
+    "message": "Skryť bočný panel úplne"
+  },
+  "main_menu": {
+    "message": "Hlavná ponuka"
+  },
+  "hide_shorts": {
+    "message": "Skryť „Shorts“"
+  },
+  "you": {
+    "message": "Vy"
+  },
+  "hide_history": {
+    "message": "Skryť „História“"
+  },
+  "hide_playlists": {
+    "message": "Skryť „Playlisty“"
+  },
+  "hide_your_video": {
+    "message": "Skryť „Vaše videá“"
+  },
+  "hide_watch_later": {
+    "message": "Skryť „Pozrieť neskôr“"
+  },
+  "hide_liked_videos": {
+    "message": "Skryť „Videá s hodnotením Páči sa mi“"
+  },
+  "your_movies": {
+    "message": "Skryť „Filmy“"
+  },
+  "hide_subscriptions_list": {
+    "message": "Skryť zoznam odberov"
+  },
+  "explore": {
+    "message": "Preskúmať"
+  },
+  "hide_trending": {
+    "message": "Skryť „Trendy“"
+  },
+  "hide_music": {
+    "message": "Skryť „Hudba“"
+  },
+  "hide_gaming": {
+    "message": "Skryť „Hry“"
+  },
+  "hide_news": {
+    "message": "Skryť „Správy“"
+  },
+  "hide_sports": {
+    "message": "Skryť „Šport“"
+  },
+  "more_from_youtube": {
+    "message": "Viac z YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Skryť „YouTube Premium“"
+  },
+  "hide_youtube_music": {
+    "message": "Skryť „YouTube Music“"
+  },
+  "hide_youtube_kids": {
+    "message": "Skryť „YouTube Kids“"
+  },
+  "hide_youtube_studio": {
+    "message": "Skryť „YouTube Studio“"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Zobraziť na GitHube"
+  },
+  "compact_mode": {
+    "message": "Kompaktný režim"
+  },
+  "hide_related_searches": {
+    "message": "Skryť súvisiace vyhľadávania"
+  },
+  "hide_search_info_card": {
+    "message": "Skryť informačnú kartu"
+  },
+  "search": {
+    "message": "Vyhľadávanie"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Skryť policu videí kanála"
+  },
+  "auto_skip_ads": {
+    "message": "Automaticky preskakovať reklamy"
+  },
+  "hide_footer": {
+    "message": "Skryť pätičku a odkazy O službe"
+  },
+  "hide_my_channel": {
+    "message": "Skryť „Môj kanál“"
+  },
+  "hide_downloads": {
+    "message": "Skryť „Stiahnuté“"
+  },
+  "experimental": {
+    "message": "experimentálne"
+  },
+  "experimental_notice": {
+    "message": "Táto funkcia je experimentálna a môže byť nestabilná. Aktívne ju testujeme, podeľte sa o spätnú väzbu a pomôžte nám ju vylepšiť."
+  },
+  "experimental_title": {
+    "message": "Experimentálna funkcia"
+  },
+  "cancel": {
+    "message": "Zrušiť"
+  },
+  "enable_anyway": {
+    "message": "Napriek tomu zapnúť"
+  },
+  "hide_expand_button": {
+    "message": "Skryť tlačidlo „Zobraziť viac“"
+  },
+  "hide_live": {
+    "message": "Skryť „Naživo“"
+  },
+  "playback_speed": {
+    "message": "Rýchlosť prehrávania"
+  },
+  "normal_speed": {
+    "message": "Normálna"
+  },
+  "video_page": {
+    "message": "Stránka videa"
+  },
+  "video_page_elements": {
+    "message": "Prvky stránky"
+  },
+  "hide_comments": {
+    "message": "Skryť komentáre"
+  },
+  "hide_recommended_videos": {
+    "message": "Skryť odporúčané videá"
+  },
+  "hide_live_chat": {
+    "message": "Skryť živý chat"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Skryť tovar a vstupenky"
+  },
+  "hide_end_screen_cards": {
+    "message": "Skryť karty na konci videa"
+  },
+  "hide_action_buttons": {
+    "message": "Skryť tlačidlá akcií"
+  },
+  "hide_like_dislike": {
+    "message": "Skryť hodnotenia"
+  },
+  "hide_description": {
+    "message": "Skryť popis"
+  },
+  "hide_ad_info_panels": {
+    "message": "Skryť reklamné informačné panely"
+  },
+  "video_description": {
+    "message": "Popis"
+  },
+  "hide_description_ai": {
+    "message": "Skryť sekciu AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Skryť prepis"
+  },
+  "hide_description_people": {
+    "message": "Skryť spomenuté osoby"
+  },
+  "hide_description_related": {
+    "message": "Skryť súvisiace videá"
+  },
+  "hide_description_channel": {
+    "message": "Skryť kartu kanála"
+  },
+  "hide_how_this_was_made": {
+    "message": "Skryť „Ako to vzniklo“"
+  },
+  "preset_balanced": {
+    "message": "Vyvážený"
+  },
+  "preset_maximum": {
+    "message": "Maximálny"
+  },
+  "preset_custom": {
+    "message": "Vlastný"
+  },
+  "reset_preset": {
+    "message": "Obnoviť predvoľbu na predvolenú"
+  },
+  "preset_warning_title": {
+    "message": "Úprava vstavanej predvoľby"
+  },
+  "preset_warning_text": {
+    "message": "Meníte vstavanú predvoľbu. Vaše úpravy sa do nej uložia a kedykoľvek ich možno obnoviť na predvolené."
+  },
+  "preset_warning_dont_show": {
+    "message": "Nabudúce nezobrazovať"
+  },
+  "continue_action": {
+    "message": "Pokračovať"
+  },
+  "presets": {
+    "message": "Predvoľby"
+  },
+  "features_hidden": {
+    "message": "{count} skrytých"
+  },
+  "preset_light": {
+    "message": "Ľahký"
+  },
+  "preset_light_desc": {
+    "message": "Ľahké vyčistenie najviac rozptyľujúcich častí YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Vyvážený YouTube bez rozptýlenia."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximálne vyčistenie: skryje takmer všetko navyše."
+  },
+  "preset_custom_desc": {
+    "message": "Vaša vlastná konfigurácia. Upravte si čokoľvek."
+  },
+  "reset_action": {
+    "message": "Obnoviť"
+  },
+  "reset_confirm_text": {
+    "message": "Obnoviť aktuálnu predvoľbu do predvoleného stavu? Vaše zmeny v tejto predvoľbe sa stratia."
+  },
+  "settings_label": {
+    "message": "Nastavenia"
+  },
+  "hide_description_chapters": {
+    "message": "Skryť kapitoly a epizódy"
+  }
+}

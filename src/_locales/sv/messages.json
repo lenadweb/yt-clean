@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blockera Shorts, dölj rekommendationer och annonser"
+  },
+  "appDescription": {
+    "message": "Blockera Shorts, dölj rekommendationer, kommentarer och annonser. 60+ reglage för ett rent, distraktionsfritt YouTube."
+  },
+  "actionTitle": {
+    "message": "Öppna YouTube-inställningar"
+  },
+  "toggle_extension": {
+    "message": "Slå på/av tillägget"
+  },
+  "new": {
+    "message": "nytt"
+  },
+  "basic_template": {
+    "message": "Grundmall"
+  },
+  "search_bar": {
+    "message": "Sökfält"
+  },
+  "hide_voice_search_button": {
+    "message": "Dölj knappen för röstsökning"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Dölj knappen för skärmtangentbord"
+  },
+  "hide_search_tags": {
+    "message": "Dölj söktaggar"
+  },
+  "actions_and_user": {
+    "message": "Åtgärder och profil"
+  },
+  "hide_upload_button": {
+    "message": "Dölj uppladdningsknappen"
+  },
+  "hide_notifications": {
+    "message": "Dölj aviseringar"
+  },
+  "feed_and_recommendations": {
+    "message": "Flöde och rekommendationer"
+  },
+  "content_blocks": {
+    "message": "Innehållsblock"
+  },
+  "hide_shorts_sections": {
+    "message": "Dölj Shorts-sektioner"
+  },
+  "hide_explore_and_news": {
+    "message": "Dölj Utforska och Nyheter"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Stäng av automatisk förhandsvisning"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Dölj mixar och spellistor"
+  },
+  "ads": {
+    "message": "Annonser"
+  },
+  "hide_youtube_banners": {
+    "message": "Dölj YouTube-banners"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Dölj sponsrade videor i flödet"
+  },
+  "video_playback_and_channel": {
+    "message": "Uppspelning och kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Reglage för uppspelningshastighet"
+  },
+  "player": {
+    "message": "Spelare"
+  },
+  "hide_mini_size_button": {
+    "message": "Dölj minispelarknappen"
+  },
+  "hide_wide_size_button": {
+    "message": "Dölj bioläge-knappen"
+  },
+  "hide_subtitles_button": {
+    "message": "Dölj undertextknappen"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Dölj autouppspelningsreglaget"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Hastighetskontroll"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatiskt byte till nästa"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Dölj kanaltrailer"
+  },
+  "hide_channel_banner": {
+    "message": "Dölj kanalbanner"
+  },
+  "sidebar": {
+    "message": "Sidofält"
+  },
+  "hide_sidebar_completely": {
+    "message": "Dölj sidofältet helt"
+  },
+  "main_menu": {
+    "message": "Huvudmeny"
+  },
+  "hide_shorts": {
+    "message": "Dölj \"Shorts\""
+  },
+  "you": {
+    "message": "Du"
+  },
+  "hide_history": {
+    "message": "Dölj \"Historik\""
+  },
+  "hide_playlists": {
+    "message": "Dölj \"Spellistor\""
+  },
+  "hide_your_video": {
+    "message": "Dölj \"Dina videor\""
+  },
+  "hide_watch_later": {
+    "message": "Dölj \"Titta senare\""
+  },
+  "hide_liked_videos": {
+    "message": "Dölj \"Gillade videor\""
+  },
+  "your_movies": {
+    "message": "Dölj \"Filmer\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Dölj prenumerationslistan"
+  },
+  "explore": {
+    "message": "Utforska"
+  },
+  "hide_trending": {
+    "message": "Dölj \"Trendar\""
+  },
+  "hide_music": {
+    "message": "Dölj \"Musik\""
+  },
+  "hide_gaming": {
+    "message": "Dölj \"Spel\""
+  },
+  "hide_news": {
+    "message": "Dölj \"Nyheter\""
+  },
+  "hide_sports": {
+    "message": "Dölj \"Sport\""
+  },
+  "more_from_youtube": {
+    "message": "Mer från YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Dölj \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Dölj \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Dölj \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Dölj \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Visa på GitHub"
+  },
+  "compact_mode": {
+    "message": "Kompakt läge"
+  },
+  "hide_related_searches": {
+    "message": "Dölj relaterade sökningar"
+  },
+  "hide_search_info_card": {
+    "message": "Dölj infokort i sökresultat"
+  },
+  "search": {
+    "message": "Sök"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Dölj kanalens videohylla"
+  },
+  "auto_skip_ads": {
+    "message": "Hoppa över annonser automatiskt"
+  },
+  "hide_footer": {
+    "message": "Dölj sidfot och Om-länkar"
+  },
+  "hide_my_channel": {
+    "message": "Dölj \"Min kanal\""
+  },
+  "hide_downloads": {
+    "message": "Dölj \"Nedladdningar\""
+  },
+  "experimental": {
+    "message": "experimentell"
+  },
+  "experimental_notice": {
+    "message": "Den här funktionen är experimentell och kan vara instabil. Vi testar den aktivt, dela din feedback för att hjälpa oss förbättra den."
+  },
+  "experimental_title": {
+    "message": "Experimentell funktion"
+  },
+  "cancel": {
+    "message": "Avbryt"
+  },
+  "enable_anyway": {
+    "message": "Aktivera ändå"
+  },
+  "hide_expand_button": {
+    "message": "Dölj knappen \"Visa mer\""
+  },
+  "hide_live": {
+    "message": "Dölj \"Live\""
+  },
+  "playback_speed": {
+    "message": "Uppspelningshastighet"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Videosida"
+  },
+  "video_page_elements": {
+    "message": "Sidelement"
+  },
+  "hide_comments": {
+    "message": "Dölj kommentarer"
+  },
+  "hide_recommended_videos": {
+    "message": "Dölj rekommenderade videor"
+  },
+  "hide_live_chat": {
+    "message": "Dölj livechatt"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Dölj merch och biljetter"
+  },
+  "hide_end_screen_cards": {
+    "message": "Dölj slutskärmskort"
+  },
+  "hide_action_buttons": {
+    "message": "Dölj åtgärdsknappar"
+  },
+  "hide_like_dislike": {
+    "message": "Dölj gilla/ogilla"
+  },
+  "hide_description": {
+    "message": "Dölj beskrivning"
+  },
+  "hide_ad_info_panels": {
+    "message": "Dölj annonsinfopaneler"
+  },
+  "video_description": {
+    "message": "Beskrivning"
+  },
+  "hide_description_ai": {
+    "message": "Dölj AI-avsnitt (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Dölj transkription"
+  },
+  "hide_description_people": {
+    "message": "Dölj nämnda personer"
+  },
+  "hide_description_related": {
+    "message": "Dölj relaterade videor"
+  },
+  "hide_description_channel": {
+    "message": "Dölj kanalkort"
+  },
+  "hide_how_this_was_made": {
+    "message": "Dölj \"Hur detta gjordes\""
+  },
+  "preset_balanced": {
+    "message": "Balanserad"
+  },
+  "preset_maximum": {
+    "message": "Maximal"
+  },
+  "preset_custom": {
+    "message": "Egen"
+  },
+  "reset_preset": {
+    "message": "Återställ förinställning till standard"
+  },
+  "preset_warning_title": {
+    "message": "Redigerar en inbyggd förinställning"
+  },
+  "preset_warning_text": {
+    "message": "Du ändrar en inbyggd förinställning. Dina ändringar sparas i den och kan när som helst återställas till standard."
+  },
+  "preset_warning_dont_show": {
+    "message": "Visa inte detta igen"
+  },
+  "continue_action": {
+    "message": "Fortsätt"
+  },
+  "presets": {
+    "message": "Förinställningar"
+  },
+  "features_hidden": {
+    "message": "{count} dolda"
+  },
+  "preset_light": {
+    "message": "Lätt"
+  },
+  "preset_light_desc": {
+    "message": "Lätt rensning av de mest distraherande delarna av YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Ett balanserat, distraktionsfritt YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "Maximal rensning: döljer nästan allt extra."
+  },
+  "preset_custom_desc": {
+    "message": "Din egen konfiguration. Justera vad du vill."
+  },
+  "reset_action": {
+    "message": "Återställ"
+  },
+  "reset_confirm_text": {
+    "message": "Återställa den aktuella förinställningen till standardläget? Dina ändringar i den går förlorade."
+  },
+  "settings_label": {
+    "message": "Inställningar"
+  },
+  "hide_description_chapters": {
+    "message": "Dölj kapitel och avsnitt"
+  }
+}

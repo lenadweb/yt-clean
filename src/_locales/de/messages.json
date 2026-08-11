@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean — Shorts ausblenden, Empfehlungen entfernen, Fokus & Detox"
+    "message": "YouTube Clean: Shorts blockieren, Empfehlungen & Werbung ausblenden"
   },
   "appDescription": {
-    "message": "Shorts, Empfehlungen, Werbung und Unordnung ausblenden. Über 60 Schalter für ein ruhiges, ablenkungsfreies YouTube."
+    "message": "Shorts blockieren, Empfehlungen, Kommentare und Werbung ausblenden. Über 60 Schalter für ein sauberes, ablenkungsfreies YouTube."
   },
   "actionTitle": {
     "message": "YouTube Clean Einstellungen"
@@ -210,7 +210,7 @@
     "message": "experimentell"
   },
   "experimental_notice": {
-    "message": "Diese Funktion ist experimentell und kann instabil sein. Wir testen sie aktiv – teile dein Feedback, um uns bei der Verbesserung zu helfen."
+    "message": "Diese Funktion ist experimentell und kann instabil sein. Wir testen sie aktiv, teile dein Feedback, um uns bei der Verbesserung zu helfen."
   },
   "experimental_title": {
     "message": "Experimentelle Funktion"
@@ -327,7 +327,7 @@
     "message": "Ein ausgewogenes, ablenkungsfreies YouTube."
   },
   "preset_maximum_desc": {
-    "message": "Maximale Bereinigung – blendet fast alles Zusätzliche aus."
+    "message": "Maximale Bereinigung: blendet fast alles Zusätzliche aus."
   },
   "preset_custom_desc": {
     "message": "Deine eigene Konfiguration. Passe alles an."

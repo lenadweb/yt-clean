@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: блокування Shorts, сховати рекомендації та рекламу"
+  },
+  "appDescription": {
+    "message": "Блокуйте Shorts, ховайте рекомендації, коментарі та рекламу. 60+ перемикачів для чистого YouTube без відволікань."
+  },
+  "actionTitle": {
+    "message": "Відкрити налаштування YouTube"
+  },
+  "toggle_extension": {
+    "message": "Увімкнути розширення"
+  },
+  "new": {
+    "message": "нове"
+  },
+  "basic_template": {
+    "message": "Базовий шаблон"
+  },
+  "search_bar": {
+    "message": "Рядок пошуку"
+  },
+  "hide_voice_search_button": {
+    "message": "Сховати кнопку голосового пошуку"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Сховати кнопку віртуальної клавіатури"
+  },
+  "hide_search_tags": {
+    "message": "Сховати теги пошуку"
+  },
+  "actions_and_user": {
+    "message": "Дії та профіль"
+  },
+  "hide_upload_button": {
+    "message": "Сховати кнопку завантаження"
+  },
+  "hide_notifications": {
+    "message": "Сховати сповіщення"
+  },
+  "feed_and_recommendations": {
+    "message": "Стрічка та рекомендації"
+  },
+  "content_blocks": {
+    "message": "Блоки контенту"
+  },
+  "hide_shorts_sections": {
+    "message": "Сховати розділи Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Сховати «Огляд» і «Новини»"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Вимкнути автоперегляд при наведенні"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Сховати мікси та плейлисти"
+  },
+  "ads": {
+    "message": "Реклама"
+  },
+  "hide_youtube_banners": {
+    "message": "Сховати банери YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Сховати спонсоровані відео у стрічці"
+  },
+  "video_playback_and_channel": {
+    "message": "Відтворення та канал"
+  },
+  "slider_playback_speed_control": {
+    "message": "Повзунок швидкості відтворення"
+  },
+  "player": {
+    "message": "Плеєр"
+  },
+  "hide_mini_size_button": {
+    "message": "Сховати кнопку міні-плеєра"
+  },
+  "hide_wide_size_button": {
+    "message": "Сховати кнопку широкого екрана"
+  },
+  "hide_subtitles_button": {
+    "message": "Сховати кнопку субтитрів"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Сховати перемикач автовідтворення"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Керування швидкістю"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Автоперехід до наступного"
+  },
+  "channel": {
+    "message": "Канал"
+  },
+  "hide_channel_trailer": {
+    "message": "Сховати трейлер каналу"
+  },
+  "hide_channel_banner": {
+    "message": "Сховати банер каналу"
+  },
+  "sidebar": {
+    "message": "Бічне меню"
+  },
+  "hide_sidebar_completely": {
+    "message": "Сховати бічне меню повністю"
+  },
+  "main_menu": {
+    "message": "Головне меню"
+  },
+  "hide_shorts": {
+    "message": "Сховати «Shorts»"
+  },
+  "you": {
+    "message": "Ви"
+  },
+  "hide_history": {
+    "message": "Сховати «Історія»"
+  },
+  "hide_playlists": {
+    "message": "Сховати «Плейлисти»"
+  },
+  "hide_your_video": {
+    "message": "Сховати «Ваші відео»"
+  },
+  "hide_watch_later": {
+    "message": "Сховати «Переглянути пізніше»"
+  },
+  "hide_liked_videos": {
+    "message": "Сховати «Відео, які сподобалися»"
+  },
+  "your_movies": {
+    "message": "Сховати «Фільми»"
+  },
+  "hide_subscriptions_list": {
+    "message": "Сховати список підписок"
+  },
+  "explore": {
+    "message": "Огляд"
+  },
+  "hide_trending": {
+    "message": "Сховати «У тренді»"
+  },
+  "hide_music": {
+    "message": "Сховати «Музика»"
+  },
+  "hide_gaming": {
+    "message": "Сховати «Ігри»"
+  },
+  "hide_news": {
+    "message": "Сховати «Новини»"
+  },
+  "hide_sports": {
+    "message": "Сховати «Спорт»"
+  },
+  "more_from_youtube": {
+    "message": "Більше від YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Сховати «YouTube Premium»"
+  },
+  "hide_youtube_music": {
+    "message": "Сховати «YouTube Music»"
+  },
+  "hide_youtube_kids": {
+    "message": "Сховати «YouTube Дітям»"
+  },
+  "hide_youtube_studio": {
+    "message": "Сховати «YouTube Студія»"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Дивитися на GitHub"
+  },
+  "compact_mode": {
+    "message": "Компактний режим"
+  },
+  "hide_related_searches": {
+    "message": "Сховати схожі запити"
+  },
+  "hide_search_info_card": {
+    "message": "Сховати інфокартку пошуку"
+  },
+  "search": {
+    "message": "Пошук"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Сховати полицю відео каналу"
+  },
+  "auto_skip_ads": {
+    "message": "Автопропуск реклами"
+  },
+  "hide_footer": {
+    "message": "Сховати футер і посилання «Про нас»"
+  },
+  "hide_my_channel": {
+    "message": "Сховати «Мій канал»"
+  },
+  "hide_downloads": {
+    "message": "Сховати «Завантаження»"
+  },
+  "experimental": {
+    "message": "експериментальне"
+  },
+  "experimental_notice": {
+    "message": "Ця функція експериментальна і може працювати нестабільно. Ми її активно тестуємо, поділіться відгуком, щоб допомогти нам її покращити."
+  },
+  "experimental_title": {
+    "message": "Експериментальна функція"
+  },
+  "cancel": {
+    "message": "Скасувати"
+  },
+  "enable_anyway": {
+    "message": "Усе одно увімкнути"
+  },
+  "hide_expand_button": {
+    "message": "Сховати кнопку «Показати більше»"
+  },
+  "hide_live": {
+    "message": "Сховати «Трансляції»"
+  },
+  "playback_speed": {
+    "message": "Швидкість відтворення"
+  },
+  "normal_speed": {
+    "message": "Звичайна"
+  },
+  "video_page": {
+    "message": "Сторінка відео"
+  },
+  "video_page_elements": {
+    "message": "Елементи сторінки"
+  },
+  "hide_comments": {
+    "message": "Сховати коментарі"
+  },
+  "hide_recommended_videos": {
+    "message": "Сховати рекомендовані відео"
+  },
+  "hide_live_chat": {
+    "message": "Сховати чат трансляції"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Сховати товари та квитки"
+  },
+  "hide_end_screen_cards": {
+    "message": "Сховати картки в кінці відео"
+  },
+  "hide_action_buttons": {
+    "message": "Сховати кнопки дій"
+  },
+  "hide_like_dislike": {
+    "message": "Сховати лайки та дизлайки"
+  },
+  "hide_description": {
+    "message": "Сховати опис"
+  },
+  "hide_ad_info_panels": {
+    "message": "Сховати рекламні інфопанелі"
+  },
+  "video_description": {
+    "message": "Опис"
+  },
+  "hide_description_ai": {
+    "message": "Сховати блок ШІ (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Сховати транскрипцію"
+  },
+  "hide_description_people": {
+    "message": "Сховати згаданих людей"
+  },
+  "hide_description_related": {
+    "message": "Сховати пов’язані відео"
+  },
+  "hide_description_channel": {
+    "message": "Сховати картку каналу"
+  },
+  "hide_how_this_was_made": {
+    "message": "Сховати «Як це створено»"
+  },
+  "preset_balanced": {
+    "message": "Збалансований"
+  },
+  "preset_maximum": {
+    "message": "Максимальний"
+  },
+  "preset_custom": {
+    "message": "Власний"
+  },
+  "reset_preset": {
+    "message": "Скинути пресет до типового"
+  },
+  "preset_warning_title": {
+    "message": "Редагування вбудованого пресету"
+  },
+  "preset_warning_text": {
+    "message": "Ви змінюєте вбудований пресет. Зміни зберігаються в ньому, і їх завжди можна скинути до типових."
+  },
+  "preset_warning_dont_show": {
+    "message": "Більше не показувати"
+  },
+  "continue_action": {
+    "message": "Продовжити"
+  },
+  "presets": {
+    "message": "Пресети"
+  },
+  "features_hidden": {
+    "message": "{count} сховано"
+  },
+  "preset_light": {
+    "message": "Легкий"
+  },
+  "preset_light_desc": {
+    "message": "Легке очищення найбільш відволікаючих частин YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Збалансований YouTube без відволікань."
+  },
+  "preset_maximum_desc": {
+    "message": "Максимальне очищення: ховає майже все зайве."
+  },
+  "preset_custom_desc": {
+    "message": "Ваша власна конфігурація. Налаштуйте що завгодно."
+  },
+  "reset_action": {
+    "message": "Скинути"
+  },
+  "reset_confirm_text": {
+    "message": "Скинути поточний пресет до типового стану? Ваші зміни в цьому пресеті буде втрачено."
+  },
+  "settings_label": {
+    "message": "Налаштування"
+  },
+  "hide_description_chapters": {
+    "message": "Сховати розділи та епізоди"
+  }
+}

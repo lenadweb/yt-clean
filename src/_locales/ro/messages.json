@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blochează Shorts, ascunde recomandări și reclame"
+  },
+  "appDescription": {
+    "message": "Blochează Shorts, ascunde recomandări, comentarii și reclame. Peste 60 de comutatoare pentru un YouTube curat."
+  },
+  "actionTitle": {
+    "message": "Deschide setările YouTube"
+  },
+  "toggle_extension": {
+    "message": "Activează extensia"
+  },
+  "new": {
+    "message": "nou"
+  },
+  "basic_template": {
+    "message": "Șablon de bază"
+  },
+  "search_bar": {
+    "message": "Bară de căutare"
+  },
+  "hide_voice_search_button": {
+    "message": "Ascunde butonul de căutare vocală"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Ascunde butonul de tastatură virtuală"
+  },
+  "hide_search_tags": {
+    "message": "Ascunde etichetele de căutare"
+  },
+  "actions_and_user": {
+    "message": "Acțiuni și profil"
+  },
+  "hide_upload_button": {
+    "message": "Ascunde butonul de încărcare"
+  },
+  "hide_notifications": {
+    "message": "Ascunde notificările"
+  },
+  "feed_and_recommendations": {
+    "message": "Flux și recomandări"
+  },
+  "content_blocks": {
+    "message": "Blocuri de conținut"
+  },
+  "hide_shorts_sections": {
+    "message": "Ascunde secțiunile Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Ascunde Explorează și Știri"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Dezactivează previzualizarea automată"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Ascunde mixurile și playlisturile"
+  },
+  "ads": {
+    "message": "Reclame"
+  },
+  "hide_youtube_banners": {
+    "message": "Ascunde bannerele YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Ascunde videoclipurile sponsorizate"
+  },
+  "video_playback_and_channel": {
+    "message": "Redare și canal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Glisor pentru viteza de redare"
+  },
+  "player": {
+    "message": "Player"
+  },
+  "hide_mini_size_button": {
+    "message": "Ascunde butonul de mini player"
+  },
+  "hide_wide_size_button": {
+    "message": "Ascunde butonul mod cinema"
+  },
+  "hide_subtitles_button": {
+    "message": "Ascunde butonul de subtitrări"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Ascunde comutatorul de redare automată"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Control viteză"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Trecere automată la următorul"
+  },
+  "channel": {
+    "message": "Canal"
+  },
+  "hide_channel_trailer": {
+    "message": "Ascunde trailerul canalului"
+  },
+  "hide_channel_banner": {
+    "message": "Ascunde bannerul canalului"
+  },
+  "sidebar": {
+    "message": "Bară laterală"
+  },
+  "hide_sidebar_completely": {
+    "message": "Ascunde complet bara laterală"
+  },
+  "main_menu": {
+    "message": "Meniu principal"
+  },
+  "hide_shorts": {
+    "message": "Ascunde „Shorts”"
+  },
+  "you": {
+    "message": "Tu"
+  },
+  "hide_history": {
+    "message": "Ascunde „Istoric”"
+  },
+  "hide_playlists": {
+    "message": "Ascunde „Playlisturi”"
+  },
+  "hide_your_video": {
+    "message": "Ascunde „Videoclipurile tale”"
+  },
+  "hide_watch_later": {
+    "message": "Ascunde „Vizionează mai târziu”"
+  },
+  "hide_liked_videos": {
+    "message": "Ascunde „Videoclipuri apreciate”"
+  },
+  "your_movies": {
+    "message": "Ascunde „Filme”"
+  },
+  "hide_subscriptions_list": {
+    "message": "Ascunde lista de abonamente"
+  },
+  "explore": {
+    "message": "Explorează"
+  },
+  "hide_trending": {
+    "message": "Ascunde „În tendințe”"
+  },
+  "hide_music": {
+    "message": "Ascunde „Muzică”"
+  },
+  "hide_gaming": {
+    "message": "Ascunde „Jocuri”"
+  },
+  "hide_news": {
+    "message": "Ascunde „Știri”"
+  },
+  "hide_sports": {
+    "message": "Ascunde „Sport”"
+  },
+  "more_from_youtube": {
+    "message": "Mai multe de la YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Ascunde „YouTube Premium”"
+  },
+  "hide_youtube_music": {
+    "message": "Ascunde „YouTube Music”"
+  },
+  "hide_youtube_kids": {
+    "message": "Ascunde „YouTube Kids”"
+  },
+  "hide_youtube_studio": {
+    "message": "Ascunde „YouTube Studio”"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Vezi pe GitHub"
+  },
+  "compact_mode": {
+    "message": "Mod compact"
+  },
+  "hide_related_searches": {
+    "message": "Ascunde căutările similare"
+  },
+  "hide_search_info_card": {
+    "message": "Ascunde cardul informativ"
+  },
+  "search": {
+    "message": "Căutare"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Ascunde raftul video al canalului"
+  },
+  "auto_skip_ads": {
+    "message": "Sari automat peste reclame"
+  },
+  "hide_footer": {
+    "message": "Ascunde subsolul și linkurile Despre"
+  },
+  "hide_my_channel": {
+    "message": "Ascunde „Canalul meu”"
+  },
+  "hide_downloads": {
+    "message": "Ascunde „Descărcări”"
+  },
+  "experimental": {
+    "message": "experimental"
+  },
+  "experimental_notice": {
+    "message": "Această funcție este experimentală și poate fi instabilă. O testăm activ, trimite-ne feedback ca să ne ajuți să o îmbunătățim."
+  },
+  "experimental_title": {
+    "message": "Funcție experimentală"
+  },
+  "cancel": {
+    "message": "Anulează"
+  },
+  "enable_anyway": {
+    "message": "Activează oricum"
+  },
+  "hide_expand_button": {
+    "message": "Ascunde butonul „Afișează mai mult”"
+  },
+  "hide_live": {
+    "message": "Ascunde „Live”"
+  },
+  "playback_speed": {
+    "message": "Viteza de redare"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Pagina video"
+  },
+  "video_page_elements": {
+    "message": "Elemente de pagină"
+  },
+  "hide_comments": {
+    "message": "Ascunde comentariile"
+  },
+  "hide_recommended_videos": {
+    "message": "Ascunde videoclipurile recomandate"
+  },
+  "hide_live_chat": {
+    "message": "Ascunde chatul live"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Ascunde produsele și biletele"
+  },
+  "hide_end_screen_cards": {
+    "message": "Ascunde cardurile de final"
+  },
+  "hide_action_buttons": {
+    "message": "Ascunde butoanele de acțiune"
+  },
+  "hide_like_dislike": {
+    "message": "Ascunde aprecierile"
+  },
+  "hide_description": {
+    "message": "Ascunde descrierea"
+  },
+  "hide_ad_info_panels": {
+    "message": "Ascunde panourile publicitare"
+  },
+  "video_description": {
+    "message": "Descriere"
+  },
+  "hide_description_ai": {
+    "message": "Ascunde secțiunea AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Ascunde transcrierea"
+  },
+  "hide_description_people": {
+    "message": "Ascunde persoanele menționate"
+  },
+  "hide_description_related": {
+    "message": "Ascunde videoclipurile similare"
+  },
+  "hide_description_channel": {
+    "message": "Ascunde cardul canalului"
+  },
+  "hide_how_this_was_made": {
+    "message": "Ascunde „Cum a fost creat”"
+  },
+  "preset_balanced": {
+    "message": "Echilibrat"
+  },
+  "preset_maximum": {
+    "message": "Maxim"
+  },
+  "preset_custom": {
+    "message": "Personalizat"
+  },
+  "reset_preset": {
+    "message": "Resetează presetarea la implicit"
+  },
+  "preset_warning_title": {
+    "message": "Editezi o presetare integrată"
+  },
+  "preset_warning_text": {
+    "message": "Modifici o presetare integrată. Modificările se salvează în ea și pot fi resetate oricând la valorile implicite."
+  },
+  "preset_warning_dont_show": {
+    "message": "Nu mai afișa acest mesaj"
+  },
+  "continue_action": {
+    "message": "Continuă"
+  },
+  "presets": {
+    "message": "Presetări"
+  },
+  "features_hidden": {
+    "message": "{count} ascunse"
+  },
+  "preset_light": {
+    "message": "Ușor"
+  },
+  "preset_light_desc": {
+    "message": "Curățare ușoară a celor mai distragătoare părți din YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Un YouTube echilibrat, fără distrageri."
+  },
+  "preset_maximum_desc": {
+    "message": "Curățare maximă: ascunde aproape tot ce este în plus."
+  },
+  "preset_custom_desc": {
+    "message": "Configurația ta. Ajustează orice dorești."
+  },
+  "reset_action": {
+    "message": "Resetează"
+  },
+  "reset_confirm_text": {
+    "message": "Resetezi presetarea curentă la starea implicită? Modificările tale din această presetare se vor pierde."
+  },
+  "settings_label": {
+    "message": "Setări"
+  },
+  "hide_description_chapters": {
+    "message": "Ascunde capitolele și episoadele"
+  }
+}

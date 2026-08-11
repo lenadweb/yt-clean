@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: חסימת Shorts, הסתרת המלצות ופרסומות"
+  },
+  "appDescription": {
+    "message": "חסמו Shorts, הסתירו המלצות, תגובות ופרסומות. יותר מ-60 מתגים ליוטיוב נקי ונטול הסחות דעת."
+  },
+  "actionTitle": {
+    "message": "פתיחת הגדרות YouTube"
+  },
+  "toggle_extension": {
+    "message": "הפעלת התוסף"
+  },
+  "new": {
+    "message": "חדש"
+  },
+  "basic_template": {
+    "message": "תבנית בסיסית"
+  },
+  "search_bar": {
+    "message": "שורת חיפוש"
+  },
+  "hide_voice_search_button": {
+    "message": "הסתרת לחצן חיפוש קולי"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "הסתרת לחצן מקלדת וירטואלית"
+  },
+  "hide_search_tags": {
+    "message": "הסתרת תגיות חיפוש"
+  },
+  "actions_and_user": {
+    "message": "פעולות ופרופיל"
+  },
+  "hide_upload_button": {
+    "message": "הסתרת לחצן העלאה"
+  },
+  "hide_notifications": {
+    "message": "הסתרת התראות"
+  },
+  "feed_and_recommendations": {
+    "message": "פיד והמלצות"
+  },
+  "content_blocks": {
+    "message": "בלוקי תוכן"
+  },
+  "hide_shorts_sections": {
+    "message": "הסתרת מקטעי Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "הסתרת גילוי וחדשות"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "כיבוי תצוגה מקדימה אוטומטית"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "הסתרת מיקסים ופלייליסטים"
+  },
+  "ads": {
+    "message": "פרסומות"
+  },
+  "hide_youtube_banners": {
+    "message": "הסתרת באנרים של YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "הסתרת סרטונים ממומנים בפיד"
+  },
+  "video_playback_and_channel": {
+    "message": "נגינה וערוץ"
+  },
+  "slider_playback_speed_control": {
+    "message": "מחוון מהירות נגינה"
+  },
+  "player": {
+    "message": "נגן"
+  },
+  "hide_mini_size_button": {
+    "message": "הסתרת לחצן נגן מוקטן"
+  },
+  "hide_wide_size_button": {
+    "message": "הסתרת לחצן מצב תיאטרון"
+  },
+  "hide_subtitles_button": {
+    "message": "הסתרת לחצן כתוביות"
+  },
+  "hide_autoplay_switcher": {
+    "message": "הסתרת מתג הפעלה אוטומטית"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "בקרת מהירות"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "מעבר אוטומטי לסרטון הבא"
+  },
+  "channel": {
+    "message": "ערוץ"
+  },
+  "hide_channel_trailer": {
+    "message": "הסתרת טריילר הערוץ"
+  },
+  "hide_channel_banner": {
+    "message": "הסתרת באנר הערוץ"
+  },
+  "sidebar": {
+    "message": "סרגל צד"
+  },
+  "hide_sidebar_completely": {
+    "message": "הסתרת סרגל הצד לחלוטין"
+  },
+  "main_menu": {
+    "message": "תפריט ראשי"
+  },
+  "hide_shorts": {
+    "message": "הסתרת \"Shorts\""
+  },
+  "you": {
+    "message": "אתה"
+  },
+  "hide_history": {
+    "message": "הסתרת \"היסטוריה\""
+  },
+  "hide_playlists": {
+    "message": "הסתרת \"פלייליסטים\""
+  },
+  "hide_your_video": {
+    "message": "הסתרת \"הסרטונים שלך\""
+  },
+  "hide_watch_later": {
+    "message": "הסתרת \"צפייה מאוחר יותר\""
+  },
+  "hide_liked_videos": {
+    "message": "הסתרת \"סרטונים שאהבתי\""
+  },
+  "your_movies": {
+    "message": "הסתרת \"סרטים\""
+  },
+  "hide_subscriptions_list": {
+    "message": "הסתרת רשימת המנויים"
+  },
+  "explore": {
+    "message": "גילוי"
+  },
+  "hide_trending": {
+    "message": "הסתרת \"פופולרי\""
+  },
+  "hide_music": {
+    "message": "הסתרת \"מוזיקה\""
+  },
+  "hide_gaming": {
+    "message": "הסתרת \"גיימינג\""
+  },
+  "hide_news": {
+    "message": "הסתרת \"חדשות\""
+  },
+  "hide_sports": {
+    "message": "הסתרת \"ספורט\""
+  },
+  "more_from_youtube": {
+    "message": "עוד מ-YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "הסתרת \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "הסתרת \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "הסתרת \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "הסתרת \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "צפייה ב-GitHub"
+  },
+  "compact_mode": {
+    "message": "מצב קומפקטי"
+  },
+  "hide_related_searches": {
+    "message": "הסתרת חיפושים קשורים"
+  },
+  "hide_search_info_card": {
+    "message": "הסתרת כרטיס מידע בחיפוש"
+  },
+  "search": {
+    "message": "חיפוש"
+  },
+  "hide_channel_video_shelf": {
+    "message": "הסתרת מדף סרטוני הערוץ"
+  },
+  "auto_skip_ads": {
+    "message": "דילוג אוטומטי על פרסומות"
+  },
+  "hide_footer": {
+    "message": "הסתרת כותרת תחתונה וקישורי אודות"
+  },
+  "hide_my_channel": {
+    "message": "הסתרת \"הערוץ שלי\""
+  },
+  "hide_downloads": {
+    "message": "הסתרת \"הורדות\""
+  },
+  "experimental": {
+    "message": "ניסיוני"
+  },
+  "experimental_notice": {
+    "message": "התכונה הזו ניסיונית ועשויה להיות לא יציבה. אנחנו בודקים אותה באופן פעיל, שתפו משוב כדי לעזור לנו לשפר אותה."
+  },
+  "experimental_title": {
+    "message": "תכונה ניסיונית"
+  },
+  "cancel": {
+    "message": "ביטול"
+  },
+  "enable_anyway": {
+    "message": "להפעיל בכל זאת"
+  },
+  "hide_expand_button": {
+    "message": "הסתרת לחצן \"הצג עוד\""
+  },
+  "hide_live": {
+    "message": "הסתרת \"שידור חי\""
+  },
+  "playback_speed": {
+    "message": "מהירות נגינה"
+  },
+  "normal_speed": {
+    "message": "רגילה"
+  },
+  "video_page": {
+    "message": "עמוד הסרטון"
+  },
+  "video_page_elements": {
+    "message": "רכיבי העמוד"
+  },
+  "hide_comments": {
+    "message": "הסתרת תגובות"
+  },
+  "hide_recommended_videos": {
+    "message": "הסתרת סרטונים מומלצים"
+  },
+  "hide_live_chat": {
+    "message": "הסתרת צ'אט חי"
+  },
+  "hide_merch_and_tickets": {
+    "message": "הסתרת מוצרים וכרטיסים"
+  },
+  "hide_end_screen_cards": {
+    "message": "הסתרת כרטיסי מסך סיום"
+  },
+  "hide_action_buttons": {
+    "message": "הסתרת לחצני פעולה"
+  },
+  "hide_like_dislike": {
+    "message": "הסתרת לייק/דיסלייק"
+  },
+  "hide_description": {
+    "message": "הסתרת התיאור"
+  },
+  "hide_ad_info_panels": {
+    "message": "הסתרת פאנלי מידע פרסומיים"
+  },
+  "video_description": {
+    "message": "תיאור"
+  },
+  "hide_description_ai": {
+    "message": "הסתרת מקטע AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "הסתרת תמלול"
+  },
+  "hide_description_people": {
+    "message": "הסתרת אנשים שהוזכרו"
+  },
+  "hide_description_related": {
+    "message": "הסתרת סרטונים קשורים"
+  },
+  "hide_description_channel": {
+    "message": "הסתרת כרטיס הערוץ"
+  },
+  "hide_how_this_was_made": {
+    "message": "הסתרת \"איך זה נוצר\""
+  },
+  "preset_balanced": {
+    "message": "מאוזן"
+  },
+  "preset_maximum": {
+    "message": "מקסימלי"
+  },
+  "preset_custom": {
+    "message": "מותאם אישית"
+  },
+  "reset_preset": {
+    "message": "איפוס הפריסט לברירת המחדל"
+  },
+  "preset_warning_title": {
+    "message": "עריכת פריסט מובנה"
+  },
+  "preset_warning_text": {
+    "message": "אתם משנים פריסט מובנה. השינויים נשמרים בו וניתן לאפס אותו לברירת המחדל בכל עת."
+  },
+  "preset_warning_dont_show": {
+    "message": "אל תציגו זאת שוב"
+  },
+  "continue_action": {
+    "message": "המשך"
+  },
+  "presets": {
+    "message": "פריסטים"
+  },
+  "features_hidden": {
+    "message": "{count} מוסתרים"
+  },
+  "preset_light": {
+    "message": "קל"
+  },
+  "preset_light_desc": {
+    "message": "ניקוי קל של החלקים הכי מסיחי דעת ביוטיוב."
+  },
+  "preset_balanced_desc": {
+    "message": "יוטיוב מאוזן ונטול הסחות דעת."
+  },
+  "preset_maximum_desc": {
+    "message": "ניקוי מקסימלי: מסתיר כמעט כל דבר מיותר."
+  },
+  "preset_custom_desc": {
+    "message": "התצורה שלכם. שנו מה שתרצו."
+  },
+  "reset_action": {
+    "message": "איפוס"
+  },
+  "reset_confirm_text": {
+    "message": "לאפס את הפריסט הנוכחי למצב ברירת המחדל? השינויים שלכם בפריסט הזה יאבדו."
+  },
+  "settings_label": {
+    "message": "הגדרות"
+  },
+  "hide_description_chapters": {
+    "message": "הסתרת פרקים ואפיזודות"
+  }
+}

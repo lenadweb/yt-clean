@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts 차단, 추천·광고 숨기기"
+  },
+  "appDescription": {
+    "message": "Shorts를 차단하고 추천, 댓글, 광고를 숨기세요. 60개 이상의 설정으로 깔끔하고 집중되는 YouTube를 만듭니다."
+  },
+  "actionTitle": {
+    "message": "YouTube 설정 열기"
+  },
+  "toggle_extension": {
+    "message": "확장 프로그램 켜기"
+  },
+  "new": {
+    "message": "신규"
+  },
+  "basic_template": {
+    "message": "기본 템플릿"
+  },
+  "search_bar": {
+    "message": "검색창"
+  },
+  "hide_voice_search_button": {
+    "message": "음성 검색 버튼 숨기기"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "가상 키보드 버튼 숨기기"
+  },
+  "hide_search_tags": {
+    "message": "검색 태그 숨기기"
+  },
+  "actions_and_user": {
+    "message": "작업 및 프로필"
+  },
+  "hide_upload_button": {
+    "message": "업로드 버튼 숨기기"
+  },
+  "hide_notifications": {
+    "message": "알림 숨기기"
+  },
+  "feed_and_recommendations": {
+    "message": "피드 및 추천"
+  },
+  "content_blocks": {
+    "message": "콘텐츠 블록"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts 섹션 숨기기"
+  },
+  "hide_explore_and_news": {
+    "message": "탐색 및 뉴스 숨기기"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "마우스오버 자동 미리보기 끄기"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "믹스 및 재생목록 숨기기"
+  },
+  "ads": {
+    "message": "광고"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube 배너 숨기기"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "피드의 스폰서 동영상 숨기기"
+  },
+  "video_playback_and_channel": {
+    "message": "재생 및 채널"
+  },
+  "slider_playback_speed_control": {
+    "message": "재생 속도 슬라이더"
+  },
+  "player": {
+    "message": "플레이어"
+  },
+  "hide_mini_size_button": {
+    "message": "미니 플레이어 버튼 숨기기"
+  },
+  "hide_wide_size_button": {
+    "message": "극장 모드 버튼 숨기기"
+  },
+  "hide_subtitles_button": {
+    "message": "자막 버튼 숨기기"
+  },
+  "hide_autoplay_switcher": {
+    "message": "자동재생 스위치 숨기기"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "속도 조절"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "다음 항목으로 자동 전환"
+  },
+  "channel": {
+    "message": "채널"
+  },
+  "hide_channel_trailer": {
+    "message": "채널 예고편 숨기기"
+  },
+  "hide_channel_banner": {
+    "message": "채널 배너 숨기기"
+  },
+  "sidebar": {
+    "message": "사이드바"
+  },
+  "hide_sidebar_completely": {
+    "message": "사이드바 완전히 숨기기"
+  },
+  "main_menu": {
+    "message": "기본 메뉴"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" 숨기기"
+  },
+  "you": {
+    "message": "나"
+  },
+  "hide_history": {
+    "message": "\"시청 기록\" 숨기기"
+  },
+  "hide_playlists": {
+    "message": "\"재생목록\" 숨기기"
+  },
+  "hide_your_video": {
+    "message": "\"내 동영상\" 숨기기"
+  },
+  "hide_watch_later": {
+    "message": "\"나중에 볼 동영상\" 숨기기"
+  },
+  "hide_liked_videos": {
+    "message": "\"좋아요 표시한 동영상\" 숨기기"
+  },
+  "your_movies": {
+    "message": "\"영화\" 숨기기"
+  },
+  "hide_subscriptions_list": {
+    "message": "구독 목록 숨기기"
+  },
+  "explore": {
+    "message": "탐색"
+  },
+  "hide_trending": {
+    "message": "\"인기 급상승\" 숨기기"
+  },
+  "hide_music": {
+    "message": "\"음악\" 숨기기"
+  },
+  "hide_gaming": {
+    "message": "\"게임\" 숨기기"
+  },
+  "hide_news": {
+    "message": "\"뉴스\" 숨기기"
+  },
+  "hide_sports": {
+    "message": "\"스포츠\" 숨기기"
+  },
+  "more_from_youtube": {
+    "message": "YouTube 더보기"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" 숨기기"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" 숨기기"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" 숨기기"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube 스튜디오\" 숨기기"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub에서 보기"
+  },
+  "compact_mode": {
+    "message": "간단히 보기"
+  },
+  "hide_related_searches": {
+    "message": "관련 검색어 숨기기"
+  },
+  "hide_search_info_card": {
+    "message": "검색 정보 카드 숨기기"
+  },
+  "search": {
+    "message": "검색"
+  },
+  "hide_channel_video_shelf": {
+    "message": "채널 동영상 선반 숨기기"
+  },
+  "auto_skip_ads": {
+    "message": "광고 자동 건너뛰기"
+  },
+  "hide_footer": {
+    "message": "푸터 및 정보 링크 숨기기"
+  },
+  "hide_my_channel": {
+    "message": "\"내 채널\" 숨기기"
+  },
+  "hide_downloads": {
+    "message": "\"오프라인 저장\" 숨기기"
+  },
+  "experimental": {
+    "message": "실험적"
+  },
+  "experimental_notice": {
+    "message": "이 기능은 실험적이며 불안정할 수 있습니다. 적극적으로 테스트 중이니 개선에 도움이 되도록 의견을 보내주세요."
+  },
+  "experimental_title": {
+    "message": "실험적 기능"
+  },
+  "cancel": {
+    "message": "취소"
+  },
+  "enable_anyway": {
+    "message": "그래도 사용"
+  },
+  "hide_expand_button": {
+    "message": "\"더보기\" 버튼 숨기기"
+  },
+  "hide_live": {
+    "message": "\"실시간\" 숨기기"
+  },
+  "playback_speed": {
+    "message": "재생 속도"
+  },
+  "normal_speed": {
+    "message": "보통"
+  },
+  "video_page": {
+    "message": "동영상 페이지"
+  },
+  "video_page_elements": {
+    "message": "페이지 요소"
+  },
+  "hide_comments": {
+    "message": "댓글 숨기기"
+  },
+  "hide_recommended_videos": {
+    "message": "추천 동영상 숨기기"
+  },
+  "hide_live_chat": {
+    "message": "실시간 채팅 숨기기"
+  },
+  "hide_merch_and_tickets": {
+    "message": "상품 및 티켓 숨기기"
+  },
+  "hide_end_screen_cards": {
+    "message": "최종 화면 카드 숨기기"
+  },
+  "hide_action_buttons": {
+    "message": "작업 버튼 숨기기"
+  },
+  "hide_like_dislike": {
+    "message": "좋아요/싫어요 숨기기"
+  },
+  "hide_description": {
+    "message": "설명 숨기기"
+  },
+  "hide_ad_info_panels": {
+    "message": "광고 정보 패널 숨기기"
+  },
+  "video_description": {
+    "message": "설명"
+  },
+  "hide_description_ai": {
+    "message": "AI 섹션 숨기기 (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "스크립트 숨기기"
+  },
+  "hide_description_people": {
+    "message": "언급된 인물 숨기기"
+  },
+  "hide_description_related": {
+    "message": "관련 동영상 숨기기"
+  },
+  "hide_description_channel": {
+    "message": "채널 카드 숨기기"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"제작 방법\" 숨기기"
+  },
+  "preset_balanced": {
+    "message": "균형"
+  },
+  "preset_maximum": {
+    "message": "최대"
+  },
+  "preset_custom": {
+    "message": "사용자 지정"
+  },
+  "reset_preset": {
+    "message": "프리셋을 기본값으로 초기화"
+  },
+  "preset_warning_title": {
+    "message": "기본 제공 프리셋 편집"
+  },
+  "preset_warning_text": {
+    "message": "기본 제공 프리셋을 변경하고 있습니다. 변경사항은 프리셋에 저장되며 언제든지 기본값으로 되돌릴 수 있습니다."
+  },
+  "preset_warning_dont_show": {
+    "message": "다시 표시하지 않기"
+  },
+  "continue_action": {
+    "message": "계속"
+  },
+  "presets": {
+    "message": "프리셋"
+  },
+  "features_hidden": {
+    "message": "{count}개 숨김"
+  },
+  "preset_light": {
+    "message": "가볍게"
+  },
+  "preset_light_desc": {
+    "message": "YouTube에서 가장 방해가 되는 부분만 가볍게 정리합니다."
+  },
+  "preset_balanced_desc": {
+    "message": "균형 잡힌, 방해 없는 YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "최대 정리: 불필요한 요소를 거의 모두 숨깁니다."
+  },
+  "preset_custom_desc": {
+    "message": "나만의 구성. 원하는 대로 조정하세요."
+  },
+  "reset_action": {
+    "message": "초기화"
+  },
+  "reset_confirm_text": {
+    "message": "현재 프리셋을 기본 상태로 초기화할까요? 이 프리셋의 변경사항이 사라집니다."
+  },
+  "settings_label": {
+    "message": "설정"
+  },
+  "hide_description_chapters": {
+    "message": "챕터 및 에피소드 숨기기"
+  }
+}

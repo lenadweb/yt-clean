@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: bloker Shorts, skjul anbefalinger og reklamer"
+  },
+  "appDescription": {
+    "message": "Bloker Shorts, skjul anbefalinger, kommentarer og reklamer. 60+ kontakter til et rent YouTube uden forstyrrelser."
+  },
+  "actionTitle": {
+    "message": "Åbn YouTube-indstillinger"
+  },
+  "toggle_extension": {
+    "message": "Slå udvidelsen til/fra"
+  },
+  "new": {
+    "message": "ny"
+  },
+  "basic_template": {
+    "message": "Grundskabelon"
+  },
+  "search_bar": {
+    "message": "Søgefelt"
+  },
+  "hide_voice_search_button": {
+    "message": "Skjul knappen til stemmesøgning"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Skjul knappen til skærmtastatur"
+  },
+  "hide_search_tags": {
+    "message": "Skjul søgetags"
+  },
+  "actions_and_user": {
+    "message": "Handlinger og profil"
+  },
+  "hide_upload_button": {
+    "message": "Skjul upload-knappen"
+  },
+  "hide_notifications": {
+    "message": "Skjul notifikationer"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed og anbefalinger"
+  },
+  "content_blocks": {
+    "message": "Indholdsblokke"
+  },
+  "hide_shorts_sections": {
+    "message": "Skjul Shorts-sektioner"
+  },
+  "hide_explore_and_news": {
+    "message": "Skjul Udforsk og Nyheder"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Slå automatisk forhåndsvisning fra"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Skjul mix og playlister"
+  },
+  "ads": {
+    "message": "Reklamer"
+  },
+  "hide_youtube_banners": {
+    "message": "Skjul YouTube-bannere"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Skjul sponsorerede videoer i feedet"
+  },
+  "video_playback_and_channel": {
+    "message": "Afspilning og kanal"
+  },
+  "slider_playback_speed_control": {
+    "message": "Skyder til afspilningshastighed"
+  },
+  "player": {
+    "message": "Afspiller"
+  },
+  "hide_mini_size_button": {
+    "message": "Skjul miniafspiller-knappen"
+  },
+  "hide_wide_size_button": {
+    "message": "Skjul biograftilstand-knappen"
+  },
+  "hide_subtitles_button": {
+    "message": "Skjul undertekstknappen"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Skjul autoplay-kontakten"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Hastighedskontrol"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Automatisk skift til næste"
+  },
+  "channel": {
+    "message": "Kanal"
+  },
+  "hide_channel_trailer": {
+    "message": "Skjul kanaltrailer"
+  },
+  "hide_channel_banner": {
+    "message": "Skjul kanalbanner"
+  },
+  "sidebar": {
+    "message": "Sidepanel"
+  },
+  "hide_sidebar_completely": {
+    "message": "Skjul sidepanelet helt"
+  },
+  "main_menu": {
+    "message": "Hovedmenu"
+  },
+  "hide_shorts": {
+    "message": "Skjul \"Shorts\""
+  },
+  "you": {
+    "message": "Dig"
+  },
+  "hide_history": {
+    "message": "Skjul \"Historik\""
+  },
+  "hide_playlists": {
+    "message": "Skjul \"Playlister\""
+  },
+  "hide_your_video": {
+    "message": "Skjul \"Dine videoer\""
+  },
+  "hide_watch_later": {
+    "message": "Skjul \"Se senere\""
+  },
+  "hide_liked_videos": {
+    "message": "Skjul \"Videoer du kan lide\""
+  },
+  "your_movies": {
+    "message": "Skjul \"Film\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Skjul abonnementslisten"
+  },
+  "explore": {
+    "message": "Udforsk"
+  },
+  "hide_trending": {
+    "message": "Skjul \"Trends\""
+  },
+  "hide_music": {
+    "message": "Skjul \"Musik\""
+  },
+  "hide_gaming": {
+    "message": "Skjul \"Gaming\""
+  },
+  "hide_news": {
+    "message": "Skjul \"Nyheder\""
+  },
+  "hide_sports": {
+    "message": "Skjul \"Sport\""
+  },
+  "more_from_youtube": {
+    "message": "Mere fra YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Skjul \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Skjul \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Skjul \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Skjul \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Se på GitHub"
+  },
+  "compact_mode": {
+    "message": "Kompakt tilstand"
+  },
+  "hide_related_searches": {
+    "message": "Skjul relaterede søgninger"
+  },
+  "hide_search_info_card": {
+    "message": "Skjul infokort i søgning"
+  },
+  "search": {
+    "message": "Søgning"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Skjul kanalens videohylde"
+  },
+  "auto_skip_ads": {
+    "message": "Spring reklamer over automatisk"
+  },
+  "hide_footer": {
+    "message": "Skjul sidefod og Om-links"
+  },
+  "hide_my_channel": {
+    "message": "Skjul \"Min kanal\""
+  },
+  "hide_downloads": {
+    "message": "Skjul \"Downloads\""
+  },
+  "experimental": {
+    "message": "eksperimentel"
+  },
+  "experimental_notice": {
+    "message": "Denne funktion er eksperimentel og kan være ustabil. Vi tester den aktivt, del din feedback for at hjælpe os med at forbedre den."
+  },
+  "experimental_title": {
+    "message": "Eksperimentel funktion"
+  },
+  "cancel": {
+    "message": "Annuller"
+  },
+  "enable_anyway": {
+    "message": "Aktivér alligevel"
+  },
+  "hide_expand_button": {
+    "message": "Skjul knappen \"Vis mere\""
+  },
+  "hide_live": {
+    "message": "Skjul \"Live\""
+  },
+  "playback_speed": {
+    "message": "Afspilningshastighed"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Videoside"
+  },
+  "video_page_elements": {
+    "message": "Sideelementer"
+  },
+  "hide_comments": {
+    "message": "Skjul kommentarer"
+  },
+  "hide_recommended_videos": {
+    "message": "Skjul anbefalede videoer"
+  },
+  "hide_live_chat": {
+    "message": "Skjul livechat"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Skjul merch og billetter"
+  },
+  "hide_end_screen_cards": {
+    "message": "Skjul slutskærmkort"
+  },
+  "hide_action_buttons": {
+    "message": "Skjul handlingsknapper"
+  },
+  "hide_like_dislike": {
+    "message": "Skjul synes godt om"
+  },
+  "hide_description": {
+    "message": "Skjul beskrivelse"
+  },
+  "hide_ad_info_panels": {
+    "message": "Skjul reklameinfopaneler"
+  },
+  "video_description": {
+    "message": "Beskrivelse"
+  },
+  "hide_description_ai": {
+    "message": "Skjul AI-sektion (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Skjul transskription"
+  },
+  "hide_description_people": {
+    "message": "Skjul nævnte personer"
+  },
+  "hide_description_related": {
+    "message": "Skjul relaterede videoer"
+  },
+  "hide_description_channel": {
+    "message": "Skjul kanalkort"
+  },
+  "hide_how_this_was_made": {
+    "message": "Skjul \"Hvordan dette blev lavet\""
+  },
+  "preset_balanced": {
+    "message": "Balanceret"
+  },
+  "preset_maximum": {
+    "message": "Maksimal"
+  },
+  "preset_custom": {
+    "message": "Tilpasset"
+  },
+  "reset_preset": {
+    "message": "Nulstil forudindstilling til standard"
+  },
+  "preset_warning_title": {
+    "message": "Redigerer en indbygget forudindstilling"
+  },
+  "preset_warning_text": {
+    "message": "Du ændrer en indbygget forudindstilling. Dine ændringer gemmes i den og kan altid nulstilles til standard."
+  },
+  "preset_warning_dont_show": {
+    "message": "Vis ikke dette igen"
+  },
+  "continue_action": {
+    "message": "Fortsæt"
+  },
+  "presets": {
+    "message": "Forudindstillinger"
+  },
+  "features_hidden": {
+    "message": "{count} skjult"
+  },
+  "preset_light": {
+    "message": "Let"
+  },
+  "preset_light_desc": {
+    "message": "Let oprydning af de mest forstyrrende dele af YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Et balanceret YouTube uden forstyrrelser."
+  },
+  "preset_maximum_desc": {
+    "message": "Maksimal oprydning: skjuler næsten alt overflødigt."
+  },
+  "preset_custom_desc": {
+    "message": "Din egen konfiguration. Justér hvad du vil."
+  },
+  "reset_action": {
+    "message": "Nulstil"
+  },
+  "reset_confirm_text": {
+    "message": "Nulstil den aktuelle forudindstilling til standard? Dine ændringer i den går tabt."
+  },
+  "settings_label": {
+    "message": "Indstillinger"
+  },
+  "hide_description_chapters": {
+    "message": "Skjul kapitler og afsnit"
+  }
+}

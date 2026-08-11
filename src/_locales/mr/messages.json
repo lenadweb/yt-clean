@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts ब्लॉक करा, शिफारसी व जाहिराती लपवा"
+  },
+  "appDescription": {
+    "message": "Shorts ब्लॉक करा, शिफारसी, टिप्पण्या आणि जाहिराती लपवा. 60+ टॉगलसह स्वच्छ, लक्ष विचलित न करणारा YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube सेटिंग्ज उघडा"
+  },
+  "toggle_extension": {
+    "message": "विस्तार चालू करा"
+  },
+  "new": {
+    "message": "नवीन"
+  },
+  "basic_template": {
+    "message": "मूलभूत टेम्पलेट"
+  },
+  "search_bar": {
+    "message": "शोध पट्टी"
+  },
+  "hide_voice_search_button": {
+    "message": "व्हॉइस शोध बटण लपवा"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "व्हर्च्युअल कीबोर्ड बटण लपवा"
+  },
+  "hide_search_tags": {
+    "message": "शोध टॅग लपवा"
+  },
+  "actions_and_user": {
+    "message": "क्रिया आणि प्रोफाइल"
+  },
+  "hide_upload_button": {
+    "message": "अपलोड बटण लपवा"
+  },
+  "hide_notifications": {
+    "message": "सूचना लपवा"
+  },
+  "feed_and_recommendations": {
+    "message": "फीड आणि शिफारसी"
+  },
+  "content_blocks": {
+    "message": "आशय ब्लॉक"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts विभाग लपवा"
+  },
+  "hide_explore_and_news": {
+    "message": "एक्सप्लोर आणि बातम्या लपवा"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "होव्हरवर स्वयं-पूर्वावलोकन बंद करा"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "मिक्स आणि प्लेलिस्ट लपवा"
+  },
+  "ads": {
+    "message": "जाहिराती"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube बॅनर लपवा"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "फीडमधील प्रायोजित व्हिडिओ लपवा"
+  },
+  "video_playback_and_channel": {
+    "message": "प्लेबॅक आणि चॅनेल"
+  },
+  "slider_playback_speed_control": {
+    "message": "प्लेबॅक गती स्लायडर"
+  },
+  "player": {
+    "message": "प्लेअर"
+  },
+  "hide_mini_size_button": {
+    "message": "मिनी प्लेअर बटण लपवा"
+  },
+  "hide_wide_size_button": {
+    "message": "थिएटर मोड बटण लपवा"
+  },
+  "hide_subtitles_button": {
+    "message": "उपशीर्षक बटण लपवा"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ऑटोप्ले स्विच लपवा"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "गती नियंत्रण"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "पुढील व्हिडिओवर स्वयंचलित बदल"
+  },
+  "channel": {
+    "message": "चॅनेल"
+  },
+  "hide_channel_trailer": {
+    "message": "चॅनेल ट्रेलर लपवा"
+  },
+  "hide_channel_banner": {
+    "message": "चॅनेल बॅनर लपवा"
+  },
+  "sidebar": {
+    "message": "साइडबार"
+  },
+  "hide_sidebar_completely": {
+    "message": "साइडबार पूर्णपणे लपवा"
+  },
+  "main_menu": {
+    "message": "मुख्य मेनू"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" लपवा"
+  },
+  "you": {
+    "message": "तुम्ही"
+  },
+  "hide_history": {
+    "message": "\"इतिहास\" लपवा"
+  },
+  "hide_playlists": {
+    "message": "\"प्लेलिस्ट\" लपवा"
+  },
+  "hide_your_video": {
+    "message": "\"तुमचे व्हिडिओ\" लपवा"
+  },
+  "hide_watch_later": {
+    "message": "\"नंतर पहा\" लपवा"
+  },
+  "hide_liked_videos": {
+    "message": "\"आवडलेले व्हिडिओ\" लपवा"
+  },
+  "your_movies": {
+    "message": "\"चित्रपट\" लपवा"
+  },
+  "hide_subscriptions_list": {
+    "message": "सदस्यता सूची लपवा"
+  },
+  "explore": {
+    "message": "एक्सप्लोर"
+  },
+  "hide_trending": {
+    "message": "\"ट्रेंडिंग\" लपवा"
+  },
+  "hide_music": {
+    "message": "\"संगीत\" लपवा"
+  },
+  "hide_gaming": {
+    "message": "\"गेमिंग\" लपवा"
+  },
+  "hide_news": {
+    "message": "\"बातम्या\" लपवा"
+  },
+  "hide_sports": {
+    "message": "\"क्रीडा\" लपवा"
+  },
+  "more_from_youtube": {
+    "message": "YouTube कडून अधिक"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" लपवा"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" लपवा"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" लपवा"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" लपवा"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub वर पहा"
+  },
+  "compact_mode": {
+    "message": "संक्षिप्त मोड"
+  },
+  "hide_related_searches": {
+    "message": "संबंधित शोध लपवा"
+  },
+  "hide_search_info_card": {
+    "message": "शोध माहिती कार्ड लपवा"
+  },
+  "search": {
+    "message": "शोध"
+  },
+  "hide_channel_video_shelf": {
+    "message": "चॅनेल व्हिडिओ शेल्फ लपवा"
+  },
+  "auto_skip_ads": {
+    "message": "जाहिराती स्वयंचलितपणे वगळा"
+  },
+  "hide_footer": {
+    "message": "तळटीप आणि About दुवे लपवा"
+  },
+  "hide_my_channel": {
+    "message": "\"माझे चॅनेल\" लपवा"
+  },
+  "hide_downloads": {
+    "message": "\"डाउनलोड\" लपवा"
+  },
+  "experimental": {
+    "message": "प्रायोगिक"
+  },
+  "experimental_notice": {
+    "message": "हे वैशिष्ट्य प्रायोगिक आहे आणि अस्थिर असू शकते. आम्ही ते सक्रियपणे तपासत आहोत, सुधारण्यात मदत करण्यासाठी अभिप्राय द्या."
+  },
+  "experimental_title": {
+    "message": "प्रायोगिक वैशिष्ट्य"
+  },
+  "cancel": {
+    "message": "रद्द करा"
+  },
+  "enable_anyway": {
+    "message": "तरीही सुरू करा"
+  },
+  "hide_expand_button": {
+    "message": "\"अधिक दाखवा\" बटण लपवा"
+  },
+  "hide_live": {
+    "message": "\"थेट\" लपवा"
+  },
+  "playback_speed": {
+    "message": "प्लेबॅक गती"
+  },
+  "normal_speed": {
+    "message": "सामान्य"
+  },
+  "video_page": {
+    "message": "व्हिडिओ पृष्ठ"
+  },
+  "video_page_elements": {
+    "message": "पृष्ठ घटक"
+  },
+  "hide_comments": {
+    "message": "टिप्पण्या लपवा"
+  },
+  "hide_recommended_videos": {
+    "message": "शिफारस केलेले व्हिडिओ लपवा"
+  },
+  "hide_live_chat": {
+    "message": "थेट चॅट लपवा"
+  },
+  "hide_merch_and_tickets": {
+    "message": "वस्तू आणि तिकिटे लपवा"
+  },
+  "hide_end_screen_cards": {
+    "message": "शेवटच्या स्क्रीनची कार्डे लपवा"
+  },
+  "hide_action_buttons": {
+    "message": "क्रिया बटणे लपवा"
+  },
+  "hide_like_dislike": {
+    "message": "लाइक/डिसलाइक लपवा"
+  },
+  "hide_description": {
+    "message": "वर्णन लपवा"
+  },
+  "hide_ad_info_panels": {
+    "message": "जाहिरात माहिती पॅनेल लपवा"
+  },
+  "video_description": {
+    "message": "वर्णन"
+  },
+  "hide_description_ai": {
+    "message": "AI विभाग लपवा (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "प्रतिलेख लपवा"
+  },
+  "hide_description_people": {
+    "message": "उल्लेखित व्यक्ती लपवा"
+  },
+  "hide_description_related": {
+    "message": "संबंधित व्हिडिओ लपवा"
+  },
+  "hide_description_channel": {
+    "message": "चॅनेल कार्ड लपवा"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"हे कसे बनवले\" लपवा"
+  },
+  "preset_balanced": {
+    "message": "संतुलित"
+  },
+  "preset_maximum": {
+    "message": "कमाल"
+  },
+  "preset_custom": {
+    "message": "सानुकूल"
+  },
+  "reset_preset": {
+    "message": "प्रीसेट डीफॉल्टवर रीसेट करा"
+  },
+  "preset_warning_title": {
+    "message": "अंगभूत प्रीसेट संपादित करत आहात"
+  },
+  "preset_warning_text": {
+    "message": "तुम्ही अंगभूत प्रीसेट बदलत आहात. तुमचे बदल त्यात जतन होतात आणि कधीही डीफॉल्टवर रीसेट करता येतात."
+  },
+  "preset_warning_dont_show": {
+    "message": "हे पुन्हा दाखवू नका"
+  },
+  "continue_action": {
+    "message": "सुरू ठेवा"
+  },
+  "presets": {
+    "message": "प्रीसेट"
+  },
+  "features_hidden": {
+    "message": "{count} लपवले"
+  },
+  "preset_light": {
+    "message": "हलका"
+  },
+  "preset_light_desc": {
+    "message": "YouTube च्या सर्वाधिक लक्ष विचलित करणाऱ्या भागांची हलकी स्वच्छता."
+  },
+  "preset_balanced_desc": {
+    "message": "संतुलित, लक्ष विचलित न करणारा YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "कमाल स्वच्छता: जवळजवळ सर्व अतिरिक्त लपवते."
+  },
+  "preset_custom_desc": {
+    "message": "तुमची स्वतःची रचना. हवे ते समायोजित करा."
+  },
+  "reset_action": {
+    "message": "रीसेट"
+  },
+  "reset_confirm_text": {
+    "message": "सध्याचा प्रीसेट डीफॉल्ट स्थितीवर रीसेट करायचा? या प्रीसेटमधील तुमचे बदल गमावले जातील."
+  },
+  "settings_label": {
+    "message": "सेटिंग्ज"
+  },
+  "hide_description_chapters": {
+    "message": "प्रकरणे आणि भाग लपवा"
+  }
+}

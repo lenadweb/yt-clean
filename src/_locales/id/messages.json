@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: blokir Shorts, sembunyikan rekomendasi dan iklan"
+  },
+  "appDescription": {
+    "message": "Blokir Shorts, sembunyikan rekomendasi, komentar, dan iklan. 60+ sakelar untuk YouTube yang bersih dan bebas gangguan."
+  },
+  "actionTitle": {
+    "message": "Buka setelan YouTube"
+  },
+  "toggle_extension": {
+    "message": "Aktifkan ekstensi"
+  },
+  "new": {
+    "message": "baru"
+  },
+  "basic_template": {
+    "message": "Template dasar"
+  },
+  "search_bar": {
+    "message": "Bilah pencarian"
+  },
+  "hide_voice_search_button": {
+    "message": "Sembunyikan tombol penelusuran suara"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Sembunyikan tombol keyboard virtual"
+  },
+  "hide_search_tags": {
+    "message": "Sembunyikan tag pencarian"
+  },
+  "actions_and_user": {
+    "message": "Tindakan dan profil"
+  },
+  "hide_upload_button": {
+    "message": "Sembunyikan tombol unggah"
+  },
+  "hide_notifications": {
+    "message": "Sembunyikan notifikasi"
+  },
+  "feed_and_recommendations": {
+    "message": "Feed dan rekomendasi"
+  },
+  "content_blocks": {
+    "message": "Blok konten"
+  },
+  "hide_shorts_sections": {
+    "message": "Sembunyikan bagian Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Sembunyikan Jelajahi dan Berita"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Matikan pratinjau otomatis saat kursor di atas"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Sembunyikan mix dan playlist"
+  },
+  "ads": {
+    "message": "Iklan"
+  },
+  "hide_youtube_banners": {
+    "message": "Sembunyikan banner YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Sembunyikan video bersponsor di feed"
+  },
+  "video_playback_and_channel": {
+    "message": "Pemutaran dan channel"
+  },
+  "slider_playback_speed_control": {
+    "message": "Penggeser kecepatan pemutaran"
+  },
+  "player": {
+    "message": "Pemutar"
+  },
+  "hide_mini_size_button": {
+    "message": "Sembunyikan tombol pemutar mini"
+  },
+  "hide_wide_size_button": {
+    "message": "Sembunyikan tombol mode teater"
+  },
+  "hide_subtitles_button": {
+    "message": "Sembunyikan tombol subtitle"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Sembunyikan sakelar putar otomatis"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Kontrol kecepatan"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Beralih otomatis ke berikutnya"
+  },
+  "channel": {
+    "message": "Channel"
+  },
+  "hide_channel_trailer": {
+    "message": "Sembunyikan trailer channel"
+  },
+  "hide_channel_banner": {
+    "message": "Sembunyikan banner channel"
+  },
+  "sidebar": {
+    "message": "Bilah sisi"
+  },
+  "hide_sidebar_completely": {
+    "message": "Sembunyikan bilah sisi sepenuhnya"
+  },
+  "main_menu": {
+    "message": "Menu utama"
+  },
+  "hide_shorts": {
+    "message": "Sembunyikan \"Shorts\""
+  },
+  "you": {
+    "message": "Anda"
+  },
+  "hide_history": {
+    "message": "Sembunyikan \"Histori\""
+  },
+  "hide_playlists": {
+    "message": "Sembunyikan \"Playlist\""
+  },
+  "hide_your_video": {
+    "message": "Sembunyikan \"Video Anda\""
+  },
+  "hide_watch_later": {
+    "message": "Sembunyikan \"Tonton nanti\""
+  },
+  "hide_liked_videos": {
+    "message": "Sembunyikan \"Video yang disukai\""
+  },
+  "your_movies": {
+    "message": "Sembunyikan \"Film\""
+  },
+  "hide_subscriptions_list": {
+    "message": "Sembunyikan daftar langganan"
+  },
+  "explore": {
+    "message": "Jelajahi"
+  },
+  "hide_trending": {
+    "message": "Sembunyikan \"Trending\""
+  },
+  "hide_music": {
+    "message": "Sembunyikan \"Musik\""
+  },
+  "hide_gaming": {
+    "message": "Sembunyikan \"Game\""
+  },
+  "hide_news": {
+    "message": "Sembunyikan \"Berita\""
+  },
+  "hide_sports": {
+    "message": "Sembunyikan \"Olahraga\""
+  },
+  "more_from_youtube": {
+    "message": "Lainnya dari YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Sembunyikan \"YouTube Premium\""
+  },
+  "hide_youtube_music": {
+    "message": "Sembunyikan \"YouTube Music\""
+  },
+  "hide_youtube_kids": {
+    "message": "Sembunyikan \"YouTube Kids\""
+  },
+  "hide_youtube_studio": {
+    "message": "Sembunyikan \"YouTube Studio\""
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Lihat di GitHub"
+  },
+  "compact_mode": {
+    "message": "Mode ringkas"
+  },
+  "hide_related_searches": {
+    "message": "Sembunyikan pencarian terkait"
+  },
+  "hide_search_info_card": {
+    "message": "Sembunyikan kartu info pencarian"
+  },
+  "search": {
+    "message": "Pencarian"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Sembunyikan rak video channel"
+  },
+  "auto_skip_ads": {
+    "message": "Lewati iklan otomatis"
+  },
+  "hide_footer": {
+    "message": "Sembunyikan footer dan tautan Tentang"
+  },
+  "hide_my_channel": {
+    "message": "Sembunyikan \"Channel saya\""
+  },
+  "hide_downloads": {
+    "message": "Sembunyikan \"Download\""
+  },
+  "experimental": {
+    "message": "eksperimental"
+  },
+  "experimental_notice": {
+    "message": "Fitur ini eksperimental dan mungkin tidak stabil. Kami sedang aktif mengujinya, kirimkan masukan Anda untuk membantu kami memperbaikinya."
+  },
+  "experimental_title": {
+    "message": "Fitur eksperimental"
+  },
+  "cancel": {
+    "message": "Batal"
+  },
+  "enable_anyway": {
+    "message": "Tetap aktifkan"
+  },
+  "hide_expand_button": {
+    "message": "Sembunyikan tombol \"Tampilkan lainnya\""
+  },
+  "hide_live": {
+    "message": "Sembunyikan \"Live\""
+  },
+  "playback_speed": {
+    "message": "Kecepatan pemutaran"
+  },
+  "normal_speed": {
+    "message": "Normal"
+  },
+  "video_page": {
+    "message": "Halaman video"
+  },
+  "video_page_elements": {
+    "message": "Elemen halaman"
+  },
+  "hide_comments": {
+    "message": "Sembunyikan komentar"
+  },
+  "hide_recommended_videos": {
+    "message": "Sembunyikan video rekomendasi"
+  },
+  "hide_live_chat": {
+    "message": "Sembunyikan live chat"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Sembunyikan merchandise dan tiket"
+  },
+  "hide_end_screen_cards": {
+    "message": "Sembunyikan kartu layar akhir"
+  },
+  "hide_action_buttons": {
+    "message": "Sembunyikan tombol tindakan"
+  },
+  "hide_like_dislike": {
+    "message": "Sembunyikan suka/tidak suka"
+  },
+  "hide_description": {
+    "message": "Sembunyikan deskripsi"
+  },
+  "hide_ad_info_panels": {
+    "message": "Sembunyikan panel info iklan"
+  },
+  "video_description": {
+    "message": "Deskripsi"
+  },
+  "hide_description_ai": {
+    "message": "Sembunyikan bagian AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Sembunyikan transkrip"
+  },
+  "hide_description_people": {
+    "message": "Sembunyikan orang yang disebut"
+  },
+  "hide_description_related": {
+    "message": "Sembunyikan video terkait"
+  },
+  "hide_description_channel": {
+    "message": "Sembunyikan kartu channel"
+  },
+  "hide_how_this_was_made": {
+    "message": "Sembunyikan \"Cara pembuatannya\""
+  },
+  "preset_balanced": {
+    "message": "Seimbang"
+  },
+  "preset_maximum": {
+    "message": "Maksimal"
+  },
+  "preset_custom": {
+    "message": "Kustom"
+  },
+  "reset_preset": {
+    "message": "Setel ulang preset ke default"
+  },
+  "preset_warning_title": {
+    "message": "Mengedit preset bawaan"
+  },
+  "preset_warning_text": {
+    "message": "Anda mengubah preset bawaan. Perubahan Anda disimpan di dalamnya dan dapat disetel ulang ke default kapan saja."
+  },
+  "preset_warning_dont_show": {
+    "message": "Jangan tampilkan lagi"
+  },
+  "continue_action": {
+    "message": "Lanjutkan"
+  },
+  "presets": {
+    "message": "Preset"
+  },
+  "features_hidden": {
+    "message": "{count} disembunyikan"
+  },
+  "preset_light": {
+    "message": "Ringan"
+  },
+  "preset_light_desc": {
+    "message": "Pembersihan ringan pada bagian YouTube yang paling mengganggu."
+  },
+  "preset_balanced_desc": {
+    "message": "YouTube yang seimbang dan bebas gangguan."
+  },
+  "preset_maximum_desc": {
+    "message": "Pembersihan maksimal: menyembunyikan hampir semua yang berlebih."
+  },
+  "preset_custom_desc": {
+    "message": "Konfigurasi Anda sendiri. Sesuaikan sesuka Anda."
+  },
+  "reset_action": {
+    "message": "Setel ulang"
+  },
+  "reset_confirm_text": {
+    "message": "Setel ulang preset saat ini ke kondisi default? Perubahan Anda pada preset ini akan hilang."
+  },
+  "settings_label": {
+    "message": "Setelan"
+  },
+  "hide_description_chapters": {
+    "message": "Sembunyikan bab dan episode"
+  }
+}

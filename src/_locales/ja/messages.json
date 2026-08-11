@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean — ショート非表示・おすすめ削除・集中＆デトックス"
+    "message": "YouTube Clean: ショートをブロック、おすすめ・広告を非表示"
   },
   "appDescription": {
-    "message": "YouTube Shorts・おすすめ・広告・雑多な要素を非表示。60以上の設定で、静かで集中できる YouTube に。"
+    "message": "YouTube ショートをブロックし、おすすめ・コメント・広告を非表示。60以上の設定で、集中できる静かな YouTube に。"
   },
   "actionTitle": {
     "message": "YouTube Clean 設定"
@@ -327,7 +327,7 @@
     "message": "バランスの取れた、集中できる YouTube。"
   },
   "preset_maximum_desc": {
-    "message": "最大限の整理 — 余分なものをほぼすべて非表示。"
+    "message": "最大限の整理: 余分なものをほぼすべて非表示。"
   },
   "preset_custom_desc": {
     "message": "自分専用の設定。好きなように調整できます。"

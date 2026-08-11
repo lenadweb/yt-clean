@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: αποκλεισμός Shorts, απόκρυψη προτάσεων και διαφημίσεων"
+  },
+  "appDescription": {
+    "message": "Αποκλείστε τα Shorts, κρύψτε προτάσεις, σχόλια και διαφημίσεις. 60+ διακόπτες για ένα καθαρό YouTube χωρίς περισπασμούς."
+  },
+  "actionTitle": {
+    "message": "Άνοιγμα ρυθμίσεων YouTube"
+  },
+  "toggle_extension": {
+    "message": "Ενεργοποίηση επέκτασης"
+  },
+  "new": {
+    "message": "νέο"
+  },
+  "basic_template": {
+    "message": "Βασικό πρότυπο"
+  },
+  "search_bar": {
+    "message": "Γραμμή αναζήτησης"
+  },
+  "hide_voice_search_button": {
+    "message": "Απόκρυψη κουμπιού φωνητικής αναζήτησης"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "Απόκρυψη κουμπιού εικονικού πληκτρολογίου"
+  },
+  "hide_search_tags": {
+    "message": "Απόκρυψη ετικετών αναζήτησης"
+  },
+  "actions_and_user": {
+    "message": "Ενέργειες και προφίλ"
+  },
+  "hide_upload_button": {
+    "message": "Απόκρυψη κουμπιού μεταφόρτωσης"
+  },
+  "hide_notifications": {
+    "message": "Απόκρυψη ειδοποιήσεων"
+  },
+  "feed_and_recommendations": {
+    "message": "Ροή και προτάσεις"
+  },
+  "content_blocks": {
+    "message": "Μπλοκ περιεχομένου"
+  },
+  "hide_shorts_sections": {
+    "message": "Απόκρυψη ενοτήτων Shorts"
+  },
+  "hide_explore_and_news": {
+    "message": "Απόκρυψη Εξερεύνησης και Ειδήσεων"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "Απενεργοποίηση αυτόματης προεπισκόπησης"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "Απόκρυψη μιξ και λιστών αναπαραγωγής"
+  },
+  "ads": {
+    "message": "Διαφημίσεις"
+  },
+  "hide_youtube_banners": {
+    "message": "Απόκρυψη banner YouTube"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "Απόκρυψη χορηγούμενων βίντεο στη ροή"
+  },
+  "video_playback_and_channel": {
+    "message": "Αναπαραγωγή και κανάλι"
+  },
+  "slider_playback_speed_control": {
+    "message": "Ρυθμιστικό ταχύτητας αναπαραγωγής"
+  },
+  "player": {
+    "message": "Πρόγραμμα αναπαραγωγής"
+  },
+  "hide_mini_size_button": {
+    "message": "Απόκρυψη κουμπιού mini player"
+  },
+  "hide_wide_size_button": {
+    "message": "Απόκρυψη κουμπιού λειτουργίας θεάτρου"
+  },
+  "hide_subtitles_button": {
+    "message": "Απόκρυψη κουμπιού υποτίτλων"
+  },
+  "hide_autoplay_switcher": {
+    "message": "Απόκρυψη διακόπτη αυτόματης αναπαραγωγής"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "Έλεγχος ταχύτητας"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "Αυτόματη μετάβαση στο επόμενο"
+  },
+  "channel": {
+    "message": "Κανάλι"
+  },
+  "hide_channel_trailer": {
+    "message": "Απόκρυψη τρέιλερ καναλιού"
+  },
+  "hide_channel_banner": {
+    "message": "Απόκρυψη banner καναλιού"
+  },
+  "sidebar": {
+    "message": "Πλαϊνή μπάρα"
+  },
+  "hide_sidebar_completely": {
+    "message": "Πλήρης απόκρυψη πλαϊνής μπάρας"
+  },
+  "main_menu": {
+    "message": "Κύριο μενού"
+  },
+  "hide_shorts": {
+    "message": "Απόκρυψη «Shorts»"
+  },
+  "you": {
+    "message": "Εσείς"
+  },
+  "hide_history": {
+    "message": "Απόκρυψη «Ιστορικό»"
+  },
+  "hide_playlists": {
+    "message": "Απόκρυψη «Λίστες αναπαραγωγής»"
+  },
+  "hide_your_video": {
+    "message": "Απόκρυψη «Τα βίντεό σας»"
+  },
+  "hide_watch_later": {
+    "message": "Απόκρυψη «Παρακολούθηση αργότερα»"
+  },
+  "hide_liked_videos": {
+    "message": "Απόκρυψη «Βίντεο που μου αρέσουν»"
+  },
+  "your_movies": {
+    "message": "Απόκρυψη «Ταινίες»"
+  },
+  "hide_subscriptions_list": {
+    "message": "Απόκρυψη λίστας συνδρομών"
+  },
+  "explore": {
+    "message": "Εξερεύνηση"
+  },
+  "hide_trending": {
+    "message": "Απόκρυψη «Δημοφιλή»"
+  },
+  "hide_music": {
+    "message": "Απόκρυψη «Μουσική»"
+  },
+  "hide_gaming": {
+    "message": "Απόκρυψη «Παιχνίδια»"
+  },
+  "hide_news": {
+    "message": "Απόκρυψη «Ειδήσεις»"
+  },
+  "hide_sports": {
+    "message": "Απόκρυψη «Αθλητικά»"
+  },
+  "more_from_youtube": {
+    "message": "Περισσότερα από το YouTube"
+  },
+  "hide_youtube_premium": {
+    "message": "Απόκρυψη «YouTube Premium»"
+  },
+  "hide_youtube_music": {
+    "message": "Απόκρυψη «YouTube Music»"
+  },
+  "hide_youtube_kids": {
+    "message": "Απόκρυψη «YouTube Kids»"
+  },
+  "hide_youtube_studio": {
+    "message": "Απόκρυψη «YouTube Studio»"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "Προβολή στο GitHub"
+  },
+  "compact_mode": {
+    "message": "Συμπαγής λειτουργία"
+  },
+  "hide_related_searches": {
+    "message": "Απόκρυψη σχετικών αναζητήσεων"
+  },
+  "hide_search_info_card": {
+    "message": "Απόκρυψη κάρτας πληροφοριών"
+  },
+  "search": {
+    "message": "Αναζήτηση"
+  },
+  "hide_channel_video_shelf": {
+    "message": "Απόκρυψη ραφιού βίντεο καναλιού"
+  },
+  "auto_skip_ads": {
+    "message": "Αυτόματη παράλειψη διαφημίσεων"
+  },
+  "hide_footer": {
+    "message": "Απόκρυψη υποσέλιδου και συνδέσμων"
+  },
+  "hide_my_channel": {
+    "message": "Απόκρυψη «Το κανάλι μου»"
+  },
+  "hide_downloads": {
+    "message": "Απόκρυψη «Λήψεις»"
+  },
+  "experimental": {
+    "message": "πειραματικό"
+  },
+  "experimental_notice": {
+    "message": "Αυτή η λειτουργία είναι πειραματική και μπορεί να είναι ασταθής. Τη δοκιμάζουμε ενεργά, στείλτε μας σχόλια για να μας βοηθήσετε να τη βελτιώσουμε."
+  },
+  "experimental_title": {
+    "message": "Πειραματική λειτουργία"
+  },
+  "cancel": {
+    "message": "Ακύρωση"
+  },
+  "enable_anyway": {
+    "message": "Ενεργοποίηση ούτως ή άλλως"
+  },
+  "hide_expand_button": {
+    "message": "Απόκρυψη κουμπιού «Εμφάνιση περισσότερων»"
+  },
+  "hide_live": {
+    "message": "Απόκρυψη «Ζωντανά»"
+  },
+  "playback_speed": {
+    "message": "Ταχύτητα αναπαραγωγής"
+  },
+  "normal_speed": {
+    "message": "Κανονική"
+  },
+  "video_page": {
+    "message": "Σελίδα βίντεο"
+  },
+  "video_page_elements": {
+    "message": "Στοιχεία σελίδας"
+  },
+  "hide_comments": {
+    "message": "Απόκρυψη σχολίων"
+  },
+  "hide_recommended_videos": {
+    "message": "Απόκρυψη προτεινόμενων βίντεο"
+  },
+  "hide_live_chat": {
+    "message": "Απόκρυψη ζωντανής συνομιλίας"
+  },
+  "hide_merch_and_tickets": {
+    "message": "Απόκρυψη προϊόντων και εισιτηρίων"
+  },
+  "hide_end_screen_cards": {
+    "message": "Απόκρυψη καρτών τέλους"
+  },
+  "hide_action_buttons": {
+    "message": "Απόκρυψη κουμπιών ενεργειών"
+  },
+  "hide_like_dislike": {
+    "message": "Απόκρυψη like/dislike"
+  },
+  "hide_description": {
+    "message": "Απόκρυψη περιγραφής"
+  },
+  "hide_ad_info_panels": {
+    "message": "Απόκρυψη διαφημιστικών πάνελ"
+  },
+  "video_description": {
+    "message": "Περιγραφή"
+  },
+  "hide_description_ai": {
+    "message": "Απόκρυψη ενότητας AI (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "Απόκρυψη απομαγνητοφώνησης"
+  },
+  "hide_description_people": {
+    "message": "Απόκρυψη αναφερόμενων ατόμων"
+  },
+  "hide_description_related": {
+    "message": "Απόκρυψη σχετικών βίντεο"
+  },
+  "hide_description_channel": {
+    "message": "Απόκρυψη κάρτας καναλιού"
+  },
+  "hide_how_this_was_made": {
+    "message": "Απόκρυψη «Πώς δημιουργήθηκε»"
+  },
+  "preset_balanced": {
+    "message": "Ισορροπημένο"
+  },
+  "preset_maximum": {
+    "message": "Μέγιστο"
+  },
+  "preset_custom": {
+    "message": "Προσαρμοσμένο"
+  },
+  "reset_preset": {
+    "message": "Επαναφορά προρύθμισης"
+  },
+  "preset_warning_title": {
+    "message": "Επεξεργασία ενσωματωμένης προρύθμισης"
+  },
+  "preset_warning_text": {
+    "message": "Αλλάζετε μια ενσωματωμένη προρύθμιση. Οι αλλαγές σας αποθηκεύονται σε αυτήν και μπορούν να επαναφερθούν ανά πάσα στιγμή."
+  },
+  "preset_warning_dont_show": {
+    "message": "Να μην εμφανιστεί ξανά"
+  },
+  "continue_action": {
+    "message": "Συνέχεια"
+  },
+  "presets": {
+    "message": "Προρυθμίσεις"
+  },
+  "features_hidden": {
+    "message": "{count} κρυμμένα"
+  },
+  "preset_light": {
+    "message": "Ελαφρύ"
+  },
+  "preset_light_desc": {
+    "message": "Ελαφρύ καθάρισμα των πιο αποσπαστικών τμημάτων του YouTube."
+  },
+  "preset_balanced_desc": {
+    "message": "Ένα ισορροπημένο YouTube χωρίς περισπασμούς."
+  },
+  "preset_maximum_desc": {
+    "message": "Μέγιστο καθάρισμα: κρύβει σχεδόν όλα τα περιττά."
+  },
+  "preset_custom_desc": {
+    "message": "Η δική σας διαμόρφωση. Ρυθμίστε ό,τι θέλετε."
+  },
+  "reset_action": {
+    "message": "Επαναφορά"
+  },
+  "reset_confirm_text": {
+    "message": "Επαναφορά της τρέχουσας προρύθμισης στην προεπιλογή; Οι αλλαγές σας θα χαθούν."
+  },
+  "settings_label": {
+    "message": "Ρυθμίσεις"
+  },
+  "hide_description_chapters": {
+    "message": "Απόκρυψη κεφαλαίων και επεισοδίων"
+  }
+}

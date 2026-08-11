@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: 封鎖 Shorts、隱藏推薦與廣告"
+  },
+  "appDescription": {
+    "message": "封鎖 YouTube Shorts，隱藏推薦、留言和廣告。60+ 個開關，打造乾淨、專注、零干擾的 YouTube。"
+  },
+  "actionTitle": {
+    "message": "開啟 YouTube 設定"
+  },
+  "toggle_extension": {
+    "message": "啟用擴充功能"
+  },
+  "new": {
+    "message": "新"
+  },
+  "basic_template": {
+    "message": "基本範本"
+  },
+  "search_bar": {
+    "message": "搜尋列"
+  },
+  "hide_voice_search_button": {
+    "message": "隱藏語音搜尋按鈕"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "隱藏虛擬鍵盤按鈕"
+  },
+  "hide_search_tags": {
+    "message": "隱藏搜尋標籤"
+  },
+  "actions_and_user": {
+    "message": "操作與個人檔案"
+  },
+  "hide_upload_button": {
+    "message": "隱藏上傳按鈕"
+  },
+  "hide_notifications": {
+    "message": "隱藏通知"
+  },
+  "feed_and_recommendations": {
+    "message": "動態消息與推薦"
+  },
+  "content_blocks": {
+    "message": "內容區塊"
+  },
+  "hide_shorts_sections": {
+    "message": "隱藏 Shorts 區塊"
+  },
+  "hide_explore_and_news": {
+    "message": "隱藏「探索」與「新聞」"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "關閉滑鼠停留自動預覽"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "隱藏混合輯與播放清單"
+  },
+  "ads": {
+    "message": "廣告"
+  },
+  "hide_youtube_banners": {
+    "message": "隱藏 YouTube 橫幅"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "隱藏動態消息中的贊助影片"
+  },
+  "video_playback_and_channel": {
+    "message": "播放與頻道"
+  },
+  "slider_playback_speed_control": {
+    "message": "播放速度滑桿"
+  },
+  "player": {
+    "message": "播放器"
+  },
+  "hide_mini_size_button": {
+    "message": "隱藏迷你播放器按鈕"
+  },
+  "hide_wide_size_button": {
+    "message": "隱藏劇院模式按鈕"
+  },
+  "hide_subtitles_button": {
+    "message": "隱藏字幕按鈕"
+  },
+  "hide_autoplay_switcher": {
+    "message": "隱藏自動播放開關"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "速度控制"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "自動切換至下一則"
+  },
+  "channel": {
+    "message": "頻道"
+  },
+  "hide_channel_trailer": {
+    "message": "隱藏頻道預告片"
+  },
+  "hide_channel_banner": {
+    "message": "隱藏頻道橫幅"
+  },
+  "sidebar": {
+    "message": "側邊欄"
+  },
+  "hide_sidebar_completely": {
+    "message": "完全隱藏側邊欄"
+  },
+  "main_menu": {
+    "message": "主選單"
+  },
+  "hide_shorts": {
+    "message": "隱藏「Shorts」"
+  },
+  "you": {
+    "message": "你"
+  },
+  "hide_history": {
+    "message": "隱藏「觀看記錄」"
+  },
+  "hide_playlists": {
+    "message": "隱藏「播放清單」"
+  },
+  "hide_your_video": {
+    "message": "隱藏「你的影片」"
+  },
+  "hide_watch_later": {
+    "message": "隱藏「稍後觀看」"
+  },
+  "hide_liked_videos": {
+    "message": "隱藏「喜歡的影片」"
+  },
+  "your_movies": {
+    "message": "隱藏「電影」"
+  },
+  "hide_subscriptions_list": {
+    "message": "隱藏訂閱清單"
+  },
+  "explore": {
+    "message": "探索"
+  },
+  "hide_trending": {
+    "message": "隱藏「發燒影片」"
+  },
+  "hide_music": {
+    "message": "隱藏「音樂」"
+  },
+  "hide_gaming": {
+    "message": "隱藏「遊戲」"
+  },
+  "hide_news": {
+    "message": "隱藏「新聞」"
+  },
+  "hide_sports": {
+    "message": "隱藏「運動」"
+  },
+  "more_from_youtube": {
+    "message": "更多 YouTube 服務"
+  },
+  "hide_youtube_premium": {
+    "message": "隱藏「YouTube Premium」"
+  },
+  "hide_youtube_music": {
+    "message": "隱藏「YouTube Music」"
+  },
+  "hide_youtube_kids": {
+    "message": "隱藏「YouTube Kids」"
+  },
+  "hide_youtube_studio": {
+    "message": "隱藏「YouTube 工作室」"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "在 GitHub 上檢視"
+  },
+  "compact_mode": {
+    "message": "精簡模式"
+  },
+  "hide_related_searches": {
+    "message": "隱藏相關搜尋"
+  },
+  "hide_search_info_card": {
+    "message": "隱藏搜尋資訊卡"
+  },
+  "search": {
+    "message": "搜尋"
+  },
+  "hide_channel_video_shelf": {
+    "message": "隱藏頻道影片架"
+  },
+  "auto_skip_ads": {
+    "message": "自動略過廣告"
+  },
+  "hide_footer": {
+    "message": "隱藏頁尾與「關於」連結"
+  },
+  "hide_my_channel": {
+    "message": "隱藏「我的頻道」"
+  },
+  "hide_downloads": {
+    "message": "隱藏「下載內容」"
+  },
+  "experimental": {
+    "message": "實驗性"
+  },
+  "experimental_notice": {
+    "message": "此功能為實驗性質，可能不穩定。我們正在積極測試，歡迎提供意見協助我們改進。"
+  },
+  "experimental_title": {
+    "message": "實驗性功能"
+  },
+  "cancel": {
+    "message": "取消"
+  },
+  "enable_anyway": {
+    "message": "仍要啟用"
+  },
+  "hide_expand_button": {
+    "message": "隱藏「顯示更多」按鈕"
+  },
+  "hide_live": {
+    "message": "隱藏「直播」"
+  },
+  "playback_speed": {
+    "message": "播放速度"
+  },
+  "normal_speed": {
+    "message": "正常"
+  },
+  "video_page": {
+    "message": "影片頁面"
+  },
+  "video_page_elements": {
+    "message": "頁面元素"
+  },
+  "hide_comments": {
+    "message": "隱藏留言"
+  },
+  "hide_recommended_videos": {
+    "message": "隱藏推薦影片"
+  },
+  "hide_live_chat": {
+    "message": "隱藏即時聊天"
+  },
+  "hide_merch_and_tickets": {
+    "message": "隱藏商品與門票"
+  },
+  "hide_end_screen_cards": {
+    "message": "隱藏結束畫面資訊卡"
+  },
+  "hide_action_buttons": {
+    "message": "隱藏操作按鈕"
+  },
+  "hide_like_dislike": {
+    "message": "隱藏喜歡/不喜歡"
+  },
+  "hide_description": {
+    "message": "隱藏說明"
+  },
+  "hide_ad_info_panels": {
+    "message": "隱藏廣告資訊面板"
+  },
+  "video_description": {
+    "message": "說明"
+  },
+  "hide_description_ai": {
+    "message": "隱藏 AI 區塊 (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "隱藏文字記錄"
+  },
+  "hide_description_people": {
+    "message": "隱藏提及的人物"
+  },
+  "hide_description_related": {
+    "message": "隱藏相關影片"
+  },
+  "hide_description_channel": {
+    "message": "隱藏頻道資訊卡"
+  },
+  "hide_how_this_was_made": {
+    "message": "隱藏「製作方式」"
+  },
+  "preset_balanced": {
+    "message": "平衡"
+  },
+  "preset_maximum": {
+    "message": "最大"
+  },
+  "preset_custom": {
+    "message": "自訂"
+  },
+  "reset_preset": {
+    "message": "將預設組合還原為預設值"
+  },
+  "preset_warning_title": {
+    "message": "正在編輯內建預設組合"
+  },
+  "preset_warning_text": {
+    "message": "你正在變更內建預設組合。變更會儲存到其中，隨時可以還原為預設值。"
+  },
+  "preset_warning_dont_show": {
+    "message": "不要再顯示"
+  },
+  "continue_action": {
+    "message": "繼續"
+  },
+  "presets": {
+    "message": "預設組合"
+  },
+  "features_hidden": {
+    "message": "已隱藏 {count} 項"
+  },
+  "preset_light": {
+    "message": "輕度"
+  },
+  "preset_light_desc": {
+    "message": "輕度清理 YouTube 中最容易分心的部分。"
+  },
+  "preset_balanced_desc": {
+    "message": "平衡且零干擾的 YouTube。"
+  },
+  "preset_maximum_desc": {
+    "message": "最大程度清理：隱藏幾乎所有多餘內容。"
+  },
+  "preset_custom_desc": {
+    "message": "你自己的設定組合。隨意調整。"
+  },
+  "reset_action": {
+    "message": "重設"
+  },
+  "reset_confirm_text": {
+    "message": "要將目前的預設組合還原為預設狀態嗎？你對此組合的變更將會遺失。"
+  },
+  "settings_label": {
+    "message": "設定"
+  },
+  "hide_description_chapters": {
+    "message": "隱藏章節與集數"
+  }
+}

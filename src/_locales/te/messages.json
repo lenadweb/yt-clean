@@ -1,0 +1,347 @@
+{
+  "appName": {
+    "message": "YouTube Clean: Shorts బ్లాక్, సిఫార్సులు & ప్రకటనలు దాచు"
+  },
+  "appDescription": {
+    "message": "Shorts బ్లాక్ చేయండి, సిఫార్సులు, వ్యాఖ్యలు, ప్రకటనలు దాచండి. 60+ టోగుల్స్‌తో శుభ్రమైన, ఏకాగ్రత YouTube."
+  },
+  "actionTitle": {
+    "message": "YouTube సెట్టింగ్‌లు తెరవండి"
+  },
+  "toggle_extension": {
+    "message": "పొడిగింపును ఆన్ చేయండి"
+  },
+  "new": {
+    "message": "కొత్తది"
+  },
+  "basic_template": {
+    "message": "ప్రాథమిక టెంప్లేట్"
+  },
+  "search_bar": {
+    "message": "శోధన పట్టీ"
+  },
+  "hide_voice_search_button": {
+    "message": "వాయిస్ శోధన బటన్ దాచు"
+  },
+  "hide_virtual_keyboard_button": {
+    "message": "వర్చువల్ కీబోర్డ్ బటన్ దాచు"
+  },
+  "hide_search_tags": {
+    "message": "శోధన ట్యాగ్‌లు దాచు"
+  },
+  "actions_and_user": {
+    "message": "చర్యలు & ప్రొఫైల్"
+  },
+  "hide_upload_button": {
+    "message": "అప్‌లోడ్ బటన్ దాచు"
+  },
+  "hide_notifications": {
+    "message": "నోటిఫికేషన్‌లు దాచు"
+  },
+  "feed_and_recommendations": {
+    "message": "ఫీడ్ & సిఫార్సులు"
+  },
+  "content_blocks": {
+    "message": "కంటెంట్ బ్లాక్‌లు"
+  },
+  "hide_shorts_sections": {
+    "message": "Shorts విభాగాలు దాచు"
+  },
+  "hide_explore_and_news": {
+    "message": "అన్వేషించు & వార్తలు దాచు"
+  },
+  "disable_auto_preview_on_hover": {
+    "message": "హోవర్‌లో ఆటో ప్రివ్యూ ఆఫ్ చేయి"
+  },
+  "hide_mixes_and_playlists": {
+    "message": "మిక్స్‌లు & ప్లేజాబితాలు దాచు"
+  },
+  "ads": {
+    "message": "ప్రకటనలు"
+  },
+  "hide_youtube_banners": {
+    "message": "YouTube బ్యానర్‌లు దాచు"
+  },
+  "hide_sponsored_feed_video": {
+    "message": "ఫీడ్‌లో స్పాన్సర్ వీడియోలు దాచు"
+  },
+  "video_playback_and_channel": {
+    "message": "ప్లేబ్యాక్ & ఛానెల్"
+  },
+  "slider_playback_speed_control": {
+    "message": "ప్లేబ్యాక్ వేగం స్లయిడర్"
+  },
+  "player": {
+    "message": "ప్లేయర్"
+  },
+  "hide_mini_size_button": {
+    "message": "మినీ ప్లేయర్ బటన్ దాచు"
+  },
+  "hide_wide_size_button": {
+    "message": "థియేటర్ మోడ్ బటన్ దాచు"
+  },
+  "hide_subtitles_button": {
+    "message": "సబ్‌టైటిల్స్ బటన్ దాచు"
+  },
+  "hide_autoplay_switcher": {
+    "message": "ఆటోప్లే స్విచ్ దాచు"
+  },
+  "shorts": {
+    "message": "Shorts"
+  },
+  "speed_control": {
+    "message": "వేగ నియంత్రణ"
+  },
+  "automatic_switching_to_the_next": {
+    "message": "తదుపరిదానికి స్వయంచాలక మార్పు"
+  },
+  "channel": {
+    "message": "ఛానెల్"
+  },
+  "hide_channel_trailer": {
+    "message": "ఛానెల్ ట్రైలర్ దాచు"
+  },
+  "hide_channel_banner": {
+    "message": "ఛానెల్ బ్యానర్ దాచు"
+  },
+  "sidebar": {
+    "message": "సైడ్‌బార్"
+  },
+  "hide_sidebar_completely": {
+    "message": "సైడ్‌బార్ పూర్తిగా దాచు"
+  },
+  "main_menu": {
+    "message": "ప్రధాన మెను"
+  },
+  "hide_shorts": {
+    "message": "\"Shorts\" దాచు"
+  },
+  "you": {
+    "message": "మీరు"
+  },
+  "hide_history": {
+    "message": "\"చరిత్ర\" దాచు"
+  },
+  "hide_playlists": {
+    "message": "\"ప్లేజాబితాలు\" దాచు"
+  },
+  "hide_your_video": {
+    "message": "\"మీ వీడియోలు\" దాచు"
+  },
+  "hide_watch_later": {
+    "message": "\"తర్వాత చూడండి\" దాచు"
+  },
+  "hide_liked_videos": {
+    "message": "\"ఇష్టపడిన వీడియోలు\" దాచు"
+  },
+  "your_movies": {
+    "message": "\"సినిమాలు\" దాచు"
+  },
+  "hide_subscriptions_list": {
+    "message": "సబ్‌స్క్రిప్షన్ జాబితా దాచు"
+  },
+  "explore": {
+    "message": "అన్వేషించు"
+  },
+  "hide_trending": {
+    "message": "\"ట్రెండింగ్\" దాచు"
+  },
+  "hide_music": {
+    "message": "\"సంగీతం\" దాచు"
+  },
+  "hide_gaming": {
+    "message": "\"గేమింగ్\" దాచు"
+  },
+  "hide_news": {
+    "message": "\"వార్తలు\" దాచు"
+  },
+  "hide_sports": {
+    "message": "\"క్రీడలు\" దాచు"
+  },
+  "more_from_youtube": {
+    "message": "YouTube నుండి మరిన్ని"
+  },
+  "hide_youtube_premium": {
+    "message": "\"YouTube Premium\" దాచు"
+  },
+  "hide_youtube_music": {
+    "message": "\"YouTube Music\" దాచు"
+  },
+  "hide_youtube_kids": {
+    "message": "\"YouTube Kids\" దాచు"
+  },
+  "hide_youtube_studio": {
+    "message": "\"YouTube Studio\" దాచు"
+  },
+  "youtube_clean": {
+    "message": "YouTube Clean"
+  },
+  "view_on_github": {
+    "message": "GitHub‌లో చూడండి"
+  },
+  "compact_mode": {
+    "message": "కాంపాక్ట్ మోడ్"
+  },
+  "hide_related_searches": {
+    "message": "సంబంధిత శోధనలు దాచు"
+  },
+  "hide_search_info_card": {
+    "message": "శోధన సమాచార కార్డు దాచు"
+  },
+  "search": {
+    "message": "శోధన"
+  },
+  "hide_channel_video_shelf": {
+    "message": "ఛానెల్ వీడియో షెల్ఫ్ దాచు"
+  },
+  "auto_skip_ads": {
+    "message": "ప్రకటనలను స్వయంచాలకంగా దాటవేయి"
+  },
+  "hide_footer": {
+    "message": "ఫుటర్ & About లింక్‌లు దాచు"
+  },
+  "hide_my_channel": {
+    "message": "\"నా ఛానెల్\" దాచు"
+  },
+  "hide_downloads": {
+    "message": "\"డౌన్‌లోడ్‌లు\" దాచు"
+  },
+  "experimental": {
+    "message": "ప్రయోగాత్మకం"
+  },
+  "experimental_notice": {
+    "message": "ఈ ఫీచర్ ప్రయోగాత్మకమైనది, అస్థిరంగా ఉండవచ్చు. మేము దీన్ని చురుకుగా పరీక్షిస్తున్నాం, మెరుగుపరచడంలో సహాయపడేందుకు అభిప్రాయం పంపండి."
+  },
+  "experimental_title": {
+    "message": "ప్రయోగాత్మక ఫీచర్"
+  },
+  "cancel": {
+    "message": "రద్దు"
+  },
+  "enable_anyway": {
+    "message": "అయినా ఆన్ చేయి"
+  },
+  "hide_expand_button": {
+    "message": "\"మరిన్ని చూపు\" బటన్ దాచు"
+  },
+  "hide_live": {
+    "message": "\"ప్రత్యక్ష\" దాచు"
+  },
+  "playback_speed": {
+    "message": "ప్లేబ్యాక్ వేగం"
+  },
+  "normal_speed": {
+    "message": "సాధారణం"
+  },
+  "video_page": {
+    "message": "వీడియో పేజీ"
+  },
+  "video_page_elements": {
+    "message": "పేజీ మూలకాలు"
+  },
+  "hide_comments": {
+    "message": "వ్యాఖ్యలు దాచు"
+  },
+  "hide_recommended_videos": {
+    "message": "సిఫార్సు చేసిన వీడియోలు దాచు"
+  },
+  "hide_live_chat": {
+    "message": "ప్రత్యక్ష చాట్ దాచు"
+  },
+  "hide_merch_and_tickets": {
+    "message": "వస్తువులు & టికెట్లు దాచు"
+  },
+  "hide_end_screen_cards": {
+    "message": "ముగింపు స్క్రీన్ కార్డులు దాచు"
+  },
+  "hide_action_buttons": {
+    "message": "చర్య బటన్‌లు దాచు"
+  },
+  "hide_like_dislike": {
+    "message": "లైక్/డిస్‌లైక్ దాచు"
+  },
+  "hide_description": {
+    "message": "వివరణ దాచు"
+  },
+  "hide_ad_info_panels": {
+    "message": "ప్రకటన సమాచార ప్యానెల్‌లు దాచు"
+  },
+  "video_description": {
+    "message": "వివరణ"
+  },
+  "hide_description_ai": {
+    "message": "AI విభాగం దాచు (Gemini)"
+  },
+  "hide_description_transcript": {
+    "message": "లిప్యంతరీకరణ దాచు"
+  },
+  "hide_description_people": {
+    "message": "ప్రస్తావించిన వ్యక్తులు దాచు"
+  },
+  "hide_description_related": {
+    "message": "సంబంధిత వీడియోలు దాచు"
+  },
+  "hide_description_channel": {
+    "message": "ఛానెల్ కార్డు దాచు"
+  },
+  "hide_how_this_was_made": {
+    "message": "\"ఇది ఎలా తయారైంది\" దాచు"
+  },
+  "preset_balanced": {
+    "message": "సమతుల్యం"
+  },
+  "preset_maximum": {
+    "message": "గరిష్టం"
+  },
+  "preset_custom": {
+    "message": "అనుకూలం"
+  },
+  "reset_preset": {
+    "message": "ప్రీసెట్‌ను డిఫాల్ట్‌కు రీసెట్ చేయి"
+  },
+  "preset_warning_title": {
+    "message": "అంతర్నిర్మిత ప్రీసెట్ సవరణ"
+  },
+  "preset_warning_text": {
+    "message": "మీరు అంతర్నిర్మిత ప్రీసెట్‌ను మారుస్తున్నారు. మీ మార్పులు అందులో సేవ్ అవుతాయి, ఎప్పుడైనా డిఫాల్ట్‌కు రీసెట్ చేయవచ్చు."
+  },
+  "preset_warning_dont_show": {
+    "message": "దీన్ని మళ్లీ చూపవద్దు"
+  },
+  "continue_action": {
+    "message": "కొనసాగించు"
+  },
+  "presets": {
+    "message": "ప్రీసెట్‌లు"
+  },
+  "features_hidden": {
+    "message": "{count} దాచబడ్డాయి"
+  },
+  "preset_light": {
+    "message": "తేలికైనది"
+  },
+  "preset_light_desc": {
+    "message": "YouTube లో అత్యంత దృష్టి మరల్చే భాగాల తేలికపాటి శుభ్రత."
+  },
+  "preset_balanced_desc": {
+    "message": "సమతుల్యమైన, ఏకాగ్రతకు అనుకూలమైన YouTube."
+  },
+  "preset_maximum_desc": {
+    "message": "గరిష్ట శుభ్రత: అదనపు వాటిని దాదాపు అన్నింటినీ దాచుతుంది."
+  },
+  "preset_custom_desc": {
+    "message": "మీ స్వంత కాన్ఫిగరేషన్. కావలసినది సర్దుబాటు చేయండి."
+  },
+  "reset_action": {
+    "message": "రీసెట్"
+  },
+  "reset_confirm_text": {
+    "message": "ప్రస్తుత ప్రీసెట్‌ను డిఫాల్ట్ స్థితికి రీసెట్ చేయాలా? ఈ ప్రీసెట్‌లో మీ మార్పులు పోతాయి."
+  },
+  "settings_label": {
+    "message": "సెట్టింగ్‌లు"
+  },
+  "hide_description_chapters": {
+    "message": "అధ్యాయాలు & ఎపిసోడ్‌లు దాచు"
+  }
+}

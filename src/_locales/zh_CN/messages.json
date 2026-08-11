@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean — 隐藏 Shorts、移除推荐、专注与数字排毒"
+    "message": "YouTube Clean: 屏蔽 Shorts、隐藏推荐与广告"
   },
   "appDescription": {
-    "message": "隐藏 YouTube Shorts、推荐、广告和杂乱元素。60+ 个开关，打造干净、专注、无干扰的 YouTube。"
+    "message": "屏蔽 YouTube Shorts，隐藏推荐、评论和广告。60+ 个开关，打造干净、专注、无干扰的 YouTube。"
   },
   "actionTitle": {
     "message": "YouTube Clean 设置"
@@ -210,7 +210,7 @@
     "message": "实验性"
   },
   "experimental_notice": {
-    "message": "此功能处于实验阶段，可能不稳定。我们正在积极测试——欢迎反馈以帮助我们改进。"
+    "message": "此功能处于实验阶段，可能不稳定。我们正在积极测试，欢迎反馈以帮助我们改进。"
   },
   "experimental_title": {
     "message": "实验性功能"
@@ -327,7 +327,7 @@
     "message": "均衡、专注无干扰的 YouTube。"
   },
   "preset_maximum_desc": {
-    "message": "最大化清理——几乎隐藏所有多余内容。"
+    "message": "最大化清理：几乎隐藏所有多余内容。"
   },
   "preset_custom_desc": {
     "message": "你自己的配置，随意调整。"
