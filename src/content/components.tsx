@@ -11,12 +11,15 @@ const FONT_STYLE_ID = getAttr('font-style');
 const injectFontFace = (): void => {
     if (document.getElementById(FONT_STYLE_ID)) return;
 
+    const fontUrl = chrome.runtime.getURL(
+        'fonts/Manrope-VariableFont_wght.ttf'
+    );
     const globalFontStyle = document.createElement('style');
     globalFontStyle.id = FONT_STYLE_ID;
     globalFontStyle.textContent = `
       @font-face {
         font-family: 'Manrope';
-        src: url(chrome-extension://${chrome.runtime.id}/fonts/Manrope-VariableFont_wght.ttf) format('truetype');
+        src: url('${fontUrl}') format('truetype');
         font-weight: 100 900;
         font-style: normal;
       }
