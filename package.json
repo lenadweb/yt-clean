@@ -1,6 +1,6 @@
 {
   "name": "yt-clean",
-  "version": "1.0.43",
+  "version": "1.0.45",
   "description": "Browser extension that declutters YouTube — hide Shorts, ads, sidebar items, and more.",
   "license": "MIT",
   "author": "lenadweb",
@@ -8,9 +8,9 @@
     "type": "git",
     "url": "https://github.com/lenadweb/yt-clean.git"
   },
-  "packageManager": "pnpm@9.15.0",
+  "packageManager": "npm@10.1.0",
   "engines": {
-    "node": ">=20.9"
+    "node": ">=20.19"
   },
   "scripts": {
     "dev": "webpack --env development --watch",

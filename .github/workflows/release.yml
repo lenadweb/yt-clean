@@ -14,13 +14,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Enable corepack
-        run: corepack enable
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: npm
 
       - name: Get version from manifest.json
         id: version
@@ -39,13 +36,13 @@ jobs:
 
       - name: Install dependencies
         if: steps.check.outputs.exists == 'false'
-        run: pnpm install --frozen-lockfile
+        run: npm ci
 
       - name: Build extension
         if: steps.check.outputs.exists == 'false'
         run: |
-          pnpm exec webpack --env platform=chrome
-          pnpm exec webpack --env platform=opera
+          npx --no-install webpack --env platform=chrome
+          npx --no-install webpack --env platform=opera
 
       - name: Create GitHub release
         if: steps.check.outputs.exists == 'false'

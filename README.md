@@ -41,12 +41,11 @@ toggle enables or disables the whole extension at once.
 
 ## Getting started
 
-Requires [Node.js](https://nodejs.org) (>= 20.9) and [pnpm](https://pnpm.io)
-(`corepack enable` will pick the version from `package.json`).
+Requires [Node.js](https://nodejs.org) (>= 20.19), which includes npm.
 
 ```bash
-pnpm install
-pnpm dev          # watch build into ./dist
+npm install
+npm run dev          # watch build into ./dist
 ```
 
 Then load the unpacked extension:
@@ -58,18 +57,18 @@ Then load the unpacked extension:
 ### Production builds
 
 ```bash
-pnpm build          # one-off chrome build into ./dist
-pnpm build:chrome   # bumps version, outputs release/build-chrome-<version>.zip
-pnpm build:opera    # Opera-specific manifest
+npm run build          # one-off chrome build into ./dist
+npm run build:chrome   # bumps version, outputs release/build-chrome-<version>.zip
+npm run build:opera    # Opera-specific manifest
 ```
 
 ### Checks
 
 ```bash
-pnpm lint
-pnpm typecheck
-pnpm test
-pnpm format
+npm run lint
+npm run typecheck
+npm test
+npm run format
 ```
 
 ## How it works

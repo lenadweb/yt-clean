@@ -22,10 +22,10 @@ config. `id` is a released storage key — do not rename it.
 Run before opening a PR:
 
 ```bash
-pnpm lint
-pnpm typecheck
-pnpm test
-pnpm build
+npm run lint
+npm run typecheck
+npm test
+npm run build
 ```
 
 `typecheck` validates i18n keys in config against `en/messages.json`;

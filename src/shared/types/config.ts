@@ -46,10 +46,7 @@ export interface ComponentAction extends ActionBase {
 }
 
 export type FeatureAction =
-    | HideAction
-    | StylesAction
-    | CustomAction
-    | ComponentAction;
+    HideAction | StylesAction | CustomAction | ComponentAction;
 
 export interface Feature<TId extends string = string> {
     id: TId;

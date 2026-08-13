@@ -77,14 +77,14 @@ Example:
 }
 ```
 
-You cannot forget this step silently. `pnpm typecheck` fails if the key is
-missing from `en/messages.json`, and `pnpm test` fails if any locale is out of
+You cannot forget this step silently. `npm run typecheck` fails if the key is
+missing from `en/messages.json`, and `npm test` fails if any locale is out of
 sync with `en`.
 
 ## 4. Try it locally
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 Reload the extension on `chrome://extensions`, refresh YouTube, open the side
@@ -173,4 +173,4 @@ Section and category titles are i18n keys too. A new category is one
 - [ ] `id` is new and unique; never reuse or rename released ids.
 - [ ] Title key is added to all locales.
 - [ ] Selectors were tested on a live YouTube page with the setting on and off.
-- [ ] `pnpm lint && pnpm typecheck && pnpm test && pnpm build` pass.
+- [ ] `npm run lint && npm run typecheck && npm test && npm run build` pass.
