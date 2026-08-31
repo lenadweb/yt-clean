@@ -13,6 +13,7 @@ module.exports = (env) => ({
         worker: `${__dirname}/src/worker/index.ts`,
         player: `${__dirname}/src/player/index.ts`,
         sidebar: `${__dirname}/src/sidebar/index.tsx`,
+        onboarding: `${__dirname}/src/onboarding/index.tsx`,
         content: `${__dirname}/src/content/index.ts`,
     },
     output: {
@@ -107,6 +108,10 @@ module.exports = (env) => ({
                 },
                 {
                     from: './src/sidebar/sidebar.html',
+                    force: true,
+                },
+                {
+                    from: './src/onboarding/onboarding.html',
                     force: true,
                 },
                 {
