@@ -11,6 +11,7 @@ import {
     disablePlayerBandwidthSpoofing,
     enablePlayerBandwidthSpoofing,
 } from 'src/shared/utils/playerBandwidth';
+import { LIVE_CHAT_VISIBILITY_EVENT } from 'src/shared/utils/liveChat';
 
 const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
@@ -118,6 +119,19 @@ export const syncPlayerBandwidthSpoofing = (
     }
 
     disablePlayerBandwidthSpoofing();
+};
+
+export const syncLiveChatVisibility = (
+    _value: string | undefined,
+    enabled: boolean
+): void => {
+    const isEnabled = enabled && isCurrentUrlMatched([UrlRegExps.Watch]);
+
+    document.dispatchEvent(
+        new CustomEvent(LIVE_CHAT_VISIBILITY_EVENT, {
+            detail: JSON.stringify({ enabled: isEnabled }),
+        })
+    );
 };
 
 const removeLoopAttribute = (element: Element) => {

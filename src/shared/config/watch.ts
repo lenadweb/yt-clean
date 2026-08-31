@@ -1,5 +1,6 @@
 import { UrlRegExps } from 'src/shared/const';
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
+import { syncLiveChatVisibility } from 'src/shared/featureHandlers/video';
 
 export const watchCategory = category('video_page', [
     section('video_page_elements', { isNew: true, controls: 'checkboxes' }, [
@@ -36,7 +37,32 @@ export const watchCategory = category('video_page', [
             id: 'hideLiveChat',
             title: 'hide_live_chat',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-live-chat-frame#chat', '#chat-container'],
+            onChange: syncLiveChatVisibility,
+            hide: [
+                'ytd-live-chat-frame#chat',
+                'div#chat-container',
+                'div#chat-container-live-stream-chat',
+                '#full-bleed-chat-container #panels-full-bleed-container',
+                '#full-bleed-container #panels-full-bleed-container:has(ytd-live-chat-frame)',
+            ],
+            styles: [
+                `ytd-watch-flexy[fixed-panels]:has(ytd-live-chat-frame) #columns.ytd-watch-flexy {
+                    padding-right: 0 !important;
+                }
+
+                ytd-watch-flexy .html5-video-container {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+
+                ytd-watch-flexy video.html5-main-video {
+                    width: 100% !important;
+                    height: 100% !important;
+                    left: 0 !important;
+                    top: 0 !important;
+                    object-fit: contain !important;
+                }`,
+            ],
         }),
         feature({
             id: 'hideMerch',
