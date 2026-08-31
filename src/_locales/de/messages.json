@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Kanäle in der Suche ausblenden"
+  },
+  "onboarding_title": {
+    "message": "YouTube ohne Ablenkungen"
+  },
+  "customize_youtube": {
+    "message": "Passe dein YouTube an"
   }
 }

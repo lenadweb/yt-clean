@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Paslēpt kanālus meklēšanā"
+  },
+  "onboarding_title": {
+    "message": "YouTube bez traucēkļiem"
+  },
+  "customize_youtube": {
+    "message": "Pielāgojiet savu YouTube"
   }
 }

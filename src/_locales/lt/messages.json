@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Slėpti kanalus paieškoje"
+  },
+  "onboarding_title": {
+    "message": "YouTube be trukdžių"
+  },
+  "customize_youtube": {
+    "message": "Tinkinkite savo YouTube"
   }
 }

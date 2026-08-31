@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Peida kanalid otsingus"
+  },
+  "onboarding_title": {
+    "message": "YouTube ilma segajateta"
+  },
+  "customize_youtube": {
+    "message": "Kohanda oma YouTube'i"
   }
 }

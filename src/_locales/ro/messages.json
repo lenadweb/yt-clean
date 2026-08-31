@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Ascunde canalele în căutare"
+  },
+  "onboarding_title": {
+    "message": "YouTube fără distrageri"
+  },
+  "customize_youtube": {
+    "message": "Personalizează-ți YouTube"
   }
 }

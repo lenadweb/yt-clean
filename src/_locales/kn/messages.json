@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "ಹುಡುಕಾಟದಲ್ಲಿ ಚಾನಲ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "onboarding_title": {
+    "message": "ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯದ YouTube"
+  },
+  "customize_youtube": {
+    "message": "ನಿಮ್ಮ YouTube ಅನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ"
   }
 }

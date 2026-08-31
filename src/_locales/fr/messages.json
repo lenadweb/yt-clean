@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Masquer les chaînes dans la recherche"
+  },
+  "onboarding_title": {
+    "message": "YouTube sans distractions"
+  },
+  "customize_youtube": {
+    "message": "Personnalisez votre YouTube"
   }
 }

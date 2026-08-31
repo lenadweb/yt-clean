@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Skrij kanale v iskanju"
+  },
+  "onboarding_title": {
+    "message": "YouTube brez motenj"
+  },
+  "customize_youtube": {
+    "message": "Prilagodi svoj YouTube"
   }
 }

@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "সার্চে চ্যানেল লুকান"
+  },
+  "onboarding_title": {
+    "message": "বিক্ষেপমুক্ত YouTube"
+  },
+  "customize_youtube": {
+    "message": "আপনার YouTube কাস্টমাইজ করুন"
   }
 }

@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "إخفاء القنوات في البحث"
+  },
+  "onboarding_title": {
+    "message": "YouTube بلا مشتتات"
+  },
+  "customize_youtube": {
+    "message": "خصّص YouTube"
   }
 }

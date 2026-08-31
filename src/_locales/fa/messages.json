@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "پنهان کردن کانال‌ها در جستجو"
+  },
+  "onboarding_title": {
+    "message": "YouTube بدون حواس‌پرتی"
+  },
+  "customize_youtube": {
+    "message": "YouTube خود را شخصی‌سازی کنید"
   }
 }

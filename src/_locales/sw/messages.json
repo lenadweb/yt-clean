@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Ficha vituo kwenye utafutaji"
+  },
+  "onboarding_title": {
+    "message": "YouTube bila usumbufu"
+  },
+  "customize_youtube": {
+    "message": "Binafsisha YouTube yako"
   }
 }

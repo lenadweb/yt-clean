@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Скриване на каналите в търсенето"
+  },
+  "onboarding_title": {
+    "message": "YouTube без разсейване"
+  },
+  "customize_youtube": {
+    "message": "Персонализирайте YouTube"
   }
 }

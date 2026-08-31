@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "검색에서 채널 숨기기"
+  },
+  "onboarding_title": {
+    "message": "방해 요소 없는 YouTube"
+  },
+  "customize_youtube": {
+    "message": "내 YouTube 맞춤설정"
   }
 }

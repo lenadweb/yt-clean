@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "Dölj kanaler i sökresultat"
+  },
+  "onboarding_title": {
+    "message": "YouTube utan distraktioner"
+  },
+  "customize_youtube": {
+    "message": "Anpassa ditt YouTube"
   }
 }

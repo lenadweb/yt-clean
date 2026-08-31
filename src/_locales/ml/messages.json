@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "തിരയലിൽ ചാനലുകൾ മറയ്ക്കുക"
+  },
+  "onboarding_title": {
+    "message": "ശ്രദ്ധ തിരിക്കാത്ത YouTube"
+  },
+  "customize_youtube": {
+    "message": "നിങ്ങളുടെ YouTube ഇഷ്ടാനുസൃതമാക്കുക"
   }
 }

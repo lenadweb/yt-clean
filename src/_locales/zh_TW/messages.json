@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "在搜尋中隱藏頻道"
+  },
+  "onboarding_title": {
+    "message": "不受干擾的 YouTube"
+  },
+  "customize_youtube": {
+    "message": "自訂你的 YouTube"
   }
 }

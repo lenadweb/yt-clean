@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "શોધમાં ચૅનલો છુપાવો"
+  },
+  "onboarding_title": {
+    "message": "વિક્ષેપ વગરનું YouTube"
+  },
+  "customize_youtube": {
+    "message": "તમારું YouTube કસ્ટમાઇઝ કરો"
   }
 }

@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "தேடலில் சேனல்களை மறை"
+  },
+  "onboarding_title": {
+    "message": "கவனச்சிதறல் இல்லாத YouTube"
+  },
+  "customize_youtube": {
+    "message": "உங்கள் YouTube-ஐத் தனிப்பயனாக்குங்கள்"
   }
 }

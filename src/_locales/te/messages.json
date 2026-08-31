@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "శోధనలో ఛానెల్‌లను దాచండి"
+  },
+  "onboarding_title": {
+    "message": "అంతరాయాలు లేని YouTube"
+  },
+  "customize_youtube": {
+    "message": "మీ YouTubeను అనుకూలీకరించండి"
   }
 }

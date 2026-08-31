@@ -355,5 +355,11 @@
   },
   "hide_channels_in_search": {
     "message": "በፍለጋ ውስጥ ቻናሎችን ደብቅ"
+  },
+  "onboarding_title": {
+    "message": "ትኩረት የማይከፋፍል YouTube"
+  },
+  "customize_youtube": {
+    "message": "YouTubeን አብጅ"
   }
 }
