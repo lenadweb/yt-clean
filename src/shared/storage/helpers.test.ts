@@ -3,8 +3,19 @@ import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import {
     applyStorageChanges,
     mergeStorage,
+    shouldMigrateToPresets,
     StorageChanges,
 } from 'src/shared/storage/helpers';
+
+describe('DEFAULT_STORAGE', () => {
+    it('starts new installations with the balanced preset applied', () => {
+        expect(DEFAULT_STORAGE.activePreset).toBe('balanced');
+        expect(DEFAULT_STORAGE.hideShorts).toEqual({ enabled: true });
+        expect(DEFAULT_STORAGE.hideSearchRefinements).toEqual({
+            enabled: true,
+        });
+    });
+});
 
 describe('mergeStorage', () => {
     it('keeps defaults when no stored data is provided', () => {
@@ -54,5 +65,19 @@ describe('applyStorageChanges', () => {
         );
 
         expect(next.speedControl).toEqual(DEFAULT_STORAGE.speedControl);
+    });
+});
+
+describe('shouldMigrateToPresets', () => {
+    it('does not treat empty storage from a new installation as legacy data', () => {
+        expect(shouldMigrateToPresets({})).toBe(false);
+    });
+
+    it('migrates existing storage that predates presets', () => {
+        expect(shouldMigrateToPresets({ isEnabled: true })).toBe(true);
+    });
+
+    it('keeps the saved preset for existing users', () => {
+        expect(shouldMigrateToPresets({ activePreset: 'custom' })).toBe(false);
     });
 });
