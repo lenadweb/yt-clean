@@ -29,17 +29,19 @@ YouTube pages.
 
 ## Video Playback & Channel
 
-| Category                 | Section                       | Feature id                       | UI label                        | Action type         | Scope         |
-| ------------------------ | ----------------------------- | -------------------------------- | ------------------------------- | ------------------- | ------------- |
-| Video Playback & Channel | Slider playback speed control | `speedControl`                   | Slider playback speed control   | component, onChange | watch pages   |
-| Video Playback & Channel | Player                        | `hidePlayerMiniSizePlayerButton` | Hide mini-size button           | hide                | all pages     |
-| Video Playback & Channel | Player                        | `hidePlayerWideSizePlayerButton` | Hide wide-size button           | hide                | all pages     |
-| Video Playback & Channel | Player                        | `hidePlayerSubtitlesButton`      | Hide subtitles button           | hide                | all pages     |
-| Video Playback & Channel | Player                        | `hidePlayerAutoplay`             | Hide autoplay switcher          | hide                | all pages     |
-| Video Playback & Channel | Shorts                        | `shortSpeedControl`              | Speed Control                   | component           | Shorts pages  |
-| Video Playback & Channel | Shorts                        | `autoNextShorts`                 | Automatic switching to the next | custom              | Shorts pages  |
-| Video Playback & Channel | Channel                       | `hideChannelTrailer`             | Hide Channel trailer            | hide, custom        | channel pages |
-| Video Playback & Channel | Channel                       | `hideChannelBanner`              | Hide Channel banner             | hide                | all pages     |
+| Category                 | Section                       | Feature id                       | UI label                          | Action type         | Scope         |
+| ------------------------ | ----------------------------- | -------------------------------- | --------------------------------- | ------------------- | ------------- |
+| Video Playback & Channel | Slider playback speed control | `speedControl`                   | Slider playback speed control     | component, onChange | watch pages   |
+| Video Playback & Channel | Bitrate                       | `preferEnhancedBitrate`          | Prefer Enhanced Bitrate (Premium) | onChange            | watch pages   |
+| Video Playback & Channel | Bitrate                       | `spoofPlayerBandwidth`           | Boost detected bandwidth          | onChange            | all pages     |
+| Video Playback & Channel | Player                        | `hidePlayerMiniSizePlayerButton` | Hide mini-size button             | hide                | all pages     |
+| Video Playback & Channel | Player                        | `hidePlayerWideSizePlayerButton` | Hide wide-size button             | hide                | all pages     |
+| Video Playback & Channel | Player                        | `hidePlayerSubtitlesButton`      | Hide subtitles button             | hide                | all pages     |
+| Video Playback & Channel | Player                        | `hidePlayerAutoplay`             | Hide autoplay switcher            | hide                | all pages     |
+| Video Playback & Channel | Shorts                        | `shortSpeedControl`              | Speed Control                     | component           | Shorts pages  |
+| Video Playback & Channel | Shorts                        | `autoNextShorts`                 | Automatic switching to the next   | custom              | Shorts pages  |
+| Video Playback & Channel | Channel                       | `hideChannelTrailer`             | Hide Channel trailer              | hide, custom        | channel pages |
+| Video Playback & Channel | Channel                       | `hideChannelBanner`              | Hide Channel banner               | hide                | all pages     |
 
 ## Sidebar
 
