@@ -10,6 +10,16 @@
   "content_scripts": [
     {
       "js": [
+        "player.js"
+      ],
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "js": [
         "content.js"
       ],
       "css": [
