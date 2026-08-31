@@ -5,7 +5,9 @@ import {
     enableAutoNextShorts,
     hideChannelTrailer,
     restoreChannelTrailer,
+    syncEnhancedBitrate,
     syncPlaybackSpeed,
+    syncPlayerBandwidthSpoofing,
 } from 'src/shared/featureHandlers/video';
 
 export const videoCategory = category('video_playback_and_channel', [
@@ -18,6 +20,20 @@ export const videoCategory = category('video_playback_and_channel', [
                 after: '.ytp-right-controls .ytp-button.ytp-settings-button',
             },
             onChange: syncPlaybackSpeed,
+        }),
+    ]),
+    section('bitrate', { isNew: true, controls: 'checkboxes' }, [
+        feature({
+            id: 'preferEnhancedBitrate',
+            title: 'prefer_enhanced_bitrate',
+            url: [UrlRegExps.Watch],
+            onChange: syncEnhancedBitrate,
+        }),
+        feature({
+            id: 'spoofPlayerBandwidth',
+            title: 'spoof_player_bandwidth',
+            isExperimental: true,
+            onChange: syncPlayerBandwidthSpoofing,
         }),
     ]),
     section('player', [

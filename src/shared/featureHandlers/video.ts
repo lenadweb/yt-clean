@@ -6,6 +6,11 @@ import {
 } from 'src/shared/utils/dom';
 import { parseSpeed, setPlaybackSpeed } from 'src/shared/utils/yt';
 import { CachedElement } from 'src/shared/types/config';
+import { ENHANCED_BITRATE_EVENT } from 'src/shared/utils/quality';
+import {
+    disablePlayerBandwidthSpoofing,
+    enablePlayerBandwidthSpoofing,
+} from 'src/shared/utils/playerBandwidth';
 
 const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
@@ -88,6 +93,31 @@ export const syncPlaybackSpeed = async (
         },
         document.documentElement
     );
+};
+
+export const syncEnhancedBitrate = (
+    _value: string | undefined,
+    enabled: boolean
+): void => {
+    const isEnabled = enabled && isCurrentUrlMatched([UrlRegExps.Watch]);
+
+    document.dispatchEvent(
+        new CustomEvent(ENHANCED_BITRATE_EVENT, {
+            detail: JSON.stringify({ enabled: isEnabled }),
+        })
+    );
+};
+
+export const syncPlayerBandwidthSpoofing = (
+    _value: string | undefined,
+    enabled: boolean
+): void => {
+    if (enabled) {
+        enablePlayerBandwidthSpoofing();
+        return;
+    }
+
+    disablePlayerBandwidthSpoofing();
 };
 
 const removeLoopAttribute = (element: Element) => {

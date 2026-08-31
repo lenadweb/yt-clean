@@ -10,7 +10,11 @@ export const isStandardPreset = (preset: PresetId): boolean =>
 
 // Features that presets must NOT touch when switching (UI/value settings,
 // not "cleanliness" toggles).
-const PRESET_EXCLUDED = new Set<string>(['speedControl']);
+const PRESET_EXCLUDED = new Set<string>([
+    'speedControl',
+    'preferEnhancedBitrate',
+    'spoofPlayerBandwidth',
+]);
 
 const LIGHT_IDS = new Set<string>([
     'hideShorts',
