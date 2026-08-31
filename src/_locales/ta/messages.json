@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "மேம்படுத்தப்பட்ட பிட்ரேட்டுக்கு முன்னுரிமை அளி (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "கண்டறியப்பட்ட அலைவரிசையை அதிகரி"
+  },
+  "hide_channels_in_search": {
+    "message": "தேடலில் சேனல்களை மறை"
   }
 }

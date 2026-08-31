@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "ವರ್ಧಿತ ಬಿಟ್‌ರೇಟ್‌ಗೆ ಆದ್ಯತೆ ನೀಡಿ (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "ಪತ್ತೆಯಾದ ಬ್ಯಾಂಡ್‌ವಿಡ್ತ್ ಹೆಚ್ಚಿಸಿ"
+  },
+  "hide_channels_in_search": {
+    "message": "ಹುಡುಕಾಟದಲ್ಲಿ ಚಾನಲ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ"
   }
 }

@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Preferiraj poboljšanu brzinu prijenosa (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Povećaj otkrivenu propusnost"
+  },
+  "hide_channels_in_search": {
+    "message": "Sakrij kanale u pretraživanju"
   }
 }

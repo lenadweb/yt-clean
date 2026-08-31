@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "മെച്ചപ്പെടുത്തിയ ബിറ്റ്‌റേറ്റിന് മുൻഗണന നൽകുക (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "കണ്ടെത്തിയ ബാൻഡ്‌വിഡ്ത്ത് വർധിപ്പിക്കുക"
+  },
+  "hide_channels_in_search": {
+    "message": "തിരയലിൽ ചാനലുകൾ മറയ്ക്കുക"
   }
 }

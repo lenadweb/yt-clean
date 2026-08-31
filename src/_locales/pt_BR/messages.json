@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Preferir taxa de bits aprimorada (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Aumentar a largura de banda detectada"
+  },
+  "hide_channels_in_search": {
+    "message": "Ocultar canais na pesquisa"
   }
 }

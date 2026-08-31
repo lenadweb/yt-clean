@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Prioritza la taxa de bits millorada (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Augmenta l'amplada de banda detectada"
+  },
+  "hide_channels_in_search": {
+    "message": "Amaga els canals a la cerca"
   }
 }

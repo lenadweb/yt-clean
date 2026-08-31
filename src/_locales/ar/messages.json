@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "تفضيل معدل البت المحسّن (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "زيادة عرض النطاق الترددي المكتشف"
+  },
+  "hide_channels_in_search": {
+    "message": "إخفاء القنوات في البحث"
   }
 }

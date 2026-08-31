@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "ترجیح نرخ بیت بهبودیافته (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "افزایش پهنای باند شناسایی‌شده"
+  },
+  "hide_channels_in_search": {
+    "message": "پنهان کردن کانال‌ها در جستجو"
   }
 }

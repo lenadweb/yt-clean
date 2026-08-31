@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Upřednostnit vylepšený datový tok (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Zvýšit zjištěnou šířku pásma"
+  },
+  "hide_channels_in_search": {
+    "message": "Skrýt kanály ve vyhledávání"
   }
 }

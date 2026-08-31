@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Piliin ang pinahusay na bitrate (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Taasan ang natukoy na bandwidth"
+  },
+  "hide_channels_in_search": {
+    "message": "Itago ang mga channel sa paghahanap"
   }
 }

@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "향상된 비트레이트 우선 (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "감지되는 대역폭 높이기"
+  },
+  "hide_channels_in_search": {
+    "message": "검색에서 채널 숨기기"
   }
 }

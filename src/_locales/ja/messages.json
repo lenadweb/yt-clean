@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "高ビットレートを優先（Premium）"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "検出される帯域幅を増やす"
+  },
+  "hide_channels_in_search": {
+    "message": "検索結果のチャンネルを非表示"
   }
 }

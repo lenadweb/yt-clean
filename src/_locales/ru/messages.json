@@ -352,5 +352,8 @@
   },
   "hide_description_chapters": {
     "message": "Скрыть главы и эпизоды"
+  },
+  "hide_channels_in_search": {
+    "message": "Скрыть каналы в поиске"
   }
 }

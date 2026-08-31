@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Javított bitráta előnyben részesítése (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Észlelt sávszélesség növelése"
+  },
+  "hide_channels_in_search": {
+    "message": "Csatornák elrejtése a keresésben"
   }
 }

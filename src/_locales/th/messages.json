@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "ใช้บิตเรตที่ปรับปรุงแล้วก่อน (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "เพิ่มแบนด์วิดท์ที่ตรวจพบ"
+  },
+  "hide_channels_in_search": {
+    "message": "ซ่อนช่องในการค้นหา"
   }
 }

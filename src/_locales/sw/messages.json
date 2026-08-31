@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Pendelea kasi biti iliyoboreshwa (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Ongeza upana wa data uliotambuliwa"
+  },
+  "hide_channels_in_search": {
+    "message": "Ficha vituo kwenye utafutaji"
   }
 }

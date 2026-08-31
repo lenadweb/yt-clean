@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "উন্নত বিটরেটকে অগ্রাধিকার দিন (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "শনাক্ত করা ব্যান্ডউইডথ বাড়ান"
+  },
+  "hide_channels_in_search": {
+    "message": "সার্চে চ্যানেল লুকান"
   }
 }

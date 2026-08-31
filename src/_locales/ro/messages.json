@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Preferă rata de biți îmbunătățită (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Mărește lățimea de bandă detectată"
+  },
+  "hide_channels_in_search": {
+    "message": "Ascunde canalele în căutare"
   }
 }

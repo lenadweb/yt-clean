@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "बेहतर बिटरेट को प्राथमिकता दें (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "पहचानी गई बैंडविड्थ बढ़ाएँ"
+  },
+  "hide_channels_in_search": {
+    "message": "खोज में चैनल छिपाएँ"
   }
 }

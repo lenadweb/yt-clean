@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "የተሻሻለ ቢትሬትን ምረጥ (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "የተገኘውን የመተላለፊያ አቅም ጨምር"
+  },
+  "hide_channels_in_search": {
+    "message": "በፍለጋ ውስጥ ቻናሎችን ደብቅ"
   }
 }

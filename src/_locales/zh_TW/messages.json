@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "優先使用增強位元率（Premium）"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "提高偵測到的頻寬"
+  },
+  "hide_channels_in_search": {
+    "message": "在搜尋中隱藏頻道"
   }
 }

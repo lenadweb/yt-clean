@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Gelişmiş bit hızını tercih et (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Algılanan bant genişliğini artır"
+  },
+  "hide_channels_in_search": {
+    "message": "Aramada kanalları gizle"
   }
 }

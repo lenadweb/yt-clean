@@ -348,9 +348,12 @@
     "message": "Bitrate"
   },
   "prefer_enhanced_bitrate": {
-    "message": "Prefer Enhanced Bitrate (Premium)"
+    "message": "Foretræk forbedret bitrate (Premium)"
   },
   "spoof_player_bandwidth": {
-    "message": "Boost detected bandwidth"
+    "message": "Øg registreret båndbredde"
+  },
+  "hide_channels_in_search": {
+    "message": "Skjul kanaler i søgning"
   }
 }
