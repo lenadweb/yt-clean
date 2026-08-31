@@ -11,6 +11,7 @@ module.exports = (env) => ({
     mode: env?.development ? 'development' : 'production',
     entry: {
         worker: `${__dirname}/src/worker/index.ts`,
+        player: `${__dirname}/src/player/index.ts`,
         sidebar: `${__dirname}/src/sidebar/index.tsx`,
         content: `${__dirname}/src/content/index.ts`,
     },
