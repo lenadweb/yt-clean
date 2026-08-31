@@ -343,5 +343,14 @@
   },
   "hide_description_chapters": {
     "message": "അധ്യായങ്ങളും എപ്പിസോഡുകളും മറയ്ക്കുക"
+  },
+  "bitrate": {
+    "message": "Bitrate"
+  },
+  "prefer_enhanced_bitrate": {
+    "message": "Prefer Enhanced Bitrate (Premium)"
+  },
+  "spoof_player_bandwidth": {
+    "message": "Boost detected bandwidth"
   }
 }

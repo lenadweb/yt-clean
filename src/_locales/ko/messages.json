@@ -343,5 +343,14 @@
   },
   "hide_description_chapters": {
     "message": "챕터 및 에피소드 숨기기"
+  },
+  "bitrate": {
+    "message": "Bitrate"
+  },
+  "prefer_enhanced_bitrate": {
+    "message": "Prefer Enhanced Bitrate (Premium)"
+  },
+  "spoof_player_bandwidth": {
+    "message": "Boost detected bandwidth"
   }
 }

@@ -343,5 +343,14 @@
   },
   "hide_description_chapters": {
     "message": "Itago ang mga chapter at episode"
+  },
+  "bitrate": {
+    "message": "Bitrate"
+  },
+  "prefer_enhanced_bitrate": {
+    "message": "Prefer Enhanced Bitrate (Premium)"
+  },
+  "spoof_player_bandwidth": {
+    "message": "Boost detected bandwidth"
   }
 }

@@ -71,6 +71,15 @@
   "slider_playback_speed_control": {
     "message": "Slider playback speed control"
   },
+  "bitrate": {
+    "message": "Bitrate"
+  },
+  "prefer_enhanced_bitrate": {
+    "message": "Prefer Enhanced Bitrate (Premium)"
+  },
+  "spoof_player_bandwidth": {
+    "message": "Boost detected bandwidth"
+  },
   "player": {
     "message": "Player"
   },

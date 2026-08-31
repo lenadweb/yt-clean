@@ -71,6 +71,15 @@
   "slider_playback_speed_control": {
     "message": "Ползунок скорости воспроизведения"
   },
+  "bitrate": {
+    "message": "Битрейт"
+  },
+  "prefer_enhanced_bitrate": {
+    "message": "Предпочитать повышенный битрейт (Premium)"
+  },
+  "spoof_player_bandwidth": {
+    "message": "Завысить пропускную способность"
+  },
   "player": {
     "message": "Плеер"
   },
