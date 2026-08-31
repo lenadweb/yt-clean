@@ -7,6 +7,7 @@ import {
 } from 'src/shared/featureConfig';
 import { DEFAULT_STORAGE } from 'src/shared/storage/config';
 import { BASE_ATTR_PREFIX } from 'src/shared/const';
+import { ElementActions } from 'src/shared/types/config';
 
 const storageKeys = new Set(Object.keys(DEFAULT_STORAGE));
 
@@ -71,5 +72,32 @@ describe('getComponentGroups', () => {
             expect(storageKeys.has(group.id)).toBe(true);
             expect(group.components.length).toBeGreaterThan(0);
         });
+    });
+});
+
+describe('hideLiveChat', () => {
+    it('removes the fixed-panel chat layout as well as the chat frame', () => {
+        const feature = FEATURES.find(({ id }) => id === 'hideLiveChat');
+        const hideAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.hide
+        );
+        const stylesAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.customStyles
+        );
+
+        expect(hideAction).toMatchObject({
+            selectors: expect.arrayContaining([
+                'ytd-live-chat-frame#chat',
+                'div#chat-container-live-stream-chat',
+                '#full-bleed-chat-container #panels-full-bleed-container',
+            ]),
+        });
+        expect(stylesAction).toMatchObject({
+            customStyles: expect.arrayContaining([
+                expect.stringContaining('padding-right: 0 !important'),
+                expect.stringContaining('object-fit: contain !important'),
+            ]),
+        });
+        expect(feature?.onChange).toBeTypeOf('function');
     });
 });
