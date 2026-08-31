@@ -28,7 +28,7 @@ const defaultPresets = Object.fromEntries(
 
 export const DEFAULT_STORAGE: StorageState = {
     isEnabled: true,
-    activePreset: 'custom',
+    activePreset: 'balanced',
     presetWarningDismissed: false,
     presets: defaultPresets,
     ...Object.fromEntries(
@@ -37,4 +37,5 @@ export const DEFAULT_STORAGE: StorageState = {
             { enabled: feature.defaultEnabled ?? false },
         ])
     ),
+    ...PRESET_DEFAULTS.balanced,
 } as StorageState;

@@ -6,6 +6,7 @@ import {
 import {
     applyStorageChanges,
     mergeStorage,
+    shouldMigrateToPresets,
     StorageChanges,
 } from 'src/shared/storage/helpers';
 import {
@@ -32,12 +33,10 @@ export class Storage {
         this.initialized = true;
 
         chrome.storage.local.get(null, (data) => {
-            this.settings = mergeStorage(
-                this.defaults,
-                data as Partial<StorageState>
-            );
+            const storedSettings = data as Partial<StorageState>;
+            this.settings = mergeStorage(this.defaults, storedSettings);
 
-            if ((data as Partial<StorageState>).activePreset === undefined) {
+            if (shouldMigrateToPresets(storedSettings)) {
                 this.migrateToPresets();
             }
 

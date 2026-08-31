@@ -12,6 +12,9 @@ export const mergeStorage = (
     ...data,
 });
 
+export const shouldMigrateToPresets = (data: Partial<StorageState>): boolean =>
+    Object.keys(data).length > 0 && data.activePreset === undefined;
+
 const getChangeValue = <K extends keyof StorageState>(
     changes: StorageChanges,
     defaults: StorageState,
