@@ -96,6 +96,13 @@ export const feedCategory = category('feed_and_recommendations', [
     ]),
     section('search', { isNew: true }, [
         feature({
+            id: 'hideChannelsInSearch',
+            title: 'hide_channels_in_search',
+            isNew: true,
+            url: [UrlRegExps.Search],
+            hide: ['#contents ytd-channel-renderer'],
+        }),
+        feature({
             id: 'hideSearchRefinements',
             title: 'hide_related_searches',
             url: [UrlRegExps.Search],
