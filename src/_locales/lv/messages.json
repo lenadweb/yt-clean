@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Palielināt noteikto joslas platumu"
   },
+  "codec": {
+    "message": "Kodeks"
+  },
+  "force_h264": {
+    "message": "Piespiest H.264 (bloķēt VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Bloķēt 60 kadrus/s"
+  },
+  "codec_hint": {
+    "message": "YouTube piedāvā katru video vairākos kodekos. VP9 un AV1 taupa datus, taču daudzas videokartes tos nespēj dekodēt aparatūriski — darbu pārņem procesors, ierīce sasilst un akumulators izlādējas ātrāk.\n\n„Piespiest H.264” liek atskaņotājam pieprasīt avc1 straumi, ko aparatūriski dekodē gandrīz jebkura videokarte. Pretī H.264 vietnē YouTube ir ierobežots līdz 1080p. „Bloķēt 60 kadrus/s” ierobežo atskaņošanu līdz 30 kadriem sekundē — uz pusi mazāk dekodējamu kadru."
+  },
+  "about_this_setting": {
+    "message": "Par šo iestatījumu"
+  },
+  "close": {
+    "message": "Aizvērt"
+  },
   "hide_channels_in_search": {
     "message": "Paslēpt kanālus meklēšanā"
   },

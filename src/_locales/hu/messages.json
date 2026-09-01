@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Észlelt sávszélesség növelése"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "H.264 kényszerítése (VP9/AV1 tiltása)"
+  },
+  "block_60_fps": {
+    "message": "60 fps tiltása"
+  },
+  "codec_hint": {
+    "message": "A YouTube minden videót több kodekkel kínál. A VP9 és az AV1 adatot spórol, de sok videokártya nem tudja őket hardveresen dekódolni — ilyenkor a processzor dolgozik, az eszköz melegszik, az akku pedig gyorsabban merül.\n\nA „H.264 kényszerítése” az avc1 folyamot kéri le, amit szinte minden videokártya hardveresen dekódol. Cserébe a H.264 a YouTube-on 1080p-nél megáll. A „60 fps tiltása” 30 képkocka/másodpercre korlátozza a lejátszást — feleannyi képkockát kell dekódolni."
+  },
+  "about_this_setting": {
+    "message": "A beállításról"
+  },
+  "close": {
+    "message": "Bezárás"
+  },
   "hide_channels_in_search": {
     "message": "Csatornák elrejtése a keresésben"
   },

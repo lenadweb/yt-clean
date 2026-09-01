@@ -60,6 +60,7 @@ export const SettingsAccordion: FC<Props> = ({
                             <SettingsGroup
                                 isFirst={i === 0}
                                 key={section.title}
+                                hint={section.hint}
                                 isNew={!!section.isNew}
                                 isExperimental={!!section.isExperimental}
                                 controls={section.controls}

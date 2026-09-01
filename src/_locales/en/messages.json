@@ -80,6 +80,24 @@
   "spoof_player_bandwidth": {
     "message": "Boost detected bandwidth"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Force H.264 (block VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Block 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube offers every video in several codecs. VP9 and AV1 save traffic, but many graphics cards cannot decode them in hardware — the CPU takes over, so the device heats up and the battery drains faster.\n\n“Force H.264” makes the player request the avc1 stream, which almost any graphics card decodes in hardware. In exchange, H.264 on YouTube is capped at 1080p. “Block 60 fps” limits playback to 30 fps, halving the number of frames to decode."
+  },
+  "about_this_setting": {
+    "message": "About this setting"
+  },
+  "close": {
+    "message": "Close"
+  },
   "player": {
     "message": "Player"
   },

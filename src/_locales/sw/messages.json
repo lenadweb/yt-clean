@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Ongeza upana wa data uliotambuliwa"
   },
+  "codec": {
+    "message": "Kodeki"
+  },
+  "force_h264": {
+    "message": "Lazimisha H.264 (zuia VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Zuia 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube hutoa kila video kwa kodeki kadhaa. VP9 na AV1 huokoa data, lakini kadi nyingi za michoro haziwezi kuzisimbua kwa maunzi — kazi inaenda kwa kichakataji, kifaa hupata joto na betri huisha haraka.\n\n“Lazimisha H.264” hufanya kicheza kiombe mtiririko wa avc1, ambao karibu kila kadi ya michoro huusimbua kwa maunzi. Badala yake, H.264 kwenye YouTube hukomea 1080p. “Zuia 60 fps” hupunguza uchezaji hadi fremu 30 kwa sekunde — nusu ya fremu za kusimbua."
+  },
+  "about_this_setting": {
+    "message": "Kuhusu mpangilio huu"
+  },
+  "close": {
+    "message": "Funga"
+  },
   "hide_channels_in_search": {
     "message": "Ficha vituo kwenye utafutaji"
   },

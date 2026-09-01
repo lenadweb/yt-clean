@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Zwiększ wykrytą przepustowość"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "Wymuś H.264 (blokuj VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokuj 60 kl./s"
+  },
+  "codec_hint": {
+    "message": "YouTube udostępnia każdy film w kilku kodekach. VP9 i AV1 oszczędzają transfer, ale wiele kart graficznych nie dekoduje ich sprzętowo — pracę przejmuje procesor, urządzenie się grzeje, a bateria szybciej się rozładowuje.\n\n„Wymuś H.264” każe odtwarzaczowi pobierać strumień avc1, który sprzętowo dekoduje niemal każda karta graficzna. W zamian H.264 na YouTube kończy się na 1080p. „Blokuj 60 kl./s” ogranicza odtwarzanie do 30 klatek na sekundę — o połowę mniej klatek do zdekodowania."
+  },
+  "about_this_setting": {
+    "message": "O tym ustawieniu"
+  },
+  "close": {
+    "message": "Zamknij"
+  },
   "hide_channels_in_search": {
     "message": "Ukryj kanały w wyszukiwaniu"
   },

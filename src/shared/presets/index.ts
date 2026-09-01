@@ -14,6 +14,8 @@ const PRESET_EXCLUDED = new Set<string>([
     'speedControl',
     'preferEnhancedBitrate',
     'spoofPlayerBandwidth',
+    'forceH264',
+    'block60Fps',
 ]);
 
 const LIGHT_IDS = new Set<string>([

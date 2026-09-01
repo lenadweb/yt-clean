@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Tingkatkan lebar jalur yang dikesan"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Paksa H.264 (sekat VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Sekat 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube menyediakan setiap video dalam beberapa codec. VP9 dan AV1 menjimatkan data, tetapi banyak kad grafik tidak dapat menyahkodnya secara perkakasan — kerja diambil alih pemproses, peranti menjadi panas dan bateri cepat habis.\n\n“Paksa H.264” membuatkan pemain meminta strim avc1, yang dinyahkod secara perkakasan oleh hampir semua kad grafik. Sebagai pertukaran, H.264 di YouTube terhad kepada 1080p. “Sekat 60 fps” mengehadkan main balik kepada 30 bingkai sesaat — separuh bingkai untuk dinyahkod."
+  },
+  "about_this_setting": {
+    "message": "Tentang tetapan ini"
+  },
+  "close": {
+    "message": "Tutup"
+  },
   "hide_channels_in_search": {
     "message": "Sembunyikan saluran dalam carian"
   },

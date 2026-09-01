@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Padidinti aptiktą pralaidumą"
   },
+  "codec": {
+    "message": "Kodekas"
+  },
+  "force_h264": {
+    "message": "Priverstinai naudoti H.264 (blokuoti VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokuoti 60 kadrų/s"
+  },
+  "codec_hint": {
+    "message": "„YouTube“ pateikia kiekvieną vaizdo įrašą keliais kodekais. VP9 ir AV1 taupo duomenis, bet daugelis vaizdo plokščių jų neiškoduoja aparatiškai — darbą perima procesorius, įrenginys kaista, o baterija išsenka greičiau.\n\n„Priverstinai naudoti H.264“ verčia grotuvą prašyti avc1 srauto, kurį aparatiškai iškoduoja beveik kiekviena vaizdo plokštė. Mainais H.264 sistemoje „YouTube“ apribotas iki 1080p. „Blokuoti 60 kadrų/s“ apriboja atkūrimą iki 30 kadrų per sekundę — perpus mažiau kadrų iškoduoti."
+  },
+  "about_this_setting": {
+    "message": "Apie šį nustatymą"
+  },
+  "close": {
+    "message": "Uždaryti"
+  },
   "hide_channels_in_search": {
     "message": "Slėpti kanalus paieškoje"
   },

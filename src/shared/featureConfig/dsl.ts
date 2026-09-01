@@ -22,6 +22,7 @@ type CustomDefinition = {
 };
 
 type SectionOptions = {
+    hint?: I18nKey;
     isNew?: boolean;
     isExperimental?: boolean;
     controls?: SectionControls;

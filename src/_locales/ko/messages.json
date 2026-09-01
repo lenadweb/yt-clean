@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "감지되는 대역폭 높이기"
   },
+  "codec": {
+    "message": "코덱"
+  },
+  "force_h264": {
+    "message": "H.264 강제 사용 (VP9/AV1 차단)"
+  },
+  "block_60_fps": {
+    "message": "60fps 차단"
+  },
+  "codec_hint": {
+    "message": "YouTube는 같은 영상을 여러 코덱으로 제공합니다. VP9과 AV1은 데이터를 아껴 주지만 많은 그래픽 카드가 하드웨어로 디코딩하지 못해 CPU가 대신 처리합니다. 그래서 기기가 뜨거워지고 배터리도 빨리 닳습니다.\n\n“H.264 강제 사용”은 플레이어가 avc1 스트림을 요청하게 만듭니다. avc1은 거의 모든 그래픽 카드가 하드웨어로 디코딩합니다. 대신 YouTube의 H.264는 1080p까지만 제공됩니다. “60fps 차단”은 재생을 초당 30프레임으로 제한해 디코딩할 프레임을 절반으로 줄입니다."
+  },
+  "about_this_setting": {
+    "message": "이 설정 정보"
+  },
+  "close": {
+    "message": "닫기"
+  },
   "hide_channels_in_search": {
     "message": "검색에서 채널 숨기기"
   },

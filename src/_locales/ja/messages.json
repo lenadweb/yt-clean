@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "検出される帯域幅を増やす"
   },
+  "codec": {
+    "message": "コーデック"
+  },
+  "force_h264": {
+    "message": "H.264 を強制（VP9/AV1 をブロック）"
+  },
+  "block_60_fps": {
+    "message": "60fps をブロック"
+  },
+  "codec_hint": {
+    "message": "YouTube は同じ動画を複数のコーデックで配信しています。VP9 と AV1 は通信量を節約できますが、多くのグラフィックスカードはハードウェアで再生できず、処理が CPU に回るため本体が熱くなり、バッテリーの減りも早くなります。\n\n「H.264 を強制」を有効にすると、プレーヤーは avc1 ストリームを要求します。avc1 はほぼすべてのグラフィックスカードがハードウェアで再生できます。その代わり、YouTube の H.264 は 1080p までに制限されます。「60fps をブロック」は再生を 30fps に抑え、デコードするフレーム数を半分にします。"
+  },
+  "about_this_setting": {
+    "message": "この設定について"
+  },
+  "close": {
+    "message": "閉じる"
+  },
   "hide_channels_in_search": {
     "message": "検索結果のチャンネルを非表示"
   },

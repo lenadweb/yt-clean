@@ -34,6 +34,8 @@ YouTube pages.
 | Video Playback & Channel | Slider playback speed control | `speedControl`                   | Slider playback speed control     | component, onChange | watch pages   |
 | Video Playback & Channel | Bitrate                       | `preferEnhancedBitrate`          | Prefer Enhanced Bitrate (Premium) | onChange            | watch pages   |
 | Video Playback & Channel | Bitrate                       | `spoofPlayerBandwidth`           | Boost detected bandwidth          | onChange            | all pages     |
+| Video Playback & Channel | Codec                         | `forceH264`                      | Force H.264 (block VP9/AV1)       | onChange            | all pages     |
+| Video Playback & Channel | Codec                         | `block60Fps`                     | Block 60 fps                      | onChange            | all pages     |
 | Video Playback & Channel | Player                        | `hidePlayerMiniSizePlayerButton` | Hide mini-size button             | hide                | all pages     |
 | Video Playback & Channel | Player                        | `hidePlayerWideSizePlayerButton` | Hide wide-size button             | hide                | all pages     |
 | Video Playback & Channel | Player                        | `hidePlayerSubtitlesButton`      | Hide subtitles button             | hide                | all pages     |

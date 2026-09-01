@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Aumentar el ancho de banda detectado"
   },
+  "codec": {
+    "message": "Códec"
+  },
+  "force_h264": {
+    "message": "Forzar H.264 (bloquear VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Bloquear 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube ofrece cada vídeo en varios códecs. VP9 y AV1 ahorran datos, pero muchas tarjetas gráficas no pueden decodificarlos por hardware: el trabajo lo asume el procesador, el equipo se calienta y la batería dura menos.\n\n«Forzar H.264» hace que el reproductor pida el flujo avc1, que casi cualquier tarjeta gráfica decodifica por hardware. A cambio, H.264 en YouTube está limitado a 1080p. «Bloquear 60 fps» limita la reproducción a 30 fotogramas por segundo, la mitad de fotogramas que decodificar."
+  },
+  "about_this_setting": {
+    "message": "Acerca de esta opción"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
   "hide_channels_in_search": {
     "message": "Ocultar canales en la búsqueda"
   },

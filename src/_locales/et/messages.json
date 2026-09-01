@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Suurenda tuvastatud ribalaiust"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "Sunni H.264 (blokeeri VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokeeri 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube pakub iga videot mitmes koodekis. VP9 ja AV1 säästavad andmesidet, kuid paljud graafikakaardid ei suuda neid riistvaraliselt dekodeerida — töö võtab üle protsessor, seade soojeneb ja aku tühjeneb kiiremini.\n\n„Sunni H.264“ paneb mängija küsima avc1-voogu, mida dekodeerib riistvaraliselt peaaegu iga graafikakaart. Vastutasuks on H.264 YouTube'is piiratud 1080p-ga. „Blokeeri 60 fps“ piirab taasesituse 30 kaadrini sekundis — poole vähem kaadreid dekodeerida."
+  },
+  "about_this_setting": {
+    "message": "Teave selle sätte kohta"
+  },
+  "close": {
+    "message": "Sulge"
+  },
   "hide_channels_in_search": {
     "message": "Peida kanalid otsingus"
   },

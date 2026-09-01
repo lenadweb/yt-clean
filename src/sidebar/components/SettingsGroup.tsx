@@ -17,10 +17,12 @@ import { NewBadge } from 'src/sidebar/components/NewBadge';
 import { ExperimentalBadge } from 'src/sidebar/components/ExperimentalBadge';
 import { useExperimentalConfirm } from 'src/sidebar/components/ExperimentalModal';
 import { usePresetWarning } from 'src/sidebar/components/PresetWarningModal';
+import { HintModal } from 'src/sidebar/components/HintModal';
 import { t } from 'src/shared/utils/i18n';
 
 interface SettingsGroupProps {
     title: I18nKey;
+    hint?: I18nKey;
     isFirst: boolean;
     isNew?: boolean;
     isExperimental?: boolean;
@@ -35,6 +37,7 @@ const isGroupEnabled = (features: Feature[], settings: StorageState): boolean =>
 
 const SettingsGroup: FC<SettingsGroupProps> = ({
     features,
+    hint,
     isFirst,
     isNew,
     isExperimental,
@@ -93,7 +96,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
     return (
         <div className="last:!mb-2">
             {!isFirst && <Divider />}
-            <div className="mb-4 flex items-center justify-between">
+            <div className="mb-4 flex items-center justify-between gap-2">
                 <div
                     className={cn(
                         'mr-auto flex items-center gap-2 text-sm leading-[1.2] transition-colors',
@@ -107,6 +110,7 @@ const SettingsGroup: FC<SettingsGroupProps> = ({
                     {isNew && <NewBadge />}
                     {isExperimental && <ExperimentalBadge />}
                 </div>
+                {hint && <HintModal title={title} hint={hint} />}
                 {controls !== 'checkboxes' ? (
                     <Switch
                         disabled={!enabled}

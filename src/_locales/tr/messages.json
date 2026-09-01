@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Algılanan bant genişliğini artır"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "H.264'ü zorla (VP9/AV1'i engelle)"
+  },
+  "block_60_fps": {
+    "message": "60 fps'yi engelle"
+  },
+  "codec_hint": {
+    "message": "YouTube her videoyu birkaç kodekle sunar. VP9 ve AV1 veri tasarrufu sağlar, ancak birçok ekran kartı bunları donanımla çözemez — işi işlemci üstlenir, cihaz ısınır ve pil daha çabuk biter.\n\n“H.264'ü zorla” oynatıcının, neredeyse her ekran kartının donanımla çözdüğü avc1 akışını istemesini sağlar. Karşılığında YouTube'da H.264 en fazla 1080p'dir. “60 fps'yi engelle” oynatmayı saniyede 30 kareyle sınırlar; çözülecek kare sayısı yarıya iner."
+  },
+  "about_this_setting": {
+    "message": "Bu ayar hakkında"
+  },
+  "close": {
+    "message": "Kapat"
+  },
   "hide_channels_in_search": {
     "message": "Aramada kanalları gizle"
   },

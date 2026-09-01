@@ -12,6 +12,10 @@ import {
     enablePlayerBandwidthSpoofing,
 } from 'src/shared/utils/playerBandwidth';
 import { LIVE_CHAT_VISIBILITY_EVENT } from 'src/shared/utils/liveChat';
+import {
+    CODEC_PREFERENCE_EVENT,
+    CodecPreferenceId,
+} from 'src/shared/utils/codec';
 
 const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
@@ -133,6 +137,27 @@ export const syncLiveChatVisibility = (
         })
     );
 };
+
+const dispatchCodecPreference = (
+    id: CodecPreferenceId,
+    enabled: boolean
+): void => {
+    document.dispatchEvent(
+        new CustomEvent(CODEC_PREFERENCE_EVENT, {
+            detail: JSON.stringify({ id, enabled }),
+        })
+    );
+};
+
+export const syncForceH264 = (
+    _value: string | undefined,
+    enabled: boolean
+): void => dispatchCodecPreference('forceH264', enabled);
+
+export const syncBlock60Fps = (
+    _value: string | undefined,
+    enabled: boolean
+): void => dispatchCodecPreference('block60Fps', enabled);
 
 const removeLoopAttribute = (element: Element) => {
     if (element.hasAttribute('loop')) {

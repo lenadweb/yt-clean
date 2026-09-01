@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Taasan ang natukoy na bandwidth"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Piliting gamitin ang H.264 (i-block ang VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "I-block ang 60 fps"
+  },
+  "codec_hint": {
+    "message": "Naghahain ang YouTube ng bawat video sa ilang codec. Nakakatipid ng data ang VP9 at AV1, pero maraming graphics card ang hindi kayang mag-decode ng mga ito sa hardware — ang processor ang bumabawi, kaya umiinit ang device at mas mabilis maubos ang baterya.\n\nAng “Piliting gamitin ang H.264” ay nagpapahingi sa player ng avc1 stream, na dine-decode sa hardware ng halos lahat ng graphics card. Kapalit nito, hanggang 1080p lang ang H.264 sa YouTube. Ang “I-block ang 60 fps” ay naglilimita sa playback sa 30 frame kada segundo — kalahati na lang ang frame na ide-decode."
+  },
+  "about_this_setting": {
+    "message": "Tungkol sa setting na ito"
+  },
+  "close": {
+    "message": "Isara"
+  },
   "hide_channels_in_search": {
     "message": "Itago ang mga channel sa paghahanap"
   },

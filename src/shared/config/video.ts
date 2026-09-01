@@ -5,7 +5,9 @@ import {
     enableAutoNextShorts,
     hideChannelTrailer,
     restoreChannelTrailer,
+    syncBlock60Fps,
     syncEnhancedBitrate,
+    syncForceH264,
     syncPlaybackSpeed,
     syncPlayerBandwidthSpoofing,
 } from 'src/shared/featureHandlers/video';
@@ -36,6 +38,22 @@ export const videoCategory = category('video_playback_and_channel', [
             onChange: syncPlayerBandwidthSpoofing,
         }),
     ]),
+    section(
+        'codec',
+        { isNew: true, controls: 'checkboxes', hint: 'codec_hint' },
+        [
+            feature({
+                id: 'forceH264',
+                title: 'force_h264',
+                onChange: syncForceH264,
+            }),
+            feature({
+                id: 'block60Fps',
+                title: 'block_60_fps',
+                onChange: syncBlock60Fps,
+            }),
+        ]
+    ),
     section('player', [
         feature({
             id: 'hidePlayerMiniSizePlayerButton',

@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "提高检测到的带宽"
   },
+  "codec": {
+    "message": "编解码器"
+  },
+  "force_h264": {
+    "message": "强制使用 H.264（屏蔽 VP9/AV1）"
+  },
+  "block_60_fps": {
+    "message": "屏蔽 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube 会用多种编解码器提供同一个视频。VP9 和 AV1 更省流量，但很多显卡无法硬件解码，只能交给 CPU 处理，于是设备发热、电池更快耗尽。\n\n“强制使用 H.264”会让播放器请求 avc1 流，几乎所有显卡都能硬件解码。代价是 YouTube 上的 H.264 最高只有 1080p。“屏蔽 60 fps”把播放限制在每秒 30 帧，需要解码的帧数减半。"
+  },
+  "about_this_setting": {
+    "message": "关于此设置"
+  },
+  "close": {
+    "message": "关闭"
+  },
   "hide_channels_in_search": {
     "message": "在搜索中隐藏频道"
   },

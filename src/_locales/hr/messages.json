@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Povećaj otkrivenu propusnost"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "Prisili H.264 (blokiraj VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokiraj 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube nudi svaki videozapis u nekoliko kodeka. VP9 i AV1 štede promet, ali mnoge grafičke kartice ne mogu ih dekodirati hardverski — posao preuzima procesor, uređaj se grije, a baterija brže prazni.\n\n„Prisili H.264” tjera player da traži avc1 stream, koji hardverski dekodira gotovo svaka grafička kartica. Zauzvrat je H.264 na YouTubeu ograničen na 1080p. „Blokiraj 60 fps” ograničava reprodukciju na 30 sličica u sekundi — upola manje sličica za dekodiranje."
+  },
+  "about_this_setting": {
+    "message": "O ovoj postavci"
+  },
+  "close": {
+    "message": "Zatvori"
+  },
   "hide_channels_in_search": {
     "message": "Sakrij kanale u pretraživanju"
   },

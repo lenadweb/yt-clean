@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Øg registreret båndbredde"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Gennemtving H.264 (bloker VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Bloker 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube leverer hver video i flere codecs. VP9 og AV1 sparer data, men mange grafikkort kan ikke afkode dem i hardware — så overtager processoren, enheden bliver varm, og batteriet løber hurtigere tør.\n\n“Gennemtving H.264” får afspilleren til at bede om avc1-streamen, som næsten alle grafikkort afkoder i hardware. Til gengæld stopper H.264 på YouTube ved 1080p. “Bloker 60 fps” begrænser afspilningen til 30 billeder i sekundet — halvt så mange billeder at afkode."
+  },
+  "about_this_setting": {
+    "message": "Om denne indstilling"
+  },
+  "close": {
+    "message": "Luk"
+  },
   "hide_channels_in_search": {
     "message": "Skjul kanaler i søgning"
   },

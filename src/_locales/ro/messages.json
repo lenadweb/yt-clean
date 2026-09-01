@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Mărește lățimea de bandă detectată"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Forțează H.264 (blochează VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blochează 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube oferă fiecare videoclip în mai multe codecuri. VP9 și AV1 economisesc trafic, dar multe plăci video nu le pot decoda hardware — preia procesorul, dispozitivul se încălzește, iar bateria se descarcă mai repede.\n\n„Forțează H.264” face playerul să ceară fluxul avc1, pe care aproape orice placă video îl decodează hardware. În schimb, H.264 pe YouTube se oprește la 1080p. „Blochează 60 fps” limitează redarea la 30 de cadre pe secundă — jumătate din cadrele de decodat."
+  },
+  "about_this_setting": {
+    "message": "Despre această setare"
+  },
+  "close": {
+    "message": "Închide"
+  },
   "hide_channels_in_search": {
     "message": "Ascunde canalele în căutare"
   },

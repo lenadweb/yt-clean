@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Tăng băng thông được phát hiện"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Buộc dùng H.264 (chặn VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Chặn 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube cung cấp mỗi video ở nhiều codec. VP9 và AV1 tiết kiệm dữ liệu, nhưng nhiều card đồ họa không giải mã được chúng bằng phần cứng — CPU phải gánh việc, máy nóng lên và pin hết nhanh hơn.\n\n“Buộc dùng H.264” khiến trình phát yêu cầu luồng avc1, thứ mà gần như mọi card đồ họa đều giải mã bằng phần cứng. Đổi lại, H.264 trên YouTube chỉ tối đa 1080p. “Chặn 60 fps” giới hạn phát lại ở 30 khung hình mỗi giây — chỉ còn một nửa số khung hình cần giải mã."
+  },
+  "about_this_setting": {
+    "message": "Giới thiệu về cài đặt này"
+  },
+  "close": {
+    "message": "Đóng"
+  },
   "hide_channels_in_search": {
     "message": "Ẩn kênh trong tìm kiếm"
   },

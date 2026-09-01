@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "提高偵測到的頻寬"
   },
+  "codec": {
+    "message": "編解碼器"
+  },
+  "force_h264": {
+    "message": "強制使用 H.264（封鎖 VP9/AV1）"
+  },
+  "block_60_fps": {
+    "message": "封鎖 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube 會用多種編解碼器提供同一部影片。VP9 與 AV1 較省流量，但許多顯示卡無法硬體解碼，只能交給 CPU 處理，於是裝置發熱、電池更快耗盡。\n\n「強制使用 H.264」會讓播放器要求 avc1 串流，幾乎所有顯示卡都能硬體解碼。代價是 YouTube 上的 H.264 最高只有 1080p。「封鎖 60 fps」把播放限制在每秒 30 格，需要解碼的影格減半。"
+  },
+  "about_this_setting": {
+    "message": "關於此設定"
+  },
+  "close": {
+    "message": "關閉"
+  },
   "hide_channels_in_search": {
     "message": "在搜尋中隱藏頻道"
   },

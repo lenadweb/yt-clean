@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Øk registrert båndbredde"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "Tving H.264 (blokker VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokker 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube leverer hver video i flere kodeker. VP9 og AV1 sparer data, men mange skjermkort kan ikke dekode dem i maskinvare — prosessoren tar over, enheten blir varm, og batteriet tømmes raskere.\n\n«Tving H.264» får spilleren til å be om avc1-strømmen, som nesten alle skjermkort dekoder i maskinvare. Til gjengjeld stopper H.264 på YouTube ved 1080p. «Blokker 60 fps» begrenser avspillingen til 30 bilder i sekundet — halvparten så mange bilder å dekode."
+  },
+  "about_this_setting": {
+    "message": "Om denne innstillingen"
+  },
+  "close": {
+    "message": "Lukk"
+  },
   "hide_channels_in_search": {
     "message": "Skjul kanaler i søk"
   },

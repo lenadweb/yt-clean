@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Gedetecteerde bandbreedte verhogen"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "H.264 forceren (VP9/AV1 blokkeren)"
+  },
+  "block_60_fps": {
+    "message": "60 fps blokkeren"
+  },
+  "codec_hint": {
+    "message": "YouTube levert elke video in meerdere codecs. VP9 en AV1 besparen data, maar veel videokaarten kunnen ze niet in hardware decoderen — dan neemt de processor het over, het apparaat wordt warm en de accu loopt sneller leeg.\n\n“H.264 forceren” laat de speler de avc1-stream opvragen, die vrijwel elke videokaart in hardware decodeert. Daar staat tegenover dat H.264 op YouTube stopt bij 1080p. “60 fps blokkeren” beperkt het afspelen tot 30 beelden per seconde, de helft van het aantal te decoderen frames."
+  },
+  "about_this_setting": {
+    "message": "Over deze instelling"
+  },
+  "close": {
+    "message": "Sluiten"
+  },
   "hide_channels_in_search": {
     "message": "Kanalen verbergen in zoeken"
   },

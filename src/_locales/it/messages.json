@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Aumenta la larghezza di banda rilevata"
   },
+  "codec": {
+    "message": "Codec"
+  },
+  "force_h264": {
+    "message": "Forza H.264 (blocca VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blocca 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube offre ogni video in più codec. VP9 e AV1 risparmiano banda, ma molte schede grafiche non li decodificano in hardware: se ne occupa il processore, il dispositivo si scalda e la batteria dura meno.\n\n«Forza H.264» fa richiedere al player il flusso avc1, che quasi tutte le schede grafiche decodificano in hardware. In cambio, su YouTube l'H.264 si ferma a 1080p. «Blocca 60 fps» limita la riproduzione a 30 fotogrammi al secondo, la metà dei fotogrammi da decodificare."
+  },
+  "about_this_setting": {
+    "message": "Informazioni sull'impostazione"
+  },
+  "close": {
+    "message": "Chiudi"
+  },
   "hide_channels_in_search": {
     "message": "Nascondi i canali nella ricerca"
   },

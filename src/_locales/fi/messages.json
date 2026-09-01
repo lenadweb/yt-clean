@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Kasvata havaittua kaistanleveyttä"
   },
+  "codec": {
+    "message": "Koodekki"
+  },
+  "force_h264": {
+    "message": "Pakota H.264 (estä VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Estä 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube tarjoaa jokaisen videon useassa koodekissa. VP9 ja AV1 säästävät dataa, mutta moni näytönohjain ei pysty purkamaan niitä laitteistotasolla — työn ottaa suoritin, laite lämpenee ja akku tyhjenee nopeammin.\n\n”Pakota H.264” saa soittimen pyytämään avc1-virtaa, jonka lähes jokainen näytönohjain purkaa laitteistotasolla. Vastineeksi H.264 rajoittuu YouTubessa 1080p:hen. ”Estä 60 fps” rajaa toiston 30 kuvaan sekunnissa — puolet vähemmän purettavia ruutuja."
+  },
+  "about_this_setting": {
+    "message": "Tietoja tästä asetuksesta"
+  },
+  "close": {
+    "message": "Sulje"
+  },
   "hide_channels_in_search": {
     "message": "Piilota kanavat hausta"
   },

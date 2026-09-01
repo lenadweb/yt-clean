@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Zvýšit zjištěnou šířku pásma"
   },
+  "codec": {
+    "message": "Kodek"
+  },
+  "force_h264": {
+    "message": "Vynutit H.264 (blokovat VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Blokovat 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube nabízí každé video v několika kodecích. VP9 a AV1 šetří data, ale mnoho grafických karet je neumí dekódovat hardwarově — práci převezme procesor, zařízení se zahřívá a baterie vydrží méně.\n\n„Vynutit H.264“ přiměje přehrávač vyžádat si stream avc1, který hardwarově dekóduje téměř každá grafická karta. Výměnou je H.264 na YouTube omezen na 1080p. „Blokovat 60 fps“ omezí přehrávání na 30 snímků za sekundu — polovina snímků k dekódování."
+  },
+  "about_this_setting": {
+    "message": "O tomto nastavení"
+  },
+  "close": {
+    "message": "Zavřít"
+  },
   "hide_channels_in_search": {
     "message": "Skrýt kanály ve vyhledávání"
   },

@@ -353,6 +353,24 @@
   "spoof_player_bandwidth": {
     "message": "Augmenta l'amplada de banda detectada"
   },
+  "codec": {
+    "message": "Còdec"
+  },
+  "force_h264": {
+    "message": "Força H.264 (bloqueja VP9/AV1)"
+  },
+  "block_60_fps": {
+    "message": "Bloqueja 60 fps"
+  },
+  "codec_hint": {
+    "message": "YouTube ofereix cada vídeo en diversos còdecs. VP9 i AV1 estalvien dades, però moltes targetes gràfiques no els poden descodificar per maquinari: la feina passa al processador, el dispositiu s'escalfa i la bateria dura menys.\n\n«Força H.264» fa que el reproductor demani el flux avc1, que gairebé qualsevol targeta gràfica descodifica per maquinari. A canvi, l'H.264 a YouTube s'atura a 1080p. «Bloqueja 60 fps» limita la reproducció a 30 fotogrames per segon, la meitat de fotogrames a descodificar."
+  },
+  "about_this_setting": {
+    "message": "Sobre aquesta opció"
+  },
+  "close": {
+    "message": "Tanca"
+  },
   "hide_channels_in_search": {
     "message": "Amaga els canals a la cerca"
   },

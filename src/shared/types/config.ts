@@ -62,6 +62,7 @@ export type SectionControls = 'switch' | 'checkboxes';
 
 export interface SettingsSection<TId extends string = string> {
     title: I18nKey;
+    hint?: I18nKey;
     isNew?: boolean;
     isExperimental?: boolean;
     controls?: SectionControls;
