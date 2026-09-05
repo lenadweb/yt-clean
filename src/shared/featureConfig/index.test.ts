@@ -6,7 +6,7 @@ import {
     getComponentGroups,
 } from 'src/shared/featureConfig';
 import { DEFAULT_STORAGE } from 'src/shared/storage/config';
-import { BASE_ATTR_PREFIX } from 'src/shared/const';
+import { BASE_ATTR_PREFIX, UrlRegExps } from 'src/shared/const';
 import { ElementActions } from 'src/shared/types/config';
 
 const storageKeys = new Set(Object.keys(DEFAULT_STORAGE));
@@ -99,5 +99,105 @@ describe('hideLiveChat', () => {
             ]),
         });
         expect(feature?.onChange).toBeTypeOf('function');
+    });
+});
+
+describe('hideMembersOnlyVideos', () => {
+    it('supports the legacy and current members-only badges across feeds', () => {
+        const feature = FEATURES.find(
+            ({ id }) => id === 'hideMembersOnlyVideos'
+        );
+        const hideAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.hide
+        );
+        const selector =
+            hideAction && 'selectors' in hideAction
+                ? hideAction.selectors?.[0]
+                : undefined;
+
+        expect(selector).toEqual(
+            expect.stringContaining('.badge-style-type-members-only')
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('.yt-badge-shape--membership')
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('ytd-rich-item-renderer')
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('yt-lockup-view-model')
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('ytd-playlist-video-renderer')
+        );
+    });
+});
+
+describe('hideWatchedVideos', () => {
+    const pageFeatures = [
+        ['hideWatchedVideosHome', UrlRegExps.Home],
+        ['hideWatchedVideosSubscriptions', UrlRegExps.Subscriptions],
+        ['hideWatchedVideosChannels', UrlRegExps.Channel],
+        ['hideWatchedVideosRecommendations', UrlRegExps.Watch],
+    ] as const;
+
+    it.each(pageFeatures)('scopes %s to its YouTube page', (id, urlRegExp) => {
+        const feature = FEATURES.find((candidate) => candidate.id === id);
+        const hideAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.hide
+        );
+
+        expect(hideAction?.urlRegExp).toEqual([urlRegExp]);
+    });
+
+    it('recognizes legacy and current progress bars from 34 percent', () => {
+        const feature = FEATURES.find(
+            ({ id }) => id === 'hideWatchedVideosHome'
+        );
+        const hideAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.hide
+        );
+        const selector =
+            hideAction && 'selectors' in hideAction
+                ? hideAction.selectors?.[0]
+                : undefined;
+
+        expect(selector).toEqual(
+            expect.stringContaining(
+                '#progress.ytd-thumbnail-overlay-resume-playback-renderer'
+            )
+        );
+        expect(selector).toEqual(
+            expect.stringContaining(
+                '.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment'
+            )
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('[style*="width: 34"]')
+        );
+        expect(selector).not.toEqual(
+            expect.stringContaining('[style*="width: 33"]')
+        );
+        expect(selector).toEqual(
+            expect.stringContaining('yt-lockup-view-model')
+        );
+    });
+});
+
+describe('hideChannelPictures', () => {
+    it('hides the owner avatar and in-player channel branding', () => {
+        const feature = FEATURES.find(({ id }) => id === 'hideChannelPictures');
+        const hideAction = feature?.actions.find(
+            ({ action }) => action === ElementActions.hide
+        );
+
+        expect(hideAction).toMatchObject({
+            selectors: expect.arrayContaining([
+                'ytd-watch-metadata ytd-video-owner-renderer a:has(> #avatar)',
+                'ytd-watch-metadata ytd-video-owner-renderer yt-decorated-avatar-view-model',
+                'ytd-player .iv-branding',
+                'ytd-player .ytp-button.branding-img-container',
+            ]),
+        });
     });
 });
