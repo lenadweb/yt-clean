@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "பரிந்துரைகளில் மறை"
+  },
+  "change_shortcut": {
+    "message": "குறுக்குவழியை மாற்று"
+  },
+  "enable_extension": {
+    "message": "நீட்டிப்பை இயக்கு"
+  },
+  "disable_extension": {
+    "message": "நீட்டிப்பை முடக்கு"
+  },
+  "shortcut_not_set": {
+    "message": "அமைக்கப்படவில்லை"
   }
 }

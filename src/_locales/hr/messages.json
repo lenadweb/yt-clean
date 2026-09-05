@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Sakrij u preporukama"
+  },
+  "change_shortcut": {
+    "message": "Promijeni prečac"
+  },
+  "enable_extension": {
+    "message": "Uključi proširenje"
+  },
+  "disable_extension": {
+    "message": "Isključi proširenje"
+  },
+  "shortcut_not_set": {
+    "message": "Nije postavljeno"
   }
 }

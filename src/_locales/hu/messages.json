@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Elrejtés az ajánlások között"
+  },
+  "change_shortcut": {
+    "message": "Billentyűparancs módosítása"
+  },
+  "enable_extension": {
+    "message": "Bővítmény bekapcsolása"
+  },
+  "disable_extension": {
+    "message": "Bővítmény kikapcsolása"
+  },
+  "shortcut_not_set": {
+    "message": "Nincs beállítva"
   }
 }

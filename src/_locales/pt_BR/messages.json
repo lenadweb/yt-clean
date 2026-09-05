@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Ocultar nas recomendações"
+  },
+  "change_shortcut": {
+    "message": "Alterar atalho"
+  },
+  "enable_extension": {
+    "message": "Ativar a extensão"
+  },
+  "disable_extension": {
+    "message": "Desativar a extensão"
+  },
+  "shortcut_not_set": {
+    "message": "Não definido"
   }
 }

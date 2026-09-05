@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Itago sa mga rekomendasyon"
+  },
+  "change_shortcut": {
+    "message": "Baguhin ang shortcut"
+  },
+  "enable_extension": {
+    "message": "I-on ang extension"
+  },
+  "disable_extension": {
+    "message": "I-off ang extension"
+  },
+  "shortcut_not_set": {
+    "message": "Hindi nakatakda"
   }
 }

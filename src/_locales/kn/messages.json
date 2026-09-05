@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "ಶಿಫಾರಸುಗಳಲ್ಲಿ ಮರೆಮಾಡಿ"
+  },
+  "change_shortcut": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್ ಬದಲಾಯಿಸಿ"
+  },
+  "enable_extension": {
+    "message": "ವಿಸ್ತರಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "disable_extension": {
+    "message": "ವಿಸ್ತರಣೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "shortcut_not_set": {
+    "message": "ಹೊಂದಿಸಲಾಗಿಲ್ಲ"
   }
 }

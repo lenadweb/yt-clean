@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "הסתרה בהמלצות"
+  },
+  "change_shortcut": {
+    "message": "שינוי קיצור הדרך"
+  },
+  "enable_extension": {
+    "message": "הפעלת התוסף"
+  },
+  "disable_extension": {
+    "message": "השבתת התוסף"
+  },
+  "shortcut_not_set": {
+    "message": "לא הוגדר"
   }
 }

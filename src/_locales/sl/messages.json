@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Skrij v priporočilih"
+  },
+  "change_shortcut": {
+    "message": "Spremeni bližnjico"
+  },
+  "enable_extension": {
+    "message": "Vklopi razširitev"
+  },
+  "disable_extension": {
+    "message": "Izklopi razširitev"
+  },
+  "shortcut_not_set": {
+    "message": "Ni nastavljeno"
   }
 }

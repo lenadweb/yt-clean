@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Ẩn trong video đề xuất"
+  },
+  "change_shortcut": {
+    "message": "Đổi phím tắt"
+  },
+  "enable_extension": {
+    "message": "Bật tiện ích"
+  },
+  "disable_extension": {
+    "message": "Tắt tiện ích"
+  },
+  "shortcut_not_set": {
+    "message": "Chưa đặt"
   }
 }

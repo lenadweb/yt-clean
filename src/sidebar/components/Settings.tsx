@@ -10,6 +10,8 @@ import Logo from 'src/assets/icons/logo.svg';
 import PowerOnIcon from 'src/assets/icons/power-on.svg';
 import PowerOffIcon from 'src/assets/icons/power-off.svg';
 import GithubIcon from 'src/assets/icons/github.svg';
+import KeyboardShortcuts from 'src/sidebar/components/KeyboardShortcuts';
+import Tooltip from 'src/sidebar/components/Tooltip';
 
 const GITHUB_URL = 'https://github.com/lenadweb/yt-clean';
 
@@ -35,13 +37,26 @@ const Settings: FC = () => {
                         {t('youtube_clean')}
                     </h1>
                 </div>
-                <button
-                    onClick={toggleEnabled}
-                    className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95 [&_rect]:transition-colors [&_rect]:duration-150 hover:[&_rect]:fill-black-600"
-                    aria-label={t('toggle_extension')}
-                >
-                    {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
-                </button>
+                <div className="flex items-center gap-2">
+                    <KeyboardShortcuts />
+                    <Tooltip
+                        label={t(
+                            isEnabled ? 'disable_extension' : 'enable_extension'
+                        )}
+                    >
+                        <button
+                            onClick={toggleEnabled}
+                            className="flex cursor-pointer items-center justify-center transition duration-150 focus:outline-none active:scale-95 [&_rect]:transition-colors [&_rect]:duration-150 hover:[&_rect]:fill-black-600"
+                            aria-label={t(
+                                isEnabled
+                                    ? 'disable_extension'
+                                    : 'enable_extension'
+                            )}
+                        >
+                            {isEnabled ? <PowerOnIcon /> : <PowerOffIcon />}
+                        </button>
+                    </Tooltip>
+                </div>
             </div>
             <div className="mb-2 ml-1 flex items-center justify-between">
                 <span className="text-xs font-medium uppercase tracking-wide text-black-400">
@@ -67,7 +82,7 @@ const Settings: FC = () => {
                 href={GITHUB_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-auto flex items-center justify-center gap-1.5 pt-6 pb-2 text-sm text-white/60 transition hover:text-white"
+                className="mt-auto flex items-center justify-center gap-1.5 pt-7 pb-2 text-sm text-white/60 transition hover:text-white"
             >
                 <GithubIcon className="size-4" />
                 {t('view_on_github')}

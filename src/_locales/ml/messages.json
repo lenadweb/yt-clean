@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "ശുപാർശകളിൽ മറയ്ക്കുക"
+  },
+  "change_shortcut": {
+    "message": "കുറുക്കുവഴി മാറ്റുക"
+  },
+  "enable_extension": {
+    "message": "വിപുലീകരണം പ്രവർത്തനക്ഷമമാക്കുക"
+  },
+  "disable_extension": {
+    "message": "വിപുലീകരണം പ്രവർത്തനരഹിതമാക്കുക"
+  },
+  "shortcut_not_set": {
+    "message": "സജ്ജമാക്കിയിട്ടില്ല"
   }
 }

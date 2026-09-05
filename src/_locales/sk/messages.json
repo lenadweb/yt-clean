@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Skryť v odporúčaniach"
+  },
+  "change_shortcut": {
+    "message": "Zmeniť klávesovú skratku"
+  },
+  "enable_extension": {
+    "message": "Zapnúť rozšírenie"
+  },
+  "disable_extension": {
+    "message": "Vypnúť rozšírenie"
+  },
+  "shortcut_not_set": {
+    "message": "Nenastavené"
   }
 }

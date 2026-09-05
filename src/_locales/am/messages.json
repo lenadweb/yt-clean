@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "በምክሮች ውስጥ ደብቅ"
+  },
+  "change_shortcut": {
+    "message": "አቋራጩን ቀይር"
+  },
+  "enable_extension": {
+    "message": "ቅጥያውን አንቃ"
+  },
+  "disable_extension": {
+    "message": "ቅጥያውን አሰናክል"
+  },
+  "shortcut_not_set": {
+    "message": "አልተመደበም"
   }
 }

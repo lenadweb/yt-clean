@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "সুপারিশে লুকান"
+  },
+  "change_shortcut": {
+    "message": "শর্টকাট পরিবর্তন করুন"
+  },
+  "enable_extension": {
+    "message": "এক্সটেনশন চালু করুন"
+  },
+  "disable_extension": {
+    "message": "এক্সটেনশন বন্ধ করুন"
+  },
+  "shortcut_not_set": {
+    "message": "সেট করা নেই"
   }
 }

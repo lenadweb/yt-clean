@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "ભલામણોમાં છુપાવો"
+  },
+  "change_shortcut": {
+    "message": "શૉર્ટકટ બદલો"
+  },
+  "enable_extension": {
+    "message": "એક્સ્ટેન્શન ચાલુ કરો"
+  },
+  "disable_extension": {
+    "message": "એક્સ્ટેન્શન બંધ કરો"
+  },
+  "shortcut_not_set": {
+    "message": "સેટ કરેલ નથી"
   }
 }

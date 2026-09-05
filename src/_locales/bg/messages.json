@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Скриване в препоръките"
+  },
+  "change_shortcut": {
+    "message": "Промяна на клавишната комбинация"
+  },
+  "enable_extension": {
+    "message": "Включване на разширението"
+  },
+  "disable_extension": {
+    "message": "Изключване на разширението"
+  },
+  "shortcut_not_set": {
+    "message": "Не е зададено"
   }
 }

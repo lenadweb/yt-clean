@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Απόκρυψη στις προτάσεις"
+  },
+  "change_shortcut": {
+    "message": "Αλλαγή συντόμευσης"
+  },
+  "enable_extension": {
+    "message": "Ενεργοποίηση επέκτασης"
+  },
+  "disable_extension": {
+    "message": "Απενεργοποίηση επέκτασης"
+  },
+  "shortcut_not_set": {
+    "message": "Δεν έχει οριστεί"
   }
 }

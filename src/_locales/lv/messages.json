@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Slēpt ieteikumos"
+  },
+  "change_shortcut": {
+    "message": "Mainīt īsinājumtaustiņu"
+  },
+  "enable_extension": {
+    "message": "Ieslēgt paplašinājumu"
+  },
+  "disable_extension": {
+    "message": "Izslēgt paplašinājumu"
+  },
+  "shortcut_not_set": {
+    "message": "Nav iestatīts"
   }
 }

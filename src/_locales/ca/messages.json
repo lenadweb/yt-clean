@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Amaga a les recomanacions"
+  },
+  "change_shortcut": {
+    "message": "Canvia la drecera"
+  },
+  "enable_extension": {
+    "message": "Activa l’extensió"
+  },
+  "disable_extension": {
+    "message": "Desactiva l’extensió"
+  },
+  "shortcut_not_set": {
+    "message": "Sense assignar"
   }
 }

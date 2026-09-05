@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Скрывать в рекомендациях"
+  },
+  "change_shortcut": {
+    "message": "Изменить сочетание"
+  },
+  "enable_extension": {
+    "message": "Включить расширение"
+  },
+  "disable_extension": {
+    "message": "Выключить расширение"
+  },
+  "shortcut_not_set": {
+    "message": "Не назначено"
   }
 }

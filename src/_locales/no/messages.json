@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Skjul i anbefalinger"
+  },
+  "change_shortcut": {
+    "message": "Endre tastatursnarvei"
+  },
+  "enable_extension": {
+    "message": "Slå på utvidelsen"
+  },
+  "disable_extension": {
+    "message": "Slå av utvidelsen"
+  },
+  "shortcut_not_set": {
+    "message": "Ikke angitt"
   }
 }

@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "在推荐内容中隐藏"
+  },
+  "change_shortcut": {
+    "message": "更改快捷键"
+  },
+  "enable_extension": {
+    "message": "启用扩展程序"
+  },
+  "disable_extension": {
+    "message": "停用扩展程序"
+  },
+  "shortcut_not_set": {
+    "message": "未设置"
   }
 }

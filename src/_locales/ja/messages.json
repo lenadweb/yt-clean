@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "おすすめで非表示"
+  },
+  "change_shortcut": {
+    "message": "ショートカットを変更"
+  },
+  "enable_extension": {
+    "message": "拡張機能をオン"
+  },
+  "disable_extension": {
+    "message": "拡張機能をオフ"
+  },
+  "shortcut_not_set": {
+    "message": "未設定"
   }
 }

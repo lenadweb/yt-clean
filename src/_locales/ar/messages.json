@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "إخفاء في الاقتراحات"
+  },
+  "change_shortcut": {
+    "message": "تغيير الاختصار"
+  },
+  "enable_extension": {
+    "message": "تفعيل الإضافة"
+  },
+  "disable_extension": {
+    "message": "تعطيل الإضافة"
+  },
+  "shortcut_not_set": {
+    "message": "غير معيّن"
   }
 }

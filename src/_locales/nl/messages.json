@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Verbergen in aanbevelingen"
+  },
+  "change_shortcut": {
+    "message": "Sneltoets wijzigen"
+  },
+  "enable_extension": {
+    "message": "Extensie inschakelen"
+  },
+  "disable_extension": {
+    "message": "Extensie uitschakelen"
+  },
+  "shortcut_not_set": {
+    "message": "Niet ingesteld"
   }
 }

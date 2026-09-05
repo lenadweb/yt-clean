@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "추천에서 숨기기"
+  },
+  "change_shortcut": {
+    "message": "단축키 변경"
+  },
+  "enable_extension": {
+    "message": "확장 프로그램 켜기"
+  },
+  "disable_extension": {
+    "message": "확장 프로그램 끄기"
+  },
+  "shortcut_not_set": {
+    "message": "설정 안 됨"
   }
 }

@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Slėpti rekomendacijose"
+  },
+  "change_shortcut": {
+    "message": "Keisti spartųjį klavišą"
+  },
+  "enable_extension": {
+    "message": "Įjungti plėtinį"
+  },
+  "disable_extension": {
+    "message": "Išjungti plėtinį"
+  },
+  "shortcut_not_set": {
+    "message": "Nenustatyta"
   }
 }

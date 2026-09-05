@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Önerilerde gizle"
+  },
+  "change_shortcut": {
+    "message": "Kısayolu değiştir"
+  },
+  "enable_extension": {
+    "message": "Uzantıyı aç"
+  },
+  "disable_extension": {
+    "message": "Uzantıyı kapat"
+  },
+  "shortcut_not_set": {
+    "message": "Ayarlanmadı"
   }
 }

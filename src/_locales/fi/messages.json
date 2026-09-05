@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Piilota suosituksissa"
+  },
+  "change_shortcut": {
+    "message": "Muuta pikanäppäintä"
+  },
+  "enable_extension": {
+    "message": "Ota laajennus käyttöön"
+  },
+  "disable_extension": {
+    "message": "Poista laajennus käytöstä"
+  },
+  "shortcut_not_set": {
+    "message": "Ei määritetty"
   }
 }

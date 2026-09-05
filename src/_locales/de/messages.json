@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "In Empfehlungen ausblenden"
+  },
+  "change_shortcut": {
+    "message": "Tastenkürzel ändern"
+  },
+  "enable_extension": {
+    "message": "Erweiterung einschalten"
+  },
+  "disable_extension": {
+    "message": "Erweiterung ausschalten"
+  },
+  "shortcut_not_set": {
+    "message": "Nicht festgelegt"
   }
 }

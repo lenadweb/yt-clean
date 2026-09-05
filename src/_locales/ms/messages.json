@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Sembunyikan dalam cadangan"
+  },
+  "change_shortcut": {
+    "message": "Tukar pintasan"
+  },
+  "enable_extension": {
+    "message": "Hidupkan sambungan"
+  },
+  "disable_extension": {
+    "message": "Matikan sambungan"
+  },
+  "shortcut_not_set": {
+    "message": "Belum ditetapkan"
   }
 }

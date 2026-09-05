@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Peida soovitustes"
+  },
+  "change_shortcut": {
+    "message": "Muuda klaviatuuri otseteed"
+  },
+  "enable_extension": {
+    "message": "Lülita laiendus sisse"
+  },
+  "disable_extension": {
+    "message": "Lülita laiendus välja"
+  },
+  "shortcut_not_set": {
+    "message": "Määramata"
   }
 }

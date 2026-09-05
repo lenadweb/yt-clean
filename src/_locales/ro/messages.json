@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Ascunde în recomandări"
+  },
+  "change_shortcut": {
+    "message": "Schimbă comanda rapidă"
+  },
+  "enable_extension": {
+    "message": "Activează extensia"
+  },
+  "disable_extension": {
+    "message": "Dezactivează extensia"
+  },
+  "shortcut_not_set": {
+    "message": "Nesetat"
   }
 }

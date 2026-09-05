@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Приховувати в рекомендаціях"
+  },
+  "change_shortcut": {
+    "message": "Змінити сполучення клавіш"
+  },
+  "enable_extension": {
+    "message": "Увімкнути розширення"
+  },
+  "disable_extension": {
+    "message": "Вимкнути розширення"
+  },
+  "shortcut_not_set": {
+    "message": "Не призначено"
   }
 }

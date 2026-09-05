@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Skjul i anbefalinger"
+  },
+  "change_shortcut": {
+    "message": "Skift tastaturgenvej"
+  },
+  "enable_extension": {
+    "message": "Slå udvidelsen til"
+  },
+  "disable_extension": {
+    "message": "Slå udvidelsen fra"
+  },
+  "shortcut_not_set": {
+    "message": "Ikke angivet"
   }
 }

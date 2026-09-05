@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "在推薦內容中隱藏"
+  },
+  "change_shortcut": {
+    "message": "變更快速鍵"
+  },
+  "enable_extension": {
+    "message": "啟用擴充功能"
+  },
+  "disable_extension": {
+    "message": "停用擴充功能"
+  },
+  "shortcut_not_set": {
+    "message": "未設定"
   }
 }

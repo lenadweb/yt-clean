@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Ukryj w rekomendacjach"
+  },
+  "change_shortcut": {
+    "message": "Zmień skrót"
+  },
+  "enable_extension": {
+    "message": "Włącz rozszerzenie"
+  },
+  "disable_extension": {
+    "message": "Wyłącz rozszerzenie"
+  },
+  "shortcut_not_set": {
+    "message": "Nie ustawiono"
   }
 }

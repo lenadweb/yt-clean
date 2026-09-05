@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "ซ่อนในวิดีโอแนะนำ"
+  },
+  "change_shortcut": {
+    "message": "เปลี่ยนแป้นพิมพ์ลัด"
+  },
+  "enable_extension": {
+    "message": "เปิดส่วนขยาย"
+  },
+  "disable_extension": {
+    "message": "ปิดส่วนขยาย"
+  },
+  "shortcut_not_set": {
+    "message": "ยังไม่ได้ตั้งค่า"
   }
 }

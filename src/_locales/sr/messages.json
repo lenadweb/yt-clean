@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Сакриј у препорукама"
+  },
+  "change_shortcut": {
+    "message": "Промени пречицу"
+  },
+  "enable_extension": {
+    "message": "Укључи проширење"
+  },
+  "disable_extension": {
+    "message": "Искључи проширење"
+  },
+  "shortcut_not_set": {
+    "message": "Није подешено"
   }
 }

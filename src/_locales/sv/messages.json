@@ -400,5 +400,17 @@
   },
   "hide_watched_in_recommendations": {
     "message": "Dölj i rekommendationer"
+  },
+  "change_shortcut": {
+    "message": "Ändra kortkommando"
+  },
+  "enable_extension": {
+    "message": "Aktivera tillägget"
+  },
+  "disable_extension": {
+    "message": "Inaktivera tillägget"
+  },
+  "shortcut_not_set": {
+    "message": "Inte inställt"
   }
 }
