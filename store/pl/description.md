@@ -1,139 +1,55 @@
-Blokuj YouTube Shorts, ukrywaj rekomendacje, pomijaj reklamy i usuwaj wszystko inne, co odciąga uwagę. YouTube Clean zamienia YouTube w spokojną przestrzeń bez rozpraszaczy, którą kontrolujesz Ty.
+YouTube Clean ukrywa Shorts, rekomendacje, komentarze i reklamy — tak, aby na stronie zostało tylko to wideo, po które przyszedłeś.
 
-Ponad 60 przełączników, jeden panel boczny, natychmiastowy efekt. Za darmo, open source, bez konta, bez śledzenia, bez zbierania danych.
+YouTube jest zbudowany tak, żebyś przewijał dalej: nieskończona półka Shorts, ściana polecanych obok odtwarzacza, podglądy startujące od przypadkowego ruchu myszy, miniatury zamieniające «jedno wideo» w godzinę. YouTube Clean oddaje ci tę przestrzeń. Otwórz panel boczny, przełącz przełącznik i nadmiar znika natychmiast: bez przeładowania strony, bez konta, bez konfiguracji.
 
-CO MOŻESZ UKRYĆ LUB ZABLOKOWAĆ
+Ponad 60 przełączników, jeden panel boczny, natychmiastowy efekt. Za darmo, otwarty kod, bez śledzenia.
 
-PROFILE
-• Lekki
-• Zrównoważony
-• Maksymalny
-• Własny
-• Włącz rozszerzenie — Zmień skrót
+CO MOŻESZ POSPRZĄTAĆ
 
-SZABLON PODSTAWOWY
+Kanał i rekomendacje. Ukryj półki Shorts wszędzie tam, gdzie się pojawiają, miksy i playlisty, bloki Odkrywaj i Wiadomości oraz filmy tylko dla członków. Wyłącz podgląd po najechaniu, włącz tryb kompaktowy, by zmieścić więcej filmów na ekranie, i chowaj obejrzane — osobno na stronie głównej, w subskrypcjach, na stronach kanałów i w rekomendacjach.
 
-PASEK WYSZUKIWANIA
-• Ukryj przycisk wyszukiwania głosowego
-• Ukryj przycisk klawiatury ekranowej
-• Ukryj tagi wyszukiwania
+Strona filmu. Ukryj komentarze, polecane filmy obok odtwarzacza, pasek polubień, przyciski akcji, opis, czat na żywo, gadżety i bilety, karty na ekranie końcowym oraz obrazy kanału. Sam opis rozkłada się jeszcze dokładniej: sekcja AI (Gemini), transkrypcja, wspomniane osoby, podobne filmy, karta kanału, «Jak to powstało», rozdziały i odcinki.
 
-AKCJE I PROFIL
-• Ukryj przycisk przesyłania
-• Ukryj powiadomienia
+Reklamy i promocje. Ukryj banery YouTube, sponsorowane filmy w kanale i panele informacyjne reklam, a eksperymentalne automatyczne pomijanie samo poradzi sobie z reklamami, które da się pominąć.
 
-KANAŁ I REKOMENDACJE
+Odtwarzacz i odtwarzanie. Dodaj suwak prędkości wprost do sterowania odtwarzaczem, wybierz podwyższony bitrate w Premium, wymuś kodek H.264 (blokując VP9 i AV1), żeby dekodowała karta graficzna, a nie grzał się procesor, ogranicz odtwarzanie do 30 kl./s na słabszych maszynach i ukryj przyciski miniodtwarzacza, trybu kinowego, napisów i autoodtwarzania.
 
-TRYB KOMPAKTOWY
-• Tryb kompaktowy
+Shorts. Jeśli zostawiasz Shorts, niech działają na twoich zasadach: własna kontrola prędkości i automatyczne przejście do następnego.
 
-BLOKI TREŚCI
-• Ukryj sekcje Shorts
-• Ukryj „Odkrywaj” i „Wiadomości”
-• Wyłącz podgląd po najechaniu
-• Ukryj miksy i playlisty
-• Ukryj filmy tylko dla wspierających
+Menu boczne i nawigacja. Ukryj menu w całości albo przytnij je punkt po punkcie — Shorts, Mój kanał, Historia, Playlisty, Twoje filmy, Do obejrzenia, Polubione filmy, Filmy, Pobrane, całą listę subskrypcji, Na czasie, Muzyka, Na żywo, Gry, Wiadomości, Sport, linki YouTube Premium / Music / Kids / Studio oraz stopkę z linkami «O nas».
 
-OBEJRZANE FILMY
-• Ukryj na stronie głównej
-• Ukryj w subskrypcjach
-• Ukryj na stronach kanałów
-• Ukryj w rekomendacjach
+Wyszukiwanie i kanały. Ukryj kanały w wynikach, podobne wyszukiwania, kartę informacyjną i półkę z filmami kanału. Na stronach kanałów usuń baner i zwiastun, który włącza się sam.
 
-WYSZUKIWANIE
-• Ukryj kanały w wyszukiwaniu
-• Ukryj podobne wyszukiwania
-• Ukryj kartę informacyjną
-• Ukryj półkę filmów kanału
+Nagłówek. Ukryj przyciski wyszukiwania głosowego i klawiatury ekranowej, tagi wyszukiwania, przycisk przesyłania i powiadomienia.
 
-REKLAMY
-• Ukryj banery YouTube
-• Ukryj sponsorowane filmy w kanale
-• Ukryj panele reklamowe
-• Automatyczne pomijanie reklam (eksperymentalne)
+USTAWIENIA GOTOWE DLA TYCH, KTÓRZY NIE CHCĄ NIC USTAWIAĆ
 
-STRONA FILMU
+Wybierz Lekki dla delikatnych porządków, Zrównoważony dla codziennego YouTube bez rozpraszaczy albo Maksymalny, by usunąć niemal wszystko. Każdy zestaw można edytować i przywrócić do domyślnego, a Własny budujesz od zera. Skrót klawiszowy włącza i wyłącza całe rozszerzenie, gdy na chwilę potrzebujesz oryginalnego YouTube.
 
-ELEMENTY STRONY
-• Ukryj komentarze
-• Ukryj obrazy kanału
-• Ukryj polubienia
-• Ukryj przyciski akcji
-• Ukryj opis
-• Ukryj czat na żywo
-• Ukryj gadżety i bilety
-• Ukryj karty końcowe
+PRYWATNOŚĆ WPROST
 
-OPIS
-• Ukryj sekcję AI (Gemini)
-• Ukryj transkrypcję
-• Ukryj wspomniane osoby
-• Ukryj powiązane filmy
-• Ukryj kartę kanału
-• Ukryj „Jak to powstało”
-• Ukryj rozdziały i odcinki
+Bez konta, bez logowania, bez analityki, bez śledzenia, bez zbierania danych. Ustawienia leżą w lokalnej pamięci przeglądarki i nigdy jej nie opuszczają. Pełny kod źródłowy jest na GitHubie na licencji MIT — nie musisz wierzyć nam na słowo.
 
-ODTWARZANIE I KANAŁ
+ZBUDOWANE, BY BYŁO SZYBKO
 
-SUWAK PRĘDKOŚCI ODTWARZANIA
-• Suwak prędkości odtwarzania
+Prawie każda opcja kompiluje się przy budowaniu do czystego CSS, więc podczas przeglądania nic nie kosztuje. JavaScript uruchamia tylko kilka funkcji behawioralnych. Manifest V3, bez zdalnego kodu, bez obciążenia w tle.
 
-BITRATE
-• Preferuj podwyższony bitrate (Premium)
-• Zwiększ wykrytą przepustowość (eksperymentalne)
+JAK ZACZĄĆ
 
-KODEK
-• Wymuś H.264 (blokuj VP9/AV1)
-• Blokuj 60 kl./s
+Zainstaluj rozszerzenie, kliknij jego ikonę, aby otworzyć panel boczny obok YouTube, a potem wybierz zestaw albo przełącz pojedyncze opcje. Zmiany działają od razu na otwartej stronie.
 
-ODTWARZACZ
-• Ukryj przycisk miniodtwarzacza
-• Ukryj przycisk trybu kinowego
-• Ukryj przycisk napisów
-• Ukryj przełącznik autoodtwarzania
+Działa w Chrome, Operze, Edge, Brave i innych przeglądarkach opartych na Chromium.
 
-KANAŁ
-• Ukryj zwiastun kanału
-• Ukryj baner kanału
+NAJCZĘŚCIEJ ZADAWANE PYTANIA
 
-PANEL BOCZNY
+Czy to blokada reklam? Nie do końca. Rozszerzenie ukrywa banery, sponsorowane karty w kanale i panele reklamowe oraz potrafi automatycznie pomijać reklamy z opcją pominięcia (eksperymentalnie). Z pełnym blokerem współpracuje bez konfliktów.
 
-UKRYJ PANEL BOCZNY CAŁKOWICIE
-• Ukryj panel boczny całkowicie
+Czy to zepsuje YouTube? Wszystko jest opcjonalne i odwracalne — wyłącz przełącznik, a element od razu wraca.
 
-MENU GŁÓWNE
-• Ukryj „Shorts”
+Czy potrzebne jest konto? Nie. Instalujesz i korzystasz.
 
-TY
-• Ukryj „Mój kanał”
-• Ukryj „Historia”
-• Ukryj „Playlisty”
-• Ukryj „Twoje filmy”
-• Ukryj „Do obejrzenia”
-• Ukryj „Filmy, które lubię”
-• Ukryj „Filmy kinowe”
-• Ukryj „Pobrane”
-• Ukryj przycisk „Pokaż więcej”
+Czy to naprawdę darmowe? Tak: darmowe i open source, bez wersji płatnej i bez dosprzedaży.
 
-UKRYJ LISTĘ SUBSKRYPCJI
-• Ukryj listę subskrypcji
+Coś nie ukrywa się tak, jak chcesz? Załóż zgłoszenie na GitHubie — lista funkcji rośnie z próśb użytkowników.
 
-ODKRYWAJ
-• Ukryj „Na czasie”
-• Ukryj „Muzyka”
-• Ukryj „Na żywo”
-• Ukryj „Gry”
-• Ukryj „Wiadomości”
-• Ukryj „Sport”
-• Ukryj przycisk „Pokaż więcej”
-
-WIĘCEJ Z YOUTUBE
-• Ukryj „YouTube Premium”
-• Ukryj „YouTube Music”
-• Ukryj „YouTube Kids”
-• Ukryj „YouTube Studio”
-
-UKRYJ STOPKĘ I LINKI „O NAS”
-• Ukryj stopkę i linki „O nas”
-
-GitHub: https://github.com/lenadweb/yt-clean
+Kod źródłowy, błędy i pomysły: https://github.com/lenadweb/yt-clean

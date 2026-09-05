@@ -1,139 +1,55 @@
-Blockiere YouTube Shorts, blende Empfehlungen aus, überspringe Werbung und entferne alles andere, was dich ablenkt. YouTube Clean macht YouTube zu einem ruhigen, ablenkungsfreien Ort, den du selbst steuerst.
+YouTube Clean blendet Shorts, Empfehlungen, Kommentare und Werbung aus — damit auf der Seite genau das Video bleibt, wegen dem du gekommen bist.
 
-Über 60 Schalter, ein Seitenpanel, sofortige Wirkung. Kostenlos, Open Source, ohne Konto, ohne Tracking, ohne Datenerfassung.
+YouTube ist darauf gebaut, dass du weiterscrollst: das endlose Shorts-Regal, die Wand aus Empfehlungen neben dem Player, Vorschauen, die bei jeder Mausbewegung starten, Thumbnails, die aus „einem Video" eine Stunde machen. YouTube Clean gibt dir diesen Platz zurück. Seitenpanel öffnen, Schalter umlegen — der Ballast verschwindet sofort, ohne Seitenneuladen, ohne Konto, ohne Einrichtung.
 
-WAS DU AUSBLENDEN ODER BLOCKIEREN KANNST
+Über 60 Schalter, ein Seitenpanel, sofortige Wirkung. Kostenlos, Open Source, kein Tracking.
 
-VOREINSTELLUNGEN
-• Leicht
-• Ausgewogen
-• Maximal
-• Benutzerdefiniert
-• Erweiterung aktivieren/deaktivieren — Tastenkürzel ändern
+WAS DU AUFRÄUMEN KANNST
 
-STANDARD-LAYOUT
+Feed und Empfehlungen. Blende Shorts-Regale überall aus, dazu Mixe und Playlists, die Blöcke Entdecken und News sowie Videos nur für Mitglieder. Schalte die Vorschau beim Drüberfahren ab, aktiviere den kompakten Modus für mehr Videos pro Bildschirm und verstecke bereits angesehene Videos — getrennt auf der Startseite, unter Abos, auf Kanalseiten und in den Empfehlungen.
 
-SUCHLEISTE
-• Sprachsuche-Schaltfläche ausblenden
-• Bildschirmtastatur-Schaltfläche ausblenden
-• Such-Filterchips ausblenden
+Videoseite. Blende Kommentare, empfohlene Videos neben dem Player, die Mag-ich-Leiste, Aktionsschaltflächen, die Beschreibung, den Live-Chat, Merch und Tickets, Abspann-Karten und Kanalbilder aus. Die Beschreibung lässt sich noch feiner zerlegen: KI-Bereich (Gemini), Transkript, erwähnte Personen, ähnliche Videos, Kanalkarte, „Wie es gemacht wurde", Kapitel und Folgen.
 
-AKTIONEN & BENUTZER
-• Erstellen-Schaltfläche ausblenden
-• Benachrichtigungen ausblenden
+Werbung und Promos. Blende YouTube-Banner, gesponserte Videos im Feed und Anzeigen-Infofelder aus — und lass überspringbare Werbung per experimentellem Auto-Skip von selbst verschwinden.
 
-FEED & EMPFEHLUNGEN
+Player und Wiedergabe. Hol dir einen Geschwindigkeitsregler direkt in die Player-Steuerung, bevorzuge die höhere Bitrate mit Premium, erzwinge den Codec H.264 (blockiert VP9 und AV1), damit die Grafikkarte statt der CPU dekodiert, begrenze die Wiedergabe auf 30 fps für schwächere Geräte und verstecke die Schaltflächen für Miniplayer, Kinomodus, Untertitel und Autoplay.
 
-KOMPAKTER MODUS
-• Kompakter Modus
+Shorts. Wenn du Shorts behältst, dann zu deinen Bedingungen: eigener Geschwindigkeitsregler und automatischer Wechsel zum nächsten Short.
 
-INHALTSBLÖCKE
-• Shorts-Bereiche ausblenden
-• Entdecken & News ausblenden
-• Vorschau beim Drüberfahren deaktivieren
-• Mixe & Playlists ausblenden
-• Videos nur für Mitglieder ausblenden
+Seitenleiste und Navigation. Blende die Seitenleiste komplett aus oder kürze sie Punkt für Punkt — Shorts, Mein Kanal, Verlauf, Playlists, Meine Videos, Später ansehen, Videos, die ich mag, Filme, Downloads, die gesamte Aboliste, Trends, Musik, Live, Gaming, Nachrichten, Sport, die Links zu YouTube Premium / Music / Kids / Studio und die Fußzeile mit den Info-Links.
 
-ANGESEHENE VIDEOS
-• Auf der Startseite ausblenden
-• Unter Abos ausblenden
-• Auf Kanalseiten ausblenden
-• In Empfehlungen ausblenden
+Suche und Kanäle. Blende Kanäle in den Suchergebnissen, ähnliche Suchen, die Such-Infokarte und das Kanal-Videoregal aus. Auf Kanalseiten entfernst du Banner und den Trailer, der von allein losspielt.
 
-SUCHE
-• Kanäle in der Suche ausblenden
-• Ähnliche Suchen ausblenden
-• Such-Infokarte ausblenden
-• Kanal-Videoregal ausblenden
+Kopfzeile. Verstecke Sprachsuche und Bildschirmtastatur, Such-Filterchips, die Erstellen-Schaltfläche und Benachrichtigungen.
 
-WERBUNG
-• YouTube-Banner ausblenden
-• Gesponserte Videos ausblenden
-• Anzeigen-Infofelder ausblenden
-• Werbung automatisch überspringen (experimentell)
+VOREINSTELLUNGEN FÜR ALLE, DIE NICHTS EINSTELLEN WOLLEN
 
-VIDEOSEITE
+Nimm Leicht für einen sanften Frühjahrsputz, Ausgewogen für ein ablenkungsfreies Alltags-YouTube oder Maximal, um fast alles zu entfernen. Jede Voreinstellung lässt sich bearbeiten und auf den Standard zurücksetzen, und Benutzerdefiniert baust du von Grund auf. Ein Tastenkürzel schaltet die ganze Erweiterung an und aus, wenn du das originale YouTube kurz zurück brauchst.
 
-SEITENELEMENTE
-• Kommentare ausblenden
-• Kanalbilder ausblenden
-• Mag ich/Mag ich nicht ausblenden
-• Aktionsschaltflächen ausblenden
-• Beschreibung ausblenden
-• Live-Chat ausblenden
-• Merch & Tickets ausblenden
-• Abspann-Karten ausblenden
+DATENSCHUTZ, KLAR GESAGT
 
-BESCHREIBUNG
-• KI-Bereich ausblenden (Gemini)
-• Transkript ausblenden
-• Erwähnte Personen ausblenden
-• Ähnliche Videos ausblenden
-• Kanalkarte ausblenden
-• "Wie es gemacht wurde" ausblenden
-• Kapitel & Folgen ausblenden
+Kein Konto, keine Anmeldung, keine Analytics, kein Tracking, keine Datenerfassung. Deine Einstellungen liegen im lokalen Speicher des Browsers und verlassen ihn nie. Der komplette Quellcode steht unter MIT-Lizenz auf GitHub — du musst uns nicht glauben, du kannst nachlesen.
 
-WIEDERGABE & KANAL
+AUF TEMPO GEBAUT
 
-WIEDERGABEGESCHWINDIGKEIT-REGLER
-• Wiedergabegeschwindigkeit-Regler
+Fast jede Option wird beim Build zu reinem CSS kompiliert und kostet beim Surfen nichts. Nur wenige verhaltensbasierte Funktionen führen JavaScript aus. Manifest V3, kein Remote-Code, keine Hintergrundlast.
 
-BITRATE
-• Höhere Bitrate bevorzugen (Premium)
-• Erkannte Bandbreite erhöhen (experimentell)
+SO STARTEST DU
 
-CODEC
-• H.264 erzwingen (VP9/AV1 blockieren)
-• 60 fps blockieren
+Erweiterung installieren, auf das Symbol klicken, um das Seitenpanel neben YouTube zu öffnen, dann eine Voreinstellung wählen oder einzelne Schalter umlegen. Änderungen greifen sofort auf der offenen Seite.
 
-PLAYER
-• Miniplayer-Schaltfläche ausblenden
-• Kinomodus-Schaltfläche ausblenden
-• Untertitel-Schaltfläche ausblenden
-• Autoplay-Schalter ausblenden
+Läuft in Chrome, Opera, Edge, Brave und anderen Chromium-Browsern.
 
-KANAL
-• Kanal-Trailer ausblenden
-• Kanal-Banner ausblenden
+HÄUFIGE FRAGEN
 
-SEITENLEISTE
+Ist das ein Adblocker? Nicht ganz. Die Erweiterung versteckt Banner, gesponserte Feed-Karten und Anzeigen-Infofelder und kann überspringbare Werbung automatisch überspringen (experimentell). Neben einem echten Adblocker läuft sie problemlos.
 
-SEITENLEISTE VOLLSTÄNDIG AUSBLENDEN
-• Seitenleiste vollständig ausblenden
+Geht dabei etwas an YouTube kaputt? Alles ist optional und umkehrbar — Schalter aus, Element sofort zurück.
 
-HAUPTMENÜ
-• "Shorts" ausblenden
+Brauche ich ein Konto? Nein. Installieren und loslegen.
 
-MEDIATHEK
-• "Mein Kanal" ausblenden
-• "Verlauf" ausblenden
-• "Playlists" ausblenden
-• "Meine Videos" ausblenden
-• "Später ansehen" ausblenden
-• "Videos, die ich mag" ausblenden
-• "Filme" ausblenden
-• "Downloads" ausblenden
-• Schaltfläche "Mehr anzeigen" ausblenden
+Ist es wirklich kostenlos? Ja: kostenlos und quelloffen, keine Bezahlstufe, kein Upselling.
 
-ABOLISTE AUSBLENDEN
-• Aboliste ausblenden
+Etwas wird nicht so ausgeblendet, wie du willst? Eröffne ein Issue auf GitHub — die Funktionsliste wächst aus Nutzerwünschen.
 
-ENTDECKEN
-• "Trends" ausblenden
-• "Musik" ausblenden
-• "Live" ausblenden
-• "Gaming" ausblenden
-• "Nachrichten" ausblenden
-• "Sport" ausblenden
-• Schaltfläche "Mehr anzeigen" ausblenden
-
-MEHR VON YOUTUBE
-• "YouTube Premium" ausblenden
-• "YouTube Music" ausblenden
-• "YouTube Kids" ausblenden
-• "YouTube Studio" ausblenden
-
-FUSSZEILE & INFO-LINKS AUSBLENDEN
-• Fußzeile & Info-Links ausblenden
-
-GitHub: https://github.com/lenadweb/yt-clean
+Quellcode, Fehlerberichte und Ideen: https://github.com/lenadweb/yt-clean

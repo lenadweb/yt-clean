@@ -1,139 +1,55 @@
-Blokuokite YouTube Shorts, slėpkite rekomendacijas, praleiskite reklamas ir pašalinkite visa kita, kas blaško dėmesį. YouTube Clean paverčia YouTube ramia, neblaškančia erdve, kurią valdote jūs.
+YouTube Clean paslepia Shorts, rekomendacijas, komentarus ir reklamas — puslapyje lieka tik tas vaizdo įrašas, dėl kurio atėjai.
 
-60+ jungiklių, vienas šoninis skydelis, poveikis iškart. Nemokama, atviras kodas, be paskyros, be sekimo, be duomenų rinkimo.
+YouTube sukurtas taip, kad slinktum toliau: begalinė Shorts lentyna, rekomendacijų siena šalia grotuvo, peržiūros, kurios pasileidžia nuo menkiausio pelės judesio, miniatiūros, kurios «vieną vaizdo įrašą» paverčia valanda. YouTube Clean grąžina tau tą erdvę. Atverk šoninį skydelį, perjunk jungiklį ir visa, kas nereikalinga, dingsta iškart: neperkraunant puslapio, be paskyros, be jokių nustatinėjimų.
 
-KĄ GALITE PASLĖPTI ARBA UŽBLOKUOTI
+60+ jungiklių, vienas šoninis skydelis, momentinis rezultatas. Nemokama, atviras kodas, be sekimo.
 
-PROFILIAI
-• Lengvas
-• Subalansuotas
-• Maksimalus
-• Pasirinktinis
-• Įjungti plėtinį — Keisti spartųjį klavišą
+KĄ GALI SUSITVARKYTI
 
-PAGRINDINIS ŠABLONAS
+Srautas ir rekomendacijos. Paslėpk Shorts lentynas visur, kur jos atsiranda, miksus ir grojaraščius, blokus «Naršyti» ir «Naujienos» bei vaizdo įrašus tik nariams. Išjunk automatinę peržiūrą užvedus pelę, įjunk kompaktišką režimą, kad ekrane tilptų daugiau įrašų, ir slėpk jau peržiūrėtus — atskirai pagrindiniame puslapyje, prenumeratose, kanalų puslapiuose ir rekomendacijose.
 
-PAIEŠKOS JUOSTA
-• Slėpti balso paieškos mygtuką
-• Slėpti virtualios klaviatūros mygtuką
-• Slėpti paieškos žymas
+Vaizdo įrašo puslapis. Paslėpk komentarus, rekomenduojamus įrašus šalia grotuvo, patikimų juostą, veiksmų mygtukus, aprašą, tiesioginį pokalbį, prekes ir bilietus, pabaigos ekrano korteles ir kanalo paveikslėlius. Aprašas išsiskaido dar smulkiau: DI skiltis (Gemini), transkripcija, paminėti žmonės, susiję įrašai, kanalo kortelė, «Kaip tai buvo sukurta», skyriai ir epizodai.
 
-VEIKSMAI IR PROFILIS
-• Slėpti įkėlimo mygtuką
-• Slėpti pranešimus
+Reklamos ir akcijos. Paslėpk YouTube reklamjuostes, remiamus įrašus sraute ir reklamos informacijos skydelius, o eksperimentinis automatinis praleidimas pats susitvarkys su reklamomis, kurias galima praleisti.
 
-SRAUTAS IR REKOMENDACIJOS
+Grotuvas ir atkūrimas. Įdėk greičio slankiklį tiesiai į grotuvo valdiklius, su Premium teik pirmenybę didesniam pralaidumui, priverstinai naudok H.264 kodeką (blokuojant VP9 ir AV1), kad dekoduotų vaizdo plokštė, o ne kaistų procesorius, apribok atkūrimą iki 30 kadrų per sekundę silpnesniuose įrenginiuose ir paslėpk mini grotuvo, kino režimo, subtitrų bei automatinio atkūrimo mygtukus.
 
-KOMPAKTIŠKAS REŽIMAS
-• Kompaktiškas režimas
+Shorts. Jei Shorts pasilieki, tegul veikia tavo sąlygomis: atskiras greičio valdymas ir automatinis perėjimas prie kito.
 
-TURINIO BLOKAI
-• Slėpti Shorts skiltis
-• Slėpti Naršyti ir Naujienos
-• Išjungti automatinę peržiūrą užvedus
-• Slėpti maišymus ir grojaraščius
-• Slėpti tik nariams skirtus vaizdo įrašus
+Šoninė juosta ir naršymas. Paslėpk šoninę juostą visiškai arba apkarpyk ją po vieną punktą — Shorts, Mano kanalas, Istorija, Grojaraščiai, Tavo įrašai, Žiūrėti vėliau, Patikę vaizdo įrašai, Filmai, Atsisiuntimai, visas prenumeratų sąrašas, Populiaru, Muzika, Tiesiogiai, Žaidimai, Naujienos, Sportas, nuorodos į YouTube Premium / Music / Kids / Studio ir poraštė su nuorodomis «Apie».
 
-PERŽIŪRĖTI VAIZDO ĮRAŠAI
-• Slėpti pagrindiniame puslapyje
-• Slėpti prenumeratose
-• Slėpti kanalų puslapiuose
-• Slėpti rekomendacijose
+Paieška ir kanalai. Paslėpk kanalus paieškos rezultatuose, susijusias paieškas, informacijos kortelę ir kanalo įrašų lentyną. Kanalų puslapiuose pašalink reklamjuostę ir anonsą, kuris pasileidžia pats.
 
-PAIEŠKA
-• Slėpti kanalus paieškoje
-• Slėpti susijusias paieškas
-• Slėpti informacinę kortelę
-• Slėpti kanalo vaizdo įrašų lentyną
+Antraštė. Paslėpk balso paieškos ir virtualios klaviatūros mygtukus, paieškos žymas, įkėlimo mygtuką ir pranešimus.
 
-REKLAMOS
-• Slėpti YouTube reklamjuostes
-• Slėpti remiamus vaizdo įrašus
-• Slėpti reklamos informacijos skydelius
-• Automatiškai praleisti reklamas (eksperimentinis)
+IŠANKSTINIAI RINKINIAI TIEMS, KAS NENORI NIEKO DERINTI
 
-VAIZDO ĮRAŠO PUSLAPIS
+Rinkis «Lengvą» švelniai tvarkai, «Subalansuotą» kasdieniam YouTube be blaškymosi arba «Maksimalų», kad nuimtum beveik viską. Kiekvieną rinkinį galima redaguoti ir grąžinti į numatytąjį, o «Savą» susikuri nuo nulio. Klaviatūros spartusis klavišas įjungia ir išjungia visą plėtinį, kai minutei prireikia originalaus YouTube.
 
-PUSLAPIO ELEMENTAI
-• Slėpti komentarus
-• Slėpti kanalo paveikslėlius
-• Slėpti patiktukus
-• Slėpti veiksmų mygtukus
-• Slėpti aprašymą
-• Slėpti tiesioginį pokalbį
-• Slėpti prekes ir bilietus
-• Slėpti pabaigos ekrano korteles
+APIE PRIVATUMĄ TIESIAI
 
-APRAŠYMAS
-• Slėpti DI skiltį (Gemini)
-• Slėpti transkripciją
-• Slėpti paminėtus žmones
-• Slėpti susijusius vaizdo įrašus
-• Slėpti kanalo kortelę
-• Slėpti „Kaip tai sukurta“
-• Slėpti skyrius ir epizodus
+Jokios paskyros, jokio prisijungimo, jokios analitikos, jokio sekimo, jokio duomenų rinkimo. Tavo nustatymai lieka vietinėje naršyklės saugykloje ir niekada iš jos neišeina. Visas pirminis kodas yra GitHub su MIT licencija — nereikia tikėti mumis vien dėl žodžių.
 
-ATKŪRIMAS IR KANALAS
+SUKURTA IŠLIKTI GREITAM
 
-ATKŪRIMO GREIČIO SLANKIKLIS
-• Atkūrimo greičio slankiklis
+Beveik kiekviena parinktis kūrimo metu sukompiliuojama į gryną CSS, tad naršant nekainuoja nieko. JavaScript vykdo tik kelios elgsenos funkcijos. Manifest V3, jokio nuotolinio kodo, jokios foninės apkrovos.
 
-BITRATE
-• Teikti pirmenybę pagerintam bitų dažniui (Premium)
-• Padidinti aptiktą pralaidumą (eksperimentinis)
+KAIP PRADĖTI
 
-KODEKAS
-• Priverstinai naudoti H.264 (blokuoti VP9/AV1)
-• Blokuoti 60 kadrų/s
+Įdiek plėtinį, spustelėk jo piktogramą, kad atsivertų šoninis skydelis šalia YouTube, tada pasirink rinkinį arba perjunk atskirus jungiklius. Pakeitimai atvertame puslapyje įsigalioja iškart.
 
-GROTUVAS
-• Slėpti mini grotuvo mygtuką
-• Slėpti kino režimo mygtuką
-• Slėpti subtitrų mygtuką
-• Slėpti automatinio paleidimo jungiklį
+Veikia su Chrome, Opera, Edge, Brave ir kitomis Chromium pagrindu veikiančiomis naršyklėmis.
 
-KANALAS
-• Slėpti kanalo anonsą
-• Slėpti kanalo reklamjuostę
+DAŽNAI UŽDUODAMI KLAUSIMAI
 
-ŠONINĖ JUOSTA
+Ar tai reklamų blokatorius? Ne visai. Jis slepia reklamjuostes, remiamas korteles sraute ir reklamos skydelius bei gali automatiškai praleisti reklamas, kurias galima praleisti (eksperimentinė funkcija). Su tikru blokatoriumi veikia be konfliktų.
 
-VISIŠKAI SLĖPTI ŠONINĘ JUOSTĄ
-• Visiškai slėpti šoninę juostą
+Ar tai sugadins YouTube? Viskas pasirenkama ir atšaukiama — išjunk jungiklį ir elementas iškart grįžta.
 
-PAGRINDINIS MENIU
-• Slėpti „Shorts“
+Ar reikia paskyros? Ne. Įdiek ir naudokis.
 
-JŪS
-• Slėpti „Mano kanalas“
-• Slėpti „Istorija“
-• Slėpti „Grojaraščiai“
-• Slėpti „Jūsų vaizdo įrašai“
-• Slėpti „Žiūrėti vėliau“
-• Slėpti „Patikę vaizdo įrašai“
-• Slėpti „Filmai“
-• Slėpti „Atsisiuntimai“
-• Slėpti mygtuką „Rodyti daugiau“
+Ar tikrai nemokama? Taip: nemokama ir atviro kodo, be mokamos versijos ir be papildomų pardavimų.
 
-SLĖPTI PRENUMERATŲ SĄRAŠĄ
-• Slėpti prenumeratų sąrašą
+Kažkas slepiama ne taip, kaip nori? Atverk issue GitHub — funkcijų sąrašas auga iš naudotojų pageidavimų.
 
-NARŠYTI
-• Slėpti „Populiaru“
-• Slėpti „Muzika“
-• Slėpti „Tiesiogiai“
-• Slėpti „Žaidimai“
-• Slėpti „Naujienos“
-• Slėpti „Sportas“
-• Slėpti mygtuką „Rodyti daugiau“
-
-DAUGIAU IŠ YOUTUBE
-• Slėpti „YouTube Premium“
-• Slėpti „YouTube Music“
-• Slėpti „YouTube Kids“
-• Slėpti „YouTube Studio“
-
-SLĖPTI PORAŠTĘ IR APIE NUORODAS
-• Slėpti poraštę ir Apie nuorodas
-
-GitHub: https://github.com/lenadweb/yt-clean
+Pirminis kodas, klaidos ir idėjos: https://github.com/lenadweb/yt-clean

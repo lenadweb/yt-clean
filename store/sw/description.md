@@ -1,139 +1,55 @@
-Zuia YouTube Shorts, ficha mapendekezo, ruka matangazo na ondoa kila kitu kingine kinachovuta umakini wako. YouTube Clean hugeuza YouTube kuwa mahali tulivu, pasipo vikwazo vya umakini, unapopadhibiti wewe mwenyewe.
+YouTube Clean huficha Shorts, mapendekezo, maoni na matangazo — ili kwenye ukurasa kibaki kile kipengele ulichokuja kutazama pekee.
 
-Vidhibiti 60+, kidirisha kimoja cha pembeni, matokeo ya papo hapo. Bila malipo, chanzo huria, hakuna akaunti, hakuna ufuatiliaji, hakuna ukusanyaji wa data.
+YouTube imejengwa ili uendelee kusogeza: rafu ya Shorts isiyoisha, ukuta wa mapendekezo kando ya kicheza video, vionjo vinavyoanza kwa mtikisiko mdogo tu wa kipanya, na vijipicha vinavyogeuza «video moja» kuwa saa nzima. YouTube Clean inakurudishia nafasi hiyo. Fungua kidirisha cha kando, geuza swichi moja, na ziada hupotea papo hapo: bila kupakia ukurasa upya, bila akaunti, bila usanidi.
 
-UNACHOWEZA KUFICHA AU KUZUIA
+Swichi 60+, kidirisha kimoja cha kando, matokeo ya papo hapo. Bila malipo, chanzo huria, hakuna ufuatiliaji.
 
-MIPANGILIO
-• Nyepesi
-• Uwiano
-• Kiwango cha juu
-• Maalum
-• Washa kiendelezi — Badilisha njia ya mkato
+UNAWEZA KUSAFISHA NINI
 
-KIOLEZO CHA MSINGI
+Mlisho na mapendekezo. Ficha rafu za Shorts kila zinapotokea, michanganyiko na orodha za kucheza, vizuizi vya Gundua na Habari, pamoja na video za wanachama pekee. Zima onyesho la awali linaloanza unapoweka kishale, washa hali ya mgandamizo ili video nyingi zaidi zitoshe kwenye skrini, na ufiche ulizotazama tayari — kwa kujitegemea kwenye Mwanzo, Usajili, kurasa za chaneli na kwenye mapendekezo.
 
-UPAU WA KUTAFUTA
-• Ficha kitufe cha kutafuta kwa sauti
-• Ficha kitufe cha kibodi pepe
-• Ficha lebo za utafutaji
+Ukurasa wa video. Ficha maoni, video zinazopendekezwa kando ya kicheza, upau wa kupenda/kutopenda, vitufe vya vitendo, maelezo, gumzo la moja kwa moja, bidhaa na tiketi, kadi za skrini ya mwisho na picha za chaneli. Maelezo hutenganishwa zaidi: sehemu ya AI (Gemini), nakala ya maandishi, watu waliotajwa, video zinazohusiana, kadi ya chaneli, «Jinsi hii ilivyotengenezwa», sura na vipindi.
 
-VITENDO NA WASIFU
-• Ficha kitufe cha kupakia
-• Ficha arifa
+Matangazo na promo. Ficha mabango ya YouTube, video zilizodhaminiwa kwenye mlisho na paneli za taarifa za matangazo, kisha washa uruka wa kiotomatiki wa majaribio ili matangazo yanayoruhusu kurukwa yajishughulikie yenyewe.
 
-MLISHO NA MAPENDEKEZO
+Kicheza na uchezaji. Weka kitelezi cha kasi moja kwa moja kwenye vidhibiti vya kicheza, pendelea bitrate ya juu zaidi ukiwa na Premium, lazimisha kodeki ya H.264 (kuzuia VP9 na AV1) ili kadi ya michoro isimbue badala ya CPU kupata joto, punguza uchezaji hadi fremu 30 kwa sekunde kwenye mashine dhaifu, na ficha vitufe vya kicheza kidogo, hali ya sinema, manukuu na uchezaji otomatiki.
 
-HALI FUPI
-• Hali fupi
+Shorts. Ukiamua kubaki na Shorts, ziwe kwa masharti yako: udhibiti wa kasi wa peke yake na kubadilika kiotomatiki hadi inayofuata.
 
-VIZUIZI VYA MAUDHUI
-• Ficha sehemu za Shorts
-• Ficha Gundua na Habari
-• Zima onyesho la kukagua otomatiki
-• Ficha michanganyiko na orodha za kucheza
-• Ficha video za wanachama pekee
+Upau wa kando na urambazaji. Ficha upau wa kando kabisa, au uukate kipengele kimoja baada ya kingine — Shorts, Chaneli yangu, Historia, Orodha za kucheza, Video zako, Tazama baadaye, Video ulizopenda, Filamu, Vipakuliwa, orodha nzima ya usajili, Zinazovuma, Muziki, Moja kwa moja, Michezo ya video, Habari, Michezo, viungo vya YouTube Premium / Music / Kids / Studio na kijachini chenye viungo vya «Kuhusu».
 
-VIDEO ULIZOTAZAMA
-• Ficha kwenye ukurasa wa mwanzo
-• Ficha kwenye usajili
-• Ficha kwenye kurasa za vituo
-• Ficha kwenye mapendekezo
+Utafutaji na chaneli. Ficha chaneli kwenye matokeo ya utafutaji, utafutaji unaohusiana, kadi ya taarifa na rafu ya video ya chaneli. Kwenye kurasa za chaneli, ondoa bango na trela inayojicheza yenyewe.
 
-UTAFUTAJI
-• Ficha vituo kwenye utafutaji
-• Ficha utafutaji unaohusiana
-• Ficha kadi ya maelezo ya utafutaji
-• Ficha rafu ya video za kituo
+Kichwa cha ukurasa. Ficha vitufe vya utafutaji kwa sauti na kibodi pepe, lebo za utafutaji, kitufe cha kupakia na arifa.
 
-MATANGAZO
-• Ficha mabango ya YouTube
-• Ficha video zilizofadhiliwa kwenye mlisho
-• Ficha paneli za maelezo ya matangazo
-• Ruka matangazo kiotomatiki (majaribio)
+MIPANGILIO TAYARI KWA WASIOTAKA KUREKEBISHA CHOCHOTE
 
-UKURASA WA VIDEO
+Chagua «Nyepesi» kwa usafi wa upole, «Sawia» kwa YouTube ya kila siku isiyo na vikwazo, au «Kiwango cha juu» ili kuondoa karibu kila kitu. Kila mpangilio unaweza kuhaririwa na kurudishwa kwenye hali ya awali, na «Maalum» unaujenga kutoka mwanzo. Njia ya mkato ya kibodi huwasha na kuzima kiendelezi chote unapohitaji YouTube halisi kwa dakika moja.
 
-VIPENGELE VYA UKURASA
-• Ficha maoni
-• Ficha picha za kituo
-• Ficha kupenda/kutopenda
-• Ficha vitufe vya vitendo
-• Ficha maelezo
-• Ficha gumzo la moja kwa moja
-• Ficha bidhaa na tiketi
-• Ficha kadi za skrini ya mwisho
+FARAGHA, KWA WAZI
 
-MAELEZO
-• Ficha sehemu ya AI (Gemini)
-• Ficha nakala ya maandishi
-• Ficha watu waliotajwa
-• Ficha video zinazohusiana
-• Ficha kadi ya kituo
-• Ficha "Jinsi hii ilivyotengenezwa"
-• Ficha sura na vipindi
+Hakuna akaunti, hakuna kuingia, hakuna uchanganuzi, hakuna ufuatiliaji, hakuna ukusanyaji wa data. Mipangilio yako hukaa kwenye hifadhi ya ndani ya kivinjari na haitoki huko kamwe. Msimbo wote wa chanzo uko GitHub chini ya leseni ya MIT — huhitaji kutuamini kwa maneno tu.
 
-UCHEZAJI NA KITUO
+IMEJENGWA IBAKI YA HARAKA
 
-KITELEZI CHA KASI YA UCHEZAJI
-• Kitelezi cha kasi ya uchezaji
+Karibu kila chaguo hukusanywa kuwa CSS safi wakati wa ujenzi, hivyo haigharimu chochote unapovinjari. JavaScript huendeshwa na vipengele vichache tu vya kitabia. Manifest V3, hakuna msimbo wa mbali, hakuna mzigo wa chinichini.
 
-BITRATE
-• Pendelea kasi biti iliyoboreshwa (Premium)
-• Ongeza upana wa data uliotambuliwa (majaribio)
+JINSI YA KUANZA
 
-KODEKI
-• Lazimisha H.264 (zuia VP9/AV1)
-• Zuia 60 fps
+Sakinisha kiendelezi, bofya aikoni yake ili kufungua kidirisha cha kando karibu na YouTube, kisha chagua mpangilio au geuza swichi moja moja. Mabadiliko hutumika kwenye ukurasa uliofunguliwa papo hapo.
 
-KICHEZA
-• Ficha kitufe cha kicheza kidogo
-• Ficha kitufe cha hali ya ukumbi
-• Ficha kitufe cha manukuu
-• Ficha swichi ya kucheza otomatiki
+Hufanya kazi kwenye Chrome, Opera, Edge, Brave na vivinjari vingine vinavyotumia Chromium.
 
-KITUO
-• Ficha trela ya kituo
-• Ficha bango la kituo
+MASWALI YANAYOULIZWA MARA KWA MARA
 
-UPAU WA KANDO
+Je, hiki ni kizuia matangazo? Si hasa. Huficha mabango, kadi zilizodhaminiwa kwenye mlisho na paneli za matangazo, na kinaweza kuruka kiotomatiki matangazo yanayoruhusu kurukwa (majaribio). Hufanya kazi vizuri pamoja na kizuia matangazo halisi.
 
-FICHA UPAU WA KANDO KABISA
-• Ficha upau wa kando kabisa
+Je, kitaharibu YouTube? Kila kitu ni hiari na kinaweza kurudishwa — zima swichi na kipengele kinarudi papo hapo.
 
-MENYU KUU
-• Ficha "Shorts"
+Je, nahitaji akaunti? Hapana. Sakinisha na utumie.
 
-WEWE
-• Ficha "Kituo changu"
-• Ficha "Historia"
-• Ficha "Orodha za kucheza"
-• Ficha "Video zako"
-• Ficha "Tazama baadaye"
-• Ficha "Video ulizopenda"
-• Ficha "Filamu"
-• Ficha "Vipakuliwa"
-• Ficha kitufe cha "Onyesha zaidi"
+Je, ni bure kweli? Ndiyo: bure na chanzo huria, hakuna kifurushi cha malipo wala mauzo ya ziada.
 
-FICHA ORODHA YA USAJILI
-• Ficha orodha ya usajili
+Kuna kitu hakifichwi jinsi unavyotaka? Fungua issue kwenye GitHub — orodha ya vipengele hukua kutokana na maombi ya watumiaji.
 
-GUNDUA
-• Ficha "Zinazovuma"
-• Ficha "Muziki"
-• Ficha "Moja kwa moja"
-• Ficha "Michezo ya video"
-• Ficha "Habari"
-• Ficha "Michezo"
-• Ficha kitufe cha "Onyesha zaidi"
-
-ZAIDI KUTOKA YOUTUBE
-• Ficha "YouTube Premium"
-• Ficha "YouTube Music"
-• Ficha "YouTube Kids"
-• Ficha "YouTube Studio"
-
-FICHA KIJACHINI NA VIUNGO VYA KUHUSU
-• Ficha kijachini na viungo vya Kuhusu
-
-GitHub: https://github.com/lenadweb/yt-clean
+Msimbo wa chanzo, hitilafu na mawazo: https://github.com/lenadweb/yt-clean

@@ -1,139 +1,55 @@
-I-block ang YouTube Shorts, itago ang mga rekomendasyon, laktawan ang mga ad, at alisin ang lahat ng iba pang humahatak ng atensyon mo. Ginagawa ng YouTube Clean ang YouTube na tahimik at walang distraction na espasyo na ikaw ang kumokontrol.
+Itinatago ng YouTube Clean ang Shorts, mga rekomendasyon, komento, at ad — para sa page ay ang video lang na pinuntahan mo ang matitira.
 
-60+ toggle, isang side panel, agad na epekto. Libre, open source, walang account, walang tracking, walang pangongolekta ng data.
+Ginawa ang YouTube para patuloy kang mag-scroll: ang walang katapusang shelf ng Shorts, ang pader ng mga rekomendasyon sa tabi ng player, ang mga preview na tumatakbo sa pinakamaliit na galaw ng mouse, ang mga thumbnail na ginagawang isang oras ang «isang video». Ibinabalik sa iyo ng YouTube Clean ang espasyong iyon. Buksan ang side panel, i-flip ang isang switch, at agad na nawawala ang sobra: walang reload ng page, walang account, walang setup.
 
-ANO ANG PWEDE MONG ITAGO O I-BLOCK
+60+ switch, isang side panel, agarang resulta. Libre, open source, walang tracking.
 
-MGA PRESET
-• Magaan
-• Balanse
-• Maximum
-• Custom
-• I-on ang extension — Baguhin ang shortcut
+ANO ANG PWEDE MONG LINISIN
 
-BASIC NA TEMPLATE
+Feed at rekomendasyon. Itago ang mga shelf ng Shorts saan man lumitaw, ang mga mix at playlist, ang mga bloke ng Explore at News, at ang mga video para lang sa members. Patayin ang auto-preview kapag hinover, buksan ang compact mode para mas maraming video ang kasya sa screen, at itago ang napanood mo na — hiwalay sa Home, sa Subscriptions, sa mga channel page, at sa mga rekomendasyon.
 
-SEARCH BAR
-• Itago ang voice search button
-• Itago ang virtual keyboard button
-• Itago ang mga search tag
+Video page. Itago ang mga komento, ang mga inirerekomendang video sa tabi ng player, ang like/dislike, ang mga action button, ang deskripsyon, ang live chat, ang merch at tickets, ang end screen cards, at ang mga larawan ng channel. Mas hihiwa-hiwalay pa ang deskripsyon: seksyon ng AI (Gemini), transcript, mga taong nabanggit, kaugnay na video, channel card, «Paano ito ginawa», mga chapter at episode.
 
-MGA AKSYON AT PROFILE
-• Itago ang upload button
-• Itago ang mga notification
+Ads at promo. Itago ang mga banner ng YouTube, ang mga sponsored video sa feed, at ang mga ad info panel, tapos buksan ang eksperimental na auto-skip para kusang maalis ang mga ad na pwedeng laktawan.
 
-FEED AT MGA REKOMENDASYON
+Player at playback. Maglagay ng speed slider mismo sa player controls, unahin ang mas mataas na bitrate kapag may Premium, ipilit ang H.264 codec (naka-block ang VP9 at AV1) para ang graphics card ang mag-decode sa halip na uminit ang CPU, limitahan sa 30 fps sa mahihinang makina, at itago ang mini player, theater mode, subtitles, at autoplay na mga button.
 
-COMPACT MODE
-• Compact mode
+Shorts. Kung itatago mo pa rin ang Shorts, sa termino mo: sariling speed control at awtomatikong paglipat sa susunod.
 
-MGA CONTENT BLOCK
-• Itago ang mga Shorts section
-• Itago ang Explore at News
-• I-off ang auto-preview kapag naka-hover
-• Itago ang mga mix at playlist
-• Itago ang mga video para sa mga miyembro lamang
+Sidebar at nabigasyon. Itago nang buo ang sidebar, o putulin ito isa-isa — Shorts, Aking channel, History, Playlists, Mga video mo, Panoorin mamaya, Mga nagustuhang video, Movies, Downloads, ang buong listahan ng subscriptions, Trending, Music, Live, Gaming, News, Sports, ang mga link ng YouTube Premium / Music / Kids / Studio, at ang footer na may mga link na «Tungkol sa».
 
-MGA NAPANOOD NA VIDEO
-• Itago sa Home
-• Itago sa Mga Subscription
-• Itago sa mga page ng channel
-• Itago sa mga rekomendasyon
+Search at channel. Itago ang mga channel sa search results, ang kaugnay na paghahanap, ang info card, at ang video shelf ng channel. Sa mga channel page, tanggalin ang banner at ang trailer na kusang tumutugtog.
 
-PAGHAHANAP
-• Itago ang mga channel sa paghahanap
-• Itago ang mga kaugnay na paghahanap
-• Itago ang search info card
-• Itago ang channel video shelf
+Header. Itago ang mga button ng voice search at virtual keyboard, ang mga search tag, ang upload button, at ang mga notification.
 
-MGA AD
-• Itago ang mga YouTube banner
-• Itago ang mga sponsored video sa feed
-• Itago ang mga ad info panel
-• Awtomatikong laktawan ang mga ad (eksperimental)
+MGA PRESET PARA SA AYAW MAG-AYOS NG KAHIT ANO
 
-PAHINA NG VIDEO
+Piliin ang Light para sa banayad na paglilinis, Balanced para sa pang-araw-araw na YouTube na walang distraction, o Maximum para halos lahat ay maalis. Nae-edit at naire-reset sa default ang bawat preset, at ang Custom ay itatayo mo mula sa wala. May keyboard shortcut na nagbubukas at nagsasara ng buong extension kapag kailangan mo ng orihinal na YouTube saglit.
 
-MGA ELEMENTO NG PAHINA
-• Itago ang mga komento
-• Itago ang mga larawan ng channel
-• Itago ang like/dislike
-• Itago ang mga action button
-• Itago ang paglalarawan
-• Itago ang live chat
-• Itago ang merch at tickets
-• Itago ang end screen cards
+PRIVACY, DIRETSAHAN
 
-PAGLALARAWAN
-• Itago ang AI section (Gemini)
-• Itago ang transcript
-• Itago ang mga binanggit na tao
-• Itago ang mga kaugnay na video
-• Itago ang channel card
-• Itago ang "Paano ito ginawa"
-• Itago ang mga chapter at episode
+Walang account, walang sign-in, walang analytics, walang tracking, walang koleksyon ng data. Nasa local storage ng browser mo ang mga setting at hindi kailanman umaalis doon. Nasa GitHub ang buong source code sa ilalim ng MIT license — hindi mo kailangang basta maniwala sa amin.
 
-PLAYBACK AT CHANNEL
+GINAWA PARA MANATILING MABILIS
 
-SLIDER NG BILIS NG PLAYBACK
-• Slider ng bilis ng playback
+Halos bawat opsyon ay kino-compile bilang purong CSS habang binubuo, kaya wala itong gastos habang nagba-browse ka. Iilang behavioral na feature lang ang nagpapatakbo ng JavaScript. Manifest V3, walang remote code, walang background load.
 
-BITRATE
-• Piliin ang pinahusay na bitrate (Premium)
-• Taasan ang natukoy na bandwidth (eksperimental)
+PAANO MAGSIMULA
 
-CODEC
-• Piliting gamitin ang H.264 (i-block ang VP9/AV1)
-• I-block ang 60 fps
+I-install ang extension, i-click ang icon nito para buksan ang side panel sa tabi ng YouTube, tapos pumili ng preset o i-flip ang mga switch isa-isa. Agad na umeepekto ang mga pagbabago sa nakabukas na page.
 
-PLAYER
-• Itago ang mini player button
-• Itago ang theater mode button
-• Itago ang subtitles button
-• Itago ang autoplay switch
+Gumagana sa Chrome, Opera, Edge, Brave, at iba pang browser na nakabase sa Chromium.
 
-CHANNEL
-• Itago ang channel trailer
-• Itago ang channel banner
+MGA MADALAS ITANONG
 
-SIDEBAR
+Ad blocker ba ito? Hindi eksakto. Itinatago nito ang mga banner, sponsored card sa feed, at ad panel, at kaya nitong awtomatikong laktawan ang mga ad na pwedeng laktawan (eksperimental). Ayos lang itong gamitin kasabay ng tunay na ad blocker.
 
-ITAGO NANG BUO ANG SIDEBAR
-• Itago nang buo ang sidebar
+Masisira ba nito ang YouTube? Lahat ay opsyonal at maibabalik — patayin ang switch at agad bumabalik ang elemento.
 
-PANGUNAHING MENU
-• Itago ang "Shorts"
+Kailangan ba ng account? Hindi. I-install at gamitin.
 
-IKAW
-• Itago ang "Aking channel"
-• Itago ang "History"
-• Itago ang "Playlists"
-• Itago ang "Iyong mga video"
-• Itago ang "Watch later"
-• Itago ang "Liked videos"
-• Itago ang "Movies"
-• Itago ang "Downloads"
-• Itago ang "Show more" button
+Libre ba talaga? Oo: libre at open source, walang bayad na plano, walang upsell.
 
-ITAGO ANG LISTAHAN NG SUBSCRIPTION
-• Itago ang listahan ng subscription
+May hindi natatago sa gusto mong paraan? Magbukas ng issue sa GitHub — lumalaki ang listahan ng feature dahil sa hiling ng mga user.
 
-EXPLORE
-• Itago ang "Trending"
-• Itago ang "Music"
-• Itago ang "Live"
-• Itago ang "Gaming"
-• Itago ang "News"
-• Itago ang "Sports"
-• Itago ang "Show more" button
-
-HIGIT PA MULA SA YOUTUBE
-• Itago ang "YouTube Premium"
-• Itago ang "YouTube Music"
-• Itago ang "YouTube Kids"
-• Itago ang "YouTube Studio"
-
-ITAGO ANG FOOTER AT ABOUT LINKS
-• Itago ang footer at About links
-
-GitHub: https://github.com/lenadweb/yt-clean
+Source code, bug, at ideya: https://github.com/lenadweb/yt-clean

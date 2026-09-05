@@ -1,139 +1,55 @@
-Block YouTube Shorts, hide recommendations, skip ads and remove everything else that pulls your attention away. YouTube Clean turns YouTube into a calm, distraction free space you actually control.
+YouTube Clean hides Shorts, recommendations, comments and ads, so the page you open is the video you actually came to watch — and nothing else.
 
-60+ toggles, one side panel, instant results. Free, open source, no account, no tracking, no data collection.
+YouTube is built to keep you scrolling: the endless Shorts shelf, the wall of recommended videos next to the player, previews that start playing when the cursor drifts, thumbnails that turn "one video" into an hour. YouTube Clean gives that space back to you. Open the side panel, flip a switch, and the clutter is gone instantly — no page reload, no account, no setup.
 
-WHAT YOU CAN HIDE OR BLOCK
+60+ controls, one side panel, instant results. Free, open source, no tracking.
 
-PRESETS
-• Light
-• Balanced
-• Maximum
-• Custom
-• Toggle extension — Change shortcut
+WHAT YOU CAN CLEAN UP
 
-BASIC TEMPLATE
+Feed and recommendations. Hide Shorts shelves wherever they appear, mixes and playlists, the Explore and News blocks, members-only videos. Turn off autoplay previews on hover, switch on Compact mode to fit more videos on screen, and hide videos you have already watched — separately on Home, in Subscriptions, on channel pages and in recommendations.
 
-SEARCH BAR
-• Hide voice search button
-• Hide virtual keyboard button
-• Hide search tags
+Video page. Hide comments, recommended videos next to the player, the like/dislike bar, action buttons, the description, live chat, merch and tickets, end screen cards and channel pictures. The description breaks down further: remove the Gemini AI section, transcript, mentioned people, related videos, the channel card, "How this was made", chapters and episodes.
 
-ACTIONS & USER
-• Hide upload button
-• Hide notifications
+Ads and promos. Hide YouTube banners, sponsored videos in the feed and ad info panels, and enable experimental auto-skip so skippable ads take care of themselves.
 
-FEED & RECOMMENDATIONS
+Player and playback. Add a playback speed slider right into the player controls, prefer Enhanced Bitrate on Premium, force the H.264 codec (blocking VP9 and AV1) so your graphics card decodes video in hardware instead of the CPU heating up, cap playback at 30 fps on weaker machines, and hide the mini-size, theater, subtitles and autoplay buttons.
 
-COMPACT MODE
-• Compact mode
+Shorts. If you keep Shorts, keep them on your terms: a dedicated speed control and automatic switching to the next Short.
 
-CONTENT BLOCKS
-• Hide Shorts sections
-• Hide Explore & News
-• Disable auto-preview on hover
-• Hide Mixes & Playlists
-• Hide members-only videos
+Sidebar and navigation. Hide the sidebar completely, or trim it item by item — Shorts, My channel, History, Playlists, Your videos, Watch later, Liked videos, Movies, Downloads, the whole subscriptions list, Trending, Music, Live, Gaming, News, Sports, the YouTube Premium / Music / Kids / Studio links and the footer with About links.
 
-WATCHED VIDEOS
-• Hide on Home
-• Hide in Subscriptions
-• Hide on channel pages
-• Hide in recommendations
+Search and channels. Hide channels in search results, related searches, the search info card and the channel video shelf. On channel pages, remove the banner and the trailer that plays by itself.
 
-SEARCH
-• Hide channels in search
-• Hide related searches
-• Hide search info card
-• Hide channel video shelf
+Header. Hide the voice search and virtual keyboard buttons, search tags, the upload button and notifications.
 
-ADS
-• Hide YouTube Banners
-• Hide Sponsored feed video
-• Hide ad info panels
-• Auto-skip ads (experimental)
+PRESETS FOR PEOPLE WHO DO NOT WANT TO TUNE ANYTHING
 
-VIDEO PAGE
+Pick Light for a gentle cleanup, Balanced for a distraction-free everyday YouTube, or Maximum to strip almost everything away. Every preset is editable and can be reset to default, and Custom is yours to build from scratch. A keyboard shortcut turns the whole extension on and off when you need the original YouTube back for a minute.
 
-PAGE ELEMENTS
-• Hide comments
-• Hide channel pictures
-• Hide like/dislike
-• Hide action buttons
-• Hide description
-• Hide live chat
-• Hide merch & tickets
-• Hide end screen cards
+PRIVACY, PLAINLY
 
-DESCRIPTION
-• Hide AI section (Gemini)
-• Hide transcript
-• Hide mentioned people
-• Hide related videos
-• Hide channel card
-• Hide "How this was made"
-• Hide chapters & episodes
+No account, no sign-in, no analytics, no tracking, no data collection. Your settings live in your browser's local storage and never leave it. The full source code is on GitHub under the MIT license, so you do not have to take our word for it.
 
-VIDEO PLAYBACK & CHANNEL
+BUILT TO STAY FAST
 
-SLIDER PLAYBACK SPEED CONTROL
-• Slider playback speed control
+Almost every option compiles to plain CSS at build time, so it costs nothing while you browse. Only a few behavioral features run JavaScript. Manifest V3, no remote code, no background load on your machine.
 
-BITRATE
-• Prefer Enhanced Bitrate (Premium)
-• Boost detected bandwidth (experimental)
+GETTING STARTED
 
-CODEC
-• Force H.264 (block VP9/AV1)
-• Block 60 fps
+Install the extension, click its icon to open the side panel next to YouTube, then choose a preset or flip individual switches. Changes apply to the live page as you toggle them.
 
-PLAYER
-• Hide mini-size button
-• Hide wide-size button
-• Hide subtitles button
-• Hide autoplay switcher
+Works in Chrome, Opera, Edge, Brave and other Chromium-based browsers.
 
-CHANNEL
-• Hide Channel trailer
-• Hide Channel banner
+FAQ
 
-SIDEBAR
+Is it an ad blocker? Not exactly. It hides banners, sponsored feed cards and ad info panels, and can auto-skip skippable ads (experimental). It works fine alongside a dedicated ad blocker.
 
-HIDE SIDEBAR COMPLETELY
-• Hide sidebar completely
+Will it break YouTube? Everything is opt-in and reversible — switch an option off and the element comes straight back.
 
-MAIN MENU
-• Hide "Shorts"
+Do I need an account? No. Install it and use it.
 
-YOU
-• Hide "My channel"
-• Hide "History"
-• Hide "Playlists"
-• Hide "Your video"
-• Hide "Watch later"
-• Hide "Liked videos"
-• Hide "Movies"
-• Hide "Downloads"
-• Hide "Show more" button
+Is it really free? Yes: free and open source, no paid tier, no upsell.
 
-HIDE SUBSCRIPTIONS LIST
-• Hide Subscriptions list
+Something not hidden the way you want? Open an issue on GitHub — the feature list grows from user requests.
 
-EXPLORE
-• Hide "Trending"
-• Hide "Music"
-• Hide "Live"
-• Hide "Gaming"
-• Hide "News"
-• Hide "Sports"
-• Hide "Show more" button
-
-MORE FROM YOUTUBE
-• Hide "YouTube Premium"
-• Hide "YouTube Music"
-• Hide "YouTube Kids"
-• Hide "YouTube Studio"
-
-HIDE FOOTER & ABOUT LINKS
-• Hide Footer & About links
-
-GitHub: https://github.com/lenadweb/yt-clean
+Source code, issues and feature requests: https://github.com/lenadweb/yt-clean

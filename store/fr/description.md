@@ -1,139 +1,55 @@
-Bloquez les Shorts YouTube, masquez les recommandations, sautez les publicités et retirez tout ce qui détourne votre attention. YouTube Clean transforme YouTube en un espace calme et sans distraction que vous contrôlez.
+YouTube Clean masque les Shorts, les recommandations, les commentaires et les publicités — pour qu'il ne reste que la vidéo que vous êtes venu voir.
 
-Plus de 60 réglages, un panneau latéral, effet immédiat. Gratuit, open source, sans compte, sans pistage, sans collecte de données.
+YouTube est conçu pour vous faire défiler encore un peu : l'étagère de Shorts sans fin, le mur de recommandations à côté du lecteur, les aperçus qui se lancent au moindre mouvement de souris, les miniatures qui transforment « une vidéo » en une heure. YouTube Clean vous rend cet espace. Ouvrez le panneau latéral, actionnez un interrupteur : le superflu disparaît instantanément, sans recharger la page, sans compte, sans configuration.
 
-CE QUE VOUS POUVEZ MASQUER OU BLOQUER
+Plus de 60 réglages, un panneau latéral, un résultat immédiat. Gratuit, open source, sans pistage.
 
-PRÉRÉGLAGES
-• Léger
-• Équilibré
-• Maximum
-• Personnalisé
-• Activer/désactiver l'extension — Modifier le raccourci
+CE QUE VOUS POUVEZ NETTOYER
 
-MODÈLE DE BASE
+Fil et recommandations. Masquez les étagères de Shorts partout où elles apparaissent, les mix et playlists, les blocs Explorer et Actualités, les vidéos réservées aux membres. Désactivez la lecture automatique des aperçus au survol, activez le mode compact pour afficher plus de vidéos, et masquez celles que vous avez déjà vues — séparément sur l'accueil, dans les abonnements, sur les pages de chaîne et dans les recommandations.
 
-BARRE DE RECHERCHE
-• Masquer le bouton de recherche vocale
-• Masquer le bouton du clavier virtuel
-• Masquer les puces de recherche
+Page vidéo. Masquez les commentaires, les vidéos recommandées à côté du lecteur, les j'aime et je n'aime pas, les boutons d'action, la description, le chat en direct, les produits et billets, les cartes de fin et les images de chaîne. La description se démonte encore plus finement : section IA (Gemini), transcription, personnes mentionnées, vidéos similaires, fiche de la chaîne, « Comment cette vidéo a été réalisée », chapitres et épisodes.
 
-ACTIONS & UTILISATEUR
-• Masquer le bouton de création
-• Masquer les notifications
+Publicités et promos. Masquez les bannières YouTube, les vidéos sponsorisées du fil et les panneaux d'information publicitaires, et laissez le saut automatique expérimental s'occuper des pubs désactivables.
 
-FLUX & RECOMMANDATIONS
+Lecteur et lecture. Ajoutez un curseur de vitesse directement dans les commandes du lecteur, préférez le débit amélioré avec Premium, forcez le codec H.264 (en bloquant VP9 et AV1) pour que la carte graphique décode à la place du processeur, limitez la lecture à 30 fps sur les machines modestes, et masquez les boutons mini-lecteur, cinéma, sous-titres et lecture automatique.
 
-MODE COMPACT
-• Mode compact
+Shorts. Si vous gardez les Shorts, gardez-les à vos conditions : contrôle de vitesse dédié et passage automatique au Short suivant.
 
-BLOCS DE CONTENU
-• Masquer les sections Shorts
-• Masquer Explorer & Actus
-• Désactiver la lecture automatique au survol
-• Masquer les Mix & Playlists
-• Masquer les vidéos réservées aux membres
+Menu latéral et navigation. Masquez le menu entier, ou taillez-le ligne par ligne — Shorts, Ma chaîne, Historique, Playlists, Vos vidéos, À regarder plus tard, Vidéos likées, Films, Téléchargements, toute la liste d'abonnements, Tendances, Musique, En direct, Gaming, Actualités, Sport, les liens YouTube Premium / Music / Kids / Studio et le pied de page avec les liens « À propos ».
 
-VIDÉOS REGARDÉES
-• Masquer sur la page d’accueil
-• Masquer dans les abonnements
-• Masquer sur les pages de chaînes
-• Masquer dans les recommandations
+Recherche et chaînes. Masquez les chaînes dans les résultats, les recherches associées, la fiche d'information et l'étagère de vidéos de la chaîne. Sur les pages de chaîne, retirez la bannière et la bande-annonce qui se lance toute seule.
 
-RECHERCHE
-• Masquer les chaînes dans la recherche
-• Masquer les recherches associées
-• Masquer la fiche d'information
-• Masquer l'étagère vidéos de la chaîne
+En-tête. Masquez les boutons de recherche vocale et de clavier virtuel, les filtres de recherche, le bouton de mise en ligne et les notifications.
 
-PUBLICITÉS
-• Masquer les bannières YouTube
-• Masquer les vidéos sponsorisées
-• Masquer les panneaux d’info des annonces
-• Passer les pubs automatiquement (expérimental)
+DES PRÉRÉGLAGES POUR CEUX QUI NE VEULENT RIEN RÉGLER
 
-PAGE VIDÉO
+Choisissez Léger pour un nettoyage en douceur, Équilibré pour un YouTube quotidien sans distractions, ou Maximum pour tout retirer ou presque. Chaque préréglage se modifie et se réinitialise, et Personnalisé se construit de zéro. Un raccourci clavier active et désactive toute l'extension quand vous voulez retrouver YouTube d'origine une minute.
 
-ÉLÉMENTS DE LA PAGE
-• Masquer les commentaires
-• Masquer les images de la chaîne
-• Masquer j’aime/je n’aime pas
-• Masquer les boutons d’action
-• Masquer la description
-• Masquer le chat en direct
-• Masquer produits et billets
-• Masquer les cartes de fin
+LA CONFIDENTIALITÉ, SIMPLEMENT
 
-DESCRIPTION
-• Masquer la section IA (Gemini)
-• Masquer la transcription
-• Masquer les personnes mentionnées
-• Masquer les vidéos associées
-• Masquer la carte de la chaîne
-• Masquer "Comment c’est fait"
-• Masquer chapitres et épisodes
+Pas de compte, pas de connexion, pas d'analytique, pas de pistage, aucune collecte de données. Vos réglages restent dans le stockage local du navigateur et n'en sortent jamais. Le code source complet est sur GitHub sous licence MIT : vous n'avez pas à nous croire sur parole.
 
-LECTURE & CHAÎNES
+CONÇU POUR RESTER RAPIDE
 
-CURSEUR DE VITESSE DE LECTURE
-• Curseur de vitesse de lecture
+Presque toutes les options sont compilées en CSS pur à la construction : elles ne coûtent rien pendant la navigation. Seules quelques fonctions comportementales exécutent du JavaScript. Manifest V3, aucun code distant, aucune charge de fond.
 
-BITRATE
-• Privilégier le débit amélioré (Premium)
-• Augmenter la bande passante détectée (expérimental)
+POUR COMMENCER
 
-CODEC
-• Forcer H.264 (bloquer VP9/AV1)
-• Bloquer le 60 fps
+Installez l'extension, cliquez sur son icône pour ouvrir le panneau latéral à côté de YouTube, puis choisissez un préréglage ou activez les interrupteurs un par un. Les changements s'appliquent à la page ouverte.
 
-LECTEUR
-• Masquer le bouton mini-lecteur
-• Masquer le bouton mode cinéma
-• Masquer le bouton sous-titres
-• Masquer le bouton lecture automatique
+Fonctionne dans Chrome, Opera, Edge, Brave et les autres navigateurs Chromium.
 
-CHAÎNE
-• Masquer la bande-annonce de chaîne
-• Masquer la bannière de chaîne
+QUESTIONS FRÉQUENTES
 
-BARRE LATÉRALE
+Est-ce un bloqueur de publicités ? Pas exactement. L'extension masque les bannières, les cartes sponsorisées du fil et les panneaux publicitaires, et peut sauter automatiquement les pubs désactivables (expérimental). Elle cohabite très bien avec un vrai bloqueur.
 
-MASQUER LA BARRE LATÉRALE COMPLÈTEMENT
-• Masquer la barre latérale complètement
+Est-ce que ça casse YouTube ? Tout est optionnel et réversible — désactivez un réglage et l'élément revient aussitôt.
 
-MENU PRINCIPAL
-• Masquer "Shorts"
+Faut-il un compte ? Non. Installez et utilisez.
 
-VOUS
-• Masquer "Ma chaîne"
-• Masquer "Historique"
-• Masquer "Playlists"
-• Masquer "Vos vidéos"
-• Masquer "À regarder plus tard"
-• Masquer "Vidéos j'aime"
-• Masquer "Films"
-• Masquer "Téléchargements"
-• Masquer le bouton "Afficher plus"
+C'est vraiment gratuit ? Oui : gratuit et open source, sans version payante ni vente additionnelle.
 
-MASQUER LA LISTE DES ABONNEMENTS
-• Masquer la liste des abonnements
+Quelque chose ne se masque pas comme vous le souhaitez ? Ouvrez un ticket sur GitHub — la liste des fonctions grandit avec les demandes des utilisateurs.
 
-EXPLORER
-• Masquer "Tendances"
-• Masquer "Musique"
-• Masquer "En direct"
-• Masquer "Jeux vidéo"
-• Masquer "Actualités"
-• Masquer "Sport"
-• Masquer le bouton "Afficher plus"
-
-PLUS DE YOUTUBE
-• Masquer "YouTube Premium"
-• Masquer "YouTube Music"
-• Masquer "YouTube Kids"
-• Masquer "YouTube Studio"
-
-MASQUER LE PIED DE PAGE ET LES LIENS
-• Masquer le pied de page et les liens
-
-GitHub: https://github.com/lenadweb/yt-clean
+Code source, bugs et idées : https://github.com/lenadweb/yt-clean

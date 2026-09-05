@@ -1,139 +1,55 @@
-Bloquea los Shorts de YouTube, oculta las recomendaciones, salta los anuncios y quita todo lo demás que te distrae. YouTube Clean convierte YouTube en un espacio tranquilo y sin distracciones que controlas tú.
+YouTube Clean oculta los Shorts, las recomendaciones, los comentarios y los anuncios, para que en la página quede solo el video que viniste a ver.
 
-Más de 60 opciones, un panel lateral, resultado inmediato. Gratis, código abierto, sin cuenta, sin rastreo, sin recopilación de datos.
+YouTube está diseñado para que sigas deslizando: la estantería infinita de Shorts, el muro de recomendaciones junto al reproductor, las vistas previas que arrancan con cualquier movimiento del mouse, las miniaturas que convierten «un video» en una hora. YouTube Clean te devuelve ese espacio. Abre el panel lateral, activa un interruptor y lo de más desaparece al instante: sin recargar la página, sin cuenta, sin configuración.
 
-QUÉ PUEDES OCULTAR O BLOQUEAR
+Más de 60 controles, un panel lateral, resultado inmediato. Gratis, código abierto, sin rastreo.
 
-PREAJUSTES
-• Ligero
-• Equilibrado
-• Máximo
-• Personalizado
-• Activar o desactivar la extensión — Cambiar atajo
+QUÉ PUEDES LIMPIAR
 
-PLANTILLA BÁSICA
+Feed y recomendaciones. Oculta las secciones de Shorts donde sea que aparezcan, los mixes y las playlists, los bloques Explorar y Noticias y los videos solo para miembros. Desactiva la reproducción automática al pasar el cursor, activa el modo compacto para que quepan más videos en pantalla y esconde los que ya viste, por separado en Inicio, en Suscripciones, en las páginas de canal y en las recomendaciones.
 
-BARRA DE BÚSQUEDA
-• Ocultar botón de búsqueda por voz
-• Ocultar botón de teclado virtual
-• Ocultar etiquetas de búsqueda
+Página de video. Oculta los comentarios, los videos recomendados junto al reproductor, la barra de me gusta, los botones de acción, la descripción, el chat en vivo, la tienda y los boletos, las tarjetas finales y las imágenes del canal. La descripción se desarma aún más: sección de IA (Gemini), transcripción, personas mencionadas, videos relacionados, ficha del canal, «Cómo se hizo», capítulos y episodios.
 
-ACCIONES Y USUARIO
-• Ocultar botón de subir video
-• Ocultar notificaciones
+Anuncios y promociones. Oculta los banners de YouTube, los videos patrocinados del feed y los paneles informativos de anuncios, y deja que el salto automático experimental se encargue de los anuncios que se pueden omitir.
 
-FEED Y RECOMENDACIONES
+Reproductor y reproducción. Agrega un control deslizante de velocidad dentro de los controles del reproductor, prioriza el bitrate mejorado con Premium, fuerza el códec H.264 (bloqueando VP9 y AV1) para que decodifique la placa de video y no se caliente el procesador, limita la reproducción a 30 fps en equipos modestos y oculta los botones de minirreproductor, modo cine, subtítulos y reproducción automática.
 
-MODO COMPACTO
-• Modo compacto
+Shorts. Si te quedas con los Shorts, que sea en tus términos: control de velocidad propio y salto automático al siguiente.
 
-BLOQUES DE CONTENIDO
-• Ocultar secciones de Shorts
-• Ocultar Explorar y Noticias
-• Desactivar vista previa al pasar el cursor
-• Ocultar Mixes y Listas de reproducción
-• Ocultar videos solo para miembros
+Menú lateral y navegación. Oculta el menú por completo o recórtalo elemento por elemento: Shorts, Mi canal, Historial, Playlists, Tus videos, Ver más tarde, Videos que me gustan, Películas, Descargas, toda la lista de suscripciones, Tendencias, Música, En vivo, Gaming, Noticias, Deportes, los enlaces a YouTube Premium / Music / Kids / Studio y el pie de página con los enlaces «Acerca de».
 
-VIDEOS VISTOS
-• Ocultar en Inicio
-• Ocultar en Suscripciones
-• Ocultar en páginas de canales
-• Ocultar en recomendaciones
+Búsqueda y canales. Oculta los canales en los resultados, las búsquedas relacionadas, la tarjeta informativa y la estantería de videos del canal. En las páginas de canal, quita el banner y el tráiler que se reproduce solo.
 
-BÚSQUEDA
-• Ocultar canales en la búsqueda
-• Ocultar búsquedas relacionadas
-• Ocultar tarjeta de información
-• Ocultar estante de videos del canal
+Encabezado. Oculta los botones de búsqueda por voz y teclado virtual, las etiquetas de búsqueda, el botón de subir video y las notificaciones.
 
-ANUNCIOS
-• Ocultar banners de YouTube
-• Ocultar videos patrocinados en el feed
-• Ocultar paneles de info de anuncios
-• Saltar anuncios automáticamente (experimental)
+PRESETS PARA QUIENES NO QUIEREN CONFIGURAR NADA
 
-PÁGINA DE VIDEO
+Elige Ligero para una limpieza suave, Equilibrado para un YouTube diario sin distracciones o Máximo para quitar casi todo. Cualquier preset se puede editar y restablecer, y Personalizado lo armas desde cero. Un atajo de teclado prende y apaga toda la extensión cuando necesitas el YouTube original por un minuto.
 
-ELEMENTOS DE LA PÁGINA
-• Ocultar comentarios
-• Ocultar imágenes del canal
-• Ocultar me gusta/no me gusta
-• Ocultar botones de acción
-• Ocultar descripción
-• Ocultar chat en vivo
-• Ocultar productos y boletos
-• Ocultar tarjetas finales
+PRIVACIDAD, EN CLARO
 
-DESCRIPCIÓN
-• Ocultar sección de IA (Gemini)
-• Ocultar transcripción
-• Ocultar personas mencionadas
-• Ocultar videos relacionados
-• Ocultar tarjeta del canal
-• Ocultar "Cómo se hizo"
-• Ocultar capítulos y episodios
+Sin cuenta, sin inicio de sesión, sin analíticas, sin rastreo, sin recopilación de datos. Tu configuración vive en el almacenamiento local del navegador y nunca sale de ahí. El código fuente completo está en GitHub con licencia MIT: no hace falta que nos creas.
 
-REPRODUCCIÓN Y CANALES
+HECHO PARA SEGUIR SIENDO RÁPIDO
 
-CONTROL DESLIZANTE DE VELOCIDAD DE REPRODUCCIÓN
-• Control deslizante de velocidad de reproducción
+Casi todas las opciones se compilan a CSS puro al construir la extensión, así que no cuestan nada mientras navegas. Solo unas pocas funciones de comportamiento ejecutan JavaScript. Manifest V3, sin código remoto, sin carga en segundo plano.
 
-BITRATE
-• Preferir bitrate mejorado (Premium)
-• Aumentar el ancho de banda detectado (experimental)
+CÓMO EMPEZAR
 
-CÓDEC
-• Forzar H.264 (bloquear VP9/AV1)
-• Bloquear 60 fps
+Instala la extensión, haz clic en su ícono para abrir el panel lateral junto a YouTube y elige un preset o activa los interruptores uno por uno. Los cambios se aplican a la página abierta al instante.
 
-REPRODUCTOR
-• Ocultar botón de mini reproductor
-• Ocultar botón de modo cine
-• Ocultar botón de subtítulos
-• Ocultar interruptor de reproducción automática
+Funciona en Chrome, Opera, Edge, Brave y otros navegadores basados en Chromium.
 
-CANAL
-• Ocultar tráiler del canal
-• Ocultar banner del canal
+PREGUNTAS FRECUENTES
 
-BARRA LATERAL
+¿Es un bloqueador de anuncios? No exactamente. Oculta banners, tarjetas patrocinadas del feed y paneles publicitarios, y puede saltar automáticamente los anuncios omitibles (experimental). Convive sin problemas con un bloqueador dedicado.
 
-OCULTAR BARRA LATERAL POR COMPLETO
-• Ocultar barra lateral por completo
+¿Rompe YouTube? Todo es opcional y reversible: apaga un interruptor y el elemento vuelve al instante.
 
-MENÚ PRINCIPAL
-• Ocultar "Shorts"
+¿Necesito una cuenta? No. Instálala y úsala.
 
-TÚ
-• Ocultar "Mi canal"
-• Ocultar "Historial"
-• Ocultar "Listas de reproducción"
-• Ocultar "Mis videos"
-• Ocultar "Ver más tarde"
-• Ocultar "Videos que me gustan"
-• Ocultar "Películas"
-• Ocultar "Descargas"
-• Ocultar botón "Mostrar más"
+¿De verdad es gratis? Sí: gratis y de código abierto, sin plan pago ni ventas adicionales.
 
-OCULTAR LISTA DE SUSCRIPCIONES
-• Ocultar lista de Suscripciones
+¿Algo no se oculta como querés? Abre un issue en GitHub: la lista de funciones crece con los pedidos de la gente.
 
-EXPLORAR
-• Ocultar "Tendencias"
-• Ocultar "Música"
-• Ocultar "En vivo"
-• Ocultar "Videojuegos"
-• Ocultar "Noticias"
-• Ocultar "Deportes"
-• Ocultar botón "Mostrar más"
-
-MÁS DE YOUTUBE
-• Ocultar "YouTube Premium"
-• Ocultar "YouTube Music"
-• Ocultar "YouTube Kids"
-• Ocultar "YouTube Studio"
-
-OCULTAR PIE DE PÁGINA Y ENLACES
-• Ocultar pie de página y enlaces
-
-GitHub: https://github.com/lenadweb/yt-clean
+Código fuente, errores e ideas: https://github.com/lenadweb/yt-clean

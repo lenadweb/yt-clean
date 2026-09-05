@@ -1,139 +1,55 @@
-YouTube Shorts'u engelleyin, önerileri gizleyin, reklamları atlayın ve dikkatinizi dağıtan her şeyi kaldırın. YouTube Clean, YouTube'u kendi kontrolünüzdeki sakin ve dikkat dağıtmayan bir alana dönüştürür.
+YouTube Clean; Shorts'u, önerileri, yorumları ve reklamları gizler — sayfada yalnızca izlemeye geldiğiniz video kalır.
 
-60'tan fazla ayar, tek bir yan panel, anında sonuç. Ücretsiz, açık kaynak, hesap yok, takip yok, veri toplama yok.
+YouTube kaydırmayı sürdürmeniz için tasarlandı: bitmeyen Shorts rafı, oynatıcının yanındaki öneri duvarı, farenin küçük bir hareketiyle başlayan önizlemeler, «bir video»yu bir saate çeviren küçük resimler. YouTube Clean bu alanı size geri verir. Yan paneli açın, bir anahtarı çevirin; fazlalık anında kaybolur: sayfa yenilemeden, hesapsız, kurulum yapmadan.
 
-NELERİ GİZLEYEBİLİR VEYA ENGELLEYEBİLİRSİNİZ
+60'tan fazla anahtar, tek yan panel, anında sonuç. Ücretsiz, açık kaynak, takip yok.
 
-PROFILLER
-• Hafif
-• Dengeli
-• Maksimum
-• Özel
-• Uzantıyı aç/kapat — Kısayolu değiştir
+NELERİ TEMİZLEYEBİLİRSİNİZ
 
-TEMEL ŞABLON
+Akış ve öneriler. Shorts raflarını göründükleri her yerde, mixleri ve oynatma listelerini, Keşfet ve Haberler bloklarını, yalnızca üyelere özel videoları gizleyin. Üzerine gelince başlayan önizlemeyi kapatın, ekrana daha çok video sığması için kompakt modu açın ve izlediklerinizi gizleyin — ana sayfada, aboneliklerde, kanal sayfalarında ve önerilerde ayrı ayrı.
 
-ARAMA ÇUBUĞU
-• Sesli arama düğmesini gizle
-• Sanal klavye düğmesini gizle
-• Arama etiketlerini gizle
+Video sayfası. Yorumları, oynatıcının yanındaki önerilen videoları, beğeni çubuğunu, işlem düğmelerini, açıklamayı, canlı sohbeti, ürün ve bilet bloklarını, bitiş ekranı kartlarını ve kanal görsellerini gizleyin. Açıklama daha da ayrışır: yapay zekâ bölümü (Gemini), transkript, adı geçen kişiler, ilgili videolar, kanal kartı, «Bu nasıl yapıldı», bölümler ve sezonlar.
 
-İŞLEMLER VE PROFIL
-• Yükleme düğmesini gizle
-• Bildirimleri gizle
+Reklamlar ve tanıtımlar. YouTube banner'larını, akıştaki sponsorlu videoları ve reklam bilgi panellerini gizleyin; deneysel otomatik atlama ise geçilebilir reklamların icabına kendi baksın.
 
-AKIŞ VE ÖNERILER
+Oynatıcı ve oynatma. Hız kaydırıcısını doğrudan oynatıcı kontrollerine ekleyin, Premium'da yüksek bit hızını tercih edin, H.264 kodeğini zorlayın (VP9 ve AV1 engellenir) ki işlemci ısınmak yerine ekran kartı çözsün, zayıf makinelerde oynatmayı 30 fps ile sınırlayın ve mini oynatıcı, sinema modu, altyazı ve otomatik oynatma düğmelerini gizleyin.
 
-KOMPAKT MOD
-• Kompakt mod
+Shorts. Shorts'u tutuyorsanız kendi kurallarınızla tutun: ayrı hız kontrolü ve bir sonrakine otomatik geçiş.
 
-İÇERIK BLOKLARI
-• Shorts bölümlerini gizle
-• Keşfet ve Haberler'i gizle
-• Üzerine gelince otomatik önizlemeyi kapat
-• Mix ve oynatma listelerini gizle
-• Yalnızca üyelere özel videoları gizle
+Kenar çubuğu ve gezinme. Kenar çubuğunu tamamen gizleyin ya da madde madde budayın — Shorts, Kanalım, Geçmiş, Oynatma listeleri, Videolarınız, Daha sonra izle, Beğenilen videolar, Filmler, İndirilenler, tüm abonelik listesi, Trendler, Müzik, Canlı, Oyun, Haberler, Spor, YouTube Premium / Music / Kids / Studio bağlantıları ve «Hakkında» bağlantılarının olduğu altbilgi.
 
-İZLENEN VIDEOLAR
-• Ana sayfada gizle
-• Aboneliklerde gizle
-• Kanal sayfalarında gizle
-• Önerilerde gizle
+Arama ve kanallar. Arama sonuçlarındaki kanalları, ilgili aramaları, bilgi kartını ve kanal video rafını gizleyin. Kanal sayfalarında banner'ı ve kendi kendine oynayan fragmanı kaldırın.
 
-ARAMA
-• Aramada kanalları gizle
-• İlgili aramaları gizle
-• Arama bilgi kartını gizle
-• Kanal video rafını gizle
+Üst çubuk. Sesli arama ve sanal klavye düğmelerini, arama etiketlerini, yükleme düğmesini ve bildirimleri gizleyin.
 
-REKLAMLAR
-• YouTube banner'larını gizle
-• Akıştaki sponsorlu videoları gizle
-• Reklam bilgi panellerini gizle
-• Reklamları otomatik atla (deneysel)
+HİÇBİR ŞEY AYARLAMAK İSTEMEYENLER İÇİN HAZIR AYARLAR
 
-VIDEO SAYFASI
+Yumuşak bir temizlik için Hafif'i, dikkat dağıtmayan günlük bir YouTube için Dengeli'yi, neredeyse her şeyi kaldırmak için Maksimum'u seçin. Her hazır ayar düzenlenebilir ve varsayılana döndürülebilir; Özel'i ise sıfırdan kurarsınız. Bir klavye kısayolu, bir dakikalığına orijinal YouTube'u istediğinizde tüm uzantıyı açıp kapatır.
 
-SAYFA ÖĞELERI
-• Yorumları gizle
-• Kanal görsellerini gizle
-• Beğeni/beğenmeme gizle
-• İşlem düğmelerini gizle
-• Açıklamayı gizle
-• Canlı sohbeti gizle
-• Ürün ve biletleri gizle
-• Bitiş ekranı kartlarını gizle
+GİZLİLİK, AÇIK AÇIK
 
-AÇIKLAMA
-• Yapay zeka bölümünü gizle (Gemini)
-• Transkripti gizle
-• Bahsedilen kişileri gizle
-• İlgili videoları gizle
-• Kanal kartını gizle
-• "Bu nasıl yapıldı" gizle
-• Bölümleri ve kısımları gizle
+Hesap yok, oturum açma yok, analitik yok, izleme yok, veri toplama yok. Ayarlarınız tarayıcının yerel deposunda durur ve oradan hiç çıkmaz. Kaynak kodun tamamı MIT lisansıyla GitHub'da — sözümüze güvenmek zorunda değilsiniz.
 
-OYNATMA VE KANAL
+HIZLI KALSIN DİYE
 
-OYNATMA HIZI KAYDIRICISI
-• Oynatma hızı kaydırıcısı
+Neredeyse her seçenek derleme sırasında saf CSS'e dönüşür, yani gezinirken hiçbir maliyeti yoktur. Yalnızca birkaç davranışsal özellik JavaScript çalıştırır. Manifest V3, uzaktan kod yok, arka planda yük yok.
 
-BITRATE
-• Gelişmiş bit hızını tercih et (Premium)
-• Algılanan bant genişliğini artır (deneysel)
+NASIL BAŞLANIR
 
-KODEK
-• H.264'ü zorla (VP9/AV1'i engelle)
-• 60 fps'yi engelle
+Uzantıyı kurun, simgesine tıklayarak YouTube'un yanında yan paneli açın, sonra bir hazır ayar seçin ya da anahtarları tek tek çevirin. Değişiklikler açık sayfaya anında uygulanır.
 
-OYNATICI
-• Mini oynatıcı düğmesini gizle
-• Geniş ekran düğmesini gizle
-• Altyazı düğmesini gizle
-• Otomatik oynatma anahtarını gizle
+Chrome, Opera, Edge, Brave ve diğer Chromium tabanlı tarayıcılarda çalışır.
 
-KANAL
-• Kanal fragmanını gizle
-• Kanal banner'ını gizle
+SIKÇA SORULAN SORULAR
 
-KENAR ÇUBUĞU
+Bu bir reklam engelleyici mi? Tam olarak değil. Banner'ları, akıştaki sponsorlu kartları ve reklam panellerini gizler, geçilebilir reklamları otomatik atlayabilir (deneysel). Gerçek bir reklam engelleyiciyle sorunsuz çalışır.
 
-KENAR ÇUBUĞUNU TAMAMEN GIZLE
-• Kenar çubuğunu tamamen gizle
+YouTube'u bozar mı? Her şey isteğe bağlı ve geri alınabilir — anahtarı kapatın, öğe hemen geri gelir.
 
-ANA MENÜ
-• "Shorts" gizle
+Hesap gerekiyor mu? Hayır. Kurun ve kullanın.
 
-SIZ
-• "Kanalım" gizle
-• "Geçmiş" gizle
-• "Oynatma listeleri" gizle
-• "Videolarınız" gizle
-• "Daha sonra izle" gizle
-• "Beğenilen videolar" gizle
-• "Filmler" gizle
-• "İndirilenler" gizle
-• "Daha fazla göster" düğmesini gizle
+Gerçekten ücretsiz mi? Evet: ücretsiz ve açık kaynak, ücretli sürüm yok, ek satış yok.
 
-ABONELIK LISTESINI GIZLE
-• Abonelik listesini gizle
+Bir şey istediğiniz gibi gizlenmiyor mu? GitHub'da bir konu açın — özellik listesi kullanıcı isteklerinden büyüyor.
 
-KEŞFET
-• "Trendler" gizle
-• "Müzik" gizle
-• "Canlı" gizle
-• "Oyun" gizle
-• "Haberler" gizle
-• "Spor" gizle
-• "Daha fazla göster" düğmesini gizle
-
-YOUTUBE'DAN DAHA FAZLASI
-• "YouTube Premium" gizle
-• "YouTube Music" gizle
-• "YouTube Kids" gizle
-• "YouTube Studio" gizle
-
-ALT BILGI VE HAKKINDA BAĞLANTILARINI GIZLE
-• Alt bilgi ve Hakkında bağlantılarını gizle
-
-GitHub: https://github.com/lenadweb/yt-clean
+Kaynak kod, hatalar ve fikirler: https://github.com/lenadweb/yt-clean

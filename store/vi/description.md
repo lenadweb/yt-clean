@@ -1,139 +1,55 @@
-Chặn YouTube Shorts, ẩn đề xuất, bỏ qua quảng cáo và loại bỏ mọi thứ khác đang kéo sự chú ý của bạn. YouTube Clean biến YouTube thành một không gian yên tĩnh, không xao nhãng mà bạn kiểm soát.
+YouTube Clean ẩn Shorts, video đề xuất, bình luận và quảng cáo — để trên trang chỉ còn đúng video bạn định xem.
 
-Hơn 60 công tắc, một bảng bên, hiệu quả tức thì. Miễn phí, mã nguồn mở, không tài khoản, không theo dõi, không thu thập dữ liệu.
+YouTube được thiết kế để bạn cứ cuộn mãi: kệ Shorts không có điểm dừng, bức tường đề xuất cạnh trình phát, bản xem trước tự chạy chỉ vì con trỏ lướt qua, hình thu nhỏ biến «một video» thành một tiếng đồng hồ. YouTube Clean trả lại khoảng không đó cho bạn. Mở bảng bên, gạt một công tắc, thứ thừa thãi biến mất ngay: không cần tải lại trang, không cần tài khoản, không cần thiết lập.
 
-NHỮNG GÌ BẠN CÓ THỂ ẨN HOẶC CHẶN
+Hơn 60 công tắc, một bảng bên, kết quả tức thì. Miễn phí, mã nguồn mở, không theo dõi.
 
-CẤU HÌNH
-• Nhẹ
-• Cân bằng
-• Tối đa
-• Tùy chỉnh
-• Bật tiện ích — Đổi phím tắt
+BẠN CÓ THỂ DỌN NHỮNG GÌ
 
-MẪU CƠ BẢN
+Bảng tin và đề xuất. Ẩn kệ Shorts ở mọi nơi chúng xuất hiện, các mix và danh sách phát, khối Khám phá và Tin tức, video chỉ dành cho thành viên. Tắt xem trước tự động khi rê chuột, bật chế độ thu gọn để màn hình chứa được nhiều video hơn, và ẩn những video đã xem — riêng biệt ở Trang chủ, Kênh đăng ký, trang kênh và trong phần đề xuất.
 
-THANH TÌM KIẾM
-• Ẩn nút tìm kiếm bằng giọng nói
-• Ẩn nút bàn phím ảo
-• Ẩn thẻ tìm kiếm
+Trang video. Ẩn bình luận, video đề xuất cạnh trình phát, thanh thích/không thích, các nút thao tác, phần mô tả, trò chuyện trực tiếp, hàng hóa và vé, thẻ màn hình kết thúc và ảnh kênh. Phần mô tả còn tách nhỏ hơn nữa: mục AI (Gemini), bản chép lời, người được nhắc đến, video liên quan, thẻ kênh, «Video này được tạo thế nào», chương và tập.
 
-THAO TÁC VÀ HỒ SƠ
-• Ẩn nút tải lên
-• Ẩn thông báo
+Quảng cáo và khuyến mãi. Ẩn biểu ngữ YouTube, video được tài trợ trong bảng tin và bảng thông tin quảng cáo, rồi bật tính năng tự bỏ qua thử nghiệm để những quảng cáo có thể bỏ qua tự lo liệu.
 
-NGUỒN CẤP VÀ ĐỀ XUẤT
+Trình phát và phát lại. Thêm thanh trượt tốc độ ngay trong thanh điều khiển, ưu tiên bitrate nâng cao khi dùng Premium, buộc dùng codec H.264 (chặn VP9 và AV1) để card đồ họa giải mã thay vì CPU nóng lên, giới hạn 30 fps trên máy yếu, và ẩn các nút trình phát mini, chế độ rạp, phụ đề và tự động phát.
 
-CHẾ ĐỘ THU GỌN
-• Chế độ thu gọn
+Shorts. Nếu vẫn giữ Shorts, hãy giữ theo cách của bạn: điều khiển tốc độ riêng và tự động chuyển sang Short tiếp theo.
 
-KHỐI NỘI DUNG
-• Ẩn mục Shorts
-• Ẩn Khám phá và Tin tức
-• Tắt xem trước tự động khi di chuột
-• Ẩn mix và danh sách phát
-• Ẩn video chỉ dành cho hội viên
+Thanh bên và điều hướng. Ẩn hẳn thanh bên, hoặc tỉa từng mục — Shorts, Kênh của tôi, Nhật ký, Danh sách phát, Video của bạn, Xem sau, Video đã thích, Phim, Nội dung tải xuống, toàn bộ danh sách kênh đăng ký, Thịnh hành, Âm nhạc, Trực tiếp, Trò chơi, Tin tức, Thể thao, các liên kết YouTube Premium / Music / Kids / Studio và chân trang với liên kết «Giới thiệu».
 
-VIDEO ĐÃ XEM
-• Ẩn trên Trang chủ
-• Ẩn trong Kênh đăng ký
-• Ẩn trên trang kênh
-• Ẩn trong video đề xuất
+Tìm kiếm và kênh. Ẩn kênh trong kết quả tìm kiếm, các tìm kiếm liên quan, thẻ thông tin và kệ video của kênh. Trên trang kênh, gỡ biểu ngữ và đoạn giới thiệu tự chạy.
 
-TÌM KIẾM
-• Ẩn kênh trong tìm kiếm
-• Ẩn tìm kiếm liên quan
-• Ẩn thẻ thông tin tìm kiếm
-• Ẩn kệ video của kênh
+Thanh trên cùng. Ẩn nút tìm kiếm bằng giọng nói và bàn phím ảo, thẻ tìm kiếm, nút tải lên và thông báo.
 
-QUẢNG CÁO
-• Ẩn biểu ngữ YouTube
-• Ẩn video được tài trợ trong nguồn cấp
-• Ẩn bảng thông tin quảng cáo
-• Tự động bỏ qua quảng cáo (thử nghiệm)
+CẤU HÌNH SẴN CHO NGƯỜI KHÔNG MUỐN CHỈNH GÌ
 
-TRANG VIDEO
+Chọn Nhẹ để dọn nhẹ nhàng, Cân bằng cho một YouTube hằng ngày không xao nhãng, hoặc Tối đa để lược bỏ gần như mọi thứ. Mọi cấu hình đều sửa được và khôi phục về mặc định được, còn Tùy chỉnh thì bạn dựng từ đầu. Một phím tắt bật tắt toàn bộ tiện ích khi bạn cần YouTube nguyên bản trong chốc lát.
 
-THÀNH PHẦN TRANG
-• Ẩn bình luận
-• Ẩn hình ảnh của kênh
-• Ẩn thích/không thích
-• Ẩn nút thao tác
-• Ẩn mô tả
-• Ẩn trò chuyện trực tiếp
-• Ẩn hàng hóa và vé
-• Ẩn thẻ màn hình kết thúc
+QUYỀN RIÊNG TƯ, NÓI THẲNG
 
-MÔ TẢ
-• Ẩn mục AI (Gemini)
-• Ẩn bản chép lời
-• Ẩn những người được nhắc đến
-• Ẩn video liên quan
-• Ẩn thẻ kênh
-• Ẩn "Cách tạo video này"
-• Ẩn chương và tập
+Không tài khoản, không đăng nhập, không phân tích, không theo dõi, không thu thập dữ liệu. Cài đặt của bạn nằm trong bộ nhớ cục bộ của trình duyệt và không bao giờ rời khỏi đó. Toàn bộ mã nguồn nằm trên GitHub với giấy phép MIT — bạn không cần tin lời chúng tôi.
 
-PHÁT LẠI VÀ KÊNH
+ĐƯỢC LÀM ĐỂ LUÔN NHANH
 
-THANH TRƯỢT TỐC ĐỘ PHÁT
-• Thanh trượt tốc độ phát
+Gần như mọi tùy chọn được biên dịch thành CSS thuần khi build, nên không tốn gì lúc bạn duyệt web. Chỉ vài tính năng hành vi mới chạy JavaScript. Manifest V3, không mã từ xa, không tải nền.
 
-BITRATE
-• Ưu tiên bitrate nâng cao (Premium)
-• Tăng băng thông được phát hiện (thử nghiệm)
+BẮT ĐẦU THẾ NÀO
 
-CODEC
-• Buộc dùng H.264 (chặn VP9/AV1)
-• Chặn 60 fps
+Cài tiện ích, bấm biểu tượng để mở bảng bên cạnh YouTube, rồi chọn một cấu hình sẵn hoặc gạt từng công tắc. Thay đổi có hiệu lực ngay trên trang đang mở.
 
-TRÌNH PHÁT
-• Ẩn nút trình phát thu nhỏ
-• Ẩn nút chế độ rạp hát
-• Ẩn nút phụ đề
-• Ẩn công tắc tự động phát
+Chạy trên Chrome, Opera, Edge, Brave và các trình duyệt nền Chromium khác.
 
-KÊNH
-• Ẩn trailer của kênh
-• Ẩn biểu ngữ kênh
+CÂU HỎI THƯỜNG GẶP
 
-THANH BÊN
+Đây có phải trình chặn quảng cáo không? Không hẳn. Nó ẩn biểu ngữ, thẻ được tài trợ trong bảng tin và bảng quảng cáo, đồng thời có thể tự bỏ qua quảng cáo cho phép bỏ qua (thử nghiệm). Dùng cùng một trình chặn quảng cáo thực thụ vẫn ổn.
 
-ẨN HOÀN TOÀN THANH BÊN
-• Ẩn hoàn toàn thanh bên
+Nó có làm hỏng YouTube không? Mọi thứ đều tùy chọn và đảo ngược được — tắt công tắc là phần tử quay lại ngay.
 
-MENU CHÍNH
-• Ẩn "Shorts"
+Có cần tài khoản không? Không. Cài rồi dùng thôi.
 
-BẠN
-• Ẩn "Kênh của tôi"
-• Ẩn "Nhật ký"
-• Ẩn "Danh sách phát"
-• Ẩn "Video của bạn"
-• Ẩn "Xem sau"
-• Ẩn "Video đã thích"
-• Ẩn "Phim"
-• Ẩn "Nội dung tải xuống"
-• Ẩn nút "Hiển thị thêm"
+Thật sự miễn phí chứ? Đúng: miễn phí và mã nguồn mở, không có bản trả phí, không chèo kéo mua thêm.
 
-ẨN DANH SÁCH KÊNH ĐĂNG KÝ
-• Ẩn danh sách kênh đăng ký
+Có thứ gì chưa ẩn đúng ý bạn? Mở một issue trên GitHub — danh sách tính năng lớn lên từ yêu cầu của người dùng.
 
-KHÁM PHÁ
-• Ẩn "Thịnh hành"
-• Ẩn "Âm nhạc"
-• Ẩn "Trực tiếp"
-• Ẩn "Trò chơi"
-• Ẩn "Tin tức"
-• Ẩn "Thể thao"
-• Ẩn nút "Hiển thị thêm"
-
-THÊM TỪ YOUTUBE
-• Ẩn "YouTube Premium"
-• Ẩn "YouTube Music"
-• Ẩn "YouTube Kids"
-• Ẩn "YouTube Studio"
-
-ẨN CHÂN TRANG VÀ LIÊN KẾT GIỚI THIỆU
-• Ẩn chân trang và liên kết Giới thiệu
-
-GitHub: https://github.com/lenadweb/yt-clean
+Mã nguồn, lỗi và ý tưởng: https://github.com/lenadweb/yt-clean

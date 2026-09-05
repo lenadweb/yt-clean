@@ -1,139 +1,55 @@
-Blokker YouTube Shorts, skjul anbefalinger, hopp over annonser og fjern alt annet som stjeler oppmerksomheten. YouTube Clean gjør YouTube til et rolig sted uten distraksjoner, som du selv styrer.
+YouTube Clean skjuler Shorts, anbefalinger, kommentarer og annonser — slik at det bare er videoen du kom for, som blir igjen på siden.
 
-60+ brytere, ett sidepanel, umiddelbar effekt. Gratis, åpen kildekode, ingen konto, ingen sporing, ingen datainnsamling.
+YouTube er laget for at du skal scrolle videre: den endeløse Shorts-hylla, veggen med anbefalinger ved siden av spilleren, forhåndsvisninger som starter av den minste musebevegelse, miniatyrer som gjør «én video» til en time. YouTube Clean gir deg plassen tilbake. Åpne sidepanelet, vipp en bryter, og rotet forsvinner med én gang: uten å laste siden på nytt, uten konto, uten oppsett.
 
-HVA DU KAN SKJULE ELLER BLOKKERE
+60+ brytere, ett sidepanel, umiddelbart resultat. Gratis, åpen kildekode, ingen sporing.
 
-FORHÅNDSINNSTILLINGER
-• Lett
-• Balansert
-• Maksimal
-• Egendefinert
-• Slå utvidelsen av/på — Endre tastatursnarvei
+HVA DU KAN RYDDE BORT
 
-GRUNNMAL
+Feed og anbefalinger. Skjul Shorts-hyller overalt der de dukker opp, mikser og spillelister, blokkene Utforsk og Nyheter og videoer kun for medlemmer. Slå av automatisk forhåndsvisning ved peking, slå på kompakt modus så flere videoer får plass på skjermen, og skjul det du allerede har sett — hver for seg på Startsiden, i Abonnementer, på kanalsider og i anbefalingene.
 
-SØKEFELT
-• Skjul knappen for talesøk
-• Skjul knappen for skjermtastatur
-• Skjul søketagger
+Videosiden. Skjul kommentarer, anbefalte videoer ved siden av spilleren, liker/liker ikke, handlingsknapper, beskrivelsen, direktechat, produkter og billetter, sluttskjermkort og kanalbilder. Beskrivelsen kan tas fra hverandre enda mer: KI-delen (Gemini), transkripsjon, nevnte personer, relaterte videoer, kanalkortet, «Slik ble den laget», kapitler og episoder.
 
-HANDLINGER OG PROFIL
-• Skjul opplastingsknappen
-• Skjul varsler
+Annonser og kampanjer. Skjul YouTube-bannere, sponsede videoer i feeden og annonseinfopaneler, og la eksperimentell autohopp ta seg av annonsene som kan hoppes over.
 
-FEED OG ANBEFALINGER
+Spiller og avspilling. Legg en hastighetsglidebryter rett i spillerkontrollene, foretrekk høyere bitrate med Premium, tving fram H.264-kodeken (blokkerer VP9 og AV1) slik at skjermkortet dekoder i stedet for at prosessoren blir varm, begrens til 30 fps på svakere maskiner, og skjul knappene for minispiller, kinomodus, undertekster og automatisk avspilling.
 
-KOMPAKT MODUS
-• Kompakt modus
+Shorts. Beholder du Shorts, så på dine premisser: egen hastighetskontroll og automatisk bytte til neste.
 
-INNHOLDSBLOKKER
-• Skjul Shorts-seksjoner
-• Skjul Utforsk og Nyheter
-• Slå av automatisk forhåndsvisning
-• Skjul mikser og spillelister
-• Skjul videoer kun for medlemmer
+Sidemeny og navigasjon. Skjul sidemenyen helt, eller beskjær den punkt for punkt — Shorts, Min kanal, Logg, Spillelister, Dine videoer, Se senere, Likte videoer, Filmer, Nedlastinger, hele abonnementslista, Trender, Musikk, Direkte, Gaming, Nyheter, Sport, lenkene til YouTube Premium / Music / Kids / Studio og bunnteksten med Om-lenker.
 
-SETTE VIDEOER
-• Skjul på startsiden
-• Skjul i abonnementer
-• Skjul på kanalsider
-• Skjul i anbefalinger
+Søk og kanaler. Skjul kanaler i søkeresultatene, relaterte søk, infokortet og kanalens videohylle. På kanalsider fjerner du banneret og traileren som starter av seg selv.
 
-SØK
-• Skjul kanaler i søk
-• Skjul relaterte søk
-• Skjul infokort i søk
-• Skjul kanalens videohylle
+Topplinje. Skjul knappene for talesøk og virtuelt tastatur, søketagger, opplastingsknappen og varsler.
 
-ANNONSER
-• Skjul YouTube-bannere
-• Skjul sponsede videoer i feeden
-• Skjul annonseinfopaneler
-• Hopp over annonser automatisk (eksperimentell)
+FORHÅNDSVALG FOR DEM SOM IKKE VIL STILLE PÅ NOE
 
-VIDEOSIDE
+Velg Lett for en mild opprydding, Balansert for et hverdagslig YouTube uten forstyrrelser, eller Maksimal for å fjerne nesten alt. Alle forhåndsvalg kan redigeres og tilbakestilles, og Egendefinert bygger du fra bunnen. En hurtigtast slår hele utvidelsen av og på når du trenger det originale YouTube et øyeblikk.
 
-SIDEELEMENTER
-• Skjul kommentarer
-• Skjul kanalbilder
-• Skjul liker/misliker
-• Skjul handlingsknapper
-• Skjul beskrivelse
-• Skjul direktechat
-• Skjul varer og billetter
-• Skjul sluttskjermkort
+PERSONVERN, RETT FRAM
 
-BESKRIVELSE
-• Skjul AI-seksjon (Gemini)
-• Skjul transkripsjon
-• Skjul nevnte personer
-• Skjul relaterte videoer
-• Skjul kanalkort
-• Skjul "Hvordan dette ble laget"
-• Skjul kapitler og episoder
+Ingen konto, ingen innlogging, ingen analyse, ingen sporing, ingen datainnsamling. Innstillingene dine ligger i nettleserens lokale lager og forlater det aldri. Hele kildekoden ligger på GitHub under MIT-lisens — du trenger ikke ta oss på ordet.
 
-AVSPILLING OG KANAL
+BYGD FOR Å HOLDE SEG RASK
 
-GLIDEBRYTER FOR AVSPILLINGSHASTIGHET
-• Glidebryter for avspillingshastighet
+Nesten alle valg kompileres til ren CSS under bygging, så de koster ingenting mens du surfer. Bare noen få atferdsfunksjoner kjører JavaScript. Manifest V3, ingen ekstern kode, ingen bakgrunnsbelastning.
 
-BITRATE
-• Foretrekk forbedret bithastighet (Premium)
-• Øk registrert båndbredde (eksperimentell)
+SLIK KOMMER DU I GANG
 
-KODEK
-• Tving H.264 (blokker VP9/AV1)
-• Blokker 60 fps
+Installer utvidelsen, klikk på ikonet for å åpne sidepanelet ved siden av YouTube, og velg så et forhåndsvalg eller vipp enkeltbrytere. Endringene får virkning på den åpne siden med en gang.
 
-SPILLER
-• Skjul minispiller-knappen
-• Skjul kinomodus-knappen
-• Skjul undertekstknappen
-• Skjul autoavspillingsbryteren
+Fungerer i Chrome, Opera, Edge, Brave og andre Chromium-baserte nettlesere.
 
-KANAL
-• Skjul kanaltrailer
-• Skjul kanalbanner
+OFTE STILTE SPØRSMÅL
 
-SIDEPANEL
+Er dette en annonseblokkerer? Ikke helt. Den skjuler bannere, sponsede kort i feeden og annonsepaneler, og kan hoppe over annonser automatisk der det er mulig (eksperimentelt). Den fungerer fint sammen med en ekte annonseblokkerer.
 
-SKJUL SIDEPANELET HELT
-• Skjul sidepanelet helt
+Ødelegger det YouTube? Alt er valgfritt og reversibelt — slå av bryteren, og elementet er tilbake umiddelbart.
 
-HOVEDMENY
-• Skjul "Shorts"
+Trenger jeg konto? Nei. Installer og bruk.
 
-DEG
-• Skjul "Kanalen min"
-• Skjul "Logg"
-• Skjul "Spillelister"
-• Skjul "Videoene dine"
-• Skjul "Se senere"
-• Skjul "Likte videoer"
-• Skjul "Filmer"
-• Skjul "Nedlastinger"
-• Skjul knappen "Vis mer"
+Er det virkelig gratis? Ja: gratis og åpen kildekode, ingen betalversjon, ingen mersalg.
 
-SKJUL ABONNEMENTSLISTEN
-• Skjul abonnementslisten
+Er det noe som ikke skjules slik du vil? Opprett et issue på GitHub — funksjonslista vokser av brukerønsker.
 
-UTFORSK
-• Skjul "Trender"
-• Skjul "Musikk"
-• Skjul "Direkte"
-• Skjul "Spill"
-• Skjul "Nyheter"
-• Skjul "Sport"
-• Skjul knappen "Vis mer"
-
-MER FRA YOUTUBE
-• Skjul "YouTube Premium"
-• Skjul "YouTube Music"
-• Skjul "YouTube Kids"
-• Skjul "YouTube Studio"
-
-SKJUL BUNNTEKST OG OM-LENKER
-• Skjul bunntekst og Om-lenker
-
-GitHub: https://github.com/lenadweb/yt-clean
+Kildekode, feil og idéer: https://github.com/lenadweb/yt-clean

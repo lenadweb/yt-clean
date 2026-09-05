@@ -1,139 +1,55 @@
-Bloqueja els Shorts de YouTube, amaga les recomanacions, salta els anuncis i elimina tota la resta que et distreu. YouTube Clean converteix YouTube en un espai tranquil i sense distraccions que controles tu.
+YouTube Clean amaga els Shorts, les recomanacions, els comentaris i els anuncis, perquè a la pàgina només hi quedi el vídeo que has vingut a mirar.
 
-Més de 60 opcions, un panell lateral, efecte immediat. Gratuït, codi obert, sense compte, sense seguiment, sense recollida de dades.
+YouTube està fet perquè continuïs desplaçant-te: el prestatge infinit de Shorts, el mur de recomanacions al costat del reproductor, les previsualitzacions que arrenquen amb qualsevol moviment del ratolí, les miniatures que converteixen «un vídeo» en una hora. YouTube Clean et torna aquest espai. Obre el tauler lateral, mou un interruptor i el que sobra desapareix a l'instant: sense recarregar la pàgina, sense compte, sense configuració.
 
-QUÈ POTS AMAGAR O BLOQUEJAR
+Més de 60 controls, un tauler lateral, resultat immediat. Gratuït, codi obert, sense seguiment.
 
-PERFILS
-• Lleuger
-• Equilibrat
-• Màxim
-• Personalitzat
-• Activa l'extensió — Canvia la drecera
+QUÈ POTS NETEJAR
 
-PLANTILLA BÀSICA
+Feed i recomanacions. Amaga els prestatges de Shorts allà on surtin, les mescles i les llistes de reproducció, els blocs Explora i Notícies i els vídeos només per a membres. Desactiva la previsualització automàtica en passar-hi el cursor, activa el mode compacte perquè hi càpiguen més vídeos a la pantalla i amaga els que ja has vist, per separat a l'Inici, a les Subscripcions, a les pàgines de canal i a les recomanacions.
 
-BARRA DE CERCA
-• Amaga el botó de cerca per veu
-• Amaga el botó de teclat virtual
-• Amaga les etiquetes de cerca
+Pàgina del vídeo. Amaga els comentaris, els vídeos recomanats al costat del reproductor, la barra de m'agrada, els botons d'acció, la descripció, el xat en directe, la botiga i les entrades, les targetes finals i les imatges del canal. La descripció encara es desmunta més: secció d'IA (Gemini), transcripció, persones esmentades, vídeos relacionats, targeta del canal, «Com s'ha fet», capítols i episodis.
 
-ACCIONS I PERFIL
-• Amaga el botó de pujada
-• Amaga les notificacions
+Anuncis i promocions. Amaga els bàners de YouTube, els vídeos patrocinats del feed i els panells informatius d'anuncis, i deixa que el salt automàtic experimental s'ocupi dels anuncis que es poden ometre.
 
-FEED I RECOMANACIONS
+Reproductor i reproducció. Afegeix un control lliscant de velocitat dins mateix dels controls del reproductor, prioritza el bitrate millorat amb Premium, força el còdec H.264 (bloquejant VP9 i AV1) perquè descodifiqui la targeta gràfica en comptes d'escalfar la CPU, limita la reproducció a 30 fps en màquines més modestes i amaga els botons de minireproductor, mode cinema, subtítols i reproducció automàtica.
 
-MODE COMPACTE
-• Mode compacte
+Shorts. Si et quedes els Shorts, que sigui en els teus termes: control de velocitat propi i salt automàtic al següent.
 
-BLOCS DE CONTINGUT
-• Amaga les seccions de Shorts
-• Amaga Explora i Notícies
-• Desactiva la previsualització automàtica
-• Amaga mescles i llistes de reproducció
-• Amaga els vídeos només per a membres
+Barra lateral i navegació. Amaga la barra lateral del tot, o retalla-la element a element: Shorts, El meu canal, Historial, Llistes de reproducció, Els teus vídeos, Mira-ho més tard, Vídeos que m'agraden, Pel·lícules, Baixades, tota la llista de subscripcions, Tendències, Música, En directe, Jocs, Notícies, Esports, els enllaços a YouTube Premium / Music / Kids / Studio i el peu de pàgina amb els enllaços «Quant a».
 
-VÍDEOS VISTOS
-• Amaga a la pàgina d’inici
-• Amaga a Subscripcions
-• Amaga a les pàgines de canals
-• Amaga a les recomanacions
+Cerca i canals. Amaga els canals als resultats, les cerques relacionades, la targeta informativa i el prestatge de vídeos del canal. A les pàgines de canal, treu el bàner i el tràiler que es reprodueix sol.
 
-CERCA
-• Amaga els canals a la cerca
-• Amaga les cerques relacionades
-• Amaga la targeta d'informació
-• Amaga el prestatge de vídeos del canal
+Capçalera. Amaga els botons de cerca per veu i teclat virtual, les etiquetes de cerca, el botó de pujada i les notificacions.
 
-ANUNCIS
-• Amaga els bàners de YouTube
-• Amaga els vídeos patrocinats del feed
-• Amaga els panells d'informació d'anuncis
-• Omet els anuncis automàticament (experimental)
+PREDEFINITS PER A QUI NO VOL TOCAR RES
 
-PÀGINA DEL VÍDEO
+Tria Lleuger per a una neteja suau, Equilibrat per a un YouTube diari sense distraccions o Màxim per treure'n gairebé tot. Cada predefinit es pot editar i restablir, i el Personalitzat el construeixes de zero. Una drecera de teclat activa i desactiva tota l'extensió quan necessites el YouTube original un minut.
 
-ELEMENTS DE LA PÀGINA
-• Amaga els comentaris
-• Amaga les imatges del canal
-• Amaga m'agrada/no m'agrada
-• Amaga els botons d'acció
-• Amaga la descripció
-• Amaga el xat en directe
-• Amaga productes i entrades
-• Amaga les targetes finals
+PRIVADESA, CLAR I CATALÀ
 
-DESCRIPCIÓ
-• Amaga la secció d'IA (Gemini)
-• Amaga la transcripció
-• Amaga les persones esmentades
-• Amaga els vídeos relacionats
-• Amaga la targeta del canal
-• Amaga «Com s'ha fet»
-• Amaga capítols i episodis
+Sense compte, sense inici de sessió, sense analítiques, sense seguiment, sense recollida de dades. La teva configuració viu a l'emmagatzematge local del navegador i no en surt mai. Tot el codi font és a GitHub amb llicència MIT: no cal que ens creguis.
 
-REPRODUCCIÓ I CANAL
+FET PERQUÈ CONTINUÏ SENT RÀPID
 
-CONTROL LLISCANT DE VELOCITAT
-• Control lliscant de velocitat
+Gairebé totes les opcions es compilen a CSS pur en el moment de construir l'extensió, així que no costen res mentre navegues. Només unes poques funcions de comportament executen JavaScript. Manifest V3, sense codi remot, sense càrrega en segon pla.
 
-BITRATE
-• Prioritza la taxa de bits millorada (Premium)
-• Augmenta l'amplada de banda detectada (experimental)
+COM COMENÇAR
 
-CÒDEC
-• Força H.264 (bloqueja VP9/AV1)
-• Bloqueja 60 fps
+Instal·la l'extensió, fes clic a la icona per obrir el tauler lateral al costat de YouTube i tria un predefinit o mou els interruptors un a un. Els canvis s'apliquen a la pàgina oberta a l'instant.
 
-REPRODUCTOR
-• Amaga el botó de minireproductor
-• Amaga el botó de mode cinema
-• Amaga el botó de subtítols
-• Amaga l'interruptor de reproducció automàtica
+Funciona a Chrome, Opera, Edge, Brave i altres navegadors basats en Chromium.
 
-CANAL
-• Amaga el tràiler del canal
-• Amaga el bàner del canal
+PREGUNTES FREQÜENTS
 
-BARRA LATERAL
+És un bloquejador d'anuncis? No exactament. Amaga bàners, targetes patrocinades del feed i panells publicitaris, i pot ometre automàticament els anuncis que ho permeten (experimental). Conviu sense problemes amb un bloquejador dedicat.
 
-AMAGA LA BARRA LATERAL DEL TOT
-• Amaga la barra lateral del tot
+Trencarà YouTube? Tot és opcional i reversible: apaga un interruptor i l'element torna a l'instant.
 
-MENÚ PRINCIPAL
-• Amaga «Shorts»
+Necessito un compte? No. Instal·la-la i fes-la servir.
 
-TU
-• Amaga «El meu canal»
-• Amaga «Historial»
-• Amaga «Llistes de reproducció»
-• Amaga «Els teus vídeos»
-• Amaga «Mira-ho més tard»
-• Amaga «Vídeos que m'agraden»
-• Amaga «Pel·lícules»
-• Amaga «Baixades»
-• Amaga el botó «Mostra'n més»
+És realment gratuïta? Sí: gratuïta i de codi obert, sense pla de pagament ni vendes addicionals.
 
-AMAGA LA LLISTA DE SUBSCRIPCIONS
-• Amaga la llista de subscripcions
+Hi ha alguna cosa que no s'amaga com voldries? Obre una incidència a GitHub: la llista de funcions creix amb les peticions dels usuaris.
 
-EXPLORA
-• Amaga «Tendències»
-• Amaga «Música»
-• Amaga «En directe»
-• Amaga «Videojocs»
-• Amaga «Notícies»
-• Amaga «Esports»
-• Amaga el botó «Mostra'n més»
-
-MÉS DE YOUTUBE
-• Amaga «YouTube Premium»
-• Amaga «YouTube Music»
-• Amaga «YouTube Kids»
-• Amaga «YouTube Studio»
-
-AMAGA EL PEU DE PÀGINA I ELS ENLLAÇOS
-• Amaga el peu de pàgina i els enllaços
-
-GitHub: https://github.com/lenadweb/yt-clean
+Codi font, errors i idees: https://github.com/lenadweb/yt-clean

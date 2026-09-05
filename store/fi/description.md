@@ -1,139 +1,55 @@
-Estä YouTube Shorts, piilota suositukset, ohita mainokset ja poista kaikki muu, mikä vie huomion. YouTube Clean tekee YouTubesta rauhallisen, häiriöttömän paikan, jota sinä hallitset.
+YouTube Clean piilottaa Shortsit, suositukset, kommentit ja mainokset — sivulle jää vain se video, jota tulit katsomaan.
 
-Yli 60 kytkintä, yksi sivupaneeli, välitön vaikutus. Ilmainen, avoin lähdekoodi, ei tiliä, ei seurantaa, ei tiedonkeruuta.
+YouTube on rakennettu pitämään sinut selaamassa: loputon Shorts-hylly, suositusten muuri soittimen vieressä, esikatselut jotka käynnistyvät pienimmästäkin hiiren liikkeestä, pikkukuvat jotka muuttavat «yhden videon» tunniksi. YouTube Clean antaa tuon tilan takaisin sinulle. Avaa sivupaneeli, käännä kytkin ja ylimääräinen katoaa heti: ilman sivun uudelleenlatausta, ilman tiliä, ilman asetusten säätämistä.
 
-MITÄ VOIT PIILOTTAA TAI ESTÄÄ
+Yli 60 kytkintä, yksi sivupaneeli, välitön tulos. Ilmainen, avoin lähdekoodi, ei seurantaa.
 
-ESIASETUKSET
-• Kevyt
-• Tasapainoinen
-• Maksimi
-• Oma
-• Ota laajennus käyttöön — Muuta pikanäppäintä
+MITÄ VOIT SIIVOTA
 
-PERUSMALLI
+Syöte ja suositukset. Piilota Shorts-hyllyt kaikkialta missä ne ilmestyvät, miksit ja soittolistat, Tutustu- ja Uutiset-lohkot sekä vain jäsenille tarkoitetut videot. Poista automaattinen esikatselu hiiren osoittaessa, ota käyttöön tiivis tila jotta ruudulle mahtuu enemmän videoita, ja piilota jo katsotut — erikseen Etusivulla, Tilauksissa, kanavasivuilla ja suosituksissa.
 
-HAKUPALKKI
-• Piilota äänihaun painike
-• Piilota näppäimistöpainike
-• Piilota hakutagit
+Videosivu. Piilota kommentit, soittimen vieressä olevat suositellut videot, tykkäykset, toimintopainikkeet, kuvauksen, live-chatin, tuotteet ja liput, lopetusnäytön kortit ja kanavakuvat. Kuvaus purkautuu vielä tarkemmin: tekoälyosio (Gemini), litterointi, mainitut henkilöt, aiheeseen liittyvät videot, kanavakortti, «Miten tämä tehtiin», luvut ja jaksot.
 
-TOIMINNOT JA PROFIILI
-• Piilota latauspainike
-• Piilota ilmoitukset
+Mainokset ja kampanjat. Piilota YouTuben bannerit, syötteen sponsoroidut videot ja mainosten tietopaneelit, ja anna kokeellisen automaattisen ohituksen hoitaa ohitettavat mainokset.
 
-SYÖTE JA SUOSITUKSET
+Soitin ja toisto. Lisää nopeusliukusäädin suoraan soittimen säätimiin, suosi korkeampaa bittinopeutta Premiumilla, pakota H.264-koodekki (estää VP9:n ja AV1:n) jotta näytönohjain purkaa videon eikä suoritin kuumene, rajoita toisto 30 kuvaan sekunnissa heikommilla koneilla ja piilota minisoittimen, teatteritilan, tekstitysten ja automaattisen toiston painikkeet.
 
-TIIVIS TILA
-• Tiivis tila
+Shorts. Jos pidät Shortsit, pidä ne omilla ehdoillasi: oma nopeussäätö ja automaattinen siirtyminen seuraavaan.
 
-SISÄLTÖLOHKOT
-• Piilota Shorts-osiot
-• Piilota Tutustu ja Uutiset
-• Poista automaattinen esikatselu käytöstä
-• Piilota miksit ja soittolistat
-• Piilota vain jäsenille tarkoitetut videot
+Sivupalkki ja navigointi. Piilota sivupalkki kokonaan tai karsi sitä kohta kerrallaan — Shorts, Oma kanava, Historia, Soittolistat, Omat videot, Katso myöhemmin, Tykätyt videot, Elokuvat, Lataukset, koko tilauslista, Nousussa, Musiikki, Live, Pelit, Uutiset, Urheilu, YouTube Premium / Music / Kids / Studio -linkit ja alatunniste Tietoja-linkkeineen.
 
-KATSOTUT VIDEOT
-• Piilota etusivulla
-• Piilota tilauksissa
-• Piilota kanavasivuilla
-• Piilota suosituksissa
+Haku ja kanavat. Piilota kanavat hakutuloksista, samankaltaiset haut, tietokortti ja kanavan videohylly. Kanavasivuilla poistat bannerin ja itsestään käynnistyvän trailerin.
 
-HAKU
-• Piilota kanavat hausta
-• Piilota aiheeseen liittyvät haut
-• Piilota haun tietokortti
-• Piilota kanavan videohylly
+Yläpalkki. Piilota äänihaun ja virtuaalinäppäimistön painikkeet, hakutunnisteet, latauspainike ja ilmoitukset.
 
-MAINOKSET
-• Piilota YouTube-bannerit
-• Piilota sponsoroidut videot syötteessä
-• Piilota mainostietopaneelit
-• Ohita mainokset automaattisesti (kokeellinen)
+ESIASETUKSET NIILLE, JOTKA EIVÄT HALUA SÄÄTÄÄ MITÄÄN
 
-VIDEOSIVU
+Valitse Kevyt hellävaraiseen siivoukseen, Tasapainoinen arkiseen häiriöttömään YouTubeen tai Maksimi, kun haluat riisua lähes kaiken. Jokaista esiasetusta voi muokata ja palauttaa oletuksiin, ja Mukautetun rakennat itse tyhjästä. Näppäinoikotie kytkee koko laajennuksen päälle ja pois, kun tarvitset hetkeksi alkuperäisen YouTuben.
 
-SIVUN ELEMENTIT
-• Piilota kommentit
-• Piilota kanavan kuvat
-• Piilota tykkäykset
-• Piilota toimintopainikkeet
-• Piilota kuvaus
-• Piilota live-chat
-• Piilota oheistuotteet ja liput
-• Piilota lopetusnäytön kortit
+YKSITYISYYDESTÄ SUORAAN
 
-KUVAUS
-• Piilota tekoälyosio (Gemini)
-• Piilota tekstivastine
-• Piilota mainitut henkilöt
-• Piilota liittyvät videot
-• Piilota kanavakortti
-• Piilota "Miten tämä tehtiin"
-• Piilota luvut ja jaksot
+Ei tiliä, ei kirjautumista, ei analytiikkaa, ei seurantaa, ei tiedonkeruuta. Asetuksesi ovat selaimen paikallisessa tallennustilassa eivätkä poistu sieltä koskaan. Koko lähdekoodi on GitHubissa MIT-lisenssillä — sinun ei tarvitse uskoa pelkkää sanaamme.
 
-TOISTO JA KANAVA
+RAKENNETTU PYSYMÄÄN NOPEANA
 
-TOISTONOPEUDEN LIUKUSÄÄDIN
-• Toistonopeuden liukusäädin
+Lähes jokainen valinta käännetään käännösvaiheessa puhtaaksi CSS:ksi, joten selatessa se ei maksa mitään. Vain muutama toiminnallinen ominaisuus suorittaa JavaScriptiä. Manifest V3, ei etäkoodia, ei taustakuormaa.
 
-BITRATE
-• Suosi parannettua bittinopeutta (Premium)
-• Kasvata havaittua kaistanleveyttä (kokeellinen)
+NÄIN PÄÄSET ALKUUN
 
-KOODEKKI
-• Pakota H.264 (estä VP9/AV1)
-• Estä 60 fps
+Asenna laajennus, avaa sivupaneeli YouTuben viereen napsauttamalla kuvaketta ja valitse esiasetus tai käännä yksittäisiä kytkimiä. Muutokset näkyvät avoimella sivulla heti.
 
-SOITIN
-• Piilota minisoitinpainike
-• Piilota teatteritilan painike
-• Piilota tekstityspainike
-• Piilota automaattitoiston kytkin
+Toimii Chromessa, Operassa, Edgessä, Bravessa ja muissa Chromium-pohjaisissa selaimissa.
 
-KANAVA
-• Piilota kanavan traileri
-• Piilota kanavan banneri
+USEIN KYSYTYT KYSYMYKSET
 
-SIVUPALKKI
+Onko tämä mainosten estäjä? Ei aivan. Se piilottaa bannerit, syötteen sponsoroidut kortit ja mainospaneelit ja voi ohittaa ohitettavat mainokset automaattisesti (kokeellinen). Se toimii hyvin varsinaisen mainosestäjän rinnalla.
 
-PIILOTA SIVUPALKKI KOKONAAN
-• Piilota sivupalkki kokonaan
+Rikkooko tämä YouTuben? Kaikki on valinnaista ja peruutettavissa — käännä kytkin pois ja elementti palaa heti.
 
-PÄÄVALIKKO
-• Piilota "Shorts"
+Tarvitsenko tilin? Et. Asenna ja käytä.
 
-SINÄ
-• Piilota "Oma kanava"
-• Piilota "Historia"
-• Piilota "Soittolistat"
-• Piilota "Omat videot"
-• Piilota "Katso myöhemmin"
-• Piilota "Tykätyt videot"
-• Piilota "Elokuvat"
-• Piilota "Lataukset"
-• Piilota "Näytä lisää" -painike
+Onko tämä oikeasti ilmainen? Kyllä: ilmainen ja avoin lähdekoodi, ei maksullista versiota eikä lisämyyntiä.
 
-PIILOTA TILAUSLISTA
-• Piilota tilauslista
+Jokin ei piilotu haluamallasi tavalla? Avaa issue GitHubissa — ominaisuuslista kasvaa käyttäjien toiveista.
 
-TUTUSTU
-• Piilota "Suositut"
-• Piilota "Musiikki"
-• Piilota "Live"
-• Piilota "Pelit"
-• Piilota "Uutiset"
-• Piilota "Urheilu"
-• Piilota "Näytä lisää" -painike
-
-LISÄÄ YOUTUBESTA
-• Piilota "YouTube Premium"
-• Piilota "YouTube Music"
-• Piilota "YouTube Kids"
-• Piilota "YouTube Studio"
-
-PIILOTA ALATUNNISTE JA TIETOJA-LINKIT
-• Piilota alatunniste ja Tietoja-linkit
-
-GitHub: https://github.com/lenadweb/yt-clean
+Lähdekoodi, virheet ja ideat: https://github.com/lenadweb/yt-clean

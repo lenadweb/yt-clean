@@ -1,139 +1,55 @@
-Blokeeri YouTube Shorts, peida soovitused, jäta reklaamid vahele ja eemalda kõik muu, mis tähelepanu tõmbab. YouTube Clean muudab YouTube'i rahulikuks, häirevabaks kohaks, mida sina juhid.
+YouTube Clean peidab Shortsi, soovitused, kommentaarid ja reklaamid — lehele jääb ainult see video, mille pärast sa tulid.
 
-60+ lülitit, üks külgpaneel, kohene tulemus. Tasuta, avatud lähtekood, kontot pole, jälgimist pole, andmeid ei koguta.
+YouTube on ehitatud nii, et sa kerid edasi: lõputu Shortsi riiul, soovituste sein mängija kõrval, eelvaated, mis käivituvad vähimastki hiireliigutusest, pisipildid, mis teevad «ühest videost» tunni. YouTube Clean annab selle ruumi sulle tagasi. Ava külgpaneel, lülita lüliti ja liigne kaob otsekohe: ilma lehte uuesti laadimata, ilma kontota, ilma seadistamiseta.
 
-MIDA SAAD PEITA VÕI BLOKEERIDA
+60+ lülitit, üks külgpaneel, kohene tulemus. Tasuta, avatud lähtekood, jälgimiseta.
 
-EELSEADISTUSED
-• Kerge
-• Tasakaalustatud
-• Maksimaalne
-• Kohandatud
-• Lülita laiendus sisse — Muuda klaviatuuri otseteed
+MIDA SAAD ÄRA KORISTADA
 
-PÕHIMALL
+Avaleht ja soovitused. Peida Shortsi riiulid kõikjal, kus need ilmuvad, miksid ja esitusloendid, plokid Avasta ja Uudised ning ainult liikmetele mõeldud videod. Lülita välja automaatne eelvaade hiirega üle liikudes, lülita sisse kompaktne režiim, et ekraanile mahuks rohkem videoid, ja peida juba vaadatud — eraldi avalehel, tellimustes, kanalilehtedel ja soovitustes.
 
-OTSINGURIBA
-• Peida häälotsingu nupp
-• Peida virtuaalklaviatuuri nupp
-• Peida otsingusildid
+Video leht. Peida kommentaarid, mängija kõrval olevad soovitatud videod, meeldimised, tegevusnupud, kirjeldus, otsevestlus, tooted ja piletid, lõpuekraani kaardid ja kanalipildid. Kirjeldus laguneb veelgi peenemaks: tehisintellekti osa (Gemini), transkriptsioon, mainitud inimesed, seotud videod, kanalikaart, «Kuidas see tehti», peatükid ja osad.
 
-TOIMINGUD JA PROFIIL
-• Peida üleslaadimise nupp
-• Peida teavitused
+Reklaamid ja kampaaniad. Peida YouTube'i bännerid, voo sponsoreeritud videod ja reklaamide teabepaneelid ning lase katselisel automaatsel vahelejätmisel hoolitseda nende reklaamide eest, mida saab vahele jätta.
 
-VOOG JA SOOVITUSED
+Mängija ja taasesitus. Lisa kiiruse liugur otse mängija juhtnuppude ritta, eelista Premiumiga kõrgemat bitikiirust, sunni peale H.264 koodeki (blokeerides VP9 ja AV1), et dekodeeriks graafikakaart, mitte kuumenev protsessor, piira taasesitus nõrgematel masinatel 30 kaadrini sekundis ja peida minimängija, kinorežiimi, subtiitrite ja automaatse esituse nupud.
 
-KOMPAKTNE REŽIIM
-• Kompaktne režiim
+Shorts. Kui jätad Shortsi alles, siis oma tingimustel: eraldi kiiruse juhtimine ja automaatne liikumine järgmisele.
 
-SISUPLOKID
-• Peida Shortsi jaotised
-• Peida Avasta ja Uudised
-• Lülita automaatne eelvaade välja
-• Peida miksid ja esitusloendid
-• Peida ainult liikmetele mõeldud videod
+Külgriba ja navigeerimine. Peida külgriba täielikult või kärbi seda punkt-punkti haaval — Shorts, Minu kanal, Ajalugu, Esitusloendid, Sinu videod, Vaata hiljem, Meeldinud videod, Filmid, Allalaadimised, kogu tellimuste loend, Trendid, Muusika, Otse, Mängud, Uudised, Sport, YouTube Premium / Music / Kids / Studio lingid ja jalus «Teave» linkidega.
 
-VAADATUD VIDEOD
-• Peida avalehel
-• Peida tellimustes
-• Peida kanalilehtedel
-• Peida soovitustes
+Otsing ja kanalid. Peida kanalid otsingutulemustes, seotud otsingud, teabekaart ja kanali videoriiul. Kanalilehtedel eemalda bänner ja treiler, mis käivitub ise.
 
-OTSING
-• Peida kanalid otsingus
-• Peida seotud otsingud
-• Peida otsingu infokaart
-• Peida kanali videoriiul
+Päis. Peida hääleotsingu ja virtuaalklaviatuuri nupud, otsingusildid, üleslaadimisnupp ja teavitused.
 
-REKLAAMID
-• Peida YouTube'i bännerid
-• Peida sponsoreeritud videod voos
-• Peida reklaami infopaneelid
-• Jäta reklaamid automaatselt vahele (eksperimentaalne)
+EELSEADED NEILE, KES EI TAHA MIDAGI SEADISTADA
 
-VIDEO LEHT
+Vali Kerge õrnaks koristuseks, Tasakaalustatud igapäevaseks segamatuks YouTube'iks või Maksimaalne, et eemaldada peaaegu kõik. Iga eelseadet saab muuta ja vaikeolekusse lähtestada ning Kohandatu ehitad ise nullist. Klaviatuuri otsetee lülitab kogu laienduse sisse ja välja, kui vajad hetkeks algset YouTube'i.
 
-LEHE ELEMENDID
-• Peida kommentaarid
-• Peida kanali pildid
-• Peida meeldimised
-• Peida tegevusnupud
-• Peida kirjeldus
-• Peida otsevestlus
-• Peida tooted ja piletid
-• Peida lõpuekraani kaardid
+PRIVAATSUSEST OTSE
 
-KIRJELDUS
-• Peida TI jaotis (Gemini)
-• Peida transkriptsioon
-• Peida mainitud inimesed
-• Peida seotud videod
-• Peida kanali kaart
-• Peida „Kuidas see tehti“
-• Peida peatükid ja osad
+Kontot pole, sisselogimist pole, analüütikat pole, jälgimist pole, andmete kogumist pole. Sinu seaded on brauseri kohalikus salvestuses ega lahku sealt kunagi. Kogu lähtekood on GitHubis MIT-litsentsi all — meid ei pea sõna-sõnalt uskuma.
 
-TAASESITUS JA KANAL
+EHITATUD KIIREKS JÄÄMA
 
-TAASESITUSKIIRUSE LIUGUR
-• Taasesituskiiruse liugur
+Peaaegu iga valik kompileeritakse ehitamise ajal puhtaks CSS-iks, seega sirvimise ajal ei maksa see midagi. JavaScripti käivitab vaid mõni käitumuslik funktsioon. Manifest V3, kaugkoodi pole, taustakoormust pole.
 
-BITRATE
-• Eelista täiustatud bitikiirust (Premium)
-• Suurenda tuvastatud ribalaiust (eksperimentaalne)
+KUIDAS ALUSTADA
 
-KODEK
-• Sunni H.264 (blokeeri VP9/AV1)
-• Blokeeri 60 fps
+Paigalda laiendus, klõpsa selle ikoonil, et avada külgpaneel YouTube'i kõrval, ja vali siis eelseade või lülita üksikuid lüliteid. Muudatused rakenduvad avatud lehel kohe.
 
-MÄNGIJA
-• Peida minimängija nupp
-• Peida kinorežiimi nupp
-• Peida subtiitrite nupp
-• Peida automaatesituse lüliti
+Töötab Chrome'is, Operas, Edge'is, Brave'is ja teistes Chromiumi-põhistes brauserites.
 
-KANAL
-• Peida kanali treiler
-• Peida kanali bänner
+KORDUMA KIPPUVAD KÜSIMUSED
 
-KÜLGRIBA
+Kas see on reklaamiblokeerija? Mitte päris. See peidab bännereid, voo sponsoreeritud kaarte ja reklaamipaneele ning oskab automaatselt vahele jätta reklaame, mida saab vahele jätta (katseline). Päris reklaamiblokeerija kõrval töötab see probleemideta.
 
-PEIDA KÜLGRIBA TÄIELIKULT
-• Peida külgriba täielikult
+Kas see lõhub YouTube'i? Kõik on valikuline ja tagasipööratav — lülita lüliti välja ja element on kohe tagasi.
 
-PEAMENÜÜ
-• Peida „Shorts“
+Kas mul on kontot vaja? Ei. Paigalda ja kasuta.
 
-SINA
-• Peida „Minu kanal“
-• Peida „Ajalugu“
-• Peida „Esitusloendid“
-• Peida „Sinu videod“
-• Peida „Vaata hiljem“
-• Peida „Meeldinud videod“
-• Peida „Filmid“
-• Peida „Allalaadimised“
-• Peida nupp „Näita rohkem“
+Kas see on tõesti tasuta? Jah: tasuta ja avatud lähtekoodiga, ilma tasulise versiooni ja lisamüügita.
 
-PEIDA TELLIMUSTE LOEND
-• Peida tellimuste loend
+Midagi ei peitu nii, nagu tahaksid? Ava GitHubis issue — funktsioonide loend kasvab kasutajate soovidest.
 
-AVASTA
-• Peida „Populaarne“
-• Peida „Muusika“
-• Peida „Otseülekanne“
-• Peida „Mängud“
-• Peida „Uudised“
-• Peida „Sport“
-• Peida nupp „Näita rohkem“
-
-ROHKEM YOUTUBE'IST
-• Peida „YouTube Premium“
-• Peida „YouTube Music“
-• Peida „YouTube Kids“
-• Peida „YouTube Studio“
-
-PEIDA JALUS JA TEAVE LINGID
-• Peida jalus ja Teave lingid
-
-GitHub: https://github.com/lenadweb/yt-clean
+Lähtekood, vead ja ideed: https://github.com/lenadweb/yt-clean

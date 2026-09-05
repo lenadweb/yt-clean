@@ -1,139 +1,55 @@
-Blokirajte YouTube Shorts, skrijte priporočila, preskočite oglase in odstranite vse drugo, kar odvrača pozornost. YouTube Clean spremeni YouTube v miren prostor brez motenj, ki ga upravljate vi.
+YouTube Clean skrije Shorts, priporočila, komentarje in oglase — na strani ostane samo tisti video, zaradi katerega ste prišli.
 
-Več kot 60 stikal, ena stranska plošča, takojšen učinek. Brezplačno, odprta koda, brez računa, brez sledenja, brez zbiranja podatkov.
+YouTube je narejen tako, da drsite naprej: neskončna polica Shorts, zid priporočil ob predvajalniku, predogledi, ki se zaženejo ob najmanjšem premiku miške, sličice, ki iz «enega videa» naredijo uro. YouTube Clean vam ta prostor vrne. Odprite stranski podokno, prestavite stikalo in odvečno izgine takoj: brez osveževanja strani, brez računa, brez nastavljanja.
 
-KAJ LAHKO SKRIJETE ALI BLOKIRATE
+60+ stikal, eno stransko podokno, takojšen rezultat. Brezplačno, odprta koda, brez sledenja.
 
-PREDNASTAVITVE
-• Lahek
-• Uravnotežen
-• Največji
-• Po meri
-• Vklopi razširitev — Spremeni bližnjico
+KAJ LAHKO POČISTITE
 
-OSNOVNA PREDLOGA
+Domača stran in priporočila. Skrijte police Shorts povsod, kjer se pojavijo, mixe in predvajalne sezname, bloka Razišči in Novice ter videe samo za člane. Izklopite samodejni predogled ob prehodu z miško, vklopite kompaktni način, da gre na zaslon več videov, in skrijte že ogledano — posebej na domači strani, v naročninah, na straneh kanalov in v priporočilih.
 
-ISKALNA VRSTICA
-• Skrij gumb za glasovno iskanje
-• Skrij gumb za navidezno tipkovnico
-• Skrij oznake iskanja
+Stran videa. Skrijte komentarje, priporočene videe ob predvajalniku, všečke, gumbe za dejanja, opis, klepet v živo, izdelke in vstopnice, kartice na koncu videa in slike kanala. Opis se razstavi še podrobneje: razdelek z umetno inteligenco (Gemini), prepis, omenjene osebe, sorodni videi, kartica kanala, «Kako je nastalo», poglavja in epizode.
 
-DEJANJA IN PROFIL
-• Skrij gumb za nalaganje
-• Skrij obvestila
+Oglasi in promocije. Skrijte pasice YouTuba, sponzorirane videe v viru in informacijske oglasne plošče, eksperimentalno samodejno preskakovanje pa naj poskrbi za oglase, ki jih je mogoče preskočiti.
 
-VIR IN PRIPOROČILA
+Predvajalnik in predvajanje. Dodajte drsnik hitrosti kar v kontrolnike predvajalnika, s Premiumom dajte prednost višji bitni hitrosti, vsilite kodek H.264 (blokira VP9 in AV1), da dekodira grafična kartica namesto pregretega procesorja, omejite predvajanje na 30 fps na šibkejših napravah in skrijte gumbe za mini predvajalnik, kino način, podnapise in samodejno predvajanje.
 
-STRNJEN NAČIN
-• Strnjen način
+Shorts. Če Shorts obdržite, naj tečejo po vaših pravilih: lastno upravljanje hitrosti in samodejni prehod na naslednjega.
 
-BLOKI VSEBINE
-• Skrij razdelke Shorts
-• Skrij Razišči in Novice
-• Izklopi samodejni predogled ob prehodu
-• Skrij mešanice in sezname predvajanja
-• Skrij videoposnetke samo za člane
+Stranska vrstica in navigacija. Skrijte stransko vrstico v celoti ali jo obrežite postavko za postavko — Shorts, Moj kanal, Zgodovina, Predvajalni seznami, Vaši videi, Za ogled pozneje, Videi, ki so mi všeč, Filmi, Prenosi, celoten seznam naročnin, V trendu, Glasba, V živo, Igre, Novice, Šport, povezave do YouTube Premium / Music / Kids / Studio in nogo s povezavami «O storitvi».
 
-OGLEDANI VIDEOPOSNETKI
-• Skrij na domači strani
-• Skrij v naročninah
-• Skrij na straneh kanalov
-• Skrij v priporočilih
+Iskanje in kanali. Skrijte kanale med rezultati, sorodna iskanja, informacijsko kartico in polico videov kanala. Na straneh kanalov odstranite pasico in napovednik, ki se zažene sam.
 
-ISKANJE
-• Skrij kanale v iskanju
-• Skrij sorodna iskanja
-• Skrij informacijsko kartico
-• Skrij polico videoposnetkov kanala
+Glava. Skrijte gumba za glasovno iskanje in navidezno tipkovnico, oznake iskanja, gumb za nalaganje in obvestila.
 
-OGLASI
-• Skrij pasice YouTube
-• Skrij sponzorirane videoposnetke
-• Skrij oglasne informacijske plošče
-• Samodejno preskoči oglase (eksperimentalno)
+PREDNASTAVITVE ZA TISTE, KI NOČEJO NIČESAR NASTAVLJATI
 
-STRAN VIDEOPOSNETKA
+Izberite «Lahko» za nežno čiščenje, «Uravnoteženo» za vsakdanji YouTube brez motenj ali «Največ», da odstranite skoraj vse. Vsako prednastavitev lahko uredite in vrnete na privzeto, «Po meri» pa zgradite iz nič. Bližnjica na tipkovnici vklopi in izklopi celotno razširitev, kadar za minuto potrebujete izvirni YouTube.
 
-ELEMENTI STRANI
-• Skrij komentarje
-• Skrij slike kanala
-• Skrij všečke
-• Skrij gumbe dejanj
-• Skrij opis
-• Skrij klepet v živo
-• Skrij izdelke in vstopnice
-• Skrij kartice na koncu
+O ZASEBNOSTI NARAVNOST
 
-OPIS
-• Skrij razdelek UI (Gemini)
-• Skrij prepis
-• Skrij omenjene osebe
-• Skrij sorodne videoposnetke
-• Skrij kartico kanala
-• Skrij »Kako je bilo ustvarjeno«
-• Skrij poglavja in epizode
+Brez računa, brez prijave, brez analitike, brez sledenja, brez zbiranja podatkov. Vaše nastavitve ostanejo v lokalni shrambi brskalnika in je nikoli ne zapustijo. Celotna izvorna koda je na GitHubu pod licenco MIT — ni vam treba verjeti na besedo.
 
-PREDVAJANJE IN KANAL
+NAREJENO, DA OSTANE HITRO
 
-DRSNIK HITROSTI PREDVAJANJA
-• Drsnik hitrosti predvajanja
+Skoraj vsaka možnost se ob gradnji prevede v čisti CSS, zato med brskanjem ne stane nič. JavaScript poganja le nekaj vedenjskih funkcij. Manifest V3, brez oddaljene kode, brez obremenitve v ozadju.
 
-BITRATE
-• Prednostno uporabi izboljšano bitno hitrost (Premium)
-• Povečaj zaznano pasovno širino (eksperimentalno)
+KAKO ZAČETI
 
-KODEK
-• Vsili H.264 (blokiraj VP9/AV1)
-• Blokiraj 60 fps
+Namestite razširitev, kliknite ikono, da odprete stransko podokno ob YouTubu, nato izberite prednastavitev ali prestavljajte posamezna stikala. Spremembe takoj veljajo na odprti strani.
 
-PREDVAJALNIK
-• Skrij gumb mini predvajalnika
-• Skrij gumb kino načina
-• Skrij gumb podnapisov
-• Skrij stikalo samodejnega predvajanja
+Deluje v Chromu, Operi, Edgeu, Bravu in drugih brskalnikih na Chromiumu.
 
-KANAL
-• Skrij napovednik kanala
-• Skrij pasico kanala
+POGOSTA VPRAŠANJA
 
-STRANSKA VRSTICA
+Je to zaviralec oglasov? Ne povsem. Skriva pasice, sponzorirane kartice v viru in oglasne plošče ter zna samodejno preskočiti oglase, ki to dopuščajo (eksperimentalno). Ob pravem zaviralcu deluje brez težav.
 
-POPOLNOMA SKRIJ STRANSKO VRSTICO
-• Popolnoma skrij stransko vrstico
+Ali bo pokvaril YouTube? Vse je izbirno in povrnljivo — izklopite stikalo in element se takoj vrne.
 
-GLAVNI MENI
-• Skrij »Shorts«
+Ali potrebujem račun? Ne. Namestite in uporabljajte.
 
-VI
-• Skrij »Moj kanal«
-• Skrij »Zgodovina«
-• Skrij »Seznami predvajanja«
-• Skrij »Vaši videoposnetki«
-• Skrij »Oglej si pozneje«
-• Skrij »Všečkani videoposnetki«
-• Skrij »Filmi«
-• Skrij »Prenosi«
-• Skrij gumb »Prikaži več«
+Je res brezplačno? Da: brezplačno in odprtokodno, brez plačljive različice in brez dodatne prodaje.
 
-SKRIJ SEZNAM NAROČNIN
-• Skrij seznam naročnin
+Se kaj ne skrije tako, kot želite? Odprite issue na GitHubu — seznam funkcij raste iz želja uporabnikov.
 
-RAZIŠČI
-• Skrij »V trendu«
-• Skrij »Glasba«
-• Skrij »V živo«
-• Skrij »Igre«
-• Skrij »Novice«
-• Skrij »Šport«
-• Skrij gumb »Prikaži več«
-
-VEČ IZ YOUTUBA
-• Skrij »YouTube Premium«
-• Skrij »YouTube Music«
-• Skrij »YouTube Kids«
-• Skrij »YouTube Studio«
-
-SKRIJ NOGO IN POVEZAVE O NAS
-• Skrij nogo in povezave O nas
-
-GitHub: https://github.com/lenadweb/yt-clean
+Izvorna koda, napake in ideje: https://github.com/lenadweb/yt-clean
