@@ -1,70 +1,93 @@
 const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
-module.exports = {
-    mode: 'production',
-    entry: {
-        promo: path.resolve(__dirname, 'src/promo/index.tsx'),
-    },
-    output: {
-        publicPath: '',
-        path: path.resolve(__dirname, 'promo-dist'),
-        filename: '[name].js',
-        clean: true,
-    },
-    module: {
-        rules: [
-            {
-                test: /\.tsx?$/,
-                use: 'ts-loader',
-                exclude: /node_modules/,
-            },
-            {
-                test: /\.svg$/,
-                use: [
-                    {
-                        loader: '@svgr/webpack',
-                        options: {
-                            svgoConfig: {
-                                plugins: [
-                                    {
-                                        name: 'preset-default',
-                                        params: {
-                                            overrides: { removeViewBox: false },
+module.exports = (env = {}) => {
+    const isDevelopment = Boolean(env.development);
+
+    return {
+        mode: isDevelopment ? 'development' : 'production',
+        devtool: isDevelopment ? 'eval-cheap-module-source-map' : false,
+        entry: {
+            promo: path.resolve(__dirname, 'src/promo/index.tsx'),
+        },
+        output: {
+            publicPath: isDevelopment ? '/' : '',
+            path: path.resolve(__dirname, 'promo-dist'),
+            filename: '[name].js',
+            clean: true,
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.tsx?$/,
+                    use: {
+                        loader: 'ts-loader',
+                        options: { transpileOnly: isDevelopment },
+                    },
+                    exclude: /node_modules/,
+                },
+                {
+                    test: /\.svg$/,
+                    use: [
+                        {
+                            loader: '@svgr/webpack',
+                            options: {
+                                svgoConfig: {
+                                    plugins: [
+                                        {
+                                            name: 'preset-default',
+                                            params: {
+                                                overrides: {
+                                                    removeViewBox: false,
+                                                },
+                                            },
                                         },
-                                    },
-                                ],
+                                    ],
+                                },
                             },
                         },
-                    },
-                ],
-            },
-            {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader', 'postcss-loader'],
-            },
-            {
-                test: /\.(woff(2)?|ttf|otf|eot)$/i,
-                type: 'asset/resource',
-                generator: { filename: 'assets/[name][ext]' },
-            },
-        ],
-    },
-    resolve: {
-        extensions: ['.ts', '.tsx', '.js', '.jsx'],
+                    ],
+                },
+                {
+                    test: /\.css$/i,
+                    use: ['style-loader', 'css-loader', 'postcss-loader'],
+                },
+                {
+                    test: /\.(png|jpe?g|webp)$/i,
+                    type: 'asset/resource',
+                    generator: { filename: 'assets/[name][ext]' },
+                },
+                {
+                    test: /\.(woff(2)?|ttf|otf|eot)$/i,
+                    type: 'asset/inline',
+                },
+            ],
+        },
+        resolve: {
+            extensions: ['.ts', '.tsx', '.js', '.jsx'],
+            plugins: [
+                new TsconfigPathsPlugin({
+                    extensions: ['.ts', '.tsx', '.js', '.jsx'],
+                }),
+            ],
+        },
         plugins: [
-            new TsconfigPathsPlugin({
-                extensions: ['.ts', '.tsx', '.js', '.jsx'],
+            new HtmlWebpackPlugin({
+                template: path.resolve(__dirname, 'src/promo/promo.html'),
+                filename: 'index.html',
+                inject: 'body',
             }),
         ],
-    },
-    plugins: [
-        new CopyWebpackPlugin({
-            patterns: [{ from: 'src/promo/promo.html', to: 'index.html' }],
-        }),
-    ],
-    optimization: {
-        minimize: false,
-    },
+        optimization: {
+            minimize: false,
+        },
+        devServer: {
+            static: false,
+            hot: true,
+            port: 4400,
+            open: true,
+            client: { overlay: true },
+        },
+    };
 };

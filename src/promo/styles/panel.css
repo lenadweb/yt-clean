@@ -1,0 +1,153 @@
+.promo-panel {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 18px;
+    background: #17181b;
+    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.62);
+}
+
+.promo-panel--bleed {
+    border-bottom: 0;
+    border-radius: 18px 18px 0 0;
+}
+
+.promo-panel--bleed.promo-panel--dense {
+    border-radius: 12px 12px 0 0;
+}
+
+.promo-panel__body {
+    position: relative;
+    z-index: 1;
+    transform-origin: top left;
+}
+
+.promo-panel__body > div {
+    min-height: 100%;
+    border-radius: 0;
+    background: #17181b !important;
+    box-shadow: none;
+}
+
+.promo-panel__body,
+.promo-panel__body * {
+    font-family: 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.promo-panel__body .size-8 {
+    width: 23px !important;
+    height: 23px !important;
+}
+
+.promo-panel__body h1 {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    letter-spacing: -0.2px;
+}
+
+.promo-panel__body .text-xs,
+.promo-panel__body .text-\[12px\] {
+    font-size: 9px !important;
+}
+
+.promo-panel__body .text-sm {
+    font-size: 10.5px !important;
+}
+
+.promo-panel__body .text-base {
+    font-size: 11.5px !important;
+}
+
+.promo-panel__body .bg-black-700 {
+    background-color: #202125 !important;
+}
+
+.promo-panel__body .bg-red-accent,
+.promo-panel__body [data-checked] {
+    background-color: #d92a2d !important;
+}
+
+.promo-panel__body .grid.grid-cols-3 > .bg-red-accent {
+    background: linear-gradient(135deg, #d51d20, #ed3538) !important;
+}
+
+.promo-panel__body .border-red-accent {
+    border-color: #dd292c !important;
+}
+
+.promo-panel__body .text-black-400 {
+    color: #8c8c98 !important;
+}
+
+.promo-panel__body .rounded-3xl {
+    border-radius: 12px !important;
+}
+
+.promo-panel__body .rounded-xl {
+    border-radius: 8px !important;
+}
+
+.promo-panel__body button[aria-label='Disable extension'] svg {
+    width: 27px;
+    height: 27px;
+}
+
+.promo-panel__body button[aria-label='Disable extension'] svg rect {
+    fill: #222327;
+}
+
+.promo-panel__body button[aria-label='Disable extension'] svg path {
+    fill: #df292c;
+}
+
+.promo-panel__body button[aria-label='Reset preset to default'] {
+    color: #91929c !important;
+}
+
+.promo-panel--dense {
+    border-radius: 12px;
+}
+
+.promo-panel--dense .promo-panel__body h1 {
+    font-size: 17px !important;
+}
+
+.promo-panel--dense .promo-panel__body .text-base {
+    font-size: 13px !important;
+}
+
+.promo-panel--dense .promo-panel__body .text-sm {
+    font-size: 12px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+}
+
+.promo-panel--dense .promo-panel__body .text-xs,
+.promo-panel--dense .promo-panel__body .text-\[12px\] {
+    font-size: 10.5px !important;
+}
+
+.promo-panel--dense .promo-panel__body .size-8 {
+    width: 26px !important;
+    height: 26px !important;
+}
+
+.promo-panel--dense .promo-panel__body .p-5 {
+    padding: 23px !important;
+}
+
+.promo-panel--dense .promo-panel__body .pt-1 {
+    padding-top: 9px !important;
+}
+
+.promo-panel--dense .promo-panel__body .pb-5 {
+    padding-bottom: 23px !important;
+}
+
+.promo-panel--dense .promo-panel__body .mb-4 {
+    margin-bottom: 18px !important;
+}
+
+.promo-panel--dense .promo-panel__body .gap-3 {
+    gap: 14px !important;
+}

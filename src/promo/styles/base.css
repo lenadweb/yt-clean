@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('../../assets/fonts/Manrope-VariableFont_wght.ttf')
+        format('truetype');
+    font-style: normal;
+    font-weight: 200 800;
+}
+
+:root {
+    --promo-ink: #f6f6f8;
+    --promo-muted: #9c9ca8;
+    --promo-dim: #6c6c78;
+    --promo-red: #e11d22;
+    --promo-red-deep: #cd001f;
+    --promo-void: #0b0b0d;
+    --promo-line: rgba(255, 255, 255, 0.07);
+
+    color-scheme: dark;
+    font-family: 'Manrope', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background: #0b0b0d;
+    color: var(--promo-ink);
+}
+
+button {
+    color: inherit;
+    font: inherit;
+}
+
+.promo-scene {
+    position: relative;
+    overflow: hidden;
+    background: var(--promo-void);
+    color: var(--promo-ink);
+    font-family: 'Manrope', sans-serif;
+    isolation: isolate;
+}
+
+.promo-backdrop {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    background: linear-gradient(160deg, #141317 0%, #0b0b0d 48%, #08080a 100%);
+}
+
+.promo-backdrop__grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(110% 90% at 50% 0%, #000 10%, transparent 78%);
+}
+
+.promo-pill {
+    display: inline-flex;
+    align-items: center;
+    height: 38px;
+    padding: 0 16px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #cfcfd8;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    white-space: nowrap;
+    gap: 9px;
+}
+
+.promo-pill--red {
+    border-color: rgba(205, 0, 31, 0.75);
+    background: rgba(205, 0, 31, 0.1);
+    color: #e8484b;
+}
+
+.promo-pill__code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.promo-scene [data-closed] {
+    opacity: 1 !important;
+    transform: none !important;
+}

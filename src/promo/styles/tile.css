@@ -1,0 +1,58 @@
+.tile__content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 22px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+.tile__logo {
+    display: block;
+    width: 68px;
+    height: 68px;
+}
+
+.tile__title {
+    margin: 9px 0 0;
+    font-size: 27px;
+    font-weight: 760;
+    line-height: 0.93;
+    letter-spacing: -1.4px;
+    white-space: nowrap;
+}
+
+.tile__title strong {
+    color: var(--promo-red);
+    font-weight: inherit;
+}
+
+.tile__tagline {
+    margin: 7px 0 0;
+    color: #d2d1d6;
+    font-size: 14px;
+    font-weight: 460;
+    letter-spacing: -0.4px;
+}
+
+.tile__badge {
+    display: inline-flex;
+    height: 26px;
+    align-items: center;
+    align-self: center;
+    padding: 0 12px;
+    border: 1px solid rgba(205, 0, 31, 0.9);
+    border-radius: 999px;
+    margin: 14px 0 0;
+    background: rgba(205, 0, 31, 0.1);
+    color: #e8484b;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    gap: 7px;
+}

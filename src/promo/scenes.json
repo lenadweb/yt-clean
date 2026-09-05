@@ -1,0 +1,30 @@
+[
+    {
+        "id": "hero",
+        "file": "promo-1.png",
+        "title": "Hero",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "before-after",
+        "file": "promo-2.png",
+        "title": "Before / After",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "power",
+        "file": "promo-3.png",
+        "title": "60+ toggles",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "tile",
+        "file": "promo-small-tile.png",
+        "title": "Small tile",
+        "width": 440,
+        "height": 280
+    }
+]

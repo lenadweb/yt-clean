@@ -1,0 +1,48 @@
+.hero__content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 76px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 636px;
+}
+
+.hero__logo {
+    display: block;
+    width: 208px;
+    height: 208px;
+    margin-left: 172px;
+}
+
+.hero__title {
+    margin: 22px 0 0;
+    font-size: 88px;
+    font-weight: 760;
+    line-height: 0.93;
+    letter-spacing: -4.2px;
+    white-space: nowrap;
+}
+
+.hero__title strong {
+    color: var(--promo-red);
+    font-weight: inherit;
+}
+
+.hero__tagline {
+    margin: 16px 0 0 2px;
+    color: #d2d1d6;
+    font-size: 44px;
+    font-weight: 460;
+    line-height: 1.2;
+    letter-spacing: -1.05px;
+}
+
+.hero__pills {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 0 2px;
+    gap: 12px;
+}
