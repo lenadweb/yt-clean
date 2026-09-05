@@ -93,7 +93,7 @@ export const watchCategory = category('video_page', [
             hide: ['.ytp-ce-element', '.ytp-cards-teaser'],
         }),
     ]),
-    section('video_description', { isNew: true, controls: 'checkboxes' }, [
+    section('video_description', { controls: 'checkboxes' }, [
         feature({
             id: 'hideDescriptionAi',
             title: 'hide_description_ai',

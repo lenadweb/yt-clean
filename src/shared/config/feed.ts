@@ -129,13 +129,11 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideHoverPreview',
             title: 'disable_auto_preview_on_hover',
-            isNew: true,
             custom: true,
         }),
         feature({
             id: 'hideJams',
             title: 'hide_mixes_and_playlists',
-            isNew: true,
             hide: [
                 'ytd-rich-item-renderer:has(.yt-lockup-view-model-wiz--collection-stack-2)',
                 'ytd-rich-item-renderer:has(yt-collections-stack)',
@@ -234,7 +232,6 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'adsInfoPanel',
             title: 'hide_ad_info_panels',
-            isNew: true,
             url: [UrlRegExps.Watch],
             hide: ['ytd-engagement-panel-section-list-renderer[target-id]'],
         }),

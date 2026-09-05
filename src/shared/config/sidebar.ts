@@ -96,7 +96,6 @@ export const sidebarCategory = category('sidebar', [
             feature({
                 id: 'hideMenuYouExpand',
                 title: 'hide_expand_button',
-                isNew: true,
                 hide: [
                     'ytd-guide-section-renderer:has([href="/feed/history"]) ytd-guide-collapsible-entry-renderer',
                 ],
@@ -139,7 +138,6 @@ export const sidebarCategory = category('sidebar', [
             feature({
                 id: 'hideMenuExploreLive',
                 title: 'hide_live',
-                isNew: true,
                 hide: [
                     "#sections ytd-guide-entry-renderer:has([href*='UC4R8DWoMoI7CAwX8_LjQHig'])",
                 ],
@@ -168,7 +166,6 @@ export const sidebarCategory = category('sidebar', [
             feature({
                 id: 'hideMenuExploreExpand',
                 title: 'hide_expand_button',
-                isNew: true,
                 hide: [
                     "ytd-guide-section-renderer:has([href='/gaming']) ytd-guide-collapsible-entry-renderer",
                 ],
@@ -213,7 +210,7 @@ export const sidebarCategory = category('sidebar', [
             }),
         ]
     ),
-    section('hide_footer', { isNew: true, controls: 'switch' }, [
+    section('hide_footer', { controls: 'switch' }, [
         feature({
             id: 'hideFooter',
             title: 'hide_footer',
