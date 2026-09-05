@@ -45,6 +45,15 @@
   "side_panel": {
     "default_path": "sidebar.html"
   },
+  "commands": {
+    "toggle-extension": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "__MSG_toggle_extension__"
+    }
+  },
   "action": {
     "default_title": "__MSG_actionTitle__"
   },

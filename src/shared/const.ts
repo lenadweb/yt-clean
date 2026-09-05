@@ -2,6 +2,9 @@ export const BASE_ATTR_PREFIX = 'cln-yt-cust';
 
 export const SETTINGS_CACHE_KEY = '__yt_clean_settings__';
 
+export const TOGGLE_EXTENSION_COMMAND = 'toggle-extension';
+export const EXTENSION_ENABLED_BY_DEFAULT = true;
+
 export const UrlRegExps = {
     Home: /^https:\/\/(www\.)?youtube\.com\/?(\?.*)?$/,
     Shorts: /^https:\/\/(www\.)?youtube\.com\/shorts\/[^/?]+/,

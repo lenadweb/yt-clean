@@ -1,6 +1,7 @@
 import { FEATURES, FeatureId } from 'src/shared/featureConfig';
 import { SettingValue } from 'src/shared/types/settings';
 import { PRESET_DEFAULTS, PRESET_IDS, PresetId } from 'src/shared/presets';
+import { EXTENSION_ENABLED_BY_DEFAULT } from 'src/shared/const';
 
 export type { FeatureId };
 export type SettingsState = Record<FeatureId, SettingValue>;
@@ -27,7 +28,7 @@ const defaultPresets = Object.fromEntries(
 ) as Record<PresetId, SettingsState>;
 
 export const DEFAULT_STORAGE: StorageState = {
-    isEnabled: true,
+    isEnabled: EXTENSION_ENABLED_BY_DEFAULT,
     activePreset: 'balanced',
     presetWarningDismissed: false,
     presets: defaultPresets,
