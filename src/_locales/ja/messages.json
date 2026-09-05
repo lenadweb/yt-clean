@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: ショートをブロック、おすすめ・広告を非表示"
+    "message": "YouTube Clean: ショートとおすすめを非表示"
   },
   "appDescription": {
-    "message": "YouTube ショートをブロックし、おすすめ・コメント・広告を非表示。60以上の設定で、集中できる静かな YouTube に。"
+    "message": "YouTube ショートをブロックし、おすすめ・コメント・広告を非表示。60以上の設定で、集中できる静かな YouTube に。 オープンソース。"
   },
   "actionTitle": {
     "message": "YouTube Clean 設定"

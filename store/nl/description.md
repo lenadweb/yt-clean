@@ -1,143 +1,139 @@
-Blokkeer YouTube Shorts, verberg aanbevelingen, sla advertenties over en haal
-alles weg wat je aandacht afleidt. YouTube Clean maakt van YouTube een rustige,
-afleidingsvrije plek die jij zelf beheert.
+Blokkeer YouTube Shorts, verberg aanbevelingen, sla advertenties over en haal alles weg wat je aandacht afleidt. YouTube Clean maakt van YouTube een rustige, afleidingsvrije plek die jij zelf beheert.
 
-60+ schakelaars, één zijpaneel, direct resultaat. Gratis, open source, geen
-account, geen tracking, geen dataverzameling.
+60+ schakelaars, één zijpaneel, direct resultaat. Gratis, open source, geen account, geen tracking, geen dataverzameling.
 
 WAT JE KUNT VERBERGEN OF BLOKKEREN
 
-• Shorts: startpagina, zoekresultaten, zijbalk, kanaalpagina's, menu-item
-• Aanbevelingen: startpagina, kolom naast de video, eindschermkaarten
-• Advertenties: video-ads automatisch overslaan, banners, gesponsorde video's
-• Reacties en livechat
-• Mixen, afspeellijsten, Trending, Verkennen en Nieuws
-• Merch- en ticketschappen, kanaalbanners en trailers
-• Automatisch voorbeeld bij hover en opgeblazen videobeschrijvingen
-• Zijbalk: volledig verbergen of item voor item
-• Koptekst: spraakzoeken, schermtoetsenbord, tags, uploaden, meldingen
-• Zoekresultaten: gerelateerde zoekopdrachten, infokaarten, kanaalschappen
+PRESETS
+• Licht
+• Gebalanceerd
+• Maximaal
+• Aangepast
+• Extensie in-/uitschakelen — Sneltoets wijzigen
 
-BLOKKEER SHORTS EN EINDELOOS SCROLLEN
+BASISSJABLOON
 
-Korte video's zijn de grootste aandachtsval op YouTube.
+ZOEKBALK
+• Knop voor spraakzoeken verbergen
+• Knop voor schermtoetsenbord verbergen
+• Zoektags verbergen
 
-YouTube Clean haalt Shorts weg uit de startpagina, zoekresultaten, zijbalk en
-kanaalpagina's, zodat een kort bezoek geen uur scrollen wordt.
+ACTIES EN PROFIEL
+• Uploadknop verbergen
+• Meldingen verbergen
 
-Wil je Shorts houden? Gebruik de aparte snelheidsregeling voor Shorts en zet
-automatisch doorgaan uit, zodat één Short één Short blijft en geen oneindige
-feed wordt.
+FEED EN AANBEVELINGEN
 
-VERBERG AANBEVELINGEN EN FEED-RUIS
+COMPACTE MODUS
+• Compacte modus
 
-Jij bepaalt wat blijft en wat weggaat.
+CONTENTBLOKKEN
+• Shorts-secties verbergen
+• Verkennen en Nieuws verbergen
+• Automatisch voorbeeld bij hover uitschakelen
+• Mixen en afspeellijsten verbergen
+• Video’s alleen voor leden verbergen
 
-Verberg aanbevolen video's, mixen en afspeellijsten, reacties, livechat,
-eindschermkaarten, merch- en ticketschappen, meldingen en Trending-secties.
+BEKEKEN VIDEO’S
+• Verbergen op Home
+• Verbergen in Abonnementen
+• Verbergen op kanaalpagina’s
+• Verbergen in aanbevelingen
 
-Verminder de visuele ruis verder: zet het voorbeeld bij hover uit, verberg
-kanaalbanners en trailers, en beperk de beschrijving tot wat je echt leest.
+ZOEKEN
+• Kanalen verbergen in zoeken
+• Gerelateerde zoekopdrachten verbergen
+• Infokaart in zoekresultaten verbergen
+• Kanaalvideoschap verbergen
 
-ADVERTENTIES EN GESPONSORDE CONTENT OVERSLAAN
+ADVERTENTIES
+• YouTube-banners verbergen
+• Gesponsorde video's in de feed verbergen
+• Advertentie-infopanelen verbergen
+• Advertenties automatisch overslaan (experimenteel)
 
-Videoadvertenties worden automatisch overgeslagen zodra de knop Overslaan
-verschijnt.
+VIDEOPAGINA
 
-Advertentiebanners, gesponsorde video's in de feed en promopanelen worden
-verborgen in de feed en op de kijkpagina, zodat browsen niet onderbroken wordt.
+PAGINA-ELEMENTEN
+• Reacties verbergen
+• Kanaalafbeeldingen verbergen
+• Like/dislike verbergen
+• Actieknoppen verbergen
+• Beschrijving verbergen
+• Livechat verbergen
+• Merch en tickets verbergen
+• Eindschermkaarten verbergen
 
-AFLEIDINGSVRIJ YOUTUBE VOOR FOCUS EN STUDIE
+BESCHRIJVING
+• AI-sectie verbergen (Gemini)
+• Transcript verbergen
+• Genoemde personen verbergen
+• Gerelateerde video's verbergen
+• Kanaalkaart verbergen
+• "Hoe dit is gemaakt" verbergen
+• Hoofdstukken en afleveringen verbergen
 
-YouTube Clean is een zacht focushulpmiddel, geen agressieve blocker.
+AFSPELEN EN KANAAL
 
-Er wordt niets weggehaald tot jij erom vraagt, en een rustig zijpaneel houdt elke
-instelling op één klik afstand: geen accounts, geen dashboards, geen zeurende
-herinneringen.
+SCHUIFREGELAAR VOOR AFSPEELSNELHEID
+• Schuifregelaar voor afspeelsnelheid
 
-Veel mensen gebruiken het als lichtgewicht digitale-detoxtool voor YouTube,
-gericht op controle in plaats van verboden.
+BITRATE
+• Voorkeur voor verbeterde bitrate (Premium)
+• Gedetecteerde bandbreedte verhogen (experimenteel)
 
-PRESETS MET ÉÉN KLIK: LICHT, GEBALANCEERD, EIGEN
+CODEC
+• H.264 forceren (VP9/AV1 blokkeren)
+• 60 fps blokkeren
 
-Begin met een kant-en-klare preset. Licht voor een zachte opschoning,
-Gebalanceerd voor een gefocuste opzet, of bouw schakelaar voor schakelaar je
-eigen profiel.
+SPELER
+• Miniplayer-knop verbergen
+• Bioscoopmodus-knop verbergen
+• Ondertitelknop verbergen
+• Autoplay-schakelaar verbergen
 
-Wissel van preset als je tussen werk en ontspanning schakelt: YouTube is een
-gereedschap als je het nodig hebt en blijft anders uit de weg.
+KANAAL
+• Kanaaltrailer verbergen
+• Kanaalbanner verbergen
 
-COMPACTE LAYOUT: MEER VIDEO'S PER SCHERM
+ZIJBALK
 
-De compacte modus verandert de startpagina, zoekresultaten en aanbevelingen op
-de kijkpagina in een nette lijst of raster.
+ZIJBALK VOLLEDIG VERBERGEN
+• Zijbalk volledig verbergen
 
-Minder scrollen, meer resultaten per scherm en een layout die grote monitoren
-eindelijk respecteert.
+HOOFDMENU
+• "Shorts" verbergen
 
-SNELHEIDSSCHUIF EN OPGERUIMDE SPELER
+JIJ
+• "Mijn kanaal" verbergen
+• "Geschiedenis" verbergen
+• "Afspeellijsten" verbergen
+• "Je video's" verbergen
+• "Later bekijken" verbergen
+• "Leuk gevonden video's" verbergen
+• "Films" verbergen
+• "Downloads" verbergen
+• Knop "Meer weergeven" verbergen
 
-Stel de afspeelsnelheid nauwkeurig in met een schuifregelaar in de speler zelf,
-inclusief een aparte snelheidsregeling voor Shorts.
+ABONNEMENTENLIJST VERBERGEN
+• Abonnementenlijst verbergen
 
-Ruim de speler op door de miniplayer-, bioscoop- en ondertitelknoppen te
-verbergen, en zet de autoplay-schakelaar uit zodat de volgende video nooit
-vanzelf start.
+VERKENNEN
+• "Trending" verbergen
+• "Muziek" verbergen
+• "Live" verbergen
+• "Gaming" verbergen
+• "Nieuws" verbergen
+• "Sport" verbergen
+• Knop "Meer weergeven" verbergen
 
-SCHONE ZOEKPAGINA, KOPTEKST EN ZIJBALK
+MEER VAN YOUTUBE
+• "YouTube Premium" verbergen
+• "YouTube Music" verbergen
+• "YouTube Kids" verbergen
+• "YouTube Studio" verbergen
 
-Vereenvoudig de bovenbalk door spraakzoeken, het schermtoetsenbord, zoektags, de
-uploadknop en meldingen te verbergen.
+FOOTER EN OVER-LINKS VERBERGEN
+• Footer en Over-links verbergen
 
-Beperk de linkerzijbalk tot het hoognodige, of verberg hem volledig, inclusief
-Jij, Geschiedenis, Afspeellijsten, Later bekijken, Leuk gevonden video's,
-Abonnementen, Verkennen, Trending, Muziek, Live, Gaming, Nieuws, Sport, Premium,
-YouTube Music, Kids, Studio en de footer.
-
-Ruim ook de zoekresultaten op: gerelateerde zoekopdrachten, infokaarten en
-kanaalschappen.
-
-VOOR WIE IS YOUTUBE CLEAN
-
-• Studenten en onderzoekers die YouTube nodig hebben voor colleges, niet Shorts
-• Ontwikkelaars en schrijvers die tutorials kijken tijdens deep work
-• Taalleerders die de snelheidsschuif gebruiken bij lange video's
-• Ouders die een rustiger YouTube willen op een gedeelde computer
-• Iedereen in digitale detox die YouTube toch nodig heeft voor echt werk
-
-OPEN SOURCE, LICHTGEWICHT EN PRIVÉ
-
-YouTube Clean is volledig open source en gebouwd op Manifest V3.
-
-Geen accounts, geen tracking, geen analytics, geen dataverzameling. Je
-instellingen blijven in je browser. Lees de code, meld een probleem of vraag een
-functie aan op GitHub.
-
-VEELGESTELDE VRAGEN
-
-Blokkeert het YouTube Shorts volledig?
-Ja. Shorts kunnen weg uit de startpagina, zoekresultaten, zijbalk,
-kanaalpagina's en het linkermenu. Je kunt Shorts ook houden en alleen
-automatisch doorgaan uitzetten.
-
-Verwijdert het YouTube-advertenties?
-Videoadvertenties worden automatisch overgeslagen zodra dat kan, en banners,
-gesponsorde feedvideo's en promopanelen worden verborgen. Het is een
-opschoontool voor YouTube, geen adblocker op netwerkniveau.
-
-Blijft de rest van YouTube gewoon werken?
-Ja. Elke functie staat standaard uit. Er verandert niets tot je een schakelaar
-aanzet, en uitzetten herstelt YouTube meteen.
-
-Verzamelt het mijn gegevens?
-Nee. Geen account, geen server, geen analytics. Instellingen worden lokaal in je
-browser opgeslagen.
-
-Welke browsers worden ondersteund?
-Chrome en Opera, op de hele site: startpagina, zoeken, kijkpagina, kanalen en de
-speler.
-
-YouTube past zich aan jou aan, niet andersom.
-
-Broncode, problemen en functieverzoeken:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

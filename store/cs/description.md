@@ -1,140 +1,139 @@
-Blokujte YouTube Shorts, skryjte doporučení, přeskakujte reklamy a odstraňte vše
-ostatní, co odvádí pozornost. YouTube Clean promění YouTube v klidný prostor bez
-rozptylování, který ovládáte vy.
+Blokujte YouTube Shorts, skryjte doporučení, přeskakujte reklamy a odstraňte vše ostatní, co odvádí pozornost. YouTube Clean promění YouTube v klidný prostor bez rozptylování, který ovládáte vy.
 
-Přes 60 přepínačů, jeden postranní panel, okamžitý výsledek. Zdarma, otevřený
-zdrojový kód, bez účtu, bez sledování, bez sběru dat.
+Přes 60 přepínačů, jeden postranní panel, okamžitý výsledek. Zdarma, otevřený zdrojový kód, bez účtu, bez sledování, bez sběru dat.
 
 CO MŮŽETE SKRÝT NEBO ZABLOKOVAT
 
-• Shorts: domovský kanál, vyhledávání, postranní panel, kanály, položka nabídky
-• Doporučení: domovský kanál, sloupec u videa, karty na konci videa
-• Reklamy: automatické přeskočení reklam ve videu, bannery, sponzorovaná videa
-• Komentáře a živý chat
-• Mixy, playlisty, Trendy, Prozkoumat a Zprávy
-• Police se zbožím a vstupenkami, bannery a upoutávky kanálů
-• Automatický náhled při najetí myší a nafouklé popisy videí
-• Postranní panel: skryjte celý nebo po položkách
-• Záhlaví: hlasové vyhledávání, klávesnice, značky, nahrávání, oznámení
-• Výsledky vyhledávání: související dotazy, informační karty, police kanálů
+PŘEDVOLBY
+• Lehký
+• Vyvážený
+• Maximální
+• Vlastní
+• Zapnout rozšíření — Změnit klávesovou zkratku
 
-BLOKUJTE SHORTS A NEKONEČNÉ ROLOVÁNÍ
+ZÁKLADNÍ ŠABLONA
 
-Krátká videa jsou největší past na pozornost na YouTube.
+VYHLEDÁVACÍ PANEL
+• Skrýt tlačítko hlasového vyhledávání
+• Skrýt tlačítko virtuální klávesnice
+• Skrýt značky vyhledávání
 
-YouTube Clean odstraní Shorts z domovského kanálu, výsledků vyhledávání,
-postranního panelu a stránek kanálů, aby se rychlá návštěva nezměnila v hodinu
-rolování.
+AKCE A PROFIL
+• Skrýt tlačítko nahrávání
+• Skrýt oznámení
 
-Chcete si Shorts nechat? Použijte samostatné ovládání rychlosti pro Shorts
-a vypněte automatický přechod, aby jeden Shorts zůstal jedním Shortsem, a ne
-nekonečným kanálem.
+KANÁL A DOPORUČENÍ
 
-SKRYJTE DOPORUČENÍ A NEPOŘÁDEK V KANÁLU
+KOMPAKTNÍ REŽIM
+• Kompaktní režim
 
-Vy rozhodujete, co zůstane a co zmizí.
+BLOKY OBSAHU
+• Skrýt sekce Shorts
+• Skrýt Prozkoumat a Zprávy
+• Vypnout automatický náhled při najetí
+• Skrýt mixy a playlisty
+• Skrýt videa pouze pro členy
 
-Skryjte doporučená videa, mixy a playlisty, komentáře, živý chat, karty na konci
-videa, police se zbožím a vstupenkami, oznámení a sekce Trendy.
+ZHLÉDNUTÁ VIDEA
+• Skrýt na domovské stránce
+• Skrýt v odběrech
+• Skrýt na stránkách kanálů
+• Skrýt v doporučeních
 
-Snižte vizuální šum ještě víc: vypněte náhled při najetí myší, skryjte bannery
-a upoutávky kanálů a popis zkraťte na to, co skutečně čtete.
+VYHLEDÁVÁNÍ
+• Skrýt kanály ve vyhledávání
+• Skrýt související vyhledávání
+• Skrýt informační kartu
+• Skrýt polici videí kanálu
 
-PŘESKAKUJTE REKLAMY A SPONZOROVANÝ OBSAH
+REKLAMY
+• Skrýt bannery YouTube
+• Skrýt sponzorovaná videa v kanálu
+• Skrýt reklamní informační panely
+• Automaticky přeskakovat reklamy (experimentální)
 
-Reklamy ve videu se přeskočí automaticky, jakmile se objeví tlačítko Přeskočit.
+STRÁNKA VIDEA
 
-Reklamní bannery, sponzorovaná videa v kanálu a propagační panely se skrývají
-v kanálu i na stránce videa, takže prohlížení není přerušováno.
+PRVKY STRÁNKY
+• Skrýt komentáře
+• Skrýt obrázky kanálu
+• Skrýt hodnocení
+• Skrýt tlačítka akcí
+• Skrýt popis
+• Skrýt živý chat
+• Skrýt zboží a vstupenky
+• Skrýt karty na konci videa
 
-YOUTUBE BEZ ROZPTYLOVÁNÍ PRO SOUSTŘEDĚNÍ A STUDIUM
+POPIS
+• Skrýt sekci AI (Gemini)
+• Skrýt přepis
+• Skrýt zmíněné osoby
+• Skrýt související videa
+• Skrýt kartu kanálu
+• Skrýt „Jak to vzniklo“
+• Skrýt kapitoly a epizody
 
-YouTube Clean je jemný nástroj soustředění, ne agresivní blokátor.
+PŘEHRÁVÁNÍ A KANÁL
 
-Nic se neodstraní, dokud si o to neřeknete, a klidný postranní panel drží každé
-nastavení na jedno kliknutí: bez účtů, bez dashboardů, bez otravných
-připomínek.
+POSUVNÍK RYCHLOSTI PŘEHRÁVÁNÍ
+• Posuvník rychlosti přehrávání
 
-Mnoho lidí ho používá jako lehký nástroj digitálního detoxu pro YouTube,
-postavený na kontrole místo zákazů.
+BITRATE
+• Upřednostnit vylepšený datový tok (Premium)
+• Zvýšit zjištěnou šířku pásma (experimentální)
 
-PŘEDVOLBY NA JEDNO KLIKNUTÍ: LEHKÁ, VYVÁŽENÁ, VLASTNÍ
+KODEK
+• Vynutit H.264 (blokovat VP9/AV1)
+• Blokovat 60 fps
 
-Začněte hotovou předvolbou. Lehká pro jemné vyčištění, Vyvážená pro soustředěné
-nastavení, nebo si postavte vlastní profil přepínač po přepínači.
+PŘEHRÁVAČ
+• Skrýt tlačítko mini přehrávače
+• Skrýt tlačítko režimu kina
+• Skrýt tlačítko titulků
+• Skrýt přepínač automatického přehrávání
 
-Přepínejte předvolby při přechodu mezi prací a odpočinkem: YouTube je nástrojem,
-když ho potřebujete, a jinak nepřekáží.
+KANÁL
+• Skrýt upoutávku kanálu
+• Skrýt banner kanálu
 
-KOMPAKTNÍ ROZLOŽENÍ: VÍCE VIDEÍ NA OBRAZOVKU
+POSTRANNÍ PANEL
 
-Kompaktní režim promění domovský kanál, výsledky vyhledávání a doporučení na
-stránce videa v úhledný seznam nebo mřížku.
+SKRÝT POSTRANNÍ PANEL ÚPLNĚ
+• Skrýt postranní panel úplně
 
-Méně rolování, více výsledků na obrazovku a rozložení, které konečně respektuje
-velké monitory.
+HLAVNÍ NABÍDKA
+• Skrýt „Shorts“
 
-POSUVNÍK RYCHLOSTI A ČISTÝ PŘEHRÁVAČ
+VY
+• Skrýt „Můj kanál“
+• Skrýt „Historie“
+• Skrýt „Playlisty“
+• Skrýt „Vaše videa“
+• Skrýt „Přehrát později“
+• Skrýt „Videa s hodnocením To se mi líbí“
+• Skrýt „Filmy“
+• Skrýt „Stažená videa“
+• Skrýt tlačítko „Zobrazit více“
 
-Dolaďte rychlost přehrávání posuvníkem přímo v přehrávači, včetně samostatného
-ovládání rychlosti pro Shorts.
+SKRÝT SEZNAM ODBĚRŮ
+• Skrýt seznam odběrů
 
-Ukliďte přehrávač skrytím tlačítek mini přehrávače, režimu kina a titulků
-a vypněte automatické přehrávání, aby se další video nikdy nespustilo samo.
+PROZKOUMAT
+• Skrýt „Trendy“
+• Skrýt „Hudba“
+• Skrýt „Živě“
+• Skrýt „Hry“
+• Skrýt „Zprávy“
+• Skrýt „Sport“
+• Skrýt tlačítko „Zobrazit více“
 
-ČISTÉ VYHLEDÁVÁNÍ, ZÁHLAVÍ A POSTRANNÍ PANEL
+VÍCE OD YOUTUBE
+• Skrýt „YouTube Premium“
+• Skrýt „YouTube Music“
+• Skrýt „YouTube Kids“
+• Skrýt „YouTube Studio“
 
-Zjednodušte horní lištu skrytím hlasového vyhledávání, virtuální klávesnice,
-značek vyhledávání, tlačítka nahrávání a oznámení.
+SKRÝT PATIČKU A ODKAZY O SLUŽBĚ
+• Skrýt patičku a odkazy O službě
 
-Zredukujte levý panel na to podstatné, nebo ho skryjte úplně, včetně položek Vy,
-Historie, Playlisty, Přehrát později, Videa s hodnocením To se mi líbí, Odběry,
-Prozkoumat, Trendy, Hudba, Živě, Hry, Zprávy, Sport, Premium, YouTube Music,
-Kids, Studio a patičky.
-
-Vyčistěte i výsledky vyhledávání: související dotazy, informační karty a police
-kanálů.
-
-PRO KOHO JE YOUTUBE CLEAN
-
-• Studenti a badatelé, kteří potřebují YouTube na přednášky, ne na Shorts
-• Vývojáři a autoři, kteří sledují tutoriály během hluboké práce
-• Studenti jazyků využívající posuvník rychlosti u dlouhých videí
-• Rodiče, kteří chtějí klidnější YouTube na sdíleném počítači
-• Každý v digitálním detoxu, kdo přesto potřebuje YouTube k práci
-
-OTEVŘENÝ ZDROJOVÝ KÓD, LEHKOST A SOUKROMÍ
-
-YouTube Clean má zcela otevřený zdrojový kód a je postaven na Manifest V3.
-
-Bez účtů, bez sledování, bez analytiky, bez sběru dat. Vaše nastavení zůstávají
-v prohlížeči. Přečtěte si kód, nahlaste problém nebo navrhněte funkci na GitHubu.
-
-ČASTÉ DOTAZY
-
-Blokuje Shorts úplně?
-Ano. Shorts lze odstranit z domovského kanálu, vyhledávání, postranního panelu,
-stránek kanálů i levé nabídky. Můžete si je také nechat a vypnout jen
-automatický přechod.
-
-Odstraňuje reklamy na YouTube?
-Reklamy ve videu se přeskočí automaticky, jakmile to jde, a bannery,
-sponzorovaná videa v kanálu i propagační panely se skryjí. Je to nástroj na
-úklid YouTube, ne blokátor reklam na úrovni sítě.
-
-Bude zbytek YouTube fungovat normálně?
-Ano. Každá funkce je ve výchozím stavu vypnutá. Dokud nezapnete přepínač, nic se
-nemění, a vypnutí YouTube okamžitě vrátí do původní podoby.
-
-Sbírá moje data?
-Ne. Žádný účet, žádný server, žádná analytika. Nastavení se ukládají lokálně
-v prohlížeči.
-
-Které prohlížeče jsou podporovány?
-Chrome a Opera, na celém webu: domovský kanál, vyhledávání, stránka videa,
-kanály a přehrávač.
-
-YouTube se přizpůsobí vám, ne naopak.
-
-Zdrojový kód, hlášení chyb a návrhy funkcí:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

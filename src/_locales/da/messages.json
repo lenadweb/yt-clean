@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: bloker Shorts, skjul anbefalinger og reklamer"
+    "message": "YouTube Clean: skjul Shorts og anbefalinger"
   },
   "appDescription": {
-    "message": "Bloker Shorts, skjul anbefalinger, kommentarer og reklamer. 60+ kontakter til et rent YouTube uden forstyrrelser."
+    "message": "Bloker Shorts, skjul anbefalinger, kommentarer og reklamer. 60+ kontakter til et rent YouTube uden forstyrrelser. Open source."
   },
   "actionTitle": {
     "message": "Åbn YouTube-indstillinger"

@@ -1,141 +1,139 @@
-Zuia YouTube Shorts, ficha mapendekezo, ruka matangazo na ondoa kila kitu kingine
-kinachovuta umakini wako. YouTube Clean hugeuza YouTube kuwa mahali tulivu, pasipo
-vikwazo vya umakini, unapopadhibiti wewe mwenyewe.
+Zuia YouTube Shorts, ficha mapendekezo, ruka matangazo na ondoa kila kitu kingine kinachovuta umakini wako. YouTube Clean hugeuza YouTube kuwa mahali tulivu, pasipo vikwazo vya umakini, unapopadhibiti wewe mwenyewe.
 
-Vidhibiti 60+, kidirisha kimoja cha pembeni, matokeo ya papo hapo. Bila malipo,
-chanzo huria, hakuna akaunti, hakuna ufuatiliaji, hakuna ukusanyaji wa data.
+Vidhibiti 60+, kidirisha kimoja cha pembeni, matokeo ya papo hapo. Bila malipo, chanzo huria, hakuna akaunti, hakuna ufuatiliaji, hakuna ukusanyaji wa data.
 
 UNACHOWEZA KUFICHA AU KUZUIA
 
-• Shorts: ukurasa wa mwanzo, matokeo ya utafutaji, upau wa kando, kurasa za vituo
-• Mapendekezo: ukurasa wa mwanzo, safu kando ya video, kadi za skrini ya mwisho
-• Matangazo: kuruka matangazo ya video kiotomatiki, mabango, video zilizofadhiliwa
-• Maoni na gumzo la moja kwa moja
-• Michanganyiko, orodha za kucheza, Zinazovuma, Gundua na Habari
-• Rafu za bidhaa na tiketi, mabango na trela za vituo
-• Onyesho la kukagua otomatiki na maelezo marefu kupita kiasi ya video
-• Upau wa kando: ficha wote au kipengee kimoja baada ya kingine
-• Upau wa juu: utafutaji wa sauti, kibodi pepe, lebo, kupakia, arifa
-• Matokeo ya utafutaji: utafutaji unaohusiana, kadi za maelezo, rafu za vituo
+MIPANGILIO
+• Nyepesi
+• Uwiano
+• Kiwango cha juu
+• Maalum
+• Washa kiendelezi — Badilisha njia ya mkato
 
-ZUIA SHORTS NA KUSOGEZA BILA MWISHO
+KIOLEZO CHA MSINGI
 
-Video fupi ndicho mtego mkubwa zaidi wa umakini kwenye YouTube.
+UPAU WA KUTAFUTA
+• Ficha kitufe cha kutafuta kwa sauti
+• Ficha kitufe cha kibodi pepe
+• Ficha lebo za utafutaji
 
-YouTube Clean huondoa Shorts kwenye ukurasa wa mwanzo, matokeo ya utafutaji, upau
-wa kando na kurasa za vituo, ili ziara ya haraka isigeuke saa nzima ya kusogeza.
+VITENDO NA WASIFU
+• Ficha kitufe cha kupakia
+• Ficha arifa
 
-Unataka kubaki na Shorts? Tumia udhibiti maalum wa kasi wa Shorts na uzime
-kubadilisha kiotomatiki, ili Short moja ibaki Short moja badala ya mlisho usio na
-mwisho.
+MLISHO NA MAPENDEKEZO
 
-FICHA MAPENDEKEZO NA UCHAFU WA MLISHO
+HALI FUPI
+• Hali fupi
 
-Wewe ndiye unayeamua kinachobaki na kinachoondoka.
+VIZUIZI VYA MAUDHUI
+• Ficha sehemu za Shorts
+• Ficha Gundua na Habari
+• Zima onyesho la kukagua otomatiki
+• Ficha michanganyiko na orodha za kucheza
+• Ficha video za wanachama pekee
 
-Ficha video zinazopendekezwa, michanganyiko na orodha za kucheza, maoni, gumzo la
-moja kwa moja, kadi za skrini ya mwisho, rafu za bidhaa na tiketi, arifa na
-sehemu za Zinazovuma.
+VIDEO ULIZOTAZAMA
+• Ficha kwenye ukurasa wa mwanzo
+• Ficha kwenye usajili
+• Ficha kwenye kurasa za vituo
+• Ficha kwenye mapendekezo
 
-Punguza kelele ya kuona zaidi: zima onyesho la kukagua unapopitisha kishale, ficha
-mabango na trela za vituo, na punguza maelezo hadi kile unachosoma kwa kweli.
+UTAFUTAJI
+• Ficha vituo kwenye utafutaji
+• Ficha utafutaji unaohusiana
+• Ficha kadi ya maelezo ya utafutaji
+• Ficha rafu ya video za kituo
 
-RUKA MATANGAZO NA MAUDHUI YALIYOFADHILIWA
+MATANGAZO
+• Ficha mabango ya YouTube
+• Ficha video zilizofadhiliwa kwenye mlisho
+• Ficha paneli za maelezo ya matangazo
+• Ruka matangazo kiotomatiki (majaribio)
 
-Matangazo ya video hurukwa kiotomatiki mara tu kitufe cha Ruka kinapotokea.
+UKURASA WA VIDEO
 
-Mabango ya matangazo, video zilizofadhiliwa kwenye mlisho na paneli za utangazaji
-hufichwa kwenye mlisho na ukurasa wa kutazama, hivyo kuvinjari hakukatizwi.
+VIPENGELE VYA UKURASA
+• Ficha maoni
+• Ficha picha za kituo
+• Ficha kupenda/kutopenda
+• Ficha vitufe vya vitendo
+• Ficha maelezo
+• Ficha gumzo la moja kwa moja
+• Ficha bidhaa na tiketi
+• Ficha kadi za skrini ya mwisho
 
-YOUTUBE BILA VIKWAZO VYA UMAKINI KWA UMAKINI NA MASOMO
+MAELEZO
+• Ficha sehemu ya AI (Gemini)
+• Ficha nakala ya maandishi
+• Ficha watu waliotajwa
+• Ficha video zinazohusiana
+• Ficha kadi ya kituo
+• Ficha "Jinsi hii ilivyotengenezwa"
+• Ficha sura na vipindi
 
-YouTube Clean ni zana laini ya umakini, si kizuizi kikali.
+UCHEZAJI NA KITUO
 
-Hakuna kinachoondolewa hadi uombe, na kidirisha tulivu cha pembeni huweka kila
-mpangilio umbali wa mbofyo mmoja: hakuna akaunti, hakuna dashibodi, hakuna
-vikumbusho vya kuudhi.
+KITELEZI CHA KASI YA UCHEZAJI
+• Kitelezi cha kasi ya uchezaji
 
-Wengi huitumia kama zana nyepesi ya detoksi ya kidijitali kwa YouTube, iliyojengwa
-juu ya udhibiti badala ya makatazo.
+BITRATE
+• Pendelea kasi biti iliyoboreshwa (Premium)
+• Ongeza upana wa data uliotambuliwa (majaribio)
 
-MIPANGILIO YA MBOFYO MMOJA: NYEPESI, UWIANO, MAALUM
+KODEKI
+• Lazimisha H.264 (zuia VP9/AV1)
+• Zuia 60 fps
 
-Anza na mpangilio ulio tayari. Nyepesi kwa usafi laini, Uwiano kwa mpangilio wa
-umakini, au jenga wasifu wako Maalum kidhibiti baada ya kidhibiti.
+KICHEZA
+• Ficha kitufe cha kicheza kidogo
+• Ficha kitufe cha hali ya ukumbi
+• Ficha kitufe cha manukuu
+• Ficha swichi ya kucheza otomatiki
 
-Badilisha mpangilio unapohama kati ya kazi na mapumziko: YouTube inakuwa zana
-unapoihitaji na hujiondoa usipoihitaji.
+KITUO
+• Ficha trela ya kituo
+• Ficha bango la kituo
 
-MPANGILIO MFUPI: VIDEO NYINGI ZAIDI KWA KILA SKRINI
+UPAU WA KANDO
 
-Hali fupi hugeuza ukurasa wa mwanzo, matokeo ya utafutaji na mapendekezo ya
-ukurasa wa kutazama kuwa orodha au gridi nadhifu.
+FICHA UPAU WA KANDO KABISA
+• Ficha upau wa kando kabisa
 
-Kusogeza kidogo, matokeo mengi zaidi kwa kila skrini, na mpangilio ambao hatimaye
-unaheshimu skrini kubwa.
+MENYU KUU
+• Ficha "Shorts"
 
-KITELEZI CHA KASI NA KICHEZA SAFI
+WEWE
+• Ficha "Kituo changu"
+• Ficha "Historia"
+• Ficha "Orodha za kucheza"
+• Ficha "Video zako"
+• Ficha "Tazama baadaye"
+• Ficha "Video ulizopenda"
+• Ficha "Filamu"
+• Ficha "Vipakuliwa"
+• Ficha kitufe cha "Onyesha zaidi"
 
-Rekebisha kasi ya uchezaji kwa kitelezi ndani ya kicheza chenyewe, ikiwa ni pamoja
-na udhibiti tofauti wa kasi kwa Shorts.
+FICHA ORODHA YA USAJILI
+• Ficha orodha ya usajili
 
-Safisha kicheza kwa kuficha vitufe vya kicheza kidogo, hali ya ukumbi na manukuu,
-na uzime swichi ya kucheza otomatiki ili video inayofuata isianze yenyewe kamwe.
+GUNDUA
+• Ficha "Zinazovuma"
+• Ficha "Muziki"
+• Ficha "Moja kwa moja"
+• Ficha "Michezo ya video"
+• Ficha "Habari"
+• Ficha "Michezo"
+• Ficha kitufe cha "Onyesha zaidi"
 
-UTAFUTAJI, UPAU WA JUU NA UPAU WA KANDO SAFI
+ZAIDI KUTOKA YOUTUBE
+• Ficha "YouTube Premium"
+• Ficha "YouTube Music"
+• Ficha "YouTube Kids"
+• Ficha "YouTube Studio"
 
-Rahisisha upau wa juu kwa kuficha utafutaji wa sauti, kibodi ya skrini, lebo za
-utafutaji, kitufe cha kupakia na arifa.
+FICHA KIJACHINI NA VIUNGO VYA KUHUSU
+• Ficha kijachini na viungo vya Kuhusu
 
-Punguza upau wa kando wa kushoto hadi muhimu tu, au uufiche kabisa, ikiwa ni
-pamoja na Wewe, Historia, Orodha za kucheza, Tazama baadaye, Video ulizopenda,
-Usajili, Gundua, Zinazovuma, Muziki, Moja kwa moja, Michezo ya video, Habari,
-Michezo, Premium, YouTube Music, Kids, Studio na kijachini.
-
-Safisha pia matokeo ya utafutaji: utafutaji unaohusiana, kadi za maelezo na rafu
-za vituo.
-
-NANI ANATUMIA YOUTUBE CLEAN
-
-• Wanafunzi na watafiti wanaohitaji YouTube kwa mihadhara, si kwa Shorts
-• Wasanidi na waandishi wanaotazama mafunzo wakati wa kazi ya kina
-• Wanaojifunza lugha wanaotumia kitelezi cha kasi kwenye video ndefu
-• Wazazi wanaotaka YouTube tulivu zaidi kwenye kompyuta inayoshirikiwa
-• Yeyote aliye kwenye detoksi ya kidijitali lakini bado anahitaji YouTube kwa kazi
-
-CHANZO HURIA, NYEPESI NA YA FARAGHA
-
-YouTube Clean ni chanzo huria kabisa na imejengwa juu ya Manifest V3.
-
-Hakuna akaunti, hakuna ufuatiliaji, hakuna uchanganuzi, hakuna ukusanyaji wa data.
-Mipangilio yako hubaki kwenye kivinjari chako. Soma msimbo, ripoti tatizo au omba
-kipengele kwenye GitHub.
-
-MASWALI YANAYOULIZWA MARA KWA MARA
-
-Je, inazuia Shorts kabisa?
-Ndiyo. Shorts zinaweza kuondolewa kwenye ukurasa wa mwanzo, utafutaji, upau wa
-kando, kurasa za vituo na menyu ya kushoto. Unaweza pia kubaki na Shorts na kuzima
-tu kubadilisha kiotomatiki.
-
-Je, inaondoa matangazo ya YouTube?
-Matangazo ya video hurukwa kiotomatiki mara tu yanapoweza kurukwa, na mabango,
-video zilizofadhiliwa na paneli za utangazaji hufichwa. Ni zana ya kusafisha
-YouTube, si kizuizi cha matangazo cha kiwango cha mtandao.
-
-Je, sehemu nyingine ya YouTube itaendelea kufanya kazi kawaida?
-Ndiyo. Kila kipengele kimezimwa kwa chaguomsingi. Hakuna kinachobadilika hadi
-uwashe kidhibiti, na kukizima kunarejesha YouTube mara moja.
-
-Je, inakusanya data yangu?
-Hapana. Hakuna akaunti, hakuna seva, hakuna uchanganuzi. Mipangilio huhifadhiwa
-ndani ya kivinjari chako.
-
-Ni vivinjari vipi vinavyotumika?
-Chrome na Opera, kwenye tovuti nzima: ukurasa wa mwanzo, utafutaji, ukurasa wa
-kutazama, vituo na kicheza.
-
-YouTube inajirekebisha kulingana na wewe, si kinyume chake.
-
-Msimbo wa chanzo, ripoti za matatizo na maombi ya vipengele:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

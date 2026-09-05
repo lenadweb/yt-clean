@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: חסימת Shorts, הסתרת המלצות ופרסומות"
+    "message": "YouTube Clean: הסתרת Shorts והמלצות"
   },
   "appDescription": {
-    "message": "חסמו Shorts, הסתירו המלצות, תגובות ופרסומות. יותר מ-60 מתגים ליוטיוב נקי ונטול הסחות דעת."
+    "message": "חסמו Shorts, הסתירו המלצות, תגובות ופרסומות. יותר מ-60 מתגים ליוטיוב נקי ונטול הסחות דעת. קוד פתוח."
   },
   "actionTitle": {
     "message": "פתיחת הגדרות YouTube"

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: 封鎖 Shorts、隱藏推薦與廣告"
+    "message": "YouTube Clean: 隱藏 Shorts 和推薦"
   },
   "appDescription": {
-    "message": "封鎖 YouTube Shorts，隱藏推薦、留言和廣告。60+ 個開關，打造乾淨、專注、零干擾的 YouTube。"
+    "message": "封鎖 YouTube Shorts，隱藏推薦、留言和廣告。60+ 個開關，打造乾淨、專注、零干擾的 YouTube。 開放原始碼。"
   },
   "actionTitle": {
     "message": "開啟 YouTube 設定"

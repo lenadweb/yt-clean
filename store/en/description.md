@@ -1,134 +1,139 @@
-Block YouTube Shorts, hide recommendations, skip ads and remove everything else
-that pulls your attention away. YouTube Clean turns YouTube into a calm,
-distraction free space you actually control.
+Block YouTube Shorts, hide recommendations, skip ads and remove everything else that pulls your attention away. YouTube Clean turns YouTube into a calm, distraction free space you actually control.
 
-60+ toggles, one side panel, instant results. Free, open source, no account, no
-tracking, no data collection.
+60+ toggles, one side panel, instant results. Free, open source, no account, no tracking, no data collection.
 
 WHAT YOU CAN HIDE OR BLOCK
 
-• Shorts: home feed, search results, sidebar, channel pages, Shorts menu item
-• Recommendations: home feed, watch page sidebar, end screen cards
-• Ads: video ads skipped automatically, ad banners, sponsored feed videos
-• Comments and live chat
-• Mixes, playlists, Trending, Explore and News
-• Merch and ticket shelves, channel banners and trailers
-• Hover auto preview and bloated video descriptions
-• Sidebar: hide it completely or item by item
-• Header: voice search, virtual keyboard, search tags, upload, notifications
-• Search results: related searches, info cards, channel shelves
+PRESETS
+• Light
+• Balanced
+• Maximum
+• Custom
+• Toggle extension — Change shortcut
 
-BLOCK YOUTUBE SHORTS AND ENDLESS SCROLLING
+BASIC TEMPLATE
 
-Short videos are the biggest attention trap on YouTube.
+SEARCH BAR
+• Hide voice search button
+• Hide virtual keyboard button
+• Hide search tags
 
-YouTube Clean removes Shorts from the home feed, search results, sidebar and
-channel pages, so a quick visit does not turn into an hour of scrolling.
+ACTIONS & USER
+• Hide upload button
+• Hide notifications
 
-Prefer to keep Shorts? Use the dedicated Shorts speed control and turn off
-auto advance, so one Short stays one Short instead of an infinite feed.
+FEED & RECOMMENDATIONS
 
-HIDE YOUTUBE RECOMMENDATIONS AND FEED CLUTTER
+COMPACT MODE
+• Compact mode
 
-You decide what stays and what goes.
+CONTENT BLOCKS
+• Hide Shorts sections
+• Hide Explore & News
+• Disable auto-preview on hover
+• Hide Mixes & Playlists
+• Hide members-only videos
 
-Hide recommended videos, mixes and playlists, comments, live chat, end screen
-cards, merch and ticket shelves, notifications and Trending sections.
+WATCHED VIDEOS
+• Hide on Home
+• Hide in Subscriptions
+• Hide on channel pages
+• Hide in recommendations
 
-Cut visual noise further: turn off hover auto preview, hide channel banners and
-trailers, and strip the description down to what you actually read.
+SEARCH
+• Hide channels in search
+• Hide related searches
+• Hide search info card
+• Hide channel video shelf
 
-SKIP YOUTUBE ADS AND SPONSORED CONTENT
+ADS
+• Hide YouTube Banners
+• Hide Sponsored feed video
+• Hide ad info panels
+• Auto-skip ads (experimental)
 
-Video ads are skipped automatically as soon as the Skip button appears.
+VIDEO PAGE
 
-Ad banners, sponsored feed videos and promo info panels are hidden from the feed
-and the watch page, so browsing stays uninterrupted.
+PAGE ELEMENTS
+• Hide comments
+• Hide channel pictures
+• Hide like/dislike
+• Hide action buttons
+• Hide description
+• Hide live chat
+• Hide merch & tickets
+• Hide end screen cards
 
-DISTRACTION FREE YOUTUBE FOR FOCUS AND STUDY
+DESCRIPTION
+• Hide AI section (Gemini)
+• Hide transcript
+• Hide mentioned people
+• Hide related videos
+• Hide channel card
+• Hide "How this was made"
+• Hide chapters & episodes
 
-YouTube Clean is a gentle focus tool, not an aggressive blocker.
+VIDEO PLAYBACK & CHANNEL
 
-Nothing is removed until you ask for it, and a calm side panel keeps every
-control one click away: no accounts, no dashboards, no nagging reminders.
+SLIDER PLAYBACK SPEED CONTROL
+• Slider playback speed control
 
-Many people use it as a lightweight digital detox tool for YouTube, built around
-control instead of restriction.
+BITRATE
+• Prefer Enhanced Bitrate (Premium)
+• Boost detected bandwidth (experimental)
 
-ONE CLICK PRESETS: LIGHT, BALANCED, CUSTOM
+CODEC
+• Force H.264 (block VP9/AV1)
+• Block 60 fps
 
-Start from a ready made preset. Light for a gentle cleanup, Balanced for a
-focused setup, or build your own Custom profile toggle by toggle.
+PLAYER
+• Hide mini-size button
+• Hide wide-size button
+• Hide subtitles button
+• Hide autoplay switcher
 
-Switch presets when you move between work and downtime, so YouTube is a tool
-when you need one and stays out of the way when you do not.
+CHANNEL
+• Hide Channel trailer
+• Hide Channel banner
 
-COMPACT LAYOUT: MORE VIDEOS PER SCREEN
+SIDEBAR
 
-Compact mode turns the home feed, search results and watch page recommendations
-into a tidy list or grid.
+HIDE SIDEBAR COMPLETELY
+• Hide sidebar completely
 
-Less scrolling, more results per screen, and a layout that finally respects
-large monitors.
+MAIN MENU
+• Hide "Shorts"
 
-PLAYBACK SPEED SLIDER AND CLEANER PLAYER
+YOU
+• Hide "My channel"
+• Hide "History"
+• Hide "Playlists"
+• Hide "Your video"
+• Hide "Watch later"
+• Hide "Liked videos"
+• Hide "Movies"
+• Hide "Downloads"
+• Hide "Show more" button
 
-Fine tune playback with a speed slider right inside the player, including a
-separate speed control for Shorts.
+HIDE SUBSCRIPTIONS LIST
+• Hide Subscriptions list
 
-Clean up the player by hiding the miniplayer, theater and subtitle buttons, and
-turn off the autoplay switch so the next video never starts on its own.
+EXPLORE
+• Hide "Trending"
+• Hide "Music"
+• Hide "Live"
+• Hide "Gaming"
+• Hide "News"
+• Hide "Sports"
+• Hide "Show more" button
 
-CLEAN SEARCH, HEADER AND SIDEBAR
+MORE FROM YOUTUBE
+• Hide "YouTube Premium"
+• Hide "YouTube Music"
+• Hide "YouTube Kids"
+• Hide "YouTube Studio"
 
-Simplify the top bar by hiding voice search, the virtual keyboard, search tags,
-the upload button and notifications.
+HIDE FOOTER & ABOUT LINKS
+• Hide Footer & About links
 
-Trim the left sidebar down to essentials, or hide it entirely, including You,
-History, Playlists, Watch Later, Liked videos, Subscriptions, Explore, Trending,
-Music, Live, Gaming, News, Sports, Premium, YouTube Music, Kids, Studio and the
-footer.
-
-Clean up search results too: related searches, info cards and channel shelves.
-
-WHO USES YOUTUBE CLEAN
-
-• Students and researchers who need YouTube for lectures, not for Shorts
-• Developers and writers who watch tutorials during deep work
-• Language learners using the playback speed slider on long form videos
-• Parents who want a calmer YouTube on a shared computer
-• Anyone doing a digital detox who still needs YouTube for real work
-
-OPEN SOURCE, LIGHTWEIGHT AND PRIVATE
-
-YouTube Clean is fully open source and built on Manifest V3.
-
-No accounts, no tracking, no analytics, no data collection. Your settings stay
-in your browser. Read the code, report an issue or request a feature on GitHub.
-
-FAQ
-
-Does it block YouTube Shorts completely?
-Yes. Shorts can be removed from the home feed, search, sidebar, channel pages
-and the left menu. You can also keep Shorts and just disable auto advance.
-
-Does it remove YouTube ads?
-Video ads are skipped automatically as soon as they become skippable, and ad
-banners, sponsored feed videos and promo panels are hidden. It is a YouTube
-cleanup tool, not a network level ad blocker.
-
-Will the rest of YouTube keep working?
-Yes. Every feature is off by default and opt in. Nothing changes until you turn
-a toggle on, and turning it off restores YouTube instantly.
-
-Does it collect my data?
-No. There is no account, no server and no analytics. Settings are stored locally
-in your browser.
-
-Which browsers are supported?
-Chrome and Opera, across the whole site: home feed, search, watch page, channels
-and the player.
-
-YouTube adapts to you, not the other way around.
-
-Source code, issues and feature requests: https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: estä Shorts, piilota suositukset ja mainokset"
+    "message": "YouTube Clean: piilota Shorts ja suositukset"
   },
   "appDescription": {
-    "message": "Estä Shorts, piilota suositukset, kommentit ja mainokset. Yli 60 kytkintä siistiin, häiriöttömään YouTubeen."
+    "message": "Estä Shorts, piilota suositukset, kommentit ja mainokset. Yli 60 kytkintä siistiin, häiriöttömään YouTubeen. Avoin lähdekoodi."
   },
   "actionTitle": {
     "message": "Avaa YouTube-asetukset"

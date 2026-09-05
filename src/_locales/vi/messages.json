@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: chặn Shorts, ẩn đề xuất và quảng cáo"
+    "message": "YouTube Clean: ẩn Shorts và đề xuất"
   },
   "appDescription": {
-    "message": "Chặn Shorts, ẩn đề xuất, bình luận và quảng cáo. Hơn 60 công tắc cho một YouTube gọn gàng, không xao nhãng."
+    "message": "Chặn Shorts, ẩn đề xuất, bình luận và quảng cáo. Hơn 60 công tắc cho một YouTube gọn gàng, không xao nhãng. Mã nguồn mở."
   },
   "actionTitle": {
     "message": "Mở cài đặt YouTube"

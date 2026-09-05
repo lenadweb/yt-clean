@@ -1,140 +1,139 @@
-YouTube Shorts'u engelleyin, önerileri gizleyin, reklamları atlayın ve dikkatinizi
-dağıtan her şeyi kaldırın. YouTube Clean, YouTube'u kendi kontrolünüzdeki sakin
-ve dikkat dağıtmayan bir alana dönüştürür.
+YouTube Shorts'u engelleyin, önerileri gizleyin, reklamları atlayın ve dikkatinizi dağıtan her şeyi kaldırın. YouTube Clean, YouTube'u kendi kontrolünüzdeki sakin ve dikkat dağıtmayan bir alana dönüştürür.
 
-60'tan fazla ayar, tek bir yan panel, anında sonuç. Ücretsiz, açık kaynak,
-hesap yok, takip yok, veri toplama yok.
+60'tan fazla ayar, tek bir yan panel, anında sonuç. Ücretsiz, açık kaynak, hesap yok, takip yok, veri toplama yok.
 
 NELERİ GİZLEYEBİLİR VEYA ENGELLEYEBİLİRSİNİZ
 
-• Shorts: ana sayfa, arama sonuçları, kenar çubuğu, kanal sayfaları, menü öğesi
-• Öneriler: ana sayfa, izleme sayfası kenar sütunu, bitiş ekranı kartları
-• Reklamlar: video reklamlarını otomatik atlama, banner'lar, sponsorlu videolar
-• Yorumlar ve canlı sohbet
-• Mix'ler, oynatma listeleri, Trendler, Keşfet ve Haberler
-• Ürün ve bilet rafları, kanal banner'ları ve fragmanları
-• Üzerine gelince otomatik önizleme ve şişirilmiş video açıklamaları
-• Kenar çubuğu: tamamen veya öğe öğe gizleyin
-• Üst bar: sesli arama, sanal klavye, arama etiketleri, yükleme, bildirimler
-• Arama sonuçları: ilgili aramalar, bilgi kartları, kanal rafları
+PROFILLER
+• Hafif
+• Dengeli
+• Maksimum
+• Özel
+• Uzantıyı aç/kapat — Kısayolu değiştir
 
-YOUTUBE SHORTS VE SONSUZ KAYDIRMAYI ENGELLEYİN
+TEMEL ŞABLON
 
-Kısa videolar, YouTube'daki en büyük dikkat tuzağıdır.
+ARAMA ÇUBUĞU
+• Sesli arama düğmesini gizle
+• Sanal klavye düğmesini gizle
+• Arama etiketlerini gizle
 
-YouTube Clean; Shorts'u ana sayfadan, arama sonuçlarından, kenar çubuğundan ve
-kanal sayfalarından kaldırır, böylece kısa bir ziyaret bir saatlik kaydırmaya
-dönüşmez.
+İŞLEMLER VE PROFIL
+• Yükleme düğmesini gizle
+• Bildirimleri gizle
 
-Shorts kalsın mı istiyorsunuz? Shorts'a özel hız kontrolünü kullanın ve otomatik
-geçişi kapatın; böylece bir Shorts sonsuz bir akış değil, tek bir Shorts olarak
-kalır.
+AKIŞ VE ÖNERILER
 
-ÖNERİLERİ VE AKIŞ KARMAŞASINI GİZLEYİN
+KOMPAKT MOD
+• Kompakt mod
 
-Neyin kalacağına ve neyin gideceğine siz karar verirsiniz.
+İÇERIK BLOKLARI
+• Shorts bölümlerini gizle
+• Keşfet ve Haberler'i gizle
+• Üzerine gelince otomatik önizlemeyi kapat
+• Mix ve oynatma listelerini gizle
+• Yalnızca üyelere özel videoları gizle
 
-Önerilen videoları, mix ve oynatma listelerini, yorumları, canlı sohbeti, bitiş
-ekranı kartlarını, ürün ve bilet raflarını, bildirimleri ve trend bölümlerini
-gizleyin.
+İZLENEN VIDEOLAR
+• Ana sayfada gizle
+• Aboneliklerde gizle
+• Kanal sayfalarında gizle
+• Önerilerde gizle
 
-Görsel gürültüyü daha da azaltın: üzerine gelince önizlemeyi kapatın, kanal
-banner ve fragmanlarını gizleyin, açıklamayı gerçekten okuduğunuz kısma indirin.
+ARAMA
+• Aramada kanalları gizle
+• İlgili aramaları gizle
+• Arama bilgi kartını gizle
+• Kanal video rafını gizle
 
-REKLAMLARI VE SPONSORLU İÇERİĞİ ATLAYIN
+REKLAMLAR
+• YouTube banner'larını gizle
+• Akıştaki sponsorlu videoları gizle
+• Reklam bilgi panellerini gizle
+• Reklamları otomatik atla (deneysel)
 
-Video reklamları, Atla düğmesi belirir belirmez otomatik olarak atlanır.
+VIDEO SAYFASI
 
-Reklam banner'ları, akıştaki sponsorlu videolar ve promosyon bilgi panelleri hem
-akışta hem izleme sayfasında gizlenir, böylece gezinme kesintisiz kalır.
+SAYFA ÖĞELERI
+• Yorumları gizle
+• Kanal görsellerini gizle
+• Beğeni/beğenmeme gizle
+• İşlem düğmelerini gizle
+• Açıklamayı gizle
+• Canlı sohbeti gizle
+• Ürün ve biletleri gizle
+• Bitiş ekranı kartlarını gizle
 
-ODAK VE ÇALIŞMA İÇİN DİKKAT DAĞITMAYAN YOUTUBE
+AÇIKLAMA
+• Yapay zeka bölümünü gizle (Gemini)
+• Transkripti gizle
+• Bahsedilen kişileri gizle
+• İlgili videoları gizle
+• Kanal kartını gizle
+• "Bu nasıl yapıldı" gizle
+• Bölümleri ve kısımları gizle
 
-YouTube Clean saldırgan bir engelleyici değil, nazik bir odaklanma aracıdır.
+OYNATMA VE KANAL
 
-Siz istemeden hiçbir şey kaldırılmaz ve sakin bir yan panel her ayarı tek tıkla
-ulaşılır tutar: hesap yok, kontrol paneli yok, dırdır eden hatırlatmalar yok.
+OYNATMA HIZI KAYDIRICISI
+• Oynatma hızı kaydırıcısı
 
-Birçok kişi bunu YouTube için hafif bir dijital detoks aracı olarak kullanıyor:
-yasak değil, kontrol odaklı.
+BITRATE
+• Gelişmiş bit hızını tercih et (Premium)
+• Algılanan bant genişliğini artır (deneysel)
 
-TEK TIKLA HAZIR AYARLAR: HAFİF, DENGELİ, ÖZEL
+KODEK
+• H.264'ü zorla (VP9/AV1'i engelle)
+• 60 fps'yi engelle
 
-Hazır bir profille başlayın. Nazik bir temizlik için Hafif, odaklı bir kurulum
-için Dengeli veya ayar ayar kendi Özel profilinizi oluşturun.
+OYNATICI
+• Mini oynatıcı düğmesini gizle
+• Geniş ekran düğmesini gizle
+• Altyazı düğmesini gizle
+• Otomatik oynatma anahtarını gizle
 
-İş ve dinlenme arasında geçiş yaparken profili değiştirin: YouTube ihtiyacınız
-olduğunda bir araç olur, olmadığında yoldan çekilir.
+KANAL
+• Kanal fragmanını gizle
+• Kanal banner'ını gizle
 
-KOMPAKT DÜZEN: EKRAN BAŞINA DAHA FAZLA VİDEO
+KENAR ÇUBUĞU
 
-Kompakt mod; ana sayfayı, arama sonuçlarını ve izleme sayfası önerilerini derli
-toplu bir liste veya ızgaraya dönüştürür.
+KENAR ÇUBUĞUNU TAMAMEN GIZLE
+• Kenar çubuğunu tamamen gizle
 
-Daha az kaydırma, ekran başına daha çok sonuç ve büyük monitörlere nihayet saygı
-duyan bir düzen.
+ANA MENÜ
+• "Shorts" gizle
 
-OYNATMA HIZI KAYDIRICISI VE SADE OYNATICI
+SIZ
+• "Kanalım" gizle
+• "Geçmiş" gizle
+• "Oynatma listeleri" gizle
+• "Videolarınız" gizle
+• "Daha sonra izle" gizle
+• "Beğenilen videolar" gizle
+• "Filmler" gizle
+• "İndirilenler" gizle
+• "Daha fazla göster" düğmesini gizle
 
-Oynatma hızını doğrudan oynatıcı içindeki kaydırıcıyla ince ayarlayın; Shorts
-için ayrı bir hız kontrolü de var.
+ABONELIK LISTESINI GIZLE
+• Abonelik listesini gizle
 
-Mini oynatıcı, sinema ve altyazı düğmelerini gizleyerek oynatıcıyı sadeleştirin
-ve otomatik oynatma anahtarını kapatın, böylece sonraki video asla kendiliğinden
-başlamaz.
+KEŞFET
+• "Trendler" gizle
+• "Müzik" gizle
+• "Canlı" gizle
+• "Oyun" gizle
+• "Haberler" gizle
+• "Spor" gizle
+• "Daha fazla göster" düğmesini gizle
 
-TEMİZ ARAMA, ÜST BAR VE KENAR ÇUBUĞU
+YOUTUBE'DAN DAHA FAZLASI
+• "YouTube Premium" gizle
+• "YouTube Music" gizle
+• "YouTube Kids" gizle
+• "YouTube Studio" gizle
 
-Sesli aramayı, sanal klavyeyi, arama etiketlerini, yükleme düğmesini ve
-bildirimleri gizleyerek üst barı sadeleştirin.
+ALT BILGI VE HAKKINDA BAĞLANTILARINI GIZLE
+• Alt bilgi ve Hakkında bağlantılarını gizle
 
-Sol kenar çubuğunu temel öğelere indirin veya tamamen gizleyin: Siz, Geçmiş,
-Oynatma listeleri, Daha sonra izle, Beğenilen videolar, Abonelikler, Keşfet,
-Trendler, Müzik, Canlı, Oyun, Haberler, Spor, Premium, YouTube Music, Kids,
-Studio ve alt bilgi dahil.
-
-Arama sonuçlarını da temizleyin: ilgili aramalar, bilgi kartları ve kanal
-rafları.
-
-YOUTUBE CLEAN KİMLER İÇİN
-
-• YouTube'u Shorts için değil dersler için kullanan öğrenciler ve araştırmacılar
-• Derin çalışma sırasında eğitim videoları izleyen geliştiriciler ve yazarlar
-• Uzun videolarda hız kaydırıcısını kullanan dil öğrenenler
-• Ortak bilgisayarda daha sakin bir YouTube isteyen ebeveynler
-• Dijital detokstayken bile işi için YouTube'a ihtiyaç duyan herkes
-
-AÇIK KAYNAK, HAFİF VE GİZLİ
-
-YouTube Clean tamamen açık kaynaktır ve Manifest V3 üzerine kuruludur.
-
-Hesap yok, takip yok, analitik yok, veri toplama yok. Ayarlarınız tarayıcınızda
-kalır. Kodu okuyun, sorun bildirin veya GitHub'da yeni özellik isteyin.
-
-SIKÇA SORULAN SORULAR
-
-Shorts'u tamamen engelliyor mu?
-Evet. Shorts; ana sayfadan, aramadan, kenar çubuğundan, kanal sayfalarından ve
-sol menüden kaldırılabilir. Shorts'u tutup yalnızca otomatik geçişi de
-kapatabilirsiniz.
-
-YouTube reklamlarını kaldırıyor mu?
-Video reklamları atlanabilir hale gelir gelmez otomatik atlanır; banner'lar,
-sponsorlu akış videoları ve promosyon panelleri gizlenir. Bu bir YouTube
-temizleme aracıdır, ağ düzeyinde bir reklam engelleyici değildir.
-
-YouTube'un geri kalanı normal çalışmaya devam eder mi?
-Evet. Her özellik varsayılan olarak kapalıdır. Siz bir ayarı açana kadar hiçbir
-şey değişmez ve kapatmak YouTube'u anında eski haline getirir.
-
-Verilerimi topluyor mu?
-Hayır. Hesap, sunucu ve analitik yok. Ayarlar tarayıcınızda yerel olarak saklanır.
-
-Hangi tarayıcılar destekleniyor?
-Chrome ve Opera; sitenin tamamında: ana sayfa, arama, izleme sayfası, kanallar
-ve oynatıcı.
-
-YouTube size uyum sağlar, tersi değil.
-
-Kaynak kodu, hata bildirimleri ve özellik istekleri:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

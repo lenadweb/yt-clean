@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokuj Shorts, ukryj rekomendacje i reklamy"
+    "message": "YouTube Clean: ukryj Shorts i rekomendacje"
   },
   "appDescription": {
-    "message": "Blokuj Shorts, ukrywaj rekomendacje, komentarze i reklamy. Ponad 60 przełączników dla czystego YouTube bez rozpraszaczy."
+    "message": "Blokuj Shorts, ukrywaj rekomendacje, komentarze i reklamy. Ponad 60 ustawień YouTube. Open source."
   },
   "actionTitle": {
     "message": "Otwórz ustawienia YouTube"

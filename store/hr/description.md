@@ -1,141 +1,139 @@
-Blokirajte YouTube Shorts, sakrijte preporuke, preskočite oglase i uklonite sve
-ostalo što odvlači pozornost. YouTube Clean pretvara YouTube u miran prostor bez
-ometanja kojim upravljate vi.
+Blokirajte YouTube Shorts, sakrijte preporuke, preskočite oglase i uklonite sve ostalo što odvlači pozornost. YouTube Clean pretvara YouTube u miran prostor bez ometanja kojim upravljate vi.
 
-Više od 60 preklopnika, jedna bočna traka, trenutačan učinak. Besplatno, otvoreni
-kod, bez računa, bez praćenja, bez prikupljanja podataka.
+Više od 60 preklopnika, jedna bočna traka, trenutačan učinak. Besplatno, otvoreni kod, bez računa, bez praćenja, bez prikupljanja podataka.
 
 ŠTO MOŽETE SAKRITI ILI BLOKIRATI
 
-• Shorts: početna, rezultati pretraživanja, bočna traka, kanali, stavka izbornika
-• Preporuke: početna, stupac uz videozapis, kartice na kraju
-• Oglasi: automatsko preskakanje video oglasa, banneri, sponzorirani videozapisi
-• Komentari i chat uživo
-• Mixevi, playliste, U trendu, Istraži i Vijesti
-• Police s proizvodima i ulaznicama, banneri i najave kanala
-• Automatski pregled pri prelasku mišem i predugi opisi videozapisa
-• Bočna traka: sakrijte je u cijelosti ili stavku po stavku
-• Zaglavlje: glasovno pretraživanje, tipkovnica, oznake, prijenos, obavijesti
-• Rezultati pretraživanja: povezana pretraživanja, kartice, police kanala
+PREDLOŠCI
+• Lagan
+• Uravnotežen
+• Maksimalan
+• Prilagođen
+• Uključi proširenje — Promijeni prečac
 
-BLOKIRAJTE SHORTS I BESKONAČNO POMICANJE
+OSNOVNI PREDLOŽAK
 
-Kratki videozapisi najveća su zamka za pozornost na YouTubeu.
+TRAKA ZA PRETRAŽIVANJE
+• Sakrij gumb glasovnog pretraživanja
+• Sakrij gumb virtualne tipkovnice
+• Sakrij oznake pretraživanja
 
-YouTube Clean uklanja Shorts s početne stranice, iz rezultata pretraživanja, s
-bočne trake i sa stranica kanala, kako se kratki posjet ne bi pretvorio u sat
-pomicanja.
+RADNJE I PROFIL
+• Sakrij gumb za prijenos
+• Sakrij obavijesti
 
-Želite ih zadržati? Upotrijebite zasebnu kontrolu brzine za Shorts i isključite
-automatski prijelaz, tako da jedan Short ostane jedan Short, a ne beskonačni
-feed.
+FEED I PREPORUKE
 
-SAKRIJTE PREPORUKE I NERED U FEEDU
+KOMPAKTNI NAČIN
+• Kompaktni način
 
-Vi odlučujete što ostaje, a što nestaje.
+BLOKOVI SADRŽAJA
+• Sakrij Shorts odjeljke
+• Sakrij Istraži i Vijesti
+• Isključi automatski pregled pri prelasku
+• Sakrij mixeve i playliste
+• Sakrij videozapise samo za članove
 
-Sakrijte preporučene videozapise, mixeve i playliste, komentare, chat uživo,
-kartice na kraju, police s proizvodima i ulaznicama, obavijesti i odjeljke U
-trendu.
+GLEDANI VIDEOZAPISI
+• Sakrij na početnoj stranici
+• Sakrij u pretplatama
+• Sakrij na stranicama kanala
+• Sakrij u preporukama
 
-Dodatno smanjite vizualni šum: isključite pregled pri prelasku mišem, sakrijte
-bannere i najave kanala te skratite opis na ono što stvarno čitate.
+PRETRAŽIVANJE
+• Sakrij kanale u pretraživanju
+• Sakrij povezana pretraživanja
+• Sakrij informativnu karticu
+• Sakrij policu videozapisa kanala
 
-PRESKOČITE OGLASE I SPONZORIRANI SADRŽAJ
+OGLASI
+• Sakrij YouTube bannere
+• Sakrij sponzorirane videozapise
+• Sakrij oglasne informacijske ploče
+• Automatski preskoči oglase (eksperimentalno)
 
-Video oglasi preskaču se automatski čim se pojavi gumb Preskoči.
+STRANICA VIDEOZAPISA
 
-Oglasni banneri, sponzorirani videozapisi u feedu i promotivne ploče skrivaju se
-u feedu i na stranici gledanja, pa pregledavanje ostaje neprekinuto.
+ELEMENTI STRANICE
+• Sakrij komentare
+• Sakrij slike kanala
+• Sakrij sviđanja
+• Sakrij gumbe radnji
+• Sakrij opis
+• Sakrij chat uživo
+• Sakrij proizvode i ulaznice
+• Sakrij kartice na kraju
 
-YOUTUBE BEZ OMETANJA ZA FOKUS I UČENJE
+OPIS
+• Sakrij AI odjeljak (Gemini)
+• Sakrij transkript
+• Sakrij spomenute osobe
+• Sakrij povezane videozapise
+• Sakrij karticu kanala
+• Sakrij „Kako je ovo nastalo”
+• Sakrij poglavlja i epizode
 
-YouTube Clean nježan je alat za fokus, a ne agresivan blokator.
+REPRODUKCIJA I KANAL
 
-Ništa se ne uklanja dok to sami ne zatražite, a mirna bočna traka drži svaku
-postavku na jedan klik: bez računa, bez nadzornih ploča, bez dosadnih podsjetnika.
+KLIZAČ BRZINE REPRODUKCIJE
+• Klizač brzine reprodukcije
 
-Mnogi ga koriste kao lagani alat za digitalni detoks za YouTube, temeljen na
-kontroli umjesto na zabranama.
+BITRATE
+• Preferiraj poboljšanu brzinu prijenosa (Premium)
+• Povećaj otkrivenu propusnost (eksperimentalno)
 
-PREDLOŠCI U JEDAN KLIK: LAGAN, URAVNOTEŽEN, VLASTITI
+KODEK
+• Prisili H.264 (blokiraj VP9/AV1)
+• Blokiraj 60 fps
 
-Krenite od gotovog predloška. Lagan za nježno čišćenje, Uravnotežen za fokusiran
-postav ili izgradite vlastiti profil preklopnik po preklopnik.
+PLAYER
+• Sakrij gumb mini playera
+• Sakrij gumb kino načina
+• Sakrij gumb titlova
+• Sakrij prekidač automatske reprodukcije
 
-Mijenjajte predložak pri prijelazu između posla i odmora: YouTube je alat kad vam
-treba i miče se s puta kad ne treba.
+KANAL
+• Sakrij najavu kanala
+• Sakrij banner kanala
 
-KOMPAKTNI RASPORED: VIŠE VIDEOZAPISA PO ZASLONU
+BOČNA TRAKA
 
-Kompaktni način pretvara početnu stranicu, rezultate pretraživanja i preporuke na
-stranici videozapisa u uredan popis ili mrežu.
+POTPUNO SAKRIJ BOČNU TRAKU
+• Potpuno sakrij bočnu traku
 
-Manje pomicanja, više rezultata po zaslonu i raspored koji napokon poštuje velike
-monitore.
+GLAVNI IZBORNIK
+• Sakrij „Shorts”
 
-KLIZAČ BRZINE I ČIST PLAYER
+VI
+• Sakrij „Moj kanal”
+• Sakrij „Povijest”
+• Sakrij „Playliste”
+• Sakrij „Vaši videozapisi”
+• Sakrij „Gledaj poslije”
+• Sakrij „Videozapisi koji mi se sviđaju”
+• Sakrij „Filmovi”
+• Sakrij „Preuzimanja”
+• Sakrij gumb „Prikaži više”
 
-Fino podesite brzinu reprodukcije klizačem izravno u playeru, uključujući zasebnu
-kontrolu brzine za Shorts.
+SAKRIJ POPIS PRETPLATA
+• Sakrij popis pretplata
 
-Očistite player skrivanjem gumba mini playera, kino načina i titlova te
-isključite automatsku reprodukciju kako sljedeći videozapis nikad ne bi krenuo sam.
+ISTRAŽI
+• Sakrij „U trendu”
+• Sakrij „Glazba”
+• Sakrij „Uživo”
+• Sakrij „Igre”
+• Sakrij „Vijesti”
+• Sakrij „Sport”
+• Sakrij gumb „Prikaži više”
 
-ČISTO PRETRAŽIVANJE, ZAGLAVLJE I BOČNA TRAKA
+VIŠE S YOUTUBEA
+• Sakrij „YouTube Premium”
+• Sakrij „YouTube Music”
+• Sakrij „YouTube Kids”
+• Sakrij „YouTube Studio”
 
-Pojednostavite gornju traku skrivanjem glasovnog pretraživanja, virtualne
-tipkovnice, oznaka pretraživanja, gumba za prijenos i obavijesti.
+SAKRIJ PODNOŽJE I POVEZNICE O NAMA
+• Sakrij podnožje i poveznice O nama
 
-Svedite lijevu bočnu traku na bitno ili je sakrijte u cijelosti, uključujući Vi,
-Povijest, Playliste, Gledaj poslije, Videozapisi koji mi se sviđaju, Pretplate,
-Istraži, U trendu, Glazba, Uživo, Igre, Vijesti, Sport, Premium, YouTube Music,
-Kids, Studio i podnožje.
-
-Očistite i rezultate pretraživanja: povezana pretraživanja, informativne kartice
-i police kanala.
-
-ZA KOGA JE YOUTUBE CLEAN
-
-• Studente i istraživače kojima YouTube treba za predavanja, a ne za Shorts
-• Programere i autore koji gledaju vodiče tijekom dubokog rada
-• One koji uče jezike i koriste klizač brzine na dugim videozapisima
-• Roditelje koji žele mirniji YouTube na zajedničkom računalu
-• Svakoga na digitalnom detoksu kome YouTube i dalje treba za posao
-
-OTVORENI KOD, LAGAN I PRIVATAN
-
-YouTube Clean je potpuno otvorenog koda i izgrađen na Manifest V3.
-
-Bez računa, bez praćenja, bez analitike, bez prikupljanja podataka. Vaše postavke
-ostaju u vašem pregledniku. Pročitajte kod, prijavite problem ili zatražite
-značajku na GitHubu.
-
-ČESTA PITANJA
-
-Blokira li Shorts u potpunosti?
-Da. Shorts se mogu ukloniti s početne stranice, iz pretraživanja, s bočne trake,
-sa stranica kanala i iz lijevog izbornika. Možete ih i zadržati te isključiti
-samo automatski prijelaz.
-
-Uklanja li YouTube oglase?
-Video oglasi preskaču se automatski čim ih je moguće preskočiti, a banneri,
-sponzorirani videozapisi i promotivne ploče skrivaju se. Riječ je o alatu za
-čišćenje YouTubea, a ne o blokatoru oglasa na razini mreže.
-
-Hoće li ostatak YouTubea normalno raditi?
-Da. Svaka je značajka prema zadanome isključena. Ništa se ne mijenja dok ne
-uključite preklopnik, a isključivanje odmah vraća YouTube.
-
-Prikuplja li moje podatke?
-Ne. Nema računa, nema poslužitelja, nema analitike. Postavke se spremaju lokalno
-u vašem pregledniku.
-
-Koji su preglednici podržani?
-Chrome i Opera, na cijelom sajtu: početna, pretraživanje, stranica videozapisa,
-kanali i player.
-
-YouTube se prilagođava vama, a ne obrnuto.
-
-Izvorni kod, prijave problema i zahtjevi za značajke:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

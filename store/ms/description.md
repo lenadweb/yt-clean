@@ -1,141 +1,139 @@
-Sekat YouTube Shorts, sembunyikan cadangan, langkau iklan dan buang segala yang
-lain yang menarik perhatian anda. YouTube Clean menjadikan YouTube ruang yang
-tenang dan bebas gangguan yang anda kawal.
+Sekat YouTube Shorts, sembunyikan cadangan, langkau iklan dan buang segala yang lain yang menarik perhatian anda. YouTube Clean menjadikan YouTube ruang yang tenang dan bebas gangguan yang anda kawal.
 
-60+ suis, satu panel sisi, kesan serta-merta. Percuma, sumber terbuka, tiada
-akaun, tiada penjejakan, tiada pengumpulan data.
+60+ suis, satu panel sisi, kesan serta-merta. Percuma, sumber terbuka, tiada akaun, tiada penjejakan, tiada pengumpulan data.
 
 APA YANG BOLEH DISEMBUNYIKAN ATAU DISEKAT
 
-• Shorts: laman utama, hasil carian, bar sisi, halaman saluran, item menu
-• Cadangan: laman utama, lajur di sebelah video, kad skrin akhir
-• Iklan: iklan video dilangkau automatik, sepanduk, video tajaan dalam suapan
-• Komen dan sembang langsung
-• Mix, senarai main, Sohor kini, Terokai dan Berita
-• Rak barangan dan tiket, sepanduk dan treler saluran
-• Pratonton automatik semasa tuding dan penerangan video yang berjela
-• Bar sisi: sembunyikan sepenuhnya atau item demi item
-• Bar atas: carian suara, papan kekunci maya, tag, muat naik, pemberitahuan
-• Hasil carian: carian berkaitan, kad maklumat, rak saluran
+PRATETAP
+• Ringan
+• Seimbang
+• Maksimum
+• Tersuai
+• Hidupkan sambungan — Tukar pintasan
 
-SEKAT SHORTS DAN TATAL TANPA HENTI
+TEMPLAT ASAS
 
-Video pendek ialah perangkap perhatian terbesar di YouTube.
+BAR CARIAN
+• Sembunyikan butang carian suara
+• Sembunyikan butang papan kekunci maya
+• Sembunyikan tag carian
 
-YouTube Clean membuang Shorts daripada laman utama, hasil carian, bar sisi dan
-halaman saluran, supaya lawatan singkat tidak bertukar menjadi satu jam menatal.
+TINDAKAN DAN PROFIL
+• Sembunyikan butang muat naik
+• Sembunyikan pemberitahuan
 
-Mahu kekalkan Shorts? Gunakan kawalan kelajuan khusus Shorts dan matikan
-peralihan automatik, supaya satu Shorts kekal satu Shorts, bukan suapan tanpa
-penghujung.
+SUAPAN DAN CADANGAN
 
-SEMBUNYIKAN CADANGAN DAN KEKACAUAN SUAPAN
+MOD PADAT
+• Mod padat
 
-Anda yang menentukan apa yang kekal dan apa yang pergi.
+BLOK KANDUNGAN
+• Sembunyikan bahagian Shorts
+• Sembunyikan Terokai dan Berita
+• Matikan pratonton automatik semasa tuding
+• Sembunyikan mix dan senarai main
+• Sembunyikan video ahli sahaja
 
-Sembunyikan video dicadangkan, mix dan senarai main, komen, sembang langsung, kad
-skrin akhir, rak produk dan tiket, pemberitahuan dan bahagian Sohor kini.
+VIDEO YANG TELAH DITONTON
+• Sembunyikan di halaman utama
+• Sembunyikan dalam Langganan
+• Sembunyikan di halaman saluran
+• Sembunyikan dalam cadangan
 
-Kurangkan lagi hingar visual: matikan pratonton semasa tuding, sembunyikan
-sepanduk dan treler saluran, dan pendekkan penerangan kepada apa yang benar-benar
-anda baca.
+CARIAN
+• Sembunyikan saluran dalam carian
+• Sembunyikan carian berkaitan
+• Sembunyikan kad maklumat carian
+• Sembunyikan rak video saluran
 
-LANGKAU IKLAN DAN KANDUNGAN TAJAAN
+IKLAN
+• Sembunyikan sepanduk YouTube
+• Sembunyikan video tajaan dalam suapan
+• Sembunyikan panel maklumat iklan
+• Langkau iklan secara automatik (eksperimen)
 
-Iklan video dilangkau secara automatik sebaik sahaja butang Langkau muncul.
+HALAMAN VIDEO
 
-Sepanduk iklan, video tajaan dalam suapan dan panel promosi disembunyikan dalam
-suapan dan pada halaman tontonan, jadi pelayaran tidak terganggu.
+ELEMEN HALAMAN
+• Sembunyikan komen
+• Sembunyikan gambar saluran
+• Sembunyikan suka/tidak suka
+• Sembunyikan butang tindakan
+• Sembunyikan penerangan
+• Sembunyikan sembang langsung
+• Sembunyikan barangan dan tiket
+• Sembunyikan kad skrin akhir
 
-YOUTUBE BEBAS GANGGUAN UNTUK FOKUS DAN PEMBELAJARAN
+PENERANGAN
+• Sembunyikan bahagian AI (Gemini)
+• Sembunyikan transkrip
+• Sembunyikan orang yang disebut
+• Sembunyikan video berkaitan
+• Sembunyikan kad saluran
+• Sembunyikan "Cara ia dibuat"
+• Sembunyikan bab dan episod
 
-YouTube Clean ialah alat fokus yang lembut, bukan penyekat yang agresif.
+MAIN BALIK DAN SALURAN
 
-Tiada apa yang dibuang sehingga anda meminta, dan panel sisi yang tenang menyimpan
-setiap tetapan sejauh satu klik: tiada akaun, tiada papan pemuka, tiada peringatan
-yang menjengkelkan.
+PELUNCUR KELAJUAN MAIN BALIK
+• Peluncur kelajuan main balik
 
-Ramai menggunakannya sebagai alat detoks digital ringan untuk YouTube, berteraskan
-kawalan dan bukan larangan.
+BITRATE
+• Utamakan kadar bit dipertingkat (Premium)
+• Tingkatkan lebar jalur yang dikesan (eksperimen)
 
-PRATETAP SATU KLIK: RINGAN, SEIMBANG, TERSUAI
+CODEC
+• Paksa H.264 (sekat VP9/AV1)
+• Sekat 60 fps
 
-Mulakan dengan pratetap sedia ada. Ringan untuk pembersihan lembut, Seimbang untuk
-persediaan fokus, atau bina profil Tersuai anda sendiri suis demi suis.
+PEMAIN
+• Sembunyikan butang pemain mini
+• Sembunyikan butang mod teater
+• Sembunyikan butang sari kata
+• Sembunyikan suis main automatik
 
-Tukar pratetap apabila beralih antara kerja dan rehat: YouTube menjadi alat apabila
-anda memerlukannya dan mengelak apabila tidak.
+SALURAN
+• Sembunyikan treler saluran
+• Sembunyikan sepanduk saluran
 
-SUSUN ATUR PADAT: LEBIH BANYAK VIDEO SETIAP SKRIN
+BAR SISI
 
-Mod padat menukar laman utama, hasil carian dan cadangan pada halaman tontonan
-menjadi senarai atau grid yang kemas.
+SEMBUNYIKAN BAR SISI SEPENUHNYA
+• Sembunyikan bar sisi sepenuhnya
 
-Kurang menatal, lebih banyak hasil setiap skrin, dan susun atur yang akhirnya
-menghormati monitor besar.
+MENU UTAMA
+• Sembunyikan "Shorts"
 
-PELUNCUR KELAJUAN DAN PEMAIN YANG KEMAS
+ANDA
+• Sembunyikan "Saluran saya"
+• Sembunyikan "Sejarah"
+• Sembunyikan "Senarai main"
+• Sembunyikan "Video anda"
+• Sembunyikan "Tonton kemudian"
+• Sembunyikan "Video disukai"
+• Sembunyikan "Filem"
+• Sembunyikan "Muat turun"
+• Sembunyikan butang "Tunjukkan lagi"
 
-Perhalusi kelajuan main balik dengan peluncur terus di dalam pemain, termasuk
-kawalan kelajuan berasingan untuk Shorts.
+SEMBUNYIKAN SENARAI LANGGANAN
+• Sembunyikan senarai langganan
 
-Kemaskan pemain dengan menyembunyikan butang pemain mini, mod teater dan sari
-kata, dan matikan suis main automatik supaya video seterusnya tidak pernah bermula
-sendiri.
+TEROKAI
+• Sembunyikan "Sohor kini"
+• Sembunyikan "Muzik"
+• Sembunyikan "Langsung"
+• Sembunyikan "Permainan"
+• Sembunyikan "Berita"
+• Sembunyikan "Sukan"
+• Sembunyikan butang "Tunjukkan lagi"
 
-CARIAN, BAR ATAS DAN BAR SISI YANG BERSIH
+LAGI DARIPADA YOUTUBE
+• Sembunyikan "YouTube Premium"
+• Sembunyikan "YouTube Music"
+• Sembunyikan "YouTube Kids"
+• Sembunyikan "YouTube Studio"
 
-Permudahkan bar atas dengan menyembunyikan carian suara, papan kekunci skrin, tag
-carian, butang muat naik dan pemberitahuan.
+SEMBUNYIKAN PENGAKI DAN PAUTAN PERIHAL
+• Sembunyikan pengaki dan pautan Perihal
 
-Kecilkan bar sisi kiri kepada yang penting sahaja, atau sembunyikan sepenuhnya,
-termasuk Anda, Sejarah, Senarai main, Tonton kemudian, Video disukai, Langganan,
-Terokai, Sohor kini, Muzik, Langsung, Permainan, Berita, Sukan, Premium, YouTube
-Music, Kids, Studio dan pengaki.
-
-Bersihkan juga hasil carian: carian berkaitan, kad maklumat dan rak saluran.
-
-UNTUK SIAPA YOUTUBE CLEAN
-
-• Pelajar dan penyelidik yang perlukan YouTube untuk kuliah, bukan Shorts
-• Pembangun dan penulis yang menonton tutorial semasa kerja mendalam
-• Pelajar bahasa yang menggunakan peluncur kelajuan pada video panjang
-• Ibu bapa yang mahukan YouTube lebih tenang pada komputer berkongsi
-• Sesiapa dalam detoks digital yang masih memerlukan YouTube untuk kerja
-
-SUMBER TERBUKA, RINGAN DAN PERIBADI
-
-YouTube Clean sepenuhnya sumber terbuka dan dibina di atas Manifest V3.
-
-Tiada akaun, tiada penjejakan, tiada analitik, tiada pengumpulan data. Tetapan
-anda kekal dalam pelayar anda. Baca kodnya, laporkan masalah atau minta ciri di
-GitHub.
-
-SOALAN LAZIM
-
-Adakah ia menyekat Shorts sepenuhnya?
-Ya. Shorts boleh dibuang daripada laman utama, carian, bar sisi, halaman saluran
-dan menu kiri. Anda juga boleh mengekalkan Shorts dan hanya mematikan peralihan
-automatik.
-
-Adakah ia membuang iklan YouTube?
-Iklan video dilangkau automatik sebaik sahaja boleh dilangkau, manakala sepanduk,
-video tajaan dan panel promosi disembunyikan. Ia alat pembersihan YouTube, bukan
-penyekat iklan peringkat rangkaian.
-
-Adakah bahagian lain YouTube akan berfungsi seperti biasa?
-Ya. Setiap ciri dimatikan secara lalai. Tiada apa berubah sehingga anda hidupkan
-suis, dan mematikannya memulihkan YouTube serta-merta.
-
-Adakah ia mengumpul data saya?
-Tidak. Tiada akaun, tiada pelayan, tiada analitik. Tetapan disimpan secara setempat
-dalam pelayar anda.
-
-Pelayar manakah yang disokong?
-Chrome dan Opera, di seluruh laman: laman utama, carian, halaman tontonan, saluran
-dan pemain.
-
-YouTube menyesuaikan diri dengan anda, bukan sebaliknya.
-
-Kod sumber, laporan masalah dan permintaan ciri:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

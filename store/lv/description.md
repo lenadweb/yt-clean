@@ -1,140 +1,139 @@
-Bloķējiet YouTube Shorts, slēpiet ieteikumus, izlaidiet reklāmas un noņemiet visu
-pārējo, kas novērš uzmanību. YouTube Clean pārvērš YouTube par mierīgu vietu bez
-traucēkļiem, kuru pārvaldāt jūs.
+Bloķējiet YouTube Shorts, slēpiet ieteikumus, izlaidiet reklāmas un noņemiet visu pārējo, kas novērš uzmanību. YouTube Clean pārvērš YouTube par mierīgu vietu bez traucēkļiem, kuru pārvaldāt jūs.
 
-60+ slēdži, viens sānu panelis, tūlītējs rezultāts. Bez maksas, atvērtais kods,
-bez konta, bez izsekošanas, bez datu vākšanas.
+60+ slēdži, viens sānu panelis, tūlītējs rezultāts. Bez maksas, atvērtais kods, bez konta, bez izsekošanas, bez datu vākšanas.
 
 KO VARAT PASLĒPT VAI BLOĶĒT
 
-• Shorts: sākumlapa, meklēšanas rezultāti, sānjosla, kanālu lapas, izvēlnes vienums
-• Ieteikumi: sākumlapa, sleja blakus video, beigu ekrāna kartītes
-• Reklāmas: automātiska video reklāmu izlaišana, reklāmkarogi, sponsorēti video
-• Komentāri un tiešraides tērzēšana
-• Miksi, atskaņošanas saraksti, Populārākie, Izpētīt un Ziņas
-• Preču un biļešu plaukti, kanālu reklāmkarogi un treileri
-• Automātisks priekšskatījums un pārblīvēti video apraksti
-• Sānjosla: paslēpiet to pilnībā vai pa vienumam
-• Galvene: balss meklēšana, tastatūra, tagi, augšupielāde, paziņojumi
-• Meklēšanas rezultāti: saistītie meklējumi, infokartītes, kanālu plaukti
+PROFILI
+• Viegls
+• Līdzsvarots
+• Maksimāls
+• Pielāgots
+• Ieslēgt paplašinājumu — Mainīt īsinājumtaustiņu
 
-BLOĶĒJIET SHORTS UN BEZGALĪGO RITINĀŠANU
+PAMATA VEIDNE
 
-Īsie video ir lielākais uzmanības slazds YouTube.
+MEKLĒŠANAS JOSLA
+• Slēpt balss meklēšanas pogu
+• Slēpt virtuālās tastatūras pogu
+• Slēpt meklēšanas tagus
 
-YouTube Clean noņem Shorts no sākumlapas, meklēšanas rezultātiem, sānjoslas un
-kanālu lapām, lai ātra vizīte nepārvērstos stundu ilgā ritināšanā.
+DARBĪBAS UN PROFILS
+• Slēpt augšupielādes pogu
+• Slēpt paziņojumus
 
-Vēlaties paturēt Shorts? Izmantojiet atsevišķu Shorts ātruma vadību un izslēdziet
-automātisko pāreju, tad viens Short paliks viens Short, nevis bezgalīga plūsma.
+PLŪSMA UN IETEIKUMI
 
-PASLĒPIET IETEIKUMUS UN PLŪSMAS TROKSNI
+KOMPAKTAIS REŽĪMS
+• Kompaktais režīms
 
-Jūs izlemjat, kas paliek un kas pazūd.
+SATURA BLOKI
+• Slēpt Shorts sadaļas
+• Slēpt Izpētīt un Ziņas
+• Izslēgt automātisko priekšskatījumu
+• Slēpt miksus un atskaņošanas sarakstus
+• Slēpt tikai dalībniekiem paredzētos videoklipus
 
-Paslēpiet ieteiktos video, miksus un atskaņošanas sarakstus, komentārus,
-tiešraides tērzēšanu, beigu ekrāna kartītes, preču un biļešu plauktus,
-paziņojumus un Populārāko sadaļas.
+SKATĪTIE VIDEOKLIPI
+• Slēpt sākumlapā
+• Slēpt abonementos
+• Slēpt kanālu lapās
+• Slēpt ieteikumos
 
-Vēl vairāk samaziniet vizuālo troksni: izslēdziet priekšskatījumu, paslēpiet
-kanālu reklāmkarogus un treilerus un saīsiniet aprakstu līdz tam, ko patiešām
-lasāt.
+MEKLĒŠANA
+• Paslēpt kanālus meklēšanā
+• Slēpt saistītos meklējumus
+• Slēpt informācijas kartīti
+• Slēpt kanāla video plauktu
 
-IZLAIDIET REKLĀMAS UN SPONSORĒTO SATURU
+REKLĀMAS
+• Slēpt YouTube reklāmkarogus
+• Slēpt sponsorētos videoklipus
+• Slēpt reklāmas informācijas paneļus
+• Automātiski izlaist reklāmas (eksperimentāls)
 
-Video reklāmas tiek izlaistas automātiski, tiklīdz parādās poga Izlaist.
+VIDEO LAPA
 
-Reklāmkarogi, sponsorētie video plūsmā un reklāmas paneļi tiek paslēpti gan
-plūsmā, gan skatīšanās lapā, tāpēc pārlūkošana netiek pārtraukta.
+LAPAS ELEMENTI
+• Slēpt komentārus
+• Slēpt kanāla attēlus
+• Slēpt patīk/nepatīk
+• Slēpt darbību pogas
+• Slēpt aprakstu
+• Slēpt tiešraides tērzēšanu
+• Slēpt preces un biļetes
+• Slēpt beigu ekrāna kartītes
 
-YOUTUBE BEZ TRAUCĒKĻIEM KONCENTRĒŠANĀS UN MĀCĪBĀM
+APRAKSTS
+• Slēpt MI sadaļu (Gemini)
+• Slēpt transkripciju
+• Slēpt minētās personas
+• Slēpt saistītos videoklipus
+• Slēpt kanāla kartīti
+• Slēpt “Kā tas tapa”
+• Slēpt nodaļas un epizodes
 
-YouTube Clean ir maigs koncentrēšanās rīks, nevis agresīvs bloķētājs.
+ATSKAŅOŠANA UN KANĀLS
 
-Nekas netiek noņemts, kamēr jūs to nelūdzat, un mierīgs sānu panelis tur katru
-iestatījumu viena klikšķa attālumā: bez kontiem, bez informācijas paneļiem, bez
-uzmācīgiem atgādinājumiem.
+ATSKAŅOŠANAS ĀTRUMA SLĪDNIS
+• Atskaņošanas ātruma slīdnis
 
-Daudzi to izmanto kā vieglu digitālās detoksikācijas rīku YouTube, kas balstīts uz
-kontroli, nevis aizliegumiem.
+BITRATE
+• Dot priekšroku uzlabotam bitu pārraides ātrumam (Premium)
+• Palielināt noteikto joslas platumu (eksperimentāls)
 
-IESTATĪJUMI VIENĀ KLIKŠĶĪ: VIEGLS, LĪDZSVAROTS, PATS SAVS
+KODEKS
+• Piespiest H.264 (bloķēt VP9/AV1)
+• Bloķēt 60 kadrus/s
 
-Sāciet ar gatavu profilu. Viegls maigai tīrīšanai, Līdzsvarots koncentrētam
-režīmam vai izveidojiet savu profilu slēdzi pēc slēdža.
+ATSKAŅOTĀJS
+• Slēpt mini atskaņotāja pogu
+• Slēpt kinorežīma pogu
+• Slēpt subtitru pogu
+• Slēpt automātiskās atskaņošanas slēdzi
 
-Mainiet profilu, pārejot no darba uz atpūtu: YouTube kļūst par rīku, kad tas
-nepieciešams, un netraucē, kad nav.
+KANĀLS
+• Slēpt kanāla treileri
+• Slēpt kanāla reklāmkarogu
 
-KOMPAKTAIS IZKĀRTOJUMS: VAIRĀK VIDEO UZ EKRĀNA
+SĀNJOSLA
 
-Kompaktais režīms pārvērš sākumlapu, meklēšanas rezultātus un ieteikumus video
-lapā glītā sarakstā vai režģī.
+PILNĪBĀ SLĒPT SĀNJOSLU
+• Pilnībā slēpt sānjoslu
 
-Mazāk ritināšanas, vairāk rezultātu uz ekrāna un izkārtojums, kas beidzot ciena
-lielos monitorus.
+GALVENĀ IZVĒLNE
+• Slēpt “Shorts”
 
-ĀTRUMA SLĪDNIS UN TĪRS ATSKAŅOTĀJS
+JŪS
+• Slēpt “Mans kanāls”
+• Slēpt “Vēsture”
+• Slēpt “Atskaņošanas saraksti”
+• Slēpt “Jūsu videoklipi”
+• Slēpt “Skatīties vēlāk”
+• Slēpt “Patīkošie videoklipi”
+• Slēpt “Filmas”
+• Slēpt “Lejupielādes”
+• Slēpt pogu “Rādīt vairāk”
 
-Precīzi noregulējiet atskaņošanas ātrumu ar slīdni tieši atskaņotājā, tostarp
-atsevišķu ātruma vadību Shorts.
+SLĒPT ABONEMENTU SARAKSTU
+• Slēpt abonementu sarakstu
 
-Sakārtojiet atskaņotāju, paslēpjot mini atskaņotāja, kinorežīma un subtitru pogas,
-un izslēdziet automātisko atskaņošanu, lai nākamais video nekad nesāktos pats.
+IZPĒTĪT
+• Slēpt “Populārākie”
+• Slēpt “Mūzika”
+• Slēpt “Tiešraide”
+• Slēpt “Spēles”
+• Slēpt “Ziņas”
+• Slēpt “Sports”
+• Slēpt pogu “Rādīt vairāk”
 
-TĪRA MEKLĒŠANA, GALVENE UN SĀNJOSLA
+VAIRĀK NO YOUTUBE
+• Slēpt “YouTube Premium”
+• Slēpt “YouTube Music”
+• Slēpt “YouTube Kids”
+• Slēpt “YouTube Studio”
 
-Vienkāršojiet augšējo joslu, paslēpjot balss meklēšanu, ekrāna tastatūru,
-meklēšanas tagus, augšupielādes pogu un paziņojumus.
+SLĒPT KĀJENI UN PAR SAITĒM
+• Slēpt kājeni un Par saitēm
 
-Samaziniet kreiso sānjoslu līdz būtiskākajam vai paslēpiet to pilnībā, tostarp
-Jūs, Vēsture, Atskaņošanas saraksti, Skatīties vēlāk, Patīkošie video, Abonementi,
-Izpētīt, Populārākie, Mūzika, Tiešraide, Spēles, Ziņas, Sports, Premium, YouTube
-Music, Kids, Studio un kājeni.
-
-Iztīriet arī meklēšanas rezultātus: saistītos meklējumus, infokartītes un kanālu
-plauktus.
-
-KAM PAREDZĒTS YOUTUBE CLEAN
-
-• Studentiem un pētniekiem, kuriem YouTube vajadzīgs lekcijām, nevis Shorts
-• Izstrādātājiem un autoriem, kas skatās pamācības dziļā darbā
-• Valodu apguvējiem, kas izmanto ātruma slīdni garos video
-• Vecākiem, kuri vēlas mierīgāku YouTube koplietotā datorā
-• Ikvienam digitālajā detoksā, kam YouTube joprojām vajadzīgs darbam
-
-ATVĒRTAIS KODS, VIEGLUMS UN PRIVĀTUMS
-
-YouTube Clean ir pilnībā atvērtā koda un veidots uz Manifest V3.
-
-Bez kontiem, bez izsekošanas, bez analītikas, bez datu vākšanas. Jūsu iestatījumi
-paliek jūsu pārlūkprogrammā. Izlasiet kodu, ziņojiet par problēmu vai ierosiniet
-funkciju GitHub.
-
-BIEŽI UZDOTIE JAUTĀJUMI
-
-Vai tas pilnībā bloķē Shorts?
-Jā. Shorts var noņemt no sākumlapas, meklēšanas, sānjoslas, kanālu lapām un kreisās
-izvēlnes. Varat arī paturēt Shorts un izslēgt tikai automātisko pāreju.
-
-Vai tas noņem YouTube reklāmas?
-Video reklāmas tiek izlaistas automātiski, tiklīdz tās var izlaist, un
-reklāmkarogi, sponsorētie video un reklāmas paneļi tiek paslēpti. Tas ir YouTube
-tīrīšanas rīks, nevis tīkla līmeņa reklāmu bloķētājs.
-
-Vai pārējais YouTube darbosies normāli?
-Jā. Katra funkcija pēc noklusējuma ir izslēgta. Nekas nemainās, kamēr neieslēdzat
-slēdzi, un izslēgšana nekavējoties atjauno YouTube.
-
-Vai tas vāc manus datus?
-Nē. Nav konta, nav servera, nav analītikas. Iestatījumi tiek saglabāti lokāli jūsu
-pārlūkprogrammā.
-
-Kuras pārlūkprogrammas tiek atbalstītas?
-Chrome un Opera visā vietnē: sākumlapa, meklēšana, video lapa, kanāli un
-atskaņotājs.
-
-YouTube pielāgojas jums, nevis otrādi.
-
-Pirmkods, kļūdu ziņojumi un funkciju pieprasījumi:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

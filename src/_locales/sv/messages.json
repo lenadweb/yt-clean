@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blockera Shorts, dölj rekommendationer och annonser"
+    "message": "YouTube Clean: dölj Shorts och rekommendationer"
   },
   "appDescription": {
-    "message": "Blockera Shorts, dölj rekommendationer, kommentarer och annonser. 60+ reglage för ett rent, distraktionsfritt YouTube."
+    "message": "Blockera Shorts, dölj rekommendationer, kommentarer och annonser. 60+ inställningar för YouTube. Öppen källkod."
   },
   "actionTitle": {
     "message": "Öppna YouTube-inställningar"

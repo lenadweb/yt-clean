@@ -1,144 +1,139 @@
-Blochează YouTube Shorts, ascunde recomandările, sari peste reclame și elimină
-tot ce îți fură atenția. YouTube Clean transformă YouTube într-un spațiu calm,
-fără distrageri, pe care îl controlezi tu.
+Blochează YouTube Shorts, ascunde recomandările, sari peste reclame și elimină tot ce îți fură atenția. YouTube Clean transformă YouTube într-un spațiu calm, fără distrageri, pe care îl controlezi tu.
 
-Peste 60 de comutatoare, un singur panou lateral, efect imediat. Gratuit, open
-source, fără cont, fără urmărire, fără colectare de date.
+Peste 60 de comutatoare, un singur panou lateral, efect imediat. Gratuit, open source, fără cont, fără urmărire, fără colectare de date.
 
 CE POȚI ASCUNDE SAU BLOCA
 
-• Shorts: pagina principală, căutare, bara laterală, pagini de canal, meniu
-• Recomandări: pagina principală, coloana de lângă videoclip, carduri finale
-• Reclame: reclamele video sunt sărite automat, bannere, videoclipuri sponsorizate
-• Comentarii și chat live
-• Mixuri, playlisturi, În tendințe, Explorează și Știri
-• Rafturi de produse și bilete, bannere și trailere de canal
-• Previzualizare automată la trecerea mouse-ului și descrieri umflate
-• Bara laterală: ascunde-o complet sau element cu element
-• Antet: căutare vocală, tastatură virtuală, etichete, încărcare, notificări
-• Rezultatele căutării: căutări similare, carduri informative, rafturi de canale
+PRESETĂRI
+• Ușor
+• Echilibrat
+• Maxim
+• Personalizat
+• Activează extensia — Schimbă comanda rapidă
 
-BLOCHEAZĂ SHORTS ȘI DERULAREA FĂRĂ SFÂRȘIT
+ȘABLON DE BAZĂ
 
-Videoclipurile scurte sunt cea mai mare capcană a atenției pe YouTube.
+BARĂ DE CĂUTARE
+• Ascunde butonul de căutare vocală
+• Ascunde butonul de tastatură virtuală
+• Ascunde etichetele de căutare
 
-YouTube Clean elimină Shorts din pagina principală, din rezultatele căutării, din
-bara laterală și de pe paginile de canal, astfel încât o vizită rapidă să nu se
-transforme într-o oră de derulare.
+ACȚIUNI ȘI PROFIL
+• Ascunde butonul de încărcare
+• Ascunde notificările
 
-Preferi să le păstrezi? Folosește controlul de viteză dedicat pentru Shorts și
-dezactivează trecerea automată: un Short rămâne un Short, nu un flux infinit.
+FLUX ȘI RECOMANDĂRI
 
-ASCUNDE RECOMANDĂRILE ȘI DEZORDINEA DIN FLUX
+MOD COMPACT
+• Mod compact
 
-Tu decizi ce rămâne și ce dispare.
+BLOCURI DE CONȚINUT
+• Ascunde secțiunile Shorts
+• Ascunde Explorează și Știri
+• Dezactivează previzualizarea automată
+• Ascunde mixurile și playlisturile
+• Ascunde videoclipurile doar pentru membri
 
-Ascunde videoclipurile recomandate, mixurile și playlisturile, comentariile,
-chatul live, cardurile finale, rafturile de produse și bilete, notificările și
-secțiunile de tendințe.
+VIDEOCLIPURI VIZIONATE
+• Ascunde pe pagina de pornire
+• Ascunde în Abonamente
+• Ascunde pe paginile canalelor
+• Ascunde în recomandări
 
-Reduce și mai mult zgomotul vizual: dezactivează previzualizarea la trecerea
-mouse-ului, ascunde bannerele și trailerele canalelor și lasă în descriere doar
-ce citești cu adevărat.
+CĂUTARE
+• Ascunde canalele în căutare
+• Ascunde căutările similare
+• Ascunde cardul informativ
+• Ascunde raftul video al canalului
 
-SARI PESTE RECLAME ȘI CONȚINUT SPONSORIZAT
+RECLAME
+• Ascunde bannerele YouTube
+• Ascunde videoclipurile sponsorizate
+• Ascunde panourile publicitare
+• Sari automat peste reclame (experimental)
 
-Reclamele video sunt sărite automat imediat ce apare butonul Omite.
+PAGINA VIDEO
 
-Bannerele publicitare, videoclipurile sponsorizate din flux și panourile
-promoționale sunt ascunse în flux și pe pagina videoclipului, astfel încât
-navigarea rămâne neîntreruptă.
+ELEMENTE DE PAGINĂ
+• Ascunde comentariile
+• Ascunde imaginile canalului
+• Ascunde aprecierile
+• Ascunde butoanele de acțiune
+• Ascunde descrierea
+• Ascunde chatul live
+• Ascunde produsele și biletele
+• Ascunde cardurile de final
 
-YOUTUBE FĂRĂ DISTRAGERI PENTRU CONCENTRARE ȘI STUDIU
+DESCRIERE
+• Ascunde secțiunea AI (Gemini)
+• Ascunde transcrierea
+• Ascunde persoanele menționate
+• Ascunde videoclipurile similare
+• Ascunde cardul canalului
+• Ascunde „Cum a fost creat”
+• Ascunde capitolele și episoadele
 
-YouTube Clean este un instrument blând de concentrare, nu un blocant agresiv.
+REDARE ȘI CANAL
 
-Nimic nu este eliminat până când nu ceri tu, iar un panou lateral liniștit ține
-fiecare setare la un clic distanță: fără conturi, fără tablouri de bord, fără
-memento-uri insistente.
+GLISOR PENTRU VITEZA DE REDARE
+• Glisor pentru viteza de redare
 
-Mulți îl folosesc ca instrument ușor de detox digital pentru YouTube, axat pe
-control, nu pe interdicții.
+BITRATE
+• Preferă rata de biți îmbunătățită (Premium)
+• Mărește lățimea de bandă detectată (experimental)
 
-PRESETĂRI DINTR-UN CLIC: UȘOR, ECHILIBRAT, PERSONALIZAT
+CODEC
+• Forțează H.264 (blochează VP9/AV1)
+• Blochează 60 fps
 
-Pornește de la o presetare gata făcută. Ușor pentru o curățare blândă, Echilibrat
-pentru un mod concentrat, sau construiește-ți propriul profil comutator cu
-comutator.
+PLAYER
+• Ascunde butonul de mini player
+• Ascunde butonul mod cinema
+• Ascunde butonul de subtitrări
+• Ascunde comutatorul de redare automată
 
-Schimbă presetarea când treci de la muncă la relaxare: YouTube devine un
-instrument când ai nevoie și se dă la o parte când nu.
+CANAL
+• Ascunde trailerul canalului
+• Ascunde bannerul canalului
 
-ASPECT COMPACT: MAI MULTE VIDEOCLIPURI PE ECRAN
+BARĂ LATERALĂ
 
-Modul compact transformă pagina principală, rezultatele căutării și recomandările
-din pagina videoclipului într-o listă sau grilă ordonată.
+ASCUNDE COMPLET BARA LATERALĂ
+• Ascunde complet bara laterală
 
-Mai puțină derulare, mai multe rezultate pe ecran și un aspect care în sfârșit
-respectă monitoarele mari.
+MENIU PRINCIPAL
+• Ascunde „Shorts”
 
-GLISOR DE VITEZĂ ȘI PLAYER CURAT
+TU
+• Ascunde „Canalul meu”
+• Ascunde „Istoric”
+• Ascunde „Playlisturi”
+• Ascunde „Videoclipurile tale”
+• Ascunde „Vizionează mai târziu”
+• Ascunde „Videoclipuri apreciate”
+• Ascunde „Filme”
+• Ascunde „Descărcări”
+• Ascunde butonul „Afișează mai mult”
 
-Reglează fin viteza de redare cu un glisor direct în player, inclusiv un control
-de viteză separat pentru Shorts.
+ASCUNDE LISTA DE ABONAMENTE
+• Ascunde lista de abonamente
 
-Curăță playerul ascunzând butoanele de mini player, mod cinema și subtitrări și
-dezactivează redarea automată, ca următorul videoclip să nu pornească niciodată
-singur.
+EXPLOREAZĂ
+• Ascunde „În tendințe”
+• Ascunde „Muzică”
+• Ascunde „Live”
+• Ascunde „Jocuri”
+• Ascunde „Știri”
+• Ascunde „Sport”
+• Ascunde butonul „Afișează mai mult”
 
-CĂUTARE, ANTET ȘI BARĂ LATERALĂ CURATE
+MAI MULTE DE LA YOUTUBE
+• Ascunde „YouTube Premium”
+• Ascunde „YouTube Music”
+• Ascunde „YouTube Kids”
+• Ascunde „YouTube Studio”
 
-Simplifică bara de sus ascunzând căutarea vocală, tastatura virtuală, etichetele
-de căutare, butonul de încărcare și notificările.
+ASCUNDE SUBSOLUL ȘI LINKURILE DESPRE
+• Ascunde subsolul și linkurile Despre
 
-Redu bara laterală stângă la esențial sau ascunde-o complet, inclusiv Tu,
-Istoric, Playlisturi, Vizionează mai târziu, Videoclipuri apreciate, Abonamente,
-Explorează, În tendințe, Muzică, Live, Jocuri, Știri, Sport, Premium, YouTube
-Music, Kids, Studio și subsolul.
-
-Curăță și rezultatele căutării: căutări similare, carduri informative și rafturi
-de canale.
-
-CINE FOLOSEȘTE YOUTUBE CLEAN
-
-• Studenți și cercetători care au nevoie de YouTube pentru cursuri, nu pentru Shorts
-• Dezvoltatori și scriitori care urmăresc tutoriale în timpul muncii concentrate
-• Cei care învață limbi și folosesc glisorul de viteză la videoclipuri lungi
-• Părinți care vor un YouTube mai liniștit pe un computer comun
-• Oricine face detox digital, dar are nevoie de YouTube pentru muncă
-
-OPEN SOURCE, UȘOR ȘI PRIVAT
-
-YouTube Clean este complet open source și construit pe Manifest V3.
-
-Fără conturi, fără urmărire, fără analize, fără colectare de date. Setările tale
-rămân în browser. Citește codul, raportează o problemă sau cere o funcție pe
-GitHub.
-
-ÎNTREBĂRI FRECVENTE
-
-Blochează complet Shorts?
-Da. Shorts pot fi eliminate din pagina principală, căutare, bara laterală,
-paginile de canal și meniul din stânga. Poți și să păstrezi Shorts și să
-dezactivezi doar trecerea automată.
-
-Elimină reclamele de pe YouTube?
-Reclamele video sunt sărite automat imediat ce pot fi omise, iar bannerele,
-videoclipurile sponsorizate și panourile promoționale sunt ascunse. Este un
-instrument de curățare pentru YouTube, nu un blocant de reclame la nivel de rețea.
-
-Restul YouTube va funcționa normal?
-Da. Fiecare funcție este dezactivată implicit. Nimic nu se schimbă până nu
-activezi un comutator, iar dezactivarea readuce YouTube instantaneu.
-
-Îmi colectează datele?
-Nu. Fără cont, fără server, fără analize. Setările sunt salvate local în browser.
-
-Ce browsere sunt acceptate?
-Chrome și Opera, pe tot site-ul: pagina principală, căutare, pagina
-videoclipului, canale și player.
-
-YouTube se adaptează ție, nu invers.
-
-Cod sursă, raportări și sugestii de funcții:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

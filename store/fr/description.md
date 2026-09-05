@@ -1,146 +1,139 @@
-Bloquez les Shorts YouTube, masquez les recommandations, sautez les publicités
-et retirez tout ce qui détourne votre attention. YouTube Clean transforme
-YouTube en un espace calme et sans distraction que vous contrôlez.
+Bloquez les Shorts YouTube, masquez les recommandations, sautez les publicités et retirez tout ce qui détourne votre attention. YouTube Clean transforme YouTube en un espace calme et sans distraction que vous contrôlez.
 
-Plus de 60 réglages, un panneau latéral, effet immédiat. Gratuit, open source,
-sans compte, sans pistage, sans collecte de données.
+Plus de 60 réglages, un panneau latéral, effet immédiat. Gratuit, open source, sans compte, sans pistage, sans collecte de données.
 
 CE QUE VOUS POUVEZ MASQUER OU BLOQUER
 
-• Shorts : accueil, résultats de recherche, colonne latérale, chaînes, menu
-• Recommandations : accueil, colonne de la page vidéo, cartes de fin
-• Publicités : saut automatique des pubs vidéo, bannières, vidéos sponsorisées
-• Commentaires et chat en direct
-• Mix, playlists, Tendances, Explorer et Actualités
-• Rayons produits et billets, bannières et bandes-annonces de chaîne
-• Aperçu automatique au survol et descriptions surchargées
-• Menu latéral : masquez-le entièrement ou élément par élément
-• En-tête : recherche vocale, clavier virtuel, tags, envoi, notifications
-• Résultats de recherche : recherches associées, fiches info, rayons de chaînes
+PRÉRÉGLAGES
+• Léger
+• Équilibré
+• Maximum
+• Personnalisé
+• Activer/désactiver l'extension — Modifier le raccourci
 
-BLOQUER LES SHORTS ET LE DÉFILEMENT INFINI
+MODÈLE DE BASE
 
-Les vidéos courtes sont le plus gros piège à attention de YouTube.
+BARRE DE RECHERCHE
+• Masquer le bouton de recherche vocale
+• Masquer le bouton du clavier virtuel
+• Masquer les puces de recherche
 
-YouTube Clean retire les Shorts de l'accueil, des résultats de recherche, de la
-colonne latérale et des pages de chaîne, pour qu'une visite rapide ne devienne
-pas une heure de défilement.
+ACTIONS & UTILISATEUR
+• Masquer le bouton de création
+• Masquer les notifications
 
-Vous préférez les garder ? Utilisez le contrôle de vitesse dédié aux Shorts et
-désactivez le passage automatique : un Short reste un Short, pas un flux infini.
+FLUX & RECOMMANDATIONS
 
-MASQUER LES RECOMMANDATIONS ET LE BRUIT DU FIL
+MODE COMPACT
+• Mode compact
 
-C'est vous qui décidez ce qui reste et ce qui part.
+BLOCS DE CONTENU
+• Masquer les sections Shorts
+• Masquer Explorer & Actus
+• Désactiver la lecture automatique au survol
+• Masquer les Mix & Playlists
+• Masquer les vidéos réservées aux membres
 
-Masquez les vidéos recommandées, les mix et playlists, les commentaires, le chat
-en direct, les cartes de fin, les rayons produits et billets, les notifications
-et les sections Tendances.
+VIDÉOS REGARDÉES
+• Masquer sur la page d’accueil
+• Masquer dans les abonnements
+• Masquer sur les pages de chaînes
+• Masquer dans les recommandations
 
-Réduisez encore le bruit visuel : désactivez l'aperçu au survol, masquez les
-bannières et bandes-annonces de chaîne, et réduisez la description à ce que vous
-lisez vraiment.
+RECHERCHE
+• Masquer les chaînes dans la recherche
+• Masquer les recherches associées
+• Masquer la fiche d'information
+• Masquer l'étagère vidéos de la chaîne
 
-SAUTER LES PUBLICITÉS ET LES CONTENUS SPONSORISÉS
+PUBLICITÉS
+• Masquer les bannières YouTube
+• Masquer les vidéos sponsorisées
+• Masquer les panneaux d’info des annonces
+• Passer les pubs automatiquement (expérimental)
 
-Les publicités vidéo sont sautées automatiquement dès que le bouton Passer
-apparaît.
+PAGE VIDÉO
 
-Les bannières publicitaires, les vidéos sponsorisées du fil et les panneaux
-promotionnels sont masqués dans le fil et sur la page vidéo, pour une navigation
-sans interruption.
+ÉLÉMENTS DE LA PAGE
+• Masquer les commentaires
+• Masquer les images de la chaîne
+• Masquer j’aime/je n’aime pas
+• Masquer les boutons d’action
+• Masquer la description
+• Masquer le chat en direct
+• Masquer produits et billets
+• Masquer les cartes de fin
 
-YOUTUBE SANS DISTRACTION POUR LA CONCENTRATION ET LES ÉTUDES
+DESCRIPTION
+• Masquer la section IA (Gemini)
+• Masquer la transcription
+• Masquer les personnes mentionnées
+• Masquer les vidéos associées
+• Masquer la carte de la chaîne
+• Masquer "Comment c’est fait"
+• Masquer chapitres et épisodes
 
-YouTube Clean est un outil de concentration en douceur, pas un bloqueur agressif.
+LECTURE & CHAÎNES
 
-Rien n'est retiré tant que vous ne le demandez pas, et un panneau latéral sobre
-garde chaque réglage à un clic : pas de compte, pas de tableau de bord, pas de
-rappels intrusifs.
+CURSEUR DE VITESSE DE LECTURE
+• Curseur de vitesse de lecture
 
-Beaucoup l'utilisent comme outil léger de détox numérique pour YouTube, centré
-sur le contrôle plutôt que sur l'interdiction.
+BITRATE
+• Privilégier le débit amélioré (Premium)
+• Augmenter la bande passante détectée (expérimental)
 
-PROFILS EN UN CLIC : LÉGER, ÉQUILIBRÉ, PERSONNALISÉ
+CODEC
+• Forcer H.264 (bloquer VP9/AV1)
+• Bloquer le 60 fps
 
-Partez d'un profil prêt à l'emploi. Léger pour un nettoyage doux, Équilibré pour
-un mode concentré, ou construisez le vôtre réglage par réglage.
+LECTEUR
+• Masquer le bouton mini-lecteur
+• Masquer le bouton mode cinéma
+• Masquer le bouton sous-titres
+• Masquer le bouton lecture automatique
 
-Changez de profil entre travail et détente : YouTube devient un outil quand vous
-en avez besoin et s'efface quand ce n'est pas le cas.
+CHAÎNE
+• Masquer la bande-annonce de chaîne
+• Masquer la bannière de chaîne
 
-AFFICHAGE COMPACT : PLUS DE VIDÉOS PAR ÉCRAN
+BARRE LATÉRALE
 
-Le mode compact transforme l'accueil, les résultats de recherche et les
-recommandations de la page vidéo en une liste ou une grille nette.
+MASQUER LA BARRE LATÉRALE COMPLÈTEMENT
+• Masquer la barre latérale complètement
 
-Moins de défilement, plus de résultats par écran, et une mise en page qui
-respecte enfin les grands écrans.
+MENU PRINCIPAL
+• Masquer "Shorts"
 
-CURSEUR DE VITESSE ET LECTEUR ÉPURÉ
+VOUS
+• Masquer "Ma chaîne"
+• Masquer "Historique"
+• Masquer "Playlists"
+• Masquer "Vos vidéos"
+• Masquer "À regarder plus tard"
+• Masquer "Vidéos j'aime"
+• Masquer "Films"
+• Masquer "Téléchargements"
+• Masquer le bouton "Afficher plus"
 
-Ajustez la vitesse de lecture avec un curseur directement dans le lecteur, avec
-un contrôle de vitesse séparé pour les Shorts.
+MASQUER LA LISTE DES ABONNEMENTS
+• Masquer la liste des abonnements
 
-Épurez le lecteur en masquant les boutons mini-lecteur, cinéma et sous-titres,
-et désactivez la lecture automatique pour que la vidéo suivante ne démarre
-jamais toute seule.
+EXPLORER
+• Masquer "Tendances"
+• Masquer "Musique"
+• Masquer "En direct"
+• Masquer "Jeux vidéo"
+• Masquer "Actualités"
+• Masquer "Sport"
+• Masquer le bouton "Afficher plus"
 
-RECHERCHE, EN-TÊTE ET MENU LATÉRAL ÉPURÉS
+PLUS DE YOUTUBE
+• Masquer "YouTube Premium"
+• Masquer "YouTube Music"
+• Masquer "YouTube Kids"
+• Masquer "YouTube Studio"
 
-Simplifiez la barre du haut en masquant la recherche vocale, le clavier virtuel,
-les tags de recherche, le bouton d'envoi et les notifications.
+MASQUER LE PIED DE PAGE ET LES LIENS
+• Masquer le pied de page et les liens
 
-Réduisez le menu de gauche à l'essentiel, ou masquez-le entièrement, y compris
-Vous, Historique, Playlists, À regarder plus tard, Vidéos "J'aime",
-Abonnements, Explorer, Tendances, Musique, En direct, Jeux vidéo, Actualités,
-Sport, Premium, YouTube Music, Kids, Studio et le pied de page.
-
-Nettoyez aussi les résultats de recherche : recherches associées, fiches info et
-rayons de chaînes.
-
-POUR QUI EST YOUTUBE CLEAN
-
-• Étudiants et chercheurs qui utilisent YouTube pour les cours, pas les Shorts
-• Développeurs et rédacteurs qui regardent des tutoriels en travail profond
-• Apprenants en langues qui utilisent le curseur de vitesse sur de longues vidéos
-• Parents qui veulent un YouTube plus calme sur un ordinateur partagé
-• Toute personne en détox numérique qui a encore besoin de YouTube pour travailler
-
-OPEN SOURCE, LÉGER ET RESPECTUEUX DE LA VIE PRIVÉE
-
-YouTube Clean est entièrement open source et construit sur Manifest V3.
-
-Pas de compte, pas de pistage, pas d'analytique, pas de collecte de données. Vos
-réglages restent dans votre navigateur. Lisez le code, signalez un problème ou
-proposez une fonctionnalité sur GitHub.
-
-QUESTIONS FRÉQUENTES
-
-Bloque-t-il complètement les Shorts ?
-Oui. Les Shorts peuvent être retirés de l'accueil, de la recherche, de la
-colonne latérale, des pages de chaîne et du menu de gauche. Vous pouvez aussi
-les garder et désactiver seulement le passage automatique.
-
-Supprime-t-il les publicités YouTube ?
-Les publicités vidéo sont sautées automatiquement dès qu'elles deviennent
-passables, et les bannières, vidéos sponsorisées et panneaux promotionnels sont
-masqués. C'est un outil de nettoyage de YouTube, pas un bloqueur de publicité
-réseau.
-
-YouTube continuera-t-il de fonctionner normalement ?
-Oui. Chaque fonction est désactivée par défaut. Rien ne change tant que vous
-n'activez pas un réglage, et le désactiver restaure YouTube immédiatement.
-
-Collecte-t-il mes données ?
-Non. Pas de compte, pas de serveur, pas d'analytique. Les réglages sont
-enregistrés localement dans votre navigateur.
-
-Quels navigateurs sont pris en charge ?
-Chrome et Opera, sur tout le site : accueil, recherche, page vidéo, chaînes et
-lecteur.
-
-YouTube s'adapte à vous, et non l'inverse.
-
-Code source, signalements et suggestions :
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

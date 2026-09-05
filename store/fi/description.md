@@ -1,138 +1,139 @@
-Estä YouTube Shorts, piilota suositukset, ohita mainokset ja poista kaikki muu,
-mikä vie huomion. YouTube Clean tekee YouTubesta rauhallisen, häiriöttömän
-paikan, jota sinä hallitset.
+Estä YouTube Shorts, piilota suositukset, ohita mainokset ja poista kaikki muu, mikä vie huomion. YouTube Clean tekee YouTubesta rauhallisen, häiriöttömän paikan, jota sinä hallitset.
 
-Yli 60 kytkintä, yksi sivupaneeli, välitön vaikutus. Ilmainen, avoin lähdekoodi,
-ei tiliä, ei seurantaa, ei tiedonkeruuta.
+Yli 60 kytkintä, yksi sivupaneeli, välitön vaikutus. Ilmainen, avoin lähdekoodi, ei tiliä, ei seurantaa, ei tiedonkeruuta.
 
 MITÄ VOIT PIILOTTAA TAI ESTÄÄ
 
-• Shorts: etusivu, hakutulokset, sivupalkki, kanavasivut, valikkokohta
-• Suositukset: etusivu, videosivun sivupalsta, lopetusnäytön kortit
-• Mainokset: videomainosten automaattinen ohitus, bannerit, sponsoroidut videot
-• Kommentit ja live-chat
-• Miksit, soittolistat, Suositut, Tutustu ja Uutiset
-• Oheistuote- ja lippuhyllyt, kanavabannerit ja trailerit
-• Automaattinen esikatselu ja paisuneet videokuvaukset
-• Sivupalkki: piilota kokonaan tai kohta kerrallaan
-• Yläpalkki: äänihaku, näppäimistö, hakutagit, lataus, ilmoitukset
-• Hakutulokset: aiheeseen liittyvät haut, tietokortit, kanavahyllyt
+ESIASETUKSET
+• Kevyt
+• Tasapainoinen
+• Maksimi
+• Oma
+• Ota laajennus käyttöön — Muuta pikanäppäintä
 
-ESTÄ SHORTS JA LOPUTON SELAAMINEN
+PERUSMALLI
 
-Lyhytvideot ovat YouTuben suurin huomioansa.
+HAKUPALKKI
+• Piilota äänihaun painike
+• Piilota näppäimistöpainike
+• Piilota hakutagit
 
-YouTube Clean poistaa Shortsit etusivulta, hakutuloksista, sivupalkista ja
-kanavasivuilta, jottei pikainen käynti muutu tunnin selaamiseksi.
+TOIMINNOT JA PROFIILI
+• Piilota latauspainike
+• Piilota ilmoitukset
 
-Haluatko pitää Shortsit? Käytä Shortsien omaa nopeussäädintä ja poista
-automaattinen siirtyminen käytöstä, jolloin yksi Short pysyy yhtenä Shortina eikä
-muutu loputtomaksi syötteeksi.
+SYÖTE JA SUOSITUKSET
 
-PIILOTA SUOSITUKSET JA SYÖTTEEN MELU
+TIIVIS TILA
+• Tiivis tila
 
-Sinä päätät, mikä jää ja mikä lähtee.
+SISÄLTÖLOHKOT
+• Piilota Shorts-osiot
+• Piilota Tutustu ja Uutiset
+• Poista automaattinen esikatselu käytöstä
+• Piilota miksit ja soittolistat
+• Piilota vain jäsenille tarkoitetut videot
 
-Piilota suositellut videot, miksit ja soittolistat, kommentit, live-chat,
-lopetusnäytön kortit, oheistuote- ja lippuhyllyt, ilmoitukset ja
-Suositut-osiot.
+KATSOTUT VIDEOT
+• Piilota etusivulla
+• Piilota tilauksissa
+• Piilota kanavasivuilla
+• Piilota suosituksissa
 
-Vähennä visuaalista melua lisää: sammuta esikatselu hiiren osoittaessa, piilota
-kanavabannerit ja trailerit ja karsi kuvaus siihen, minkä oikeasti luet.
+HAKU
+• Piilota kanavat hausta
+• Piilota aiheeseen liittyvät haut
+• Piilota haun tietokortti
+• Piilota kanavan videohylly
 
-OHITA MAINOKSET JA SPONSOROITU SISÄLTÖ
+MAINOKSET
+• Piilota YouTube-bannerit
+• Piilota sponsoroidut videot syötteessä
+• Piilota mainostietopaneelit
+• Ohita mainokset automaattisesti (kokeellinen)
 
-Videomainokset ohitetaan automaattisesti heti, kun Ohita-painike ilmestyy.
+VIDEOSIVU
 
-Mainosbannerit, syötteen sponsoroidut videot ja mainospaneelit piilotetaan sekä
-syötteestä että katselusivulta, joten selaaminen ei keskeydy.
+SIVUN ELEMENTIT
+• Piilota kommentit
+• Piilota kanavan kuvat
+• Piilota tykkäykset
+• Piilota toimintopainikkeet
+• Piilota kuvaus
+• Piilota live-chat
+• Piilota oheistuotteet ja liput
+• Piilota lopetusnäytön kortit
 
-HÄIRIÖTÖN YOUTUBE KESKITTYMISEEN JA OPISKELUUN
+KUVAUS
+• Piilota tekoälyosio (Gemini)
+• Piilota tekstivastine
+• Piilota mainitut henkilöt
+• Piilota liittyvät videot
+• Piilota kanavakortti
+• Piilota "Miten tämä tehtiin"
+• Piilota luvut ja jaksot
 
-YouTube Clean on lempeä keskittymisen työkalu, ei aggressiivinen estoväline.
+TOISTO JA KANAVA
 
-Mitään ei poisteta ennen kuin pyydät, ja rauhallinen sivupaneeli pitää jokaisen
-asetuksen yhden klikkauksen päässä: ei tilejä, ei kojelautoja, ei jankuttavia
-muistutuksia.
+TOISTONOPEUDEN LIUKUSÄÄDIN
+• Toistonopeuden liukusäädin
 
-Moni käyttää sitä kevyenä digitaalisen detoksin työkaluna YouTubelle: kyse on
-hallinnasta, ei kielloista.
+BITRATE
+• Suosi parannettua bittinopeutta (Premium)
+• Kasvata havaittua kaistanleveyttä (kokeellinen)
 
-ESIASETUKSET YHDELLÄ KLIKKAUKSELLA: KEVYT, TASAPAINOINEN, OMA
+KOODEKKI
+• Pakota H.264 (estä VP9/AV1)
+• Estä 60 fps
 
-Aloita valmiista esiasetuksesta. Kevyt hellävaraiseen siivoukseen, Tasapainoinen
-keskittyneeseen kokoonpanoon, tai rakenna oma profiili kytkin kerrallaan.
+SOITIN
+• Piilota minisoitinpainike
+• Piilota teatteritilan painike
+• Piilota tekstityspainike
+• Piilota automaattitoiston kytkin
 
-Vaihda esiasetusta siirtyessäsi työn ja vapaa-ajan välillä: YouTube on työkalu
-silloin kun tarvitset sitä ja pysyy tieltä silloin kun et.
+KANAVA
+• Piilota kanavan traileri
+• Piilota kanavan banneri
 
-TIIVIS ASETTELU: ENEMMÄN VIDEOITA RUUDULLE
+SIVUPALKKI
 
-Tiivis tila muuttaa etusivun, hakutulokset ja katselusivun suositukset siistiksi
-listaksi tai ruudukoksi.
+PIILOTA SIVUPALKKI KOKONAAN
+• Piilota sivupalkki kokonaan
 
-Vähemmän vieritystä, enemmän tuloksia ruudulle ja asettelu, joka vihdoin
-kunnioittaa isoja näyttöjä.
+PÄÄVALIKKO
+• Piilota "Shorts"
 
-NOPEUSLIUKUSÄÄDIN JA SIISTIMPI SOITIN
+SINÄ
+• Piilota "Oma kanava"
+• Piilota "Historia"
+• Piilota "Soittolistat"
+• Piilota "Omat videot"
+• Piilota "Katso myöhemmin"
+• Piilota "Tykätyt videot"
+• Piilota "Elokuvat"
+• Piilota "Lataukset"
+• Piilota "Näytä lisää" -painike
 
-Hienosäädä toistonopeutta liukusäätimellä suoraan soittimessa, mukaan lukien
-erillinen nopeussäädin Shortseille.
+PIILOTA TILAUSLISTA
+• Piilota tilauslista
 
-Siisti soitinta piilottamalla minisoittimen, teatteritilan ja tekstityksen
-painikkeet ja kytke automaattitoisto pois, jottei seuraava video käynnisty itsestään.
+TUTUSTU
+• Piilota "Suositut"
+• Piilota "Musiikki"
+• Piilota "Live"
+• Piilota "Pelit"
+• Piilota "Uutiset"
+• Piilota "Urheilu"
+• Piilota "Näytä lisää" -painike
 
-SIISTI HAKU, YLÄPALKKI JA SIVUPALKKI
+LISÄÄ YOUTUBESTA
+• Piilota "YouTube Premium"
+• Piilota "YouTube Music"
+• Piilota "YouTube Kids"
+• Piilota "YouTube Studio"
 
-Yksinkertaista yläpalkkia piilottamalla äänihaku, näyttönäppäimistö, hakutagit,
-latauspainike ja ilmoitukset.
+PIILOTA ALATUNNISTE JA TIETOJA-LINKIT
+• Piilota alatunniste ja Tietoja-linkit
 
-Karsi vasen sivupalkki olennaiseen tai piilota se kokonaan, mukaan lukien Sinä,
-Historia, Soittolistat, Katso myöhemmin, Tykätyt videot, Tilaukset, Tutustu,
-Suositut, Musiikki, Live, Pelit, Uutiset, Urheilu, Premium, YouTube Music, Kids,
-Studio ja alatunniste.
-
-Siisti myös hakutulokset: aiheeseen liittyvät haut, tietokortit ja kanavahyllyt.
-
-KENELLE YOUTUBE CLEAN SOPII
-
-• Opiskelijoille ja tutkijoille, jotka tarvitsevat luentoja, eivät Shortseja
-• Kehittäjille ja kirjoittajille, jotka katsovat oppaita syvätyön aikana
-• Kieltenopiskelijoille, jotka käyttävät nopeussäädintä pitkissä videoissa
-• Vanhemmille, jotka haluavat rauhallisemman YouTuben yhteiselle tietokoneelle
-• Kaikille digidetoksissa oleville, jotka silti tarvitsevat YouTubea työhön
-
-AVOIN LÄHDEKOODI, KEVYT JA YKSITYINEN
-
-YouTube Clean on täysin avointa lähdekoodia ja rakennettu Manifest V3:lle.
-
-Ei tilejä, ei seurantaa, ei analytiikkaa, ei tiedonkeruuta. Asetuksesi pysyvät
-selaimessasi. Lue koodi, ilmoita ongelmasta tai ehdota ominaisuutta GitHubissa.
-
-USEIN KYSYTYT KYSYMYKSET
-
-Estääkö se YouTube Shortsit kokonaan?
-Kyllä. Shortsit voi poistaa etusivulta, hausta, sivupalkista, kanavasivuilta ja
-vasemmasta valikosta. Voit myös pitää Shortsit ja poistaa vain automaattisen
-siirtymisen.
-
-Poistaako se YouTuben mainokset?
-Videomainokset ohitetaan automaattisesti heti kun se on mahdollista, ja
-bannerit, syötteen sponsoroidut videot ja mainospaneelit piilotetaan. Se on
-YouTuben siivoustyökalu, ei verkkotason mainosten estäjä.
-
-Toimiiko YouTube muuten normaalisti?
-Kyllä. Jokainen ominaisuus on oletuksena pois päältä. Mikään ei muutu ennen kuin
-kytket kytkimen päälle, ja pois kytkeminen palauttaa YouTuben heti.
-
-Kerääkö se tietojani?
-Ei. Ei tiliä, ei palvelinta, ei analytiikkaa. Asetukset tallennetaan paikallisesti
-selaimeesi.
-
-Mitkä selaimet ovat tuettuja?
-Chrome ja Opera, koko sivustolla: etusivu, haku, katselusivu, kanavat ja soitin.
-
-YouTube mukautuu sinuun, ei toisin päin.
-
-Lähdekoodi, virheraportit ja ominaisuustoiveet:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: حظر Shorts وإخفاء التوصيات والإعلانات"
+    "message": "YouTube Clean: إخفاء Shorts والتوصيات"
   },
   "appDescription": {
-    "message": "احظر Shorts وأخفِ التوصيات والتعليقات والإعلانات. أكثر من 60 مفتاحًا ليوتيوب نظيف وخالٍ من التشتيت."
+    "message": "احظر Shorts وأخفِ التوصيات والتعليقات والإعلانات. أكثر من 60 مفتاحًا ليوتيوب نظيف وخالٍ من التشتيت. مفتوح المصدر."
   },
   "actionTitle": {
     "message": "فتح إعدادات YouTube"

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Block Shorts, Hide Recommendations, Skip Ads | Focus"
+    "message": "YouTube Clean: Hide Shorts & Recommendations"
   },
   "appDescription": {
-    "message": "Block Shorts, hide recommendations, comments and ads on YouTube. 60+ toggles for a clean, distraction free, focused YouTube."
+    "message": "Hide YouTube Shorts, recommendations, comments and ads. Customize the feed, player and sidebar with 60+ controls. Open source."
   },
   "actionTitle": {
     "message": "Click to open Youtube Settings"

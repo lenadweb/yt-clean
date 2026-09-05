@@ -1,141 +1,139 @@
-Blockera YouTube Shorts, dölj rekommendationer, hoppa över annonser och ta bort
-allt annat som drar till sig uppmärksamheten. YouTube Clean gör YouTube till en
-lugn, distraktionsfri plats som du styr.
+Blockera YouTube Shorts, dölj rekommendationer, hoppa över annonser och ta bort allt annat som drar till sig uppmärksamheten. YouTube Clean gör YouTube till en lugn, distraktionsfri plats som du styr.
 
-60+ reglage, en sidopanel, omedelbar effekt. Gratis, öppen källkod, inget konto,
-ingen spårning, ingen datainsamling.
+60+ reglage, en sidopanel, omedelbar effekt. Gratis, öppen källkod, inget konto, ingen spårning, ingen datainsamling.
 
 VAD DU KAN DÖLJA ELLER BLOCKERA
 
-• Shorts: startsidan, sökresultat, sidofältet, kanalsidor, menypost
-• Rekommendationer: startsidan, kolumnen bredvid videon, slutskärmskort
-• Annonser: videoannonser hoppas över automatiskt, banners, sponsrade videor
-• Kommentarer och livechatt
-• Mixar, spellistor, Trendar, Utforska och Nyheter
-• Merch- och biljetthyllor, kanalbanners och trailers
-• Automatisk förhandsvisning vid hovring och uppsvällda videobeskrivningar
-• Sidofältet: dölj det helt eller post för post
-• Sidhuvudet: röstsökning, skärmtangentbord, söktaggar, uppladdning, aviseringar
-• Sökresultat: relaterade sökningar, infokort, kanalhyllor
+FÖRINSTÄLLNINGAR
+• Lätt
+• Balanserad
+• Maximal
+• Egen
+• Slå på/av tillägget — Ändra kortkommando
 
-BLOCKERA SHORTS OCH ÄNDLÖST SCROLLANDE
+GRUNDMALL
 
-Korta videor är den största uppmärksamhetsfällan på YouTube.
+SÖKFÄLT
+• Dölj knappen för röstsökning
+• Dölj knappen för skärmtangentbord
+• Dölj söktaggar
 
-YouTube Clean tar bort Shorts från startsidan, sökresultaten, sidofältet och
-kanalsidorna, så att ett snabbt besök inte blir en timmes scrollande.
+ÅTGÄRDER OCH PROFIL
+• Dölj uppladdningsknappen
+• Dölj aviseringar
 
-Vill du behålla Shorts? Använd den separata hastighetskontrollen för Shorts och
-stäng av automatisk övergång, så förblir en Short en Short i stället för ett
-oändligt flöde.
+FLÖDE OCH REKOMMENDATIONER
 
-DÖLJ REKOMMENDATIONER OCH FLÖDESBRUS
+KOMPAKT LÄGE
+• Kompakt läge
 
-Du bestämmer vad som stannar och vad som försvinner.
+INNEHÅLLSBLOCK
+• Dölj Shorts-sektioner
+• Dölj Utforska och Nyheter
+• Stäng av automatisk förhandsvisning
+• Dölj mixar och spellistor
+• Dölj videor endast för medlemmar
 
-Dölj rekommenderade videor, mixar och spellistor, kommentarer, livechatt,
-slutskärmskort, merch- och biljetthyllor, aviseringar och Trendar-sektioner.
+SEDDA VIDEOR
+• Dölj på startsidan
+• Dölj i prenumerationer
+• Dölj på kanalsidor
+• Dölj i rekommendationer
 
-Minska det visuella bruset ytterligare: stäng av förhandsvisning vid hovring,
-dölj kanalbanners och trailers, och korta ned beskrivningen till det du faktiskt
-läser.
+SÖK
+• Dölj kanaler i sökresultat
+• Dölj relaterade sökningar
+• Dölj infokort i sökresultat
+• Dölj kanalens videohylla
 
-HOPPA ÖVER ANNONSER OCH SPONSRAT INNEHÅLL
+ANNONSER
+• Dölj YouTube-banners
+• Dölj sponsrade videor i flödet
+• Dölj annonsinfopaneler
+• Hoppa över annonser automatiskt (experimentell)
 
-Videoannonser hoppas över automatiskt så snart knappen Hoppa över dyker upp.
+VIDEOSIDA
 
-Annonsbanners, sponsrade videor i flödet och kampanjpaneler döljs både i flödet
-och på videosidan, så att surfandet inte avbryts.
+SIDELEMENT
+• Dölj kommentarer
+• Dölj kanalbilder
+• Dölj gilla/ogilla
+• Dölj åtgärdsknappar
+• Dölj beskrivning
+• Dölj livechatt
+• Dölj merch och biljetter
+• Dölj slutskärmskort
 
-DISTRAKTIONSFRITT YOUTUBE FÖR FOKUS OCH STUDIER
+BESKRIVNING
+• Dölj AI-avsnitt (Gemini)
+• Dölj transkription
+• Dölj nämnda personer
+• Dölj relaterade videor
+• Dölj kanalkort
+• Dölj "Hur detta gjordes"
+• Dölj kapitel och avsnitt
 
-YouTube Clean är ett milt fokusverktyg, inte en aggressiv blockerare.
+UPPSPELNING OCH KANAL
 
-Ingenting tas bort förrän du ber om det, och en lugn sidopanel håller varje
-inställning ett klick bort: inga konton, inga instrumentpaneler, inga tjatiga
-påminnelser.
+REGLAGE FÖR UPPSPELNINGSHASTIGHET
+• Reglage för uppspelningshastighet
 
-Många använder det som ett lättviktigt digital detox-verktyg för YouTube, byggt
-på kontroll i stället för förbud.
+BITRATE
+• Föredra förbättrad bithastighet (Premium)
+• Öka identifierad bandbredd (experimentell)
 
-FÖRINSTÄLLNINGAR MED ETT KLICK: LÄTT, BALANSERAD, EGEN
+CODEC
+• Tvinga H.264 (blockera VP9/AV1)
+• Blockera 60 fps
 
-Börja med en färdig förinställning. Lätt för en mjuk rensning, Balanserad för en
-fokuserad uppsättning, eller bygg din egen profil reglage för reglage.
+SPELARE
+• Dölj minispelarknappen
+• Dölj bioläge-knappen
+• Dölj undertextknappen
+• Dölj autouppspelningsreglaget
 
-Byt förinställning när du växlar mellan arbete och ledighet: YouTube blir ett
-verktyg när du behöver ett och håller sig undan när du inte gör det.
+KANAL
+• Dölj kanaltrailer
+• Dölj kanalbanner
 
-KOMPAKT LAYOUT: FLER VIDEOR PER SKÄRM
+SIDOFÄLT
 
-Kompakt läge gör om startsidan, sökresultaten och rekommendationerna på
-videosidan till en prydlig lista eller ett rutnät.
+DÖLJ SIDOFÄLTET HELT
+• Dölj sidofältet helt
 
-Mindre scrollande, fler resultat per skärm och en layout som äntligen respekterar
-stora skärmar.
+HUVUDMENY
+• Dölj "Shorts"
 
-HASTIGHETSREGLAGE OCH RENARE SPELARE
+DU
+• Dölj "Min kanal"
+• Dölj "Historik"
+• Dölj "Spellistor"
+• Dölj "Dina videor"
+• Dölj "Titta senare"
+• Dölj "Gillade videor"
+• Dölj "Filmer"
+• Dölj "Nedladdningar"
+• Dölj knappen "Visa mer"
 
-Finjustera uppspelningshastigheten med ett reglage direkt i spelaren, inklusive
-en separat hastighetskontroll för Shorts.
+DÖLJ PRENUMERATIONSLISTAN
+• Dölj prenumerationslistan
 
-Rensa upp spelaren genom att dölja knapparna för minispelare, bioläge och
-undertexter, och stäng av autouppspelning så att nästa video aldrig startar av
-sig själv.
+UTFORSKA
+• Dölj "Trendar"
+• Dölj "Musik"
+• Dölj "Live"
+• Dölj "Spel"
+• Dölj "Nyheter"
+• Dölj "Sport"
+• Dölj knappen "Visa mer"
 
-REN SÖKNING, SIDHUVUD OCH SIDOFÄLT
+MER FRÅN YOUTUBE
+• Dölj "YouTube Premium"
+• Dölj "YouTube Music"
+• Dölj "YouTube Kids"
+• Dölj "YouTube Studio"
 
-Förenkla den övre raden genom att dölja röstsökning, skärmtangentbordet,
-söktaggar, uppladdningsknappen och aviseringar.
+DÖLJ SIDFOT OCH OM-LÄNKAR
+• Dölj sidfot och Om-länkar
 
-Skala ner det vänstra sidofältet till det nödvändigaste, eller dölj det helt,
-inklusive Du, Historik, Spellistor, Titta senare, Gillade videor,
-Prenumerationer, Utforska, Trendar, Musik, Live, Spel, Nyheter, Sport, Premium,
-YouTube Music, Kids, Studio och sidfoten.
-
-Rensa även sökresultaten: relaterade sökningar, infokort och kanalhyllor.
-
-VEM ANVÄNDER YOUTUBE CLEAN
-
-• Studenter och forskare som behöver YouTube till föreläsningar, inte Shorts
-• Utvecklare och skribenter som ser handledningar under djupt arbete
-• Språkinlärare som använder hastighetsreglaget på långa videor
-• Föräldrar som vill ha ett lugnare YouTube på en delad dator
-• Alla i digital detox som ändå behöver YouTube för riktigt arbete
-
-ÖPPEN KÄLLKOD, LÄTTVIKTIG OCH PRIVAT
-
-YouTube Clean är helt öppen källkod och byggd på Manifest V3.
-
-Inga konton, ingen spårning, ingen analys, ingen datainsamling. Dina
-inställningar stannar i din webbläsare. Läs koden, rapportera ett problem eller
-önska en funktion på GitHub.
-
-VANLIGA FRÅGOR
-
-Blockerar den YouTube Shorts helt?
-Ja. Shorts kan tas bort från startsidan, sökningen, sidofältet, kanalsidor och
-vänstermenyn. Du kan också behålla Shorts och bara stänga av automatisk
-övergång.
-
-Tar den bort YouTube-annonser?
-Videoannonser hoppas över automatiskt så snart de går att hoppa över, och
-banners, sponsrade flödesvideor och kampanjpaneler döljs. Det är ett
-uppstädningsverktyg för YouTube, inte en annonsblockerare på nätverksnivå.
-
-Fungerar resten av YouTube som vanligt?
-Ja. Varje funktion är avstängd som standard. Ingenting ändras förrän du slår på
-ett reglage, och att stänga av det återställer YouTube direkt.
-
-Samlar den in mina data?
-Nej. Inget konto, ingen server, ingen analys. Inställningarna sparas lokalt i din
-webbläsare.
-
-Vilka webbläsare stöds?
-Chrome och Opera, på hela webbplatsen: startsidan, sökningen, videosidan,
-kanaler och spelaren.
-
-YouTube anpassar sig efter dig, inte tvärtom.
-
-Källkod, felrapporter och funktionsönskemål:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

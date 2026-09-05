@@ -1,141 +1,139 @@
-Blokuj YouTube Shorts, ukrywaj rekomendacje, pomijaj reklamy i usuwaj wszystko
-inne, co odciąga uwagę. YouTube Clean zamienia YouTube w spokojną przestrzeń bez
-rozpraszaczy, którą kontrolujesz Ty.
+Blokuj YouTube Shorts, ukrywaj rekomendacje, pomijaj reklamy i usuwaj wszystko inne, co odciąga uwagę. YouTube Clean zamienia YouTube w spokojną przestrzeń bez rozpraszaczy, którą kontrolujesz Ty.
 
-Ponad 60 przełączników, jeden panel boczny, natychmiastowy efekt. Za darmo, open
-source, bez konta, bez śledzenia, bez zbierania danych.
+Ponad 60 przełączników, jeden panel boczny, natychmiastowy efekt. Za darmo, open source, bez konta, bez śledzenia, bez zbierania danych.
 
 CO MOŻESZ UKRYĆ LUB ZABLOKOWAĆ
 
-• Shorts: strona główna, wyniki wyszukiwania, panel boczny, kanały, pozycja menu
-• Rekomendacje: strona główna, kolumna przy filmie, karty końcowe
-• Reklamy: automatyczne pomijanie reklam, banery, sponsorowane filmy w kanale
-• Komentarze i czat na żywo
-• Miksy, playlisty, Na czasie, Odkrywaj i Wiadomości
-• Półki z gadżetami i biletami, banery i zwiastuny kanałów
-• Podgląd po najechaniu i rozdmuchane opisy filmów
-• Panel boczny: ukryj w całości lub pozycja po pozycji
-• Nagłówek: wyszukiwanie głosowe, klawiatura, tagi, przesyłanie, powiadomienia
-• Wyniki wyszukiwania: podobne wyszukiwania, karty informacyjne, półki kanałów
+PROFILE
+• Lekki
+• Zrównoważony
+• Maksymalny
+• Własny
+• Włącz rozszerzenie — Zmień skrót
 
-BLOKUJ SHORTS I NIEKOŃCZĄCE SIĘ PRZEWIJANIE
+SZABLON PODSTAWOWY
 
-Krótkie filmy to największa pułapka na uwagę w YouTube.
+PASEK WYSZUKIWANIA
+• Ukryj przycisk wyszukiwania głosowego
+• Ukryj przycisk klawiatury ekranowej
+• Ukryj tagi wyszukiwania
 
-YouTube Clean usuwa Shorts ze strony głównej, wyników wyszukiwania, panelu
-bocznego i stron kanałów, żeby krótka wizyta nie zamieniła się w godzinę
-przewijania.
+AKCJE I PROFIL
+• Ukryj przycisk przesyłania
+• Ukryj powiadomienia
 
-Wolisz je zachować? Użyj dedykowanego sterowania prędkością dla Shorts i wyłącz
-automatyczne przechodzenie dalej, a jeden Short pozostanie jednym Shortem,
-a nie nieskończonym kanałem.
+KANAŁ I REKOMENDACJE
 
-UKRYJ REKOMENDACJE I BAŁAGAN W KANALE
+TRYB KOMPAKTOWY
+• Tryb kompaktowy
 
-To Ty decydujesz, co zostaje, a co znika.
+BLOKI TREŚCI
+• Ukryj sekcje Shorts
+• Ukryj „Odkrywaj” i „Wiadomości”
+• Wyłącz podgląd po najechaniu
+• Ukryj miksy i playlisty
+• Ukryj filmy tylko dla wspierających
 
-Ukryj polecane filmy, miksy i playlisty, komentarze, czat na żywo, karty
-końcowe, półki z produktami i biletami, powiadomienia oraz sekcje Na czasie.
+OBEJRZANE FILMY
+• Ukryj na stronie głównej
+• Ukryj w subskrypcjach
+• Ukryj na stronach kanałów
+• Ukryj w rekomendacjach
 
-Ogranicz szum wizualny jeszcze bardziej: wyłącz podgląd po najechaniu, ukryj
-banery i zwiastuny kanałów, a opis skróć do tego, co naprawdę czytasz.
+WYSZUKIWANIE
+• Ukryj kanały w wyszukiwaniu
+• Ukryj podobne wyszukiwania
+• Ukryj kartę informacyjną
+• Ukryj półkę filmów kanału
 
-POMIJAJ REKLAMY I TREŚCI SPONSOROWANE
+REKLAMY
+• Ukryj banery YouTube
+• Ukryj sponsorowane filmy w kanale
+• Ukryj panele reklamowe
+• Automatyczne pomijanie reklam (eksperymentalne)
 
-Reklamy wideo są pomijane automatycznie, gdy tylko pojawi się przycisk Pomiń.
+STRONA FILMU
 
-Banery reklamowe, sponsorowane filmy w kanale i panele promocyjne są ukrywane
-w kanale i na stronie filmu, dzięki czemu przeglądanie nie jest przerywane.
+ELEMENTY STRONY
+• Ukryj komentarze
+• Ukryj obrazy kanału
+• Ukryj polubienia
+• Ukryj przyciski akcji
+• Ukryj opis
+• Ukryj czat na żywo
+• Ukryj gadżety i bilety
+• Ukryj karty końcowe
 
-YOUTUBE BEZ ROZPRASZACZY DO NAUKI I SKUPIENIA
+OPIS
+• Ukryj sekcję AI (Gemini)
+• Ukryj transkrypcję
+• Ukryj wspomniane osoby
+• Ukryj powiązane filmy
+• Ukryj kartę kanału
+• Ukryj „Jak to powstało”
+• Ukryj rozdziały i odcinki
 
-YouTube Clean to łagodne narzędzie skupienia, a nie agresywny bloker.
+ODTWARZANIE I KANAŁ
 
-Nic nie znika, dopóki sam o to nie poprosisz, a spokojny panel boczny trzyma
-każde ustawienie o jedno kliknięcie: bez kont, bez pulpitów, bez natrętnych
-przypomnień.
+SUWAK PRĘDKOŚCI ODTWARZANIA
+• Suwak prędkości odtwarzania
 
-Wiele osób używa go jako lekkiego narzędzia cyfrowego detoksu dla YouTube,
-opartego na kontroli, a nie na zakazach.
+BITRATE
+• Preferuj podwyższony bitrate (Premium)
+• Zwiększ wykrytą przepustowość (eksperymentalne)
 
-PROFILE JEDNYM KLIKNIĘCIEM: LEKKI, ZRÓWNOWAŻONY, WŁASNY
+KODEK
+• Wymuś H.264 (blokuj VP9/AV1)
+• Blokuj 60 kl./s
 
-Zacznij od gotowego profilu. Lekki dla delikatnego porządkowania, Zrównoważony
-dla trybu skupienia, albo zbuduj własny przełącznik po przełączniku.
+ODTWARZACZ
+• Ukryj przycisk miniodtwarzacza
+• Ukryj przycisk trybu kinowego
+• Ukryj przycisk napisów
+• Ukryj przełącznik autoodtwarzania
 
-Zmieniaj profil przy przechodzeniu między pracą a odpoczynkiem: YouTube jest
-narzędziem, gdy go potrzebujesz, i schodzi z drogi, gdy nie.
+KANAŁ
+• Ukryj zwiastun kanału
+• Ukryj baner kanału
 
-KOMPAKTOWY UKŁAD: WIĘCEJ FILMÓW NA EKRANIE
+PANEL BOCZNY
 
-Tryb kompaktowy zamienia stronę główną, wyniki wyszukiwania i rekomendacje przy
-filmie w schludną listę lub siatkę.
+UKRYJ PANEL BOCZNY CAŁKOWICIE
+• Ukryj panel boczny całkowicie
 
-Mniej przewijania, więcej wyników na ekran i układ, który wreszcie szanuje duże
-monitory.
+MENU GŁÓWNE
+• Ukryj „Shorts”
 
-SUWAK PRĘDKOŚCI I CZYSTY ODTWARZACZ
+TY
+• Ukryj „Mój kanał”
+• Ukryj „Historia”
+• Ukryj „Playlisty”
+• Ukryj „Twoje filmy”
+• Ukryj „Do obejrzenia”
+• Ukryj „Filmy, które lubię”
+• Ukryj „Filmy kinowe”
+• Ukryj „Pobrane”
+• Ukryj przycisk „Pokaż więcej”
 
-Precyzyjnie ustawiaj prędkość odtwarzania suwakiem bezpośrednio w odtwarzaczu,
-łącznie z osobnym sterowaniem prędkością dla Shorts.
+UKRYJ LISTĘ SUBSKRYPCJI
+• Ukryj listę subskrypcji
 
-Uporządkuj odtwarzacz, ukrywając przyciski miniodtwarzacza, trybu kinowego
-i napisów, i wyłącz autoodtwarzanie, żeby kolejny film nigdy nie startował sam.
+ODKRYWAJ
+• Ukryj „Na czasie”
+• Ukryj „Muzyka”
+• Ukryj „Na żywo”
+• Ukryj „Gry”
+• Ukryj „Wiadomości”
+• Ukryj „Sport”
+• Ukryj przycisk „Pokaż więcej”
 
-CZYSTE WYSZUKIWANIE, NAGŁÓWEK I PANEL BOCZNY
+WIĘCEJ Z YOUTUBE
+• Ukryj „YouTube Premium”
+• Ukryj „YouTube Music”
+• Ukryj „YouTube Kids”
+• Ukryj „YouTube Studio”
 
-Uprość górny pasek, ukrywając wyszukiwanie głosowe, klawiaturę ekranową, tagi
-wyszukiwania, przycisk przesyłania i powiadomienia.
+UKRYJ STOPKĘ I LINKI „O NAS”
+• Ukryj stopkę i linki „O nas”
 
-Ogranicz lewy panel do niezbędnika albo ukryj go w całości, w tym Ty, Historia,
-Playlisty, Do obejrzenia, Filmy, które lubię, Subskrypcje, Odkrywaj, Na czasie,
-Muzyka, Na żywo, Gry, Wiadomości, Sport, Premium, YouTube Music, Kids, Studio
-i stopkę.
-
-Wyczyść też wyniki wyszukiwania: podobne wyszukiwania, karty informacyjne
-i półki kanałów.
-
-DLA KOGO JEST YOUTUBE CLEAN
-
-• Studentów i badaczy, którzy potrzebują YouTube na wykłady, a nie na Shorts
-• Programistów i autorów oglądających tutoriale podczas głębokiej pracy
-• Osób uczących się języków, korzystających z suwaka prędkości przy długich filmach
-• Rodziców, którzy chcą spokojniejszego YouTube na wspólnym komputerze
-• Każdego na cyfrowym detoksie, kto wciąż potrzebuje YouTube do pracy
-
-OPEN SOURCE, LEKKI I PRYWATNY
-
-YouTube Clean jest w pełni open source i zbudowany na Manifest V3.
-
-Bez kont, bez śledzenia, bez analityki, bez zbierania danych. Twoje ustawienia
-zostają w przeglądarce. Przeczytaj kod, zgłoś problem lub poproś o funkcję na
-GitHubie.
-
-NAJCZĘSTSZE PYTANIA
-
-Czy blokuje Shorts całkowicie?
-Tak. Shorts można usunąć ze strony głównej, wyszukiwania, panelu bocznego, stron
-kanałów i lewego menu. Możesz też zachować Shorts i wyłączyć tylko automatyczne
-przechodzenie dalej.
-
-Czy usuwa reklamy z YouTube?
-Reklamy wideo są pomijane automatycznie, gdy tylko stają się możliwe do
-pominięcia, a banery, sponsorowane filmy i panele promocyjne są ukrywane. To
-narzędzie do porządkowania YouTube, a nie bloker reklam na poziomie sieci.
-
-Czy reszta YouTube będzie działać normalnie?
-Tak. Każda funkcja jest domyślnie wyłączona. Nic się nie zmienia, dopóki nie
-włączysz przełącznika, a wyłączenie natychmiast przywraca YouTube.
-
-Czy zbiera moje dane?
-Nie. Nie ma konta, serwera ani analityki. Ustawienia są zapisywane lokalnie
-w przeglądarce.
-
-Które przeglądarki są obsługiwane?
-Chrome i Opera, na całej stronie: strona główna, wyszukiwanie, strona filmu,
-kanały i odtwarzacz.
-
-To YouTube dopasowuje się do Ciebie, a nie odwrotnie.
-
-Kod źródłowy, zgłoszenia i propozycje funkcji:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

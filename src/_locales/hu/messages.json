@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts blokkolása, ajánlások és hirdetések elrejtése"
+    "message": "YouTube Clean: Shorts és ajánlások elrejtése"
   },
   "appDescription": {
-    "message": "Blokkold a Shortsot, rejtsd el az ajánlásokat, kommenteket és hirdetéseket. 60+ kapcsoló a tiszta YouTube-hoz."
+    "message": "Blokkold a Shortsot, rejtsd el az ajánlásokat, kommenteket és hirdetéseket. 60+ kapcsoló a tiszta YouTube-hoz. Nyílt forráskódú."
   },
   "actionTitle": {
     "message": "YouTube-beállítások megnyitása"

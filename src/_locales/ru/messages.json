@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: блокировка Shorts, скрыть рекомендации и рекламу"
+    "message": "YouTube Clean: скрыть Shorts и рекомендации"
   },
   "appDescription": {
-    "message": "Блокируйте Shorts, скрывайте рекомендации, комментарии и рекламу. 60+ переключателей для чистого YouTube без отвлечений."
+    "message": "Скрывайте Shorts, рекомендации, комментарии и рекламу. 60+ настроек для вашего YouTube. Открытый код."
   },
   "actionTitle": {
     "message": "Открыть настройки YouTube"

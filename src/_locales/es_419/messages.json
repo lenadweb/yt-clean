@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: bloquear Shorts, ocultar recomendaciones y anuncios"
+    "message": "YouTube Clean: ocultar Shorts y recomendaciones"
   },
   "appDescription": {
-    "message": "Bloquea Shorts y oculta recomendaciones, comentarios y anuncios. Más de 60 ajustes para un YouTube limpio y sin distracciones."
+    "message": "Bloquea Shorts y oculta recomendaciones, comentarios y anuncios. Más de 60 ajustes para personalizar YouTube. Código abierto."
   },
   "actionTitle": {
     "message": "Configuración de YouTube Clean"

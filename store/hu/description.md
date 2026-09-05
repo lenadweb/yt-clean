@@ -1,147 +1,139 @@
-Blokkold a YouTube Shortsot, rejtsd el az ajánlásokat, ugord át a hirdetéseket és
-távolíts el mindent, ami elvonja a figyelmedet. A YouTube Clean nyugodt,
-figyelemelterelés-mentes térré alakítja a YouTube-ot, amelyet te irányítasz.
+Blokkold a YouTube Shortsot, rejtsd el az ajánlásokat, ugord át a hirdetéseket és távolíts el mindent, ami elvonja a figyelmedet. A YouTube Clean nyugodt, figyelemelterelés-mentes térré alakítja a YouTube-ot, amelyet te irányítasz.
 
-60+ kapcsoló, egy oldalsáv, azonnali hatás. Ingyenes, nyílt forráskódú, fiók
-nélkül, követés nélkül, adatgyűjtés nélkül.
+60+ kapcsoló, egy oldalsáv, azonnali hatás. Ingyenes, nyílt forráskódú, fiók nélkül, követés nélkül, adatgyűjtés nélkül.
 
 MIT REJTHETSZ EL VAGY BLOKKOLHATSZ
 
-• Shorts: kezdőlap, keresési találatok, oldalsáv, csatornaoldalak, menüpont
-• Ajánlások: kezdőlap, videó melletti oszlop, záróképernyő kártyák
-• Hirdetések: videohirdetések automatikus átugrása, bannerek, szponzorált videók
-• Kommentek és élő chat
-• Mixek, lejátszási listák, Népszerű, Felfedezés és Hírek
-• Termék- és jegypolcok, csatorna bannerek és előzetesek
-• Automatikus előnézet rámutatáskor és felduzzasztott videóleírások
-• Oldalsáv: rejtsd el teljesen vagy elemenként
-• Fejléc: hangalapú keresés, billentyűzet, címkék, feltöltés, értesítések
-• Keresési találatok: kapcsolódó keresések, infókártyák, csatornapolcok
+ELŐBEÁLLÍTÁSOK
+• Könnyű
+• Kiegyensúlyozott
+• Maximális
+• Egyéni
+• Bővítmény be- és kikapcsolása — Billentyűparancs módosítása
 
-BLOKKOLD A SHORTSOT ÉS A VÉGTELEN GÖRGETÉST
+ALAPSABLON
 
-A rövid videók a YouTube legnagyobb figyelemcsapdái.
+KERESŐSÁV
+• Hangalapú keresés gomb elrejtése
+• Virtuális billentyűzet gomb elrejtése
+• Keresési címkék elrejtése
 
-A YouTube Clean eltávolítja a Shortsot a kezdőlapról, a keresési találatokból, az
-oldalsávból és a csatornaoldalakról, hogy egy gyors látogatás ne váljon egy órás
-görgetéssé.
+MŰVELETEK ÉS PROFIL
+• Feltöltés gomb elrejtése
+• Értesítések elrejtése
 
-Inkább megtartanád? Használd a Shortshoz tartozó külön sebességszabályzót és
-kapcsold ki az automatikus továbblépést, így egy Short egy Short marad, nem
-végtelen hírfolyam.
+HÍRFOLYAM ÉS AJÁNLÁSOK
 
-REJTSD EL AZ AJÁNLÁSOKAT ÉS A HÍRFOLYAM ZAJÁT
+KOMPAKT MÓD
+• Kompakt mód
 
-Te döntöd el, mi marad és mi tűnik el.
+TARTALMI BLOKKOK
+• Shorts szakaszok elrejtése
+• Felfedezés és Hírek elrejtése
+• Automatikus előnézet kikapcsolása
+• Mixek és lejátszási listák elrejtése
+• Csak tagoknak szóló videók elrejtése
 
-Rejtsd el az ajánlott videókat, mixeket és lejátszási listákat, kommenteket, élő
-chatet, záróképernyő kártyákat, termék- és jegypolcokat, értesítéseket és
-Népszerű szakaszokat.
+MEGTEKINTETT VIDEÓK
+• Elrejtés a kezdőlapon
+• Elrejtés a feliratkozások között
+• Elrejtés a csatornaoldalakon
+• Elrejtés az ajánlások között
 
-Csökkentsd tovább a vizuális zajt: kapcsold ki az előnézetet rámutatáskor, rejtsd
-el a csatorna bannereket és előzeteseket, és szűkítsd a leírást arra, amit
-tényleg elolvasol.
+KERESÉS
+• Csatornák elrejtése a keresésben
+• Kapcsolódó keresések elrejtése
+• Keresési infókártya elrejtése
+• Csatorna videópolc elrejtése
 
-UGORD ÁT A HIRDETÉSEKET ÉS A SZPONZORÁLT TARTALMAT
+HIRDETÉSEK
+• YouTube-bannerek elrejtése
+• Szponzorált videók elrejtése
+• Hirdetési infópanelek elrejtése
+• Hirdetések automatikus átugrása (kísérleti)
 
-A videohirdetések automatikusan átugrásra kerülnek, amint megjelenik az Átugrás
-gomb.
+VIDEÓOLDAL
 
-A hirdetési bannerek, a hírfolyamban lévő szponzorált videók és a promóciós
-panelek eltűnnek a hírfolyamból és a videóoldalról, így a böngészés nem szakad
-meg.
+OLDALELEMEK
+• Kommentek elrejtése
+• Csatornaképek elrejtése
+• Tetszik/nem tetszik elrejtése
+• Műveleti gombok elrejtése
+• Leírás elrejtése
+• Élő chat elrejtése
+• Termékek és jegyek elrejtése
+• Záróképernyő kártyák elrejtése
 
-FIGYELEMELTERELÉS-MENTES YOUTUBE A FÓKUSZHOZ ÉS TANULÁSHOZ
+LEÍRÁS
+• MI-szakasz elrejtése (Gemini)
+• Átirat elrejtése
+• Említett személyek elrejtése
+• Kapcsolódó videók elrejtése
+• Csatornakártya elrejtése
+• „Hogyan készült” elrejtése
+• Fejezetek és epizódok elrejtése
 
-A YouTube Clean szelíd fókuszeszköz, nem agresszív blokkoló.
+LEJÁTSZÁS ÉS CSATORNA
 
-Semmi sem tűnik el, amíg nem kéred, és egy nyugodt oldalsáv minden beállítást egy
-kattintásnyira tart: nincsenek fiókok, nincsenek irányítópultok, nincsenek
-nyaggató emlékeztetők.
+LEJÁTSZÁSI SEBESSÉG CSÚSZKA
+• Lejátszási sebesség csúszka
 
-Sokan használják könnyű digitális detox eszközként a YouTube-hoz: a kontrollról
-szól, nem a tiltásról.
+BITRATE
+• Javított bitráta előnyben részesítése (Premium)
+• Észlelt sávszélesség növelése (kísérleti)
 
-EGYKATTINTÁSOS ELŐBEÁLLÍTÁSOK: KÖNNYŰ, KIEGYENSÚLYOZOTT, EGYÉNI
+KODEK
+• H.264 kényszerítése (VP9/AV1 tiltása)
+• 60 fps tiltása
 
-Kezdj egy kész előbeállítással. Könnyű a finom takarításhoz, Kiegyensúlyozott a
-fókuszált beállításhoz, vagy építsd fel a sajátodat kapcsolóról kapcsolóra.
+LEJÁTSZÓ
+• Minilejátszó gomb elrejtése
+• Mozi mód gomb elrejtése
+• Felirat gomb elrejtése
+• Automatikus lejátszás kapcsoló elrejtése
 
-Válts előbeállítást, amikor munka és pihenés között mozogsz: a YouTube eszköz
-lesz, amikor szükséged van rá, és félreáll, amikor nincs.
+CSATORNA
+• Csatorna előzetes elrejtése
+• Csatorna banner elrejtése
 
-KOMPAKT ELRENDEZÉS: TÖBB VIDEÓ EGY KÉPERNYŐN
+OLDALSÁV
 
-A kompakt mód rendezett listává vagy ráccsá alakítja a kezdőlapot, a keresési
-találatokat és a videóoldal ajánlásait.
+OLDALSÁV TELJES ELREJTÉSE
+• Oldalsáv teljes elrejtése
 
-Kevesebb görgetés, több találat képernyőnként, és egy elrendezés, amely végre
-tiszteletben tartja a nagy monitorokat.
+FŐMENÜ
+• „Shorts” elrejtése
 
-SEBESSÉGCSÚSZKA ÉS TISZTA LEJÁTSZÓ
+TE
+• „Saját csatorna” elrejtése
+• „Előzmények” elrejtése
+• „Lejátszási listák” elrejtése
+• „Videóid” elrejtése
+• „Későbbre” elrejtése
+• „Kedvelt videók” elrejtése
+• „Filmek” elrejtése
+• „Letöltések” elrejtése
+• „Több megjelenítése” gomb elrejtése
 
-Finomhangold a lejátszási sebességet egy csúszkával közvetlenül a lejátszóban,
-külön sebességszabályzóval a Shorts számára.
+FELIRATKOZÁSOK LISTÁJÁNAK ELREJTÉSE
+• Feliratkozások listájának elrejtése
 
-Tisztítsd meg a lejátszót a minilejátszó, mozi mód és felirat gombok
-elrejtésével, és kapcsold ki az automatikus lejátszást, hogy a következő videó
-soha ne induljon el magától.
+FELFEDEZÉS
+• „Népszerű” elrejtése
+• „Zene” elrejtése
+• „Élő” elrejtése
+• „Játék” elrejtése
+• „Hírek” elrejtése
+• „Sport” elrejtése
+• „Több megjelenítése” gomb elrejtése
 
-TISZTA KERESÉS, FEJLÉC ÉS OLDALSÁV
+TOVÁBBI YOUTUBE-SZOLGÁLTATÁSOK
+• „YouTube Premium” elrejtése
+• „YouTube Music” elrejtése
+• „YouTube Kids” elrejtése
+• „YouTube Studio” elrejtése
 
-Egyszerűsítsd a felső sávot a hangalapú keresés, a képernyő-billentyűzet, a
-keresési címkék, a feltöltés gomb és az értesítések elrejtésével.
+LÁBLÉC ÉS NÉVJEGY HIVATKOZÁSOK ELREJTÉSE
+• Lábléc és Névjegy hivatkozások elrejtése
 
-Szűkítsd a bal oldalsávot a lényegre, vagy rejtsd el teljesen, beleértve a Te,
-Előzmények, Lejátszási listák, Későbbre, Kedvelt videók, Feliratkozások,
-Felfedezés, Népszerű, Zene, Élő, Játék, Hírek, Sport, Premium, YouTube Music,
-Kids, Studio menüpontokat és a láblécet.
-
-Takarítsd ki a keresési találatokat is: kapcsolódó keresések, infókártyák és
-csatornapolcok.
-
-KIKNEK VALÓ A YOUTUBE CLEAN
-
-• Diákoknak és kutatóknak, akiknek előadások kellenek, nem Shorts
-• Fejlesztőknek és íróknak, akik mély munka közben néznek oktatóvideókat
-• Nyelvtanulóknak, akik a sebességcsúszkát használják hosszú videóknál
-• Szülőknek, akik nyugodtabb YouTube-ot szeretnének közös számítógépen
-• Bárkinek digitális detoxban, akinek mégis kell a YouTube a munkához
-
-NYÍLT FORRÁSKÓDÚ, KÖNNYŰ ÉS PRIVÁT
-
-A YouTube Clean teljesen nyílt forráskódú, és Manifest V3-ra épül.
-
-Nincsenek fiókok, nincs követés, nincs analitika, nincs adatgyűjtés. A
-beállításaid a böngésződben maradnak. Olvasd el a kódot, jelents hibát vagy kérj
-funkciót a GitHubon.
-
-GYAKORI KÉRDÉSEK
-
-Teljesen blokkolja a Shortsot?
-Igen. A Shorts eltávolítható a kezdőlapról, a keresésből, az oldalsávból, a
-csatornaoldalakról és a bal menüből. Meg is tarthatod a Shortsot, és csak az
-automatikus továbblépést kapcsolhatod ki.
-
-Eltávolítja a YouTube hirdetéseit?
-A videohirdetéseket automatikusan átugorja, amint átugorhatóvá válnak, a
-bannereket, a szponzorált videókat és a promóciós paneleket pedig elrejti. Ez egy
-YouTube-tisztító eszköz, nem hálózati szintű hirdetésblokkoló.
-
-A YouTube többi része továbbra is működni fog?
-Igen. Minden funkció alapértelmezetten ki van kapcsolva. Semmi sem változik, amíg
-be nem kapcsolsz egy kapcsolót, a kikapcsolás pedig azonnal visszaállítja a
-YouTube-ot.
-
-Gyűjti az adataimat?
-Nem. Nincs fiók, nincs szerver, nincs analitika. A beállítások helyben, a
-böngésződben tárolódnak.
-
-Mely böngészők támogatottak?
-Chrome és Opera, az egész oldalon: kezdőlap, keresés, videóoldal, csatornák és
-lejátszó.
-
-A YouTube alkalmazkodik hozzád, nem fordítva.
-
-Forráskód, hibajelentések és funkciókérések:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokovat Shorts, skrýt doporučení a reklamy"
+    "message": "YouTube Clean: skrýt Shorts a doporučení"
   },
   "appDescription": {
-    "message": "Blokujte Shorts, skryjte doporučení, komentáře a reklamy. Přes 60 přepínačů pro čistý YouTube bez rozptylování."
+    "message": "Blokujte Shorts, skryjte doporučení, komentáře a reklamy. Přes 60 přepínačů pro čistý YouTube bez rozptylování. Open source."
   },
   "actionTitle": {
     "message": "Otevřít nastavení YouTube"

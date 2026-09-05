@@ -1,140 +1,139 @@
-I-block ang YouTube Shorts, itago ang mga rekomendasyon, laktawan ang mga ad, at
-alisin ang lahat ng iba pang humahatak ng atensyon mo. Ginagawa ng YouTube Clean
-ang YouTube na tahimik at walang distraction na espasyo na ikaw ang kumokontrol.
+I-block ang YouTube Shorts, itago ang mga rekomendasyon, laktawan ang mga ad, at alisin ang lahat ng iba pang humahatak ng atensyon mo. Ginagawa ng YouTube Clean ang YouTube na tahimik at walang distraction na espasyo na ikaw ang kumokontrol.
 
-60+ toggle, isang side panel, agad na epekto. Libre, open source, walang account,
-walang tracking, walang pangongolekta ng data.
+60+ toggle, isang side panel, agad na epekto. Libre, open source, walang account, walang tracking, walang pangongolekta ng data.
 
 ANO ANG PWEDE MONG ITAGO O I-BLOCK
 
-• Shorts: home feed, search results, sidebar, channel pages, item sa menu
-• Rekomendasyon: home feed, column sa tabi ng video, end screen cards
-• Mga ad: awtomatikong nilalaktawan ang video ads, banners, sponsored videos
-• Mga komento at live chat
-• Mixes, playlists, Trending, Explore at News
-• Merch at ticket shelves, channel banners at trailers
-• Auto-preview kapag naka-hover at sobrang habang description ng video
-• Sidebar: itago nang buo o item por item
-• Itaas na bar: voice search, virtual keyboard, tags, upload, notifications
-• Search results: kaugnay na paghahanap, info cards, channel shelves
+MGA PRESET
+• Magaan
+• Balanse
+• Maximum
+• Custom
+• I-on ang extension — Baguhin ang shortcut
 
-I-BLOCK ANG SHORTS AT ANG WALANG KATAPUSANG SCROLL
+BASIC NA TEMPLATE
 
-Ang maiikling video ang pinakamalaking bitag ng atensyon sa YouTube.
+SEARCH BAR
+• Itago ang voice search button
+• Itago ang virtual keyboard button
+• Itago ang mga search tag
 
-Inaalis ng YouTube Clean ang Shorts sa home feed, search results, sidebar at
-channel pages, para ang mabilisang dalaw ay hindi maging isang oras na scrolling.
+MGA AKSYON AT PROFILE
+• Itago ang upload button
+• Itago ang mga notification
 
-Gusto mong panatilihin ang Shorts? Gamitin ang hiwalay na speed control para sa
-Shorts at patayin ang auto-advance, para ang isang Short ay mananatiling isang
-Short at hindi walang katapusang feed.
+FEED AT MGA REKOMENDASYON
 
-ITAGO ANG MGA REKOMENDASYON AT KALAT SA FEED
+COMPACT MODE
+• Compact mode
 
-Ikaw ang magdedesisyon kung ano ang mananatili at ano ang aalis.
+MGA CONTENT BLOCK
+• Itago ang mga Shorts section
+• Itago ang Explore at News
+• I-off ang auto-preview kapag naka-hover
+• Itago ang mga mix at playlist
+• Itago ang mga video para sa mga miyembro lamang
 
-Itago ang mga inirerekomendang video, mixes at playlists, komento, live chat, end
-screen cards, merch at ticket shelves, notifications at Trending sections.
+MGA NAPANOOD NA VIDEO
+• Itago sa Home
+• Itago sa Mga Subscription
+• Itago sa mga page ng channel
+• Itago sa mga rekomendasyon
 
-Bawasan pa ang visual na ingay: patayin ang preview kapag naka-hover, itago ang
-channel banners at trailers, at putulin ang description hanggang sa aktwal mong
-binabasa.
+PAGHAHANAP
+• Itago ang mga channel sa paghahanap
+• Itago ang mga kaugnay na paghahanap
+• Itago ang search info card
+• Itago ang channel video shelf
 
-LAKTAWAN ANG MGA AD AT SPONSORED CONTENT
+MGA AD
+• Itago ang mga YouTube banner
+• Itago ang mga sponsored video sa feed
+• Itago ang mga ad info panel
+• Awtomatikong laktawan ang mga ad (eksperimental)
 
-Awtomatikong nilalaktawan ang video ads sa oras na lumitaw ang Skip button.
+PAHINA NG VIDEO
 
-Ang ad banners, sponsored videos sa feed at promo info panels ay itinatago sa feed
-at sa watch page, kaya hindi naaabala ang pagbrowse.
+MGA ELEMENTO NG PAHINA
+• Itago ang mga komento
+• Itago ang mga larawan ng channel
+• Itago ang like/dislike
+• Itago ang mga action button
+• Itago ang paglalarawan
+• Itago ang live chat
+• Itago ang merch at tickets
+• Itago ang end screen cards
 
-WALANG DISTRACTION NA YOUTUBE PARA SA FOCUS AT PAG-AARAL
+PAGLALARAWAN
+• Itago ang AI section (Gemini)
+• Itago ang transcript
+• Itago ang mga binanggit na tao
+• Itago ang mga kaugnay na video
+• Itago ang channel card
+• Itago ang "Paano ito ginawa"
+• Itago ang mga chapter at episode
 
-Ang YouTube Clean ay banayad na focus tool, hindi agresibong blocker.
+PLAYBACK AT CHANNEL
 
-Walang inaalis hangga't hindi mo hinihiling, at ang tahimik na side panel ay
-inilalagay ang bawat setting isang click lang ang layo: walang account, walang
-dashboard, walang paulit-ulit na paalala.
+SLIDER NG BILIS NG PLAYBACK
+• Slider ng bilis ng playback
 
-Marami ang gumagamit nito bilang magaan na digital detox tool para sa YouTube,
-nakabatay sa kontrol imbes na sa pagbabawal.
+BITRATE
+• Piliin ang pinahusay na bitrate (Premium)
+• Taasan ang natukoy na bandwidth (eksperimental)
 
-MGA PRESET SA ISANG CLICK: MAGAAN, BALANSE, CUSTOM
+CODEC
+• Piliting gamitin ang H.264 (i-block ang VP9/AV1)
+• I-block ang 60 fps
 
-Magsimula sa handang preset. Magaan para sa banayad na paglilinis, Balanse para sa
-focused na setup, o buuin ang sarili mong Custom profile toggle por toggle.
+PLAYER
+• Itago ang mini player button
+• Itago ang theater mode button
+• Itago ang subtitles button
+• Itago ang autoplay switch
 
-Palitan ang preset kapag lumilipat ka sa pagitan ng trabaho at pahinga: nagiging
-tool ang YouTube kapag kailangan mo at umiiwas kapag hindi.
+CHANNEL
+• Itago ang channel trailer
+• Itago ang channel banner
 
-COMPACT NA LAYOUT: MAS MARAMING VIDEO KADA SCREEN
+SIDEBAR
 
-Ginagawa ng compact mode ang home feed, search results at mga rekomendasyon sa
-watch page na maayos na listahan o grid.
+ITAGO NANG BUO ANG SIDEBAR
+• Itago nang buo ang sidebar
 
-Mas kaunting scrolling, mas maraming resulta kada screen, at layout na sa wakas ay
-gumagalang sa malalaking monitor.
+PANGUNAHING MENU
+• Itago ang "Shorts"
 
-SPEED SLIDER AT MALINIS NA PLAYER
+IKAW
+• Itago ang "Aking channel"
+• Itago ang "History"
+• Itago ang "Playlists"
+• Itago ang "Iyong mga video"
+• Itago ang "Watch later"
+• Itago ang "Liked videos"
+• Itago ang "Movies"
+• Itago ang "Downloads"
+• Itago ang "Show more" button
 
-I-fine tune ang bilis ng playback gamit ang slider mismo sa player, kasama ang
-hiwalay na speed control para sa Shorts.
+ITAGO ANG LISTAHAN NG SUBSCRIPTION
+• Itago ang listahan ng subscription
 
-Linisin ang player sa pamamagitan ng pagtatago sa miniplayer, theater at subtitle
-buttons, at patayin ang autoplay switch para hindi kusang magsimula ang susunod
-na video.
+EXPLORE
+• Itago ang "Trending"
+• Itago ang "Music"
+• Itago ang "Live"
+• Itago ang "Gaming"
+• Itago ang "News"
+• Itago ang "Sports"
+• Itago ang "Show more" button
 
-MALINIS NA SEARCH, ITAAS NA BAR AT SIDEBAR
+HIGIT PA MULA SA YOUTUBE
+• Itago ang "YouTube Premium"
+• Itago ang "YouTube Music"
+• Itago ang "YouTube Kids"
+• Itago ang "YouTube Studio"
 
-Gawing simple ang itaas na bar sa pagtatago ng voice search, virtual keyboard,
-search tags, upload button at notifications.
+ITAGO ANG FOOTER AT ABOUT LINKS
+• Itago ang footer at About links
 
-Bawasan ang kaliwang sidebar sa mahahalaga lang, o itago nang buo, kasama ang
-Ikaw, History, Playlists, Watch later, Liked videos, Subscriptions, Explore,
-Trending, Music, Live, Gaming, News, Sports, Premium, YouTube Music, Kids, Studio
-at ang footer.
-
-Linisin din ang search results: kaugnay na paghahanap, info cards at channel
-shelves.
-
-PARA KANINO ANG YOUTUBE CLEAN
-
-• Mga estudyante at researcher na kailangan ng YouTube para sa lecture, hindi Shorts
-• Mga developer at manunulat na nanonood ng tutorial habang deep work
-• Mga nag-aaral ng wika na gumagamit ng speed slider sa mahahabang video
-• Mga magulang na gusto ng mas tahimik na YouTube sa shared computer
-• Sinumang nasa digital detox pero kailangan pa rin ang YouTube sa totoong trabaho
-
-OPEN SOURCE, MAGAAN AT PRIVATE
-
-Ang YouTube Clean ay ganap na open source at nakabuo sa Manifest V3.
-
-Walang account, walang tracking, walang analytics, walang pangongolekta ng data.
-Nananatili sa browser mo ang mga setting. Basahin ang code, mag-report ng isyu, o
-humiling ng feature sa GitHub.
-
-MGA MADALAS ITANONG
-
-Ganap ba nitong ni-block ang Shorts?
-Oo. Maaaring alisin ang Shorts sa home feed, search, sidebar, channel pages at
-kaliwang menu. Pwede rin panatilihin ang Shorts at patayin lang ang auto-advance.
-
-Inaalis ba nito ang mga ad sa YouTube?
-Awtomatikong nilalaktawan ang video ads sa sandaling maaari na, at itinatago ang
-banners, sponsored feed videos at promo panels. Isa itong tool sa paglilinis ng
-YouTube, hindi network level ad blocker.
-
-Gagana pa ba nang normal ang natitirang bahagi ng YouTube?
-Oo. Bawat feature ay naka-off bilang default. Walang magbabago hangga't hindi ka
-nagbubukas ng toggle, at ang pagpatay nito ay agad na nagbabalik sa YouTube.
-
-Kinokolekta ba nito ang data ko?
-Hindi. Walang account, walang server, walang analytics. Naka-save nang lokal sa
-browser mo ang mga setting.
-
-Anong mga browser ang suportado?
-Chrome at Opera, sa buong site: home feed, search, watch page, channels at player.
-
-Ang YouTube ang umaayon sa iyo, hindi ikaw sa kanya.
-
-Source code, mga isyu at feature request:
-https://github.com/lenadweb/yt-clean
+GitHub: https://github.com/lenadweb/yt-clean
