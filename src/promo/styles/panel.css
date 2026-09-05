@@ -2,14 +2,14 @@
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 18px;
-    background: #17181b;
+    border-radius: var(--promo-radius);
+    background: var(--promo-shell);
     box-shadow: 0 30px 70px rgba(0, 0, 0, 0.62);
 }
 
 .promo-panel--bleed {
     border-bottom: 0;
-    border-radius: 18px 18px 0 0;
+    border-radius: var(--promo-radius) var(--promo-radius) 0 0;
 }
 
 .promo-panel--bleed.promo-panel--dense {
@@ -25,7 +25,7 @@
 .promo-panel__body > div {
     min-height: 100%;
     border-radius: 0;
-    background: #17181b !important;
+    background: var(--promo-shell) !important;
     box-shadow: none;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .promo-panel__body .grid.grid-cols-3 > .bg-red-accent {
-    background: linear-gradient(135deg, #d51d20, #ed3538) !important;
+    background: var(--promo-red) !important;
 }
 
 .promo-panel__body .border-red-accent {

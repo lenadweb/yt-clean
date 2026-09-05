@@ -6,6 +6,7 @@ import Backdrop from 'src/promo/components/Backdrop';
 const HeroScene = () => (
     <>
         <Backdrop />
+        <div className="hero__surface" />
 
         <div className="hero__content">
             <Logo className="hero__logo" />
@@ -14,22 +15,22 @@ const HeroScene = () => (
                 YouTube <strong>Clean</strong>
             </h1>
             <p className="hero__tagline">Less noise. More YouTube.</p>
+        </div>
 
-            <div className="hero__pills">
-                <span className="promo-pill promo-pill--red">
-                    <span className="promo-pill__code">&lt;/&gt;</span>
-                    OPEN SOURCE
-                </span>
-                <span className="promo-pill">60+ toggles</span>
-                <span className="promo-pill">No tracking</span>
-            </div>
+        <div className="hero__facts">
+            <span>70+ controls</span>
+            <i />
+            <span>No tracking</span>
+            <i />
+            <span>Open source</span>
         </div>
 
         <SidebarPanel
+            className="hero__panel"
             bleed
             height={620}
             scale={1.3}
-            style={{ position: 'absolute', top: 72, right: 68, zIndex: 3 }}
+            style={{ position: 'absolute', top: 54, right: 48, zIndex: 3 }}
         />
     </>
 );

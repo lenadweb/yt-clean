@@ -25,6 +25,7 @@ type Props = {
     width?: number;
     scale?: number;
     style?: CSSProperties;
+    className?: string;
     dense?: boolean;
     bleed?: boolean;
 };
@@ -34,12 +35,14 @@ const SidebarPanel: FC<Props> = ({
     width = 380,
     scale = 1.4,
     style,
+    className,
     dense,
     bleed,
 }) => (
     <div
         className={cn(
             'promo-panel',
+            className,
             dense && 'promo-panel--dense',
             bleed && 'promo-panel--bleed'
         )}

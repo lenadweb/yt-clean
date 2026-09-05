@@ -134,7 +134,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: linear-gradient(140deg, #4a6fa5, #24354d);
+    background: oklch(0.4 0.008 270);
 }
 
 .yt-body {
@@ -210,7 +210,41 @@
 .yt-card__thumb {
     position: relative;
     aspect-ratio: 16 / 9;
+    overflow: hidden;
     border-radius: 8px;
+}
+
+.yt-card__thumb,
+.yt-ad__thumb,
+.yt-short {
+    background: oklch(0.31 0.006 265);
+}
+
+.yt-card.is-watched {
+    opacity: 0.58;
+}
+
+.yt-card__watched {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    padding: 3px 6px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 4px;
+    background: rgba(15, 15, 17, 0.82);
+    color: #f1f1f3;
+    font-size: 6.5px;
+    font-weight: 800;
+    letter-spacing: 0.7px;
+}
+
+.yt-card__progress {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background: #e11d22;
 }
 
 .yt-card__badge {
@@ -240,7 +274,7 @@
     height: 20px;
     flex: 0 0 20px;
     border-radius: 50%;
-    background: linear-gradient(140deg, #5b5b64, #2a2a30);
+    background: oklch(0.38 0.008 270);
 }
 
 .yt-card__text {
@@ -289,7 +323,6 @@
     height: 89px;
     flex: 0 0 158px;
     border-radius: 8px;
-    background: linear-gradient(140deg, #9fc2ec, #6f9ed6);
 }
 
 .yt-ad__body {

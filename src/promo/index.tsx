@@ -9,6 +9,8 @@ import 'src/promo/styles/hero.css';
 import 'src/promo/styles/youtube-mock.css';
 import 'src/promo/styles/before-after.css';
 import 'src/promo/styles/power.css';
+import 'src/promo/styles/fresh.css';
+import 'src/promo/styles/feature-compare.css';
 import 'src/promo/styles/tile.css';
 import 'src/promo/styles/preview.css';
 

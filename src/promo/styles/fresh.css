@@ -1,0 +1,71 @@
+.fresh {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    padding: var(--promo-frame-top) var(--promo-frame-x) 40px;
+}
+
+.fresh__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.fresh__title {
+    margin: 0;
+    font-size: var(--promo-title-size);
+    font-weight: 750;
+    letter-spacing: var(--promo-title-tracking);
+    line-height: 1;
+}
+
+.fresh__title strong {
+    color: var(--promo-red);
+    font-weight: inherit;
+}
+
+.fresh__subtitle {
+    margin: 12px 0 0;
+    color: var(--promo-muted);
+    font-size: var(--promo-subtitle-size);
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+
+.fresh__comparison {
+    display: grid;
+    height: 566px;
+    margin-top: 26px;
+    gap: 18px;
+    grid-template-columns: minmax(0, 0.92fr) 104px minmax(0, 1.08fr);
+}
+
+.fresh__side {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+}
+
+.fresh__window {
+    min-height: 0;
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: var(--promo-radius);
+    background: #0f0f0f;
+    filter: saturate(0.78) brightness(0.9);
+}
+
+.fresh__window--after {
+    filter: none;
+}
+
+.fresh__side--before .yt-feed {
+    padding-right: 10px;
+    padding-left: 8px;
+}
+
+.fresh__side--before .yt-rail {
+    width: 56px;
+    flex-basis: 56px;
+}

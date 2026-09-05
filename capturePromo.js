@@ -42,34 +42,44 @@ if (!selected.length) {
 
 selected.forEach((scene) => {
     const output = path.join(outputDirectory, scene.file);
+    const temporaryOutput = path.join(
+        outputDirectory,
+        `.${scene.file}.${process.pid}.tmp.png`
+    );
     const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'yt-clean-promo-'));
 
-    fs.rmSync(output, { force: true });
+    fs.rmSync(temporaryOutput, { force: true });
 
-    const result = spawnSync(
-        browser,
-        [
-            '--headless=new',
-            '--disable-gpu',
-            '--hide-scrollbars',
-            '--disable-background-networking',
-            '--disable-component-update',
-            '--no-default-browser-check',
-            '--no-first-run',
-            '--force-device-scale-factor=1',
-            `--window-size=${scene.width},${scene.height}`,
-            `--user-data-dir=${profile}`,
-            `--screenshot=${output}`,
-            `file://${source}?scene=${scene.id}`,
-        ],
-        { encoding: 'utf8', killSignal: 'SIGKILL', timeout: 20000 }
-    );
+    try {
+        const result = spawnSync(
+            browser,
+            [
+                '--headless=new',
+                '--disable-gpu',
+                '--hide-scrollbars',
+                '--disable-background-networking',
+                '--disable-component-update',
+                '--no-default-browser-check',
+                '--no-first-run',
+                '--force-device-scale-factor=1',
+                `--window-size=${scene.width},${scene.height}`,
+                `--user-data-dir=${profile}`,
+                `--screenshot=${temporaryOutput}`,
+                `file://${source}?scene=${scene.id}`,
+            ],
+            { encoding: 'utf8', killSignal: 'SIGKILL', timeout: 20000 }
+        );
 
-    fs.rmSync(profile, { recursive: true, force: true });
+        if (!fs.existsSync(temporaryOutput)) {
+            throw new Error(
+                result.stderr || `Capture failed for "${scene.id}".`
+            );
+        }
 
-    if (!fs.existsSync(output)) {
-        throw new Error(result.stderr || `Capture failed for "${scene.id}".`);
+        fs.renameSync(temporaryOutput, output);
+        console.log(`Generated ${output} (${scene.width}×${scene.height})`);
+    } finally {
+        fs.rmSync(profile, { recursive: true, force: true });
+        fs.rmSync(temporaryOutput, { force: true });
     }
-
-    console.log(`Generated ${output} (${scene.width}×${scene.height})`);
 });

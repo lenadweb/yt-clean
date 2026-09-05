@@ -1,28 +1,33 @@
+.hero__surface {
+    position: absolute;
+    z-index: 1;
+    inset: 0;
+    background: oklch(0.155 0.006 270);
+}
+
 .hero__content {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 76px;
+    top: 178px;
+    left: 70px;
     z-index: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 636px;
+    align-items: flex-start;
+    width: 625px;
 }
 
 .hero__logo {
     display: block;
-    width: 208px;
-    height: 208px;
-    margin-left: 172px;
+    width: 174px;
+    height: 174px;
 }
 
 .hero__title {
-    margin: 22px 0 0;
-    font-size: 88px;
+    margin: 43px 0 0;
+    font-size: 82px;
     font-weight: 760;
-    line-height: 0.93;
-    letter-spacing: -4.2px;
+    line-height: 0.95;
+    letter-spacing: -4px;
     white-space: nowrap;
 }
 
@@ -32,17 +37,36 @@
 }
 
 .hero__tagline {
-    margin: 16px 0 0 2px;
-    color: #d2d1d6;
-    font-size: 44px;
-    font-weight: 460;
-    line-height: 1.2;
-    letter-spacing: -1.05px;
+    margin: 20px 0 0 2px;
+    color: oklch(0.79 0.008 270);
+    font-size: 37px;
+    font-weight: 440;
+    line-height: 1.25;
+    letter-spacing: -0.9px;
 }
 
-.hero__pills {
+.hero__facts {
+    position: absolute;
+    bottom: 70px;
+    left: 72px;
+    z-index: 2;
     display: flex;
     align-items: center;
-    margin: 40px 0 0 2px;
-    gap: 12px;
+    color: oklch(0.76 0.006 270);
+    font-size: 18px;
+    font-weight: 540;
+    letter-spacing: -0.2px;
+    gap: 28px;
+}
+
+.hero__facts i {
+    width: 1px;
+    height: 28px;
+    background: oklch(0.42 0.006 270);
+}
+
+.hero__panel {
+    border-color: oklch(0.38 0.006 270);
+    border-radius: var(--promo-radius) var(--promo-radius) 0 0;
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.34);
 }

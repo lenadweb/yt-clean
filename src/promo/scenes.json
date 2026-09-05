@@ -16,7 +16,28 @@
     {
         "id": "power",
         "file": "promo-3.png",
-        "title": "60+ toggles",
+        "title": "70+ controls",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "fresh",
+        "file": "promo-4.png",
+        "title": "Fresh feed",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "focus",
+        "file": "promo-5.png",
+        "title": "Focused viewing",
+        "width": 1280,
+        "height": 800
+    },
+    {
+        "id": "navigation",
+        "file": "promo-6.png",
+        "title": "Clean navigation",
         "width": 1280,
         "height": 800
     },

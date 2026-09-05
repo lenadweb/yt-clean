@@ -1,18 +1,6 @@
 import React, { FC, ReactNode } from 'react';
 import cn from 'classnames';
 
-const TONES = [
-    'linear-gradient(140deg, #2f4a6b, #12202f)',
-    'linear-gradient(140deg, #5a2f36, #1d1214)',
-    'linear-gradient(140deg, #3b4a2e, #161d13)',
-    'linear-gradient(140deg, #46375f, #1a1424)',
-    'linear-gradient(140deg, #6b5330, #241a10)',
-    'linear-gradient(140deg, #2c5350, #12211f)',
-    'linear-gradient(140deg, #4a3355, #1b1322)',
-    'linear-gradient(140deg, #5b3b2b, #201310)',
-    'linear-gradient(140deg, #33415e, #141a26)',
-];
-
 const ICONS: Record<string, ReactNode> = {
     home: <path d="M3 10.4 12 3l9 7.4V21h-6.4v-6.1H9.4V21H3z" />,
     shorts: (
@@ -116,19 +104,25 @@ const Skeleton: FC<SkeletonProps> = ({ seed }) => {
 };
 
 type CardProps = {
-    tone: number;
     seed: number;
     badge?: string;
     live?: boolean;
+    watched?: boolean;
 };
 
-const Card: FC<CardProps> = ({ tone, seed, badge, live }) => (
-    <div className="yt-card">
-        <div className="yt-card__thumb" style={{ background: TONES[tone] }}>
+const Card: FC<CardProps> = ({ seed, badge, live, watched }) => (
+    <div className={cn('yt-card', watched && 'is-watched')}>
+        <div className="yt-card__thumb">
             {badge && (
                 <span className={cn('yt-card__badge', live && 'is-live')}>
                     {badge}
                 </span>
+            )}
+            {watched && (
+                <>
+                    <span className="yt-card__watched">WATCHED</span>
+                    <span className="yt-card__progress" />
+                </>
             )}
         </div>
         <div className="yt-card__row">
@@ -139,7 +133,7 @@ const Card: FC<CardProps> = ({ tone, seed, badge, live }) => (
     </div>
 );
 
-const TopBar = () => (
+export const YouTubeTopBar = () => (
     <div className="yt-top">
         <span className="yt-burger" />
         <span className="yt-brand">
@@ -212,23 +206,34 @@ const Chips: FC<{ items: string[] }> = ({ items }) => (
     </div>
 );
 
-const YouTubeMock: FC<{ variant: 'before' | 'after' }> = ({ variant }) => {
+const YouTubeMock: FC<{
+    variant: 'before' | 'after' | 'watched' | 'fresh';
+}> = ({ variant }) => {
     const isBefore = variant === 'before';
+    const isWatched = variant === 'watched';
 
     return (
         <div className={cn('yt', `yt--${variant}`)}>
-            <TopBar />
+            <YouTubeTopBar />
             <div className="yt-body">
                 <Rail
                     items={
-                        isBefore
+                        variant !== 'after'
                             ? RAIL
                             : RAIL.filter((item) => item !== 'shorts')
                     }
                 />
 
                 <div className="yt-feed">
-                    <Chips items={isBefore ? CHIPS : CHIPS.slice(0, 3)} />
+                    <Chips
+                        items={
+                            isBefore
+                                ? CHIPS
+                                : variant === 'after'
+                                  ? CHIPS.slice(0, 3)
+                                  : CHIPS.slice(0, 4)
+                        }
+                    />
 
                     {isBefore ? (
                         <>
@@ -261,39 +266,48 @@ const YouTubeMock: FC<{ variant: 'before' | 'after' }> = ({ variant }) => {
                                         Shorts
                                     </div>
                                     <div className="yt-shelf__row">
-                                        {[1, 4, 7, 3, 5].map((tone, index) => (
-                                            <span
-                                                key={index}
-                                                className="yt-short"
-                                                style={{
-                                                    background: TONES[tone],
-                                                }}
-                                            />
-                                        ))}
+                                        {Array.from(
+                                            { length: 5 },
+                                            (_, index) => (
+                                                <span
+                                                    key={index}
+                                                    className="yt-short"
+                                                />
+                                            )
+                                        )}
                                     </div>
                                 </div>
                             </Junk>
 
                             <div className="yt-grid">
-                                <Card tone={0} seed={0} badge="3:01:00" />
-                                <Card tone={1} seed={1} badge="LIVE" live />
+                                <Card seed={0} badge="3:01:00" />
+                                <Card seed={1} badge="LIVE" live />
                             </div>
 
                             <Junk tag="Mixes & watched">
                                 <div className="yt-grid">
-                                    <Card tone={6} seed={2} badge="Mix" />
-                                    <Card tone={4} seed={3} badge="24:38" />
+                                    <Card seed={2} badge="Mix" />
+                                    <Card seed={3} badge="24:38" />
                                 </div>
                             </Junk>
                         </>
+                    ) : isWatched ? (
+                        <div className="yt-grid">
+                            <Card seed={0} badge="32:41" watched />
+                            <Card seed={1} badge="18:12" />
+                            <Card seed={2} badge="48:09" watched />
+                            <Card seed={3} badge="1:31:49" />
+                            <Card seed={4} badge="11:22" watched />
+                            <Card seed={5} badge="9:41" />
+                        </div>
                     ) : (
                         <div className="yt-grid">
-                            <Card tone={0} seed={0} badge="3:01:00" />
-                            <Card tone={1} seed={1} badge="LIVE" live />
-                            <Card tone={2} seed={2} badge="18:12" />
-                            <Card tone={8} seed={3} badge="1:31:49" />
-                            <Card tone={5} seed={4} badge="11:22" />
-                            <Card tone={3} seed={5} badge="9:41" />
+                            <Card seed={0} badge="3:01:00" />
+                            <Card seed={1} badge="LIVE" live />
+                            <Card seed={2} badge="18:12" />
+                            <Card seed={3} badge="1:31:49" />
+                            <Card seed={4} badge="11:22" />
+                            <Card seed={5} badge="9:41" />
                         </div>
                     )}
                 </div>

@@ -15,18 +15,20 @@ const TileScene = () => (
             </h1>
             <p className="tile__tagline">Less noise. More YouTube.</p>
 
-            <span className="tile__badge">
-                <span className="promo-pill__code">&lt;/&gt;</span>
-                OPEN SOURCE
-            </span>
+            <div className="tile__facts">
+                <span>70+ controls</span>
+                <i />
+                <span>No tracking</span>
+            </div>
         </div>
 
         <SidebarPanel
+            className="tile__panel"
             bleed
             dense
             height={580}
             scale={0.5}
-            style={{ position: 'absolute', top: 12, right: 22, zIndex: 3 }}
+            style={{ position: 'absolute', top: 12, right: 14, zIndex: 3 }}
         />
     </>
 );
