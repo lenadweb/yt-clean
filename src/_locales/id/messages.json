@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Sembunyikan gambar channel"
+  },
+  "watched_videos": {
+    "message": "Video yang sudah ditonton"
+  },
+  "hide_watched_on_home": {
+    "message": "Sembunyikan di Beranda"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Sembunyikan di Subscription"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Sembunyikan di halaman channel"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Sembunyikan di rekomendasi"
   }
 }

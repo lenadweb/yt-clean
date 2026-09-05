@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "隱藏頻道圖片"
+  },
+  "watched_videos": {
+    "message": "已觀看的影片"
+  },
+  "hide_watched_on_home": {
+    "message": "在首頁隱藏"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "在訂閱內容中隱藏"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "在頻道頁面隱藏"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "在推薦內容中隱藏"
   }
 }

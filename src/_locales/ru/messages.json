@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Скрыть изображения канала"
+  },
+  "watched_videos": {
+    "message": "Просмотренные видео"
+  },
+  "hide_watched_on_home": {
+    "message": "Скрывать на главной"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Скрывать в подписках"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Скрывать на страницах каналов"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Скрывать в рекомендациях"
   }
 }

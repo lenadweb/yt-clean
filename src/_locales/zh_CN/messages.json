@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "隐藏频道图片"
+  },
+  "watched_videos": {
+    "message": "已观看的视频"
+  },
+  "hide_watched_on_home": {
+    "message": "在首页隐藏"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "在订阅内容中隐藏"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "在频道页面隐藏"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "在推荐内容中隐藏"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Piilota kanavan kuvat"
+  },
+  "watched_videos": {
+    "message": "Katsotut videot"
+  },
+  "hide_watched_on_home": {
+    "message": "Piilota etusivulla"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Piilota tilauksissa"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Piilota kanavasivuilla"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Piilota suosituksissa"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Skrýt obrázky kanálu"
+  },
+  "watched_videos": {
+    "message": "Zhlédnutá videa"
+  },
+  "hide_watched_on_home": {
+    "message": "Skrýt na domovské stránce"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Skrýt v odběrech"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Skrýt na stránkách kanálů"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Skrýt v doporučeních"
   }
 }

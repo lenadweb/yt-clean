@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Itago ang mga larawan ng channel"
+  },
+  "watched_videos": {
+    "message": "Mga napanood na video"
+  },
+  "hide_watched_on_home": {
+    "message": "Itago sa Home"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Itago sa Mga Subscription"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Itago sa mga page ng channel"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Itago sa mga rekomendasyon"
   }
 }

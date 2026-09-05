@@ -8,6 +8,8 @@ export const UrlRegExps = {
     Watch: /^https:\/\/(www\.)?youtube\.com\/watch\?v=[^&]+/,
     Channel: /^https:\/\/(www\.)?youtube\.com\/(c|channel|@)[^/?]+/,
     Search: /^https:\/\/(www\.)?youtube\.com\/results\?search_query=[^&]+/,
+    Subscriptions:
+        /^https:\/\/(www\.)?youtube\.com\/feed\/subscriptions(\?.*)?$/,
 } as const;
 
 export const COMPONENT_NAMES = ['PlaybackSpeed', 'ShortsSpeedControl'] as const;

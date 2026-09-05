@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "चैनल की तस्वीरें छिपाएँ"
+  },
+  "watched_videos": {
+    "message": "देखे गए वीडियो"
+  },
+  "hide_watched_on_home": {
+    "message": "होम पेज पर छिपाएँ"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "सदस्यताओं में छिपाएँ"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "चैनल पेजों पर छिपाएँ"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "सुझावों में छिपाएँ"
   }
 }

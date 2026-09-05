@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "ఛానెల్ చిత్రాలను దాచు"
+  },
+  "watched_videos": {
+    "message": "చూసిన వీడియోలు"
+  },
+  "hide_watched_on_home": {
+    "message": "హోమ్‌లో దాచు"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "సబ్‌స్క్రిప్షన్‌లలో దాచు"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "ఛానెల్ పేజీలలో దాచు"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "సిఫార్సులలో దాచు"
   }
 }

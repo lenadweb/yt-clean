@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Csatornaképek elrejtése"
+  },
+  "watched_videos": {
+    "message": "Megtekintett videók"
+  },
+  "hide_watched_on_home": {
+    "message": "Elrejtés a kezdőlapon"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Elrejtés a feliratkozások között"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Elrejtés a csatornaoldalakon"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Elrejtés az ajánlások között"
   }
 }

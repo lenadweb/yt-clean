@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "የሰርጥ ምስሎችን ደብቅ"
+  },
+  "watched_videos": {
+    "message": "የታዩ ቪዲዮዎች"
+  },
+  "hide_watched_on_home": {
+    "message": "በመነሻ ገጽ ላይ ደብቅ"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "በደንበኝነት ምዝገባዎች ውስጥ ደብቅ"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "በሰርጥ ገጾች ላይ ደብቅ"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "በምክሮች ውስጥ ደብቅ"
   }
 }

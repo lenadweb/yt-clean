@@ -31,6 +31,34 @@ const MEMBERS_ONLY_VIDEO_SELECTOR = `:is(${MEMBERS_ONLY_VIDEO_CONTAINERS.join(
     ', '
 )}):has(:is(${MEMBERS_ONLY_BADGES.join(', ')}))`;
 
+const WATCHED_VIDEO_CONTAINERS = [
+    'ytd-rich-item-renderer',
+    'ytd-grid-video-renderer',
+    'ytd-video-renderer',
+    'ytd-compact-video-renderer',
+    'yt-lockup-view-model',
+];
+
+const WATCHED_PROGRESS_ELEMENTS = [
+    '#progress.ytd-thumbnail-overlay-resume-playback-renderer',
+    '.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment',
+    '.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegmentModern',
+];
+
+const WATCHED_PROGRESS_RANGES = [
+    '[style*="width: 100%"]',
+    ...Array.from(
+        { length: 66 },
+        (_, index) => `[style*="width: ${index + 34}"]`
+    ),
+];
+
+const WATCHED_VIDEO_SELECTOR = `:is(${WATCHED_VIDEO_CONTAINERS.join(
+    ', '
+)}):has(:is(${WATCHED_PROGRESS_ELEMENTS.join(', ')}):is(${WATCHED_PROGRESS_RANGES.join(
+    ', '
+)}))`;
+
 export const feedCategory = category('feed_and_recommendations', [
     section('compact_mode', { isNew: true, controls: 'switch' }, [
         feature({
@@ -122,6 +150,32 @@ export const feedCategory = category('feed_and_recommendations', [
             title: 'hide_members_only_videos',
             isNew: true,
             hide: [MEMBERS_ONLY_VIDEO_SELECTOR],
+        }),
+    ]),
+    section('watched_videos', { isNew: true }, [
+        feature({
+            id: 'hideWatchedVideosHome',
+            title: 'hide_watched_on_home',
+            url: [UrlRegExps.Home],
+            hide: [WATCHED_VIDEO_SELECTOR],
+        }),
+        feature({
+            id: 'hideWatchedVideosSubscriptions',
+            title: 'hide_watched_in_subscriptions',
+            url: [UrlRegExps.Subscriptions],
+            hide: [WATCHED_VIDEO_SELECTOR],
+        }),
+        feature({
+            id: 'hideWatchedVideosChannels',
+            title: 'hide_watched_on_channel_pages',
+            url: [UrlRegExps.Channel],
+            hide: [WATCHED_VIDEO_SELECTOR],
+        }),
+        feature({
+            id: 'hideWatchedVideosRecommendations',
+            title: 'hide_watched_in_recommendations',
+            url: [UrlRegExps.Watch],
+            hide: [WATCHED_VIDEO_SELECTOR],
         }),
     ]),
     section('search', { isNew: true }, [

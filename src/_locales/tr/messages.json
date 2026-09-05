@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Kanal görsellerini gizle"
+  },
+  "watched_videos": {
+    "message": "İzlenen videolar"
+  },
+  "hide_watched_on_home": {
+    "message": "Ana sayfada gizle"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Aboneliklerde gizle"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Kanal sayfalarında gizle"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Önerilerde gizle"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "チャンネル画像を非表示"
+  },
+  "watched_videos": {
+    "message": "視聴済みの動画"
+  },
+  "hide_watched_on_home": {
+    "message": "ホームで非表示"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "登録チャンネルで非表示"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "チャンネルページで非表示"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "おすすめで非表示"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "চ্যানেলের ছবি লুকান"
+  },
+  "watched_videos": {
+    "message": "দেখা ভিডিও"
+  },
+  "hide_watched_on_home": {
+    "message": "হোম পেজে লুকান"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "সাবস্ক্রিপশনে লুকান"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "চ্যানেল পেজে লুকান"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "সুপারিশে লুকান"
   }
 }

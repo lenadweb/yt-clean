@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Ficha picha za kituo"
+  },
+  "watched_videos": {
+    "message": "Video ulizotazama"
+  },
+  "hide_watched_on_home": {
+    "message": "Ficha kwenye ukurasa wa mwanzo"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Ficha kwenye usajili"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Ficha kwenye kurasa za vituo"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Ficha kwenye mapendekezo"
   }
 }

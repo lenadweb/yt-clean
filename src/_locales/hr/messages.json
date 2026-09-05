@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Sakrij slike kanala"
+  },
+  "watched_videos": {
+    "message": "Gledani videozapisi"
+  },
+  "hide_watched_on_home": {
+    "message": "Sakrij na početnoj stranici"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Sakrij u pretplatama"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Sakrij na stranicama kanala"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Sakrij u preporukama"
   }
 }

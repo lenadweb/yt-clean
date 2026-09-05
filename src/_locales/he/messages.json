@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "הסתרת תמונות הערוץ"
+  },
+  "watched_videos": {
+    "message": "סרטונים שנצפו"
+  },
+  "hide_watched_on_home": {
+    "message": "הסתרה בדף הבית"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "הסתרה במינויים"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "הסתרה בדפי ערוצים"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "הסתרה בהמלצות"
   }
 }

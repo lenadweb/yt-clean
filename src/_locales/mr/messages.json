@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "चॅनेलची चित्रे लपवा"
+  },
+  "watched_videos": {
+    "message": "पाहिलेले व्हिडिओ"
+  },
+  "hide_watched_on_home": {
+    "message": "होम पेजवर लपवा"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "सदस्यतांमध्ये लपवा"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "चॅनेल पेजवर लपवा"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "शिफारसींमध्ये लपवा"
   }
 }

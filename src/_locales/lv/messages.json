@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Slēpt kanāla attēlus"
+  },
+  "watched_videos": {
+    "message": "Skatītie videoklipi"
+  },
+  "hide_watched_on_home": {
+    "message": "Slēpt sākumlapā"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Slēpt abonementos"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Slēpt kanālu lapās"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Slēpt ieteikumos"
   }
 }

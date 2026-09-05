@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "ಚಾನಲ್ ಚಿತ್ರಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "watched_videos": {
+    "message": "ವೀಕ್ಷಿಸಿದ ವೀಡಿಯೊಗಳು"
+  },
+  "hide_watched_on_home": {
+    "message": "ಮುಖಪುಟದಲ್ಲಿ ಮರೆಮಾಡಿ"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "ಚಂದಾದಾರಿಕೆಗಳಲ್ಲಿ ಮರೆಮಾಡಿ"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "ಚಾನಲ್ ಪುಟಗಳಲ್ಲಿ ಮರೆಮಾಡಿ"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "ಶಿಫಾರಸುಗಳಲ್ಲಿ ಮರೆಮಾಡಿ"
   }
 }

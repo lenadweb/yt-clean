@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "ചാനൽ ചിത്രങ്ങൾ മറയ്ക്കുക"
+  },
+  "watched_videos": {
+    "message": "കണ്ട വീഡിയോകൾ"
+  },
+  "hide_watched_on_home": {
+    "message": "ഹോം പേജിൽ മറയ്ക്കുക"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "സബ്‌സ്‌ക്രിപ്‌ഷനുകളിൽ മറയ്ക്കുക"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "ചാനൽ പേജുകളിൽ മറയ്ക്കുക"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "ശുപാർശകളിൽ മറയ്ക്കുക"
   }
 }

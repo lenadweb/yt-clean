@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Απόκρυψη εικόνων καναλιού"
+  },
+  "watched_videos": {
+    "message": "Βίντεο που παρακολουθήσατε"
+  },
+  "hide_watched_on_home": {
+    "message": "Απόκρυψη στην αρχική σελίδα"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Απόκρυψη στις συνδρομές"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Απόκρυψη στις σελίδες καναλιών"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Απόκρυψη στις προτάσεις"
   }
 }

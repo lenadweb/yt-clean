@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "پنهان کردن تصاویر کانال"
+  },
+  "watched_videos": {
+    "message": "ویدیوهای تماشا‌شده"
+  },
+  "hide_watched_on_home": {
+    "message": "پنهان کردن در صفحه اصلی"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "پنهان کردن در اشتراک‌ها"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "پنهان کردن در صفحه‌های کانال"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "پنهان کردن در پیشنهادها"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Amaga les imatges del canal"
+  },
+  "watched_videos": {
+    "message": "Vídeos vistos"
+  },
+  "hide_watched_on_home": {
+    "message": "Amaga a la pàgina d’inici"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Amaga a Subscripcions"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Amaga a les pàgines de canals"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Amaga a les recomanacions"
   }
 }

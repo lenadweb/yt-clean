@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Dölj kanalbilder"
+  },
+  "watched_videos": {
+    "message": "Sedda videor"
+  },
+  "hide_watched_on_home": {
+    "message": "Dölj på startsidan"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Dölj i prenumerationer"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Dölj på kanalsidor"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Dölj i rekommendationer"
   }
 }

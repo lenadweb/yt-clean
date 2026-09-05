@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "ซ่อนรูปภาพช่อง"
+  },
+  "watched_videos": {
+    "message": "วิดีโอที่ดูแล้ว"
+  },
+  "hide_watched_on_home": {
+    "message": "ซ่อนในหน้าหลัก"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "ซ่อนในการติดตาม"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "ซ่อนในหน้าช่อง"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "ซ่อนในวิดีโอแนะนำ"
   }
 }

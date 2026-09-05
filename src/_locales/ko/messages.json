@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "채널 이미지 숨기기"
+  },
+  "watched_videos": {
+    "message": "시청한 동영상"
+  },
+  "hide_watched_on_home": {
+    "message": "홈에서 숨기기"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "구독에서 숨기기"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "채널 페이지에서 숨기기"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "추천에서 숨기기"
   }
 }

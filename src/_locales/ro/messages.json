@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Ascunde imaginile canalului"
+  },
+  "watched_videos": {
+    "message": "Videoclipuri vizionate"
+  },
+  "hide_watched_on_home": {
+    "message": "Ascunde pe pagina de pornire"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Ascunde în Abonamente"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Ascunde pe paginile canalelor"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Ascunde în recomandări"
   }
 }

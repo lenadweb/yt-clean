@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Kanalbilder ausblenden"
+  },
+  "watched_videos": {
+    "message": "Angesehene Videos"
+  },
+  "hide_watched_on_home": {
+    "message": "Auf der Startseite ausblenden"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Unter Abos ausblenden"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Auf Kanalseiten ausblenden"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "In Empfehlungen ausblenden"
   }
 }

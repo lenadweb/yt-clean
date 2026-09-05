@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "சேனல் படங்களை மறை"
+  },
+  "watched_videos": {
+    "message": "பார்த்த வீடியோக்கள்"
+  },
+  "hide_watched_on_home": {
+    "message": "முகப்புப் பக்கத்தில் மறை"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "சந்தாக்களில் மறை"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "சேனல் பக்கங்களில் மறை"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "பரிந்துரைகளில் மறை"
   }
 }

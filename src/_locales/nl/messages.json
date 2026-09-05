@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Kanaalafbeeldingen verbergen"
+  },
+  "watched_videos": {
+    "message": "Bekeken video’s"
+  },
+  "hide_watched_on_home": {
+    "message": "Verbergen op Home"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Verbergen in Abonnementen"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Verbergen op kanaalpagina’s"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Verbergen in aanbevelingen"
   }
 }

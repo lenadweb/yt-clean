@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Hide channel pictures"
+  },
+  "watched_videos": {
+    "message": "Watched videos"
+  },
+  "hide_watched_on_home": {
+    "message": "Hide on Home"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Hide in Subscriptions"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Hide on channel pages"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Hide in recommendations"
   }
 }

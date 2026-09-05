@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Приховати зображення каналу"
+  },
+  "watched_videos": {
+    "message": "Переглянуті відео"
+  },
+  "hide_watched_on_home": {
+    "message": "Приховувати на головній"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Приховувати в підписках"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Приховувати на сторінках каналів"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Приховувати в рекомендаціях"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Skjul kanalbilder"
+  },
+  "watched_videos": {
+    "message": "Sette videoer"
+  },
+  "hide_watched_on_home": {
+    "message": "Skjul på startsiden"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Skjul i abonnementer"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Skjul på kanalsider"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Skjul i anbefalinger"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "إخفاء صور القناة"
+  },
+  "watched_videos": {
+    "message": "الفيديوهات التي تمت مشاهدتها"
+  },
+  "hide_watched_on_home": {
+    "message": "إخفاء على الصفحة الرئيسية"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "إخفاء في الاشتراكات"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "إخفاء على صفحات القنوات"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "إخفاء في الاقتراحات"
   }
 }

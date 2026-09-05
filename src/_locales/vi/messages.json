@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Ẩn hình ảnh của kênh"
+  },
+  "watched_videos": {
+    "message": "Video đã xem"
+  },
+  "hide_watched_on_home": {
+    "message": "Ẩn trên Trang chủ"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Ẩn trong Kênh đăng ký"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Ẩn trên trang kênh"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Ẩn trong video đề xuất"
   }
 }

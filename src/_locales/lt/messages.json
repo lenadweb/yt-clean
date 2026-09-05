@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Slėpti kanalo paveikslėlius"
+  },
+  "watched_videos": {
+    "message": "Peržiūrėti vaizdo įrašai"
+  },
+  "hide_watched_on_home": {
+    "message": "Slėpti pagrindiniame puslapyje"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Slėpti prenumeratose"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Slėpti kanalų puslapiuose"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Slėpti rekomendacijose"
   }
 }

@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Peida kanali pildid"
+  },
+  "watched_videos": {
+    "message": "Vaadatud videod"
+  },
+  "hide_watched_on_home": {
+    "message": "Peida avalehel"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Peida tellimustes"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Peida kanalilehtedel"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Peida soovitustes"
   }
 }

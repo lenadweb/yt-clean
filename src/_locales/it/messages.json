@@ -385,5 +385,20 @@
   },
   "hide_channel_pictures": {
     "message": "Nascondi le immagini del canale"
+  },
+  "watched_videos": {
+    "message": "Video guardati"
+  },
+  "hide_watched_on_home": {
+    "message": "Nascondi nella home page"
+  },
+  "hide_watched_in_subscriptions": {
+    "message": "Nascondi nelle iscrizioni"
+  },
+  "hide_watched_on_channel_pages": {
+    "message": "Nascondi nelle pagine dei canali"
+  },
+  "hide_watched_in_recommendations": {
+    "message": "Nascondi nei consigliati"
   }
 }
