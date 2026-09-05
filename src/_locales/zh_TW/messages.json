@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "自訂你的 YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "隱藏會員專屬影片"
+  },
+  "hide_channel_pictures": {
+    "message": "隱藏頻道圖片"
   }
 }

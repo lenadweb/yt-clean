@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Sesuaikan YouTube Anda"
+  },
+  "hide_members_only_videos": {
+    "message": "Sembunyikan video khusus pelanggan"
+  },
+  "hide_channel_pictures": {
+    "message": "Sembunyikan gambar channel"
   }
 }

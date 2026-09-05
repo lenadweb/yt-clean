@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Mukauta YouTubeasi"
+  },
+  "hide_members_only_videos": {
+    "message": "Piilota vain jäsenille tarkoitetut videot"
+  },
+  "hide_channel_pictures": {
+    "message": "Piilota kanavan kuvat"
   }
 }

@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "നിങ്ങളുടെ YouTube ഇഷ്ടാനുസൃതമാക്കുക"
+  },
+  "hide_members_only_videos": {
+    "message": "അംഗങ്ങൾക്ക് മാത്രമുള്ള വീഡിയോകൾ മറയ്ക്കുക"
+  },
+  "hide_channel_pictures": {
+    "message": "ചാനൽ ചിത്രങ്ങൾ മറയ്ക്കുക"
   }
 }

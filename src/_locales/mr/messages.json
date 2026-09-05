@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "तुमचे YouTube कस्टमाइझ करा"
+  },
+  "hide_members_only_videos": {
+    "message": "फक्त सदस्यांसाठीचे व्हिडिओ लपवा"
+  },
+  "hide_channel_pictures": {
+    "message": "चॅनेलची चित्रे लपवा"
   }
 }

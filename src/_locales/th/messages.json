@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "ปรับแต่ง YouTube ของคุณ"
+  },
+  "hide_members_only_videos": {
+    "message": "ซ่อนวิดีโอสำหรับสมาชิกเท่านั้น"
+  },
+  "hide_channel_pictures": {
+    "message": "ซ่อนรูปภาพช่อง"
   }
 }

@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Персонализирайте YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Скриване на видеоклиповете само за членове"
+  },
+  "hide_channel_pictures": {
+    "message": "Скриване на изображенията на канала"
   }
 }

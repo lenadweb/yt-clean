@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Pas je YouTube aan"
+  },
+  "hide_members_only_videos": {
+    "message": "Video’s alleen voor leden verbergen"
+  },
+  "hide_channel_pictures": {
+    "message": "Kanaalafbeeldingen verbergen"
   }
 }

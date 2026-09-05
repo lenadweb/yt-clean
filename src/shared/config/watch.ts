@@ -11,6 +11,18 @@ export const watchCategory = category('video_page', [
             hide: ['ytd-comments#comments'],
         }),
         feature({
+            id: 'hideChannelPictures',
+            title: 'hide_channel_pictures',
+            isNew: true,
+            url: [UrlRegExps.Watch],
+            hide: [
+                'ytd-watch-metadata ytd-video-owner-renderer a:has(> #avatar)',
+                'ytd-watch-metadata ytd-video-owner-renderer yt-decorated-avatar-view-model',
+                'ytd-player .iv-branding',
+                'ytd-player .ytp-button.branding-img-container',
+            ],
+        }),
+        feature({
             id: 'hideLikeDislike',
             title: 'hide_like_dislike',
             url: [UrlRegExps.Watch],

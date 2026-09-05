@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Pielāgojiet savu YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Slēpt tikai dalībniekiem paredzētos videoklipus"
+  },
+  "hide_channel_pictures": {
+    "message": "Slēpt kanāla attēlus"
   }
 }

@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Προσαρμόστε το YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Απόκρυψη βίντεο μόνο για μέλη"
+  },
+  "hide_channel_pictures": {
+    "message": "Απόκρυψη εικόνων καναλιού"
   }
 }

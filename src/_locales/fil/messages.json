@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "I-customize ang iyong YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Itago ang mga video para sa mga miyembro lamang"
+  },
+  "hide_channel_pictures": {
+    "message": "Itago ang mga larawan ng channel"
   }
 }

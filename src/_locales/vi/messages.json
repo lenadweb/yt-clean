@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Tùy chỉnh YouTube của bạn"
+  },
+  "hide_members_only_videos": {
+    "message": "Ẩn video chỉ dành cho hội viên"
+  },
+  "hide_channel_pictures": {
+    "message": "Ẩn hình ảnh của kênh"
   }
 }

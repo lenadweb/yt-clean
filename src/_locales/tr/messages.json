@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "YouTube'unu özelleştir"
+  },
+  "hide_members_only_videos": {
+    "message": "Yalnızca üyelere özel videoları gizle"
+  },
+  "hide_channel_pictures": {
+    "message": "Kanal görsellerini gizle"
   }
 }

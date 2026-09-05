@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Anpassa ditt YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Dölj videor endast för medlemmar"
+  },
+  "hide_channel_pictures": {
+    "message": "Dölj kanalbilder"
   }
 }

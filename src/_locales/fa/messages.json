@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "YouTube خود را شخصی‌سازی کنید"
+  },
+  "hide_members_only_videos": {
+    "message": "پنهان کردن ویدیوهای مخصوص اعضا"
+  },
+  "hide_channel_pictures": {
+    "message": "پنهان کردن تصاویر کانال"
   }
 }

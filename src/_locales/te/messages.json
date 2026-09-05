@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "మీ YouTubeను అనుకూలీకరించండి"
+  },
+  "hide_members_only_videos": {
+    "message": "సభ్యులకు మాత్రమే వీడియోలను దాచు"
+  },
+  "hide_channel_pictures": {
+    "message": "ఛానెల్ చిత్రాలను దాచు"
   }
 }

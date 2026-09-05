@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Tilpass YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Skjul videoer kun for medlemmer"
+  },
+  "hide_channel_pictures": {
+    "message": "Skjul kanalbilder"
   }
 }

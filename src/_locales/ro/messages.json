@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Personalizează-ți YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Ascunde videoclipurile doar pentru membri"
+  },
+  "hide_channel_pictures": {
+    "message": "Ascunde imaginile canalului"
   }
 }

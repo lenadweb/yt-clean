@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Szabd személyre a YouTube-ot"
+  },
+  "hide_members_only_videos": {
+    "message": "Csak tagoknak szóló videók elrejtése"
+  },
+  "hide_channel_pictures": {
+    "message": "Csatornaképek elrejtése"
   }
 }

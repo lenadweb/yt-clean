@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Přizpůsobit YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Skrýt videa pouze pro členy"
+  },
+  "hide_channel_pictures": {
+    "message": "Skrýt obrázky kanálu"
   }
 }

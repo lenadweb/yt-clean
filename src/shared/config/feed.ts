@@ -7,6 +7,30 @@ import {
 
 const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
 
+const MEMBERS_ONLY_VIDEO_CONTAINERS = [
+    'ytd-rich-item-renderer',
+    'ytd-video-renderer',
+    'ytd-grid-video-renderer',
+    'ytd-compact-video-renderer',
+    'ytd-playlist-video-renderer',
+    'ytd-playlist-panel-video-renderer',
+    'ytd-radio-renderer',
+    'ytd-reel-item-renderer',
+    'ytd-reel-video-renderer',
+    'ytd-rich-grid-media',
+    'ytd-rich-grid-slim-media',
+    'yt-lockup-view-model',
+];
+
+const MEMBERS_ONLY_BADGES = [
+    '.badge-style-type-members-only',
+    '.yt-badge-shape--membership',
+];
+
+const MEMBERS_ONLY_VIDEO_SELECTOR = `:is(${MEMBERS_ONLY_VIDEO_CONTAINERS.join(
+    ', '
+)}):has(:is(${MEMBERS_ONLY_BADGES.join(', ')}))`;
+
 export const feedCategory = category('feed_and_recommendations', [
     section('compact_mode', { isNew: true, controls: 'switch' }, [
         feature({
@@ -92,6 +116,12 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-item-renderer:has(yt-lockup-view-model:has(a[href*="/playlist"]))',
                 GHOST_GRID_SKELETON,
             ],
+        }),
+        feature({
+            id: 'hideMembersOnlyVideos',
+            title: 'hide_members_only_videos',
+            isNew: true,
+            hide: [MEMBERS_ONLY_VIDEO_SELECTOR],
         }),
     ]),
     section('search', { isNew: true }, [

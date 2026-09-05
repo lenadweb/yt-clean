@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Passe dein YouTube an"
+  },
+  "hide_members_only_videos": {
+    "message": "Videos nur für Mitglieder ausblenden"
+  },
+  "hide_channel_pictures": {
+    "message": "Kanalbilder ausblenden"
   }
 }

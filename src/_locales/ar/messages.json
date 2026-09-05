@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "خصّص YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "إخفاء الفيديوهات المخصصة للأعضاء فقط"
+  },
+  "hide_channel_pictures": {
+    "message": "إخفاء صور القناة"
   }
 }

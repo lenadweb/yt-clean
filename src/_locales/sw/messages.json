@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Binafsisha YouTube yako"
+  },
+  "hide_members_only_videos": {
+    "message": "Ficha video za wanachama pekee"
+  },
+  "hide_channel_pictures": {
+    "message": "Ficha picha za kituo"
   }
 }

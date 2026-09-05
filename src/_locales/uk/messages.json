@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Налаштувати свій YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Приховати відео лише для спонсорів"
+  },
+  "hide_channel_pictures": {
+    "message": "Приховати зображення каналу"
   }
 }

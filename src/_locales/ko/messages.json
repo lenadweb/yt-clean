@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "내 YouTube 맞춤설정"
+  },
+  "hide_members_only_videos": {
+    "message": "회원 전용 동영상 숨기기"
+  },
+  "hide_channel_pictures": {
+    "message": "채널 이미지 숨기기"
   }
 }

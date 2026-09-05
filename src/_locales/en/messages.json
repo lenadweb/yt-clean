@@ -379,5 +379,11 @@
   },
   "customize_youtube": {
     "message": "Customize your YouTube"
+  },
+  "hide_members_only_videos": {
+    "message": "Hide members-only videos"
+  },
+  "hide_channel_pictures": {
+    "message": "Hide channel pictures"
   }
 }
