@@ -39,13 +39,41 @@ export const useStorageValue = <K extends keyof StorageState>(
     return [settings[key], setValue];
 };
 
-export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
+type StorageProviderProps = {
+    children: React.ReactNode;
+    mockSettings?: StorageState;
+};
+
+export const StorageProvider: React.FC<StorageProviderProps> = ({
     children,
+    mockSettings,
 }) => {
-    const [settings, setSettings] = useState<StorageState>(storage.settings);
-    const [isReady, setIsReady] = useState(storage.isReady);
+    const [settings, setSettings] = useState<StorageState>(
+        mockSettings ?? storage.settings
+    );
+    const [isReady, setIsReady] = useState(
+        mockSettings !== undefined || storage.isReady
+    );
+
+    const updateContextSetting: UpdateSetting = useCallback(
+        (key, value) => {
+            if (mockSettings === undefined) {
+                updateSetting(key, value);
+                return;
+            }
+
+            setSettings((current) => ({ ...current, [key]: value }));
+        },
+        [mockSettings]
+    );
 
     useEffect(() => {
+        if (mockSettings !== undefined) {
+            setSettings(mockSettings);
+            setIsReady(true);
+            return;
+        }
+
         const sync = () => {
             setSettings({ ...storage.settings });
             setIsReady(storage.isReady);
@@ -55,14 +83,14 @@ export const StorageProvider: React.FC<{ children: React.ReactNode }> = ({
         sync();
 
         return unsubscribe;
-    }, []);
+    }, [mockSettings]);
 
     if (!isReady) {
         return null;
     }
 
     return (
-        <StorageContext.Provider value={[settings, updateSetting]}>
+        <StorageContext.Provider value={[settings, updateContextSetting]}>
             {children}
         </StorageContext.Provider>
     );

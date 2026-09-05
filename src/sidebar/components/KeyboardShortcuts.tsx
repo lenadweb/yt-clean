@@ -8,11 +8,20 @@ const SHORTCUT_SETTINGS_URL = isOpera()
     ? 'opera://extensions/shortcuts'
     : 'chrome://extensions/shortcuts';
 
-const KeyboardShortcuts = () => {
+type Props = {
+    mockShortcut?: string;
+};
+
+const KeyboardShortcuts = ({ mockShortcut }: Props) => {
     const [shortcut, setShortcut] = useState('');
-    const shortcutLabel = shortcut || t('shortcut_not_set');
+    const shortcutLabel =
+        mockShortcut !== undefined
+            ? mockShortcut
+            : shortcut || t('shortcut_not_set');
 
     useEffect(() => {
+        if (mockShortcut !== undefined) return;
+
         let isMounted = true;
 
         const refreshShortcut = () => {
@@ -42,7 +51,7 @@ const KeyboardShortcuts = () => {
                 refreshVisibleShortcut
             );
         };
-    }, []);
+    }, [mockShortcut]);
 
     const openShortcutSettings = () => {
         void chrome.tabs.create({ url: SHORTCUT_SETTINGS_URL });

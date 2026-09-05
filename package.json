@@ -18,6 +18,8 @@
     "build": "webpack --env platform=chrome",
     "build:chrome": "node bumpVersion.js && webpack --env platform=chrome",
     "build:opera": "node bumpVersion.js && webpack --env platform=opera",
+    "promo:build": "webpack --config webpack.promo.config.js",
+    "promo:generate": "npm run promo:build && node capturePromo.js",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write .",

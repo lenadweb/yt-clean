@@ -7,7 +7,7 @@ const tsParser = require('@typescript-eslint/parser');
 
 module.exports = [
     {
-        ignores: ['node_modules/**', 'dist/**', 'release/**'],
+        ignores: ['node_modules/**', 'dist/**', 'promo-dist/**', 'release/**'],
     },
     js.configs.recommended,
     eslintConfigPrettier,

@@ -12,10 +12,15 @@ import PowerOffIcon from 'src/assets/icons/power-off.svg';
 import GithubIcon from 'src/assets/icons/github.svg';
 import KeyboardShortcuts from 'src/sidebar/components/KeyboardShortcuts';
 import Tooltip from 'src/sidebar/components/Tooltip';
+import type { SidebarMock } from 'src/sidebar/App';
 
 const GITHUB_URL = 'https://github.com/lenadweb/yt-clean';
 
-const Settings: FC = () => {
+type Props = {
+    mock?: SidebarMock;
+};
+
+const Settings: FC<Props> = ({ mock }) => {
     const [settings, updateSettings] = useStorage();
 
     const isEnabled = settings.isEnabled;
@@ -38,7 +43,9 @@ const Settings: FC = () => {
                     </h1>
                 </div>
                 <div className="flex items-center gap-2">
-                    <KeyboardShortcuts />
+                    {!mock?.hideShortcut && (
+                        <KeyboardShortcuts mockShortcut={mock?.shortcut} />
+                    )}
                     <Tooltip
                         label={t(
                             isEnabled ? 'disable_extension' : 'enable_extension'
@@ -78,15 +85,17 @@ const Settings: FC = () => {
                     />
                 ))}
             </div>
-            <a
-                href={GITHUB_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-auto flex items-center justify-center gap-1.5 pt-7 pb-2 text-sm text-white/60 transition hover:text-white"
-            >
-                <GithubIcon className="size-4" />
-                {t('view_on_github')}
-            </a>
+            {!mock?.hideFooter && (
+                <a
+                    href={GITHUB_URL}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-auto flex items-center justify-center gap-1.5 pt-7 pb-2 text-sm text-white/60 transition hover:text-white"
+                >
+                    <GithubIcon className="size-4" />
+                    {t('view_on_github')}
+                </a>
+            )}
         </div>
     );
 };

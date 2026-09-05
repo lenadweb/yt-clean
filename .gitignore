@@ -10,4 +10,5 @@ results
 .DS_Store
 *.diff
 /release
+/promo-dist
 test*.html
