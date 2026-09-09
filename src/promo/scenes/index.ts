@@ -3,6 +3,7 @@ import definitions from 'src/promo/scenes.json';
 import HeroScene from 'src/promo/scenes/HeroScene';
 import BeforeAfterScene from 'src/promo/scenes/BeforeAfterScene';
 import PowerScene from 'src/promo/scenes/PowerScene';
+import PowerWideScene from 'src/promo/scenes/PowerWideScene';
 import FreshScene from 'src/promo/scenes/FreshScene';
 import FocusScene from 'src/promo/scenes/FocusScene';
 import NavigationScene from 'src/promo/scenes/NavigationScene';
@@ -21,6 +22,7 @@ const COMPONENTS: Record<string, FC> = {
     hero: HeroScene,
     'before-after': BeforeAfterScene,
     power: PowerScene,
+    'power-wide': PowerWideScene,
     fresh: FreshScene,
     focus: FocusScene,
     navigation: NavigationScene,

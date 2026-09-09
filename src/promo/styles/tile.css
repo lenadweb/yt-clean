@@ -44,15 +44,15 @@
     display: flex;
     align-items: center;
     margin-top: auto;
-    color: oklch(0.7 0.007 270);
-    font-size: 8px;
-    font-weight: 600;
+    color: oklch(0.82 0.007 270);
+    font-size: 12px;
+    font-weight: 650;
     gap: 9px;
 }
 
 .tile__facts i {
     width: 1px;
-    height: 13px;
+    height: 15px;
     background: oklch(0.4 0.006 270);
 }
 

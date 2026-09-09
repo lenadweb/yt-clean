@@ -21,6 +21,13 @@
         "height": 800
     },
     {
+        "id": "power-wide",
+        "file": "promo-large-tile.png",
+        "title": "70+ controls · Large tile",
+        "width": 1400,
+        "height": 560
+    },
+    {
         "id": "fresh",
         "file": "promo-4.png",
         "title": "Fresh feed",
