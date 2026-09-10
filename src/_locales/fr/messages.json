@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean : masquer les Shorts et recommandations"
+    "message": "YouTube Clean : bloquer Shorts, trier les suggestions, passer les pubs"
   },
   "appDescription": {
-    "message": "Bloquez les Shorts, masquez recommandations, commentaires et pubs. Plus de 60 réglages pour personnaliser YouTube. Open source."
+    "message": "YouTube sans distractions : masquez commentaires et vidéos vues, réglez la vitesse, réduisez les miniatures. 70+ réglages gratuits."
   },
   "actionTitle": {
     "message": "Paramètres de YouTube Clean"

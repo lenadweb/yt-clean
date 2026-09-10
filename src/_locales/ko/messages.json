@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts와 추천 숨기기"
+    "message": "YouTube Clean: 쇼츠 차단, 추천 정리, 광고 건너뛰기"
   },
   "appDescription": {
-    "message": "Shorts를 차단하고 추천, 댓글, 광고를 숨기세요. 60개 이상의 설정으로 깔끔하고 집중되는 YouTube를 만듭니다. 오픈 소스."
+    "message": "방해 없는 YouTube: 댓글과 시청한 동영상을 숨기고 재생 속도를 조절하며 썸네일을 줄이세요. 70개 이상의 무료 설정으로 시청에 집중하세요."
   },
   "actionTitle": {
     "message": "YouTube 설정 열기"

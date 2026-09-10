@@ -1,55 +1,114 @@
-YouTube Clean oculta los Shorts, las recomendaciones, los comentarios y los anuncios, para que en la página quede solo el video que viniste a ver.
+Bloquea YouTube Shorts, filtra las recomendaciones y mira videos con menos distracciones. YouTube Clean reúne filtros de contenido, opciones para ocultar comentarios, una función experimental para saltar anuncios y controles de reproducción en una extensión gratuita para Chrome. Mantén a la vista los videos que te interesan y oculta los elementos que te distraen.
 
-YouTube está diseñado para que sigas deslizando: la estantería infinita de Shorts, el muro de recomendaciones junto al reproductor, las vistas previas que arrancan con cualquier movimiento del mouse, las miniaturas que convierten «un video» en una hora. YouTube Clean te devuelve ese espacio. Abre el panel lateral, activa un interruptor y lo de más desaparece al instante: sin recargar la página, sin cuenta, sin configuración.
+Elija entre más de 70 configuraciones en un panel lateral al lado de su video. Comience con un ajuste preestablecido editable o personalice elementos individuales: su feed de inicio, suscripciones, resultados de búsqueda, página de visualización, reproductor y navegación izquierda. Gratis y de código abierto, sin cuenta, suscripción ni seguimiento.
 
-Más de 60 controles, un panel lateral, resultado inmediato. Gratis, código abierto, sin rastreo.
+Funciones de un vistazo
 
-QUÉ PUEDES LIMPIAR
+• Elimine los estantes de videos cortos y su entrada de navegación.
+• Filtrar videos vistos, mezclas, listas de reproducción y contenido exclusivo para miembros.
+• Ocultar comentarios, chat en vivo, tarjetas de pantalla final y paneles promocionales.
+• Reduzca el tamaño de las miniaturas con un diseño de búsqueda y alimentación compacto.
+• Ajuste la reproducción de 0,25x a 3x con un control deslizante de velocidad en el reproductor.
+• Active o desactive la configuración de limpieza con un método abreviado de teclado.
 
-Feed y recomendaciones. Oculta las secciones de Shorts donde sea que aparezcan, los mixes y las playlists, los bloques Explorar y Noticias y los videos solo para miembros. Desactiva la reproducción automática al pasar el cursor, activa el modo compacto para que quepan más videos en pantalla y esconde los que ya viste, por separado en Inicio, en Suscripciones, en las páginas de canal y en las recomendaciones.
+Ocultar secciones de Shorts
 
-Página de video. Oculta los comentarios, los videos recomendados junto al reproductor, la barra de me gusta, los botones de acción, la descripción, el chat en vivo, la tienda y los boletos, las tarjetas finales y las imágenes del canal. La descripción se desarma aún más: sección de IA (Gemini), transcripción, personas mencionadas, videos relacionados, ficha del canal, «Cómo se hizo», capítulos y episodios.
+¿Buscas un bloqueador Shorts que te permita seguir usando videos normales? Oculte estantes de videos cortos en el feed, elimine los resultados de búsqueda coincidentes y borre su entrada del menú de la izquierda. Las configuraciones de alimentación y navegación funcionan juntas para eliminar puntos de entrada comunes al desplazamiento vertical.
 
-Anuncios y promociones. Oculta los banners de YouTube, los videos patrocinados del feed y los paneles informativos de anuncios, y deja que el salto automático experimental se encargue de los anuncios que se pueden omitir.
+Utilice un ajuste preestablecido de limpieza ya preparado o habilite los interruptores relevantes individualmente. Puede mantener disponibles videos de formato largo, suscripciones y búsquedas mientras elimina el contenido de formato corto que interrumpe su visualización. Estos controles cambian lo que aparece en la interfaz; Los enlaces directos de video siguen siendo accesibles.
 
-Reproductor y reproducción. Agrega un control deslizante de velocidad dentro de los controles del reproductor, prioriza el bitrate mejorado con Premium, fuerza el códec H.264 (bloqueando VP9 y AV1) para que decodifique la placa de video y no se caliente el procesador, limita la reproducción a 30 fps en equipos modestos y oculta los botones de minirreproductor, modo cine, subtítulos y reproducción automática.
+Ocultar videos vistos de tu feed de video
 
-Shorts. Si te quedas con los Shorts, que sea en tus términos: control de velocidad propio y salto automático al siguiente.
+¿Estás cansado de ver videos que ya has visto? Elimine los videos vistos independientemente de Inicio, Suscripciones, páginas de canales y recomendaciones de páginas de reproducción. Mantén el filtro activado en tu feed de suscripción pero desactivado en un canal que quieras volver a visitar, o usa las cuatro configuraciones juntas.
 
-Menú lateral y navegación. Oculta el menú por completo o recórtalo elemento por elemento: Shorts, Mi canal, Historial, Playlists, Tus videos, Ver más tarde, Videos que me gustan, Películas, Descargas, toda la lista de suscripciones, Tendencias, Música, En vivo, Gaming, Noticias, Deportes, los enlaces a YouTube Premium / Music / Kids / Studio y el pie de página con los enlaces «Acerca de».
+La detección utiliza el indicador de progreso de visualización que se muestra en las miniaturas de los videos. Filtra la página visible sin eliminar su historial de reproducciones ni marcar videos como vistos. Los videos sin un indicador de progreso coincidente pueden permanecer visibles.
 
-Búsqueda y canales. Oculta los canales en los resultados, las búsquedas relacionadas, la tarjeta informativa y la estantería de videos del canal. En las páginas de canal, quita el banner y el tráiler que se reproduce solo.
+Filtrar recomendaciones, mezclas y listas de reproducción.
 
-Encabezado. Oculta los botones de búsqueda por voz y teclado virtual, las etiquetas de búsqueda, el botón de subir video y las notificaciones.
+Deje espacio para sugerencias útiles filtrando tipos específicos de contenido. Oculte mezclas y listas de reproducción, elimine videos exclusivos para miembros y borre los bloques de Exploración o Noticias. Combine estas opciones con el filtro de videos vistos para reducir las sugerencias repetidas y el desorden en el feed.
 
-PRESETS PARA QUIENES NO QUIEREN CONFIGURAR NADA
+Esto le brinda control sobre lo que permanece visible y al mismo tiempo preserva el descubrimiento. La extensión filtra tipos de contenido seleccionados; no reemplaza el algoritmo de recomendación ni deja en blanco todo el feed de inicio.
 
-Elige Ligero para una limpieza suave, Equilibrado para un YouTube diario sin distracciones o Máximo para quitar casi todo. Cualquier preset se puede editar y restablecer, y Personalizado lo armas desde cero. Un atajo de teclado prende y apaga toda la extensión cuando necesitas el YouTube original por un minuto.
+Ocultar comentarios, chat en vivo y tarjetas de pantalla final
 
-PRIVACIDAD, EN CLARO
+Vea una conferencia sin que la discusión que aparece a continuación compita por su atención. Oculte comentarios en páginas de video, elimine el chat en vivo durante las transmisiones y borre las tarjetas de la pantalla final o los avances de tarjetas sobre el reproductor.
 
-Sin cuenta, sin inicio de sesión, sin analíticas, sin rastreo, sin recopilación de datos. Tu configuración vive en el almacenamiento local del navegador y nunca sale de ahí. El código fuente completo está en GitHub con licencia MIT: no hace falta que nos creas.
+También puede eliminar estantes de mercancías y boletos, controles de me gusta y no me gusta, botones de acción e imágenes de canales. Cada configuración es independiente, por lo que una página de visualización más limpia aún puede conservar la descripción, el botón de subtítulos u otros elementos que utilice.
 
-HECHO PARA SEGUIR SIENDO RÁPIDO
+Saltar anuncios y ocultar videos patrocinados
 
-Casi todas las opciones se compilan a CSS puro al construir la extensión, así que no cuestan nada mientras navegas. Solo unas pocas funciones de comportamiento ejecutan JavaScript. Manifest V3, sin código remoto, sin carga en segundo plano.
+Elimine el desorden publicitario ocultando pancartas, tarjetas de video patrocinadas y paneles de información publicitaria. Estos controles funcionan por separado, por lo que puede elegir qué elementos promocionales desaparecen de sus páginas de navegación y visualización.
 
-CÓMO EMPEZAR
+Un saltador de anuncios opcional intenta omitir los anuncios de video automáticamente. El salto automático es experimental: su comportamiento depende del reproductor actual y del formato publicitario. Habilítelo por separado cuando desee probar la omisión automática de anuncios. No es un bloqueador de anuncios a nivel de red y no garantiza una experiencia sin publicidad.
 
-Instala la extensión, haz clic en su ícono para abrir el panel lateral junto a YouTube y elige un preset o activa los interruptores uno por uno. Los cambios se aplican a la página abierta al instante.
+Desactivar vista previa al pasar el cursor
 
-Funciona en Chrome, Opera, Edge, Brave y otros navegadores basados en Chromium.
+Evite que las vistas previas en miniatura se muevan cuando el puntero pasa sobre un video. Desactive las vistas previas flotantes para explorar un feed más silencioso y estático y leer títulos sin que una vista previa compita por su atención.
 
-PREGUNTAS FRECUENTES
+Esta configuración controla el comportamiento de las miniaturas. La opción separada para ocultar el interruptor de reproducción automática solo elimina ese botón del reproductor; no desactiva la reproducción automática del siguiente video.
 
-¿Es un bloqueador de anuncios? No exactamente. Oculta banners, tarjetas patrocinadas del feed y paneles publicitarios, y puede saltar automáticamente los anuncios omitibles (experimental). Convive sin problemas con un bloqueador dedicado.
+Miniaturas de video más pequeñas y diseño compacto
 
-¿Rompe YouTube? Todo es opcional y reversible: apaga un interruptor y el elemento vuelve al instante.
+¿Quieres más videos por pantalla en lugar de miniaturas de gran tamaño? El modo compacto reduce el volumen visual en el feed de inicio, los resultados de búsqueda y las sugerencias de páginas de visualización. Las vistas previas más pequeñas, los espacios más ajustados y una disposición más densa facilitan el escaneo de títulos y la comparación de resultados.
 
-¿Necesito una cuenta? No. Instálala y úsala.
+Utilice la cuadrícula compacta para buscar tutoriales, encontrar el siguiente episodio de una serie o revisar los resultados de búsqueda con menos desplazamiento. El diseño es una disposición preestablecida, por lo que no es necesario editar CSS ni configurar anchos de columnas individuales.
 
-¿De verdad es gratis? Sí: gratis y de código abierto, sin plan pago ni ventas adicionales.
+Control deslizante de velocidad de reproducción
 
-¿Algo no se oculta como querés? Abre un issue en GitHub: la lista de funciones crece con los pedidos de la gente.
+Ajuste la velocidad de reproducción directamente dentro del reproductor de video. Utilice un control deslizante de 0,25x a 3x, realice ajustes en pasos de 0,05x o elija un ajuste preestablecido como 1,25x, 1,5x, 2x o 3x. La velocidad seleccionada se guarda en la configuración de la extensión.
 
-Código fuente, errores e ideas: https://github.com/lenadweb/yt-clean
+Reduzca la velocidad de la pronunciación durante la práctica del idioma, siga una demostración detallada a su propio ritmo o acelere una conferencia familiar. El controlador de velocidad está disponible para los videos habituales de la página de visualización. También puedes ocultar los botones del minirreproductor, del teatro o de los subtítulos para obtener un conjunto de controles del reproductor más sencillo.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Los controles de reproducción avanzados le permiten forzar H.264 bloqueando VP9 y AV1, o bloquear transmisiones de 60 fps cuando prefiera video con una velocidad de cuadros más baja. Esto puede resultar útil en portátiles y dispositivos antiguos con compatibilidad limitada con códecs. La decodificación de hardware, la carga de la CPU y la calidad disponible dependen de su dispositivo y de las transmisiones ofrecidas para cada video; forzar H.264 puede limitar la resolución disponible.
+
+Los suscriptores premium pueden preferir la tasa de bits mejorada cuando esa opción esté disponible. Esta configuración selecciona una opción de reproducción existente y no desbloquea funciones pagas. Una configuración experimental adicional ajusta la estimación del ancho de banda utilizado por el reproductor; La velocidad de conexión real no cambia.
+
+Oculta la barra lateral y simplifica la navegación
+
+Elimine por completo la barra lateral de navegación izquierda o recorte las entradas del menú individuales. Elija lo que permanece visible entre Historial, Listas de reproducción, Ver más tarde, Videos que me gustan, Descargas, suscripciones, Tendencias, Música, Juegos, Noticias y otras secciones. Borre los enlaces de pie de página cuando desee menos navegación por su contenido.
+
+Simplifica también la barra superior: oculta las notificaciones, el botón de subir, la búsqueda por voz, el botón del teclado virtual o las etiquetas de búsqueda. Estas son configuraciones de visibilidad; no eliminan sus listas de reproducción, suscripciones ni el contenido de su cuenta.
+
+Limpiar resultados de búsqueda y páginas de canales
+
+Haga que los resultados de búsqueda sean más fáciles de escanear ocultando tarjetas de resultados de canales, sugerencias de búsquedas relacionadas, tarjetas de información o estantes de videos de canales. Combine esos controles con el modo compacto cuando desee una página de resultados más densa.
+
+En las páginas del canal, oculta el banner y el avance del canal. Explore los videos que encontró con menos elementos decorativos grandes y menos interrupciones del avance destacado.
+
+Elija qué secciones de descripción de video mostrar
+
+Oculte la descripción completa o elija secciones individuales. Las opciones cubren el resumen de IA, la transcripción, las personas mencionadas, los videos relacionados, la tarjeta del canal, "Cómo se hizo esto" y los capítulos o episodios.
+
+Mantenga las transcripciones y los capítulos visibles para aprender, o elimínelos cuando prefiera una descripción más corta. Estos controles ocultan secciones de página existentes; no generan resúmenes, reescriben transcripciones ni alteran el contenido del creador.
+
+YouTube sin distracciones para estudiar y trabajar concentrado
+
+Cree una configuración de visualización centrada en cómo utiliza el sitio:
+
+• Estudiantes: reduzca el desorden de feeds mientras ven lecciones o se preparan para exámenes.
+• Desarrolladores e investigadores: mantenga tutoriales y demostraciones a su alcance durante el trabajo profundo.
+• Estudiantes de idiomas: combine una página más silenciosa con ajustes de velocidad precisos.
+• Visores habituales: haga que las suscripciones sean más fáciles de navegar y reduzca las sugerencias repetidas.
+• Minimalistas digitales: elimine el ruido visual y haga que la visualización intencional forme parte de una rutina de desintoxicación digital.
+
+Elija Ligero para una limpieza más pequeña o Equilibrado para un conjunto más amplio de filtros. Ambos ajustes preestablecidos se pueden editar y restablecer. Personalizado comienza con la limpieza desactivada, lo que le permite crear su propia configuración. Un ajuste preestablecido Equilibrado se selecciona de forma predeterminada durante la instalación.
+
+Cambie las configuraciones individuales a medida que cambien sus necesidades, o use el método abreviado de teclado de la extensión para activar y desactivar toda la configuración. No hay temporizadores de concentración obligatorios, cuotas de uso ni sesiones de estudio bloqueadas.
+
+Gratis y de código abierto, con configuración local.
+
+Todas las configuraciones de extensión están disponibles sin pago ni registro. No hay suscripción, cuenta atrás de prueba, análisis ni recopilación de datos personales. Las preferencias se almacenan localmente en su navegador. El código fuente completo está disponible en GitHub bajo la licencia MIT.
+
+Diseñado para el sitio web de escritorio en Chrome, con una interfaz disponible en 52 idiomas. No modifica la aplicación móvil. La mayor parte de la limpieza de interfaces utiliza CSS; la reproducción y otras funciones interactivas utilizan JavaScript local.
+
+Comience en tres pasos
+
+1. Agregue YouTube Clean a Chrome y abra el sitio web.
+2. Haga clic en el icono de la extensión para abrir su panel lateral.
+3. Elija un ajuste preestablecido y luego ajuste la configuración de transmisión, navegación y reproducción que desee.
+
+Los cambios de visibilidad de la interfaz se aplican a medida que los alterna. Fije la extensión a su barra de herramientas para mantener sus controles fáciles de alcanzar. Si un elemento de la página cambia y un filtro deja de coincidir con él, informe el problema para que se pueda verificar.
+
+Código fuente, soporte y solicitudes de funciones: https://github.com/lenadweb/yt-clean

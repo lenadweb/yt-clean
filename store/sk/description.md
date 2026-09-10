@@ -1,55 +1,114 @@
-YouTube Clean skryje Shorts, odporúčané videá, komentáre aj reklamy — na stránke zostane len to video, kvôli ktorému ste prišli.
+Zablokujte YouTube Shorts, vyčistite odporúčania a pozerajte s menším množstvom rozptyľovania. YouTube Clean spája filtre informačných kanálov, skrytie komentárov, experimentálne preskakovanie reklám a ovládanie prehrávania v jednom bezplatnom rozšírení prehliadača Chrome. Ponechajte si požadované videá, odstráňte neporiadok okolo nich a zabezpečte, aby stránka fungovala za vás.
 
-YouTube je postavený tak, aby ste rolovali ďalej: nekonečná polica Shorts, stena odporúčaných vedľa prehrávača, náhľady, ktoré sa spustia pri každom pohybe myšou, miniatúry, ktoré z «jedného videa» spravia hodinu. YouTube Clean vám ten priestor vracia. Otvorte bočný panel, prepnite prepínač a prebytok zmizne okamžite: bez načítania stránky, bez účtu, bez nastavovania.
+Vyberte si z viac ako 70 nastavení na bočnom paneli vedľa videa. Začnite s upraviteľnou predvoľbou alebo si prispôsobte jednotlivé prvky: váš domovský kanál, odbery, výsledky vyhľadávania, stránku pozerania videa, prehrávač a navigáciu vľavo. Bezplatný a otvorený zdroj bez účtu, predplatného alebo sledovania.
 
-60+ prepínačov, jeden bočný panel, okamžitý výsledok. Zadarmo, otvorený zdrojový kód, žiadne sledovanie.
+Funkcie na prvý pohľad
 
-ČO SI MÔŽETE UPRATAŤ
+• Odstráňte police s krátkym videom a ich navigačný záznam.
+• Filtrujte sledované videá, mixy, zoznamy skladieb a obsah len pre členov.
+• Skryť komentáre, živý rozhovor, karty záverečnej obrazovky a propagačné panely.
+• Zmenšenie miniatúr pomocou kompaktného informačného kanála a rozloženia vyhľadávania.
+• Nastavte prehrávanie od 0,25x do 3x pomocou posuvného ovládača rýchlosti v prehrávači.
+• Zapnite alebo vypnite nastavenia čistenia pomocou klávesovej skratky.
 
-Feed a odporúčania. Skryte police Shorts všade, kde sa objavia, mixy a playlisty, bloky Preskúmať a Správy aj videá len pre členov. Vypnite automatický náhľad pri prejdení myšou, zapnite kompaktný režim, aby sa na obrazovku zmestilo viac videí, a schovajte už pozreté videá — samostatne na domovskej stránke, v odberoch, na stránkach kanálov a v odporúčaniach.
+Skryť sekcie Shorts
 
-Stránka videa. Skryte komentáre, odporúčané videá vedľa prehrávača, palce hore a dole, tlačidlá akcií, popis, živý chat, merch a lístky, karty na konci videa aj obrázky kanála. Popis sa rozoberie ešte podrobnejšie: sekcia AI (Gemini), prepis, spomenuté osoby, súvisiace videá, karta kanála, «Ako to vzniklo», kapitoly a epizódy.
+Hľadáte Shorts blokátor, ktorý vám umožní naďalej používať bežné videá? Skryť police s krátkymi videami v informačnom kanáli, odstrániť zodpovedajúce výsledky vyhľadávania a vymazať ich záznam z ponuky vľavo. Nastavenia informačného kanála a navigácie spolupracujú na odstránení bežných vstupných bodov do vertikálneho posúvania.
 
-Reklamy a promo. Skryte bannery YouTube, sponzorované videá vo feede a informačné panely reklám a nechajte experimentálne automatické preskakovanie vybaviť reklamy, ktoré sa dajú preskočiť.
+Použite pripravenú predvoľbu čistenia alebo aktivujte príslušné prepínače jednotlivo. Môžete si ponechať k dispozícii dlhé videá, odbery a vyhľadávanie a zároveň odstrániť krátky obsah, ktorý prerušuje vaše sledovanie. Tieto ovládacie prvky menia to, čo sa zobrazuje v rozhraní; priame odkazy na videá zostávajú dostupné.
 
-Prehrávač a prehrávanie. Pridajte posuvník rýchlosti priamo do ovládania prehrávača, uprednostnite vyšší dátový tok s Premium, vynúťte kodek H.264 (blokuje VP9 a AV1), aby dekódovala grafická karta namiesto prehrievaného procesora, obmedzte prehrávanie na 30 fps na slabších strojoch a skryte tlačidlá mini prehrávača, režimu kina, titulkov a automatického prehrávania.
+Skryť sledované videá z vášho video kanála
 
-Shorts. Ak si Shorts necháte, nech idú po vašom: vlastné ovládanie rýchlosti a automatické prepnutie na ďalší.
+Už vás nebaví posúvať videá, ktoré ste už videli? Odstráňte pozerané videá nezávisle z domovskej stránky, odberov, stránok kanálov a odporúčaní stránok prezerania videa. Ponechajte filter zapnutý v kanáli odberov, ale vypnite ho na kanáli, ktorý chcete znova navštíviť, alebo použite všetky štyri nastavenia spolu.
 
-Bočný panel a navigácia. Skryte bočný panel úplne, alebo ho prerežte položku po položke — Shorts, Môj kanál, História, Playlisty, Vaše videá, Pozrieť neskôr, Videá s hodnotením Páči sa mi, Filmy, Stiahnuté, celý zoznam odberov, Trendy, Hudba, Naživo, Hranie, Správy, Šport, odkazy na YouTube Premium / Music / Kids / Studio a pätičku s odkazmi «O službe».
+Detekcia používa indikátor priebehu sledovania zobrazený na miniatúrach videa. Filtruje viditeľnú stránku bez odstránenia vašej histórie pozerania alebo označenia videí ako pozretých. Videá bez zodpovedajúceho indikátora priebehu môžu zostať viditeľné.
 
-Vyhľadávanie a kanály. Skryte kanály vo výsledkoch, súvisiace vyhľadávania, informačnú kartu aj policu videí kanála. Na stránkach kanálov odstráňte banner a upútavku, ktorá sa spustí sama.
+Filtrujte odporúčania, mixy a zoznamy skladieb
 
-Horná lišta. Skryte tlačidlá hlasového vyhľadávania a virtuálnej klávesnice, filtre vyhľadávania, tlačidlo nahrávania a upozornenia.
+Urobte priestor pre užitočné návrhy filtrovaním konkrétnych druhov obsahu. Skryte mixy a zoznamy skladieb, odstráňte videá len pre členov a vymažte bloky Preskúmať alebo Správy. Skombinujte tieto možnosti s filtrom sledovaného videa, aby ste obmedzili opakované návrhy a neporiadok v kanáli.
 
-PREDVOĽBY PRE TÝCH, ČO NECHCÚ NIČ NASTAVOVAŤ
+To vám dáva kontrolu nad tým, čo zostáva viditeľné, a zároveň zachováva objav. Rozšírenie filtruje vybrané typy obsahu; nenahrádza algoritmus odporúčaní ani nevymaže celý domovský informačný kanál.
 
-Vyberte Ľahkú na jemné upratovanie, Vyváženú na každodenný YouTube bez rozptyľovania alebo Maximálnu, ktorá odstráni takmer všetko. Každá predvoľba sa dá upraviť aj vrátiť do východiskového stavu a Vlastnú si postavíte od nuly. Klávesová skratka zapne a vypne celé rozšírenie, keď na chvíľu potrebujete pôvodný YouTube.
+Skryť komentáre, živý rozhovor a karty záverečnej obrazovky
 
-SÚKROMIE NAROVINU
+Pozrite si prednášku bez toho, aby diskusia pod ňou súťažila o vašu pozornosť. Skryte komentáre na stránkach s videami, odstráňte živý rozhovor počas streamovania a vymažte karty na záverečnej obrazovke alebo upútavky na kartách cez prehrávač.
 
-Žiadny účet, žiadne prihlasovanie, žiadna analytika, žiadne sledovanie, žiadny zber údajov. Nastavenia zostávajú v lokálnom úložisku prehliadača a nikdy ho neopustia. Celý zdrojový kód je na GitHube pod licenciou MIT — nemusíte nám veriť na slovo.
+Môžete tiež odstrániť police s tovarom a lístkami, ovládacie prvky páči sa mi a nepáči sa mi, tlačidlá akcií a obrázky kanálov. Každé nastavenie je nezávislé, takže na čistejšej stránke pozerania videa môže byť aj naďalej popis, tlačidlo titulkov alebo iné prvky, ktoré používate.
 
-POSTAVENÉ, ABY ZOSTALO RÝCHLE
+Preskočte reklamy a skryte sponzorované videá
 
-Takmer každá voľba sa pri zostavení skompiluje do čistého CSS, takže pri prehliadaní nič nestojí. JavaScript spúšťa len pár funkcií, ktoré menia správanie. Manifest V3, žiadny vzdialený kód, žiadna záťaž na pozadí.
+Vyčistite reklamný neporiadok skrytím bannerov, sponzorovaných grafických kariet a informačných panelov reklám. Tieto ovládacie prvky fungujú samostatne, takže si môžete vybrať, ktoré propagačné prvky zmiznú z vášho prehliadania a prezerania stránok.
 
-AKO ZAČAŤ
+Voliteľný nástroj na preskočenie reklám sa pokúša automaticky preskočiť videoreklamy. Automatické preskočenie je experimentálne: jeho správanie závisí od aktuálneho prehrávača a formátu reklamy. Povoľte ho samostatne, keď chcete vyskúšať automatické preskakovanie reklamy. Nejde o blokovanie reklám na úrovni siete a nezaručuje zážitok bez reklám.
 
-Nainštalujte rozšírenie, kliknite na jeho ikonu a otvorte bočný panel vedľa YouTube, potom vyberte predvoľbu alebo prepínajte jednotlivé možnosti. Zmeny sa na otvorenej stránke prejavia hneď.
+Vypnúť automatickú ukážku pri prejdení
 
-Funguje v Chrome, Opere, Edge, Brave a ďalších prehliadačoch na Chromiu.
+Prestaňte presúvať náhľady miniatúr, aby sa spúšťali, keď ukazovateľ prejdete cez video. Vypnite ukážky umiestnením kurzora myši, aby ste mohli prehliadať tichší, statickejší informačný kanál a čítať tituly bez toho, aby náhľad súťažil o vašu pozornosť.
 
-ČASTÉ OTÁZKY
+Toto nastavenie riadi správanie miniatúr. Samostatná možnosť skryť prepínač automatického prehrávania iba odstráni toto tlačidlo z prehrávača; nezakáže automatické prehrávanie ďalšieho videa.
 
-Je to blokovač reklám? Nie celkom. Skrýva bannery, sponzorované karty vo feede a reklamné panely a vie automaticky preskakovať reklamy, ktoré sa dajú preskočiť (experimentálne). Popri plnohodnotnom blokovači beží bez problémov.
+Menšie miniatúry videí a kompaktné rozloženie
 
-Pokazí to YouTube? Všetko je dobrovoľné a vratné — vypnite prepínač a prvok sa hneď vráti.
+Chcete viac videí na obrazovku namiesto príliš veľkých miniatúr? Kompaktný režim znižuje vizuálny objem v informačnom kanáli domovskej stránky, vo výsledkoch vyhľadávania a v návrhoch na stránke pozerania videa. Menšie náhľady, užšie rozostupy a hustejšie usporiadanie uľahčujú skenovanie titulov a porovnávanie výsledkov.
 
-Potrebujem účet? Nie. Nainštalujte a používajte.
+Použite kompaktnú mriežku na prehliadanie návodov, hľadanie ďalšej epizódy seriálu alebo prácu s výsledkami vyhľadávania s menším rolovaním. Rozloženie je prednastavené, takže nemusíte upravovať CSS ani konfigurovať šírky jednotlivých stĺpcov.
 
-Je to naozaj zadarmo? Áno: zadarmo a s otvoreným kódom, bez platenej verzie a bez dopredaja.
+Posuvník rýchlosti prehrávania
 
-Niečo sa neskrýva tak, ako chcete? Založte issue na GitHube — zoznam funkcií rastie z prianí používateľov.
+Upravte rýchlosť prehrávania priamo vo videoprehrávači. Použite posuvník od 0,25x do 3x, jemne dolaďte v 0,05x krokoch alebo zvoľte predvoľbu, napríklad 1,25x, 1,5x, 2x alebo 3x. Vami zvolená rýchlosť sa uloží do nastavení rozšírenia.
 
-Zdrojový kód, chyby a nápady: https://github.com/lenadweb/yt-clean
+Spomaliť výslovnosť pri precvičovaní jazyka, sledovať podrobnú ukážku vlastným tempom alebo urýchliť známu prednášku. Regulátor rýchlosti je k dispozícii pre bežné videá na stránke pozerania. Môžete tiež skryť tlačidlá miniprehrávača, divadla alebo titulkov pre jednoduchšiu sadu ovládacích prvkov prehrávača.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Pokročilé ovládacie prvky prehrávania vám umožňujú vynútiť H.264 blokovaním VP9 a AV1 alebo blokovať streamy s rýchlosťou 60 snímok za sekundu, ak uprednostňujete video s nižšou snímkovou frekvenciou. To môže byť užitočné na starších prenosných počítačoch a zariadeniach s obmedzenou podporou kodekov. Hardvérové ​​dekódovanie, zaťaženie procesora a dostupná kvalita závisia od vášho zariadenia a streamov ponúkaných pre každé video; vynútenie H.264 môže obmedziť dostupné rozlíšenie.
+
+Prémioví odberatelia môžu uprednostniť vylepšenú bitovú rýchlosť, ak je táto možnosť k dispozícii. Toto nastavenie vyberie existujúcu možnosť prehrávania a neodomkne platené funkcie. Ďalšie experimentálne nastavenie upravuje odhad šírky pásma používaný prehrávačom; skutočná rýchlosť pripojenia sa nemení.
+
+Skryť bočný panel a zjednodušiť navigáciu
+
+Úplne odstráňte ľavý bočný navigačný panel alebo orezajte jednotlivé položky ponuky. Vyberte, čo zostane viditeľné v sekciách História, Zoznamy skladieb, Pozrieť neskôr, Obľúbené videá, Stiahnuté súbory, Odbery, Trendy, Hudba, Hry, Správy a ďalšie. Vymažte odkazy v päte, keď chcete menej navigácie okolo svojho obsahu.
+
+Zjednodušte aj hornú lištu: skryte upozornenia, tlačidlo nahrávania, hlasové vyhľadávanie, tlačidlo virtuálnej klávesnice alebo vyhľadávacie značky. Toto sú nastavenia viditeľnosti; neodstránia vaše zoznamy skladieb, odbery ani obsah účtu.
+
+Vyčistite výsledky vyhľadávania a stránky kanálov
+
+Uľahčite skenovanie výsledkov vyhľadávania skrytím kariet s výsledkami kanála, návrhov súvisiacich vyhľadávaní, informačných kariet alebo políc videí kanálov. Spárujte tieto ovládacie prvky s kompaktným režimom, ak chcete hustejšiu stránku s výsledkami.
+
+Na stránkach kanála skryte banner a upútavku kanála. Prezrite si videá, ktoré ste našli, s menším počtom veľkých dekoratívnych prvkov a menším počtom prerušení z odporúčanej upútavky.
+
+Vyberte, ktoré sekcie popisu videa sa majú zobraziť
+
+Skryť celý popis alebo vybrať jednotlivé sekcie. Možnosti zahŕňajú súhrn AI, prepis, spomínaných ľudí, súvisiace videá, kartu kanála, „Ako to bolo vytvorené“ a kapitoly alebo epizódy.
+
+Udržujte prepisy a kapitoly viditeľné na učenie, alebo ich odstráňte, ak chcete kratší popis. Tieto ovládacie prvky skryjú existujúce časti stránky; negenerujú súhrny, neprepisujú prepisy ani nemenia obsah tvorcu.
+
+YouTube bez rozptýlenia na štúdium a sústredenú prácu
+
+Vytvorte cielené nastavenie prezerania podľa toho, ako používate stránku:
+
+• Študenti: zredukujte neporiadok v krmive pri sledovaní hodín alebo príprave na skúšky.
+• Vývojári a výskumníci: počas hlbokej práce majte na dosah návody a ukážky.
+• Študenti jazykov: kombinujte tichšiu stránku s presným nastavením rýchlosti.
+• Bežní diváci: zjednodušte si prehliadanie odberov a znížte počet opakovaných návrhov.
+• Digitálni minimalisti: odstráňte vizuálny šum a urobte zámerné pozeranie súčasťou digitálnej detoxikačnej rutiny.
+
+Vyberte Ľahký pre menšie čistenie alebo Vyvážený pre širšiu sadu filtrov. Obe predvoľby je možné upravovať a resetovať. Vlastný začína s vypnutými vypínačmi čistenia, čo vám umožní vytvoriť si vlastnú konfiguráciu. Pri inštalácii je predvolene vybratá predvoľba Vyvážený.
+
+Prepínajte jednotlivé nastavenia podľa toho, ako sa menia vaše potreby, alebo použite klávesovú skratku rozšírenia na zapnutie a vypnutie celej konfigurácie. Neexistujú žiadne povinné časovače zaostrenia, kvóty používania ani uzamknuté študijné relácie.
+
+Bezplatný a otvorený zdroj s miestnymi nastaveniami
+
+Všetky nastavenia rozšírenia sú dostupné bez platby alebo registrácie. Neexistuje žiadne predplatné, odpočítavanie skúšobnej verzie, analýzy ani zhromažďovanie osobných údajov. Predvoľby sú uložené lokálne vo vašom prehliadači. Úplný zdrojový kód je dostupný na GitHub pod licenciou MIT.
+
+Navrhnuté pre webovú stránku pre počítače v prehliadači Chrome s rozhraním dostupným v 52 jazykoch. Neupravuje mobilnú aplikáciu. Väčšina čistenia rozhrania používa CSS; prehrávanie a ďalšie interaktívne funkcie využívajú lokálny JavaScript.
+
+Začnite v troch krokoch
+
+1. Pridajte YouTube Clean do prehliadača Chrome a otvorte webovú stránku.
+2. Kliknutím na ikonu rozšírenia otvoríte jeho bočný panel.
+3. Vyberte predvoľbu a potom upravte požadované nastavenia feedu, navigácie a prehrávania.
+
+Zmeny viditeľnosti rozhrania sa prejavia pri ich prepínaní. Pripnite rozšírenie na panel s nástrojmi, aby boli jeho ovládacie prvky ľahko dostupné. Ak sa prvok stránky zmení a filter prestane vyhovovať, nahláste problém, aby ho bolo možné skontrolovať.
+
+Zdrojový kód, podpora a požiadavky na funkcie: https://github.com/lenadweb/yt-clean

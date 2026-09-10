@@ -1,55 +1,114 @@
-YouTube Clean skjuler Shorts, anbefalinger, kommentarer og annonser — slik at det bare er videoen du kom for, som blir igjen på siden.
+Blokker YouTube Shorts, ryd opp i anbefalinger og se med færre distraksjoner. YouTube Clean bringer feedfiltre, kommentarskjuling, eksperimentell annonsehopping og avspillingskontroller sammen i én gratis Chrome-utvidelse. Behold videoene du vil ha, fjern rotet rundt dem og få nettstedet til å fungere for deg.
 
-YouTube er laget for at du skal scrolle videre: den endeløse Shorts-hylla, veggen med anbefalinger ved siden av spilleren, forhåndsvisninger som starter av den minste musebevegelse, miniatyrer som gjør «én video» til en time. YouTube Clean gir deg plassen tilbake. Åpne sidepanelet, vipp en bryter, og rotet forsvinner med én gang: uten å laste siden på nytt, uten konto, uten oppsett.
+Velg mellom 70+ innstillinger i et sidepanel ved siden av videoen. Start med en redigerbar forhåndsinnstilling eller tilpass individuelle elementer: hjemmefeeden din, abonnementer, søkeresultater, visningsside, spiller og venstrenavigasjon. Gratis og åpen kildekode, uten konto, abonnement eller sporing.
 
-60+ brytere, ett sidepanel, umiddelbart resultat. Gratis, åpen kildekode, ingen sporing.
+Funksjoner på et øyeblikk
 
-HVA DU KAN RYDDE BORT
+• Fjern kortvideohyller og deres navigasjonsoppføring.
+• Filtrer ut videoer, mikser, spillelister og innhold kun for medlemmer.
+• Skjul kommentarer, live chat, sluttskjermkort og kampanjepaneler.
+• Gjør miniatyrbilder mindre med en kompakt feed og søkelayout.
+• Juster avspillingen fra 0,25x til 3x med en hastighetsglidebryter i spilleren.
+• Slå oppryddingsinnstillingene på eller av med en hurtigtast.
 
-Feed og anbefalinger. Skjul Shorts-hyller overalt der de dukker opp, mikser og spillelister, blokkene Utforsk og Nyheter og videoer kun for medlemmer. Slå av automatisk forhåndsvisning ved peking, slå på kompakt modus så flere videoer får plass på skjermen, og skjul det du allerede har sett — hver for seg på Startsiden, i Abonnementer, på kanalsider og i anbefalingene.
+Skjul Shorts-seksjoner
 
-Videosiden. Skjul kommentarer, anbefalte videoer ved siden av spilleren, liker/liker ikke, handlingsknapper, beskrivelsen, direktechat, produkter og billetter, sluttskjermkort og kanalbilder. Beskrivelsen kan tas fra hverandre enda mer: KI-delen (Gemini), transkripsjon, nevnte personer, relaterte videoer, kanalkortet, «Slik ble den laget», kapitler og episoder.
+Ser du etter en Shorts blokkering som lar deg fortsette å bruke vanlige videoer? Skjul hyller med korte videoer i feeden, fjern samsvarende søkeresultater og fjern oppføringen fra venstremenyen. Feed- og navigasjonsinnstillingene fungerer sammen for å fjerne vanlige inngangspunkter til vertikal rulling.
 
-Annonser og kampanjer. Skjul YouTube-bannere, sponsede videoer i feeden og annonseinfopaneler, og la eksperimentell autohopp ta seg av annonsene som kan hoppes over.
+Bruk en ferdig forhåndsinnstilling for opprydding eller aktiver de relevante bryterne individuelt. Du kan holde langformede videoer, abonnementer og søk tilgjengelig mens du fjerner kortformatinnholdet som avbryter visningen. Disse kontrollene endrer det som vises i grensesnittet; direkte videokoblinger forblir tilgjengelige.
 
-Spiller og avspilling. Legg en hastighetsglidebryter rett i spillerkontrollene, foretrekk høyere bitrate med Premium, tving fram H.264-kodeken (blokkerer VP9 og AV1) slik at skjermkortet dekoder i stedet for at prosessoren blir varm, begrens til 30 fps på svakere maskiner, og skjul knappene for minispiller, kinomodus, undertekster og automatisk avspilling.
+Skjul videoer du har sett fra videostrømmen din
 
-Shorts. Beholder du Shorts, så på dine premisser: egen hastighetskontroll og automatisk bytte til neste.
+Lei av å bla forbi videoer du allerede har sett? Fjern sett videoer uavhengig fra startsiden, abonnementer, kanalsider og anbefalinger for seersider. Hold filteret på i abonnementsfeeden din, men av på en kanal du liker å besøke på nytt, eller bruk alle fire innstillingene sammen.
 
-Sidemeny og navigasjon. Skjul sidemenyen helt, eller beskjær den punkt for punkt — Shorts, Min kanal, Logg, Spillelister, Dine videoer, Se senere, Likte videoer, Filmer, Nedlastinger, hele abonnementslista, Trender, Musikk, Direkte, Gaming, Nyheter, Sport, lenkene til YouTube Premium / Music / Kids / Studio og bunnteksten med Om-lenker.
+Deteksjon bruker se-fremdriftsindikatoren som vises på videominiatyrbilder. Den filtrerer den synlige siden uten å slette seerloggen din eller merke videoer som sett. Videoer uten en samsvarende fremdriftsindikator kan forbli synlige.
 
-Søk og kanaler. Skjul kanaler i søkeresultatene, relaterte søk, infokortet og kanalens videohylle. På kanalsider fjerner du banneret og traileren som starter av seg selv.
+Filtrer anbefalinger, mikser og spillelister
 
-Topplinje. Skjul knappene for talesøk og virtuelt tastatur, søketagger, opplastingsknappen og varsler.
+Gi plass til nyttige forslag ved å filtrere spesifikke typer innhold. Skjul mikser og spillelister, fjern videoer kun for medlemmer og fjern blokkeringer for Utforsk eller Nyheter. Kombiner disse alternativene med sett-video-filteret for å redusere gjentakende forslag og feed-rot.
 
-FORHÅNDSVALG FOR DEM SOM IKKE VIL STILLE PÅ NOE
+Dette gir deg kontroll over hva som forblir synlig, samtidig som oppdagelsen bevares. Utvidelsen filtrerer utvalgte innholdstyper; den erstatter ikke anbefalingsalgoritmen eller tømmer hele hjemmefeeden.
 
-Velg Lett for en mild opprydding, Balansert for et hverdagslig YouTube uten forstyrrelser, eller Maksimal for å fjerne nesten alt. Alle forhåndsvalg kan redigeres og tilbakestilles, og Egendefinert bygger du fra bunnen. En hurtigtast slår hele utvidelsen av og på når du trenger det originale YouTube et øyeblikk.
+Skjul kommentarer, live chat og sluttskjermkort
 
-PERSONVERN, RETT FRAM
+Se en forelesning uten at diskusjonen under konkurrerer om oppmerksomheten din. Skjul kommentarer på videosider, fjern live chat under strømmer og fjern sluttskjermkort eller teasere over spilleren.
 
-Ingen konto, ingen innlogging, ingen analyse, ingen sporing, ingen datainnsamling. Innstillingene dine ligger i nettleserens lokale lager og forlater det aldri. Hele kildekoden ligger på GitHub under MIT-lisens — du trenger ikke ta oss på ordet.
+Du kan også fjerne varer og billetthyller, like og mislike kontroller, handlingsknapper og kanalbilder. Hver innstilling er uavhengig, så en renere visningsside kan fortsatt beholde beskrivelsen, bildetekstknappen eller andre elementer du bruker.
 
-BYGD FOR Å HOLDE SEG RASK
+Hopp over annonser og skjul sponsede videoer
 
-Nesten alle valg kompileres til ren CSS under bygging, så de koster ingenting mens du surfer. Bare noen få atferdsfunksjoner kjører JavaScript. Manifest V3, ingen ekstern kode, ingen bakgrunnsbelastning.
+Fjern annonseringsrot ved å skjule bannere, sponsede skjermkort og annonseinformasjonspaneler. Disse kontrollene fungerer separat, slik at du kan velge hvilke kampanjeelementer som forsvinner fra nettlesings- og visningssidene dine.
 
-SLIK KOMMER DU I GANG
+En valgfri annonseskipper forsøker å hoppe over videoannonser automatisk. Automatisk hopp er eksperimentelt: oppførselen avhenger av gjeldende spiller og annonseformat. Aktiver det separat når du vil prøve automatisk annonsehopping. Det er ikke en annonseblokkering på nettverksnivå og garanterer ikke en annonsefri opplevelse.
 
-Installer utvidelsen, klikk på ikonet for å åpne sidepanelet ved siden av YouTube, og velg så et forhåndsvalg eller vipp enkeltbrytere. Endringene får virkning på den åpne siden med en gang.
+Slå av automatisk forhåndsvisning
 
-Fungerer i Chrome, Opera, Edge, Brave og andre Chromium-baserte nettlesere.
+Slutt å flytte forhåndsvisninger av miniatyrbilder fra å starte når pekeren passerer over en video. Slå av hover-forhåndsvisninger for å bla gjennom en roligere, mer statisk feed og lese titler uten at en forhåndsvisning konkurrerer om oppmerksomheten din.
 
-OFTE STILTE SPØRSMÅL
+Denne innstillingen kontrollerer atferden for miniatyrbilder. Det separate alternativet for å skjule autoplay-bryteren fjerner bare den knappen fra spilleren; den deaktiverer ikke automatisk avspilling av neste video.
 
-Er dette en annonseblokkerer? Ikke helt. Den skjuler bannere, sponsede kort i feeden og annonsepaneler, og kan hoppe over annonser automatisk der det er mulig (eksperimentelt). Den fungerer fint sammen med en ekte annonseblokkerer.
+Mindre videominiatyrbilder og en kompakt layout
 
-Ødelegger det YouTube? Alt er valgfritt og reversibelt — slå av bryteren, og elementet er tilbake umiddelbart.
+Vil du ha flere videoer per skjerm i stedet for store miniatyrbilder? Kompakt modus reduserer visuell mengde i hjemmefeeden, søkeresultater og forslag til visningssider. Mindre forhåndsvisninger, tettere mellomrom og et tettere arrangement gjør det enklere å skanne titler og sammenligne resultater.
 
-Trenger jeg konto? Nei. Installer og bruk.
+Bruk det kompakte rutenettet til å bla gjennom opplæringsprogrammer, finne neste episode av en serie eller jobbe gjennom søkeresultater med mindre rulling. Oppsettet er et forhåndsinnstilt arrangement, så du trenger ikke å redigere CSS eller konfigurere individuelle kolonnebredder.
 
-Er det virkelig gratis? Ja: gratis og åpen kildekode, ingen betalversjon, ingen mersalg.
+Glidebryter for avspillingshastighet
 
-Er det noe som ikke skjules slik du vil? Opprett et issue på GitHub — funksjonslista vokser av brukerønsker.
+Juster avspillingshastigheten direkte inne i videospilleren. Bruk en glidebryter fra 0,25x til 3x, finjuster i trinn på 0,05x, eller velg en forhåndsinnstilling som 1,25x, 1,5x, 2x eller 3x. Den valgte hastigheten lagres i utvidelsesinnstillingene.
 
-Kildekode, feil og idéer: https://github.com/lenadweb/yt-clean
+Senk uttalen under språktrening, følg en detaljert demonstrasjon i ditt eget tempo, eller få fart på en kjent forelesning. Hastighetsregulatoren er tilgjengelig for vanlige visningssidevideoer. Du kan også skjule minispiller-, teater- eller tekstingsknappene for et enklere sett med spillerkontroller.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Avanserte avspillingskontroller lar deg tvinge H.264 ved å blokkere VP9 og AV1, eller blokkere 60 fps-strømmer når du foretrekker video med lavere bildefrekvens. Dette kan være nyttig på eldre bærbare datamaskiner og enheter med begrenset kodekstøtte. Maskinvaredekoding, CPU-belastning og tilgjengelig kvalitet avhenger av enheten din og strømmene som tilbys for hver video; tvinge H.264 kan begrense tilgjengelig oppløsning.
+
+Premium-abonnenter kan foretrekke Enhanced Bitrate når det alternativet er tilgjengelig. Denne innstillingen velger et eksisterende avspillingsalternativ og låser ikke opp betalte funksjoner. En ekstra eksperimentell innstilling justerer båndbreddeanslaget som brukes av spilleren; faktisk tilkoblingshastighet er uendret.
+
+Skjul sidefeltet og forenkle navigeringen
+
+Fjern den venstre navigasjonssidelinjen helt eller trim individuelle menyoppføringer. Velg hva som forblir synlig blant historikk, spillelister, se senere, likte videoer, nedlastinger, abonnementer, trender, musikk, spill, nyheter og andre seksjoner. Tøm bunntekstkoblinger når du vil ha mindre navigering rundt innholdet ditt.
+
+Forenkle topplinjen også: skjul varsler, opplastingsknappen, talesøk, den virtuelle tastaturknappen eller søkeetiketter. Dette er synlighetsinnstillinger; de sletter ikke spillelistene, abonnementene eller kontoinnholdet.
+
+Rydd opp i søkeresultater og kanalsider
+
+Gjør søkeresultatene enklere å skanne ved å skjule kanalresultatkort, relaterte søkeforslag, informasjonskort eller kanalvideohyller. Par disse kontrollene med kompakt modus når du vil ha en tettere resultatside.
+
+Skjul banneret og kanaltraileren på kanalsider. Bla gjennom videoene du kom for å finne med færre store dekorative elementer og færre avbrudd fra den omtalte traileren.
+
+Velg hvilke videobeskrivelsesseksjoner som skal vises
+
+Skjul hele beskrivelsen eller velg individuelle seksjoner. Alternativer dekker AI-sammendrag, transkripsjon, nevnte personer, relaterte videoer, kanalkort, "Hvordan ble dette laget", og kapitler eller episoder.
+
+Hold transkripsjoner og kapitler synlige for læring, eller fjern dem når du foretrekker en kortere beskrivelse. Disse kontrollene skjuler eksisterende sideseksjoner; de genererer ikke sammendrag, omskriver transkripsjoner eller endrer skaperens innhold.
+
+Distraksjonsfri YouTube for studier og fokusert arbeid
+
+Bygg et fokusert visningsoppsett rundt hvordan du bruker nettstedet:
+
+• Studenter: reduser fôrrot mens de ser på leksjoner eller forbereder seg til eksamen.
+• Utviklere og forskere: hold opplæringsprogrammer og demonstrasjoner innen rekkevidde under dyptgående arbeid.
+• Språkelever: kombiner en roligere side med presise hastighetsjusteringer.
+• Vanlige seere: gjør abonnementer enklere å bla gjennom og reduser gjentatte forslag.
+• Digitale minimalister: fjern visuell støy og gjør bevisst visning til en del av en digital detox-rutine.
+
+Velg Lett for en mindre opprydding eller Balansert for et bredere sett med filtre. Begge forhåndsinnstillingene kan redigeres og tilbakestilles. Egendefinert starter med at opprydding slås av, slik at du kan bygge din egen konfigurasjon. En Balansert forhåndsinnstilling er valgt som standard ved installasjon.
+
+Bytt individuelle innstillinger etter hvert som behovene dine endres, eller bruk utvidelsens tastatursnarvei for å slå hele konfigurasjonen av og på. Det er ingen obligatoriske fokustimere, brukskvoter eller låste studieøkter.
+
+Gratis og åpen kildekode, med lokale innstillinger
+
+Alle utvidelsesinnstillinger er tilgjengelige uten betaling eller registrering. Det er ingen abonnement, prøvenedtelling, analyser eller innsamling av personlige data. Preferansene lagres lokalt i nettleseren din. Den fullstendige kildekoden er tilgjengelig på GitHub under MIT-lisensen.
+
+Designet for skrivebordsnettstedet i Chrome, med et grensesnitt tilgjengelig på 52 språk. Den endrer ikke mobilappen. De fleste grensesnittrydding bruker CSS; avspilling og andre interaktive funksjoner bruker lokal JavaScript.
+
+Kom i gang i tre trinn
+
+1. Legg til YouTube Clean i Chrome og åpne nettstedet.
+2. Klikk på utvidelsesikonet for å åpne sidepanelet.
+3. Velg en forhåndsinnstilling, og juster deretter feed-, navigasjons- og avspillingsinnstillingene du ønsker.
+
+Endringer i grensesnittsynlighet gjelder når du veksler mellom dem. Fest utvidelsen til verktøylinjen for å holde kontrollene lett tilgjengelige. Hvis et sideelement endres og et filter slutter å matche det, rapporter problemet slik at det kan kontrolleres.
+
+Kildekode, støtte og funksjonsforespørsler: https://github.com/lenadweb/yt-clean

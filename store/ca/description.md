@@ -1,55 +1,114 @@
-YouTube Clean amaga els Shorts, les recomanacions, els comentaris i els anuncis, perquè a la pàgina només hi quedi el vídeo que has vingut a mirar.
+Bloqueja YouTube Shorts, neteja les recomanacions i mira amb menys distraccions. YouTube Clean reuneix filtres de feeds, ocultació de comentaris, salts d'anuncis experimentals i controls de reproducció en una extensió gratuïta de Chrome. Conserveu els vídeos que vulgueu, elimineu el desordre que els envolta i feu que el lloc funcioni per a vosaltres.
 
-YouTube està fet perquè continuïs desplaçant-te: el prestatge infinit de Shorts, el mur de recomanacions al costat del reproductor, les previsualitzacions que arrenquen amb qualsevol moviment del ratolí, les miniatures que converteixen «un vídeo» en una hora. YouTube Clean et torna aquest espai. Obre el tauler lateral, mou un interruptor i el que sobra desapareix a l'instant: sense recarregar la pàgina, sense compte, sense configuració.
+Tria entre més de 70 configuracions en un tauler lateral al costat del teu vídeo. Comenceu amb un valor predefinit editable o personalitzeu elements individuals: el vostre feed d'inici, les subscripcions, els resultats de la cerca, la pàgina de visualització, el reproductor i la navegació esquerra. Gratuït i de codi obert, sense compte, subscripció ni seguiment.
 
-Més de 60 controls, un tauler lateral, resultat immediat. Gratuït, codi obert, sense seguiment.
+Característiques d'un cop d'ull
 
-QUÈ POTS NETEJAR
+• Eliminar les prestatgeries de vídeos curts i la seva entrada de navegació.
+• Filtra els vídeos vists, barreges, llistes de reproducció i contingut només per a membres.
+• Amaga comentaris, xat en directe, targetes de pantalla final i panells promocionals.
+• Reduïu les miniatures amb un disseny compacte de fonts i cerca.
+• Ajusteu la reproducció de 0,25x a 3x amb un control lliscant de velocitat del reproductor.
+• Activa o desactiva la teva configuració de neteja amb una drecera de teclat.
 
-Feed i recomanacions. Amaga els prestatges de Shorts allà on surtin, les mescles i les llistes de reproducció, els blocs Explora i Notícies i els vídeos només per a membres. Desactiva la previsualització automàtica en passar-hi el cursor, activa el mode compacte perquè hi càpiguen més vídeos a la pantalla i amaga els que ja has vist, per separat a l'Inici, a les Subscripcions, a les pàgines de canal i a les recomanacions.
+Amaga les seccions de Shorts
 
-Pàgina del vídeo. Amaga els comentaris, els vídeos recomanats al costat del reproductor, la barra de m'agrada, els botons d'acció, la descripció, el xat en directe, la botiga i les entrades, les targetes finals i les imatges del canal. La descripció encara es desmunta més: secció d'IA (Gemini), transcripció, persones esmentades, vídeos relacionats, targeta del canal, «Com s'ha fet», capítols i episodis.
+Esteu buscant un Shorts bloquejador que us permeti seguir utilitzant vídeos habituals? Amaga les prestatgeries de vídeos curts al feed, elimina els resultats de cerca coincidents i esborra la seva entrada al menú de l'esquerra. La configuració de l'alimentació i la navegació funcionen conjuntament per eliminar els punts d'entrada habituals al desplaçament vertical.
 
-Anuncis i promocions. Amaga els bàners de YouTube, els vídeos patrocinats del feed i els panells informatius d'anuncis, i deixa que el salt automàtic experimental s'ocupi dels anuncis que es poden ometre.
+Utilitzeu un valor predefinit de neteja ja fet o activeu els interruptors pertinents individualment. Podeu mantenir disponibles els vídeos de format llarg, les subscripcions i la cerca mentre elimineu el contingut de format breu que interromp la vostra visualització. Aquests controls canvien el que apareix a la interfície; els enllaços directes de vídeo segueixen sent accessibles.
 
-Reproductor i reproducció. Afegeix un control lliscant de velocitat dins mateix dels controls del reproductor, prioritza el bitrate millorat amb Premium, força el còdec H.264 (bloquejant VP9 i AV1) perquè descodifiqui la targeta gràfica en comptes d'escalfar la CPU, limita la reproducció a 30 fps en màquines més modestes i amaga els botons de minireproductor, mode cinema, subtítols i reproducció automàtica.
+Amaga els vídeos vists del teu feed de vídeos
 
-Shorts. Si et quedes els Shorts, que sigui en els teus termes: control de velocitat propi i salt automàtic al següent.
+Cansat de desplaçar-se pels vídeos anteriors que ja has vist? Elimineu els vídeos mirats de manera independent d'inici, subscripcions, pàgines de canal i recomanacions de pàgines de visualització. Manteniu el filtre activat al vostre feed de subscripció, però desactivat en un canal que vulgueu tornar a visitar, o utilitzeu les quatre configuracions junts.
 
-Barra lateral i navegació. Amaga la barra lateral del tot, o retalla-la element a element: Shorts, El meu canal, Historial, Llistes de reproducció, Els teus vídeos, Mira-ho més tard, Vídeos que m'agraden, Pel·lícules, Baixades, tota la llista de subscripcions, Tendències, Música, En directe, Jocs, Notícies, Esports, els enllaços a YouTube Premium / Music / Kids / Studio i el peu de pàgina amb els enllaços «Quant a».
+La detecció utilitza l'indicador de progrés del rellotge que es mostra a les miniatures de vídeo. Filtra la pàgina visible sense suprimir l'historial de visualitzacions ni marcar vídeos com a vists. Els vídeos sense un indicador de progrés coincident poden romandre visibles.
 
-Cerca i canals. Amaga els canals als resultats, les cerques relacionades, la targeta informativa i el prestatge de vídeos del canal. A les pàgines de canal, treu el bàner i el tràiler que es reprodueix sol.
+Filtra recomanacions, barreges i llistes de reproducció
 
-Capçalera. Amaga els botons de cerca per veu i teclat virtual, les etiquetes de cerca, el botó de pujada i les notificacions.
+Feu espai per a suggeriments útils filtrant tipus específics de contingut. Amaga barreges i llistes de reproducció, elimina vídeos només per a membres i esborra els blocs d'Explora o Notícies. Combineu aquestes opcions amb el filtre de vídeo vist per reduir els suggeriments repetits i el desordre d'alimentació.
 
-PREDEFINITS PER A QUI NO VOL TOCAR RES
+Això us permet controlar el que queda visible tot preservant el descobriment. L'extensió filtra els tipus de contingut seleccionats; no substitueix l'algoritme de recomanació ni deixa en blanc tot el canal d'inici.
 
-Tria Lleuger per a una neteja suau, Equilibrat per a un YouTube diari sense distraccions o Màxim per treure'n gairebé tot. Cada predefinit es pot editar i restablir, i el Personalitzat el construeixes de zero. Una drecera de teclat activa i desactiva tota l'extensió quan necessites el YouTube original un minut.
+Amaga comentaris, xat en directe i targetes de pantalla final
 
-PRIVADESA, CLAR I CATALÀ
+Mireu una conferència sense que la discussió que hi ha a continuació competeixi per la vostra atenció. Amaga els comentaris a les pàgines de vídeo, elimina el xat en directe durant les reproduccions i esborra les targetes de la pantalla final o els teasers de targetes sobre el reproductor.
 
-Sense compte, sense inici de sessió, sense analítiques, sense seguiment, sense recollida de dades. La teva configuració viu a l'emmagatzematge local del navegador i no en surt mai. Tot el codi font és a GitHub amb llicència MIT: no cal que ens creguis.
+També pots suprimir les prestatgeries de mercaderies i entrades, els controls que m'agraden i no, els botons d'acció i les imatges dels canals. Cada paràmetre és independent, de manera que una pàgina de visualització més neta encara pot conservar la descripció, el botó de subtítols o altres elements que utilitzeu.
 
-FET PERQUÈ CONTINUÏ SENT RÀPID
+Omet anuncis i amaga els vídeos patrocinats
 
-Gairebé totes les opcions es compilen a CSS pur en el moment de construir l'extensió, així que no costen res mentre navegues. Només unes poques funcions de comportament executen JavaScript. Manifest V3, sense codi remot, sense càrrega en segon pla.
+Elimina el desordre publicitari amagant pancartes, targetes de vídeo patrocinades i panells d'informació publicitària. Aquests controls funcionen per separat, de manera que podeu triar quins elements promocionals desapareixen de les vostres pàgines de navegació i visualització.
 
-COM COMENÇAR
+Un patró d'anuncis opcional intenta ometre anuncis de vídeo automàticament. L'omissió automàtica és experimental: el seu comportament depèn del reproductor actual i del format de publicitat. Activeu-lo per separat quan vulgueu provar l'omissió automàtica d'anuncis. No és un bloquejador d'anuncis a nivell de xarxa i no garanteix una experiència sense anuncis.
 
-Instal·la l'extensió, fes clic a la icona per obrir el tauler lateral al costat de YouTube i tria un predefinit o mou els interruptors un a un. Els canvis s'apliquen a la pàgina oberta a l'instant.
+Desactiva la previsualització automàtica
 
-Funciona a Chrome, Opera, Edge, Brave i altres navegadors basats en Chromium.
+Deixeu de moure les visualitzacions prèvies en miniatura quan el punter passi per sobre d'un vídeo. Desactiveu les visualitzacions prèvies per navegar per un canal més silenciós i estàtic i llegir títols sense que una previsualització competeixi per la vostra atenció.
 
-PREGUNTES FREQÜENTS
+Aquesta configuració controla el comportament de les miniatures. L'opció separada per amagar l'interruptor de reproducció automàtica només elimina aquest botó del reproductor; no desactiva la reproducció automàtica del següent vídeo.
 
-És un bloquejador d'anuncis? No exactament. Amaga bàners, targetes patrocinades del feed i panells publicitaris, i pot ometre automàticament els anuncis que ho permeten (experimental). Conviu sense problemes amb un bloquejador dedicat.
+Miniatures de vídeo més petites i disseny compacte
 
-Trencarà YouTube? Tot és opcional i reversible: apaga un interruptor i l'element torna a l'instant.
+Vols més vídeos per pantalla en lloc de miniatures grans? El mode compacte redueix el volum visual al feed d'inici, als resultats de la cerca i als suggeriments de pàgines de visualització. Les visualitzacions prèvies més petites, l'espaiat més reduït i una disposició més densa faciliten escanejar títols i comparar resultats.
 
-Necessito un compte? No. Instal·la-la i fes-la servir.
+Utilitzeu la graella compacta per navegar per tutorials, trobar el següent episodi d'una sèrie o treballar els resultats de la cerca amb menys desplaçament. La disposició és una disposició predeterminada, de manera que no cal editar CSS ni configurar amplades de columnes individuals.
 
-És realment gratuïta? Sí: gratuïta i de codi obert, sense pla de pagament ni vendes addicionals.
+Control lliscant de velocitat
 
-Hi ha alguna cosa que no s'amaga com voldries? Obre una incidència a GitHub: la llista de funcions creix amb les peticions dels usuaris.
+Ajusteu la velocitat de reproducció directament dins del reproductor de vídeo. Utilitzeu un control lliscant de 0,25x a 3x, ajusteu-lo en passos de 0,05x o trieu un valor predefinit com ara 1,25x, 1,5x, 2x o 3x. La velocitat seleccionada es desa a la configuració de l'extensió.
 
-Codi font, errors i idees: https://github.com/lenadweb/yt-clean
+Alentiu la pronunciació durant la pràctica d'idiomes, seguiu una demostració detallada al vostre ritme o accelera una conferència familiar. El controlador de velocitat està disponible per als vídeos habituals de la pàgina de visualització. També podeu amagar els botons del minijugador, del teatre o dels subtítols per a un conjunt més senzill de controls del jugador.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Els controls de reproducció avançats us permeten forçar H.264 bloquejant VP9 i AV1, o bloquejar els fluxos de 60 fps quan preferiu vídeo amb una velocitat de fotogrames més baixa. Això pot ser útil en ordinadors portàtils i dispositius antics amb suport de còdec limitat. La descodificació del maquinari, la càrrega de la CPU i la qualitat disponible depenen del vostre dispositiu i dels fluxos que s'ofereixen per a cada vídeo; forçar H.264 pot limitar la resolució disponible.
+
+Els subscriptors premium poden preferir la taxa de bits millorada quan aquesta opció estigui disponible. Aquesta configuració selecciona una opció de reproducció existent i no desbloqueja les funcions de pagament. Una configuració experimental addicional ajusta l'estimació d'amplada de banda utilitzada pel reproductor; la velocitat de connexió real no canvia.
+
+Amaga la barra lateral i simplifica la navegació
+
+Traieu completament la barra lateral de navegació esquerra o retalleu les entrades individuals del menú. Tria el que es manté visible entre les seccions Historial, Llistes de reproducció, Mira més tard, Vídeos que m'agraden, Baixades, subscripcions, Tendències, Música, Jocs, Notícies i altres seccions. Netegeu els enllaços de peu de pàgina quan vulgueu menys navegació pel vostre contingut.
+
+Simplifica també la barra superior: amaga les notificacions, el botó de càrrega, la cerca per veu, el botó del teclat virtual o les etiquetes de cerca. Aquests són paràmetres de visibilitat; no suprimeixen les vostres llistes de reproducció, subscripcions o contingut del compte.
+
+Netegeu els resultats de la cerca i les pàgines del canal
+
+Fes que els resultats de la cerca siguin més fàcils d'escanejar amagant les targetes de resultats del canal, els suggeriments de cerca relacionada, les targetes d'informació o les prestatgeries de vídeos del canal. Combina aquests controls amb el mode compacte quan vulguis una pàgina de resultats més densa.
+
+A les pàgines del canal, amaga el bàner i el tràiler del canal. Navega pels vídeos que has trobat amb menys elements decoratius grans i menys interrupcions del tràiler destacat.
+
+Trieu quines seccions de descripció del vídeo voleu mostrar
+
+Amaga tota la descripció o tria seccions individuals. Les opcions inclouen el resum de l'IA, la transcripció, les persones esmentades, els vídeos relacionats, la targeta del canal, "Com es va fer això" i els capítols o episodis.
+
+Manteniu les transcripcions i els capítols visibles per aprendre, o traieu-los quan preferiu una descripció més curta. Aquests controls amaguen les seccions de pàgina existents; no generen resums, reescriuen transcripcions ni alteren el contingut del creador.
+
+YouTube sense distraccions per estudiar i treballar centrat
+
+Creeu una configuració de visualització centrada sobre com feu servir el lloc:
+
+• Alumnes: reduïu el desordre d'alimentació mentre mireu les lliçons o es prepareu per als exàmens.
+• Desenvolupadors i investigadors: manteniu els tutorials i les demostracions a l'abast durant el treball profund.
+• Aprenent d'idiomes: combineu una pàgina més silenciosa amb ajustos de velocitat precisos.
+• Espectadors habituals: facilita la navegació per subscripcions i redueix els suggeriments repetits.
+• Minimalistes digitals: elimineu el soroll visual i feu que la visualització intencionada formi part d'una rutina de desintoxicació digital.
+
+Trieu Lleuger per a una neteja més petita o Equilibrat per a un conjunt més ampli de filtres. Els dos valors predefinits es poden editar i restablir. Personalitzat comença amb els interruptors de neteja desactivats, cosa que us permet crear la vostra pròpia configuració. Un preajust Equilibrat es selecciona de manera predeterminada durant la instal·lació.
+
+Canvieu els paràmetres individuals a mesura que canvien les vostres necessitats o utilitzeu la drecera de teclat de l'extensió per activar i desactivar tota la configuració. No hi ha temporitzadors d'enfocament obligatoris, quotes d'ús ni sessions d'estudi bloquejades.
+
+Gratuït i de codi obert, amb configuració local
+
+Tota la configuració de l'extensió està disponible sense pagament ni registre. No hi ha subscripció, compte enrere de prova, anàlisi o recollida de dades personals. Les preferències s'emmagatzemen localment al vostre navegador. El codi font complet està disponible a GitHub sota la llicència MIT.
+
+Dissenyat per al lloc web d'escriptori a Chrome, amb una interfície disponible en 52 idiomes. No modifica l'aplicació mòbil. La majoria de neteja de la interfície utilitza CSS; la reproducció i altres funcions interactives utilitzen JavaScript local.
+
+Comença en tres passos
+
+1. Afegiu YouTube Clean a Chrome i obriu el lloc web.
+2. Feu clic a la icona de l'extensió per obrir-ne el tauler lateral.
+3. Trieu un valor predefinit i, a continuació, ajusteu la configuració del feed, la navegació i la reproducció que vulgueu.
+
+Els canvis de visibilitat de la interfície s'apliquen a mesura que els canvieu. Fixeu l'extensió a la vostra barra d'eines perquè els seus controls siguin fàcils d'arribar. Si un element de la pàgina canvia i un filtre deixa de coincidir, informa del problema perquè es pugui comprovar.
+
+Codi font, assistència i sol·licituds de funcions: https://github.com/lenadweb/yt-clean

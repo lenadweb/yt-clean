@@ -1,55 +1,114 @@
-YouTube Clean menyembunyikan Shorts, cadangan video, komen dan iklan — supaya pada halaman tinggal video yang memang anda datang untuk tonton.
+Sekat YouTube Shorts, bersihkan pengesyoran dan tonton dengan lebih sedikit gangguan. YouTube Clean membawa penapis suapan, penyembunyian ulasan, langkau iklan percubaan dan kawalan main balik bersama-sama dalam satu sambungan Chrome percuma. Simpan video yang anda mahukan, keluarkan kekacauan di sekelilingnya dan buat tapak berfungsi untuk anda.
 
-YouTube dibina supaya anda terus menatal: rak Shorts yang tiada penghujung, dinding cadangan di sebelah pemain, pratonton yang bermain hanya kerana kursor lalu, dan lakaran kenit yang menukar «satu video» menjadi sejam. YouTube Clean memulangkan ruang itu kepada anda. Buka panel sisi, alih satu suis, dan lebihan hilang serta-merta: tanpa muat semula halaman, tanpa akaun, tanpa persediaan.
+Pilih daripada 70+ tetapan dalam panel sisi di sebelah video anda. Mulakan dengan pratetap boleh edit atau sesuaikan elemen individu: suapan rumah anda, langganan, hasil carian, halaman tontonan, pemain dan navigasi kiri. Sumber percuma dan terbuka, tanpa akaun, langganan atau penjejakan.
 
-60+ suis, satu panel sisi, hasil serta-merta. Percuma, sumber terbuka, tiada penjejakan.
+Ciri-ciri sepintas lalu
 
-APA YANG BOLEH ANDA KEMASKAN
+• Alih keluar rak video pendek dan entri navigasinya.
+• Tapis keluar video yang ditonton, campuran, senarai main dan kandungan ahli sahaja.
+• Sembunyikan ulasan, sembang langsung, kad skrin penamat dan panel promosi.
+• Buat lakaran kenit lebih kecil dengan suapan padat dan reka letak carian.
+• Laraskan main balik daripada 0.25x kepada 3x dengan peluncur kelajuan dalam pemain.
+• Hidupkan atau matikan tetapan pembersihan anda dengan pintasan papan kekunci.
 
-Suapan dan cadangan. Sembunyikan rak Shorts di mana-mana ia muncul, mix dan senarai main, blok Terokai dan Berita, serta video khas ahli sahaja. Matikan pratonton automatik apabila kursor melewati, hidupkan mod padat supaya lebih banyak video muat pada skrin, dan sembunyikan yang sudah ditonton — berasingan di Laman Utama, Langganan, halaman saluran dan dalam cadangan.
+Sembunyikan bahagian Shorts
 
-Halaman video. Sembunyikan komen, video cadangan di sebelah pemain, bar suka/tidak suka, butang tindakan, penerangan, sembang langsung, barangan dan tiket, kad skrin akhir serta gambar saluran. Penerangan boleh dileraikan lagi: bahagian AI (Gemini), transkrip, orang yang disebut, video berkaitan, kad saluran, «Bagaimana ini dibuat», bab dan episod.
+Mencari penyekat Shorts yang membolehkan anda terus menggunakan video biasa? Sembunyikan rak video pendek dalam suapan, alih keluar hasil carian yang sepadan dan kosongkan entri mereka daripada menu kiri. Tetapan suapan dan navigasi berfungsi bersama untuk mengalih keluar titik masuk biasa ke dalam tatal menegak.
 
-Iklan dan promosi. Sembunyikan sepanduk YouTube, video tajaan dalam suapan dan panel maklumat iklan, kemudian hidupkan langkau automatik eksperimen supaya iklan yang boleh dilangkau uruskan dirinya sendiri.
+Gunakan pratetap pembersihan siap sedia atau dayakan suis yang berkaitan secara individu. Anda boleh menyimpan video bentuk panjang, langganan dan carian tersedia sambil mengalih keluar kandungan bentuk pendek yang mengganggu tontonan anda. Kawalan ini mengubah perkara yang muncul dalam antara muka; pautan video langsung kekal boleh diakses.
 
-Pemain dan main balik. Letakkan peluncur kelajuan terus di dalam kawalan pemain, utamakan kadar bit lebih tinggi dengan Premium, paksa kodek H.264 (menyekat VP9 dan AV1) supaya kad grafik yang menyahkod dan bukan CPU yang panas, hadkan main balik kepada 30 fps pada mesin lemah, dan sembunyikan butang pemain mini, mod pawagam, sari kata dan main automatik.
+Sembunyikan video yang ditonton daripada suapan video anda
 
-Shorts. Jika anda kekalkan Shorts, biar ia ikut syarat anda: kawalan kelajuan tersendiri dan tukar automatik ke Short seterusnya.
+Bosan menatal masa lalu video yang telah anda lihat? Alih keluar video yang ditonton secara bebas daripada Laman Utama, Langganan, halaman saluran dan pengesyoran halaman tontonan. Pastikan penapis dihidupkan dalam suapan langganan anda tetapi matikan pada saluran yang anda suka lawati semula atau gunakan keempat-empat tetapan bersama-sama.
 
-Bar sisi dan navigasi. Sembunyikan bar sisi sepenuhnya, atau cantas satu per satu — Shorts, Saluran saya, Sejarah, Senarai main, Video anda, Tonton kemudian, Video disukai, Filem, Muat turun, seluruh senarai langganan, Sohor kini, Muzik, Langsung, Permainan, Berita, Sukan, pautan YouTube Premium / Music / Kids / Studio dan pengaki dengan pautan «Perihal».
+Pengesanan menggunakan penunjuk kemajuan tontonan yang dipaparkan pada lakaran kecil video. Ia menapis halaman yang boleh dilihat tanpa memadamkan sejarah tontonan anda atau menandai video sebagai telah ditonton. Video tanpa penunjuk kemajuan yang sepadan mungkin kekal kelihatan.
 
-Carian dan saluran. Sembunyikan saluran dalam keputusan carian, carian berkaitan, kad maklumat dan rak video saluran. Pada halaman saluran, buang sepanduk dan treler yang bermain sendiri.
+Tapis pengesyoran, campuran dan senarai main
 
-Pengepala. Sembunyikan butang carian suara dan papan kekunci maya, tag carian, butang muat naik dan pemberitahuan.
+Berikan ruang untuk cadangan berguna dengan menapis jenis kandungan tertentu. Sembunyikan campuran dan senarai main, alih keluar video ahli sahaja dan kosongkan blok Teroka atau Berita. Gabungkan pilihan ini dengan penapis video yang ditonton untuk mengurangkan cadangan berulang dan kekusutan suapan.
 
-PRASETAN UNTUK YANG TIDAK MAHU MENETAPKAN APA-APA
+Ini memberi anda kawalan ke atas perkara yang kekal kelihatan sambil mengekalkan penemuan. Sambungan menapis jenis kandungan yang dipilih; ia tidak menggantikan algoritma pengesyoran atau mengosongkan keseluruhan suapan rumah.
 
-Pilih Ringan untuk pembersihan lembut, Seimbang untuk YouTube harian tanpa gangguan, atau Maksimum untuk membuang hampir semuanya. Setiap prasetan boleh disunting dan ditetapkan semula kepada lalai, manakala Tersuai anda bina dari kosong. Pintasan papan kekunci menghidupkan dan mematikan keseluruhan sambungan apabila anda perlukan YouTube asal seketika.
+Sembunyikan ulasan, sembang langsung dan kad skrin penamat
 
-PRIVASI, TERUS TERANG
+Tonton kuliah tanpa perbincangan di bawahnya bersaing untuk perhatian anda. Sembunyikan ulasan pada halaman video, alih keluar sembang langsung semasa strim dan kosongkan kad skrin penamat atau penggoda kad pada pemain.
 
-Tiada akaun, tiada log masuk, tiada analitik, tiada penjejakan, tiada pengumpulan data. Tetapan anda tinggal dalam storan tempatan pelayar dan tidak pernah keluar dari situ. Kod sumber penuh ada di GitHub di bawah lesen MIT — anda tidak perlu percaya kata-kata kami sahaja.
+Anda juga boleh mengalih keluar rak barangan dan tiket, kawalan suka dan tidak suka, butang tindakan dan gambar saluran. Setiap tetapan adalah bebas, jadi halaman tontonan yang lebih bersih masih boleh menyimpan penerangan, butang kapsyen atau elemen lain yang anda gunakan.
 
-DIBINA SUPAYA KEKAL PANTAS
+Langkau iklan dan sembunyikan video yang ditaja
 
-Hampir setiap pilihan dikompil menjadi CSS tulen semasa binaan, jadi ia tidak menelan kos semasa anda melayari. Hanya beberapa ciri tingkah laku yang menjalankan JavaScript. Manifest V3, tiada kod jauh, tiada beban latar.
+Kosongkan kekacauan pengiklanan dengan menyembunyikan sepanduk, kad video yang ditaja dan panel maklumat iklan. Kawalan ini berfungsi secara berasingan, jadi anda boleh memilih elemen promosi yang hilang daripada menyemak imbas dan melihat halaman anda.
 
-CARA BERMULA
+Pelangkau iklan pilihan cuba melangkau iklan video secara automatik. Autolangkau adalah percubaan: kelakuannya bergantung pada pemain semasa dan format pengiklanan. Dayakannya secara berasingan apabila anda ingin mencuba melangkau iklan automatik. Ia bukan penyekat iklan peringkat rangkaian dan tidak menjamin pengalaman bebas iklan.
 
-Pasang sambungan, klik ikonnya untuk membuka panel sisi di sebelah YouTube, kemudian pilih prasetan atau alih suis satu per satu. Perubahan berkuat kuasa pada halaman terbuka serta-merta.
+Matikan pratonton automatik semasa tuding
 
-Berfungsi dalam Chrome, Opera, Edge, Brave dan pelayar lain berasaskan Chromium.
+Berhenti mengalihkan pratonton lakaran kecil daripada bermula apabila penunjuk anda melepasi video. Matikan pratonton tuding untuk menyemak imbas suapan yang lebih senyap, lebih statik dan membaca tajuk tanpa pratonton bersaing untuk perhatian anda.
 
-SOALAN LAZIM
+Tetapan ini mengawal gelagat lakaran kenit. Pilihan berasingan untuk menyembunyikan suis automain hanya mengalih keluar butang itu daripada pemain; ia tidak melumpuhkan automain video seterusnya.
 
-Adakah ini penyekat iklan? Tidak tepat. Ia menyembunyikan sepanduk, kad tajaan dalam suapan dan panel iklan, serta boleh melangkau iklan yang membenarkan langkau secara automatik (eksperimen). Ia berfungsi baik bersama penyekat iklan sebenar.
+Lakaran kecil video yang lebih kecil dan reka letak yang padat
 
-Adakah ia merosakkan YouTube? Semuanya pilihan dan boleh dipatah balik — matikan suis dan elemen kembali serta-merta.
+Mahukan lebih banyak video setiap skrin dan bukannya lakaran kecil bersaiz besar? Mod padat mengurangkan pukal visual dalam suapan rumah, hasil carian dan cadangan halaman tontonan. Pratonton yang lebih kecil, jarak yang lebih ketat dan susunan yang lebih padat memudahkan untuk mengimbas tajuk dan membandingkan hasil.
 
-Perlukah akaun? Tidak. Pasang dan guna.
+Gunakan grid padat untuk menyemak imbas tutorial, mencari episod seterusnya siri atau bekerja melalui hasil carian dengan kurang menatal. Reka letak ialah susunan pratetap, jadi anda tidak perlu mengedit CSS atau mengkonfigurasi lebar lajur individu.
 
-Betulkah ia percuma? Ya: percuma dan sumber terbuka, tiada pelan berbayar, tiada jualan tambahan.
+Peluncur kelajuan main balik
 
-Ada sesuatu yang tidak tersembunyi seperti yang anda mahu? Buka issue di GitHub — senarai ciri bertambah daripada permintaan pengguna.
+Laraskan kelajuan main balik terus di dalam pemain video. Gunakan peluncur daripada 0.25x hingga 3x, perhalusi dalam 0.05x langkah atau pilih pratetap seperti 1.25x, 1.5x, 2x atau 3x. Kelajuan pilihan anda disimpan dalam tetapan sambungan.
 
-Kod sumber, pepijat dan idea: https://github.com/lenadweb/yt-clean
+Perlahankan sebutan semasa latihan bahasa, ikuti demonstrasi terperinci mengikut kadar anda sendiri, atau percepatkan kuliah biasa. Pengawal kelajuan tersedia untuk video halaman tontonan biasa. Anda juga boleh menyembunyikan butang pemain mini, teater atau sari kata untuk set kawalan pemain yang lebih mudah.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Kawalan main balik lanjutan membolehkan anda memaksa H.264 dengan menyekat VP9 dan AV1, atau menyekat strim 60 fps apabila anda lebih suka video berkadar bingkai rendah. Ini boleh berguna pada komputer riba dan peranti lama dengan sokongan codec terhad. Penyahkodan perkakasan, beban CPU dan kualiti yang tersedia bergantung pada peranti anda dan strim yang ditawarkan untuk setiap video; memaksa H.264 boleh mengehadkan resolusi yang tersedia.
+
+Pelanggan premium boleh memilih Kadar Bit Dipertingkat apabila pilihan itu tersedia. Tetapan ini memilih pilihan main balik sedia ada dan tidak membuka kunci ciri berbayar. Tetapan percubaan tambahan melaraskan anggaran lebar jalur yang digunakan oleh pemain; kelajuan sambungan sebenar tidak berubah.
+
+Sembunyikan bar sisi dan mudahkan navigasi
+
+Keluarkan bar sisi navigasi kiri sepenuhnya atau potong entri menu individu. Pilih perkara yang kekal kelihatan dalam kalangan Sejarah, Senarai Main, Tonton kemudian, Video yang disukai, Muat Turun, langganan, Arah Aliran, Muzik, Permainan, Berita dan bahagian lain. Kosongkan pautan pengaki apabila anda mahu kurang navigasi di sekitar kandungan anda.
+
+Permudahkan bar atas juga: sembunyikan pemberitahuan, butang muat naik, carian suara, butang papan kekunci maya atau teg carian. Ini ialah tetapan keterlihatan; mereka tidak memadamkan senarai main, langganan atau kandungan akaun anda.
+
+Bersihkan hasil carian dan halaman saluran
+
+Jadikan hasil carian lebih mudah untuk diimbas dengan menyembunyikan kad hasil saluran, cadangan carian berkaitan, kad maklumat atau rak video saluran. Gandingkan kawalan tersebut dengan mod padat apabila anda mahukan halaman hasil yang lebih padat.
+
+Pada halaman saluran, sembunyikan sepanduk dan treler saluran. Semak imbas video yang anda temui dengan lebih sedikit unsur hiasan besar dan lebih sedikit gangguan daripada treler yang ditampilkan.
+
+Pilih bahagian penerangan video yang hendak dipaparkan
+
+Sembunyikan keseluruhan perihalan atau pilih bahagian individu. Pilihan meliputi ringkasan AI, transkrip, orang yang disebut, video berkaitan, kad saluran, "Cara ini dibuat", dan bab atau episod.
+
+Pastikan transkrip dan bab kelihatan untuk pembelajaran, atau alih keluarnya apabila anda lebih suka penerangan yang lebih pendek. Kawalan ini menyembunyikan bahagian halaman sedia ada; mereka tidak menjana ringkasan, menulis semula transkrip atau mengubah kandungan pencipta.
+
+YouTube tanpa gangguan untuk belajar dan kerja fokus
+
+Bina persediaan tontonan berfokus tentang cara anda menggunakan tapak:
+
+• Pelajar: kurangkan kekusutan makanan semasa menonton pelajaran atau bersiap sedia untuk peperiksaan.
+• Pembangun dan penyelidik: pastikan tutorial dan demonstrasi dalam jangkauan semasa kerja mendalam.
+• Pelajar bahasa: gabungkan halaman yang lebih senyap dengan pelarasan kelajuan yang tepat.
+• Penonton tetap: jadikan langganan lebih mudah untuk menyemak imbas dan mengurangkan cadangan ulangan.
+• Minimalis digital: keluarkan bunyi visual dan jadikan tontonan dengan sengaja sebagai sebahagian daripada rutin detoks digital.
+
+Pilih Ringan untuk pembersihan yang lebih kecil atau Seimbang untuk set penapis yang lebih luas. Kedua-dua pratetap boleh diedit dan ditetapkan semula. Tersuai bermula dengan suis pembersihan dimatikan, membolehkan anda membina konfigurasi anda sendiri. Pratetap Seimbang dipilih secara lalai pada pemasangan.
+
+Tukar tetapan individu apabila keperluan anda berubah atau gunakan pintasan papan kekunci sambungan untuk menghidupkan dan mematikan keseluruhan konfigurasi. Tiada pemasa fokus wajib, kuota penggunaan atau sesi belajar terkunci.
+
+Sumber percuma dan terbuka, dengan tetapan setempat
+
+Semua tetapan sambungan tersedia tanpa pembayaran atau pendaftaran. Tiada langganan, kira detik percubaan, analitik atau pengumpulan data peribadi. Keutamaan disimpan secara setempat dalam penyemak imbas anda. Kod sumber penuh tersedia di GitHub di bawah lesen MIT.
+
+Direka bentuk untuk tapak web desktop dalam Chrome, dengan antara muka tersedia dalam 52 bahasa. Ia tidak mengubah suai apl mudah alih. Kebanyakan pembersihan antara muka menggunakan CSS; main balik dan ciri interaktif lain menggunakan JavaScript tempatan.
+
+Mulakan dalam tiga langkah
+
+1. Tambahkan YouTube Clean pada Chrome dan buka tapak web.
+2. Klik ikon sambungan untuk membuka panel sisinya.
+3. Pilih pratetap, kemudian laraskan tetapan suapan, navigasi dan main balik yang anda mahukan.
+
+Perubahan keterlihatan antara muka digunakan semasa anda menogolnya. Sematkan sambungan pada bar alat anda untuk memastikan kawalannya mudah dicapai. Jika elemen halaman berubah dan penapis berhenti memadankannya, laporkan isu itu supaya ia boleh disemak.
+
+Kod sumber, sokongan dan permintaan ciri: https://github.com/lenadweb/yt-clean

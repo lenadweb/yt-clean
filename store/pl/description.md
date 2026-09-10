@@ -1,55 +1,114 @@
-YouTube Clean ukrywa Shorts, rekomendacje, komentarze i reklamy — tak, aby na stronie zostało tylko to wideo, po które przyszedłeś.
+Blokuj YouTube Shorts, filtruj rekomendacje i oglądaj bez zbędnych rozpraszaczy. YouTube Clean łączy filtry treści, ukrywanie komentarzy, eksperymentalne pomijanie reklam i sterowanie odtwarzaniem w jednym bezpłatnym rozszerzeniu do Chrome. Zachowaj widoczne filmy, które Cię interesują, i ukryj niepotrzebne elementy wokół nich.
 
-YouTube jest zbudowany tak, żebyś przewijał dalej: nieskończona półka Shorts, ściana polecanych obok odtwarzacza, podglądy startujące od przypadkowego ruchu myszy, miniatury zamieniające «jedno wideo» w godzinę. YouTube Clean oddaje ci tę przestrzeń. Otwórz panel boczny, przełącz przełącznik i nadmiar znika natychmiast: bez przeładowania strony, bez konta, bez konfiguracji.
+Wybieraj spośród ponad 70 ustawień na panelu bocznym obok filmu. Zacznij od edytowalnego ustawienia wstępnego lub dostosuj poszczególne elementy: kanał główny, subskrypcje, wyniki wyszukiwania, stronę odtwarzania, odtwarzacz i lewą nawigację. Darmowe i otwarte oprogramowanie, bez konta, subskrypcji i śledzenia.
 
-Ponad 60 przełączników, jeden panel boczny, natychmiastowy efekt. Za darmo, otwarty kod, bez śledzenia.
+Funkcje w skrócie
 
-CO MOŻESZ POSPRZĄTAĆ
+• Usuń półki z krótkimi filmami i ich wpis nawigacyjny.
+• Odfiltruj obejrzane filmy, składanki, playlisty i treści tylko dla członków.
+• Ukryj komentarze, czat na żywo, karty na ekranie końcowym i panele promocyjne.
+• Zmniejsz miniatury dzięki kompaktowemu układowi kanałów i wyszukiwania.
+• Dostosuj odtwarzanie od 0,25x do 3x za pomocą suwaka prędkości w odtwarzaczu.
+• Włącz lub wyłącz ustawienia czyszczenia za pomocą skrótu klawiaturowego.
 
-Kanał i rekomendacje. Ukryj półki Shorts wszędzie tam, gdzie się pojawiają, miksy i playlisty, bloki Odkrywaj i Wiadomości oraz filmy tylko dla członków. Wyłącz podgląd po najechaniu, włącz tryb kompaktowy, by zmieścić więcej filmów na ekranie, i chowaj obejrzane — osobno na stronie głównej, w subskrypcjach, na stronach kanałów i w rekomendacjach.
+Ukryj sekcje Shorts
 
-Strona filmu. Ukryj komentarze, polecane filmy obok odtwarzacza, pasek polubień, przyciski akcji, opis, czat na żywo, gadżety i bilety, karty na ekranie końcowym oraz obrazy kanału. Sam opis rozkłada się jeszcze dokładniej: sekcja AI (Gemini), transkrypcja, wspomniane osoby, podobne filmy, karta kanału, «Jak to powstało», rozdziały i odcinki.
+Szukasz narzędzia blokującego Shorts, które pozwoli Ci nadal korzystać ze zwykłych filmów? Ukryj półki z krótkimi filmami w kanale, usuń pasujące wyniki wyszukiwania i wyczyść ich wpisy w lewym menu. Ustawienia kanału i nawigacji współpracują ze sobą, aby usunąć typowe punkty wejścia do przewijania w pionie.
 
-Reklamy i promocje. Ukryj banery YouTube, sponsorowane filmy w kanale i panele informacyjne reklam, a eksperymentalne automatyczne pomijanie samo poradzi sobie z reklamami, które da się pominąć.
+Skorzystaj z gotowego ustawienia wstępnego czyszczenia lub włącz odpowiednie przełączniki indywidualnie. Możesz zachować dostępność długich filmów, subskrypcji i wyszukiwania, usuwając jednocześnie krótkie treści, które zakłócają oglądanie. Te elementy sterujące zmieniają to, co pojawia się w interfejsie; bezpośrednie łącza wideo pozostają dostępne.
 
-Odtwarzacz i odtwarzanie. Dodaj suwak prędkości wprost do sterowania odtwarzaczem, wybierz podwyższony bitrate w Premium, wymuś kodek H.264 (blokując VP9 i AV1), żeby dekodowała karta graficzna, a nie grzał się procesor, ogranicz odtwarzanie do 30 kl./s na słabszych maszynach i ukryj przyciski miniodtwarzacza, trybu kinowego, napisów i autoodtwarzania.
+Ukryj oglądane filmy w swoim kanale wideo
 
-Shorts. Jeśli zostawiasz Shorts, niech działają na twoich zasadach: własna kontrola prędkości i automatyczne przejście do następnego.
+Masz dość przewijania filmów, które już widziałeś? Usuń obejrzane filmy niezależnie od strony głównej, subskrypcji, stron kanałów i rekomendacji stron odtwarzania. Pozostaw filtr włączony na karcie subskrypcji, ale wyłączony na kanale, do którego chcesz wracać, lub użyj wszystkich czterech ustawień jednocześnie.
 
-Menu boczne i nawigacja. Ukryj menu w całości albo przytnij je punkt po punkcie — Shorts, Mój kanał, Historia, Playlisty, Twoje filmy, Do obejrzenia, Polubione filmy, Filmy, Pobrane, całą listę subskrypcji, Na czasie, Muzyka, Na żywo, Gry, Wiadomości, Sport, linki YouTube Premium / Music / Kids / Studio oraz stopkę z linkami «O nas».
+Wykrywanie wykorzystuje wskaźnik postępu oglądania wyświetlany na miniaturach filmów. Filtruje widoczną stronę bez usuwania historii oglądania i oznaczania filmów jako obejrzanych. Filmy bez odpowiedniego wskaźnika postępu mogą pozostać widoczne.
 
-Wyszukiwanie i kanały. Ukryj kanały w wynikach, podobne wyszukiwania, kartę informacyjną i półkę z filmami kanału. Na stronach kanałów usuń baner i zwiastun, który włącza się sam.
+Filtruj rekomendacje, miksy i playlisty
 
-Nagłówek. Ukryj przyciski wyszukiwania głosowego i klawiatury ekranowej, tagi wyszukiwania, przycisk przesyłania i powiadomienia.
+Zrób miejsce na przydatne sugestie, filtrując określone rodzaje treści. Ukryj składanki i playlisty, usuń filmy tylko dla wspierających i wyczyść blokady Eksploruj lub Wiadomości. Połącz te opcje z filtrem obejrzanego wideo, aby ograniczyć powtarzające się sugestie i bałagan w kanale.
 
-USTAWIENIA GOTOWE DLA TYCH, KTÓRZY NIE CHCĄ NIC USTAWIAĆ
+Daje to kontrolę nad tym, co pozostaje widoczne, jednocześnie zachowując odkrycie. Rozszerzenie filtruje wybrane typy treści; nie zastępuje algorytmu rekomendacji ani nie powoduje wyczyszczenia całego kanału głównego.
 
-Wybierz Lekki dla delikatnych porządków, Zrównoważony dla codziennego YouTube bez rozpraszaczy albo Maksymalny, by usunąć niemal wszystko. Każdy zestaw można edytować i przywrócić do domyślnego, a Własny budujesz od zera. Skrót klawiszowy włącza i wyłącza całe rozszerzenie, gdy na chwilę potrzebujesz oryginalnego YouTube.
+Ukryj komentarze, czat na żywo i karty na ekranie końcowym
 
-PRYWATNOŚĆ WPROST
+Obejrzyj wykład bez dyskusji pod nim konkurującej o Twoją uwagę. Ukryj komentarze na stronach wideo, usuń czat na żywo podczas transmisji i wyczyść karty na ekranie końcowym lub zwiastuny kart nad odtwarzaczem.
 
-Bez konta, bez logowania, bez analityki, bez śledzenia, bez zbierania danych. Ustawienia leżą w lokalnej pamięci przeglądarki i nigdy jej nie opuszczają. Pełny kod źródłowy jest na GitHubie na licencji MIT — nie musisz wierzyć nam na słowo.
+Możesz także usunąć półki z towarami i biletami, przyciski „Lubię” i „Nie lubię”, przyciski akcji i zdjęcia kanałów. Każde ustawienie jest niezależne, więc przejrzysta strona odtwarzania może nadal zawierać opis, przycisk napisów i inne używane elementy.
 
-ZBUDOWANE, BY BYŁO SZYBKO
+Pomiń reklamy i ukryj sponsorowane filmy
 
-Prawie każda opcja kompiluje się przy budowaniu do czystego CSS, więc podczas przeglądania nic nie kosztuje. JavaScript uruchamia tylko kilka funkcji behawioralnych. Manifest V3, bez zdalnego kodu, bez obciążenia w tle.
+Usuń bałagan reklamowy, ukrywając banery, sponsorowane karty wideo i panele informacyjne dotyczące reklam. Te elementy sterujące działają osobno, więc możesz wybrać, które elementy promocyjne mają zniknąć ze stron przeglądania i przeglądania.
 
-JAK ZACZĄĆ
+Opcjonalny pomijacz reklam próbuje automatycznie pomijać reklamy wideo. Automatyczne pomijanie jest eksperymentalne: jego zachowanie zależy od bieżącego odtwarzacza i formatu reklamy. Włącz tę funkcję osobno, jeśli chcesz wypróbować automatyczne pomijanie reklam. Nie jest to moduł blokujący reklamy na poziomie sieci i nie gwarantuje korzystania z witryny bez reklam.
 
-Zainstaluj rozszerzenie, kliknij jego ikonę, aby otworzyć panel boczny obok YouTube, a potem wybierz zestaw albo przełącz pojedyncze opcje. Zmiany działają od razu na otwartej stronie.
+Wyłącz podgląd po najechaniu
 
-Działa w Chrome, Operze, Edge, Brave i innych przeglądarkach opartych na Chromium.
+Zatrzymaj przesuwanie podglądów miniatur po przesunięciu wskaźnika nad filmem. Wyłącz podgląd po najechaniu myszką, aby przeglądać cichszy, bardziej statyczny kanał i czytać tytuły bez podglądu konkurującego o Twoją uwagę.
 
-NAJCZĘŚCIEJ ZADAWANE PYTANIA
+To ustawienie kontroluje zachowanie miniatur. Oddzielna opcja ukrycia przełącznika automatycznej gry powoduje jedynie usunięcie tego przycisku z odtwarzacza; nie wyłącza automatycznego odtwarzania następnego filmu.
 
-Czy to blokada reklam? Nie do końca. Rozszerzenie ukrywa banery, sponsorowane karty w kanale i panele reklamowe oraz potrafi automatycznie pomijać reklamy z opcją pominięcia (eksperymentalnie). Z pełnym blokerem współpracuje bez konfliktów.
+Mniejsze miniatury wideo i kompaktowy układ
 
-Czy to zepsuje YouTube? Wszystko jest opcjonalne i odwracalne — wyłącz przełącznik, a element od razu wraca.
+Chcesz więcej filmów na ekranie zamiast zbyt dużych miniatur? Tryb kompaktowy zmniejsza ilość treści wizualnych w kanale głównym, wynikach wyszukiwania i sugestiach na stronach odtwarzania. Mniejsze podglądy, mniejsze odstępy i gęstszy układ ułatwiają skanowanie tytułów i porównywanie wyników.
 
-Czy potrzebne jest konto? Nie. Instalujesz i korzystasz.
+Użyj kompaktowej siatki, aby przeglądać samouczki, znajdować następny odcinek serialu lub przeglądać wyniki wyszukiwania bez konieczności przewijania. Układ jest wstępnie ustawionym układem, więc nie trzeba edytować CSS ani konfigurować poszczególnych szerokości kolumn.
 
-Czy to naprawdę darmowe? Tak: darmowe i open source, bez wersji płatnej i bez dosprzedaży.
+Suwak prędkości odtwarzania
 
-Coś nie ukrywa się tak, jak chcesz? Załóż zgłoszenie na GitHubie — lista funkcji rośnie z próśb użytkowników.
+Dostosuj prędkość odtwarzania bezpośrednio w odtwarzaczu wideo. Użyj suwaka od 0,25x do 3x, dostosuj w krokach co 0,05x lub wybierz ustawienie wstępne, takie jak 1,25x, 1,5x, 2x lub 3x. Wybrana prędkość zostanie zapisana w ustawieniach rozszerzenia.
 
-Kod źródłowy, błędy i pomysły: https://github.com/lenadweb/yt-clean
+Zwolnij wymowę podczas ćwiczeń językowych, śledź szczegółowy pokaz we własnym tempie lub przyspiesz znajomy wykład. Kontroler prędkości jest dostępny w przypadku zwykłych filmów na stronach odtwarzania. Możesz także ukryć przyciski miniodtwarzacza, kina lub napisów, aby uzyskać prostszy zestaw elementów sterujących odtwarzaczem.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Zaawansowane sterowanie odtwarzaniem umożliwia wymuszanie H.264 poprzez blokowanie VP9 i AV1 lub blokowanie strumieni 60 klatek na sekundę, jeśli wolisz wideo z niższą liczbą klatek na sekundę. Może to być przydatne na starszych laptopach i urządzeniach z ograniczoną obsługą kodeków. Dekodowanie sprzętowe, obciążenie procesora i dostępna jakość zależą od urządzenia i strumieni oferowanych dla każdego wideo; wymuszanie H.264 może ograniczyć dostępną rozdzielczość.
+
+Abonenci premium mogą preferować zwiększoną przepływność, jeśli taka opcja jest dostępna. To ustawienie wybiera istniejącą opcję odtwarzania i nie odblokowuje płatnych funkcji. Dodatkowe ustawienie eksperymentalne dostosowuje szacunkową przepustowość używaną przez odtwarzacz; Rzeczywista prędkość połączenia pozostaje niezmieniona.
+
+Ukryj pasek boczny i uprość nawigację
+
+Usuń całkowicie lewy pasek boczny nawigacji lub przytnij poszczególne wpisy menu. Wybierz, co ma być widoczne: Historia, Listy odtwarzania, Obejrzyj później, Polubione filmy, Pobrane, Subskrypcje, Na czasie, Muzyka, Gry, Wiadomości i inne sekcje. Wyczyść linki w stopce, jeśli chcesz ograniczyć nawigację po treści.
+
+Uprość także górny pasek: ukryj powiadomienia, przycisk przesyłania, wyszukiwanie głosowe, przycisk klawiatury wirtualnej lub znaczniki wyszukiwania. Są to ustawienia widoczności; nie usuwają Twoich list odtwarzania, subskrypcji ani zawartości konta.
+
+Wyczyść wyniki wyszukiwania i strony kanałów
+
+Ułatw sobie przeglądanie wyników wyszukiwania, ukrywając karty wyników kanału, sugestie powiązanych wyszukiwań, karty informacyjne lub półki z filmami na kanale. Jeśli chcesz uzyskać gęstszą stronę wyników, połącz te elementy sterujące z trybem kompaktowym.
+
+Na stronach kanałów ukryj baner i zwiastun kanału. Przeglądaj filmy, które znalazłeś, z mniejszą liczbą dużych elementów dekoracyjnych i mniejszą liczbą przerw w prezentowanym zwiastunie.
+
+Wybierz, które sekcje opisu filmu mają być wyświetlane
+
+Ukryj cały opis lub wybierz poszczególne sekcje. Opcje obejmują podsumowanie AI, transkrypcję, wspomniane osoby, powiązane filmy, kartę kanału, „Jak to zostało zrobione” oraz rozdziały lub odcinki.
+
+Zachowaj transkrypcje i rozdziały widoczne do nauki lub usuń je, jeśli wolisz krótszy opis. Te elementy sterujące ukrywają istniejące sekcje strony; nie generują podsumowań, nie przepisują transkrypcji ani nie zmieniają treści twórcy.
+
+YouTube bez zakłóceń do nauki i skupionej pracy
+
+Zbuduj konfigurację przeglądania skupioną na sposobie korzystania z witryny:
+
+• Studenci: ogranicz bałagan w paszy podczas oglądania lekcji lub przygotowań do egzaminów.
+• Programiści i badacze: trzymaj samouczki i demonstracje w zasięgu ręki podczas głębokiej pracy.
+• Osoby uczące się języków: połącz cichszą stronę z precyzyjną regulacją prędkości.
+• Stali widzowie: ułatwiają przeglądanie subskrypcji i ograniczają powtarzające się sugestie.
+• Cyfrowi minimaliści: usuń wizualny szum i uczyń zamierzone oglądanie częścią rutynowego detoksu cyfrowego.
+
+Wybierz opcję Lekki, aby przeprowadzić mniejsze porządkowanie, lub Zrównoważony, aby uzyskać szerszy zestaw filtrów. Obydwa ustawienia wstępne można edytować i resetować. Własny rozpoczyna się od wyłączenia czyszczenia, co pozwala na zbudowanie własnej konfiguracji. Podczas instalacji domyślnie wybierane jest ustawienie wstępne Zrównoważony.
+
+Przełączaj poszczególne ustawienia w miarę zmieniających się potrzeb lub użyj skrótu klawiaturowego rozszerzenia, aby włączyć lub wyłączyć całą konfigurację. Nie ma obowiązkowych liczników czasu skupienia, limitów wykorzystania ani zablokowanych sesji nauki.
+
+Darmowe i otwarte oprogramowanie z ustawieniami lokalnymi
+
+Wszystkie ustawienia rozszerzeń są dostępne bez konieczności dokonywania płatności i rejestracji. Nie ma subskrypcji, odliczania okresu próbnego, analiz ani gromadzenia danych osobowych. Preferencje są przechowywane lokalnie w Twojej przeglądarce. Pełny kod źródłowy jest dostępny na GitHubie na licencji MIT.
+
+Zaprojektowany dla strony internetowej na komputery stacjonarne w przeglądarce Chrome, z interfejsem dostępnym w 52 językach. Nie modyfikuje aplikacji mobilnej. Większość czyszczenia interfejsu wykorzystuje CSS; odtwarzanie i inne funkcje interaktywne wykorzystują lokalny JavaScript.
+
+Zacznij w trzech krokach
+
+1. Dodaj YouTube Clean do Chrome i otwórz stronę.
+2. Kliknij ikonę rozszerzenia, aby otworzyć jego panel boczny.
+3. Wybierz ustawienie wstępne, a następnie dostosuj żądane ustawienia kanału, nawigacji i odtwarzania.
+
+Zmiany widoczności interfejsu obowiązują po ich przełączeniu. Przypnij rozszerzenie do paska narzędzi, aby jego elementy sterujące były łatwo dostępne. Jeśli element strony ulegnie zmianie i filtr przestanie go dopasowywać, zgłoś problem, aby można było go sprawdzić.
+
+Kod źródłowy, wsparcie i prośby o funkcje: https://github.com/lenadweb/yt-clean

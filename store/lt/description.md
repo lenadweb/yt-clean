@@ -1,55 +1,114 @@
-YouTube Clean paslepia Shorts, rekomendacijas, komentarus ir reklamas — puslapyje lieka tik tas vaizdo įrašas, dėl kurio atėjai.
+Užblokuokite „YouTube“ Shorts, išvalykite rekomendacijas ir žiūrėkite mažiau blaškydami. YouTube Clean sujungia sklaidos kanalo filtrus, komentarų slėpimą, eksperimentinį skelbimų praleidimą ir atkūrimo valdiklius viename nemokamame „Chrome“ plėtinyje. Išsaugokite norimus vaizdo įrašus, pašalinkite aplink juos esančią netvarką ir pasirūpinkite, kad svetainė veiktų jums.
 
-YouTube sukurtas taip, kad slinktum toliau: begalinė Shorts lentyna, rekomendacijų siena šalia grotuvo, peržiūros, kurios pasileidžia nuo menkiausio pelės judesio, miniatiūros, kurios «vieną vaizdo įrašą» paverčia valanda. YouTube Clean grąžina tau tą erdvę. Atverk šoninį skydelį, perjunk jungiklį ir visa, kas nereikalinga, dingsta iškart: neperkraunant puslapio, be paskyros, be jokių nustatinėjimų.
+Pasirinkite iš daugiau nei 70 nustatymų šoniniame skydelyje šalia vaizdo įrašo. Pradėkite nuo redaguojamo išankstinio nustatymo arba tinkinkite atskirus elementus: pagrindinį sklaidos kanalą, prenumeratas, paieškos rezultatus, žiūrėjimo puslapį, grotuvą ir kairiąją naršymo juostą. Nemokamas ir atviras šaltinis, be paskyros, prenumeratos ar stebėjimo.
 
-60+ jungiklių, vienas šoninis skydelis, momentinis rezultatas. Nemokama, atviras kodas, be sekimo.
+Savybės iš pirmo žvilgsnio
 
-KĄ GALI SUSITVARKYTI
+• Pašalinkite trumpų vaizdo įrašų lentynas ir jų naršymo įrašą.
+• Filtruokite žiūrimus vaizdo įrašus, mišinius, grojaraščius ir tik nariams skirtą turinį.
+• Slėpti komentarus, tiesioginį pokalbį, pabaigos užsklandos korteles ir reklaminius skydelius.
+• Sumažinkite miniatiūras naudodami kompaktišką informacijos santrauką ir paieškos išdėstymą.
+• Sureguliuokite atkūrimą nuo 0,25x iki 3x naudodami grotuvo greičio slankiklį.
+• Įjunkite arba išjunkite valymo nustatymus sparčiuoju klavišu.
 
-Srautas ir rekomendacijos. Paslėpk Shorts lentynas visur, kur jos atsiranda, miksus ir grojaraščius, blokus «Naršyti» ir «Naujienos» bei vaizdo įrašus tik nariams. Išjunk automatinę peržiūrą užvedus pelę, įjunk kompaktišką režimą, kad ekrane tilptų daugiau įrašų, ir slėpk jau peržiūrėtus — atskirai pagrindiniame puslapyje, prenumeratose, kanalų puslapiuose ir rekomendacijose.
+Slėpti Shorts skiltis
 
-Vaizdo įrašo puslapis. Paslėpk komentarus, rekomenduojamus įrašus šalia grotuvo, patikimų juostą, veiksmų mygtukus, aprašą, tiesioginį pokalbį, prekes ir bilietus, pabaigos ekrano korteles ir kanalo paveikslėlius. Aprašas išsiskaido dar smulkiau: DI skiltis (Gemini), transkripcija, paminėti žmonės, susiję įrašai, kanalo kortelė, «Kaip tai buvo sukurta», skyriai ir epizodai.
+Ieškote Shorts blokavimo, kuris leistų toliau naudoti įprastus vaizdo įrašus? Paslėpkite trumpų vaizdo įrašų lentynas sklaidos kanale, pašalinkite atitinkančius paieškos rezultatus ir išvalykite jų įrašą kairiajame meniu. Sklaidos kanalo ir naršymo nustatymai veikia kartu, kad pašalintų bendrus vertikalaus slinkimo įėjimo taškus.
 
-Reklamos ir akcijos. Paslėpk YouTube reklamjuostes, remiamus įrašus sraute ir reklamos informacijos skydelius, o eksperimentinis automatinis praleidimas pats susitvarkys su reklamomis, kurias galima praleisti.
+Naudokite paruoštą valymo nustatymą arba įjunkite atitinkamus jungiklius atskirai. Galite palikti pasiekiamus ilgos formos vaizdo įrašus, prenumeratas ir paiešką, pašalindami trumpos formos turinį, kuris trukdo žiūrėti. Šie valdikliai keičia tai, kas rodoma sąsajoje; tiesioginės vaizdo nuorodos išlieka prieinamos.
 
-Grotuvas ir atkūrimas. Įdėk greičio slankiklį tiesiai į grotuvo valdiklius, su Premium teik pirmenybę didesniam pralaidumui, priverstinai naudok H.264 kodeką (blokuojant VP9 ir AV1), kad dekoduotų vaizdo plokštė, o ne kaistų procesorius, apribok atkūrimą iki 30 kadrų per sekundę silpnesniuose įrenginiuose ir paslėpk mini grotuvo, kino režimo, subtitrų bei automatinio atkūrimo mygtukus.
+Slėpti žiūrėtus vaizdo įrašus iš vaizdo įrašų sklaidos kanalo
 
-Shorts. Jei Shorts pasilieki, tegul veikia tavo sąlygomis: atskiras greičio valdymas ir automatinis perėjimas prie kito.
+Pavargote slinkti jau matytus vaizdo įrašus? Pašalinkite žiūrimus vaizdo įrašus atskirai iš pagrindinio puslapio, prenumeratų, kanalų puslapių ir žiūrėjimo puslapio rekomendacijų. Filtrą laikykite įjungtą prenumeratos sklaidos kanale, bet išjungtą kanale, kurį norėtumėte dar kartą aplankyti, arba naudokite visus keturis nustatymus kartu.
 
-Šoninė juosta ir naršymas. Paslėpk šoninę juostą visiškai arba apkarpyk ją po vieną punktą — Shorts, Mano kanalas, Istorija, Grojaraščiai, Tavo įrašai, Žiūrėti vėliau, Patikę vaizdo įrašai, Filmai, Atsisiuntimai, visas prenumeratų sąrašas, Populiaru, Muzika, Tiesiogiai, Žaidimai, Naujienos, Sportas, nuorodos į YouTube Premium / Music / Kids / Studio ir poraštė su nuorodomis «Apie».
+Aptikimas naudoja žiūrėjimo eigos indikatorių, rodomą vaizdo įrašų miniatiūrose. Jis filtruoja matomą puslapį neištrindamas žiūrėjimo istorijos ir nežymėdamas vaizdo įrašų kaip žiūrėtų. Vaizdo įrašai be atitinkamo eigos indikatoriaus gali likti matomi.
 
-Paieška ir kanalai. Paslėpk kanalus paieškos rezultatuose, susijusias paieškas, informacijos kortelę ir kanalo įrašų lentyną. Kanalų puslapiuose pašalink reklamjuostę ir anonsą, kuris pasileidžia pats.
+Filtruokite rekomendacijas, mišinius ir grojaraščius
 
-Antraštė. Paslėpk balso paieškos ir virtualios klaviatūros mygtukus, paieškos žymas, įkėlimo mygtuką ir pranešimus.
+Filtruodami tam tikros rūšies turinį palikite vietos naudingiems pasiūlymams. Slėpkite mišinius ir grojaraščius, pašalinkite tik nariams skirtus vaizdo įrašus ir išvalykite naršymo arba naujienų blokus. Sujunkite šias parinktis su žiūrimų vaizdo įrašų filtru, kad sumažintumėte pasikartojančius pasiūlymus ir netvarką.
 
-IŠANKSTINIAI RINKINIAI TIEMS, KAS NENORI NIEKO DERINTI
+Taip galite valdyti tai, kas lieka matoma, išsaugant atradimą. Plėtinys filtruoja pasirinktus turinio tipus; jis nepakeičia rekomendacinio algoritmo ir nepakeičia viso namų kanalo.
 
-Rinkis «Lengvą» švelniai tvarkai, «Subalansuotą» kasdieniam YouTube be blaškymosi arba «Maksimalų», kad nuimtum beveik viską. Kiekvieną rinkinį galima redaguoti ir grąžinti į numatytąjį, o «Savą» susikuri nuo nulio. Klaviatūros spartusis klavišas įjungia ir išjungia visą plėtinį, kai minutei prireikia originalaus YouTube.
+Slėpti komentarus, tiesioginį pokalbį ir pabaigos užsklandos korteles
 
-APIE PRIVATUMĄ TIESIAI
+Žiūrėkite paskaitą, nekonkuruodami dėl jūsų dėmesio. Slėpkite komentarus vaizdo įrašų puslapiuose, pašalinkite tiesioginį pokalbį per srautą ir išvalykite pabaigos užsklandos korteles arba kortelių anonsus virš grotuvo.
 
-Jokios paskyros, jokio prisijungimo, jokios analitikos, jokio sekimo, jokio duomenų rinkimo. Tavo nustatymai lieka vietinėje naršyklės saugykloje ir niekada iš jos neišeina. Visas pirminis kodas yra GitHub su MIT licencija — nereikia tikėti mumis vien dėl žodžių.
+Taip pat galite pašalinti prekių ir bilietų lentynas, mygtukus „Patinka“ ir „Nepatinka“, veiksmų mygtukus ir kanalų nuotraukas. Kiekvienas nustatymas yra nepriklausomas, todėl švaresnis žiūrėjimo puslapis vis tiek gali išlaikyti aprašą, antraštės mygtuką ar kitus naudojamus elementus.
 
-SUKURTA IŠLIKTI GREITAM
+Praleiskite skelbimus ir slėpkite remiamus vaizdo įrašus
 
-Beveik kiekviena parinktis kūrimo metu sukompiliuojama į gryną CSS, tad naršant nekainuoja nieko. JavaScript vykdo tik kelios elgsenos funkcijos. Manifest V3, jokio nuotolinio kodo, jokios foninės apkrovos.
+Išvalykite reklamos netvarką paslėpdami reklamjuostes, remiamas vaizdo plokštes ir skelbimų informacijos skydelius. Šie valdikliai veikia atskirai, todėl galite pasirinkti, kurie reklaminiai elementai išnyks iš naršymo ir peržiūros puslapių.
 
-KAIP PRADĖTI
+Pasirenkamas skelbimų praleidėjas bando automatiškai praleisti vaizdo įrašo skelbimus. Automatinis praleidimas yra eksperimentinis: jo elgsena priklauso nuo esamo grotuvo ir reklamos formato. Įjunkite jį atskirai, kai norite išbandyti automatinį skelbimų praleidimą. Tai nėra tinklo lygio skelbimų blokavimo priemonė ir negarantuoja, kad patirsite be skelbimų.
 
-Įdiek plėtinį, spustelėk jo piktogramą, kad atsivertų šoninis skydelis šalia YouTube, tada pasirink rinkinį arba perjunk atskirus jungiklius. Pakeitimai atvertame puslapyje įsigalioja iškart.
+Išjungti automatinę peržiūrą užvedus
 
-Veikia su Chrome, Opera, Edge, Brave ir kitomis Chromium pagrindu veikiančiomis naršyklėmis.
+Nustokite perkelti miniatiūrų peržiūras nuo tada, kai žymeklis perkeliamas virš vaizdo įrašo. Išjunkite peržiūras užvedus pelės žymeklį, kad naršytumėte tylesnį, statiškesnį sklaidos kanalą ir skaitytumėte pavadinimus be peržiūros, kuri konkuruotų dėl jūsų dėmesio.
 
-DAŽNAI UŽDUODAMI KLAUSIMAI
+Šis nustatymas valdo miniatiūrų veikimą. Atskira parinktis paslėpti automatinio paleidimo jungiklį tik pašalina tą mygtuką iš grotuvo; jis neišjungia automatinio kito vaizdo įrašo paleidimo.
 
-Ar tai reklamų blokatorius? Ne visai. Jis slepia reklamjuostes, remiamas korteles sraute ir reklamos skydelius bei gali automatiškai praleisti reklamas, kurias galima praleisti (eksperimentinė funkcija). Su tikru blokatoriumi veikia be konfliktų.
+Mažesnės vaizdo įrašų miniatiūros ir kompaktiškas išdėstymas
 
-Ar tai sugadins YouTube? Viskas pasirenkama ir atšaukiama — išjunk jungiklį ir elementas iškart grįžta.
+Norite daugiau vaizdo įrašų viename ekrane, o ne didelių miniatiūrų? Kompaktiškas režimas sumažina vizualinį pagrindinio sklaidos kanalo, paieškos rezultatų ir žiūrėjimo puslapio pasiūlymų skaičių. Mažesnės peržiūros, mažesni tarpai ir tankesnis išdėstymas leidžia lengviau nuskaityti pavadinimus ir palyginti rezultatus.
 
-Ar reikia paskyros? Ne. Įdiek ir naudokis.
+Naudokite kompaktišką tinklelį, kad naršytumėte mokymo programas, rastumėte kitą serijos epizodą arba ieškotumėte paieškos rezultatų mažiau slinkdami. Išdėstymas yra iš anksto nustatytas, todėl jums nereikia redaguoti CSS ar konfigūruoti atskirų stulpelių pločių.
 
-Ar tikrai nemokama? Taip: nemokama ir atviro kodo, be mokamos versijos ir be papildomų pardavimų.
+Atkūrimo greičio slankiklis
 
-Kažkas slepiama ne taip, kaip nori? Atverk issue GitHub — funkcijų sąrašas auga iš naudotojų pageidavimų.
+Reguliuokite atkūrimo greitį tiesiai vaizdo grotuve. Naudokite slankiklį nuo 0,25x iki 3x, tiksliai nustatykite 0,05x žingsniais arba pasirinkite išankstinį nustatymą, pvz., 1,25x, 1,5x, 2x arba 3x. Jūsų pasirinktas greitis išsaugomas plėtinio nustatymuose.
 
-Pirminis kodas, klaidos ir idėjos: https://github.com/lenadweb/yt-clean
+Sulėtinkite tarimą kalbos praktikos metu, sekite išsamią demonstraciją savo tempu arba paspartinkite pažįstamą paskaitą. Greičio valdiklis pasiekiamas įprastiems žiūrėjimo puslapio vaizdo įrašams. Taip pat galite paslėpti mini grotuvo, teatro ar subtitrų mygtukus, kad galėtumėte valdyti paprastesnius grotuvo valdiklius.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Išplėstiniai atkūrimo valdikliai leidžia priversti H.264 blokuoti VP9 ir AV1 arba blokuoti 60 kadrų per sekundę srautus, kai pageidaujate mažesnio kadrų dažnio vaizdo. Tai gali būti naudinga senesniuose nešiojamuosiuose kompiuteriuose ir įrenginiuose su ribotu kodeko palaikymu. Aparatinės įrangos dekodavimas, procesoriaus apkrova ir pasiekiama kokybė priklauso nuo jūsų įrenginio ir kiekvienam vaizdo įrašui siūlomų srautų; priverstinis H.264 gali apriboti pasiekiamą skiriamąją gebą.
+
+Aukščiausios kokybės abonentai gali teikti pirmenybę patobulintam bitų dažniui, kai ši parinktis yra prieinama. Šis nustatymas pasirenka esamą atkūrimo parinktį ir neatrakina mokamų funkcijų. Papildomas eksperimentinis nustatymas koreguoja grotuvo naudojamą pralaidumo įvertinimą; faktinis ryšio greitis nesikeičia.
+
+Paslėpkite šoninę juostą ir supaprastinkite naršymą
+
+Visiškai pašalinkite kairiąją naršymo šoninę juostą arba apkirpkite atskirus meniu įrašus. Pasirinkite, kas bus matoma tarp istorijos, grojaraščių, žiūrėti vėliau, patikusių vaizdo įrašų, atsisiuntimų, prenumeratų, tendencijų, muzikos, žaidimų, naujienų ir kitų skilčių. Aiškios poraštės nuorodos, kai norite mažiau naršyti po turinį.
+
+Taip pat supaprastinkite viršutinę juostą: paslėpkite pranešimus, įkėlimo mygtuką, paiešką balsu, virtualios klaviatūros mygtuką arba paieškos žymas. Tai yra matomumo nustatymai; jie neištrina jūsų grojaraščių, prenumeratų ar paskyros turinio.
+
+Išvalykite paieškos rezultatus ir kanalų puslapius
+
+Palengvinkite paieškos rezultatų nuskaitymą paslėpdami kanalo rezultatų korteles, susijusios paieškos pasiūlymus, informacijos korteles ar kanalo vaizdo įrašų lentynas. Susiekite šiuos valdiklius su kompaktišku režimu, kai norite tankesnio rezultatų puslapio.
+
+Kanalo puslapiuose paslėpkite reklamjuostę ir kanalo anonsą. Naršykite vaizdo įrašus, kuriuos radote su mažiau didelių dekoratyvinių elementų ir mažiau pertraukų iš siūlomo anonso.
+
+Pasirinkite, kurias vaizdo įrašo aprašymo skiltis rodyti
+
+Slėpti visą aprašą arba pasirinkti atskiras skiltis. Parinktys apima AI santrauką, nuorašą, minimus žmones, susijusius vaizdo įrašus, kanalo kortelę, „Kaip tai buvo padaryta“ ir skyrius arba epizodus.
+
+Laikykite nuorašus ir skyrius matomus, kad galėtumėte mokytis, arba pašalinkite juos, kai pageidaujate trumpesnio aprašo. Šie valdikliai slepia esamas puslapio dalis; jie negeneruoja suvestinių, neperrašo nuorašų ir nekeičia kūrėjo turinio.
+
+„YouTube“ be blaškymosi studijoms ir sutelktam darbui
+
+Sukurkite tikslinę peržiūros sąranką pagal tai, kaip naudojatės svetaine:
+
+• Mokiniai: sumažinkite pašarų netvarką žiūrėdami pamokas ar ruošdamiesi egzaminams.
+• Kūrėjai ir tyrinėtojai: atlikdami gilų darbą laikykite mokymo programas ir demonstracijas pasiekiamoje vietoje.
+• Kalbų besimokantys asmenys: derinkite tylesnį puslapį su tiksliais greičio reguliavimais.
+• Nuolatiniai žiūrintieji: palengvinkite prenumeratų naršymą ir sumažinkite pasikartojančių pasiūlymų skaičių.
+• Skaitmeniniai minimalistai: pašalinkite vizualinį triukšmą ir paverskite sąmoningą žiūrėjimą skaitmeninės detoksikacijos rutinos dalimi.
+
+Pasirinkite Lengvas, jei norite atlikti mažesnį valymą, arba Subalansuotas, jei norite daugiau filtrų. Abu išankstinius nustatymus galima redaguoti ir nustatyti iš naujo. Pasirinktinis prasideda išjungus valymo jungiklius, leidžiančius sukurti savo konfigūraciją. Diegiant pagal numatytuosius nustatymus pasirenkamas Subalansuotas išankstinis nustatymas.
+
+Keičiantis poreikiams pakeiskite atskirus nustatymus arba naudokite plėtinio spartųjį klavišą, kad įjungtumėte ir išjungtumėte visą konfigūraciją. Nėra privalomų fokusavimo laikmačių, naudojimo kvotų ar užrakintų studijų sesijų.
+
+Nemokamas ir atviras šaltinis su vietiniais nustatymais
+
+Visi plėtinio nustatymai pasiekiami be mokėjimo ar registracijos. Nėra prenumeratos, bandomųjų laiko skaičiavimų, analizės ar asmens duomenų rinkimo. Parinktys saugomos lokaliai jūsų naršyklėje. Visą šaltinio kodą galima rasti „GitHub“ pagal MIT licenciją.
+
+Sukurta staliniams kompiuteriams skirta svetainė „Chrome“, sąsaja pasiekiama 52 kalbomis. Tai nekeičia mobiliosios programos. Dauguma sąsajos valymo naudoja CSS; atkūrimas ir kitos interaktyvios funkcijos naudoja vietinį JavaScript.
+
+Pradėkite trimis veiksmais
+
+1. Prie „Chrome“ pridėkite YouTube Clean ir atidarykite svetainę.
+2. Spustelėkite plėtinio piktogramą, kad atidarytumėte jos šoninį skydelį.
+3. Pasirinkite išankstinį nustatymą, tada sureguliuokite norimus kanalo, naršymo ir atkūrimo nustatymus.
+
+Sąsajos matomumo pakeitimai taikomi juos perjungus. Prisekite plėtinį prie įrankių juostos, kad jo valdikliai būtų lengvai pasiekiami. Jei pasikeičia puslapio elementas, o filtras jo nebeatitinka, praneškite apie problemą, kad ją būtų galima patikrinti.
+
+Šaltinio kodas, palaikymo ir funkcijų užklausos: https://github.com/lenadweb/yt-clean

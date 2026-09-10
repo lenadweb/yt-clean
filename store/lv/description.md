@@ -1,55 +1,114 @@
-YouTube Clean paslēpj Shorts, ieteikumus, komentārus un reklāmas — lapā paliek tikai tas video, kura dēļ atnāci.
+Bloķējiet pakalpojumu YouTube Shorts, iztīriet ieteikumus un skatieties bez liekiem traucēkļiem. YouTube Clean vienā bezmaksas Chrome paplašinājumā apvieno plūsmas filtrus, komentāru slēpšanu, eksperimentālu reklāmu izlaišanu un atskaņošanas vadīklas. Saglabājiet vajadzīgos videoklipus, noņemiet jucekli ap tiem un ļaujiet vietnei darboties jūsu labā.
 
-YouTube ir uzbūvēts tā, lai tu ritinātu tālāk: bezgalīgais Shorts plaukts, ieteikumu siena blakus atskaņotājam, priekšskatījumi, kas sākas no mazākās peles kustības, sīktēli, kas «vienu video» pārvērš stundā. YouTube Clean atdod tev šo vietu. Atver sānu paneli, pārslēdz slēdzi, un liekais pazūd uzreiz: bez lapas pārlādēšanas, bez konta, bez iestatīšanas.
+Izvēlieties kādu no 70+ iestatījumiem sānu panelī blakus videoklipam. Sāciet ar rediģējamu sākotnējo iestatījumu vai pielāgojiet atsevišķus elementus: savu mājas plūsmu, abonementus, meklēšanas rezultātus, skatīšanas lapu, atskaņotāju un kreiso navigācijas pogu. Bezmaksas un atvērtā koda, bez konta, abonementa vai izsekošanas.
 
-60+ slēdži, viens sānu panelis, tūlītējs rezultāts. Bez maksas, atvērtais kods, bez izsekošanas.
+Funkcijas īsumā
 
-KO VARI SAKĀRTOT
+• Noņemiet īsu video plauktus un to navigācijas ierakstu.
+• Filtrējiet skatītos videoklipus, kolekcijas, atskaņošanas sarakstus un tikai dalībniekiem paredzētu saturu.
+• Paslēpt komentārus, tiešsaistes tērzēšanu, beigu ekrāna kartītes un reklāmas paneļus.
+• Padariet sīktēlus mazākus, izmantojot kompaktu plūsmu un meklēšanas izkārtojumu.
+• Pielāgojiet atskaņošanu no 0,25x līdz 3x, izmantojot atskaņotājā iebūvēto ātruma slīdni.
+• Ieslēdziet vai izslēdziet tīrīšanas iestatījumus, izmantojot īsinājumtaustiņus.
 
-Plūsma un ieteikumi. Paslēp Shorts plauktus visur, kur tie parādās, miksus un atskaņošanas sarakstus, blokus «Izpētīt» un «Ziņas» un video tikai dalībniekiem. Izslēdz automātisko priekšskatījumu, uzejot ar peli, ieslēdz kompakto režīmu, lai ekrānā ietilptu vairāk video, un paslēp jau noskatītos — atsevišķi sākumlapā, abonementos, kanālu lapās un ieteikumos.
+Slēpt Shorts sadaļas
 
-Video lapa. Paslēp komentārus, ieteiktos video blakus atskaņotājam, patīk/nepatīk joslu, darbību pogas, aprakstu, tiešraides tērzēšanu, preces un biļetes, beigu ekrāna kartītes un kanāla attēlus. Aprakstu var izjaukt vēl sīkāk: MI sadaļa (Gemini), transkripcija, pieminētie cilvēki, saistītie video, kanāla kartīte, «Kā tas tapa», nodaļas un sērijas.
+Vai meklējat Shorts bloķētāju, kas ļauj turpināt izmantot parastos videoklipus? Paslēpiet īsu video plauktus plūsmā, noņemiet atbilstošos meklēšanas rezultātus un notīriet to ierakstu no kreisās izvēlnes. Plūsmas un navigācijas iestatījumi darbojas kopā, lai noņemtu parastos ieejas punktus vertikālajā ritināšanā.
 
-Reklāmas un akcijas. Paslēp YouTube reklāmkarogus, sponsorētos video plūsmā un reklāmu informācijas paneļus, bet eksperimentālā automātiskā izlaišana pati tiks galā ar reklāmām, ko var izlaist.
+Izmantojiet gatavu tīrīšanas sākotnējo iestatījumu vai iespējojiet attiecīgos slēdžus atsevišķi. Varat saglabāt garas formas videoklipus, abonementus un meklēšanu, vienlaikus noņemot īso saturu, kas pārtrauc skatīšanos. Šīs vadīklas maina interfeisā redzamo saturu; tiešās video saites joprojām ir pieejamas.
 
-Atskaņotājs un atskaņošana. Pievieno ātruma slīdni tieši atskaņotāja vadīklās, ar Premium dod priekšroku augstākam bitu pārraides ātrumam, uzspied H.264 kodeku (bloķējot VP9 un AV1), lai dekodē videokarte, nevis karst procesors, ierobežo atskaņošanu līdz 30 kadriem sekundē vājākās mašīnās un paslēp mini atskaņotāja, kinorežīma, subtitru un automātiskās atskaņošanas pogas.
+Slēpt skatītos videoklipus no video plūsmas
 
-Shorts. Ja Shorts paliek, lai tie darbojas pēc taviem noteikumiem: atsevišķa ātruma vadība un automātiska pāreja uz nākamo.
+Apnicis ritināt jau redzētos videoklipus? Noņemiet skatītos videoklipus neatkarīgi no sadaļas Sākums, Abonementi, kanālu lapas un skatīšanās lapas ieteikumi. Saglabājiet filtru ieslēgtu abonementu plūsmā, bet izslēgtu kanālu, kuru vēlaties apmeklēt atkārtoti, vai izmantojiet visus četrus iestatījumus kopā.
 
-Sānjosla un navigācija. Paslēp sānjoslu pilnībā vai apgriez to pa punktam — Shorts, Mans kanāls, Vēsture, Atskaņošanas saraksti, Tavi video, Skatīties vēlāk, Patīkošie video, Filmas, Lejupielādes, viss abonementu saraksts, Populārākie, Mūzika, Tiešraide, Spēles, Ziņas, Sports, saites uz YouTube Premium / Music / Kids / Studio un kājene ar saitēm «Par».
+Noteikšanā tiek izmantots skatīšanās norises indikators, kas tiek rādīts video sīktēlos. Tas filtrē redzamo lapu, neizdzēšot jūsu skatīšanās vēsturi un neatzīmējot videoklipus kā skatītus. Videoklipi bez atbilstoša progresa indikatora var palikt redzami.
 
-Meklēšana un kanāli. Paslēp kanālus meklēšanas rezultātos, saistītos meklējumus, informācijas kartīti un kanāla video plauktu. Kanālu lapās noņem reklāmkarogu un treileri, kas ieslēdzas pats.
+Filtrējiet ieteikumus, miksus un atskaņošanas sarakstus
 
-Galvene. Paslēp balss meklēšanas un virtuālās tastatūras pogas, meklēšanas birkas, augšupielādes pogu un paziņojumus.
+Atbrīvojiet vietu noderīgiem ieteikumiem, filtrējot noteikta veida saturu. Paslēpiet kolekciju un atskaņošanas sarakstus, noņemiet tikai dalībniekiem paredzētos videoklipus un notīriet Izpētes vai Ziņu blokus. Apvienojiet šīs opcijas ar skatītā video filtru, lai samazinātu atkārtotus ieteikumus un plūsmas jucekli.
 
-IESTATĪJUMU KOPAS TIEM, KAS NEGRIB NEKO REGULĒT
+Tas ļauj jums kontrolēt to, kas paliek redzams, vienlaikus saglabājot atklājumu. Paplašinājums filtrē atlasītos satura veidus; tas neaizstāj ieteikuma algoritmu vai neaizpilda visu mājas plūsmu.
 
-Izvēlies «Viegls» maigai sakārtošanai, «Līdzsvarots» ikdienas YouTube bez traucēkļiem vai «Maksimāls», lai noņemtu gandrīz visu. Katru kopu var rediģēt un atjaunot uz noklusējumu, bet «Pielāgots» tu veido no nulles. Īsinājumtaustiņš ieslēdz un izslēdz visu paplašinājumu, kad uz minūti vajag sākotnējo YouTube.
+Slēpt komentārus, tiešsaistes tērzēšanu un beigu ekrāna kartītes
 
-PAR PRIVĀTUMU TIEŠI
+Skatieties lekciju bez diskusijas par jūsu uzmanību. Paslēpiet komentārus video lapās, noņemiet tiešraides tērzēšanu straumēšanas laikā un notīriet beigu ekrāna kartītes vai kartīšu piezīmes virs atskaņotāja.
 
-Bez konta, bez pieteikšanās, bez analītikas, bez izsekošanas, bez datu vākšanas. Tavi iestatījumi paliek pārlūka lokālajā krātuvē un nekad to nepamet. Viss pirmkods ir GitHub ar MIT licenci — nav jātic mums uz vārda.
+Varat arī noņemt preču un biļešu plauktus, pogas Patīk un Nepatīk, darbību pogas un kanālu attēlus. Katrs iestatījums ir neatkarīgs, tāpēc tīrākā skatīšanās lapa joprojām var saglabāt aprakstu, parakstu pogu vai citus izmantotos elementus.
 
-VEIDOTS, LAI PALIKTU ĀTRS
+Izlaist reklāmas un paslēpt sponsorētos videoklipus
 
-Gandrīz katra opcija būvēšanas laikā tiek kompilēta tīrā CSS, tāpēc pārlūkošanas laikā tā neko nemaksā. JavaScript darbina tikai dažas uzvedības funkcijas. Manifest V3, bez attālināta koda, bez slodzes fonā.
+Notīriet reklāmas jucekli, paslēpjot banerus, sponsorētās videokartes un reklāmu informācijas paneļus. Šīs vadīklas darbojas atsevišķi, lai jūs varētu izvēlēties, kuri reklāmas elementi pazūd no pārlūkošanas un skatīšanas lapām.
 
-KĀ SĀKT
+Papildu reklāmu izlaidējs mēģina automātiski izlaist videoreklāmas. Automātiskā izlaišana ir eksperimentāla: tās darbība ir atkarīga no pašreizējā atskaņotāja un reklāmas formāta. Iespējojiet to atsevišķi, ja vēlaties izmēģināt automātisku reklāmu izlaišanu. Tas nav tīkla līmeņa reklāmu bloķētājs un negarantē pieredzi bez reklāmām.
 
-Instalē paplašinājumu, noklikšķini uz tā ikonas, lai atvērtu sānu paneli blakus YouTube, un tad izvēlies kopu vai pārslēdz atsevišķus slēdžus. Izmaiņas atvērtajā lapā stājas spēkā uzreiz.
+Izslēgt automātisko priekšskatījumu
 
-Darbojas Chrome, Opera, Edge, Brave un citos uz Chromium balstītos pārlūkos.
+Pārtrauciet sīktēlu priekšskatījumu pārvietošanu, kad rādītājs virzās virs videoklipa. Izslēdziet kursora priekšskatījumus, lai pārlūkotu klusāku, statiskāku plūsmu un lasītu nosaukumus bez priekšskatījuma, kas sacenšas par jūsu uzmanību.
 
-BIEŽĀK UZDOTIE JAUTĀJUMI
+Šis iestatījums kontrolē sīktēlu darbību. Atsevišķā iespēja paslēpt automātiskās atskaņošanas slēdzi tikai noņem šo pogu no atskaņotāja; tas neatspējo nākamā videoklipa automātisko atskaņošanu.
 
-Vai tas ir reklāmu bloķētājs? Ne gluži. Tas paslēpj reklāmkarogus, sponsorētās kartītes plūsmā un reklāmu paneļus un var automātiski izlaist reklāmas, kuras var izlaist (eksperimentāli). Blakus īstam bloķētājam tas strādā bez konfliktiem.
+Mazāki video sīktēli un kompakts izkārtojums
 
-Vai tas salauzīs YouTube? Viss ir izvēles un atgriezenisks — izslēdz slēdzi, un elements uzreiz atgriežas.
+Vai vēlaties vairāk videoklipu vienā ekrānā, nevis pārāk lielus sīktēlus? Kompaktais režīms samazina vizuālo apjomu sākuma plūsmā, meklēšanas rezultātos un skatīšanās lapas ieteikumos. Mazāki priekšskatījumi, šaurākas atstarpes un blīvāks izkārtojums atvieglo nosaukumu skenēšanu un rezultātu salīdzināšanu.
 
-Vai vajadzīgs konts? Nē. Instalē un lieto.
+Izmantojiet kompakto režģi, lai pārlūkotu pamācības, atrastu nākamo sērijas sēriju vai strādātu ar meklēšanas rezultātiem ar mazāku ritināšanu. Izkārtojums ir iepriekš iestatīts, tāpēc jums nav jārediģē CSS vai jākonfigurē atsevišķu kolonnu platumi.
 
-Vai tas tiešām ir bez maksas? Jā: bez maksas un ar atvērtu kodu, bez maksas versijas un bez papildu pārdošanas.
+Atskaņošanas ātruma slīdnis
 
-Kaut kas neslēpjas tā, kā gribi? Atver issue GitHub — funkciju saraksts aug no lietotāju vēlmēm.
+Pielāgojiet atskaņošanas ātrumu tieši video atskaņotājā. Izmantojiet slīdni no 0,25x līdz 3x, precīzi noregulējiet ar 0,05x soļiem vai izvēlieties sākotnējo iestatījumu, piemēram, 1,25x, 1,5x, 2x vai 3x. Jūsu izvēlētais ātrums tiek saglabāts paplašinājuma iestatījumos.
 
-Pirmkods, kļūdas un idejas: https://github.com/lenadweb/yt-clean
+Palēniniet izrunu valodas prakses laikā, sekojiet detalizētai demonstrācijai savā tempā vai paātriniet pazīstamo lekciju. Ātruma regulators ir pieejams parastajiem skatīšanās lapas videoklipiem. Varat arī paslēpt mini atskaņotāja, teātra vai subtitru pogas, lai atskaņotāja vadīklas būtu vienkāršākas.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Uzlabotās atskaņošanas vadīklas ļauj piespiest H.264, bloķējot VP9 un AV1, vai bloķēt 60 kadri/s straumes, ja vēlaties video ar zemāku kadru nomaiņas ātrumu. Tas var būt noderīgi vecākiem klēpjdatoriem un ierīcēm ar ierobežotu kodeku atbalstu. Aparatūras dekodēšana, CPU slodze un pieejamā kvalitāte ir atkarīga no jūsu ierīces un katram videoklipam piedāvātajām straumēm; piespiežot H.264, var ierobežot pieejamo izšķirtspēju.
+
+Premium abonenti var dot priekšroku uzlabotajam bitu pārraides ātrumam, kad šī opcija ir pieejama. Šis iestatījums atlasa esošu atskaņošanas opciju un neatbloķē maksas funkcijas. Papildu eksperimentāls iestatījums pielāgo atskaņotāja izmantoto joslas platuma aprēķinu; faktiskais savienojuma ātrums nemainās.
+
+Paslēpiet sānjoslu un vienkāršojiet navigāciju
+
+Pilnībā noņemiet kreiso navigācijas sānjoslu vai apgrieziet atsevišķus izvēlnes ierakstus. Sadaļās Vēsture, Atskaņošanas saraksti, Skatīties vēlāk, Patīk, Lejupielādes, abonementi, Tendences, Mūzika, Spēles, Ziņas un citās sadaļās izvēlieties, kas paliek redzams. Notīriet kājenes saites, ja vēlaties mazāk pārvietoties savā saturā.
+
+Vienkāršojiet arī augšējo joslu: paslēpiet paziņojumus, augšupielādes pogu, meklēšanu ar balsi, virtuālās tastatūras pogu vai meklēšanas atzīmes. Tie ir redzamības iestatījumi; tie neizdzēš jūsu atskaņošanas sarakstus, abonementus vai konta saturu.
+
+Notīriet meklēšanas rezultātus un kanālu lapas
+
+Padariet meklēšanas rezultātus vieglāk pārskatāmus, paslēpjot kanālu rezultātu kartītes, saistītās meklēšanas ieteikumus, informācijas kartītes vai kanālu video plauktus. Savienojiet šīs vadīklas ar kompakto režīmu, ja vēlaties iegūt blīvāku rezultātu lapu.
+
+Kanālu lapās paslēpiet reklāmkarogu un kanāla reklāmklipu. Pārlūkojiet videoklipus, kurus atradāt, izmantojot mazāk lielu dekoratīvo elementu un mazāk pārtraukumu no piedāvātā reklāmkadru.
+
+Izvēlieties, kuras video apraksta sadaļas rādīt
+
+Paslēpiet visu aprakstu vai izvēlieties atsevišķas sadaļas. Opcijas ietver AI kopsavilkumu, atšifrējumu, pieminētās personas, saistītos videoklipus, kanāla kartīti, “Kā tas tika izveidots” un nodaļas vai epizodes.
+
+Saglabājiet transkriptus un nodaļas redzamas, lai mācītos, vai noņemiet tos, ja vēlaties īsāku aprakstu. Šīs vadīklas slēpj esošās lapas sadaļas; tie neveido kopsavilkumus, nepārraksta atšifrējumus un nemaina satura veidotāja saturu.
+
+YouTube bez uzmanības novēršanas mācībām un koncentrētam darbam
+
+Izveidojiet mērķtiecīgu skatīšanās iestatījumu, ņemot vērā vietnes lietošanas veidu:
+
+• Skolēni: samaziniet barības traucējumus, skatoties stundas vai gatavojoties eksāmeniem.
+• Izstrādātāji un pētnieki: padziļināta darba laikā saglabājiet apmācības un demonstrācijas pieejamās vietās.
+• Valodu apguvēji: apvienojiet klusāku lapu ar precīziem ātruma pielāgojumiem.
+• Regulāri skatītāji: atvieglojiet abonementu pārlūkošanu un samaziniet atkārtotus ieteikumus.
+• Digitālie minimālisti: noņemiet vizuālo troksni un padariet apzinātu skatīšanos par daļu no digitālās attīrīšanas rutīnas.
+
+Izvēlieties Viegls, lai veiktu mazāku tīrīšanu, vai Līdzsvarots, lai iegūtu plašāku filtru kopu. Abus sākotnējos iestatījumus var rediģēt un atiestatīt. Pielāgots sākas ar tīrīšanas slēdžu izslēgšanu, ļaujot jums izveidot savu konfigurāciju. Instalēšanas laikā pēc noklusējuma tiek atlasīts Līdzsvarots priekšiestatījums.
+
+Mainoties vajadzībām, mainiet atsevišķus iestatījumus vai izmantojiet paplašinājuma īsinājumtaustiņus, lai ieslēgtu un izslēgtu visu konfigurāciju. Nav obligātu fokusa taimeru, lietošanas kvotu vai bloķētu mācību sesiju.
+
+Bezmaksas un atvērtā koda ar vietējiem iestatījumiem
+
+Visi paplašinājuma iestatījumi ir pieejami bez maksājuma vai reģistrācijas. Nav abonēšanas, izmēģinājuma laika atpakaļskaitīšanas, analītikas vai personas datu vākšanas. Preferences tiek saglabātas lokāli jūsu pārlūkprogrammā. Pilns pirmkods ir pieejams GitHub saskaņā ar MIT licenci.
+
+Paredzēts darbvirsmas vietnei pārlūkā Chrome, un saskarne ir pieejama 52 valodās. Tas nemaina mobilo lietotni. Lielākā daļa saskarnes tīrīšanas izmanto CSS; atskaņošana un citas interaktīvās funkcijas izmanto vietējo JavaScript.
+
+Sāciet darbu, veicot trīs darbības
+
+1. Pievienojiet vietni YouTube Clean pārlūkprogrammai Chrome un atveriet vietni.
+2. Noklikšķiniet uz paplašinājuma ikonas, lai atvērtu tā sānu paneli.
+3. Izvēlieties sākotnējo iestatījumu un pēc tam pielāgojiet vajadzīgos plūsmas, navigācijas un atskaņošanas iestatījumus.
+
+Interfeisa redzamības izmaiņas tiek piemērotas, kad tās pārslēdzat. Piespraudiet paplašinājumu rīkjoslai, lai tā vadīklas būtu viegli sasniedzamas. Ja lapas elements mainās un filtrs tam vairs neatbilst, ziņojiet par problēmu, lai to varētu pārbaudīt.
+
+Avota kods, atbalsts un funkciju pieprasījumi: https://github.com/lenadweb/yt-clean

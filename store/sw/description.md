@@ -1,55 +1,114 @@
-YouTube Clean huficha Shorts, mapendekezo, maoni na matangazo — ili kwenye ukurasa kibaki kile kipengele ulichokuja kutazama pekee.
+Zuia YouTube Shorts, safisha mapendekezo na utazame ukitumia vitu vichache vya kukengeusha. YouTube Clean huleta vichujio vya mipasho, kuficha maoni, kuruka matangazo kwa majaribio na vidhibiti vya uchezaji pamoja katika kiendelezi kimoja kisicholipishwa cha Chrome. Weka video unazotaka, ondoa fujo karibu nazo na ufanye tovuti ikufanyie kazi.
 
-YouTube imejengwa ili uendelee kusogeza: rafu ya Shorts isiyoisha, ukuta wa mapendekezo kando ya kicheza video, vionjo vinavyoanza kwa mtikisiko mdogo tu wa kipanya, na vijipicha vinavyogeuza «video moja» kuwa saa nzima. YouTube Clean inakurudishia nafasi hiyo. Fungua kidirisha cha kando, geuza swichi moja, na ziada hupotea papo hapo: bila kupakia ukurasa upya, bila akaunti, bila usanidi.
+Chagua kutoka kwa mipangilio 70+ kwenye kidirisha cha kando kando ya video yako. Anza na uwekaji mapema unaoweza kuhaririwa au ubadilishe vipengee mahususi: mpasho wako wa nyumbani, usajili, matokeo ya utafutaji, ukurasa wa kutazama, kichezaji na uelekezaji wa kushoto. Chanzo huria na wazi, bila akaunti, usajili au ufuatiliaji.
 
-Swichi 60+, kidirisha kimoja cha kando, matokeo ya papo hapo. Bila malipo, chanzo huria, hakuna ufuatiliaji.
+Vipengele katika mtazamo
 
-UNAWEZA KUSAFISHA NINI
+• Ondoa rafu za video fupi na ingizo lao la urambazaji.
+• Chuja video zilizotazamwa, michanganyiko, orodha za kucheza na maudhui ya wanachama pekee.
+• Ficha maoni, gumzo la moja kwa moja, kadi za skrini ya mwisho na vidirisha vya matangazo.
+• Fanya vijipicha vidogo kwa kulisha mpana na mpangilio wa utafutaji.
+• Rekebisha uchezaji kutoka 0.25x hadi 3x ukitumia kitelezi cha kasi cha ndani ya mchezaji.
+• Washa au uzime mipangilio yako ya usafishaji kwa njia ya mkato ya kibodi.
 
-Mlisho na mapendekezo. Ficha rafu za Shorts kila zinapotokea, michanganyiko na orodha za kucheza, vizuizi vya Gundua na Habari, pamoja na video za wanachama pekee. Zima onyesho la awali linaloanza unapoweka kishale, washa hali ya mgandamizo ili video nyingi zaidi zitoshe kwenye skrini, na ufiche ulizotazama tayari — kwa kujitegemea kwenye Mwanzo, Usajili, kurasa za chaneli na kwenye mapendekezo.
+Ficha sehemu za Shorts
 
-Ukurasa wa video. Ficha maoni, video zinazopendekezwa kando ya kicheza, upau wa kupenda/kutopenda, vitufe vya vitendo, maelezo, gumzo la moja kwa moja, bidhaa na tiketi, kadi za skrini ya mwisho na picha za chaneli. Maelezo hutenganishwa zaidi: sehemu ya AI (Gemini), nakala ya maandishi, watu waliotajwa, video zinazohusiana, kadi ya chaneli, «Jinsi hii ilivyotengenezwa», sura na vipindi.
+Je, unatafuta kizuizi cha Shorts kinachokuruhusu kuendelea kutumia video za kawaida? Ficha rafu za video fupi kwenye mipasho, ondoa matokeo ya utafutaji yanayolingana na ufute ingizo lao kwenye menyu ya kushoto. Mipangilio ya mipasho na urambazaji hufanya kazi pamoja ili kuondoa sehemu za kawaida za kuingia kwenye usogezaji wima.
 
-Matangazo na promo. Ficha mabango ya YouTube, video zilizodhaminiwa kwenye mlisho na paneli za taarifa za matangazo, kisha washa uruka wa kiotomatiki wa majaribio ili matangazo yanayoruhusu kurukwa yajishughulikie yenyewe.
+Tumia uwekaji tayari wa kusafisha au uwashe swichi zinazofaa kibinafsi. Unaweza kuweka video za fomu ndefu, usajili na utafutaji unapatikana huku ukiondoa maudhui ya fomu fupi ambayo yanakatiza utazamaji wako. Vidhibiti hivi hubadilisha kile kinachoonekana kwenye kiolesura; viungo vya video vya moja kwa moja vinaendelea kufikiwa.
 
-Kicheza na uchezaji. Weka kitelezi cha kasi moja kwa moja kwenye vidhibiti vya kicheza, pendelea bitrate ya juu zaidi ukiwa na Premium, lazimisha kodeki ya H.264 (kuzuia VP9 na AV1) ili kadi ya michoro isimbue badala ya CPU kupata joto, punguza uchezaji hadi fremu 30 kwa sekunde kwenye mashine dhaifu, na ficha vitufe vya kicheza kidogo, hali ya sinema, manukuu na uchezaji otomatiki.
+Ficha video ulizotazama kutoka kwa mpasho wako wa video
 
-Shorts. Ukiamua kubaki na Shorts, ziwe kwa masharti yako: udhibiti wa kasi wa peke yake na kubadilika kiotomatiki hadi inayofuata.
+Je, umechoshwa na kusogeza video zilizopita ambazo tayari umeziona? Ondoa video ulizotazama kwa kujitegemea kutoka kwa Nyumbani, Usajili, kurasa za kituo na mapendekezo ya ukurasa wa kutazama. Washa kichujio kwenye mpasho wako wa usajili lakini uzime kituo unachopenda kurejea, au tumia mipangilio yote minne pamoja.
 
-Upau wa kando na urambazaji. Ficha upau wa kando kabisa, au uukate kipengele kimoja baada ya kingine — Shorts, Chaneli yangu, Historia, Orodha za kucheza, Video zako, Tazama baadaye, Video ulizopenda, Filamu, Vipakuliwa, orodha nzima ya usajili, Zinazovuma, Muziki, Moja kwa moja, Michezo ya video, Habari, Michezo, viungo vya YouTube Premium / Music / Kids / Studio na kijachini chenye viungo vya «Kuhusu».
+Utambuzi hutumia kiashirio cha maendeleo ya kutazama kinachoonyeshwa kwenye vijipicha vya video. Huchuja ukurasa unaoonekana bila kufuta historia yako ya ulichotazama au kutia alama video kama zilivyotazamwa. Video zisizo na kiashirio cha maendeleo kinacholingana zinaweza kubaki kuonekana.
 
-Utafutaji na chaneli. Ficha chaneli kwenye matokeo ya utafutaji, utafutaji unaohusiana, kadi ya taarifa na rafu ya video ya chaneli. Kwenye kurasa za chaneli, ondoa bango na trela inayojicheza yenyewe.
+Chuja mapendekezo, michanganyiko na orodha za kucheza
 
-Kichwa cha ukurasa. Ficha vitufe vya utafutaji kwa sauti na kibodi pepe, lebo za utafutaji, kitufe cha kupakia na arifa.
+Tengeneza nafasi kwa mapendekezo muhimu kwa kuchuja aina mahususi za maudhui. Ficha mchanganyiko na orodha za kucheza, ondoa video za wanachama pekee na ufute vizuizi vya Gundua au Habari. Changanya chaguo hizi na kichujio cha video iliyotazamwa ili kupunguza mapendekezo ya kurudia na mrundikano wa mipasho.
 
-MIPANGILIO TAYARI KWA WASIOTAKA KUREKEBISHA CHOCHOTE
+Hii hukupa udhibiti wa kile kinachosalia kuonekana huku ukihifadhi ugunduzi. Kiendelezi huchuja aina za maudhui zilizochaguliwa; haichukui nafasi ya algoriti ya pendekezo au kuweka wazi mipasho yote ya nyumbani.
 
-Chagua «Nyepesi» kwa usafi wa upole, «Sawia» kwa YouTube ya kila siku isiyo na vikwazo, au «Kiwango cha juu» ili kuondoa karibu kila kitu. Kila mpangilio unaweza kuhaririwa na kurudishwa kwenye hali ya awali, na «Maalum» unaujenga kutoka mwanzo. Njia ya mkato ya kibodi huwasha na kuzima kiendelezi chote unapohitaji YouTube halisi kwa dakika moja.
+Ficha maoni, gumzo la moja kwa moja na kadi za skrini ya mwisho
 
-FARAGHA, KWA WAZI
+Tazama hotuba bila mjadala hapa chini kushindana kwa umakini wako. Ficha maoni kwenye kurasa za video, ondoa gumzo la moja kwa moja wakati wa mitiririko na futa kadi za skrini ya mwisho au vivutio vya kadi juu ya kichezaji.
 
-Hakuna akaunti, hakuna kuingia, hakuna uchanganuzi, hakuna ufuatiliaji, hakuna ukusanyaji wa data. Mipangilio yako hukaa kwenye hifadhi ya ndani ya kivinjari na haitoki huko kamwe. Msimbo wote wa chanzo uko GitHub chini ya leseni ya MIT — huhitaji kutuamini kwa maneno tu.
+Unaweza pia kuondoa rafu za bidhaa na tikiti, vidhibiti vya kupenda na kutopenda, vitufe vya vitendo na picha za kituo. Kila mpangilio unajitegemea, kwa hivyo ukurasa safi wa kutazama bado unaweza kuweka maelezo, kitufe cha manukuu au vipengele vingine unavyotumia.
 
-IMEJENGWA IBAKI YA HARAKA
+Ruka matangazo na ufiche video zinazofadhiliwa
 
-Karibu kila chaguo hukusanywa kuwa CSS safi wakati wa ujenzi, hivyo haigharimu chochote unapovinjari. JavaScript huendeshwa na vipengele vichache tu vya kitabia. Manifest V3, hakuna msimbo wa mbali, hakuna mzigo wa chinichini.
+Futa mrundikano wa matangazo kwa kuficha mabango, kadi za video zinazofadhiliwa na vidirisha vya taarifa za matangazo. Vidhibiti hivi hufanya kazi tofauti, kwa hivyo unaweza kuchagua ni vipengele vipi vya utangazaji vinavyotoweka kutoka kwa kurasa zako za kuvinjari na kutazama.
 
-JINSI YA KUANZA
+Nahodha wa tangazo kwa hiari anajaribu kuruka matangazo ya video kiotomatiki. Kuruka kiotomatiki ni kwa majaribio: tabia yake inategemea kichezaji cha sasa na umbizo la utangazaji. Iwashe kando unapotaka kujaribu kuruka tangazo kiotomatiki. Sio kizuizi cha matangazo cha kiwango cha mtandao na haitoi utumiaji wa bila matangazo.
 
-Sakinisha kiendelezi, bofya aikoni yake ili kufungua kidirisha cha kando karibu na YouTube, kisha chagua mpangilio au geuza swichi moja moja. Mabadiliko hutumika kwenye ukurasa uliofunguliwa papo hapo.
+Zima onyesho la kukagua otomatiki
 
-Hufanya kazi kwenye Chrome, Opera, Edge, Brave na vivinjari vingine vinavyotumia Chromium.
+Acha kusogeza onyesho la kukagua vijipicha kuanzia wakati kielekezi chako kinapita juu ya video. Zima muhtasari wa kuelea ili kuvinjari mpasho tulivu, tuli na kusoma mada bila onyesho la kuchungulia linaloshindania umakini wako.
 
-MASWALI YANAYOULIZWA MARA KWA MARA
+Mpangilio huu unadhibiti tabia ya vijipicha. Chaguo tofauti la kuficha swichi ya kucheza kiotomatiki huondoa tu kitufe hicho kutoka kwa kichezaji; hailemazi uchezaji kiotomatiki wa video inayofuata.
 
-Je, hiki ni kizuia matangazo? Si hasa. Huficha mabango, kadi zilizodhaminiwa kwenye mlisho na paneli za matangazo, na kinaweza kuruka kiotomatiki matangazo yanayoruhusu kurukwa (majaribio). Hufanya kazi vizuri pamoja na kizuia matangazo halisi.
+Vijipicha vidogo vya video na mpangilio thabiti
 
-Je, kitaharibu YouTube? Kila kitu ni hiari na kinaweza kurudishwa — zima swichi na kipengele kinarudi papo hapo.
+Je, ungependa video zaidi kwa kila skrini badala ya vijipicha vya ukubwa kupita kiasi? Hali iliyoshikana hupunguza wingi wa kuona katika mpasho wa nyumbani, matokeo ya utafutaji na mapendekezo ya ukurasa wa kutazama. Muhtasari mdogo, nafasi iliyobanana zaidi na mpangilio mzito hurahisisha kuchanganua mada na kulinganisha matokeo.
 
-Je, nahitaji akaunti? Hapana. Sakinisha na utumie.
+Tumia gridi ya kuunganishwa ili kuvinjari mafunzo, tafuta kipindi kijacho cha mfululizo au pitia matokeo ya utafutaji kwa kusogeza kidogo. Mpangilio ni mpangilio uliowekwa awali, kwa hivyo huhitaji kuhariri CSS au kusanidi upana wa safu wima mahususi.
 
-Je, ni bure kweli? Ndiyo: bure na chanzo huria, hakuna kifurushi cha malipo wala mauzo ya ziada.
+Kitelezi cha kasi ya uchezaji
 
-Kuna kitu hakifichwi jinsi unavyotaka? Fungua issue kwenye GitHub — orodha ya vipengele hukua kutokana na maombi ya watumiaji.
+Rekebisha kasi ya kucheza moja kwa moja ndani ya kicheza video. Tumia kitelezi kutoka 0.25x hadi 3x, rekebisha vizuri kwa hatua 0.05x, au chagua uwekaji mapema kama vile 1.25x, 1.5x, 2x au 3x. Kasi uliyochagua imehifadhiwa katika mipangilio ya kiendelezi.
 
-Msimbo wa chanzo, hitilafu na mawazo: https://github.com/lenadweb/yt-clean
+Punguza kasi ya matamshi wakati wa mazoezi ya lugha, fuata onyesho la kina kwa mwendo wako mwenyewe, au ongeza kasi ya hotuba inayojulikana. Kidhibiti kasi kinapatikana kwa video za kawaida za ukurasa wa kutazama. Unaweza pia kuficha vitufe vya kichezaji kidogo, ukumbi wa michezo au manukuu kwa seti rahisi ya vidhibiti vya wachezaji.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Vidhibiti vya kina vya uchezaji hukuruhusu kulazimisha H.264 kwa kuzuia VP9 na AV1, au kuzuia mitiririko ya ramprogrammen 60 unapopendelea video ya kiwango cha chini. Hii inaweza kuwa muhimu kwenye kompyuta za zamani na vifaa vilivyo na usaidizi mdogo wa codec. Usimbaji wa maunzi, upakiaji wa CPU na ubora unaopatikana hutegemea kifaa chako na mitiririko inayotolewa kwa kila video; kulazimisha H.264 kunaweza kupunguza azimio linalopatikana.
+
+Waliojisajili kwenye Premium wanaweza kupendelea Birate Iliyoimarishwa wakati chaguo hilo linapatikana. Mipangilio hii huchagua chaguo la kucheza tena na haifungui vipengele vinavyolipishwa. Mpangilio wa ziada wa majaribio hurekebisha makadirio ya kipimo data kinachotumiwa na mchezaji; kasi halisi ya muunganisho haijabadilika.
+
+Ficha utepe na kurahisisha urambazaji
+
+Ondoa utepe wa kusogeza wa kushoto kabisa au punguza maingizo ya menyu mahususi. Chagua kile ambacho kitaendelea kuonekana kati ya Historia, Orodha za kucheza, Tazama Baadaye, Video Zilizopendwa, Vipakuliwa, usajili, Zinazovuma, Muziki, Michezo ya Kubahatisha, Habari na sehemu nyinginezo. Futa viungo vya kijachini unapotaka urambazaji mdogo kuzunguka maudhui yako.
+
+Rahisisha upau wa juu pia: ficha arifa, kitufe cha kupakia, kutafuta kwa kutamka, kitufe cha kibodi pepe au tagi za utafutaji. Hii ni mipangilio ya mwonekano; hazifuti orodha zako za kucheza, usajili au maudhui ya akaunti.
+
+Safisha matokeo ya utafutaji na kurasa za kituo
+
+Rahisisha utafutaji matokeo kwa kuficha kadi za matokeo ya vituo, mapendekezo yanayohusiana na utafutaji, kadi za maelezo au rafu za video za kituo. Oanisha vidhibiti hivyo na modi fupi unapotaka ukurasa mzito wa matokeo.
+
+Kwenye kurasa za idhaa, ficha bango na trela ya kituo. Vinjari video ulizopata zikiwa na vipengee vichache vya mapambo na kukatizwa kidogo kutoka kwa trela iliyoangaziwa.
+
+Chagua sehemu za maelezo ya video zitakazoonyeshwa
+
+Ficha maelezo yote au uchague sehemu mahususi. Chaguo zinajumuisha muhtasari wa AI, nakala, watu waliotajwa, video zinazohusiana, kadi ya kituo, "Jinsi hii ilifanywa", na sura au vipindi.
+
+Weka manukuu na sura zionekane kwa kujifunza, au uziondoe unapopendelea maelezo mafupi. Vidhibiti hivi huficha sehemu za ukurasa zilizopo; hazitoi muhtasari, haziandiki tena manukuu au kubadilisha maudhui ya mtayarishi.
+
+YouTube isiyo na usumbufu kwa kazi ya kusoma na umakini
+
+Unda usanidi unaozingatia jinsi unavyotumia tovuti:
+
+• Wanafunzi: punguza mrundikano wa malisho wanapotazama masomo au kujiandaa kwa mitihani.
+• Waendelezaji na watafiti: weka mafunzo na maonyesho katika kufikia wakati wa kazi ya kina.
+• Wanafunzi wa lugha: unganisha ukurasa tulivu na marekebisho sahihi ya kasi.
+• Watazamaji wa kawaida: fanya usajili kuwa rahisi kuvinjari na kupunguza mapendekezo ya kurudia.
+• Wanaharakati dijitali: ondoa kelele inayoonekana na ufanye utazamaji wa kimakusudi kuwa sehemu ya utaratibu wa kidijitali wa kuondoa sumu mwilini.
+
+Chagua Nyepesi kwa usafishaji mdogo au Uwiano kwa seti pana ya vichujio. Seti zote mbili za awali zinaweza kuhaririwa na kuwekwa upya. Maalum huanza na swichi za kusafisha, kukuruhusu kuunda usanidi wako mwenyewe. Uwekaji awali wa Uwiano huchaguliwa kwa chaguo-msingi kwenye usakinishaji.
+
+Badili mipangilio mahususi mahitaji yako yanapobadilika, au tumia njia ya mkato ya kibodi ya kiendelezi kuwasha na kuzima usanidi wote. Hakuna vipima muda vya lazima vya kuzingatia, viwango vya matumizi au vipindi vya masomo vilivyofungwa.
+
+Bure na chanzo huria, mipangilio huhifadhiwa kwenye kivinjari
+
+Mipangilio yote ya kiendelezi inapatikana bila malipo au usajili. Hakuna usajili, muda wa majaribio, uchanganuzi au mkusanyiko wa data ya kibinafsi. Mapendeleo yanahifadhiwa kwenye kivinjari chako. Nambari kamili ya chanzo inapatikana kwenye GitHub chini ya leseni ya MIT.
+
+Imeundwa kwa ajili ya tovuti ya eneo-kazi katika Chrome, yenye kiolesura kinachopatikana katika lugha 52. Haibadilishi programu ya simu. Usafishaji mwingi wa kiolesura hutumia CSS; uchezaji na vipengele vingine vinavyoingiliana hutumia JavaScript ya ndani.
+
+Anza kwa hatua tatu
+
+1. Ongeza YouTube Clean kwa Chrome na ufungue tovuti.
+2. Bofya ikoni ya kiendelezi ili kufungua paneli yake ya kando.
+3. Chagua uwekaji awali, kisha urekebishe mipasho, usogezaji na mipangilio ya kucheza unayotaka.
+
+Mabadiliko ya mwonekano wa kiolesura yanatumika unapoyageuza. Bandika kiendelezi kwenye upau wako wa vidhibiti ili kuweka vidhibiti vyake kwa urahisi. Kipengele cha ukurasa kikibadilika na kichujio kitaacha kukilinganisha, ripoti tatizo ili kiweze kuangaliwa.
+
+Nambari ya chanzo, msaada na maombi ya kipengele: https://github.com/lenadweb/yt-clean

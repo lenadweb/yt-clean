@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: 隐藏 Shorts 和推荐"
+    "message": "YouTube Clean：屏蔽 Shorts、整理推荐、跳过广告"
   },
   "appDescription": {
-    "message": "屏蔽 YouTube Shorts，隐藏推荐、评论和广告。60+ 个开关，打造干净、专注、无干扰的 YouTube。 开源。"
+    "message": "专注观看 YouTube：隐藏评论和已观看视频，调节播放速度，缩小视频缩略图。70 多项免费设置，自定义首页、订阅列表和播放器，减少干扰。"
   },
   "actionTitle": {
     "message": "YouTube Clean 设置"

@@ -1,55 +1,114 @@
-YouTube Clean menyembunyikan Shorts, rekomendasi, komentar, dan iklan — sehingga di halaman hanya tersisa video yang memang ingin kamu tonton.
+Blokir YouTube Shorts, saring rekomendasi, dan tonton dengan lebih sedikit gangguan. YouTube Clean menggabungkan filter feed, opsi menyembunyikan komentar, fitur eksperimental untuk melewati iklan, dan kontrol pemutaran dalam satu ekstensi Chrome gratis. Tetap tampilkan video yang Anda inginkan dan sembunyikan elemen yang mengganggu.
 
-YouTube dirancang agar kamu terus menggulir: rak Shorts tanpa ujung, tembok rekomendasi di samping pemutar, pratinjau yang menyala hanya karena kursor lewat, thumbnail yang mengubah «satu video» menjadi satu jam. YouTube Clean mengembalikan ruang itu kepadamu. Buka panel samping, geser satu sakelar, dan semua yang berlebih langsung hilang: tanpa memuat ulang halaman, tanpa akun, tanpa pengaturan rumit.
+Pilih dari 70+ pengaturan di panel samping di samping video Anda. Mulailah dengan preset yang dapat diedit atau sesuaikan elemen individual: feed beranda, langganan, hasil pencarian, halaman tontonan, pemutar, dan navigasi kiri. Gratis dan open source, tanpa akun, langganan, atau pelacakan.
 
-60+ sakelar, satu panel samping, hasil seketika. Gratis, sumber terbuka, tanpa pelacakan.
+Sekilas fitur
 
-APA YANG BISA DIBERSIHKAN
+• Hapus rak video pendek dan entri navigasinya.
+• Menyaring video yang ditonton, campuran, daftar putar, dan konten khusus anggota.
+• Sembunyikan komentar, live chat, kartu layar akhir, dan panel promosi.
+• Memperkecil thumbnail dengan feed dan tata letak pencarian yang ringkas.
+• Sesuaikan pemutaran dari 0,25x hingga 3x dengan penggeser kecepatan dalam pemutar.
+• Mengaktifkan atau menonaktifkan pengaturan pembersihan Anda dengan pintasan keyboard.
 
-Beranda dan rekomendasi. Sembunyikan rak Shorts di mana pun muncul, mix dan playlist, blok Jelajahi dan Berita, serta video khusus anggota. Matikan pratinjau otomatis saat kursor di atas, nyalakan mode ringkas agar lebih banyak video muat di layar, dan sembunyikan video yang sudah ditonton — terpisah di Beranda, Langganan, halaman channel, dan rekomendasi.
+Sembunyikan bagian Shorts
 
-Halaman video. Sembunyikan komentar, video rekomendasi di samping pemutar, baris suka/tidak suka, tombol aksi, deskripsi, live chat, merch dan tiket, kartu layar akhir, serta gambar channel. Deskripsi bisa dibongkar lebih jauh: bagian AI (Gemini), transkrip, orang yang disebut, video terkait, kartu channel, «Bagaimana ini dibuat», bab dan episode.
+Mencari pemblokir Shorts yang memungkinkan Anda tetap menggunakan video biasa? Sembunyikan rak video pendek di feed, hapus hasil pencarian yang cocok, dan hapus entri dari menu sebelah kiri. Pengaturan umpan dan navigasi bekerja sama untuk menghapus titik masuk umum ke pengguliran vertikal.
 
-Iklan dan promosi. Sembunyikan banner YouTube, video bersponsor di beranda, dan panel info iklan; lalu biarkan lewati-otomatis eksperimental mengurus iklan yang bisa dilewati.
+Gunakan preset pembersihan yang sudah jadi atau aktifkan sakelar yang relevan satu per satu. Anda dapat tetap menyediakan video berdurasi panjang, langganan, dan pencarian sambil menghapus konten berdurasi pendek yang mengganggu penayangan Anda. Kontrol ini mengubah apa yang muncul di antarmuka; tautan video langsung tetap dapat diakses.
 
-Pemutar dan pemutaran. Tambahkan penggeser kecepatan langsung di kontrol pemutar, utamakan bitrate lebih tinggi di Premium, paksa codec H.264 (memblokir VP9 dan AV1) agar kartu grafis yang mendekode, bukan CPU yang memanas, batasi pemutaran ke 30 fps di perangkat lemah, dan sembunyikan tombol pemutar mini, mode teater, subtitle, serta putar otomatis.
+Sembunyikan video yang ditonton dari umpan video Anda
 
-Shorts. Kalau kamu tetap memakai Shorts, pakailah dengan aturanmu: kontrol kecepatan tersendiri dan pindah otomatis ke Short berikutnya.
+Bosan menelusuri video yang sudah Anda lihat? Hapus video yang ditonton secara terpisah dari Beranda, Langganan, laman saluran, dan rekomendasi laman tontonan. Tetap aktifkan filter di feed langganan Anda, tetapi nonaktifkan di saluran yang ingin Anda kunjungi kembali, atau gunakan keempat pengaturan secara bersamaan.
 
-Bilah sisi dan navigasi. Sembunyikan bilah sisi sepenuhnya, atau pangkas satu per satu — Shorts, Channel saya, Histori, Playlist, Video Anda, Tonton nanti, Video yang disukai, Film, Download, seluruh daftar langganan, Trending, Musik, Live, Gaming, Berita, Olahraga, tautan YouTube Premium / Music / Kids / Studio, dan footer berisi tautan «Tentang».
+Deteksi menggunakan indikator kemajuan tontonan yang ditampilkan pada thumbnail video. Ini memfilter halaman yang terlihat tanpa menghapus riwayat tontonan Anda atau menandai video sebagai ditonton. Video tanpa indikator kemajuan yang cocok mungkin tetap terlihat.
 
-Penelusuran dan channel. Sembunyikan channel di hasil pencarian, penelusuran terkait, kartu info, dan rak video channel. Di halaman channel, hapus banner dan trailer yang jalan sendiri.
+Filter rekomendasi, campuran, dan daftar putar
 
-Header. Sembunyikan tombol pencarian suara dan keyboard virtual, tag pencarian, tombol unggah, dan notifikasi.
+Berikan ruang untuk saran yang berguna dengan memfilter jenis konten tertentu. Sembunyikan campuran dan daftar putar, hapus video khusus anggota, dan hapus blok Jelajahi atau Berita. Gabungkan opsi ini dengan filter video yang ditonton untuk mengurangi saran berulang dan kekacauan feed.
 
-PRESET UNTUK YANG TIDAK INGIN MENGATUR APA PUN
+Ini memberi Anda kendali atas apa yang tetap terlihat sambil mempertahankan penemuan. Ekstensi memfilter jenis konten yang dipilih; itu tidak menggantikan algoritme rekomendasi atau mengosongkan seluruh feed beranda.
 
-Pilih Ringan untuk pembersihan lembut, Seimbang untuk YouTube sehari-hari tanpa gangguan, atau Maksimum untuk menyingkirkan hampir semuanya. Setiap preset bisa diedit dan dikembalikan ke bawaan, dan Kustom kamu susun dari nol. Pintasan keyboard menyalakan dan mematikan seluruh ekstensi saat kamu butuh YouTube aslinya sebentar.
+Sembunyikan komentar, obrolan langsung, dan kartu layar akhir
 
-PRIVASI, TERUS TERANG
+Tonton ceramah tanpa diskusi di bawah ini yang akan menarik perhatian Anda. Sembunyikan komentar di laman video, hapus obrolan langsung selama streaming, dan hapus kartu layar akhir atau penggoda kartu di pemutar.
 
-Tanpa akun, tanpa login, tanpa analitik, tanpa pelacakan, tanpa pengumpulan data. Pengaturanmu tersimpan di penyimpanan lokal browser dan tidak pernah keluar dari sana. Seluruh kode sumber ada di GitHub dengan lisensi MIT — kamu tidak perlu percaya begitu saja.
+Anda juga dapat menghapus rak barang dagangan dan tiket, kontrol suka dan tidak suka, tombol tindakan, dan gambar saluran. Setiap setelan bersifat independen, sehingga laman tontonan yang lebih rapi tetap dapat menyimpan deskripsi, tombol teks, atau elemen lain yang Anda gunakan.
 
-DIBUAT AGAR TETAP CEPAT
+Lewati iklan dan sembunyikan video bersponsor
 
-Hampir semua opsi dikompilasi menjadi CSS murni saat build, jadi tidak membebani apa pun saat kamu menjelajah. Hanya beberapa fitur perilaku yang menjalankan JavaScript. Manifest V3, tanpa kode jarak jauh, tanpa beban latar belakang.
+Bersihkan kekacauan iklan dengan menyembunyikan spanduk, kartu video bersponsor, dan panel informasi iklan. Kontrol ini berfungsi secara terpisah, sehingga Anda dapat memilih elemen promosi mana yang hilang dari halaman penjelajahan dan tampilan Anda.
 
-CARA MEMULAI
+Skiper iklan opsional berupaya melewati iklan video secara otomatis. Lewati otomatis bersifat eksperimental: perilakunya bergantung pada pemutar saat ini dan format iklan. Aktifkan secara terpisah bila Anda ingin mencoba melewatkan iklan otomatis. Ini bukan pemblokir iklan tingkat jaringan dan tidak menjamin pengalaman bebas iklan.
 
-Pasang ekstensi, klik ikonnya untuk membuka panel samping di sebelah YouTube, lalu pilih preset atau nyalakan sakelar satu per satu. Perubahan langsung berlaku di halaman yang terbuka.
+Matikan pratinjau otomatis saat kursor di atas
 
-Berjalan di Chrome, Opera, Edge, Brave, dan browser berbasis Chromium lainnya.
+Berhenti memindahkan pratinjau gambar kecil yang dimulai saat penunjuk Anda melewati video. Matikan pratinjau arahkan kursor untuk menelusuri feed yang lebih tenang dan statis serta membaca judul tanpa pratinjau bersaing untuk menarik perhatian Anda.
 
-PERTANYAAN UMUM
+Pengaturan ini mengontrol perilaku thumbnail. Opsi terpisah untuk menyembunyikan tombol putar otomatis hanya menghapus tombol itu dari pemutar; itu tidak menonaktifkan putar otomatis video berikutnya.
 
-Apakah ini pemblokir iklan? Tidak persis. Ekstensi ini menyembunyikan banner, kartu bersponsor di beranda, dan panel iklan, serta bisa melewati iklan yang dapat dilewati secara otomatis (eksperimental). Bisa dipakai berdampingan dengan pemblokir iklan sungguhan.
+Thumbnail video lebih kecil dan tata letak ringkas
 
-Apakah ini merusak YouTube? Semuanya opsional dan bisa dibalik — matikan sakelarnya, elemen langsung kembali.
+Ingin lebih banyak video per layar dibandingkan gambar mini berukuran besar? Mode ringkas mengurangi jumlah visual di feed beranda, hasil penelusuran, dan saran halaman tonton. Pratinjau yang lebih kecil, spasi yang lebih rapat, dan pengaturan yang lebih padat memudahkan pemindaian judul dan membandingkan hasil.
 
-Perlu akun? Tidak. Pasang dan pakai.
+Gunakan grid ringkas untuk menelusuri tutorial, menemukan episode berikutnya dari sebuah serial, atau menelusuri hasil pencarian dengan lebih sedikit pengguliran. Tata letaknya merupakan pengaturan preset, jadi Anda tidak perlu mengedit CSS atau mengonfigurasi lebar kolom individual.
 
-Benar-benar gratis? Ya: gratis dan sumber terbuka, tanpa versi berbayar, tanpa jualan tambahan.
+Penggeser kecepatan pemutaran
 
-Ada yang tidak tersembunyi sesuai keinginanmu? Buka issue di GitHub — daftar fiturnya tumbuh dari permintaan pengguna.
+Sesuaikan kecepatan pemutaran langsung di dalam pemutar video. Gunakan penggeser dari 0,25x hingga 3x, sempurnakan dalam langkah 0,05x, atau pilih preset seperti 1,25x, 1,5x, 2x, atau 3x. Kecepatan yang Anda pilih disimpan dalam pengaturan ekstensi.
 
-Kode sumber, laporan bug, dan ide: https://github.com/lenadweb/yt-clean
+Perlambat pengucapan selama latihan bahasa, ikuti demonstrasi mendetail sesuai kecepatan Anda sendiri, atau percepat ceramah yang sudah dikenal. Pengontrol kecepatan tersedia untuk video halaman tontonan reguler. Anda juga dapat menyembunyikan tombol miniplayer, teater, atau subtitle untuk serangkaian kontrol pemutar yang lebih sederhana.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Kontrol pemutaran tingkat lanjut memungkinkan Anda memaksakan H.264 dengan memblokir VP9 dan AV1, atau memblokir streaming 60 fps saat Anda lebih menyukai video dengan kecepatan bingkai lebih rendah. Ini dapat berguna pada laptop lama dan perangkat dengan dukungan codec terbatas. Penguraian kode perangkat keras, beban CPU, dan kualitas yang tersedia bergantung pada perangkat Anda dan streaming yang ditawarkan untuk setiap video; memaksa H.264 dapat membatasi resolusi yang tersedia.
+
+Pelanggan premium dapat memilih Bitrate yang Ditingkatkan jika opsi tersebut tersedia. Pengaturan ini memilih opsi pemutaran yang ada dan tidak membuka kunci fitur berbayar. Pengaturan eksperimental tambahan menyesuaikan perkiraan bandwidth yang digunakan oleh pemutar; kecepatan koneksi sebenarnya tidak berubah.
+
+Sembunyikan sidebar dan sederhanakan navigasi
+
+Hapus sepenuhnya sidebar navigasi kiri atau potong entri menu individual. Pilih apa yang tetap terlihat di antara Riwayat, Daftar Putar, Tonton nanti, Video yang disukai, Unduhan, langganan, Trending, Musik, Permainan, Berita, dan bagian lainnya. Hapus tautan footer bila Anda ingin lebih sedikit navigasi di sekitar konten Anda.
+
+Sederhanakan juga bilah atas: sembunyikan notifikasi, tombol unggah, penelusuran suara, tombol keyboard virtual, atau tag penelusuran. Ini adalah pengaturan visibilitas; mereka tidak menghapus daftar putar, langganan, atau konten akun Anda.
+
+Bersihkan hasil pencarian dan halaman saluran
+
+Jadikan hasil penelusuran lebih mudah dipindai dengan menyembunyikan kartu hasil saluran, saran penelusuran terkait, kartu informasi, atau rak video saluran. Pasangkan kontrol tersebut dengan mode ringkas bila Anda menginginkan halaman hasil yang lebih padat.
+
+Di halaman saluran, sembunyikan spanduk dan cuplikan saluran. Jelajahi video yang Anda temukan dengan lebih sedikit elemen dekoratif besar dan lebih sedikit interupsi dari cuplikan unggulan.
+
+Pilih bagian deskripsi video mana yang akan ditampilkan
+
+Sembunyikan seluruh deskripsi atau pilih bagian individual. Pilihannya mencakup ringkasan AI, transkrip, orang yang disebutkan, video terkait, kartu saluran, "Bagaimana ini dibuat", dan bab atau episode.
+
+Biarkan transkrip dan bab tetap terlihat untuk dipelajari, atau hapus jika Anda menginginkan deskripsi yang lebih singkat. Kontrol ini menyembunyikan bagian halaman yang ada; mereka tidak membuat ringkasan, menulis ulang transkrip, atau mengubah konten pembuatnya.
+
+YouTube bebas gangguan untuk belajar dan bekerja dengan fokus
+
+Bangun pengaturan tampilan terfokus seputar cara Anda menggunakan situs:
+
+• Siswa: kurangi kekacauan pakan saat menonton pelajaran atau mempersiapkan ujian.
+• Pengembang dan peneliti: jaga agar tutorial dan demonstrasi tetap mudah dijangkau selama pekerjaan mendalam.
+• Pembelajar bahasa: gabungkan halaman yang lebih tenang dengan penyesuaian kecepatan yang tepat.
+• Pemirsa reguler: membuat langganan lebih mudah dijelajahi dan mengurangi saran berulang.
+• Minimalis digital: hilangkan gangguan visual dan jadikan tontonan yang disengaja sebagai bagian dari rutinitas detoks digital.
+
+Pilih Ringan untuk pembersihan yang lebih kecil atau Seimbang untuk rangkaian filter yang lebih luas. Kedua preset dapat diedit dan diatur ulang. Kustom dimulai dengan pembersihan dimatikan, sehingga Anda dapat membuat konfigurasi sendiri. Preset Seimbang dipilih secara default saat instalasi.
+
+Ganti pengaturan individual sesuai kebutuhan Anda, atau gunakan pintasan keyboard ekstensi untuk menghidupkan dan mematikan seluruh konfigurasi. Tidak ada pengatur waktu fokus wajib, kuota penggunaan, atau sesi belajar yang terkunci.
+
+Gratis dan open source, dengan pengaturan lokal
+
+Semua pengaturan ekstensi tersedia tanpa pembayaran atau registrasi. Tidak ada langganan, hitung mundur uji coba, analitik, atau pengumpulan data pribadi. Preferensi disimpan secara lokal di browser Anda. Kode sumber lengkap tersedia di GitHub di bawah lisensi MIT.
+
+Dirancang untuk situs web desktop di Chrome, dengan antarmuka tersedia dalam 52 bahasa. Itu tidak mengubah aplikasi seluler. Kebanyakan pembersihan antarmuka menggunakan CSS; pemutaran dan fitur interaktif lainnya menggunakan JavaScript lokal.
+
+Mulailah dalam tiga langkah
+
+1. Tambahkan YouTube Clean ke Chrome dan buka situs web.
+2. Klik ikon ekstensi untuk membuka panel sampingnya.
+3. Pilih preset, lalu sesuaikan pengaturan feed, navigasi, dan pemutaran yang Anda inginkan.
+
+Perubahan visibilitas antarmuka berlaku saat Anda mengaktifkannya. Sematkan ekstensi ke toolbar Anda agar kontrolnya mudah dijangkau. Jika elemen laman berubah dan filter berhenti mencocokkannya, laporkan masalahnya agar dapat diperiksa.
+
+Kode sumber, dukungan, dan permintaan fitur: https://github.com/lenadweb/yt-clean

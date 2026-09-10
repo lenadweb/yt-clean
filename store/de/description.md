@@ -1,55 +1,114 @@
-YouTube Clean blendet Shorts, Empfehlungen, Kommentare und Werbung aus — damit auf der Seite genau das Video bleibt, wegen dem du gekommen bist.
+Blockieren Sie YouTube Shorts, filtern Sie Empfehlungen und schauen Sie mit weniger Ablenkung. YouTube Clean verbindet Feed-Filter, ausgeblendete Kommentare, experimentelles Überspringen von Werbung und Wiedergabeeinstellungen in einer kostenlosen Chrome-Erweiterung. Behalten Sie die gewünschten Videos im Blick und blenden Sie störende Elemente aus.
 
-YouTube ist darauf gebaut, dass du weiterscrollst: das endlose Shorts-Regal, die Wand aus Empfehlungen neben dem Player, Vorschauen, die bei jeder Mausbewegung starten, Thumbnails, die aus „einem Video" eine Stunde machen. YouTube Clean gibt dir diesen Platz zurück. Seitenpanel öffnen, Schalter umlegen — der Ballast verschwindet sofort, ohne Seitenneuladen, ohne Konto, ohne Einrichtung.
+Wählen Sie in einem Seitenbereich neben Ihrem Video aus über 70 Einstellungen. Beginnen Sie mit einer bearbeitbaren Voreinstellung oder passen Sie einzelne Elemente an: Ihren Home-Feed, Abonnements, Suchergebnisse, Wiedergabeseite, Player und linke Navigation. Kostenlos und Open Source, ohne Konto, Abonnement oder Tracking.
 
-Über 60 Schalter, ein Seitenpanel, sofortige Wirkung. Kostenlos, Open Source, kein Tracking.
+Funktionen auf einen Blick
 
-WAS DU AUFRÄUMEN KANNST
+• Entfernen Sie Kurzvideoregale und deren Navigationseintrag.
+• Filtern Sie angesehene Videos, Mixe, Playlists und Inhalte nur für Mitglieder heraus.
+• Kommentare, Live-Chat, Abspannkarten und Werbetafeln ausblenden.
+• Verkleinern Sie Miniaturansichten mit einem kompakten Feed- und Suchlayout.
+• Passen Sie die Wiedergabe mit einem Geschwindigkeitsregler im Player von 0,25x bis 3x an.
+• Schalten Sie Ihre Bereinigungseinstellungen mit einer Tastenkombination ein oder aus.
 
-Feed und Empfehlungen. Blende Shorts-Regale überall aus, dazu Mixe und Playlists, die Blöcke Entdecken und News sowie Videos nur für Mitglieder. Schalte die Vorschau beim Drüberfahren ab, aktiviere den kompakten Modus für mehr Videos pro Bildschirm und verstecke bereits angesehene Videos — getrennt auf der Startseite, unter Abos, auf Kanalseiten und in den Empfehlungen.
+Shorts-Bereiche ausblenden
 
-Videoseite. Blende Kommentare, empfohlene Videos neben dem Player, die Mag-ich-Leiste, Aktionsschaltflächen, die Beschreibung, den Live-Chat, Merch und Tickets, Abspann-Karten und Kanalbilder aus. Die Beschreibung lässt sich noch feiner zerlegen: KI-Bereich (Gemini), Transkript, erwähnte Personen, ähnliche Videos, Kanalkarte, „Wie es gemacht wurde", Kapitel und Folgen.
+Suchen Sie nach einem Shorts-Blocker, mit dem Sie weiterhin normale Videos verwenden können? Blenden Sie Kurzvideo-Regale im Feed aus, entfernen Sie passende Suchergebnisse und löschen Sie deren Eintrag aus dem linken Menü. Die Feed- und Navigationseinstellungen arbeiten zusammen, um häufige Einstiegspunkte beim vertikalen Scrollen zu entfernen.
 
-Werbung und Promos. Blende YouTube-Banner, gesponserte Videos im Feed und Anzeigen-Infofelder aus — und lass überspringbare Werbung per experimentellem Auto-Skip von selbst verschwinden.
+Nutzen Sie eine vorgefertigte Bereinigungsvoreinstellung oder aktivieren Sie die entsprechenden Schalter einzeln. Sie können lange Videos, Abonnements und die Suche verfügbar halten und gleichzeitig kurze Inhalte entfernen, die Ihre Anzeige unterbrechen. Diese Steuerelemente ändern, was in der Benutzeroberfläche angezeigt wird. Direkte Videolinks bleiben weiterhin zugänglich.
 
-Player und Wiedergabe. Hol dir einen Geschwindigkeitsregler direkt in die Player-Steuerung, bevorzuge die höhere Bitrate mit Premium, erzwinge den Codec H.264 (blockiert VP9 und AV1), damit die Grafikkarte statt der CPU dekodiert, begrenze die Wiedergabe auf 30 fps für schwächere Geräte und verstecke die Schaltflächen für Miniplayer, Kinomodus, Untertitel und Autoplay.
+Verstecken Sie angesehene Videos aus Ihrem Video-Feed
 
-Shorts. Wenn du Shorts behältst, dann zu deinen Bedingungen: eigener Geschwindigkeitsregler und automatischer Wechsel zum nächsten Short.
+Sind Sie es leid, an Videos vorbeizuscrollen, die Sie bereits gesehen haben? Entfernen Sie angesehene Videos unabhängig von der Startseite, Abonnements, Kanalseiten und Wiedergabeseitenempfehlungen. Lassen Sie den Filter in Ihrem Abonnement-Feed aktiviert, aber deaktivieren Sie ihn für einen Kanal, den Sie gerne wieder besuchen, oder verwenden Sie alle vier Einstellungen zusammen.
 
-Seitenleiste und Navigation. Blende die Seitenleiste komplett aus oder kürze sie Punkt für Punkt — Shorts, Mein Kanal, Verlauf, Playlists, Meine Videos, Später ansehen, Videos, die ich mag, Filme, Downloads, die gesamte Aboliste, Trends, Musik, Live, Gaming, Nachrichten, Sport, die Links zu YouTube Premium / Music / Kids / Studio und die Fußzeile mit den Info-Links.
+Bei der Erkennung wird die Wiedergabefortschrittsanzeige verwendet, die in den Miniaturansichten der Videos angezeigt wird. Es filtert die sichtbare Seite, ohne Ihren Wiedergabeverlauf zu löschen oder Videos als angesehen zu markieren. Videos ohne entsprechende Fortschrittsanzeige bleiben möglicherweise weiterhin sichtbar.
 
-Suche und Kanäle. Blende Kanäle in den Suchergebnissen, ähnliche Suchen, die Such-Infokarte und das Kanal-Videoregal aus. Auf Kanalseiten entfernst du Banner und den Trailer, der von allein losspielt.
+Filtern Sie Empfehlungen, Mixe und Playlists
 
-Kopfzeile. Verstecke Sprachsuche und Bildschirmtastatur, Such-Filterchips, die Erstellen-Schaltfläche und Benachrichtigungen.
+Schaffen Sie Platz für nützliche Vorschläge, indem Sie bestimmte Arten von Inhalten filtern. Blenden Sie Mixe und Playlists aus, entfernen Sie Videos nur für Mitglieder und löschen Sie Explore- oder News-Blockierungen. Kombinieren Sie diese Optionen mit dem Filter „Angesehene Videos“, um Wiederholungsvorschläge und Feed-Unordnung zu reduzieren.
 
-VOREINSTELLUNGEN FÜR ALLE, DIE NICHTS EINSTELLEN WOLLEN
+Dadurch haben Sie die Kontrolle darüber, was sichtbar bleibt, während die Entdeckung erhalten bleibt. Die Erweiterung filtert ausgewählte Inhaltstypen; Es ersetzt nicht den Empfehlungsalgorithmus und löscht nicht den gesamten Home-Feed.
 
-Nimm Leicht für einen sanften Frühjahrsputz, Ausgewogen für ein ablenkungsfreies Alltags-YouTube oder Maximal, um fast alles zu entfernen. Jede Voreinstellung lässt sich bearbeiten und auf den Standard zurücksetzen, und Benutzerdefiniert baust du von Grund auf. Ein Tastenkürzel schaltet die ganze Erweiterung an und aus, wenn du das originale YouTube kurz zurück brauchst.
+Kommentare, Live-Chat und Abspannkarten ausblenden
 
-DATENSCHUTZ, KLAR GESAGT
+Sehen Sie sich einen Vortrag an, ohne dass die Diskussion darunter um Ihre Aufmerksamkeit buhlt. Blenden Sie Kommentare auf Videoseiten aus, entfernen Sie den Live-Chat während Streams und löschen Sie Abspannkarten oder Kartenteaser über dem Player.
 
-Kein Konto, keine Anmeldung, keine Analytics, kein Tracking, keine Datenerfassung. Deine Einstellungen liegen im lokalen Speicher des Browsers und verlassen ihn nie. Der komplette Quellcode steht unter MIT-Lizenz auf GitHub — du musst uns nicht glauben, du kannst nachlesen.
+Sie können auch Merchandise- und Ticketregale, „Gefällt mir“- und „Gefällt mir nicht“-Steuerelemente, Aktionsschaltflächen und Kanalbilder entfernen. Jede Einstellung ist unabhängig, sodass eine übersichtlichere Wiedergabeseite weiterhin die Beschreibung, die Untertitelschaltfläche oder andere von Ihnen verwendete Elemente beibehalten kann.
 
-AUF TEMPO GEBAUT
+Überspringen Sie Werbung und blenden Sie gesponserte Videos aus
 
-Fast jede Option wird beim Build zu reinem CSS kompiliert und kostet beim Surfen nichts. Nur wenige verhaltensbasierte Funktionen führen JavaScript aus. Manifest V3, kein Remote-Code, keine Hintergrundlast.
+Beseitigen Sie Werbeunordnung, indem Sie Banner, gesponserte Videokarten und Anzeigeninformationstafeln ausblenden. Diese Steuerelemente funktionieren separat, sodass Sie auswählen können, welche Werbeelemente von Ihren Browser- und Anzeigeseiten verschwinden.
 
-SO STARTEST DU
+Ein optionaler Anzeigen-Skipper versucht, Videoanzeigen automatisch zu überspringen. Auto-Skip ist experimentell: Sein Verhalten hängt vom aktuellen Player und Werbeformat ab. Aktivieren Sie es separat, wenn Sie das automatische Überspringen von Anzeigen ausprobieren möchten. Es handelt sich nicht um einen Werbeblocker auf Netzwerkebene und garantiert kein werbefreies Erlebnis.
 
-Erweiterung installieren, auf das Symbol klicken, um das Seitenpanel neben YouTube zu öffnen, dann eine Voreinstellung wählen oder einzelne Schalter umlegen. Änderungen greifen sofort auf der offenen Seite.
+Vorschau beim Drüberfahren deaktivieren
 
-Läuft in Chrome, Opera, Edge, Brave und anderen Chromium-Browsern.
+Verhindern Sie, dass Miniaturvorschauen verschoben werden, wenn Sie mit dem Mauszeiger über ein Video fahren. Deaktivieren Sie die Hover-Vorschau, um einen ruhigeren, statischeren Feed zu durchsuchen und Titel zu lesen, ohne dass eine Vorschau um Ihre Aufmerksamkeit konkurriert.
 
-HÄUFIGE FRAGEN
+Diese Einstellung steuert das Verhalten der Miniaturansichten. Durch die separate Option zum Ausblenden des Autoplay-Schalters wird nur diese Schaltfläche vom Player entfernt. Die automatische Wiedergabe des nächsten Videos wird dadurch nicht deaktiviert.
 
-Ist das ein Adblocker? Nicht ganz. Die Erweiterung versteckt Banner, gesponserte Feed-Karten und Anzeigen-Infofelder und kann überspringbare Werbung automatisch überspringen (experimentell). Neben einem echten Adblocker läuft sie problemlos.
+Kleinere Video-Thumbnails und ein kompaktes Layout
 
-Geht dabei etwas an YouTube kaputt? Alles ist optional und umkehrbar — Schalter aus, Element sofort zurück.
+Möchten Sie mehr Videos pro Bildschirm statt übergroßer Miniaturansichten? Der Kompaktmodus reduziert die visuelle Masse im Home-Feed, in den Suchergebnissen und in den Wiedergabeseitenvorschlägen. Kleinere Vorschauen, engere Abstände und eine dichtere Anordnung erleichtern das Scannen von Titeln und den Vergleich von Ergebnissen.
 
-Brauche ich ein Konto? Nein. Installieren und loslegen.
+Nutzen Sie das kompakte Raster, um Tutorials zu durchsuchen, die nächste Episode einer Serie zu finden oder Suchergebnisse mit weniger Scrollen durchzugehen. Das Layout ist eine voreingestellte Anordnung, sodass Sie weder CSS bearbeiten noch einzelne Spaltenbreiten konfigurieren müssen.
 
-Ist es wirklich kostenlos? Ja: kostenlos und quelloffen, keine Bezahlstufe, kein Upselling.
+Wiedergabegeschwindigkeit-Regler
 
-Etwas wird nicht so ausgeblendet, wie du willst? Eröffne ein Issue auf GitHub — die Funktionsliste wächst aus Nutzerwünschen.
+Passen Sie die Wiedergabegeschwindigkeit direkt im Videoplayer an. Verwenden Sie einen Schieberegler von 0,25x bis 3x, nehmen Sie die Feinabstimmung in 0,05x-Schritten vor oder wählen Sie eine Voreinstellung wie 1,25x, 1,5x, 2x oder 3x. Ihre gewählte Geschwindigkeit wird in den Erweiterungseinstellungen gespeichert.
 
-Quellcode, Fehlerberichte und Ideen: https://github.com/lenadweb/yt-clean
+Verlangsamen Sie die Aussprache während des Sprachtrainings, folgen Sie einer ausführlichen Demonstration in Ihrem eigenen Tempo oder beschleunigen Sie eine vertraute Vorlesung. Der Geschwindigkeitsregler steht für reguläre Wiedergabeseitenvideos zur Verfügung. Sie können auch die Miniplayer-, Theater- oder Untertitelschaltflächen ausblenden, um die Player-Steuerung zu vereinfachen.
+
+H.264, VP9, AV1, 60 fps, Enhanced Bitrate
+
+Mit den erweiterten Wiedergabesteuerungen können Sie H.264 erzwingen, indem Sie VP9 und AV1 blockieren, oder 60-fps-Streams blockieren, wenn Sie Videos mit niedrigerer Bildrate bevorzugen. Dies kann auf älteren Laptops und Geräten mit eingeschränkter Codec-Unterstützung nützlich sein. Hardware-Dekodierung, CPU-Auslastung und verfügbare Qualität hängen von Ihrem Gerät und den für jedes Video angebotenen Streams ab; Das Erzwingen von H.264 kann die verfügbare Auflösung einschränken.
+
+Premium-Abonnenten können die erweiterte Bitrate bevorzugen, wenn diese Option verfügbar ist. Diese Einstellung wählt eine vorhandene Wiedergabeoption aus und schaltet keine kostenpflichtigen Funktionen frei. Eine zusätzliche experimentelle Einstellung passt die vom Player verwendete Bandbreitenschätzung an; Die tatsächliche Verbindungsgeschwindigkeit bleibt unverändert.
+
+Blenden Sie die Seitenleiste aus und vereinfachen Sie die Navigation
+
+Entfernen Sie die linke Navigationsseitenleiste vollständig oder kürzen Sie einzelne Menüeinträge. Wählen Sie aus, was unter „Verlauf“, „Wiedergabelisten“, „Später ansehen“, „Gefällt mir“-Videos, „Downloads“, „Abonnements“, „Trends“, „Musik“, „Spiele“, „Nachrichten“ und in anderen Abschnitten sichtbar bleibt. Löschen Sie Fußzeilenlinks, wenn Sie weniger Navigation durch Ihre Inhalte wünschen.
+
+Vereinfachen Sie auch die obere Leiste: Blenden Sie Benachrichtigungen, die Schaltfläche zum Hochladen, die Sprachsuche, die Schaltfläche für die virtuelle Tastatur oder Such-Tags aus. Dies sind Sichtbarkeitseinstellungen; Ihre Playlists, Abonnements oder Kontoinhalte werden nicht gelöscht.
+
+Bereinigen Sie Suchergebnisse und Kanalseiten
+
+Erleichtern Sie das Durchsuchen von Suchergebnissen, indem Sie Kanalergebniskarten, verwandte Suchvorschläge, Informationskarten oder Kanalvideoregale ausblenden. Kombinieren Sie diese Steuerelemente mit dem Kompaktmodus, wenn Sie eine dichtere Ergebnisseite wünschen.
+
+Blenden Sie auf Kanalseiten das Banner und den Kanaltrailer aus. Durchsuchen Sie die Videos, die Sie gefunden haben, mit weniger großen Dekorationselementen und weniger Unterbrechungen durch den vorgestellten Trailer.
+
+Wählen Sie aus, welche Videobeschreibungsabschnitte angezeigt werden sollen
+
+Blenden Sie die gesamte Beschreibung aus oder wählen Sie einzelne Abschnitte aus. Zu den Optionen gehören die KI-Zusammenfassung, das Transkript, die erwähnten Personen, verwandte Videos, die Kanalkarte, „Wie das gemacht wurde“ und Kapitel oder Episoden.
+
+Lassen Sie Transkripte und Kapitel zum Lernen sichtbar oder entfernen Sie sie, wenn Sie eine kürzere Beschreibung bevorzugen. Diese Steuerelemente verbergen vorhandene Seitenabschnitte; Sie erstellen keine Zusammenfassungen, schreiben keine Transkripte um und verändern nicht den Inhalt des Erstellers.
+
+Ablenkungsfreies YouTube zum Lernen und konzentrierten Arbeiten
+
+Erstellen Sie eine fokussierte Anzeigeeinrichtung entsprechend Ihrer Nutzung der Website:
+
+• Schüler: Reduzieren Sie die Unordnung im Feed, während Sie sich Unterrichtsstunden ansehen oder sich auf Prüfungen vorbereiten.
+• Entwickler und Forscher: Halten Sie Tutorials und Demonstrationen während der intensiven Arbeit in Reichweite.
+• Sprachlerner: Kombinieren Sie eine ruhigere Seite mit präzisen Geschwindigkeitsanpassungen.
+• Regelmäßige Zuschauer: Erleichtern Sie das Durchsuchen von Abonnements und reduzieren Sie wiederholte Vorschläge.
+• Digitale Minimalisten: Entfernen Sie visuelles Rauschen und machen Sie das bewusste Betrachten zu einem Teil Ihrer digitalen Detox-Routine.
+
+Wählen Sie Leicht für eine kleinere Bereinigung oder Ausgewogen für einen breiteren Filtersatz. Beide Voreinstellungen können bearbeitet und zurückgesetzt werden. Benutzerdefiniert startet mit deaktivierten Bereinigungsschaltern, sodass Sie Ihre eigene Konfiguration erstellen können. Bei der Installation wird standardmäßig eine Ausgewogen-Voreinstellung ausgewählt.
+
+Ändern Sie einzelne Einstellungen, wenn sich Ihre Anforderungen ändern, oder verwenden Sie die Tastenkombination der Erweiterung, um die gesamte Konfiguration ein- und auszuschalten. Es gibt keine obligatorischen Fokus-Timer, Nutzungskontingente oder gesperrten Lernsitzungen.
+
+Kostenlos und Open Source, mit lokalen Einstellungen
+
+Alle Erweiterungseinstellungen sind ohne Zahlung oder Registrierung verfügbar. Es gibt kein Abonnement, keinen Test-Countdown, keine Analyse oder Erfassung personenbezogener Daten. Präferenzen werden lokal in Ihrem Browser gespeichert. Der vollständige Quellcode ist auf GitHub unter der MIT-Lizenz verfügbar.
+
+Entwickelt für die Desktop-Website in Chrome, mit einer in 52 Sprachen verfügbaren Benutzeroberfläche. Die mobile App wird dadurch nicht verändert. Die meisten Schnittstellenbereinigungen verwenden CSS; Wiedergabe und andere interaktive Funktionen verwenden lokales JavaScript.
+
+Starten Sie in drei Schritten
+
+1. Fügen Sie YouTube Clean zu Chrome hinzu und öffnen Sie die Website.
+2. Klicken Sie auf das Erweiterungssymbol, um dessen Seitenbereich zu öffnen.
+3. Wählen Sie eine Voreinstellung und passen Sie dann die gewünschten Feed-, Navigations- und Wiedergabeeinstellungen an.
+
+Änderungen an der Sichtbarkeit der Benutzeroberfläche werden wirksam, wenn Sie sie umschalten. Befestigen Sie die Erweiterung an Ihrer Symbolleiste, damit die Steuerelemente leicht zu erreichen sind. Wenn sich ein Seitenelement ändert und ein Filter nicht mehr mit ihm übereinstimmt, melden Sie das Problem, damit es überprüft werden kann.
+
+Quellcode, Support und Funktionsanfragen: https://github.com/lenadweb/yt-clean
