@@ -99,7 +99,7 @@ Keičiantis poreikiams pakeiskite atskirus nustatymus arba naudokite plėtinio s
 
 Nemokamas ir atviras šaltinis su vietiniais nustatymais
 
-Visi plėtinio nustatymai pasiekiami be mokėjimo ar registracijos. Nėra prenumeratos, bandomųjų laiko skaičiavimų, analizės ar asmens duomenų rinkimo. Parinktys saugomos lokaliai jūsų naršyklėje. Visą šaltinio kodą galima rasti „GitHub“ pagal MIT licenciją.
+Visi plėtinio nustatymai pasiekiami be mokėjimo ar registracijos. Nėra prenumeratos, bandomojo laikotarpio atgalinio skaičiavimo ar automatinio naudojimo stebėjimo. Parinktys saugomos lokaliai jūsų naršyklėje. Jei nuspręsite siųsti atsiliepimą, jūsų pranešimas ir plėtinio versija siunčiami kūrėjui per „PostHog“. Nėra pridėta naršymo istorijos ar paskyros informacijos. Visą šaltinio kodą galima rasti „GitHub“ pagal MIT licenciją.
 
 Sukurta staliniams kompiuteriams skirta svetainė „Chrome“, sąsaja pasiekiama 52 kalbomis. Tai nekeičia mobiliosios programos. Dauguma sąsajos valymo naudoja CSS; atkūrimas ir kitos interaktyvios funkcijos naudoja vietinį JavaScript.
 

@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "未设置"
+  },
+  "feedback": {
+    "message": "报告 / 建议"
+  },
+  "feedback_title": {
+    "message": "报告 / 建议"
+  },
+  "feedback_problem": {
+    "message": "问题"
+  },
+  "feedback_feature": {
+    "message": "功能请求"
+  },
+  "feedback_message": {
+    "message": "您的留言"
+  },
+  "feedback_placeholder": {
+    "message": "描述问题以及如何重现该问题，或者告诉我们您想要添加的内容。"
+  },
+  "feedback_privacy": {
+    "message": "发送通过 PostHog 与开发人员共享您的消息和扩展版本。请勿包含敏感信息。"
+  },
+  "feedback_send": {
+    "message": "发送"
+  },
+  "feedback_sending": {
+    "message": "正在发送..."
+  },
+  "feedback_success": {
+    "message": "谢谢！您的反馈已发送。"
+  },
+  "feedback_error": {
+    "message": "无法确认发送成功。您输入的内容仍保留在此表单中。请重试或通过 GitHub 提交。"
+  },
+  "feedback_unavailable": {
+    "message": "此版本中未配置反馈。您可以在 GitHub 上提交。"
   }
 }

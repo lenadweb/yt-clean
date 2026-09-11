@@ -99,7 +99,7 @@ Ganti pengaturan individual sesuai kebutuhan Anda, atau gunakan pintasan keyboar
 
 Gratis dan open source, dengan pengaturan lokal
 
-Semua pengaturan ekstensi tersedia tanpa pembayaran atau registrasi. Tidak ada langganan, hitung mundur uji coba, analitik, atau pengumpulan data pribadi. Preferensi disimpan secara lokal di browser Anda. Kode sumber lengkap tersedia di GitHub di bawah lisensi MIT.
+Semua pengaturan ekstensi tersedia tanpa pembayaran atau registrasi. Tidak ada langganan, hitungan mundur uji coba, atau pelacakan penggunaan otomatis. Preferensi disimpan secara lokal di browser Anda. Jika Anda memilih untuk mengirim masukan, pesan dan versi ekstensi Anda dikirim ke pengembang melalui PostHog. Tidak ada riwayat penelusuran atau detail akun yang dilampirkan. Kode sumber lengkap tersedia di GitHub di bawah lisensi MIT.
 
 Dirancang untuk situs web desktop di Chrome, dengan antarmuka tersedia dalam 52 bahasa. Itu tidak mengubah aplikasi seluler. Kebanyakan pembersihan antarmuka menggunakan CSS; pemutaran dan fitur interaktif lainnya menggunakan JavaScript lokal.
 

@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Ikke angivet"
+  },
+  "feedback": {
+    "message": "Rapportér / Foreslå"
+  },
+  "feedback_title": {
+    "message": "Rapportér / Foreslå"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Funktionsanmodning"
+  },
+  "feedback_message": {
+    "message": "Din besked"
+  },
+  "feedback_placeholder": {
+    "message": "Beskriv problemet, og hvordan du gengiver det, eller fortæl os, hvad du gerne vil tilføje."
+  },
+  "feedback_privacy": {
+    "message": "Sending deler din besked og udvidelsesversion med udvikleren via PostHog. Medtag ikke følsomme oplysninger."
+  },
+  "feedback_send": {
+    "message": "Send"
+  },
+  "feedback_sending": {
+    "message": "Sender..."
+  },
+  "feedback_success": {
+    "message": "Tak! Din feedback er blevet sendt."
+  },
+  "feedback_error": {
+    "message": "Kunne ikke bekræfte levering. Din tekst er gemt her. Prøv igen eller brug GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Feedback er ikke konfigureret i denne build. Du kan indsende det på GitHub."
   }
 }

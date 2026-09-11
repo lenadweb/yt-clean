@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "לא הוגדר"
+  },
+  "feedback": {
+    "message": "דיווח / הצעה"
+  },
+  "feedback_title": {
+    "message": "דיווח / הצעה"
+  },
+  "feedback_problem": {
+    "message": "בעיה"
+  },
+  "feedback_feature": {
+    "message": "בקשת תכונה"
+  },
+  "feedback_message": {
+    "message": "ההודעה שלך"
+  },
+  "feedback_placeholder": {
+    "message": "תאר את הבעיה וכיצד לשחזר אותה, או ספר לנו מה תרצה להוסיף."
+  },
+  "feedback_privacy": {
+    "message": "שליחת חולקת את גרסת ההודעה והתוסף שלך עם המפתח באמצעות PostHog. אל תכלול מידע רגיש."
+  },
+  "feedback_send": {
+    "message": "שלח"
+  },
+  "feedback_sending": {
+    "message": "שולח..."
+  },
+  "feedback_success": {
+    "message": "תודה לך! המשוב שלך נשלח."
+  },
+  "feedback_error": {
+    "message": "לא ניתן היה לאשר את המסירה. הטקסט שלך נשמר כאן. נסה שוב או השתמש ב-GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "משוב אינו מוגדר בגירסה זו. אתה יכול להגיש את זה ב- GitHub."
   }
 }

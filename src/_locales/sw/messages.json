@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Haijawekwa"
+  },
+  "feedback": {
+    "message": "Ripoti / Pendekeza"
+  },
+  "feedback_title": {
+    "message": "Ripoti / Pendekeza"
+  },
+  "feedback_problem": {
+    "message": "Tatizo"
+  },
+  "feedback_feature": {
+    "message": "Ombi la kipengele"
+  },
+  "feedback_message": {
+    "message": "Ujumbe wako"
+  },
+  "feedback_placeholder": {
+    "message": "Eleza tatizo na jinsi ya kulizalisha tena, au tuambie ungependa kuongeza nini."
+  },
+  "feedback_privacy": {
+    "message": "Kutuma hushiriki ujumbe wako na toleo la kiendelezi na msanidi programu kupitia PostHog. Usijumuishe taarifa nyeti."
+  },
+  "feedback_send": {
+    "message": "Tuma"
+  },
+  "feedback_sending": {
+    "message": "Inatuma..."
+  },
+  "feedback_success": {
+    "message": "Asante! Maoni yako yametumwa."
+  },
+  "feedback_error": {
+    "message": "Haikuweza kuthibitisha uwasilishaji. Maandishi yako yamehifadhiwa hapa. Jaribu tena au utumie GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Maoni hayajasanidiwa katika muundo huu. Unaweza kuiwasilisha kwenye GitHub."
   }
 }

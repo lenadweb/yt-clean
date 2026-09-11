@@ -99,7 +99,7 @@ Tukar tetapan individu apabila keperluan anda berubah atau gunakan pintasan papa
 
 Sumber percuma dan terbuka, dengan tetapan setempat
 
-Semua tetapan sambungan tersedia tanpa pembayaran atau pendaftaran. Tiada langganan, kira detik percubaan, analitik atau pengumpulan data peribadi. Keutamaan disimpan secara setempat dalam penyemak imbas anda. Kod sumber penuh tersedia di GitHub di bawah lesen MIT.
+Semua tetapan sambungan tersedia tanpa pembayaran atau pendaftaran. Tiada langganan, kira detik percubaan atau penjejakan penggunaan automatik. Keutamaan disimpan secara setempat dalam penyemak imbas anda. Jika anda memilih untuk menghantar maklum balas, mesej dan versi sambungan anda dihantar kepada pembangun melalui PostHog. Tiada sejarah penyemakan imbas atau butiran akaun dilampirkan. Kod sumber penuh tersedia di GitHub di bawah lesen MIT.
 
 Direka bentuk untuk tapak web desktop dalam Chrome, dengan antara muka tersedia dalam 52 bahasa. Ia tidak mengubah suai apl mudah alih. Kebanyakan pembersihan antara muka menggunakan CSS; main balik dan ciri interaktif lain menggunakan JavaScript tempatan.
 

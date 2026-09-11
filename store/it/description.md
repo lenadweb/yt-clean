@@ -99,7 +99,7 @@ Cambia le singole impostazioni in base alle tue esigenze o utilizza la scorciato
 
 Gratuito e open source, con impostazioni locali
 
-Tutte le impostazioni dell'estensione sono disponibili senza pagamento o registrazione. Non sono previsti abbonamenti, conto alla rovescia per la prova, analisi o raccolta di dati personali. Le preferenze vengono memorizzate localmente nel tuo browser. Il codice sorgente completo è disponibile su GitHub sotto la licenza MIT.
+Tutte le impostazioni dell'estensione sono disponibili senza pagamento o registrazione. Non sono previsti abbonamenti, conto alla rovescia per la prova o monitoraggio automatico dell'utilizzo. Le preferenze vengono memorizzate localmente nel tuo browser. Se scegli di inviare feedback, il messaggio e la versione dell'estensione verranno inviati allo sviluppatore tramite PostHog. Non viene allegata alcuna cronologia di navigazione o dettagli dell'account. Il codice sorgente completo è disponibile su GitHub sotto la licenza MIT.
 
 Progettato per il sito Web desktop in Chrome, con un'interfaccia disponibile in 52 lingue. Non modifica l'app mobile. La maggior parte della pulizia dell'interfaccia utilizza CSS; la riproduzione e altre funzionalità interattive utilizzano JavaScript locale.
 

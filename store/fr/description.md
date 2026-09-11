@@ -99,7 +99,7 @@ Modifiez les paramètres individuels à mesure que vos besoins évoluent ou util
 
 Gratuit et open source, avec paramètres locaux
 
-Tous les paramètres d'extension sont disponibles sans paiement ni inscription. Il n'y a pas d'abonnement, de compte à rebours d'essai, d'analyse ou de collecte de données personnelles. Les préférences sont stockées localement dans votre navigateur. Le code source complet est disponible sur GitHub sous la licence MIT.
+Tous les paramètres d'extension sont disponibles sans paiement ni inscription. Il n'y a pas d'abonnement, de compte à rebours d'essai ou de suivi automatique de l'utilisation. Les préférences sont stockées localement dans votre navigateur. Si vous choisissez d'envoyer des commentaires, votre message et la version de l'extension sont envoyés au développeur via PostHog. Aucun historique de navigation ou détails de compte n’est joint. Le code source complet est disponible sur GitHub sous la licence MIT.
 
 Conçu pour le site Web de bureau dans Chrome, avec une interface disponible en 52 langues. Cela ne modifie pas l'application mobile. La plupart des nettoyages d'interface utilisent CSS ; la lecture et d'autres fonctionnalités interactives utilisent du JavaScript local.
 

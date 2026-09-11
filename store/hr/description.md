@@ -99,7 +99,7 @@ Promijenite pojedinačne postavke prema promjeni svojih potreba ili upotrijebite
 
 Besplatan i otvorenog koda, s lokalnim postavkama
 
-Sve postavke proširenja dostupne su bez plaćanja ili registracije. Nema pretplate, probnog odbrojavanja, analitike ili prikupljanja osobnih podataka. Postavke se pohranjuju lokalno u vašem pregledniku. Potpuni izvorni kod dostupan je na GitHubu pod licencom MIT-a.
+Sve postavke proširenja dostupne su bez plaćanja ili registracije. Nema pretplate, probnog odbrojavanja ili automatskog praćenja korištenja. Postavke se pohranjuju lokalno u vašem pregledniku. Ako odlučite poslati povratne informacije, vaša poruka i verzija proširenja šalju se programeru putem PostHog-a. Nema priložene povijesti pregledavanja ili pojedinosti o računu. Puni izvorni kod dostupan je na GitHubu pod licencom MIT-a.
 
 Dizajniran za web stranicu za radnu površinu u Chromeu, sa sučeljem dostupnim na 52 jezika. Ne mijenja mobilnu aplikaciju. Većina čišćenja sučelja koristi CSS; reprodukcija i druge interaktivne značajke koriste lokalni JavaScript.
 

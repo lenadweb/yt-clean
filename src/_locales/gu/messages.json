@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "સેટ કરેલ નથી"
+  },
+  "feedback": {
+    "message": "રિપોર્ટ / સૂચન"
+  },
+  "feedback_title": {
+    "message": "રિપોર્ટ / સૂચન"
+  },
+  "feedback_problem": {
+    "message": "સમસ્યા"
+  },
+  "feedback_feature": {
+    "message": "સુવિધા વિનંતી"
+  },
+  "feedback_message": {
+    "message": "તમારો સંદેશ"
+  },
+  "feedback_placeholder": {
+    "message": "સમસ્યા અને તેનું પુનઃઉત્પાદન કેવી રીતે કરવું તેનું વર્ણન કરો અથવા તમે શું ઉમેરવા માંગો છો તે અમને જણાવો."
+  },
+  "feedback_privacy": {
+    "message": "પોસ્ટહોગ દ્વારા તમારા સંદેશ અને એક્સ્ટેંશન સંસ્કરણને ડેવલપર સાથે મોકલવાથી શેર થાય છે. સંવેદનશીલ માહિતી શામેલ કરશો નહીં."
+  },
+  "feedback_send": {
+    "message": "મોકલો"
+  },
+  "feedback_sending": {
+    "message": "મોકલી રહ્યું છે..."
+  },
+  "feedback_success": {
+    "message": "આભાર! તમારો પ્રતિસાદ મોકલવામાં આવ્યો છે."
+  },
+  "feedback_error": {
+    "message": "ડિલિવરી કન્ફર્મ કરી શકાયું નથી. તમારું લખાણ અહીં સાચવેલ છે. ફરી પ્રયાસ કરો અથવા GitHub નો ઉપયોગ કરો."
+  },
+  "feedback_unavailable": {
+    "message": "પ્રતિસાદ આ બિલ્ડમાં ગોઠવેલ નથી. તમે તેને GitHub પર સબમિટ કરી શકો છો."
   }
 }

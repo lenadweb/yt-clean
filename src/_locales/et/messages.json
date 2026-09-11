@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Määramata"
+  },
+  "feedback": {
+    "message": "Teata / Soovita"
+  },
+  "feedback_title": {
+    "message": "Teata / Soovita"
+  },
+  "feedback_problem": {
+    "message": "Probleem"
+  },
+  "feedback_feature": {
+    "message": "Funktsiooni taotlus"
+  },
+  "feedback_message": {
+    "message": "Sinu sõnum"
+  },
+  "feedback_placeholder": {
+    "message": "Kirjeldage probleemi ja selle taasesitamist või öelge meile, mida soovite lisada."
+  },
+  "feedback_privacy": {
+    "message": "Saatmine jagab teie sõnumit ja laienduse versiooni arendajaga PostHogi kaudu. Ärge lisage tundlikku teavet."
+  },
+  "feedback_send": {
+    "message": "Saada"
+  },
+  "feedback_sending": {
+    "message": "Saatmine…"
+  },
+  "feedback_success": {
+    "message": "Aitäh! Teie tagasiside on saadetud."
+  },
+  "feedback_error": {
+    "message": "Tarnimist ei saanud kinnitada. Teie tekst salvestatakse siia. Proovige uuesti või kasutage GitHubi."
+  },
+  "feedback_unavailable": {
+    "message": "Selles järgus pole tagasisidet konfigureeritud. Saate selle esitada GitHubis."
   }
 }

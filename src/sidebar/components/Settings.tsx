@@ -12,6 +12,7 @@ import PowerOffIcon from 'src/assets/icons/power-off.svg';
 import GithubIcon from 'src/assets/icons/github.svg';
 import KeyboardShortcuts from 'src/sidebar/components/KeyboardShortcuts';
 import Tooltip from 'src/sidebar/components/Tooltip';
+import FeedbackModal from 'src/sidebar/components/FeedbackModal';
 import type { SidebarMock } from 'src/sidebar/App';
 
 const GITHUB_URL = 'https://github.com/lenadweb/yt-clean';
@@ -86,15 +87,18 @@ const Settings: FC<Props> = ({ mock }) => {
                 ))}
             </div>
             {!mock?.hideFooter && (
-                <a
-                    href={GITHUB_URL}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-auto flex items-center justify-center gap-1.5 pt-7 pb-2 text-sm text-white/60 transition hover:text-white"
-                >
-                    <GithubIcon className="size-4" />
-                    {t('view_on_github')}
-                </a>
+                <footer className="mt-auto flex items-center justify-around gap-3 pt-7 pb-2">
+                    <a
+                        href={GITHUB_URL}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center justify-center gap-1.5 rounded py-2 text-sm text-white/60 transition hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                    >
+                        <GithubIcon className="size-4" />
+                        {t('view_on_github')}
+                    </a>
+                    <FeedbackModal />
+                </footer>
             )}
         </div>
     );

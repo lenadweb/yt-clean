@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "未設定"
+  },
+  "feedback": {
+    "message": "報告 / 提案"
+  },
+  "feedback_title": {
+    "message": "報告 / 提案"
+  },
+  "feedback_problem": {
+    "message": "問題"
+  },
+  "feedback_feature": {
+    "message": "機能リクエスト"
+  },
+  "feedback_message": {
+    "message": "あなたのメッセージ"
+  },
+  "feedback_placeholder": {
+    "message": "問題とその再現方法について説明するか、追加したいことをお知らせください。"
+  },
+  "feedback_privacy": {
+    "message": "送信すると、PostHog 経由でメッセージと拡張機能のバージョンが開発者と共有されます。機密情報は含めないでください。"
+  },
+  "feedback_send": {
+    "message": "送信"
+  },
+  "feedback_sending": {
+    "message": "送信中…"
+  },
+  "feedback_success": {
+    "message": "ありがとうございます！フィードバックが送信されました。"
+  },
+  "feedback_error": {
+    "message": "送信を確認できませんでした。入力した内容はこのフォームに残っています。再試行するか、GitHub でお知らせください。"
+  },
+  "feedback_unavailable": {
+    "message": "このビルドではフィードバックは構成されていません。 GitHub で送信できます。"
   }
 }

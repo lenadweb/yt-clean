@@ -99,7 +99,7 @@ Wijzig individuele instellingen als uw behoeften veranderen, of gebruik de snelt
 
 Gratis en open source, met lokale instellingen
 
-Alle extensie-instellingen zijn beschikbaar zonder betaling of registratie. Er is geen abonnement, aftelling van de proefperiode, analyse of verzameling van persoonlijke gegevens. Voorkeuren worden lokaal in uw browser opgeslagen. De volledige broncode is beschikbaar op GitHub onder de MIT-licentie.
+Alle extensie-instellingen zijn beschikbaar zonder betaling of registratie. Er is geen abonnement, aftelling van de proefperiode of automatisch volgen van het gebruik. Voorkeuren worden lokaal in uw browser opgeslagen. Als u ervoor kiest om feedback te sturen, worden uw bericht en extensieversie via PostHog naar de ontwikkelaar verzonden. Er zijn geen browsegeschiedenis of accountgegevens bijgevoegd. De volledige broncode is beschikbaar op GitHub onder de MIT-licentie.
 
 Ontworpen voor de desktopwebsite in Chrome, met een interface beschikbaar in 52 talen. Het wijzigt de mobiele app niet. De meeste interface-opschoning maakt gebruik van CSS; afspelen en andere interactieve functies maken gebruik van lokaal JavaScript.
 

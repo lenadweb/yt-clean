@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Niet ingesteld"
+  },
+  "feedback": {
+    "message": "Melden / Voorstellen"
+  },
+  "feedback_title": {
+    "message": "Melden / Voorstellen"
+  },
+  "feedback_problem": {
+    "message": "Probleem"
+  },
+  "feedback_feature": {
+    "message": "Functieverzoek"
+  },
+  "feedback_message": {
+    "message": "Jouw bericht"
+  },
+  "feedback_placeholder": {
+    "message": "Beschrijf het probleem en hoe u het kunt reproduceren, of vertel ons wat u wilt toevoegen."
+  },
+  "feedback_privacy": {
+    "message": "Sending deelt uw bericht en extensieversie met de ontwikkelaar via PostHog. Neem geen gevoelige informatie op."
+  },
+  "feedback_send": {
+    "message": "Verzenden"
+  },
+  "feedback_sending": {
+    "message": "Verzenden…"
+  },
+  "feedback_success": {
+    "message": "Dank je! Uw feedback is verzonden."
+  },
+  "feedback_error": {
+    "message": "Kon de levering niet bevestigen. Uw tekst wordt hier opgeslagen. Probeer het opnieuw of gebruik GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Feedback is niet geconfigureerd in deze build. Je kunt het indienen op GitHub."
   }
 }

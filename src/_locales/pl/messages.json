@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nie ustawiono"
+  },
+  "feedback": {
+    "message": "Zgłoś / Zaproponuj"
+  },
+  "feedback_title": {
+    "message": "Zgłoś / Zaproponuj"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Żądanie funkcji"
+  },
+  "feedback_message": {
+    "message": "Twoja wiadomość"
+  },
+  "feedback_placeholder": {
+    "message": "Opisz problem i sposób jego odtworzenia lub powiedz nam, co chcesz dodać."
+  },
+  "feedback_privacy": {
+    "message": "Sending udostępnia programiście Twoją wiadomość i wersję rozszerzenia za pośrednictwem PostHog. Nie podawaj wrażliwych informacji."
+  },
+  "feedback_send": {
+    "message": "Wyślij"
+  },
+  "feedback_sending": {
+    "message": "Wysyłam…"
+  },
+  "feedback_success": {
+    "message": "Dziękuję! Twoja opinia została wysłana."
+  },
+  "feedback_error": {
+    "message": "Nie udało się potwierdzić dostawy. Twój tekst zostanie zapisany tutaj. Spróbuj ponownie lub użyj GitHuba."
+  },
+  "feedback_unavailable": {
+    "message": "W tej kompilacji nie skonfigurowano opinii. Możesz przesłać go na GitHubie."
   }
 }

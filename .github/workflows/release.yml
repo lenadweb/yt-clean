@@ -34,12 +34,25 @@ jobs:
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Check feedback configuration
+        if: steps.check.outputs.exists == 'false'
+        env:
+          VITE_POSTHOG_PROJECT_TOKEN: ${{ secrets.VITE_POSTHOG_PROJECT_TOKEN }}
+        run: |
+          if [[ -z "${VITE_POSTHOG_PROJECT_TOKEN//[[:space:]]/}" ]]; then
+            echo "::error::Set the repository secret VITE_POSTHOG_PROJECT_TOKEN before releasing. It is required for feedback submission."
+            exit 1
+          fi
+
       - name: Install dependencies
         if: steps.check.outputs.exists == 'false'
         run: npm ci
 
       - name: Build extension
         if: steps.check.outputs.exists == 'false'
+        env:
+          VITE_POSTHOG_PROJECT_TOKEN: ${{ secrets.VITE_POSTHOG_PROJECT_TOKEN }}
+          VITE_POSTHOG_HOST: ${{ secrets.VITE_POSTHOG_HOST || 'https://eu.i.posthog.com' }}
         run: |
           npx --no-install webpack --env platform=chrome
           npx --no-install webpack --env platform=opera

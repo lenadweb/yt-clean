@@ -99,7 +99,7 @@ Wählen Sie Leicht für eine kleinere Bereinigung oder Ausgewogen für einen bre
 
 Kostenlos und Open Source, mit lokalen Einstellungen
 
-Alle Erweiterungseinstellungen sind ohne Zahlung oder Registrierung verfügbar. Es gibt kein Abonnement, keinen Test-Countdown, keine Analyse oder Erfassung personenbezogener Daten. Präferenzen werden lokal in Ihrem Browser gespeichert. Der vollständige Quellcode ist auf GitHub unter der MIT-Lizenz verfügbar.
+Alle Erweiterungseinstellungen sind ohne Zahlung oder Registrierung verfügbar. Es gibt kein Abonnement, keinen Test-Countdown und keine automatische Nutzungsverfolgung. Präferenzen werden lokal in Ihrem Browser gespeichert. Wenn Sie sich dafür entscheiden, Feedback zu senden, werden Ihre Nachricht und die Erweiterungsversion über PostHog an den Entwickler gesendet. Es sind kein Browserverlauf oder Kontodaten angehängt. Der vollständige Quellcode ist auf GitHub unter der MIT-Lizenz verfügbar.
 
 Entwickelt für die Desktop-Website in Chrome, mit einer in 52 Sprachen verfügbaren Benutzeroberfläche. Die mobile App wird dadurch nicht verändert. Die meisten Schnittstellenbereinigungen verwenden CSS; Wiedergabe und andere interaktive Funktionen verwenden lokales JavaScript.
 

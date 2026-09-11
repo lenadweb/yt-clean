@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "সেট করা নেই"
+  },
+  "feedback": {
+    "message": "রিপোর্ট / পরামর্শ"
+  },
+  "feedback_title": {
+    "message": "রিপোর্ট / পরামর্শ"
+  },
+  "feedback_problem": {
+    "message": "সমস্যা"
+  },
+  "feedback_feature": {
+    "message": "বৈশিষ্ট্য অনুরোধ"
+  },
+  "feedback_message": {
+    "message": "আপনার বার্তা"
+  },
+  "feedback_placeholder": {
+    "message": "সমস্যাটি বর্ণনা করুন এবং কীভাবে এটি পুনরুত্পাদন করবেন, অথবা আপনি কী যোগ করতে চান তা আমাদের বলুন।"
+  },
+  "feedback_privacy": {
+    "message": "পোস্টহগের মাধ্যমে ডেভেলপারের সাথে আপনার বার্তা এবং এক্সটেনশন সংস্করণ শেয়ার করা পাঠানো হচ্ছে। সংবেদনশীল তথ্য অন্তর্ভুক্ত করবেন না।"
+  },
+  "feedback_send": {
+    "message": "পাঠান"
+  },
+  "feedback_sending": {
+    "message": "পাঠানো হচ্ছে..."
+  },
+  "feedback_success": {
+    "message": "ধন্যবাদ! আপনার প্রতিক্রিয়া পাঠানো হয়েছে."
+  },
+  "feedback_error": {
+    "message": "ডেলিভারি নিশ্চিত করা যায়নি। আপনার লেখা এখানে সংরক্ষিত আছে. আবার চেষ্টা করুন বা GitHub ব্যবহার করুন।"
+  },
+  "feedback_unavailable": {
+    "message": "এই বিল্ডে প্রতিক্রিয়া কনফিগার করা নেই। আপনি এটি GitHub এ জমা দিতে পারেন।"
   }
 }

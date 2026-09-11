@@ -99,7 +99,7 @@ Altere as definições individuais à medida que as suas necessidades mudam ou u
 
 Gratuito e de código aberto, com definições locais
 
-Todas as definições de extensão estão disponíveis sem pagamento ou registo. Não há subscrição, contagem decrescente de testes, análise ou recolha de dados pessoais. As preferências são guardadas localmente no seu browser. O código-fonte completo está disponível no GitHub sob a licença do MIT.
+Todas as definições de extensão estão disponíveis sem pagamento ou registo. Não há assinatura, contagem regressiva de teste ou rastreio automático de utilização. As preferências são guardadas localmente no seu browser. Se optar por enviar feedback, a sua mensagem e a versão da extensão serão enviadas para o programador via PostHog. Nenhum histórico de navegação ou detalhes da conta estão anexados. O código-fonte completo está disponível no GitHub sob a licença do MIT.
 
 Concebido para o site desktop no Chrome, com interface disponível em 52 idiomas. Não modifica a aplicação móvel. A maior parte da limpeza de interfaces utiliza CSS; a reprodução e outros recursos interativos utilizam JavaScript local.
 

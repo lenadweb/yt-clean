@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Hindi nakatakda"
+  },
+  "feedback": {
+    "message": "Mag-ulat / Magmungkahi"
+  },
+  "feedback_title": {
+    "message": "Mag-ulat / Magmungkahi"
+  },
+  "feedback_problem": {
+    "message": "Problema"
+  },
+  "feedback_feature": {
+    "message": "Kahilingan sa feature"
+  },
+  "feedback_message": {
+    "message": "Ang iyong mensahe"
+  },
+  "feedback_placeholder": {
+    "message": "Ilarawan ang problema at kung paano ito i-reproduce, o sabihin sa amin kung ano ang gusto mong idagdag."
+  },
+  "feedback_privacy": {
+    "message": "Ibinabahagi ng pagpapadala ang iyong mensahe at bersyon ng extension sa developer sa pamamagitan ng PostHog. Huwag isama ang sensitibong impormasyon."
+  },
+  "feedback_send": {
+    "message": "Ipadala"
+  },
+  "feedback_sending": {
+    "message": "Ipinapadala…"
+  },
+  "feedback_success": {
+    "message": "salamat po! Naipadala na ang iyong feedback."
+  },
+  "feedback_error": {
+    "message": "Hindi makumpirma ang paghahatid. Ang iyong text ay naka-save dito. Subukang muli o gamitin ang GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Hindi naka-configure ang feedback sa build na ito. Maaari mo itong isumite sa GitHub."
   }
 }

@@ -99,7 +99,7 @@ Mainoties vajadzībām, mainiet atsevišķus iestatījumus vai izmantojiet papla
 
 Bezmaksas un atvērtā koda ar vietējiem iestatījumiem
 
-Visi paplašinājuma iestatījumi ir pieejami bez maksājuma vai reģistrācijas. Nav abonēšanas, izmēģinājuma laika atpakaļskaitīšanas, analītikas vai personas datu vākšanas. Preferences tiek saglabātas lokāli jūsu pārlūkprogrammā. Pilns pirmkods ir pieejams GitHub saskaņā ar MIT licenci.
+Visi paplašinājuma iestatījumi ir pieejami bez maksājuma vai reģistrācijas. Nav abonēšanas, izmēģinājuma laika atpakaļskaitīšanas vai automātiskas lietošanas izsekošanas. Preferences tiek saglabātas lokāli jūsu pārlūkprogrammā. Ja izvēlaties sūtīt atsauksmes, jūsu ziņojums un paplašinājuma versija tiek nosūtīta izstrādātājam, izmantojot PostHog. Nav pievienota pārlūkošanas vēsture vai konta informācija. Pilns pirmkods ir pieejams GitHub saskaņā ar MIT licenci.
 
 Paredzēts darbvirsmas vietnei pārlūkā Chrome, un saskarne ir pieejama 52 valodās. Tas nemaina mobilo lietotni. Lielākā daļa saskarnes tīrīšanas izmanto CSS; atskaņošana un citas interaktīvās funkcijas izmanto vietējo JavaScript.
 

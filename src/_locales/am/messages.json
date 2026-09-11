@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "አልተመደበም"
+  },
+  "feedback": {
+    "message": "ሪፖርት / ሀሳብ"
+  },
+  "feedback_title": {
+    "message": "ሪፖርት / ሀሳብ"
+  },
+  "feedback_problem": {
+    "message": "ችግር"
+  },
+  "feedback_feature": {
+    "message": "የባህሪ ጥያቄ"
+  },
+  "feedback_message": {
+    "message": "መልእክትህ"
+  },
+  "feedback_placeholder": {
+    "message": "ችግሩን እና እንዴት እንደገና ማባዛት እንደሚቻል ይግለጹ ወይም ምን ማከል እንደሚፈልጉ ይንገሩን."
+  },
+  "feedback_privacy": {
+    "message": "በPostHog በኩል የእርስዎን መልዕክት እና የኤክስቴንሽን ስሪት ከገንቢው ጋር በመላክ ላይ። ሚስጥራዊነት ያለው መረጃ አያካትቱ።"
+  },
+  "feedback_send": {
+    "message": "ላክ"
+  },
+  "feedback_sending": {
+    "message": "በመላክ ላይ…"
+  },
+  "feedback_success": {
+    "message": "አመሰግናለሁ! አስተያየትህ ተልኳል።"
+  },
+  "feedback_error": {
+    "message": "መላክን ማረጋገጥ አልተቻለም። የእርስዎ ጽሑፍ እዚህ ተቀምጧል። እንደገና ይሞክሩ ወይም GitHubን ይጠቀሙ።"
+  },
+  "feedback_unavailable": {
+    "message": "ግብረመልስ በዚህ ግንባታ ውስጥ አልተዋቀረም። በ GitHub ላይ ማስገባት ይችላሉ።"
   }
 }

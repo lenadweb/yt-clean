@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Sense assignar"
+  },
+  "feedback": {
+    "message": "Informa / Proposa"
+  },
+  "feedback_title": {
+    "message": "Informa / Proposa"
+  },
+  "feedback_problem": {
+    "message": "Problema"
+  },
+  "feedback_feature": {
+    "message": "Sol·licitud de funció"
+  },
+  "feedback_message": {
+    "message": "El teu missatge"
+  },
+  "feedback_placeholder": {
+    "message": "Descriu el problema i com reproduir-lo, o digues-nos què vols afegir."
+  },
+  "feedback_privacy": {
+    "message": "L'enviament comparteix el vostre missatge i la versió de l'extensió amb el desenvolupador a través de PostHog. No incloure informació sensible."
+  },
+  "feedback_send": {
+    "message": "Enviar"
+  },
+  "feedback_sending": {
+    "message": "S'està enviant…"
+  },
+  "feedback_success": {
+    "message": "Gràcies! S'han enviat els vostres comentaris."
+  },
+  "feedback_error": {
+    "message": "No s'ha pogut confirmar el lliurament. El teu text està desat aquí. Torna-ho a provar o utilitza GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Els comentaris no estan configurats en aquesta compilació. Podeu enviar-lo a GitHub."
   }
 }

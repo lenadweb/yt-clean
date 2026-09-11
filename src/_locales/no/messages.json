@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Ikke angitt"
+  },
+  "feedback": {
+    "message": "Rapporter / Foreslå"
+  },
+  "feedback_title": {
+    "message": "Rapporter / Foreslå"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Funksjonsforespørsel"
+  },
+  "feedback_message": {
+    "message": "Din melding"
+  },
+  "feedback_placeholder": {
+    "message": "Beskriv problemet og hvordan du kan gjenskape det, eller fortell oss hva du vil legge til."
+  },
+  "feedback_privacy": {
+    "message": "Sending deler meldingen og utvidelsesversjonen din med utvikleren via PostHog. Ikke ta med sensitiv informasjon."
+  },
+  "feedback_send": {
+    "message": "Send"
+  },
+  "feedback_sending": {
+    "message": "Sender …"
+  },
+  "feedback_success": {
+    "message": "Takk! Din tilbakemelding er sendt."
+  },
+  "feedback_error": {
+    "message": "Kunne ikke bekrefte levering. Teksten din er lagret her. Prøv igjen eller bruk GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Tilbakemelding er ikke konfigurert i denne versjonen. Du kan sende den inn på GitHub."
   }
 }

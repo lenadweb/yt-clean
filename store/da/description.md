@@ -99,7 +99,7 @@ Skift individuelle indstillinger, efterhånden som dine behov ændrer sig, eller
 
 Gratis og open source med lokale indstillinger
 
-Alle udvidelsesindstillinger er tilgængelige uden betaling eller registrering. Der er ingen abonnement, prøvenedtælling, analyser eller indsamling af personlige data. Præferencer gemmes lokalt i din browser. Den fulde kildekode er tilgængelig på GitHub under MIT-licensen.
+Alle udvidelsesindstillinger er tilgængelige uden betaling eller registrering. Der er intet abonnement, prøvenedtælling eller automatisk brugssporing. Præferencer gemmes lokalt i din browser. Hvis du vælger at sende feedback, sendes din besked og udvidelsesversion til udvikleren via PostHog. Der er ikke vedhæftet nogen browserhistorik eller kontooplysninger. Den fulde kildekode er tilgængelig på GitHub under MIT-licensen.
 
 Designet til computerwebstedet i Chrome, med en grænseflade tilgængelig på 52 sprog. Det ændrer ikke mobilappen. De fleste grænsefladeoprydninger bruger CSS; afspilning og andre interaktive funktioner bruger lokal JavaScript.
 

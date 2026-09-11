@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "सेट केलेले नाही"
+  },
+  "feedback": {
+    "message": "रिपोर्ट / सूचना"
+  },
+  "feedback_title": {
+    "message": "रिपोर्ट / सूचना"
+  },
+  "feedback_problem": {
+    "message": "समस्या"
+  },
+  "feedback_feature": {
+    "message": "वैशिष्ट्य विनंती"
+  },
+  "feedback_message": {
+    "message": "तुमचा संदेश"
+  },
+  "feedback_placeholder": {
+    "message": "समस्येचे वर्णन करा आणि त्याचे पुनरुत्पादन कसे करावे किंवा आपण काय जोडू इच्छिता ते आम्हाला सांगा."
+  },
+  "feedback_privacy": {
+    "message": "पोस्टहॉगद्वारे विकसकासह तुमचा संदेश आणि विस्तार आवृत्ती पाठवणे. संवेदनशील माहिती समाविष्ट करू नका."
+  },
+  "feedback_send": {
+    "message": "पाठवा"
+  },
+  "feedback_sending": {
+    "message": "पाठवत आहे..."
+  },
+  "feedback_success": {
+    "message": "धन्यवाद! तुमचा अभिप्राय पाठवला आहे."
+  },
+  "feedback_error": {
+    "message": "वितरणाची पुष्टी करू शकलो नाही. तुमचा मजकूर येथे सेव्ह केला आहे. पुन्हा प्रयत्न करा किंवा GitHub वापरा."
+  },
+  "feedback_unavailable": {
+    "message": "या बिल्डमध्ये फीडबॅक कॉन्फिगर केलेला नाही. तुम्ही ते GitHub वर सबमिट करू शकता."
   }
 }

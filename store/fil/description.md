@@ -99,7 +99,7 @@ Lumipat ng mga indibidwal na setting habang nagbabago ang iyong mga pangangailan
 
 Libre at open source, na may mga lokal na setting
 
-Ang lahat ng mga setting ng extension ay magagamit nang walang bayad o pagpaparehistro. Walang subscription, trial countdown, analytics o personal na pangongolekta ng data. Ang mga kagustuhan ay lokal na nakaimbak sa iyong browser. Ang buong source code ay available sa GitHub sa ilalim ng lisensya ng MIT.
+Ang lahat ng mga setting ng extension ay magagamit nang walang bayad o pagpaparehistro. Walang subscription, trial countdown o awtomatikong pagsubaybay sa paggamit. Ang mga kagustuhan ay lokal na nakaimbak sa iyong browser. Kung pipiliin mong magpadala ng feedback, ang iyong mensahe at bersyon ng extension ay ipapadala sa developer sa pamamagitan ng PostHog. Walang kasaysayan sa pagba-browse o mga detalye ng account na naka-attach. Ang buong source code ay available sa GitHub sa ilalim ng lisensya ng MIT.
 
 Idinisenyo para sa desktop website sa Chrome, na may magagamit na interface sa 52 wika. Hindi nito binabago ang mobile app. Karamihan sa paglilinis ng interface ay gumagamit ng CSS; Ang playback at iba pang interactive na feature ay gumagamit ng lokal na JavaScript.
 

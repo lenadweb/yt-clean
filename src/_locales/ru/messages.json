@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Не назначено"
+  },
+  "feedback": {
+    "message": "Сообщить / Предложить"
+  },
+  "feedback_title": {
+    "message": "Сообщить / Предложить"
+  },
+  "feedback_problem": {
+    "message": "Проблема"
+  },
+  "feedback_feature": {
+    "message": "Предложение"
+  },
+  "feedback_message": {
+    "message": "Ваше сообщение"
+  },
+  "feedback_placeholder": {
+    "message": "Опишите проблему и шаги для её повторения или расскажите, какую функцию хотите добавить."
+  },
+  "feedback_privacy": {
+    "message": "При отправке разработчик получит текст сообщения и версию расширения через PostHog. Не указывайте конфиденциальные данные."
+  },
+  "feedback_send": {
+    "message": "Отправить"
+  },
+  "feedback_sending": {
+    "message": "Отправка…"
+  },
+  "feedback_success": {
+    "message": "Спасибо! Ваше сообщение отправлено."
+  },
+  "feedback_error": {
+    "message": "Не удалось подтвердить доставку. Текст сохранён в этой форме. Попробуйте ещё раз или напишите на GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "В этой сборке отправка отзывов не настроена. Вы можете написать на GitHub."
   }
 }

@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nenustatyta"
+  },
+  "feedback": {
+    "message": "Pranešti / Pasiūlyti"
+  },
+  "feedback_title": {
+    "message": "Pranešti / Pasiūlyti"
+  },
+  "feedback_problem": {
+    "message": "Problema"
+  },
+  "feedback_feature": {
+    "message": "Funkcijos užklausa"
+  },
+  "feedback_message": {
+    "message": "Jūsų žinutė"
+  },
+  "feedback_placeholder": {
+    "message": "Aprašykite problemą ir kaip ją atkurti, arba pasakykite, ką norėtumėte pridėti."
+  },
+  "feedback_privacy": {
+    "message": "Siuntimas bendrina jūsų pranešimą ir plėtinio versiją su kūrėju per PostHog. Neįtraukite neskelbtinos informacijos."
+  },
+  "feedback_send": {
+    "message": "Siųsti"
+  },
+  "feedback_sending": {
+    "message": "Siunčiama…"
+  },
+  "feedback_success": {
+    "message": "Ačiū! Jūsų atsiliepimas išsiųstas."
+  },
+  "feedback_error": {
+    "message": "Nepavyko patvirtinti pristatymo. Jūsų tekstas išsaugomas čia. Bandykite dar kartą arba naudokite „GitHub“."
+  },
+  "feedback_unavailable": {
+    "message": "Šioje versijoje atsiliepimai nesukonfigūruoti. Jį galite pateikti „GitHub“."
   }
 }

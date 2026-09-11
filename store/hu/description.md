@@ -99,7 +99,7 @@ Változtassa meg az egyes beállításokat az igényeinek megfelelően, vagy has
 
 Ingyenes és nyílt forráskódú, helyi beállításokkal
 
-Minden bővítmény-beállítás fizetés vagy regisztráció nélkül elérhető. Nincs előfizetés, próbaverzió visszaszámlálás, elemzés vagy személyes adatgyűjtés. A beállításokat a böngésző helyileg tárolja. A teljes forráskód elérhető a GitHubon az MIT licenc alatt.
+Minden bővítmény-beállítás fizetés vagy regisztráció nélkül elérhető. Nincs előfizetés, próbaverzió visszaszámlálás vagy automatikus használat követés. A beállításokat a böngésző helyileg tárolja. Ha úgy dönt, hogy visszajelzést küld, az üzenetet és a bővítmény verzióját a PostHog-on keresztül elküldjük a fejlesztőnek. Nincsenek csatolva böngészési előzmények vagy fiókadatok. A teljes forráskód elérhető a GitHubon az MIT licenc alatt.
 
 A Chrome asztali webhelyéhez tervezve, 52 nyelven elérhető felülettel. Nem módosítja a mobilalkalmazást. A legtöbb felülettisztítás CSS-t használ; lejátszás és egyéb interaktív funkciók helyi JavaScriptet használnak.
 

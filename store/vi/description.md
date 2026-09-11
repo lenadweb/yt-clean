@@ -99,7 +99,7 @@ Chuyển đổi cài đặt riêng lẻ khi nhu cầu của bạn thay đổi ho
 
 Nguồn mở và miễn phí, với cài đặt cục bộ
 
-Tất cả các cài đặt tiện ích mở rộng đều có sẵn mà không cần thanh toán hoặc đăng ký. Không có đăng ký, đếm ngược dùng thử, phân tích hoặc thu thập dữ liệu cá nhân. Tùy chọn được lưu trữ cục bộ trong trình duyệt của bạn. Mã nguồn đầy đủ có sẵn trên GitHub theo giấy phép MIT.
+Tất cả các cài đặt tiện ích mở rộng đều có sẵn mà không cần thanh toán hoặc đăng ký. Không có đăng ký, đếm ngược dùng thử hoặc theo dõi sử dụng tự động. Tùy chọn được lưu trữ cục bộ trong trình duyệt của bạn. Nếu bạn chọn gửi phản hồi, tin nhắn và phiên bản tiện ích mở rộng của bạn sẽ được gửi tới nhà phát triển qua PostHog. Không có lịch sử duyệt web hoặc chi tiết tài khoản được đính kèm. Mã nguồn đầy đủ có sẵn trên GitHub theo giấy phép MIT.
 
 Được thiết kế cho trang web trên máy tính để bàn trong Chrome, với giao diện có sẵn bằng 52 ngôn ngữ. Nó không sửa đổi ứng dụng di động. Hầu hết việc dọn dẹp giao diện đều sử dụng CSS; phát lại và các tính năng tương tác khác sử dụng JavaScript cục bộ.
 

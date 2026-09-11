@@ -99,7 +99,7 @@ Comutați setările individuale pe măsură ce nevoile dvs. se schimbă sau util
 
 Gratuit și open source, cu setări locale
 
-Toate setările extensiei sunt disponibile fără plată sau înregistrare. Nu există abonament, numărătoare inversă de probă, analize sau colectare de date personale. Preferințele sunt stocate local în browserul dvs. Codul sursă complet este disponibil pe GitHub sub licența MIT.
+Toate setările extensiei sunt disponibile fără plată sau înregistrare. Nu există abonament, numărătoare inversă de probă sau urmărire automată a utilizării. Preferințele sunt stocate local în browserul dvs. Dacă alegeți să trimiteți feedback, mesajul și versiunea extensiei sunt trimise dezvoltatorului prin PostHog. Nu sunt atașate istoric de navigare sau detalii de cont. Codul sursă complet este disponibil pe GitHub sub licența MIT.
 
 Proiectat pentru site-ul web desktop în Chrome, cu o interfață disponibilă în 52 de limbi. Nu modifică aplicația mobilă. Majoritatea curățării interfeței utilizează CSS; redarea și alte caracteristici interactive folosesc JavaScript local.
 

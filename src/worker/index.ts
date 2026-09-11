@@ -1,10 +1,13 @@
 import { isOpera } from 'src/shared/utils/browser';
+import { registerFeedbackListener } from './feedback';
 import {
     EXTENSION_ENABLED_BY_DEFAULT,
     TOGGLE_EXTENSION_COMMAND,
 } from 'src/shared/const';
 
 let commandQueue = Promise.resolve();
+
+registerFeedbackListener();
 
 const toggleExtension = async (): Promise<void> => {
     const { isEnabled = EXTENSION_ENABLED_BY_DEFAULT } =

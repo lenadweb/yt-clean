@@ -99,7 +99,7 @@ Bytt individuelle innstillinger etter hvert som behovene dine endres, eller bruk
 
 Gratis og åpen kildekode, med lokale innstillinger
 
-Alle utvidelsesinnstillinger er tilgjengelige uten betaling eller registrering. Det er ingen abonnement, prøvenedtelling, analyser eller innsamling av personlige data. Preferansene lagres lokalt i nettleseren din. Den fullstendige kildekoden er tilgjengelig på GitHub under MIT-lisensen.
+Alle utvidelsesinnstillinger er tilgjengelige uten betaling eller registrering. Det er ingen abonnement, nedtelling av prøveperioder eller automatisk brukssporing. Preferansene lagres lokalt i nettleseren din. Hvis du velger å sende tilbakemelding, sendes meldingen og utvidelsesversjonen til utvikleren via PostHog. Ingen nettleserhistorikk eller kontodetaljer er vedlagt. Den fullstendige kildekoden er tilgjengelig på GitHub under MIT-lisensen.
 
 Designet for skrivebordsnettstedet i Chrome, med et grensesnitt tilgjengelig på 52 språk. Den endrer ikke mobilappen. De fleste grensesnittrydding bruker CSS; avspilling og andre interaktive funksjoner bruker lokal JavaScript.
 

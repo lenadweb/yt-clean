@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Sin asignar"
+  },
+  "feedback": {
+    "message": "Reportar / Sugerir"
+  },
+  "feedback_title": {
+    "message": "Reportar / Sugerir"
+  },
+  "feedback_problem": {
+    "message": "problema"
+  },
+  "feedback_feature": {
+    "message": "Solicitud de función"
+  },
+  "feedback_message": {
+    "message": "tu mensaje"
+  },
+  "feedback_placeholder": {
+    "message": "Describe el problema y cómo reproducirlo, o cuéntanos qué te gustaría agregar."
+  },
+  "feedback_privacy": {
+    "message": "El envío comparte su mensaje y la versión de la extensión con el desarrollador a través de PostHog. No incluya información sensible."
+  },
+  "feedback_send": {
+    "message": "enviar"
+  },
+  "feedback_sending": {
+    "message": "Enviando…"
+  },
+  "feedback_success": {
+    "message": "¡Gracias! Tus comentarios han sido enviados."
+  },
+  "feedback_error": {
+    "message": "No se pudo confirmar el envío. Tu texto sigue en este formulario. Inténtalo de nuevo o escríbenos en GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Los comentarios no están configurados en esta compilación. Puedes enviarlo en GitHub."
   }
 }

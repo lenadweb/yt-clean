@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Ayarlanmadı"
+  },
+  "feedback": {
+    "message": "Bildir / Öner"
+  },
+  "feedback_title": {
+    "message": "Bildir / Öner"
+  },
+  "feedback_problem": {
+    "message": "Sorun"
+  },
+  "feedback_feature": {
+    "message": "Özellik isteği"
+  },
+  "feedback_message": {
+    "message": "Mesajınız"
+  },
+  "feedback_placeholder": {
+    "message": "Sorunu ve nasıl yeniden oluşturulacağını açıklayın veya bize ne eklemek istediğinizi söyleyin."
+  },
+  "feedback_privacy": {
+    "message": "Sending, mesajınızı ve uzantı sürümünüzü PostHog aracılığıyla geliştiriciyle paylaşır. Hassas bilgileri eklemeyin."
+  },
+  "feedback_send": {
+    "message": "Gönder"
+  },
+  "feedback_sending": {
+    "message": "Gönderiliyor…"
+  },
+  "feedback_success": {
+    "message": "Teşekkür ederim! Geri bildiriminiz gönderildi."
+  },
+  "feedback_error": {
+    "message": "Teslimat onaylanamadı. Metniniz buraya kaydedilir. Tekrar deneyin veya GitHub'u kullanın."
+  },
+  "feedback_unavailable": {
+    "message": "Bu yapıda geri bildirim yapılandırılmadı. GitHub'a gönderebilirsiniz."
   }
 }

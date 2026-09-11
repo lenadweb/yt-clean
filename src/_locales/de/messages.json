@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nicht festgelegt"
+  },
+  "feedback": {
+    "message": "Melden / Vorschlagen"
+  },
+  "feedback_title": {
+    "message": "Melden / Vorschlagen"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Funktionswunsch"
+  },
+  "feedback_message": {
+    "message": "Ihre Nachricht"
+  },
+  "feedback_placeholder": {
+    "message": "Beschreiben Sie das Problem und wie Sie es reproduzieren können, oder teilen Sie uns mit, was Sie hinzufügen möchten."
+  },
+  "feedback_privacy": {
+    "message": "Beim Senden werden Ihre Nachricht und die Erweiterungsversion über PostHog an den Entwickler weitergegeben. Geben Sie keine vertraulichen Informationen an."
+  },
+  "feedback_send": {
+    "message": "Senden"
+  },
+  "feedback_sending": {
+    "message": "Senden…"
+  },
+  "feedback_success": {
+    "message": "Vielen Dank! Ihr Feedback wurde gesendet."
+  },
+  "feedback_error": {
+    "message": "Der Versand konnte nicht bestätigt werden. Ihr Text bleibt in diesem Formular. Versuchen Sie es erneut oder schreiben Sie auf GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Feedback ist in diesem Build nicht konfiguriert. Sie können es auf GitHub einreichen."
   }
 }

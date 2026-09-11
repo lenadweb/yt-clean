@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "未設定"
+  },
+  "feedback": {
+    "message": "回報 / 建議"
+  },
+  "feedback_title": {
+    "message": "回報 / 建議"
+  },
+  "feedback_problem": {
+    "message": "問題"
+  },
+  "feedback_feature": {
+    "message": "功能請求"
+  },
+  "feedback_message": {
+    "message": "您的留言"
+  },
+  "feedback_placeholder": {
+    "message": "描述問題以及如何重現問題，或告訴我們您想要添加的內容。"
+  },
+  "feedback_privacy": {
+    "message": "發送透過 PostHog 與開發人員分享您的訊息和擴充版本。請勿包含敏感資訊。"
+  },
+  "feedback_send": {
+    "message": "傳送"
+  },
+  "feedback_sending": {
+    "message": "正在發送..."
+  },
+  "feedback_success": {
+    "message": "謝謝！您的回饋已發送。"
+  },
+  "feedback_error": {
+    "message": "無法確認傳送成功。您輸入的內容仍保留在此表單中。請重試或透過 GitHub 提交。"
+  },
+  "feedback_unavailable": {
+    "message": "此版本中未配置回饋。您可以在 GitHub 上提交。"
   }
 }

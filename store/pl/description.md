@@ -99,7 +99,7 @@ Przełączaj poszczególne ustawienia w miarę zmieniających się potrzeb lub u
 
 Darmowe i otwarte oprogramowanie z ustawieniami lokalnymi
 
-Wszystkie ustawienia rozszerzeń są dostępne bez konieczności dokonywania płatności i rejestracji. Nie ma subskrypcji, odliczania okresu próbnego, analiz ani gromadzenia danych osobowych. Preferencje są przechowywane lokalnie w Twojej przeglądarce. Pełny kod źródłowy jest dostępny na GitHubie na licencji MIT.
+Wszystkie ustawienia rozszerzeń są dostępne bez konieczności dokonywania płatności i rejestracji. Nie ma subskrypcji, odliczania okresu próbnego ani automatycznego śledzenia użytkowania. Preferencje są przechowywane lokalnie w Twojej przeglądarce. Jeśli zdecydujesz się wysłać opinię, Twoja wiadomość i wersja rozszerzenia zostaną przesłane do programisty za pośrednictwem PostHog. Żadna historia przeglądania ani szczegóły konta nie są dołączone. Pełny kod źródłowy jest dostępny na GitHubie na licencji MIT.
 
 Zaprojektowany dla strony internetowej na komputery stacjonarne w przeglądarce Chrome, z interfejsem dostępnym w 52 językach. Nie modyfikuje aplikacji mobilnej. Większość czyszczenia interfejsu wykorzystuje CSS; odtwarzanie i inne funkcje interaktywne wykorzystują lokalny JavaScript.
 

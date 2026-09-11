@@ -99,7 +99,7 @@ Badili mipangilio mahususi mahitaji yako yanapobadilika, au tumia njia ya mkato 
 
 Bure na chanzo huria, mipangilio huhifadhiwa kwenye kivinjari
 
-Mipangilio yote ya kiendelezi inapatikana bila malipo au usajili. Hakuna usajili, muda wa majaribio, uchanganuzi au mkusanyiko wa data ya kibinafsi. Mapendeleo yanahifadhiwa kwenye kivinjari chako. Nambari kamili ya chanzo inapatikana kwenye GitHub chini ya leseni ya MIT.
+Mipangilio yote ya kiendelezi inapatikana bila malipo au usajili. Hakuna usajili, hesabu ya muda wa majaribio au ufuatiliaji wa matumizi kiotomatiki. Mapendeleo yanahifadhiwa kwenye kivinjari chako. Ukichagua kutuma maoni, ujumbe wako na toleo la kiendelezi hutumwa kwa msanidi programu kupitia PostHog. Hakuna historia ya kuvinjari au maelezo ya akaunti yaliyoambatishwa. Nambari kamili ya chanzo inapatikana kwenye GitHub chini ya leseni ya MIT.
 
 Imeundwa kwa ajili ya tovuti ya eneo-kazi katika Chrome, yenye kiolesura kinachopatikana katika lugha 52. Haibadilishi programu ya simu. Usafishaji mwingi wa kiolesura hutumia CSS; uchezaji na vipengele vingine vinavyoingiliana hutumia JavaScript ya ndani.
 

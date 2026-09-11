@@ -99,7 +99,7 @@ Spremenite posamezne nastavitve, ko se spremenijo vaše potrebe, ali uporabite b
 
 Brezplačno in odprtokodno, z lokalnimi nastavitvami
 
-Vse nastavitve razširitve so na voljo brez plačila ali registracije. Ni naročnine, poskusnega odštevanja, analitike ali zbiranja osebnih podatkov. Nastavitve so shranjene lokalno v vašem brskalniku. Celotna izvorna koda je na voljo na GitHubu pod licenco MIT.
+Vse nastavitve razširitve so na voljo brez plačila ali registracije. Ni naročnine, preskusnega odštevanja ali samodejnega sledenja uporabi. Nastavitve so shranjene lokalno v vašem brskalniku. Če se odločite poslati povratne informacije, se vaše sporočilo in različica razširitve pošljeta razvijalcu prek PostHog. Priložena ni nobena zgodovina brskanja ali podrobnosti o računu. Celotna izvorna koda je na voljo na GitHubu pod licenco MIT.
 
 Zasnovan za namizno spletno mesto v Chromu z vmesnikom, ki je na voljo v 52 jezikih. Ne spreminja mobilne aplikacije. Večina čiščenja vmesnika uporablja CSS; predvajanje in druge interaktivne funkcije uporabljajo lokalni JavaScript.
 

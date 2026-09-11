@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "غير معيّن"
+  },
+  "feedback": {
+    "message": "إبلاغ / اقتراح"
+  },
+  "feedback_title": {
+    "message": "إبلاغ / اقتراح"
+  },
+  "feedback_problem": {
+    "message": "مشكلة"
+  },
+  "feedback_feature": {
+    "message": "طلب الميزة"
+  },
+  "feedback_message": {
+    "message": "رسالتك"
+  },
+  "feedback_placeholder": {
+    "message": "قم بوصف المشكلة وكيفية إعادة إنتاجها، أو أخبرنا بما ترغب في إضافته."
+  },
+  "feedback_privacy": {
+    "message": "يقوم الإرسال بمشاركة رسالتك وإصدار الامتداد مع المطور عبر PostHog. لا تقم بتضمين معلومات حساسة."
+  },
+  "feedback_send": {
+    "message": "أرسل"
+  },
+  "feedback_sending": {
+    "message": "جارٍ الإرسال..."
+  },
+  "feedback_success": {
+    "message": "شكرا لك! لقد تم إرسال ملاحظاتك."
+  },
+  "feedback_error": {
+    "message": "لا يمكن تأكيد التسليم. يتم حفظ النص الخاص بك هنا. حاول مرة أخرى أو استخدم GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "لم يتم تكوين التعليقات في هذا الإصدار. يمكنك تقديمه على جيثب."
   }
 }

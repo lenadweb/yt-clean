@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Не е зададено"
+  },
+  "feedback": {
+    "message": "Проблем / Идея"
+  },
+  "feedback_title": {
+    "message": "Проблем / Идея"
+  },
+  "feedback_problem": {
+    "message": "проблем"
+  },
+  "feedback_feature": {
+    "message": "Заявка за функция"
+  },
+  "feedback_message": {
+    "message": "Вашето съобщение"
+  },
+  "feedback_placeholder": {
+    "message": "Опишете проблема и как да го възпроизведете или ни кажете какво искате да добавите."
+  },
+  "feedback_privacy": {
+    "message": "Изпращането споделя вашето съобщение и версия на разширението с разработчика чрез PostHog. Не включвайте чувствителна информация."
+  },
+  "feedback_send": {
+    "message": "Изпратете"
+  },
+  "feedback_sending": {
+    "message": "Изпращане..."
+  },
+  "feedback_success": {
+    "message": "благодаря ви Вашата обратна връзка е изпратена."
+  },
+  "feedback_error": {
+    "message": "Доставката не може да бъде потвърдена. Вашият текст е запазен тук. Опитайте отново или използвайте GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Обратната връзка не е конфигурирана в тази компилация. Можете да го изпратите на GitHub."
   }
 }

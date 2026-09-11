@@ -71,6 +71,44 @@ npm test
 npm run format
 ```
 
+### Manual feedback (PostHog)
+
+Copy `.env.example` to `.env` and set `VITE_POSTHOG_PROJECT_TOKEN` to your
+PostHog **public project token**. Set `VITE_POSTHOG_HOST` to the HTTPS ingestion
+host for that project (defaults to `https://eu.i.posthog.com`). Rebuild after
+changing either value. These Vite-compatible names match `ai-usage-extension`;
+this project's webpack build loads them using dotenv. Environment variables
+override `.env`; `.env.example` is never loaded as runtime configuration.
+
+For GitHub Actions, add repository secrets under **Settings → Secrets and
+variables → Actions**: `VITE_POSTHOG_PROJECT_TOKEN` (required for releases) and
+`VITE_POSTHOG_HOST` (optional; the EU ingestion host is the default). CI and
+release workflows pass these directly to the build environment. Release checks
+for an empty token before building Chrome and Opera archives. CI can still
+build without feedback configuration, including pull requests from forks.
+
+The feedback button beside “View on GitHub” opens a problem / feature request
+form. The background worker sends `problem_reported` or `feature_requested`
+through the [PostHog Capture API](https://posthog.com/docs/api/capture), only
+when the user presses Send. Find reports in PostHog Events and inspect the
+`message`, `feedback_type`, `app_version` and `app: youtube-clean` properties.
+Successful submission requires an acknowledged HTTP response; errors preserve
+the draft in the open panel and offer a GitHub issue link. Drafts are not
+persisted after the panel closes. No token means sending is unavailable, with
+the same GitHub fallback. Requests use ordinary CORS with credentials omitted;
+PostHog Cloud allows the extension origin, POST and the Content-Type header.
+No PostHog host permission is added to the Chrome or Opera manifest. A custom
+ingestion host must also allow these CORS requests and expose its response.
+
+No analytics SDK, automatic events, session recordings, browsing history,
+account details or settings are collected. Each report has a new random ID;
+person profiles and GeoIP enrichment are disabled. The message, its type and
+the extension version are sent with basic event metadata. PostHog receives
+the network request (including the sender's IP address at the transport layer).
+Users should not include sensitive information in their message. Store
+descriptions disclose this optional feedback; keep any published privacy
+policy and store data-use disclosures consistent when releasing this feature.
+
 ## How it works
 
 Everything is driven by a declarative feature config — you describe _what_ a

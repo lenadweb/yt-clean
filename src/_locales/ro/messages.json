@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nesetat"
+  },
+  "feedback": {
+    "message": "Raportează / Sugerează"
+  },
+  "feedback_title": {
+    "message": "Raportează / Sugerează"
+  },
+  "feedback_problem": {
+    "message": "Problemă"
+  },
+  "feedback_feature": {
+    "message": "Cerere de caracteristici"
+  },
+  "feedback_message": {
+    "message": "Mesajul dvs"
+  },
+  "feedback_placeholder": {
+    "message": "Descrieți problema și cum să o reproduceți sau spuneți-ne ce doriți să adăugați."
+  },
+  "feedback_privacy": {
+    "message": "Trimiterea distribuie mesajul și versiunea extensiei cu dezvoltatorul prin PostHog. Nu includeți informații sensibile."
+  },
+  "feedback_send": {
+    "message": "Trimite"
+  },
+  "feedback_sending": {
+    "message": "Se trimite…"
+  },
+  "feedback_success": {
+    "message": "Multumesc! Feedback-ul dvs. a fost trimis."
+  },
+  "feedback_error": {
+    "message": "Nu s-a putut confirma livrarea. Textul dvs. este salvat aici. Încercați din nou sau utilizați GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Feedback-ul nu este configurat în această versiune. Îl poți trimite pe GitHub."
   }
 }

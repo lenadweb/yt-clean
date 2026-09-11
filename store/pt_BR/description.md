@@ -99,7 +99,7 @@ Altere as configurações individuais conforme suas necessidades mudam ou use o 
 
 Gratuito e de código aberto, com configurações locais
 
-Todas as configurações de extensão estão disponíveis sem pagamento ou registro. Não há assinatura, contagem regressiva de teste, análise ou coleta de dados pessoais. As preferências são armazenadas localmente no seu navegador. O código-fonte completo está disponível no GitHub sob a licença do MIT.
+Todas as configurações de extensão estão disponíveis sem pagamento ou registro. Não há assinatura, contagem regressiva de teste ou rastreamento automático de uso. As preferências são armazenadas localmente no seu navegador. Se você optar por enviar feedback, sua mensagem e a versão da extensão serão enviadas ao desenvolvedor via PostHog. Nenhum histórico de navegação ou detalhes da conta estão anexados. O código-fonte completo está disponível no GitHub sob a licença do MIT.
 
 Projetado para o site desktop no Chrome, com interface disponível em 52 idiomas. Não modifica o aplicativo móvel. A maior parte da limpeza de interface usa CSS; a reprodução e outros recursos interativos usam JavaScript local.
 

@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Ei määritetty"
+  },
+  "feedback": {
+    "message": "Ilmoita / Ehdota"
+  },
+  "feedback_title": {
+    "message": "Ilmoita / Ehdota"
+  },
+  "feedback_problem": {
+    "message": "Ongelma"
+  },
+  "feedback_feature": {
+    "message": "Ominaisuuspyyntö"
+  },
+  "feedback_message": {
+    "message": "Sinun viestisi"
+  },
+  "feedback_placeholder": {
+    "message": "Kuvaile ongelmaa ja kuinka se toistetaan, tai kerro meille, mitä haluat lisätä."
+  },
+  "feedback_privacy": {
+    "message": "Sending jakaa viestisi ja laajennusversiosi kehittäjän kanssa PostHogin kautta. Älä sisällytä arkaluontoisia tietoja."
+  },
+  "feedback_send": {
+    "message": "Lähetä"
+  },
+  "feedback_sending": {
+    "message": "Lähetetään…"
+  },
+  "feedback_success": {
+    "message": "Kiitos! Palautteesi on lähetetty."
+  },
+  "feedback_error": {
+    "message": "Toimitusta ei voitu vahvistaa. Tekstisi on tallennettu tähän. Yritä uudelleen tai käytä GitHubia."
+  },
+  "feedback_unavailable": {
+    "message": "Palaute ei ole määritetty tässä koontiversiossa. Voit lähettää sen GitHubissa."
   }
 }

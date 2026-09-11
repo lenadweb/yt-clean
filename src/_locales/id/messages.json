@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Belum diatur"
+  },
+  "feedback": {
+    "message": "Lapor / Usul"
+  },
+  "feedback_title": {
+    "message": "Lapor / Usul"
+  },
+  "feedback_problem": {
+    "message": "Masalah"
+  },
+  "feedback_feature": {
+    "message": "Permintaan fitur"
+  },
+  "feedback_message": {
+    "message": "Pesan Anda"
+  },
+  "feedback_placeholder": {
+    "message": "Jelaskan masalahnya dan cara mereproduksinya, atau beri tahu kami apa yang ingin Anda tambahkan."
+  },
+  "feedback_privacy": {
+    "message": "Mengirim membagikan pesan dan versi ekstensi Anda dengan pengembang melalui PostHog. Jangan sertakan informasi sensitif."
+  },
+  "feedback_send": {
+    "message": "Kirim"
+  },
+  "feedback_sending": {
+    "message": "Mengirim…"
+  },
+  "feedback_success": {
+    "message": "Terima kasih! Masukan Anda telah dikirim."
+  },
+  "feedback_error": {
+    "message": "Tidak dapat mengkonfirmasi pengiriman. Teks Anda disimpan di sini. Coba lagi atau gunakan GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Umpan balik tidak dikonfigurasi dalam build ini. Anda dapat mengirimkannya di GitHub."
   }
 }

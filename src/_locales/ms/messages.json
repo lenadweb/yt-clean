@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Belum ditetapkan"
+  },
+  "feedback": {
+    "message": "Lapor / Cadang"
+  },
+  "feedback_title": {
+    "message": "Lapor / Cadang"
+  },
+  "feedback_problem": {
+    "message": "Masalah"
+  },
+  "feedback_feature": {
+    "message": "Permintaan ciri"
+  },
+  "feedback_message": {
+    "message": "Mesej awak"
+  },
+  "feedback_placeholder": {
+    "message": "Terangkan masalah dan cara mengeluarkannya semula, atau beritahu kami perkara yang ingin anda tambahkan."
+  },
+  "feedback_privacy": {
+    "message": "Menghantar berkongsi mesej dan versi sambungan anda dengan pembangun melalui PostHog. Jangan sertakan maklumat sensitif."
+  },
+  "feedback_send": {
+    "message": "Hantar"
+  },
+  "feedback_sending": {
+    "message": "Menghantar…"
+  },
+  "feedback_success": {
+    "message": "terima kasih! Maklum balas anda telah dihantar."
+  },
+  "feedback_error": {
+    "message": "Tidak dapat mengesahkan penghantaran. Teks anda disimpan di sini. Cuba lagi atau gunakan GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Maklum balas tidak dikonfigurasikan dalam binaan ini. Anda boleh menyerahkannya di GitHub."
   }
 }

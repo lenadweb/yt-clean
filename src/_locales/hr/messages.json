@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nije postavljeno"
+  },
+  "feedback": {
+    "message": "Prijavi / Predloži"
+  },
+  "feedback_title": {
+    "message": "Prijavi / Predloži"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Zahtjev za značajku"
+  },
+  "feedback_message": {
+    "message": "Vaša poruka"
+  },
+  "feedback_placeholder": {
+    "message": "Opišite problem i kako ga reproducirati ili nam recite što želite dodati."
+  },
+  "feedback_privacy": {
+    "message": "Slanje dijeli vašu poruku i verziju proširenja s programerom putem PostHog-a. Nemojte uključivati ​​osjetljive podatke."
+  },
+  "feedback_send": {
+    "message": "poslati"
+  },
+  "feedback_sending": {
+    "message": "Slanje..."
+  },
+  "feedback_success": {
+    "message": "hvala ti Vaša povratna informacija je poslana."
+  },
+  "feedback_error": {
+    "message": "Nije moguće potvrditi isporuku. Vaš tekst je spremljen ovdje. Pokušajte ponovno ili upotrijebite GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Povratne informacije nisu konfigurirane u ovoj verziji. Možete ga poslati na GitHub."
   }
 }

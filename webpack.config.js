@@ -1,11 +1,24 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
-const { EnvironmentPlugin } = require('webpack');
+const { DefinePlugin } = require('webpack');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const ZipPlugin = require('zip-webpack-plugin');
 const CSSBuilderPlugin = require('./cssBuilder');
 const { version } = require('./package.json');
+require('dotenv').config({ quiet: true });
+
+const posthogToken = process.env.VITE_POSTHOG_PROJECT_TOKEN?.trim() || '';
+const posthogHost = new URL(
+    process.env.VITE_POSTHOG_HOST?.trim() || 'https://eu.i.posthog.com'
+);
+if (
+    posthogHost.protocol !== 'https:' ||
+    posthogHost.username ||
+    posthogHost.password
+) {
+    throw new Error('VITE_POSTHOG_HOST must be an HTTPS ingestion host');
+}
 
 module.exports = (env) => ({
     mode: env?.development ? 'development' : 'production',
@@ -95,7 +108,11 @@ module.exports = (env) => ({
         },
     },
     plugins: [
-        new EnvironmentPlugin([]),
+        new DefinePlugin({
+            'process.env.VITE_POSTHOG_PROJECT_TOKEN':
+                JSON.stringify(posthogToken),
+            'process.env.VITE_POSTHOG_HOST': JSON.stringify(posthogHost.origin),
+        }),
         new CSSBuilderPlugin(),
         new CopyWebpackPlugin({
             patterns: [

@@ -99,7 +99,7 @@ Canvieu els paràmetres individuals a mesura que canvien les vostres necessitats
 
 Gratuït i de codi obert, amb configuració local
 
-Tota la configuració de l'extensió està disponible sense pagament ni registre. No hi ha subscripció, compte enrere de prova, anàlisi o recollida de dades personals. Les preferències s'emmagatzemen localment al vostre navegador. El codi font complet està disponible a GitHub sota la llicència MIT.
+Tota la configuració de l'extensió està disponible sense pagament ni registre. No hi ha subscripció, compte enrere de prova ni seguiment automàtic de l'ús. Les preferències s'emmagatzemen localment al vostre navegador. Si trieu enviar comentaris, el vostre missatge i la versió de l'extensió s'envien al desenvolupador mitjançant PostHog. No s'adjunta cap historial de navegació ni detalls del compte. El codi font complet està disponible a GitHub sota la llicència MIT.
 
 Dissenyat per al lloc web d'escriptori a Chrome, amb una interfície disponible en 52 idiomes. No modifica l'aplicació mòbil. La majoria de neteja de la interfície utilitza CSS; la reproducció i altres funcions interactives utilitzen JavaScript local.
 

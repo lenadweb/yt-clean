@@ -99,7 +99,7 @@ Daha küçük bir temizlik için Hafif'i veya daha geniş bir filtre seti için 
 
 Yerel ayarlarla ücretsiz ve açık kaynak
 
-Tüm uzantı ayarları ödeme veya kayıt olmadan kullanılabilir. Abonelik, deneme geri sayımı, analiz veya kişisel veri toplama yoktur. Tercihler tarayıcınızda yerel olarak saklanır. Kaynak kodunun tamamı GitHub'da MIT lisansı altında mevcuttur.
+Tüm uzantı ayarları ödeme veya kayıt olmadan kullanılabilir. Abonelik, deneme geri sayımı veya otomatik kullanım takibi yoktur. Tercihler tarayıcınızda yerel olarak saklanır. Geri bildirim göndermeyi seçerseniz mesajınız ve uzantı sürümünüz PostHog aracılığıyla geliştiriciye gönderilir. Hiçbir tarama geçmişi veya hesap ayrıntısı eklenmez. Kaynak kodunun tamamı GitHub'da MIT lisansı altında mevcuttur.
 
 52 dilde kullanılabilen bir arayüzle Chrome'daki masaüstü web sitesi için tasarlanmıştır. Mobil uygulamayı değiştirmez. Çoğu arayüz temizleme işlemi CSS kullanır; oynatma ve diğer etkileşimli özellikler yerel JavaScript kullanır.
 

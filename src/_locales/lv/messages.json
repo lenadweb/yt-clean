@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nav iestatīts"
+  },
+  "feedback": {
+    "message": "Ziņot / Ieteikt"
+  },
+  "feedback_title": {
+    "message": "Ziņot / Ieteikt"
+  },
+  "feedback_problem": {
+    "message": "Problēma"
+  },
+  "feedback_feature": {
+    "message": "Funkcijas pieprasījums"
+  },
+  "feedback_message": {
+    "message": "Jūsu ziņa"
+  },
+  "feedback_placeholder": {
+    "message": "Aprakstiet problēmu un to, kā to atveidot, vai pastāstiet mums, ko vēlaties pievienot."
+  },
+  "feedback_privacy": {
+    "message": "Nosūtot, jūsu ziņojums un paplašinājuma versija tiek kopīgota ar izstrādātāju, izmantojot PostHog. Neiekļaujiet sensitīvu informāciju."
+  },
+  "feedback_send": {
+    "message": "Sūtīt"
+  },
+  "feedback_sending": {
+    "message": "Notiek sūtīšana…"
+  },
+  "feedback_success": {
+    "message": "Paldies! Jūsu atsauksmes ir nosūtītas."
+  },
+  "feedback_error": {
+    "message": "Nevarēja apstiprināt piegādi. Jūsu teksts ir saglabāts šeit. Mēģiniet vēlreiz vai izmantojiet GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Šajā būvniecībā atsauksmes nav konfigurētas. Varat to iesniegt vietnē GitHub."
   }
 }

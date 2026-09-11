@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "تنظیم نشده"
+  },
+  "feedback": {
+    "message": "گزارش / پیشنهاد"
+  },
+  "feedback_title": {
+    "message": "گزارش / پیشنهاد"
+  },
+  "feedback_problem": {
+    "message": "مشکل"
+  },
+  "feedback_feature": {
+    "message": "درخواست ویژگی"
+  },
+  "feedback_message": {
+    "message": "پیام شما"
+  },
+  "feedback_placeholder": {
+    "message": "مشکل و نحوه بازتولید آن را شرح دهید یا به ما بگویید چه چیزی را می خواهید اضافه کنید."
+  },
+  "feedback_privacy": {
+    "message": "ارسال پیام و نسخه برنامه افزودنی شما را از طریق PostHog با توسعه دهنده به اشتراک می گذارد. اطلاعات حساس را درج نکنید."
+  },
+  "feedback_send": {
+    "message": "ارسال کنید"
+  },
+  "feedback_sending": {
+    "message": "در حال ارسال…"
+  },
+  "feedback_success": {
+    "message": "متشکرم! بازخورد شما ارسال شد."
+  },
+  "feedback_error": {
+    "message": "تحویل تایید نشد. متن شما در اینجا ذخیره می شود. دوباره امتحان کنید یا از GitHub استفاده کنید."
+  },
+  "feedback_unavailable": {
+    "message": "بازخورد در این ساخت پیکربندی نشده است. می توانید آن را در GitHub ارسال کنید."
   }
 }

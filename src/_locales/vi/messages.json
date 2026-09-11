@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Chưa đặt"
+  },
+  "feedback": {
+    "message": "Báo lỗi / Góp ý"
+  },
+  "feedback_title": {
+    "message": "Báo lỗi / Góp ý"
+  },
+  "feedback_problem": {
+    "message": "vấn đề"
+  },
+  "feedback_feature": {
+    "message": "Yêu cầu tính năng"
+  },
+  "feedback_message": {
+    "message": "Tin nhắn của bạn"
+  },
+  "feedback_placeholder": {
+    "message": "Mô tả sự cố và cách tái tạo sự cố hoặc cho chúng tôi biết bạn muốn bổ sung điều gì."
+  },
+  "feedback_privacy": {
+    "message": "Gửi chia sẻ tin nhắn và phiên bản tiện ích mở rộng của bạn với nhà phát triển qua PostHog. Không bao gồm thông tin nhạy cảm."
+  },
+  "feedback_send": {
+    "message": "Gửi"
+  },
+  "feedback_sending": {
+    "message": "Đang gửi…"
+  },
+  "feedback_success": {
+    "message": "Cảm ơn bạn! Phản hồi của bạn đã được gửi."
+  },
+  "feedback_error": {
+    "message": "Không thể xác nhận giao hàng. Văn bản của bạn được lưu ở đây. Hãy thử lại hoặc sử dụng GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Phản hồi không được định cấu hình trong bản dựng này. Bạn có thể gửi nó trên GitHub."
   }
 }

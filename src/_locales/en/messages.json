@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "No shortcut"
+  },
+  "feedback": {
+    "message": "Report / Suggest"
+  },
+  "feedback_title": {
+    "message": "Report / Suggest"
+  },
+  "feedback_problem": {
+    "message": "Problem"
+  },
+  "feedback_feature": {
+    "message": "Feature request"
+  },
+  "feedback_message": {
+    "message": "Your message"
+  },
+  "feedback_placeholder": {
+    "message": "Describe the problem and how to reproduce it, or tell us what you would like to add."
+  },
+  "feedback_privacy": {
+    "message": "Sending shares your message and extension version with the developer via PostHog. Do not include sensitive information."
+  },
+  "feedback_send": {
+    "message": "Send"
+  },
+  "feedback_sending": {
+    "message": "Sending…"
+  },
+  "feedback_success": {
+    "message": "Thank you! Your feedback has been sent."
+  },
+  "feedback_error": {
+    "message": "Could not confirm delivery. Your text is saved here. Try again or use GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Feedback is not configured in this build. You can submit it on GitHub."
   }
 }

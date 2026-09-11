@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Не призначено"
+  },
+  "feedback": {
+    "message": "Повідомити / Запропонувати"
+  },
+  "feedback_title": {
+    "message": "Повідомити / Запропонувати"
+  },
+  "feedback_problem": {
+    "message": "проблема"
+  },
+  "feedback_feature": {
+    "message": "Пропозиція"
+  },
+  "feedback_message": {
+    "message": "Ваше повідомлення"
+  },
+  "feedback_placeholder": {
+    "message": "Опишіть проблему та те, як її відтворити, або скажіть нам, що ви хотіли б додати."
+  },
+  "feedback_privacy": {
+    "message": "Надсилання надсилає ваше повідомлення та версію розширення розробнику через PostHog. Не включайте конфіденційну інформацію."
+  },
+  "feedback_send": {
+    "message": "Надіслати"
+  },
+  "feedback_sending": {
+    "message": "Надсилання…"
+  },
+  "feedback_success": {
+    "message": "дякую! Ваш відгук надіслано."
+  },
+  "feedback_error": {
+    "message": "Не вдалося підтвердити доставку. Ваш текст збережено тут. Спробуйте ще раз або скористайтеся GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Зворотній зв'язок не налаштований у цій збірці. Ви можете подати його на GitHub."
   }
 }

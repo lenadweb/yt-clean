@@ -99,7 +99,7 @@ Switch individual settings as your needs change, or use the extension's keyboard
 
 FREE, OPEN SOURCE AND PRIVATE
 
-All extension settings are available without payment or registration. There is no subscription, trial countdown, analytics or personal data collection. Preferences are stored locally in your browser. The full source code is available on GitHub under the MIT license.
+All extension settings are available without payment or registration. There is no subscription, trial countdown or automatic usage tracking. Preferences are stored locally in your browser. If you choose to send feedback, your message and extension version are sent to the developer via PostHog. No browsing history or account details are attached. The full source code is available on GitHub under the MIT license.
 
 Designed for the desktop website in Chrome, with an interface available in 52 languages. It does not modify the mobile app. Most interface cleanup uses CSS; playback and other interactive features use local JavaScript.
 

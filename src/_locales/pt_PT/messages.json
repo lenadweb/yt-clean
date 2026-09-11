@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Não definido"
+  },
+  "feedback": {
+    "message": "Reportar / Sugerir"
+  },
+  "feedback_title": {
+    "message": "Reportar / Sugerir"
+  },
+  "feedback_problem": {
+    "message": "Problema"
+  },
+  "feedback_feature": {
+    "message": "Pedido de recurso"
+  },
+  "feedback_message": {
+    "message": "A sua mensagem"
+  },
+  "feedback_placeholder": {
+    "message": "Descreva o problema e como reproduzi-lo ou diga-nos o que gostaria de acrescentar."
+  },
+  "feedback_privacy": {
+    "message": "O envio partilha a sua mensagem e versão da extensão com o programador através do PostHog. Não inclua informações confidenciais."
+  },
+  "feedback_send": {
+    "message": "Enviar"
+  },
+  "feedback_sending": {
+    "message": "Enviando…"
+  },
+  "feedback_success": {
+    "message": "Obrigado! O seu feedback foi enviado."
+  },
+  "feedback_error": {
+    "message": "Não foi possível confirmar a entrega. O seu texto está guardado aqui. Tente novamente ou utilize o GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "O feedback não está configurado nesta compilação. Pode enviá-lo no GitHub."
   }
 }

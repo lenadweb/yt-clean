@@ -99,7 +99,7 @@ Přepínejte jednotlivá nastavení podle toho, jak se mění vaše potřeby, ne
 
 Zdarma a open source s místním nastavením
 
-Všechna nastavení rozšíření jsou dostupná bez platby nebo registrace. Neexistuje žádné předplatné, odpočítávání zkušebních verzí, analýzy ani shromažďování osobních údajů. Předvolby jsou uloženy lokálně ve vašem prohlížeči. Úplný zdrojový kód je k dispozici na GitHubu pod licencí MIT.
+Všechna nastavení rozšíření jsou dostupná bez platby nebo registrace. Neexistuje žádné předplatné, odpočítávání zkušební verze ani automatické sledování využití. Předvolby jsou uloženy lokálně ve vašem prohlížeči. Pokud se rozhodnete odeslat zpětnou vazbu, vaše zpráva a verze rozšíření se odešlou vývojáři prostřednictvím PostHog. Není připojena žádná historie procházení ani podrobnosti o účtu. Úplný zdrojový kód je k dispozici na GitHubu pod licencí MIT.
 
 Navrženo pro desktopové webové stránky v Chrome, s rozhraním dostupným v 52 jazycích. Nemění mobilní aplikaci. Většina čištění rozhraní používá CSS; přehrávání a další interaktivní funkce využívají místní JavaScript.
 

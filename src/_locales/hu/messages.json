@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nincs beállítva"
+  },
+  "feedback": {
+    "message": "Hiba / Javaslat"
+  },
+  "feedback_title": {
+    "message": "Hiba / Javaslat"
+  },
+  "feedback_problem": {
+    "message": "Probléma"
+  },
+  "feedback_feature": {
+    "message": "Funkciókérés"
+  },
+  "feedback_message": {
+    "message": "Az Ön üzenete"
+  },
+  "feedback_placeholder": {
+    "message": "Írja le a problémát és annak reprodukálásának módját, vagy mondja el, mit szeretne hozzáadni."
+  },
+  "feedback_privacy": {
+    "message": "A küldés megosztja az üzenetet és a bővítmény verzióját a fejlesztővel a PostHog-on keresztül. Ne adjon meg érzékeny információkat."
+  },
+  "feedback_send": {
+    "message": "Küldés"
+  },
+  "feedback_sending": {
+    "message": "Küldés…"
+  },
+  "feedback_success": {
+    "message": "Köszönöm! Visszajelzését elküldtük."
+  },
+  "feedback_error": {
+    "message": "Nem sikerült megerősíteni a kézbesítést. A szövege itt van elmentve. Próbálja újra, vagy használja a GitHubot."
+  },
+  "feedback_unavailable": {
+    "message": "A visszajelzés nincs beállítva ebben a buildben. Beküldheti a GitHubon."
   }
 }

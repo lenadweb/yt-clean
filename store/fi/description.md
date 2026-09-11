@@ -99,7 +99,7 @@ Vaihda yksittäisiä asetuksia tarpeidesi muuttuessa tai käytä laajennuksen pi
 
 Ilmainen ja avoin lähdekoodi paikallisilla asetuksilla
 
-Kaikki laajennusasetukset ovat saatavilla ilman maksua tai rekisteröintiä. Ei tilausta, kokeilulaskentaa, analytiikkaa tai henkilötietojen keräämistä. Asetukset tallennetaan paikallisesti selaimeesi. Täysi lähdekoodi on saatavilla GitHubista MIT-lisenssillä.
+Kaikki laajennusasetukset ovat saatavilla ilman maksua tai rekisteröintiä. Ei ole tilausta, kokeilujaksoa tai automaattista käytön seurantaa. Asetukset tallennetaan paikallisesti selaimeesi. Jos päätät lähettää palautetta, viestisi ja laajennusversiosi lähetetään kehittäjälle PostHogin kautta. Selaushistoriaa tai tilitietoja ei ole liitetty. Täysi lähdekoodi on saatavilla GitHubista MIT-lisenssillä.
 
 Suunniteltu Chromen työpöytäsivustolle, ja käyttöliittymä on saatavilla 52 kielellä. Se ei muuta mobiilisovellusta. Useimmat käyttöliittymän puhdistukset käyttävät CSS:ää; toisto ja muut interaktiiviset ominaisuudet käyttävät paikallista JavaScriptiä.
 

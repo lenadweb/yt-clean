@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Δεν έχει οριστεί"
+  },
+  "feedback": {
+    "message": "Αναφορά / Πρόταση"
+  },
+  "feedback_title": {
+    "message": "Αναφορά / Πρόταση"
+  },
+  "feedback_problem": {
+    "message": "Πρόβλημα"
+  },
+  "feedback_feature": {
+    "message": "Αίτημα δυνατότητας"
+  },
+  "feedback_message": {
+    "message": "Το μήνυμά σας"
+  },
+  "feedback_placeholder": {
+    "message": "Περιγράψτε το πρόβλημα και πώς να το αναπαράγετε ή πείτε μας τι θέλετε να προσθέσετε."
+  },
+  "feedback_privacy": {
+    "message": "Η αποστολή κοινοποιεί το μήνυμά σας και την έκδοση επέκτασης με τον προγραμματιστή μέσω PostHog. Μην συμπεριλάβετε ευαίσθητες πληροφορίες."
+  },
+  "feedback_send": {
+    "message": "Αποστολή"
+  },
+  "feedback_sending": {
+    "message": "Αποστολή…"
+  },
+  "feedback_success": {
+    "message": "Ευχαριστώ! Τα σχόλιά σας έχουν σταλεί."
+  },
+  "feedback_error": {
+    "message": "Δεν ήταν δυνατή η επιβεβαίωση της παράδοσης. Το κείμενό σας αποθηκεύεται εδώ. Δοκιμάστε ξανά ή χρησιμοποιήστε το GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Τα σχόλια δεν έχουν ρυθμιστεί σε αυτήν την έκδοση. Μπορείτε να το υποβάλετε στο GitHub."
   }
 }

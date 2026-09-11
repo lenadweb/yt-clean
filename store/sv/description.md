@@ -99,7 +99,7 @@ Byt individuella inställningar när dina behov ändras, eller använd tillägge
 
 Gratis och öppen källkod, med lokala inställningar
 
-Alla tilläggsinställningar är tillgängliga utan betalning eller registrering. Det finns ingen prenumeration, nedräkning av provperioder, analys eller insamling av personuppgifter. Inställningar lagras lokalt i din webbläsare. Den fullständiga källkoden är tillgänglig på GitHub under MIT-licensen.
+Alla tilläggsinställningar är tillgängliga utan betalning eller registrering. Det finns ingen prenumeration, nedräkning av provperioden eller automatisk användningsspårning. Inställningar lagras lokalt i din webbläsare. Om du väljer att skicka feedback skickas ditt meddelande och tilläggsversion till utvecklaren via PostHog. Ingen webbhistorik eller kontoinformation bifogas. Den fullständiga källkoden är tillgänglig på GitHub under MIT-licensen.
 
 Designad för datorwebbplatsen i Chrome, med ett gränssnitt tillgängligt på 52 språk. Det ändrar inte mobilappen. De flesta gränssnittsrensningar använder CSS; uppspelning och andra interaktiva funktioner använder lokal JavaScript.
 

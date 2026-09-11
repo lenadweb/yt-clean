@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "Nenastaveno"
+  },
+  "feedback": {
+    "message": "Nahlásit / Navrhnout"
+  },
+  "feedback_title": {
+    "message": "Nahlásit / Navrhnout"
+  },
+  "feedback_problem": {
+    "message": "Problém"
+  },
+  "feedback_feature": {
+    "message": "Žádost o funkci"
+  },
+  "feedback_message": {
+    "message": "Vaše zpráva"
+  },
+  "feedback_placeholder": {
+    "message": "Popište problém a jak jej reprodukovat, nebo nám řekněte, co byste chtěli přidat."
+  },
+  "feedback_privacy": {
+    "message": "Odesílání sdílí vaši zprávu a verzi rozšíření s vývojářem prostřednictvím PostHog. Neuvádějte citlivé informace."
+  },
+  "feedback_send": {
+    "message": "Odeslat"
+  },
+  "feedback_sending": {
+    "message": "Odesílání…"
+  },
+  "feedback_success": {
+    "message": "děkuji! Vaše zpětná vazba byla odeslána."
+  },
+  "feedback_error": {
+    "message": "Doručení se nepodařilo potvrdit. Váš text je uložen zde. Zkuste to znovu nebo použijte GitHub."
+  },
+  "feedback_unavailable": {
+    "message": "Zpětná vazba není v tomto sestavení nakonfigurována. Můžete jej odeslat na GitHub."
   }
 }

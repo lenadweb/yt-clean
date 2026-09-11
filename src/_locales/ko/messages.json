@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "설정 안 됨"
+  },
+  "feedback": {
+    "message": "문제 신고 / 제안"
+  },
+  "feedback_title": {
+    "message": "문제 신고 / 제안"
+  },
+  "feedback_problem": {
+    "message": "문제"
+  },
+  "feedback_feature": {
+    "message": "기능 요청"
+  },
+  "feedback_message": {
+    "message": "귀하의 메시지"
+  },
+  "feedback_placeholder": {
+    "message": "문제와 이를 재현하는 방법을 설명하거나 추가하고 싶은 내용을 알려주십시오."
+  },
+  "feedback_privacy": {
+    "message": "보내기는 PostHog를 통해 개발자와 메시지 및 확장 버전을 공유합니다. 민감한 정보는 포함하지 마세요."
+  },
+  "feedback_send": {
+    "message": "보내기"
+  },
+  "feedback_sending": {
+    "message": "보내는 중…"
+  },
+  "feedback_success": {
+    "message": "감사합니다! 귀하의 의견이 전송되었습니다."
+  },
+  "feedback_error": {
+    "message": "배송 확인을 할 수 없습니다. 귀하의 텍스트는 여기에 저장됩니다. 다시 시도하거나 GitHub를 사용하세요."
+  },
+  "feedback_unavailable": {
+    "message": "이 빌드에는 피드백이 구성되지 않았습니다. GitHub에 제출할 수 있습니다."
   }
 }

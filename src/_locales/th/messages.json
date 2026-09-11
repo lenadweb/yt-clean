@@ -412,5 +412,41 @@
   },
   "shortcut_not_set": {
     "message": "ยังไม่ได้ตั้งค่า"
+  },
+  "feedback": {
+    "message": "รายงาน / เสนอแนะ"
+  },
+  "feedback_title": {
+    "message": "รายงาน / เสนอแนะ"
+  },
+  "feedback_problem": {
+    "message": "ปัญหา"
+  },
+  "feedback_feature": {
+    "message": "คำขอคุณสมบัติ"
+  },
+  "feedback_message": {
+    "message": "ข้อความของคุณ"
+  },
+  "feedback_placeholder": {
+    "message": "อธิบายปัญหาและวิธีการทำซ้ำ หรือบอกเราว่าคุณต้องการเพิ่มอะไร"
+  },
+  "feedback_privacy": {
+    "message": "การส่งจะแชร์ข้อความและเวอร์ชันส่วนขยายของคุณกับนักพัฒนาผ่าน PostHog อย่าใส่ข้อมูลที่ละเอียดอ่อน"
+  },
+  "feedback_send": {
+    "message": "ส่ง"
+  },
+  "feedback_sending": {
+    "message": "กำลังส่ง..."
+  },
+  "feedback_success": {
+    "message": "ขอบคุณ! ความคิดเห็นของคุณถูกส่งไปแล้ว"
+  },
+  "feedback_error": {
+    "message": "ไม่สามารถยืนยันการจัดส่งได้ ข้อความของคุณถูกบันทึกไว้ที่นี่ ลองอีกครั้งหรือใช้ GitHub"
+  },
+  "feedback_unavailable": {
+    "message": "ความคิดเห็นไม่ได้รับการกำหนดค่าในรุ่นนี้ คุณสามารถส่งได้ที่ GitHub"
   }
 }

@@ -99,7 +99,7 @@ Muutke individuaalseid seadeid vastavalt vajadustele või kasutage laienduse kii
 
 Tasuta ja avatud lähtekoodiga kohalike seadetega
 
-Kõik laienduse seaded on saadaval ilma makse või registreerimiseta. Puudub tellimus, prooviperioodi loendus, analüüs ega isikuandmete kogumine. Eelistused salvestatakse teie brauseris lokaalselt. Täielik lähtekood on saadaval GitHubis MIT-i litsentsi alusel.
+Kõik laienduse seaded on saadaval ilma makse või registreerimiseta. Puudub tellimus, prooviperioodi loendus ega automaatne kasutamise jälgimine. Eelistused salvestatakse teie brauseris lokaalselt. Kui otsustate saata tagasisidet, saadetakse teie sõnum ja laienduse versioon arendajale PostHogi kaudu. Sirvimisajalugu ega konto üksikasju pole lisatud. Täielik lähtekood on saadaval GitHubis MIT-i litsentsi alusel.
 
 Loodud Chrome'i töölauaveebisaidi jaoks, liides on saadaval 52 keeles. See ei muuda mobiilirakendust. Enamik liidese puhastamist kasutab CSS-i; taasesitus ja muud interaktiivsed funktsioonid kasutavad kohalikku JavaScripti.
 
