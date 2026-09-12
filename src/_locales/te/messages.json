@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "నోటిఫికేషన్‌లు దాచు"
   },
+  "hide_important_notifications": {
+    "message": "నోటిఫికేషన్‌లలో “ముఖ్యమైనవి” విభాగాన్ని దాచు"
+  },
   "feed_and_recommendations": {
     "message": "ఫీడ్ & సిఫార్సులు"
   },

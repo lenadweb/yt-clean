@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Скриване на известията"
   },
+  "hide_important_notifications": {
+    "message": "Скриване на раздела „Важни“ в известията"
+  },
   "feed_and_recommendations": {
     "message": "Емисия и препоръки"
   },

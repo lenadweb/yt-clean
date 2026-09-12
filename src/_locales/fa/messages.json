@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "پنهان کردن اعلان‌ها"
   },
+  "hide_important_notifications": {
+    "message": "پنهان کردن بخش «مهم» در اعلان‌ها"
+  },
   "feed_and_recommendations": {
     "message": "خوراک و پیشنهادها"
   },

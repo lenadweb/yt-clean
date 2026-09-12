@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Piilota ilmoitukset"
   },
+  "hide_important_notifications": {
+    "message": "Piilota ilmoitusten Tärkeät-osio"
+  },
   "feed_and_recommendations": {
     "message": "Syöte ja suositukset"
   },

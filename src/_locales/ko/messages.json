@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "알림 숨기기"
   },
+  "hide_important_notifications": {
+    "message": "알림의 “중요” 섹션 숨기기"
+  },
   "feed_and_recommendations": {
     "message": "피드 및 추천"
   },

@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "通知を非表示"
   },
+  "hide_important_notifications": {
+    "message": "通知の「重要」セクションを非表示"
+  },
   "feed_and_recommendations": {
     "message": "フィード＆おすすめ"
   },

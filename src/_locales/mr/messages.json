@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "सूचना लपवा"
   },
+  "hide_important_notifications": {
+    "message": "सूचनांमधील “महत्त्वाचे” विभाग लपवा"
+  },
   "feed_and_recommendations": {
     "message": "फीड आणि शिफारसी"
   },

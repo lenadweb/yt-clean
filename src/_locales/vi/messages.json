@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Ẩn thông báo"
   },
+  "hide_important_notifications": {
+    "message": "Ẩn mục “Quan trọng” trong thông báo"
+  },
   "feed_and_recommendations": {
     "message": "Nguồn cấp và đề xuất"
   },

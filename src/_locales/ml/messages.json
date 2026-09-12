@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "അറിയിപ്പുകൾ മറയ്ക്കുക"
   },
+  "hide_important_notifications": {
+    "message": "അറിയിപ്പുകളിലെ “പ്രധാനപ്പെട്ടവ” വിഭാഗം മറയ്ക്കുക"
+  },
   "feed_and_recommendations": {
     "message": "ഫീഡും ശുപാർശകളും"
   },

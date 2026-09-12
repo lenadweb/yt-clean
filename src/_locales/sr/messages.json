@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Сакриј обавештења"
   },
+  "hide_important_notifications": {
+    "message": "Сакриј одељак „Важно” у обавештењима"
+  },
   "feed_and_recommendations": {
     "message": "Фид и препоруке"
   },

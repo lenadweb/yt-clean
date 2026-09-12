@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "বিজ্ঞপ্তি লুকান"
   },
+  "hide_important_notifications": {
+    "message": "বিজ্ঞপ্তির “গুরুত্বপূর্ণ” বিভাগ লুকান"
+  },
   "feed_and_recommendations": {
     "message": "ফিড ও সুপারিশ"
   },

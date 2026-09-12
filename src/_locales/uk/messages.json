@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Сховати сповіщення"
   },
+  "hide_important_notifications": {
+    "message": "Приховувати розділ «Важливе» у сповіщеннях"
+  },
   "feed_and_recommendations": {
     "message": "Стрічка та рекомендації"
   },

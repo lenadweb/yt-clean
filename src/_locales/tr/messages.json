@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Bildirimleri gizle"
   },
+  "hide_important_notifications": {
+    "message": "Bildirimlerdeki “Önemli” bölümünü gizle"
+  },
   "feed_and_recommendations": {
     "message": "Akış ve öneriler"
   },

@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Értesítések elrejtése"
   },
+  "hide_important_notifications": {
+    "message": "A „Fontos” szakasz elrejtése az értesítésekben"
+  },
   "feed_and_recommendations": {
     "message": "Hírfolyam és ajánlások"
   },

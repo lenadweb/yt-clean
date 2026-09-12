@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Ficha arifa"
   },
+  "hide_important_notifications": {
+    "message": "Ficha sehemu ya “Muhimu” katika arifa"
+  },
   "feed_and_recommendations": {
     "message": "Mlisho na mapendekezo"
   },

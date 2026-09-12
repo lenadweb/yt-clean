@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Itago ang mga notification"
   },
+  "hide_important_notifications": {
+    "message": "Itago ang seksyong “Mahalaga” sa mga notification"
+  },
   "feed_and_recommendations": {
     "message": "Feed at mga rekomendasyon"
   },

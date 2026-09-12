@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "הסתרת התראות"
   },
+  "hide_important_notifications": {
+    "message": "הסתרת הקטע „חשוב” בהתראות"
+  },
   "feed_and_recommendations": {
     "message": "פיד והמלצות"
   },

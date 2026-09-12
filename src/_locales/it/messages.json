@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Nascondi notifiche"
   },
+  "hide_important_notifications": {
+    "message": "Nascondi la sezione «Importanti» nelle notifiche"
+  },
   "feed_and_recommendations": {
     "message": "Feed e raccomandazioni"
   },

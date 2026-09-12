@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Meldingen verbergen"
   },
+  "hide_important_notifications": {
+    "message": "Het gedeelte ‘Belangrijk’ in meldingen verbergen"
+  },
   "feed_and_recommendations": {
     "message": "Feed en aanbevelingen"
   },

@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "إخفاء الإشعارات"
   },
+  "hide_important_notifications": {
+    "message": "إخفاء قسم «المهمة» في الإشعارات"
+  },
   "feed_and_recommendations": {
     "message": "الخلاصة والتوصيات"
   },

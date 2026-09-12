@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "ซ่อนการแจ้งเตือน"
   },
+  "hide_important_notifications": {
+    "message": "ซ่อนส่วน “สำคัญ” ในการแจ้งเตือน"
+  },
   "feed_and_recommendations": {
     "message": "ฟีดและวิดีโอแนะนำ"
   },

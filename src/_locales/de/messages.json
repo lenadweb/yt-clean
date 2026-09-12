@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Benachrichtigungen ausblenden"
   },
+  "hide_important_notifications": {
+    "message": "Bereich „Wichtig“ in Benachrichtigungen ausblenden"
+  },
   "feed_and_recommendations": {
     "message": "Feed & Empfehlungen"
   },

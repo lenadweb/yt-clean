@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Skjul varsler"
   },
+  "hide_important_notifications": {
+    "message": "Skjul delen «Viktige» i varsler"
+  },
   "feed_and_recommendations": {
     "message": "Feed og anbefalinger"
   },

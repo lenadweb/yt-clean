@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Sakrij obavijesti"
   },
+  "hide_important_notifications": {
+    "message": "Sakrij odjeljak „Važno” u obavijestima"
+  },
   "feed_and_recommendations": {
     "message": "Feed i preporuke"
   },

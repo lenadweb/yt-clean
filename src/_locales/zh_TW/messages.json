@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "隱藏通知"
   },
+  "hide_important_notifications": {
+    "message": "隱藏通知中的「重要」區塊"
+  },
   "feed_and_recommendations": {
     "message": "動態消息與推薦"
   },

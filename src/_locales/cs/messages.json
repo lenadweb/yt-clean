@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Skrýt oznámení"
   },
+  "hide_important_notifications": {
+    "message": "Skrýt sekci „Důležité“ v oznámeních"
+  },
   "feed_and_recommendations": {
     "message": "Kanál a doporučení"
   },

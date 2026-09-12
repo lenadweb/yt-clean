@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "அறிவிப்புகளை மறை"
   },
+  "hide_important_notifications": {
+    "message": "அறிவிப்புகளில் “முக்கியமானவை” பகுதியை மறை"
+  },
   "feed_and_recommendations": {
     "message": "ஊட்டம் & பரிந்துரைகள்"
   },

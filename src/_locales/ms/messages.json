@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Sembunyikan pemberitahuan"
   },
+  "hide_important_notifications": {
+    "message": "Sembunyikan bahagian “Penting” dalam pemberitahuan"
+  },
   "feed_and_recommendations": {
     "message": "Suapan dan cadangan"
   },

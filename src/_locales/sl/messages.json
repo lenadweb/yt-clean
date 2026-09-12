@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Skrij obvestila"
   },
+  "hide_important_notifications": {
+    "message": "Skrij razdelek »Pomembno« v obvestilih"
+  },
   "feed_and_recommendations": {
     "message": "Vir in priporočila"
   },

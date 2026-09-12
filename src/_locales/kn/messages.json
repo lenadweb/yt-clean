@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "ಅಧಿಸೂಚನೆಗಳನ್ನು ಮರೆಮಾಡಿ"
   },
+  "hide_important_notifications": {
+    "message": "ಅಧಿಸೂಚನೆಗಳಲ್ಲಿ “ಪ್ರಮುಖ” ವಿಭಾಗವನ್ನು ಮರೆಮಾಡಿ"
+  },
   "feed_and_recommendations": {
     "message": "ಫೀಡ್ ಮತ್ತು ಶಿಫಾರಸುಗಳು"
   },

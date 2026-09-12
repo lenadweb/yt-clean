@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "隐藏通知"
   },
+  "hide_important_notifications": {
+    "message": "隐藏通知中的“重要”部分"
+  },
   "feed_and_recommendations": {
     "message": "首页与推荐"
   },

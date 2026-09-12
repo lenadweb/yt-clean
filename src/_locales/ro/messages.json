@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Ascunde notificările"
   },
+  "hide_important_notifications": {
+    "message": "Ascunde secțiunea „Importante” din notificări"
+  },
   "feed_and_recommendations": {
     "message": "Flux și recomandări"
   },

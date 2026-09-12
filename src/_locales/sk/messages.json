@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Skryť upozornenia"
   },
+  "hide_important_notifications": {
+    "message": "Skryť sekciu „Dôležité“ v upozorneniach"
+  },
   "feed_and_recommendations": {
     "message": "Kanál a odporúčania"
   },

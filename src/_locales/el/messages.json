@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Απόκρυψη ειδοποιήσεων"
   },
+  "hide_important_notifications": {
+    "message": "Απόκρυψη της ενότητας «Σημαντικά» στις ειδοποιήσεις"
+  },
   "feed_and_recommendations": {
     "message": "Ροή και προτάσεις"
   },

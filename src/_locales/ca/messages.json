@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Amaga les notificacions"
   },
+  "hide_important_notifications": {
+    "message": "Amaga la secció «Important» de les notificacions"
+  },
   "feed_and_recommendations": {
     "message": "Feed i recomanacions"
   },

@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Peida teavitused"
   },
+  "hide_important_notifications": {
+    "message": "Peida märguannete jaotis „Olulised“"
+  },
   "feed_and_recommendations": {
     "message": "Voog ja soovitused"
   },

@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "Slėpti pranešimus"
   },
+  "hide_important_notifications": {
+    "message": "Slėpti pranešimų skiltį „Svarbūs“"
+  },
   "feed_and_recommendations": {
     "message": "Srautas ir rekomendacijos"
   },

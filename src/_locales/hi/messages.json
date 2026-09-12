@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "सूचनाएं (Notifications) छुपाएं"
   },
+  "hide_important_notifications": {
+    "message": "सूचनाओं में “महत्वपूर्ण” सेक्शन छिपाएँ"
+  },
   "feed_and_recommendations": {
     "message": "फ़ीड और सुझाव"
   },

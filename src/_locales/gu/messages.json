@@ -38,6 +38,9 @@
   "hide_notifications": {
     "message": "સૂચનાઓ છુપાવો"
   },
+  "hide_important_notifications": {
+    "message": "સૂચનાઓમાં “મહત્વપૂર્ણ” વિભાગ છુપાવો"
+  },
   "feed_and_recommendations": {
     "message": "ફીડ અને ભલામણો"
   },
