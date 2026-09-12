@@ -46,7 +46,6 @@ export const templateCategory = category('basic_template', [
         feature({
             id: 'hideImportantNotifications',
             title: 'hide_important_notifications',
-            isNew: true,
             isExperimental: true,
             hide: [
                 'ytd-popup-container #sections > yt-multi-page-menu-section-renderer:first-of-type:has(#section-title):has(ytd-notification-renderer):has(~ yt-multi-page-menu-section-renderer ytd-notification-renderer)',
