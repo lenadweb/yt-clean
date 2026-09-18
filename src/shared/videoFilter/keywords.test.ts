@@ -4,7 +4,7 @@ import {
     KEYWORD_FILTER_MAX_LENGTH,
     matchesKeywords,
     normalizeKeyword,
-} from 'src/shared/keywordFilter';
+} from 'src/shared/videoFilter/keywords';
 
 describe('normalizeKeyword', () => {
     it('trims, collapses whitespace and lowercases', () => {

@@ -1,5 +1,3 @@
-import { getAttr } from 'src/shared/utils/getAttr';
-
 export type KeywordFilterSetting = {
     enabled: boolean;
     keywords: string[];
@@ -7,9 +5,10 @@ export type KeywordFilterSetting = {
 
 export const KEYWORD_FILTER_MAX_LENGTH = 100;
 
-export const KEYWORD_HIDDEN_ATTR = getAttr('keyword-hidden');
-
-export const KEYWORD_FILTER_STYLE = `[${KEYWORD_HIDDEN_ATTR}] { display: none !important; }`;
+export const DEFAULT_KEYWORD_FILTER: KeywordFilterSetting = {
+    enabled: true,
+    keywords: [],
+};
 
 export const normalizeKeyword = (value: string): string =>
     value.replace(/\s+/g, ' ').trim().toLocaleLowerCase();
