@@ -18,6 +18,7 @@ const PRESET_EXCLUDED = new Set<string>([
     'block60Fps',
     'originalTitles',
     'originalAudio',
+    'infiniteHomeFeed',
 ]);
 
 const LIGHT_IDS = new Set<string>([

@@ -4,6 +4,7 @@ import {
     disableAutoSkipAds,
     enableAutoSkipAds,
 } from 'src/shared/featureHandlers/ads';
+import { syncInfiniteFeed } from 'src/shared/featureHandlers/feed';
 
 const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
 
@@ -106,6 +107,16 @@ export const feedCategory = category('feed_and_recommendations', [
             ],
         }),
     ]),
+    section(
+        'infinite_home_feed',
+        { isNew: true, controls: 'switch', hint: 'infinite_home_feed_hint' },
+        [
+            feature({
+                id: 'infiniteHomeFeed',
+                onChange: syncInfiniteFeed,
+            }),
+        ]
+    ),
     section('content_blocks', [
         feature({
             id: 'hideShorts',
