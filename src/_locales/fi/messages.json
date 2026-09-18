@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Ei rajaa"
+  },
+  "infinite_home_feed": {
+    "message": "Loputon etusivu"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube lopettaa suositusten lataamisen etusivulla muutaman näytöllisen jälkeen.\n\nKun syöte loppuu, laajennus pyytää youtube.comilta uusia suosituksia ja lisää loppuun videot, joita ei ole vielä näytetty.\n\nVain Kaikki-välilehteä jatketaan."
   }
 }

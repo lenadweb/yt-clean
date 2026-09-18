@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Sınır yok"
+  },
+  "infinite_home_feed": {
+    "message": "Sonsuz ana sayfa"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube ana sayfada birkaç ekrandan sonra öneri yüklemeyi durdurur.\n\nAkış bittiğinde uzantı youtube.com’dan yeni öneriler ister ve henüz gösterilmemiş videoları sona ekler.\n\nYalnızca “Tümü” sekmesi uzatılır."
   }
 }

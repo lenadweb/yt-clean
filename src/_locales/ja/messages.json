@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "上限なし"
+  },
+  "infinite_home_feed": {
+    "message": "ホームフィードを無限に表示"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube はホームで数画面分スクロールすると、おすすめの読み込みを停止します。\n\nフィードが終わると、拡張機能が youtube.com に新しいおすすめを要求し、まだ表示されていない動画を下に追加します。\n\n延長されるのは「すべて」タブのみです。"
   }
 }

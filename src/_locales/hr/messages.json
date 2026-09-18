@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Bez ograničenja"
+  },
+  "infinite_home_feed": {
+    "message": "Beskonačna početna stranica"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube nakon nekoliko zaslona prestaje učitavati preporuke na početnoj stranici.\n\nKad feed završi, proširenje od youtube.com traži novu skupinu preporuka i na kraj dodaje videozapise koji još nisu prikazani.\n\nProduljuje se samo kartica „Sve”."
   }
 }

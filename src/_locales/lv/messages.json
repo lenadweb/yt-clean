@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Bez ierobežojuma"
+  },
+  "infinite_home_feed": {
+    "message": "Bezgalīga sākumlapa"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube pārtrauc ielādēt ieteikumus sākumlapā pēc dažiem ekrāniem.\n\nKad plūsma beidzas, paplašinājums pieprasa youtube.com jaunus ieteikumus un pievieno beigās videoklipus, kas vēl nav rādīti.\n\nTiek pagarināta tikai cilne “Visi”."
   }
 }

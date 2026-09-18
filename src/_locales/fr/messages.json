@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Sans limite"
+  },
+  "infinite_home_feed": {
+    "message": "Accueil infini"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube arrête de charger des recommandations sur l’accueil après quelques écrans.\n\nQuand le flux se termine, l’extension demande à youtube.com un nouveau lot de recommandations et ajoute en bas les vidéos pas encore affichées.\n\nSeul l’onglet « Tout » est prolongé."
   }
 }

@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Bez obmedzenia"
+  },
+  "infinite_home_feed": {
+    "message": "Nekonečná hlavná stránka"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube po niekoľkých obrazovkách prestane na hlavnej stránke načítavať odporúčania.\n\nKeď feed skončí, rozšírenie si od youtube.com vyžiada novú dávku odporúčaní a pridá na koniec videá, ktoré sa ešte nezobrazili.\n\nPredlžuje sa iba karta „Všetko“."
   }
 }

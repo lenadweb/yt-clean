@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Sem limite"
+  },
+  "infinite_home_feed": {
+    "message": "Início infinito"
+  },
+  "infinite_home_feed_hint": {
+    "message": "O YouTube para de carregar recomendações na página inicial depois de algumas telas.\n\nQuando o feed acaba, a extensão pede ao youtube.com um novo lote de recomendações e adiciona ao final os vídeos que ainda não apareceram.\n\nSomente a guia “Tudo” é estendida."
   }
 }

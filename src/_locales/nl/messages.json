@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Geen limiet"
+  },
+  "infinite_home_feed": {
+    "message": "Eindeloze startpagina"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube stopt na een paar schermen met het laden van aanbevelingen op de startpagina.\n\nAls de feed eindigt, vraagt de extensie youtube.com om nieuwe aanbevelingen en voegt video’s toe die nog niet getoond zijn.\n\nAlleen het tabblad ‘Alles’ wordt verlengd."
   }
 }

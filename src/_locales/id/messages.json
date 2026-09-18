@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Tanpa batas"
+  },
+  "infinite_home_feed": {
+    "message": "Beranda tanpa akhir"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube berhenti memuat rekomendasi di beranda setelah beberapa layar.\n\nSaat feed berakhir, ekstensi meminta rekomendasi baru dari youtube.com dan menambahkan video yang belum ditampilkan ke bagian bawah.\n\nHanya tab “Semua” yang diperpanjang."
   }
 }

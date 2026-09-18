@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Bila kikomo"
+  },
+  "infinite_home_feed": {
+    "message": "Ukurasa wa mwanzo usio na mwisho"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube huacha kupakia mapendekezo kwenye ukurasa wa mwanzo baada ya skrini chache.\n\nMlisho unapoisha, kiendelezi huomba mapendekezo mapya kutoka youtube.com na kuongeza chini video ambazo bado hazijaonyeshwa.\n\nKichupo cha “Zote” pekee ndicho kinaongezwa."
   }
 }

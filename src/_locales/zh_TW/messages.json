@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "不限"
+  },
+  "infinite_home_feed": {
+    "message": "無限首頁推薦"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube 首頁在捲動幾個畫面後會停止載入推薦內容。\n\n推薦內容結束時，擴充功能會向 youtube.com 要求新一批推薦，並在底部加入尚未顯示過的影片。\n\n僅延長「全部」分頁。"
   }
 }

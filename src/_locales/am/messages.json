@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "ገደብ የለም"
+  },
+  "infinite_home_feed": {
+    "message": "ማለቂያ የሌለው መነሻ ምግብ"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube ከጥቂት ማያ ገጾች በኋላ በመነሻ ገጹ ላይ ምክሮችን መጫን ያቆማል።\n\nምግቡ ሲያልቅ ቅጥያው ከyoutube.com አዳዲስ ምክሮችን ይጠይቃል እና እስካሁን ያልታዩ ቪዲዮዎችን ከታች ያክላል።\n\nየ“ሁሉም” ትር ብቻ ይራዘማል።"
   }
 }

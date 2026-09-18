@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Không giới hạn"
+  },
+  "infinite_home_feed": {
+    "message": "Trang chủ vô tận"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube ngừng tải đề xuất trên trang chủ sau vài màn hình.\n\nKhi nguồn cấp dữ liệu kết thúc, tiện ích yêu cầu youtube.com một loạt đề xuất mới và thêm vào cuối các video chưa được hiển thị.\n\nChỉ thẻ “Tất cả” được kéo dài."
   }
 }

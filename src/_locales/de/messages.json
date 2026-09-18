@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Keine Grenze"
+  },
+  "infinite_home_feed": {
+    "message": "Endloser Startseiten-Feed"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube lädt auf der Startseite nach einigen Bildschirmen keine Empfehlungen mehr nach.\n\nWenn der Feed endet, fragt die Erweiterung bei youtube.com neue Empfehlungen an und hängt Videos an, die noch nicht angezeigt wurden.\n\nNur der Tab „Alle“ wird verlängert."
   }
 }

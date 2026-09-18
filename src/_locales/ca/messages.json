@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Sense límit"
+  },
+  "infinite_home_feed": {
+    "message": "Inici infinit"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube deixa de carregar recomanacions a la pàgina d’inici després d’unes quantes pantalles.\n\nQuan el feed s’acaba, l’extensió demana a youtube.com un nou lot de recomanacions i afegeix al final els vídeos que encara no s’han mostrat.\n\nNomés s’allarga la pestanya «Tot»."
   }
 }

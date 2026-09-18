@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Nessun limite"
+  },
+  "infinite_home_feed": {
+    "message": "Home infinita"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube smette di caricare consigli nella home dopo alcune schermate.\n\nQuando il feed finisce, l’estensione chiede a youtube.com un nuovo gruppo di consigli e aggiunge in fondo i video non ancora mostrati.\n\nViene esteso solo il tab «Tutti»."
   }
 }

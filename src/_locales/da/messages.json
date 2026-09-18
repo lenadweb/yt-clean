@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Ingen grænse"
+  },
+  "infinite_home_feed": {
+    "message": "Endeløst startside-feed"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube stopper med at indlæse anbefalinger på startsiden efter et par skærme.\n\nNår feedet slutter, beder udvidelsen youtube.com om nye anbefalinger og tilføjer videoer nederst, som ikke allerede er vist.\n\nKun fanen “Alle” forlænges."
   }
 }

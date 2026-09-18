@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "ללא הגבלה"
+  },
+  "infinite_home_feed": {
+    "message": "דף בית אינסופי"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube מפסיק לטעון המלצות בדף הבית אחרי כמה מסכים.\n\nכשהפיד נגמר, התוסף מבקש מ-youtube.com המלצות חדשות ומוסיף בסוף סרטונים שעוד לא הוצגו.\n\nרק הכרטיסייה \"הכול\" מוארכת."
   }
 }

@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Piiranguta"
+  },
+  "infinite_home_feed": {
+    "message": "Lõputu avaleht"
+  },
+  "infinite_home_feed_hint": {
+    "message": "YouTube lõpetab avalehel soovituste laadimise mõne ekraanitäie järel.\n\nKui voog lõpeb, küsib laiendus youtube.com-ilt uusi soovitusi ja lisab lõppu videod, mida pole veel näidatud.\n\nPikendatakse ainult vahekaarti „Kõik“."
   }
 }

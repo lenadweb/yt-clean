@@ -502,5 +502,11 @@
   },
   "duration_no_limit": {
     "message": "Walang limitasyon"
+  },
+  "infinite_home_feed": {
+    "message": "Walang katapusang home feed"
+  },
+  "infinite_home_feed_hint": {
+    "message": "Humihinto ang YouTube sa pag-load ng mga rekomendasyon sa home page pagkatapos ng ilang screen.\n\nKapag natapos ang feed, humihingi ang extension ng bagong rekomendasyon sa youtube.com at idinaragdag sa ibaba ang mga video na hindi pa naipapakita.\n\nAng tab na “Lahat” lang ang pinahahaba."
   }
 }
