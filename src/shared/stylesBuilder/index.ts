@@ -1,5 +1,6 @@
 import { ElementActions, FeatureAction } from 'src/shared/types/config';
 import { FEATURES, SECTIONS } from 'src/shared/featureConfig';
+import { KEYWORD_FILTER_STYLE } from 'src/shared/keywordFilter';
 
 const HIDE_STYLE = 'display: none !important;';
 
@@ -23,4 +24,7 @@ const allActions = [
     ...SECTIONS.flatMap((section) => section.onFullGroupEnabledActions ?? []),
 ];
 
-export const styles = allActions.flatMap(buildActionStyles).join('\n');
+export const styles = [
+    ...allActions.flatMap(buildActionStyles),
+    KEYWORD_FILTER_STYLE,
+].join('\n');

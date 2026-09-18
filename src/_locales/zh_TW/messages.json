@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "此版本中未配置回饋。您可以在 GitHub 上提交。"
+  },
+  "filters": {
+    "message": "篩選"
+  },
+  "keyword_filter_hint": {
+    "message": "隱藏標題或頻道名稱包含以下任一關鍵字的影片"
+  },
+  "keyword_filter_placeholder": {
+    "message": "字詞或片語"
+  },
+  "keyword_filter_add": {
+    "message": "新增"
+  },
+  "keyword_filter_remove": {
+    "message": "移除"
+  },
+  "hide_by_keywords": {
+    "message": "依關鍵字隱藏"
   }
 }

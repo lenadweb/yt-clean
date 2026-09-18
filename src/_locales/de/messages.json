@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback ist in diesem Build nicht konfiguriert. Sie können es auf GitHub einreichen."
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "keyword_filter_hint": {
+    "message": "Videos ausblenden, deren Titel oder Kanalname eines dieser Wörter enthält"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Wort oder Ausdruck"
+  },
+  "keyword_filter_add": {
+    "message": "Hinzufügen"
+  },
+  "keyword_filter_remove": {
+    "message": "Entfernen"
+  },
+  "hide_by_keywords": {
+    "message": "Nach Stichwörtern ausblenden"
   }
 }

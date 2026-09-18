@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "W tej kompilacji nie skonfigurowano opinii. Możesz przesłać go na GitHubie."
+  },
+  "filters": {
+    "message": "Filtry"
+  },
+  "keyword_filter_hint": {
+    "message": "Ukrywaj filmy, których tytuł lub nazwa kanału zawiera którekolwiek z tych słów"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Słowo lub fraza"
+  },
+  "keyword_filter_add": {
+    "message": "Dodaj"
+  },
+  "keyword_filter_remove": {
+    "message": "Usuń"
+  },
+  "hide_by_keywords": {
+    "message": "Ukrywaj według słów kluczowych"
   }
 }

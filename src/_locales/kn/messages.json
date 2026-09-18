@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "ಈ ಬಿಲ್ಡ್‌ನಲ್ಲಿ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕಾನ್ಫಿಗರ್ ಮಾಡಲಾಗಿಲ್ಲ. ನೀವು ಅದನ್ನು GitHub ನಲ್ಲಿ ಸಲ್ಲಿಸಬಹುದು."
+  },
+  "filters": {
+    "message": "ಫಿಲ್ಟರ್‌ಗಳು"
+  },
+  "keyword_filter_hint": {
+    "message": "ಶೀರ್ಷಿಕೆ ಅಥವಾ ಚಾನಲ್ ಹೆಸರಿನಲ್ಲಿ ಈ ಪದಗಳಲ್ಲಿ ಯಾವುದಾದರೂ ಇರುವ ವೀಡಿಯೊಗಳನ್ನು ಮರೆಮಾಡಿ"
+  },
+  "keyword_filter_placeholder": {
+    "message": "ಪದ ಅಥವಾ ನುಡಿಗಟ್ಟು"
+  },
+  "keyword_filter_add": {
+    "message": "ಸೇರಿಸಿ"
+  },
+  "keyword_filter_remove": {
+    "message": "ತೆಗೆದುಹಾಕಿ"
+  },
+  "hide_by_keywords": {
+    "message": "ಕೀವರ್ಡ್‌ಗಳ ಆಧಾರದಲ್ಲಿ ಮರೆಮಾಡಿ"
   }
 }

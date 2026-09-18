@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Maklum balas tidak dikonfigurasikan dalam binaan ini. Anda boleh menyerahkannya di GitHub."
+  },
+  "filters": {
+    "message": "Penapis"
+  },
+  "keyword_filter_hint": {
+    "message": "Sembunyikan video yang tajuk atau nama salurannya mengandungi mana-mana perkataan ini"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Perkataan atau frasa"
+  },
+  "keyword_filter_add": {
+    "message": "Tambah"
+  },
+  "keyword_filter_remove": {
+    "message": "Alih keluar"
+  },
+  "hide_by_keywords": {
+    "message": "Sembunyikan mengikut kata kunci"
   }
 }

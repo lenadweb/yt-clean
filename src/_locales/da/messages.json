@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback er ikke konfigureret i denne build. Du kan indsende det på GitHub."
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "keyword_filter_hint": {
+    "message": "Skjul videoer, hvis titel eller kanalnavn indeholder et af disse ord"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Ord eller sætning"
+  },
+  "keyword_filter_add": {
+    "message": "Tilføj"
+  },
+  "keyword_filter_remove": {
+    "message": "Fjern"
+  },
+  "hide_by_keywords": {
+    "message": "Skjul efter søgeord"
   }
 }

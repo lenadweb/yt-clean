@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Bu yapıda geri bildirim yapılandırılmadı. GitHub'a gönderebilirsiniz."
+  },
+  "filters": {
+    "message": "Filtreler"
+  },
+  "keyword_filter_hint": {
+    "message": "Başlığında veya kanal adında bu kelimelerden herhangi biri geçen videoları gizle"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Kelime veya ifade"
+  },
+  "keyword_filter_add": {
+    "message": "Ekle"
+  },
+  "keyword_filter_remove": {
+    "message": "Kaldır"
+  },
+  "hide_by_keywords": {
+    "message": "Anahtar kelimelere göre gizle"
   }
 }

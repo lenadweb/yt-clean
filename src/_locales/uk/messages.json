@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Зворотній зв'язок не налаштований у цій збірці. Ви можете подати його на GitHub."
+  },
+  "filters": {
+    "message": "Фільтри"
+  },
+  "keyword_filter_hint": {
+    "message": "Приховувати відео, у назві або імені каналу яких є будь-яке з цих слів"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Слово або фраза"
+  },
+  "keyword_filter_add": {
+    "message": "Додати"
+  },
+  "keyword_filter_remove": {
+    "message": "Видалити"
+  },
+  "hide_by_keywords": {
+    "message": "Приховувати за ключовими словами"
   }
 }

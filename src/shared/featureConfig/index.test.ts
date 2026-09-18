@@ -41,6 +41,7 @@ describe('FEATURES', () => {
             'activePreset',
             'presets',
             'presetWarningDismissed',
+            'keywordFilter',
         ];
         expect(storageKeys.size).toBe(FEATURES.length + nonFeatureKeys.length);
     });

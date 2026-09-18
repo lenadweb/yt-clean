@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Il feedback non è configurato in questa build. Puoi inviarlo su GitHub."
+  },
+  "filters": {
+    "message": "Filtri"
+  },
+  "keyword_filter_hint": {
+    "message": "Nascondi i video il cui titolo o nome del canale contiene una di queste parole"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Parola o frase"
+  },
+  "keyword_filter_add": {
+    "message": "Aggiungi"
+  },
+  "keyword_filter_remove": {
+    "message": "Rimuovi"
+  },
+  "hide_by_keywords": {
+    "message": "Nascondi per parole chiave"
   }
 }

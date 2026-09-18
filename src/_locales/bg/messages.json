@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Обратната връзка не е конфигурирана в тази компилация. Можете да го изпратите на GitHub."
+  },
+  "filters": {
+    "message": "Филтри"
+  },
+  "keyword_filter_hint": {
+    "message": "Скриване на видеоклипове, чието заглавие или име на канал съдържа някоя от тези думи"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Дума или фраза"
+  },
+  "keyword_filter_add": {
+    "message": "Добавяне"
+  },
+  "keyword_filter_remove": {
+    "message": "Премахване"
+  },
+  "hide_by_keywords": {
+    "message": "Скриване по ключови думи"
   }
 }

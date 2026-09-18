@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Els comentaris no estan configurats en aquesta compilació. Podeu enviar-lo a GitHub."
+  },
+  "filters": {
+    "message": "Filtres"
+  },
+  "keyword_filter_hint": {
+    "message": "Amaga els vídeos el títol o el nom del canal dels quals contingui alguna d’aquestes paraules"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Paraula o frase"
+  },
+  "keyword_filter_add": {
+    "message": "Afegeix"
+  },
+  "keyword_filter_remove": {
+    "message": "Suprimeix"
+  },
+  "hide_by_keywords": {
+    "message": "Amaga per paraules clau"
   }
 }

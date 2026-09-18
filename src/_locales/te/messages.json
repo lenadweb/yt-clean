@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "ఈ బిల్డ్‌లో అభిప్రాయం కాన్ఫిగర్ చేయబడలేదు. మీరు దీన్ని GitHubలో సమర్పించవచ్చు."
+  },
+  "filters": {
+    "message": "ఫిల్టర్‌లు"
+  },
+  "keyword_filter_hint": {
+    "message": "శీర్షికలో లేదా ఛానెల్ పేరులో ఈ పదాలలో ఏదైనా ఉన్న వీడియోలను దాచండి"
+  },
+  "keyword_filter_placeholder": {
+    "message": "పదం లేదా పదబంధం"
+  },
+  "keyword_filter_add": {
+    "message": "జోడించు"
+  },
+  "keyword_filter_remove": {
+    "message": "తీసివేయి"
+  },
+  "hide_by_keywords": {
+    "message": "కీవర్డ్‌ల ఆధారంగా దాచండి"
   }
 }

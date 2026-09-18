@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "ความคิดเห็นไม่ได้รับการกำหนดค่าในรุ่นนี้ คุณสามารถส่งได้ที่ GitHub"
+  },
+  "filters": {
+    "message": "ตัวกรอง"
+  },
+  "keyword_filter_hint": {
+    "message": "ซ่อนวิดีโอที่ชื่อหรือชื่อช่องมีคำใดคำหนึ่งเหล่านี้"
+  },
+  "keyword_filter_placeholder": {
+    "message": "คำหรือวลี"
+  },
+  "keyword_filter_add": {
+    "message": "เพิ่ม"
+  },
+  "keyword_filter_remove": {
+    "message": "นำออก"
+  },
+  "hide_by_keywords": {
+    "message": "ซ่อนตามคีย์เวิร์ด"
   }
 }

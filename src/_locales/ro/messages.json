@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback-ul nu este configurat în această versiune. Îl poți trimite pe GitHub."
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "keyword_filter_hint": {
+    "message": "Ascunde videoclipurile al căror titlu sau nume de canal conține oricare dintre aceste cuvinte"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Cuvânt sau expresie"
+  },
+  "keyword_filter_add": {
+    "message": "Adaugă"
+  },
+  "keyword_filter_remove": {
+    "message": "Elimină"
+  },
+  "hide_by_keywords": {
+    "message": "Ascunde după cuvinte cheie"
   }
 }

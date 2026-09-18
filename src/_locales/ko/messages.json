@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "이 빌드에는 피드백이 구성되지 않았습니다. GitHub에 제출할 수 있습니다."
+  },
+  "filters": {
+    "message": "필터"
+  },
+  "keyword_filter_hint": {
+    "message": "제목이나 채널 이름에 이 단어 중 하나라도 포함된 동영상 숨기기"
+  },
+  "keyword_filter_placeholder": {
+    "message": "단어 또는 문구"
+  },
+  "keyword_filter_add": {
+    "message": "추가"
+  },
+  "keyword_filter_remove": {
+    "message": "삭제"
+  },
+  "hide_by_keywords": {
+    "message": "키워드로 숨기기"
   }
 }

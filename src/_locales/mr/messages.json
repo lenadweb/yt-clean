@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "या बिल्डमध्ये फीडबॅक कॉन्फिगर केलेला नाही. तुम्ही ते GitHub वर सबमिट करू शकता."
+  },
+  "filters": {
+    "message": "फिल्टर"
+  },
+  "keyword_filter_hint": {
+    "message": "ज्या व्हिडिओंच्या शीर्षकात किंवा चॅनेलच्या नावात यापैकी कोणताही शब्द आहे ते लपवा"
+  },
+  "keyword_filter_placeholder": {
+    "message": "शब्द किंवा वाक्यांश"
+  },
+  "keyword_filter_add": {
+    "message": "जोडा"
+  },
+  "keyword_filter_remove": {
+    "message": "काढा"
+  },
+  "hide_by_keywords": {
+    "message": "कीवर्डनुसार लपवा"
   }
 }

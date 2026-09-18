@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Selles järgus pole tagasisidet konfigureeritud. Saate selle esitada GitHubis."
+  },
+  "filters": {
+    "message": "Filtrid"
+  },
+  "keyword_filter_hint": {
+    "message": "Peida videod, mille pealkiri või kanali nimi sisaldab mõnda neist sõnadest"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Sõna või fraas"
+  },
+  "keyword_filter_add": {
+    "message": "Lisa"
+  },
+  "keyword_filter_remove": {
+    "message": "Eemalda"
+  },
+  "hide_by_keywords": {
+    "message": "Peida märksõnade järgi"
   }
 }

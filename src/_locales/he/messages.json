@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "משוב אינו מוגדר בגירסה זו. אתה יכול להגיש את זה ב- GitHub."
+  },
+  "filters": {
+    "message": "מסננים"
+  },
+  "keyword_filter_hint": {
+    "message": "הסתרת סרטונים שהכותרת או שם הערוץ שלהם מכילים אחת מהמילים האלה"
+  },
+  "keyword_filter_placeholder": {
+    "message": "מילה או ביטוי"
+  },
+  "keyword_filter_add": {
+    "message": "הוספה"
+  },
+  "keyword_filter_remove": {
+    "message": "הסרה"
+  },
+  "hide_by_keywords": {
+    "message": "הסתרה לפי מילות מפתח"
   }
 }

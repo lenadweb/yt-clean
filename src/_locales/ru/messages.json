@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "В этой сборке отправка отзывов не настроена. Вы можете написать на GitHub."
+  },
+  "filters": {
+    "message": "Фильтры"
+  },
+  "keyword_filter_hint": {
+    "message": "Скрывать видео, в названии или имени канала которых есть любое из этих слов"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Слово или фраза"
+  },
+  "keyword_filter_add": {
+    "message": "Добавить"
+  },
+  "keyword_filter_remove": {
+    "message": "Удалить"
+  },
+  "hide_by_keywords": {
+    "message": "Скрывать по ключевым словам"
   }
 }

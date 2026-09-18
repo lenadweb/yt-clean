@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback is not configured in this build. You can submit it on GitHub."
+  },
+  "filters": {
+    "message": "Filters"
+  },
+  "keyword_filter_hint": {
+    "message": "Hide videos whose title or channel name contains any of these words"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Word or phrase"
+  },
+  "keyword_filter_add": {
+    "message": "Add"
+  },
+  "keyword_filter_remove": {
+    "message": "Remove"
+  },
+  "hide_by_keywords": {
+    "message": "Hide by keywords"
   }
 }

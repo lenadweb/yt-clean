@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "このビルドではフィードバックは構成されていません。 GitHub で送信できます。"
+  },
+  "filters": {
+    "message": "フィルター"
+  },
+  "keyword_filter_hint": {
+    "message": "タイトルまたはチャンネル名にこれらの語句を含む動画を非表示にする"
+  },
+  "keyword_filter_placeholder": {
+    "message": "語句"
+  },
+  "keyword_filter_add": {
+    "message": "追加"
+  },
+  "keyword_filter_remove": {
+    "message": "削除"
+  },
+  "hide_by_keywords": {
+    "message": "キーワードで非表示"
   }
 }

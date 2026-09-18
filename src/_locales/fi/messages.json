@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Palaute ei ole määritetty tässä koontiversiossa. Voit lähettää sen GitHubissa."
+  },
+  "filters": {
+    "message": "Suodattimet"
+  },
+  "keyword_filter_hint": {
+    "message": "Piilota videot, joiden otsikossa tai kanavan nimessä on jokin näistä sanoista"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Sana tai lause"
+  },
+  "keyword_filter_add": {
+    "message": "Lisää"
+  },
+  "keyword_filter_remove": {
+    "message": "Poista"
+  },
+  "hide_by_keywords": {
+    "message": "Piilota avainsanojen perusteella"
   }
 }

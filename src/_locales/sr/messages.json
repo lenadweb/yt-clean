@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Повратне информације нису конфигурисане у овој верзији. Можете га послати на ГитХуб."
+  },
+  "filters": {
+    "message": "Филтери"
+  },
+  "keyword_filter_hint": {
+    "message": "Сакриј видео снимке чији наслов или назив канала садржи било коју од ових речи"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Реч или израз"
+  },
+  "keyword_filter_add": {
+    "message": "Додај"
+  },
+  "keyword_filter_remove": {
+    "message": "Уклони"
+  },
+  "hide_by_keywords": {
+    "message": "Сакриј према кључним речима"
   }
 }

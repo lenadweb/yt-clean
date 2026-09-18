@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback är inte konfigurerat i denna version. Du kan skicka in den på GitHub."
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "keyword_filter_hint": {
+    "message": "Dölj videor vars titel eller kanalnamn innehåller något av dessa ord"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Ord eller fras"
+  },
+  "keyword_filter_add": {
+    "message": "Lägg till"
+  },
+  "keyword_filter_remove": {
+    "message": "Ta bort"
+  },
+  "hide_by_keywords": {
+    "message": "Dölj efter nyckelord"
   }
 }

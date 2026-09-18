@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Les commentaires ne sont pas configurés dans cette version. Vous pouvez le soumettre sur GitHub."
+  },
+  "filters": {
+    "message": "Filtres"
+  },
+  "keyword_filter_hint": {
+    "message": "Masquer les vidéos dont le titre ou le nom de la chaîne contient l’un de ces mots"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Mot ou expression"
+  },
+  "keyword_filter_add": {
+    "message": "Ajouter"
+  },
+  "keyword_filter_remove": {
+    "message": "Supprimer"
+  },
+  "hide_by_keywords": {
+    "message": "Masquer par mots-clés"
   }
 }

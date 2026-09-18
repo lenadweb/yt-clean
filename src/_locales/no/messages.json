@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Tilbakemelding er ikke konfigurert i denne versjonen. Du kan sende den inn på GitHub."
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "keyword_filter_hint": {
+    "message": "Skjul videoer der tittelen eller kanalnavnet inneholder et av disse ordene"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Ord eller uttrykk"
+  },
+  "keyword_filter_add": {
+    "message": "Legg til"
+  },
+  "keyword_filter_remove": {
+    "message": "Fjern"
+  },
+  "hide_by_keywords": {
+    "message": "Skjul etter nøkkelord"
   }
 }

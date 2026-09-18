@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Povratne informacije nisu konfigurirane u ovoj verziji. Možete ga poslati na GitHub."
+  },
+  "filters": {
+    "message": "Filtri"
+  },
+  "keyword_filter_hint": {
+    "message": "Sakrij videozapise čiji naslov ili naziv kanala sadrži bilo koju od ovih riječi"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Riječ ili izraz"
+  },
+  "keyword_filter_add": {
+    "message": "Dodaj"
+  },
+  "keyword_filter_remove": {
+    "message": "Ukloni"
+  },
+  "hide_by_keywords": {
+    "message": "Sakrij prema ključnim riječima"
   }
 }

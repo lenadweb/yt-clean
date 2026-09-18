@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "ഈ ബിൽഡിൽ ഫീഡ്ബാക്ക് കോൺഫിഗർ ചെയ്തിട്ടില്ല. നിങ്ങൾക്ക് ഇത് GitHub-ൽ സമർപ്പിക്കാം."
+  },
+  "filters": {
+    "message": "ഫിൽട്ടറുകൾ"
+  },
+  "keyword_filter_hint": {
+    "message": "ശീർഷകത്തിലോ ചാനൽ പേരിലോ ഈ വാക്കുകളിൽ ഏതെങ്കിലും ഉള്ള വീഡിയോകൾ മറയ്ക്കുക"
+  },
+  "keyword_filter_placeholder": {
+    "message": "വാക്ക് അല്ലെങ്കിൽ വാക്യം"
+  },
+  "keyword_filter_add": {
+    "message": "ചേർക്കുക"
+  },
+  "keyword_filter_remove": {
+    "message": "നീക്കം ചെയ്യുക"
+  },
+  "hide_by_keywords": {
+    "message": "കീവേഡുകൾ അനുസരിച്ച് മറയ്ക്കുക"
   }
 }

@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "A visszajelzés nincs beállítva ebben a buildben. Beküldheti a GitHubon."
+  },
+  "filters": {
+    "message": "Szűrők"
+  },
+  "keyword_filter_hint": {
+    "message": "Azon videók elrejtése, amelyek címe vagy csatornaneve tartalmazza valamelyik szót"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Szó vagy kifejezés"
+  },
+  "keyword_filter_add": {
+    "message": "Hozzáadás"
+  },
+  "keyword_filter_remove": {
+    "message": "Eltávolítás"
+  },
+  "hide_by_keywords": {
+    "message": "Elrejtés kulcsszavak alapján"
   }
 }

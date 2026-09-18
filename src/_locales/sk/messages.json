@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "V tejto zostave nie je nakonfigurovaná spätná väzba. Môžete ho odoslať na GitHub."
+  },
+  "filters": {
+    "message": "Filtre"
+  },
+  "keyword_filter_hint": {
+    "message": "Skryť videá, ktorých názov alebo názov kanála obsahuje niektoré z týchto slov"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Slovo alebo fráza"
+  },
+  "keyword_filter_add": {
+    "message": "Pridať"
+  },
+  "keyword_filter_remove": {
+    "message": "Odstrániť"
+  },
+  "hide_by_keywords": {
+    "message": "Skryť podľa kľúčových slov"
   }
 }

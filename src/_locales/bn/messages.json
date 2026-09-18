@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "এই বিল্ডে প্রতিক্রিয়া কনফিগার করা নেই। আপনি এটি GitHub এ জমা দিতে পারেন।"
+  },
+  "filters": {
+    "message": "ফিল্টার"
+  },
+  "keyword_filter_hint": {
+    "message": "যেসব ভিডিওর শিরোনাম বা চ্যানেলের নামে এই শব্দগুলোর কোনোটি আছে সেগুলো লুকান"
+  },
+  "keyword_filter_placeholder": {
+    "message": "শব্দ বা বাক্যাংশ"
+  },
+  "keyword_filter_add": {
+    "message": "যোগ করুন"
+  },
+  "keyword_filter_remove": {
+    "message": "সরান"
+  },
+  "hide_by_keywords": {
+    "message": "কীওয়ার্ড অনুযায়ী লুকান"
   }
 }

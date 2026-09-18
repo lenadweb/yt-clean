@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Hindi naka-configure ang feedback sa build na ito. Maaari mo itong isumite sa GitHub."
+  },
+  "filters": {
+    "message": "Mga filter"
+  },
+  "keyword_filter_hint": {
+    "message": "Itago ang mga video na may alinman sa mga salitang ito sa pamagat o pangalan ng channel"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Salita o parirala"
+  },
+  "keyword_filter_add": {
+    "message": "Idagdag"
+  },
+  "keyword_filter_remove": {
+    "message": "Alisin"
+  },
+  "hide_by_keywords": {
+    "message": "Itago ayon sa keyword"
   }
 }

@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "此版本中未配置反馈。您可以在 GitHub 上提交。"
+  },
+  "filters": {
+    "message": "过滤"
+  },
+  "keyword_filter_hint": {
+    "message": "隐藏标题或频道名称包含以下任一关键词的视频"
+  },
+  "keyword_filter_placeholder": {
+    "message": "词语或短语"
+  },
+  "keyword_filter_add": {
+    "message": "添加"
+  },
+  "keyword_filter_remove": {
+    "message": "移除"
+  },
+  "hide_by_keywords": {
+    "message": "按关键词隐藏"
   }
 }

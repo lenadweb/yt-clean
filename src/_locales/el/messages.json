@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Τα σχόλια δεν έχουν ρυθμιστεί σε αυτήν την έκδοση. Μπορείτε να το υποβάλετε στο GitHub."
+  },
+  "filters": {
+    "message": "Φίλτρα"
+  },
+  "keyword_filter_hint": {
+    "message": "Απόκρυψη βίντεο των οποίων ο τίτλος ή το όνομα καναλιού περιέχει οποιαδήποτε από αυτές τις λέξεις"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Λέξη ή φράση"
+  },
+  "keyword_filter_add": {
+    "message": "Προσθήκη"
+  },
+  "keyword_filter_remove": {
+    "message": "Κατάργηση"
+  },
+  "hide_by_keywords": {
+    "message": "Απόκρυψη βάσει λέξεων-κλειδιών"
   }
 }

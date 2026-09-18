@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Šioje versijoje atsiliepimai nesukonfigūruoti. Jį galite pateikti „GitHub“."
+  },
+  "filters": {
+    "message": "Filtrai"
+  },
+  "keyword_filter_hint": {
+    "message": "Slėpti vaizdo įrašus, kurių pavadinime ar kanalo pavadinime yra bent vienas iš šių žodžių"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Žodis ar frazė"
+  },
+  "keyword_filter_add": {
+    "message": "Pridėti"
+  },
+  "keyword_filter_remove": {
+    "message": "Pašalinti"
+  },
+  "hide_by_keywords": {
+    "message": "Slėpti pagal raktažodžius"
   }
 }

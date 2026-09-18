@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Umpan balik tidak dikonfigurasi dalam build ini. Anda dapat mengirimkannya di GitHub."
+  },
+  "filters": {
+    "message": "Filter"
+  },
+  "keyword_filter_hint": {
+    "message": "Sembunyikan video yang judul atau nama salurannya berisi salah satu kata ini"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Kata atau frasa"
+  },
+  "keyword_filter_add": {
+    "message": "Tambah"
+  },
+  "keyword_filter_remove": {
+    "message": "Hapus"
+  },
+  "hide_by_keywords": {
+    "message": "Sembunyikan berdasarkan kata kunci"
   }
 }

@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "इस बिल्ड में फीडबैक कॉन्फ़िगर नहीं किया गया है। आप इसे GitHub पर सबमिट कर सकते हैं."
+  },
+  "filters": {
+    "message": "फ़िल्टर"
+  },
+  "keyword_filter_hint": {
+    "message": "ऐसे वीडियो छिपाएँ जिनके शीर्षक या चैनल के नाम में इनमें से कोई भी शब्द हो"
+  },
+  "keyword_filter_placeholder": {
+    "message": "शब्द या वाक्यांश"
+  },
+  "keyword_filter_add": {
+    "message": "जोड़ें"
+  },
+  "keyword_filter_remove": {
+    "message": "हटाएँ"
+  },
+  "hide_by_keywords": {
+    "message": "कीवर्ड के आधार पर छिपाएँ"
   }
 }

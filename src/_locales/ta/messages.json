@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "இந்த கட்டமைப்பில் கருத்து உள்ளமைக்கப்படவில்லை. நீங்கள் அதை GitHub இல் சமர்ப்பிக்கலாம்."
+  },
+  "filters": {
+    "message": "வடிகட்டிகள்"
+  },
+  "keyword_filter_hint": {
+    "message": "தலைப்பில் அல்லது சேனல் பெயரில் இந்தச் சொற்களில் ஏதேனும் உள்ள வீடியோக்களை மறை"
+  },
+  "keyword_filter_placeholder": {
+    "message": "சொல் அல்லது சொற்றொடர்"
+  },
+  "keyword_filter_add": {
+    "message": "சேர்"
+  },
+  "keyword_filter_remove": {
+    "message": "அகற்று"
+  },
+  "hide_by_keywords": {
+    "message": "முக்கியச்சொற்களின்படி மறை"
   }
 }

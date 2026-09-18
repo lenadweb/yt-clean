@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "بازخورد در این ساخت پیکربندی نشده است. می توانید آن را در GitHub ارسال کنید."
+  },
+  "filters": {
+    "message": "فیلترها"
+  },
+  "keyword_filter_hint": {
+    "message": "پنهان کردن ویدیوهایی که عنوان یا نام کانالشان شامل یکی از این کلمه‌ها است"
+  },
+  "keyword_filter_placeholder": {
+    "message": "کلمه یا عبارت"
+  },
+  "keyword_filter_add": {
+    "message": "افزودن"
+  },
+  "keyword_filter_remove": {
+    "message": "حذف"
+  },
+  "hide_by_keywords": {
+    "message": "پنهان کردن بر اساس کلیدواژه"
   }
 }

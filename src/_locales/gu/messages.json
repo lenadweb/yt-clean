@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "પ્રતિસાદ આ બિલ્ડમાં ગોઠવેલ નથી. તમે તેને GitHub પર સબમિટ કરી શકો છો."
+  },
+  "filters": {
+    "message": "ફિલ્ટર"
+  },
+  "keyword_filter_hint": {
+    "message": "જે વિડિઓના શીર્ષક અથવા ચેનલના નામમાં આમાંથી કોઈ પણ શબ્દ હોય તે છુપાવો"
+  },
+  "keyword_filter_placeholder": {
+    "message": "શબ્દ અથવા શબ્દસમૂહ"
+  },
+  "keyword_filter_add": {
+    "message": "ઉમેરો"
+  },
+  "keyword_filter_remove": {
+    "message": "દૂર કરો"
+  },
+  "hide_by_keywords": {
+    "message": "કીવર્ડ મુજબ છુપાવો"
   }
 }

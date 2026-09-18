@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Feedback is niet geconfigureerd in deze build. Je kunt het indienen op GitHub."
+  },
+  "filters": {
+    "message": "Filters"
+  },
+  "keyword_filter_hint": {
+    "message": "Video’s verbergen waarvan de titel of kanaalnaam een van deze woorden bevat"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Woord of zin"
+  },
+  "keyword_filter_add": {
+    "message": "Toevoegen"
+  },
+  "keyword_filter_remove": {
+    "message": "Verwijderen"
+  },
+  "hide_by_keywords": {
+    "message": "Verbergen op trefwoorden"
   }
 }

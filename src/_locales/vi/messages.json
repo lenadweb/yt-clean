@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Phản hồi không được định cấu hình trong bản dựng này. Bạn có thể gửi nó trên GitHub."
+  },
+  "filters": {
+    "message": "Bộ lọc"
+  },
+  "keyword_filter_hint": {
+    "message": "Ẩn video có tiêu đề hoặc tên kênh chứa bất kỳ từ nào trong số này"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Từ hoặc cụm từ"
+  },
+  "keyword_filter_add": {
+    "message": "Thêm"
+  },
+  "keyword_filter_remove": {
+    "message": "Xóa"
+  },
+  "hide_by_keywords": {
+    "message": "Ẩn theo từ khóa"
   }
 }

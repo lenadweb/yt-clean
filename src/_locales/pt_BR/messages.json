@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "O feedback não está configurado nesta compilação. Você pode enviá-lo no GitHub."
+  },
+  "filters": {
+    "message": "Filtros"
+  },
+  "keyword_filter_hint": {
+    "message": "Ocultar vídeos cujo título ou nome do canal contenha alguma destas palavras"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Palavra ou frase"
+  },
+  "keyword_filter_add": {
+    "message": "Adicionar"
+  },
+  "keyword_filter_remove": {
+    "message": "Remover"
+  },
+  "hide_by_keywords": {
+    "message": "Ocultar por palavras-chave"
   }
 }

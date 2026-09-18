@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Maoni hayajasanidiwa katika muundo huu. Unaweza kuiwasilisha kwenye GitHub."
+  },
+  "filters": {
+    "message": "Vichujio"
+  },
+  "keyword_filter_hint": {
+    "message": "Ficha video ambazo kichwa au jina la kituo lina neno lolote kati ya haya"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Neno au kifungu"
+  },
+  "keyword_filter_add": {
+    "message": "Ongeza"
+  },
+  "keyword_filter_remove": {
+    "message": "Ondoa"
+  },
+  "hide_by_keywords": {
+    "message": "Ficha kwa maneno muhimu"
   }
 }

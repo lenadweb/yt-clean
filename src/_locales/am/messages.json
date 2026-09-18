@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "ግብረመልስ በዚህ ግንባታ ውስጥ አልተዋቀረም። በ GitHub ላይ ማስገባት ይችላሉ።"
+  },
+  "filters": {
+    "message": "ማጣሪያዎች"
+  },
+  "keyword_filter_hint": {
+    "message": "ርዕሳቸው ወይም የቻናል ስማቸው ከእነዚህ ቃላት አንዱን የያዘ ቪዲዮዎችን ደብቅ"
+  },
+  "keyword_filter_placeholder": {
+    "message": "ቃል ወይም ሐረግ"
+  },
+  "keyword_filter_add": {
+    "message": "አክል"
+  },
+  "keyword_filter_remove": {
+    "message": "አስወግድ"
+  },
+  "hide_by_keywords": {
+    "message": "በቁልፍ ቃላት ደብቅ"
   }
 }

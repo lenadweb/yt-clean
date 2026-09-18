@@ -10,17 +10,20 @@ import { I18nKey, SettingsSection } from 'src/shared/types/config';
 import SettingsGroup from 'src/sidebar/components/SettingsGroup';
 import { useStorage } from 'src/shared/hooks/useStorage';
 import { t } from 'src/shared/utils/i18n';
+import { NewBadge } from 'src/sidebar/components/NewBadge';
 
-type Props = {
+type AccordionProps = {
     title: I18nKey;
-    sections: SettingsSection[];
     defaultOpen?: boolean;
+    isNew?: boolean;
+    children: React.ReactNode;
 };
 
-export const SettingsAccordion: FC<Props> = ({
+export const Accordion: FC<AccordionProps> = ({
     title,
-    sections,
     defaultOpen,
+    isNew,
+    children,
 }) => {
     const [settings] = useStorage();
     const enabled = settings.isEnabled;
@@ -39,8 +42,9 @@ export const SettingsAccordion: FC<Props> = ({
                 >
                     <div className="flex items-center justify-between">
                         <DisclosureButton className="group flex w-full cursor-pointer items-center justify-between gap-2 p-5">
-                            <div className="text-base leading-[1.2]">
+                            <div className="flex items-center gap-2 text-base leading-[1.2]">
                                 {t(title)}
+                                {isNew && <NewBadge />}
                             </div>
                             <ChevronDownIcon
                                 className={cn(
@@ -56,21 +60,37 @@ export const SettingsAccordion: FC<Props> = ({
                         transition
                         className="origin-top space-y-2 px-6 pb-5 pt-1 transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
                     >
-                        {sections.map((section, i) => (
-                            <SettingsGroup
-                                isFirst={i === 0}
-                                key={section.title}
-                                hint={section.hint}
-                                isNew={!!section.isNew}
-                                isExperimental={!!section.isExperimental}
-                                controls={section.controls}
-                                features={section.features}
-                                title={section.title}
-                            />
-                        ))}
+                        {children}
                     </DisclosurePanel>
                 </div>
             )}
         </Disclosure>
     );
 };
+
+type Props = {
+    title: I18nKey;
+    sections: SettingsSection[];
+    defaultOpen?: boolean;
+};
+
+export const SettingsAccordion: FC<Props> = ({
+    title,
+    sections,
+    defaultOpen,
+}) => (
+    <Accordion title={title} defaultOpen={defaultOpen}>
+        {sections.map((section, i) => (
+            <SettingsGroup
+                isFirst={i === 0}
+                key={section.title}
+                hint={section.hint}
+                isNew={!!section.isNew}
+                isExperimental={!!section.isExperimental}
+                controls={section.controls}
+                features={section.features}
+                title={section.title}
+            />
+        ))}
+    </Accordion>
+);

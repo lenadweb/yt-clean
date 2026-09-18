@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "لم يتم تكوين التعليقات في هذا الإصدار. يمكنك تقديمه على جيثب."
+  },
+  "filters": {
+    "message": "الفلاتر"
+  },
+  "keyword_filter_hint": {
+    "message": "إخفاء الفيديوهات التي يحتوي عنوانها أو اسم قناتها على أي من هذه الكلمات"
+  },
+  "keyword_filter_placeholder": {
+    "message": "كلمة أو عبارة"
+  },
+  "keyword_filter_add": {
+    "message": "إضافة"
+  },
+  "keyword_filter_remove": {
+    "message": "إزالة"
+  },
+  "hide_by_keywords": {
+    "message": "إخفاء حسب الكلمات الرئيسية"
   }
 }

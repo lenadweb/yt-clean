@@ -2,6 +2,7 @@ import { FEATURES, FeatureId } from 'src/shared/featureConfig';
 import { SettingValue } from 'src/shared/types/settings';
 import { PRESET_DEFAULTS, PRESET_IDS, PresetId } from 'src/shared/presets';
 import { EXTENSION_ENABLED_BY_DEFAULT } from 'src/shared/const';
+import { KeywordFilterSetting } from 'src/shared/keywordFilter';
 
 export type { FeatureId };
 export type SettingsState = Record<FeatureId, SettingValue>;
@@ -11,6 +12,7 @@ export type StorageState = SettingsState & {
     activePreset: PresetId;
     presets: Record<PresetId, SettingsState>;
     presetWarningDismissed: boolean;
+    keywordFilter: KeywordFilterSetting;
 };
 
 export const toFeatureId = (id: string): FeatureId => id as FeatureId;
@@ -32,6 +34,7 @@ export const DEFAULT_STORAGE: StorageState = {
     activePreset: 'balanced',
     presetWarningDismissed: false,
     presets: defaultPresets,
+    keywordFilter: { enabled: true, keywords: [] },
     ...Object.fromEntries(
         FEATURES.map((feature) => [
             feature.id,

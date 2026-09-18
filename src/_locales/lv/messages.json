@@ -451,5 +451,23 @@
   },
   "feedback_unavailable": {
     "message": "Šajā būvniecībā atsauksmes nav konfigurētas. Varat to iesniegt vietnē GitHub."
+  },
+  "filters": {
+    "message": "Filtri"
+  },
+  "keyword_filter_hint": {
+    "message": "Slēpt videoklipus, kuru nosaukumā vai kanāla nosaukumā ir kāds no šiem vārdiem"
+  },
+  "keyword_filter_placeholder": {
+    "message": "Vārds vai frāze"
+  },
+  "keyword_filter_add": {
+    "message": "Pievienot"
+  },
+  "keyword_filter_remove": {
+    "message": "Noņemt"
+  },
+  "hide_by_keywords": {
+    "message": "Slēpt pēc atslēgvārdiem"
   }
 }
