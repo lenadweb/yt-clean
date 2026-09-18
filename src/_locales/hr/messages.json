@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Sakrij prema ključnim riječima"
+  },
+  "hide_ask_button": {
+    "message": "Sakrij gumb „Pitaj”"
+  },
+  "hide_ai_summaries": {
+    "message": "Sakrij AI sažetke"
+  },
+  "original_language": {
+    "message": "Izvorni jezik"
+  },
+  "original_titles": {
+    "message": "Prikaži izvorne naslove"
+  },
+  "original_audio": {
+    "message": "Reproduciraj izvorni zvuk"
+  },
+  "original_language_hint": {
+    "message": "YouTube može automatski prevoditi naslove videozapisa i sinkronizirati zvuk na vaš jezik.\n\n„Prikaži izvorne naslove” vraća naslove onako kako ih je napisao autor. Za to proširenje traži javne podatke o videozapisu od youtube.com – bez usluga trećih strana.\n\n„Reproduciraj izvorni zvuk” automatski sinkronizirane videozapise vraća na autorov zvučni zapis. Drugi zapis i dalje možete odabrati u postavkama playera."
+  },
+  "hide_by_duration": {
+    "message": "Sakrij prema trajanju"
+  },
+  "duration_filter_hint": {
+    "message": "Skriva videozapise kraće od minimuma ili dulje od maksimuma.\n\nPrijenosi uživo i videozapisi bez trajanja uvijek se prikazuju.\n\nRezultati pretraživanja ne filtriraju se."
+  },
+  "duration_min": {
+    "message": "Najkraće trajanje"
+  },
+  "duration_max": {
+    "message": "Najdulje trajanje"
+  },
+  "duration_no_limit": {
+    "message": "Bez ograničenja"
   }
 }

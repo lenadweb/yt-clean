@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Piilota avainsanojen perusteella"
+  },
+  "hide_ask_button": {
+    "message": "Piilota Kysy-painike"
+  },
+  "hide_ai_summaries": {
+    "message": "Piilota tekoälyn tiivistelmät"
+  },
+  "original_language": {
+    "message": "Alkuperäinen kieli"
+  },
+  "original_titles": {
+    "message": "Näytä alkuperäiset otsikot"
+  },
+  "original_audio": {
+    "message": "Toista alkuperäinen ääni"
+  },
+  "original_language_hint": {
+    "message": "YouTube voi kääntää videoiden otsikot ja dubata äänen automaattisesti kielellesi.\n\n”Näytä alkuperäiset otsikot” palauttaa otsikot sellaisina kuin tekijä ne kirjoitti. Tätä varten laajennus hakee videon julkiset tiedot youtube.comista ilman kolmannen osapuolen palveluja.\n\n”Toista alkuperäinen ääni” vaihtaa automaattisesti dubatut videot takaisin tekijän ääniraitaan. Voit edelleen valita toisen raidan soittimen asetuksista."
+  },
+  "hide_by_duration": {
+    "message": "Piilota keston mukaan"
+  },
+  "duration_filter_hint": {
+    "message": "Piilottaa videot, jotka ovat lyhyempiä kuin vähimmäiskesto tai pidempiä kuin enimmäiskesto.\n\nSuoratoistot ja videot ilman kestoa näytetään aina.\n\nHakutuloksia ei suodateta."
+  },
+  "duration_min": {
+    "message": "Vähimmäiskesto"
+  },
+  "duration_max": {
+    "message": "Enimmäiskesto"
+  },
+  "duration_no_limit": {
+    "message": "Ei rajaa"
   }
 }

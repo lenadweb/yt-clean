@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Skjul efter søgeord"
+  },
+  "hide_ask_button": {
+    "message": "Skjul knappen “Spørg”"
+  },
+  "hide_ai_summaries": {
+    "message": "Skjul AI-resuméer"
+  },
+  "original_language": {
+    "message": "Originalsprog"
+  },
+  "original_titles": {
+    "message": "Vis originale titler"
+  },
+  "original_audio": {
+    "message": "Afspil originallyd"
+  },
+  "original_language_hint": {
+    "message": "YouTube kan automatisk oversætte videotitler og eftersynkronisere lyden til dit sprog.\n\n“Vis originale titler” gendanner titlerne, som forfatteren skrev dem. For at hente dem beder udvidelsen youtube.com om offentlige videooplysninger – uden tredjepartstjenester.\n\n“Afspil originallyd” skifter automatisk eftersynkroniserede videoer tilbage til forfatterens lydspor. Du kan stadig vælge et andet spor i afspillerens indstillinger."
+  },
+  "hide_by_duration": {
+    "message": "Skjul efter varighed"
+  },
+  "duration_filter_hint": {
+    "message": "Skjuler videoer, der er kortere end minimum eller længere end maksimum.\n\nLivestreams og videoer uden varighed vises altid.\n\nSøgeresultater filtreres ikke."
+  },
+  "duration_min": {
+    "message": "Minimumsvarighed"
+  },
+  "duration_max": {
+    "message": "Maksimal varighed"
+  },
+  "duration_no_limit": {
+    "message": "Ingen grænse"
   }
 }

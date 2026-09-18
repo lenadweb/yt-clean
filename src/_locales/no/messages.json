@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Skjul etter nøkkelord"
+  },
+  "hide_ask_button": {
+    "message": "Skjul «Spør»-knappen"
+  },
+  "hide_ai_summaries": {
+    "message": "Skjul KI-sammendrag"
+  },
+  "original_language": {
+    "message": "Originalspråk"
+  },
+  "original_titles": {
+    "message": "Vis originaltitler"
+  },
+  "original_audio": {
+    "message": "Spill av originallyd"
+  },
+  "original_language_hint": {
+    "message": "YouTube kan automatisk oversette videotitler og dubbe lyden til språket ditt.\n\n«Vis originaltitler» gjenoppretter titlene slik skaperen skrev dem. For å hente dem ber utvidelsen youtube.com om offentlig videoinformasjon – uten tredjepartstjenester.\n\n«Spill av originallyd» bytter automatisk dubbede videoer tilbake til skaperens lydspor. Du kan fortsatt velge et annet spor i avspillerinnstillingene."
+  },
+  "hide_by_duration": {
+    "message": "Skjul etter lengde"
+  },
+  "duration_filter_hint": {
+    "message": "Skjuler videoer som er kortere enn minimum eller lengre enn maksimum.\n\nDirektesendinger og videoer uten lengde vises alltid.\n\nSøkeresultater filtreres ikke."
+  },
+  "duration_min": {
+    "message": "Minste lengde"
+  },
+  "duration_max": {
+    "message": "Største lengde"
+  },
+  "duration_no_limit": {
+    "message": "Ingen grense"
   }
 }

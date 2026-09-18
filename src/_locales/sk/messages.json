@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Skryť podľa kľúčových slov"
+  },
+  "hide_ask_button": {
+    "message": "Skryť tlačidlo „Opýtať sa“"
+  },
+  "hide_ai_summaries": {
+    "message": "Skryť zhrnutia AI"
+  },
+  "original_language": {
+    "message": "Pôvodný jazyk"
+  },
+  "original_titles": {
+    "message": "Zobrazovať pôvodné názvy"
+  },
+  "original_audio": {
+    "message": "Prehrávať pôvodný zvuk"
+  },
+  "original_language_hint": {
+    "message": "YouTube môže automaticky prekladať názvy videí a dabovať zvuk do vášho jazyka.\n\n„Zobrazovať pôvodné názvy“ vráti názvy v podobe, v akej ich napísal autor. Rozšírenie si na to vyžiada verejné informácie o videu z youtube.com – bez služieb tretích strán.\n\n„Prehrávať pôvodný zvuk“ prepne automaticky dabované videá späť na zvukovú stopu autora. Inú stopu si stále môžete vybrať v nastaveniach prehrávača."
+  },
+  "hide_by_duration": {
+    "message": "Skryť podľa dĺžky"
+  },
+  "duration_filter_hint": {
+    "message": "Skryje videá kratšie ako minimum alebo dlhšie ako maximum.\n\nŽivé prenosy a videá bez dĺžky sa zobrazujú vždy.\n\nVýsledky vyhľadávania sa nefiltrujú."
+  },
+  "duration_min": {
+    "message": "Minimálna dĺžka"
+  },
+  "duration_max": {
+    "message": "Maximálna dĺžka"
+  },
+  "duration_no_limit": {
+    "message": "Bez obmedzenia"
   }
 }

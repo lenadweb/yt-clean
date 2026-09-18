@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Itago ayon sa keyword"
+  },
+  "hide_ask_button": {
+    "message": "Itago ang button na “Magtanong”"
+  },
+  "hide_ai_summaries": {
+    "message": "Itago ang mga buod ng AI"
+  },
+  "original_language": {
+    "message": "Orihinal na wika"
+  },
+  "original_titles": {
+    "message": "Ipakita ang mga orihinal na pamagat"
+  },
+  "original_audio": {
+    "message": "I-play ang orihinal na audio"
+  },
+  "original_language_hint": {
+    "message": "Maaaring awtomatikong isalin ng YouTube ang mga pamagat ng video at i-dub ang audio sa iyong wika.\n\nIbinabalik ng “Ipakita ang mga orihinal na pamagat” ang mga pamagat gaya ng isinulat ng may-akda. Para dito, humihingi ang extension ng pampublikong impormasyon ng video mula sa youtube.com — walang serbisyo ng third party.\n\nIbinabalik ng “I-play ang orihinal na audio” ang mga awtomatikong na-dub na video sa audio track ng may-akda. Maaari ka pa ring pumili ng ibang track sa mga setting ng player."
+  },
+  "hide_by_duration": {
+    "message": "Itago ayon sa haba"
+  },
+  "duration_filter_hint": {
+    "message": "Itinatago ang mga video na mas maikli sa minimum o mas mahaba sa maximum.\n\nPalaging ipinapakita ang mga live stream at video na walang haba.\n\nHindi sinasala ang mga resulta ng paghahanap."
+  },
+  "duration_min": {
+    "message": "Pinakamaikling haba"
+  },
+  "duration_max": {
+    "message": "Pinakamahabang haba"
+  },
+  "duration_no_limit": {
+    "message": "Walang limitasyon"
   }
 }

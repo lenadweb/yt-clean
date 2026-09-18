@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Sembunyikan berdasarkan kata kunci"
+  },
+  "hide_ask_button": {
+    "message": "Sembunyikan tombol “Tanya”"
+  },
+  "hide_ai_summaries": {
+    "message": "Sembunyikan ringkasan AI"
+  },
+  "original_language": {
+    "message": "Bahasa asli"
+  },
+  "original_titles": {
+    "message": "Tampilkan judul asli"
+  },
+  "original_audio": {
+    "message": "Putar audio asli"
+  },
+  "original_language_hint": {
+    "message": "YouTube dapat menerjemahkan judul video dan menyulih suara audio ke bahasa Anda secara otomatis.\n\n“Tampilkan judul asli” mengembalikan judul seperti yang ditulis pembuatnya. Untuk itu, ekstensi meminta info publik video dari youtube.com, tanpa layanan pihak ketiga.\n\n“Putar audio asli” mengembalikan video yang disulih suara otomatis ke trek audio pembuatnya. Anda tetap dapat memilih trek lain di setelan pemutar."
+  },
+  "hide_by_duration": {
+    "message": "Sembunyikan berdasarkan durasi"
+  },
+  "duration_filter_hint": {
+    "message": "Menyembunyikan video yang lebih pendek dari minimum atau lebih panjang dari maksimum.\n\nLive stream dan video tanpa durasi selalu ditampilkan.\n\nHasil penelusuran tidak difilter."
+  },
+  "duration_min": {
+    "message": "Durasi minimum"
+  },
+  "duration_max": {
+    "message": "Durasi maksimum"
+  },
+  "duration_no_limit": {
+    "message": "Tanpa batas"
   }
 }

@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Skrij po ključnih besedah"
+  },
+  "hide_ask_button": {
+    "message": "Skrij gumb »Vprašaj«"
+  },
+  "hide_ai_summaries": {
+    "message": "Skrij povzetke UI"
+  },
+  "original_language": {
+    "message": "Izvirni jezik"
+  },
+  "original_titles": {
+    "message": "Prikaži izvirne naslove"
+  },
+  "original_audio": {
+    "message": "Predvajaj izvirni zvok"
+  },
+  "original_language_hint": {
+    "message": "YouTube lahko samodejno prevaja naslove videoposnetkov in sinhronizira zvok v vaš jezik.\n\n»Prikaži izvirne naslove« vrne naslove, kot jih je napisal avtor. Za to razširitev zahteva javne podatke o videoposnetku od youtube.com – brez storitev tretjih oseb.\n\n»Predvajaj izvirni zvok« samodejno sinhronizirane videoposnetke preklopi nazaj na avtorjev zvočni posnetek. Drug posnetek lahko še vedno izberete v nastavitvah predvajalnika."
+  },
+  "hide_by_duration": {
+    "message": "Skrij po dolžini"
+  },
+  "duration_filter_hint": {
+    "message": "Skrije videoposnetke, krajše od najmanjše ali daljše od največje dolžine.\n\nPrenosi v živo in videoposnetki brez dolžine so vedno prikazani.\n\nRezultati iskanja niso filtrirani."
+  },
+  "duration_min": {
+    "message": "Najmanjša dolžina"
+  },
+  "duration_max": {
+    "message": "Največja dolžina"
+  },
+  "duration_no_limit": {
+    "message": "Brez omejitve"
   }
 }

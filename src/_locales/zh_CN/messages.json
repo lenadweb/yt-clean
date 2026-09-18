@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "按关键词隐藏"
+  },
+  "hide_ask_button": {
+    "message": "隐藏“提问”按钮"
+  },
+  "hide_ai_summaries": {
+    "message": "隐藏 AI 摘要"
+  },
+  "original_language": {
+    "message": "原始语言"
+  },
+  "original_titles": {
+    "message": "显示原始标题"
+  },
+  "original_audio": {
+    "message": "播放原始音频"
+  },
+  "original_language_hint": {
+    "message": "YouTube 可能会自动翻译视频标题，并将音频配音为你的语言。\n\n“显示原始标题”会恢复作者撰写的原始标题。为此，扩展程序会向 youtube.com 请求视频的公开信息，不使用任何第三方服务。\n\n“播放原始音频”会将自动配音的视频切换回作者的音轨。你仍可以在播放器设置中选择其他音轨。"
+  },
+  "hide_by_duration": {
+    "message": "按时长隐藏"
+  },
+  "duration_filter_hint": {
+    "message": "隐藏短于最短时长或长于最长时长的视频。\n\n直播和没有时长的视频始终显示。\n\n不会过滤搜索结果。"
+  },
+  "duration_min": {
+    "message": "最短时长"
+  },
+  "duration_max": {
+    "message": "最长时长"
+  },
+  "duration_no_limit": {
+    "message": "不限"
   }
 }

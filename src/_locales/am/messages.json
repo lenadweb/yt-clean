@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "በቁልፍ ቃላት ደብቅ"
+  },
+  "hide_ask_button": {
+    "message": "የ“ጠይቅ” አዝራርን ደብቅ"
+  },
+  "hide_ai_summaries": {
+    "message": "የAI ማጠቃለያዎችን ደብቅ"
+  },
+  "original_language": {
+    "message": "የመጀመሪያ ቋንቋ"
+  },
+  "original_titles": {
+    "message": "የመጀመሪያ ርዕሶችን አሳይ"
+  },
+  "original_audio": {
+    "message": "የመጀመሪያውን ድምጽ አጫውት"
+  },
+  "original_language_hint": {
+    "message": "YouTube የቪዲዮ ርዕሶችን በራስ-ሰር ሊተረጉም እና ድምጹን ወደ ቋንቋዎ ሊያስተረጉም ይችላል።\n\n“የመጀመሪያ ርዕሶችን አሳይ” ርዕሶቹን ደራሲው እንደጻፋቸው ይመልሳል። ለዚህ ቅጥያው የቪዲዮውን ይፋዊ መረጃ ከyoutube.com ይጠይቃል — ያለ ሦስተኛ ወገን አገልግሎቶች።\n\n“የመጀመሪያውን ድምጽ አጫውት” በራስ-ሰር የተተረጎሙ ቪዲዮዎችን ወደ ደራሲው የድምጽ ትራክ ይመልሳል። አሁንም በማጫወቻው ቅንብሮች ውስጥ ሌላ ትራክ መምረጥ ይችላሉ።"
+  },
+  "hide_by_duration": {
+    "message": "በርዝመት ደብቅ"
+  },
+  "duration_filter_hint": {
+    "message": "ከዝቅተኛው አጭር ወይም ከከፍተኛው ረጅም የሆኑ ቪዲዮዎችን ይደብቃል።\n\nየቀጥታ ስርጭቶች እና ርዝመት የሌላቸው ቪዲዮዎች ሁልጊዜ ይታያሉ።\n\nየፍለጋ ውጤቶች አይጣሩም።"
+  },
+  "duration_min": {
+    "message": "ዝቅተኛ ርዝመት"
+  },
+  "duration_max": {
+    "message": "ከፍተኛ ርዝመት"
+  },
+  "duration_no_limit": {
+    "message": "ገደብ የለም"
   }
 }

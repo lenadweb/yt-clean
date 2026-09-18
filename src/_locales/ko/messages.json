@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "키워드로 숨기기"
+  },
+  "hide_ask_button": {
+    "message": "“질문하기” 버튼 숨기기"
+  },
+  "hide_ai_summaries": {
+    "message": "AI 요약 숨기기"
+  },
+  "original_language": {
+    "message": "원래 언어"
+  },
+  "original_titles": {
+    "message": "원래 제목 표시"
+  },
+  "original_audio": {
+    "message": "원래 오디오 재생"
+  },
+  "original_language_hint": {
+    "message": "YouTube는 동영상 제목을 자동으로 번역하고 오디오를 사용자의 언어로 더빙할 수 있습니다.\n\n“원래 제목 표시”는 제목을 작성자가 쓴 그대로 되돌립니다. 이를 위해 확장 프로그램은 youtube.com에 동영상의 공개 정보를 요청하며, 타사 서비스는 사용하지 않습니다.\n\n“원래 오디오 재생”은 자동 더빙된 동영상을 작성자의 오디오 트랙으로 되돌립니다. 플레이어 설정에서 다른 트랙을 선택할 수도 있습니다."
+  },
+  "hide_by_duration": {
+    "message": "길이로 숨기기"
+  },
+  "duration_filter_hint": {
+    "message": "최소보다 짧거나 최대보다 긴 동영상을 숨깁니다.\n\n실시간 스트림과 길이가 없는 동영상은 항상 표시됩니다.\n\n검색 결과는 필터링되지 않습니다."
+  },
+  "duration_min": {
+    "message": "최소 길이"
+  },
+  "duration_max": {
+    "message": "최대 길이"
+  },
+  "duration_no_limit": {
+    "message": "제한 없음"
   }
 }

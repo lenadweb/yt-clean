@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Ukrywaj według słów kluczowych"
+  },
+  "hide_ask_button": {
+    "message": "Ukryj przycisk „Zapytaj”"
+  },
+  "hide_ai_summaries": {
+    "message": "Ukryj podsumowania AI"
+  },
+  "original_language": {
+    "message": "Język oryginalny"
+  },
+  "original_titles": {
+    "message": "Pokazuj oryginalne tytuły"
+  },
+  "original_audio": {
+    "message": "Odtwarzaj oryginalny dźwięk"
+  },
+  "original_language_hint": {
+    "message": "YouTube może automatycznie tłumaczyć tytuły filmów i dubbingować dźwięk na Twój język.\n\n„Pokazuj oryginalne tytuły” przywraca tytuły w takiej formie, w jakiej napisał je autor. W tym celu rozszerzenie pobiera publiczne informacje o filmie z youtube.com – bez usług firm trzecich.\n\n„Odtwarzaj oryginalny dźwięk” przełącza automatycznie dubbingowane filmy z powrotem na ścieżkę dźwiękową autora. Inną ścieżkę nadal możesz wybrać w ustawieniach odtwarzacza."
+  },
+  "hide_by_duration": {
+    "message": "Ukrywaj według długości"
+  },
+  "duration_filter_hint": {
+    "message": "Ukrywa filmy krótsze niż minimum lub dłuższe niż maksimum.\n\nTransmisje na żywo i filmy bez długości są zawsze widoczne.\n\nWyniki wyszukiwania nie są filtrowane."
+  },
+  "duration_min": {
+    "message": "Minimalna długość"
+  },
+  "duration_max": {
+    "message": "Maksymalna długość"
+  },
+  "duration_no_limit": {
+    "message": "Bez limitu"
   }
 }

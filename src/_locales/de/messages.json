@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Nach Stichwörtern ausblenden"
+  },
+  "hide_ask_button": {
+    "message": "„Fragen“-Schaltfläche ausblenden"
+  },
+  "hide_ai_summaries": {
+    "message": "KI-Zusammenfassungen ausblenden"
+  },
+  "original_language": {
+    "message": "Originalsprache"
+  },
+  "original_titles": {
+    "message": "Originaltitel anzeigen"
+  },
+  "original_audio": {
+    "message": "Originalton abspielen"
+  },
+  "original_language_hint": {
+    "message": "YouTube kann Videotitel automatisch übersetzen und den Ton in deine Sprache synchronisieren.\n\n„Originaltitel anzeigen“ stellt die Titel so wieder her, wie der Autor sie geschrieben hat. Dafür ruft die Erweiterung öffentliche Videoinformationen von youtube.com ab – ohne Drittanbieter.\n\n„Originalton abspielen“ schaltet automatisch synchronisierte Videos auf die Tonspur des Autors zurück. Eine andere Tonspur kannst du weiterhin in den Player-Einstellungen wählen."
+  },
+  "hide_by_duration": {
+    "message": "Nach Dauer ausblenden"
+  },
+  "duration_filter_hint": {
+    "message": "Blendet Videos aus, die kürzer als das Minimum oder länger als das Maximum sind.\n\nLivestreams und Videos ohne Dauer werden immer angezeigt.\n\nSuchergebnisse werden nicht gefiltert."
+  },
+  "duration_min": {
+    "message": "Mindestdauer"
+  },
+  "duration_max": {
+    "message": "Höchstdauer"
+  },
+  "duration_no_limit": {
+    "message": "Keine Grenze"
   }
 }

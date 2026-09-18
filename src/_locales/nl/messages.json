@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Verbergen op trefwoorden"
+  },
+  "hide_ask_button": {
+    "message": "Knop ‘Vragen’ verbergen"
+  },
+  "hide_ai_summaries": {
+    "message": "AI-samenvattingen verbergen"
+  },
+  "original_language": {
+    "message": "Oorspronkelijke taal"
+  },
+  "original_titles": {
+    "message": "Oorspronkelijke titels tonen"
+  },
+  "original_audio": {
+    "message": "Oorspronkelijke audio afspelen"
+  },
+  "original_language_hint": {
+    "message": "YouTube kan videotitels automatisch vertalen en audio nasynchroniseren in jouw taal.\n\n‘Oorspronkelijke titels tonen’ herstelt de titels zoals de maker ze schreef. Daarvoor vraagt de extensie openbare video-informatie op bij youtube.com, zonder diensten van derden.\n\n‘Oorspronkelijke audio afspelen’ zet automatisch nagesynchroniseerde video’s terug op het audiospoor van de maker. Je kunt nog steeds een ander spoor kiezen in de spelerinstellingen."
+  },
+  "hide_by_duration": {
+    "message": "Verbergen op duur"
+  },
+  "duration_filter_hint": {
+    "message": "Verbergt video’s die korter zijn dan het minimum of langer dan het maximum.\n\nLivestreams en video’s zonder duur worden altijd getoond.\n\nZoekresultaten worden niet gefilterd."
+  },
+  "duration_min": {
+    "message": "Minimale duur"
+  },
+  "duration_max": {
+    "message": "Maximale duur"
+  },
+  "duration_no_limit": {
+    "message": "Geen limiet"
   }
 }

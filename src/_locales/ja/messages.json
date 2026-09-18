@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "キーワードで非表示"
+  },
+  "hide_ask_button": {
+    "message": "「質問」ボタンを非表示"
+  },
+  "hide_ai_summaries": {
+    "message": "AI による要約を非表示"
+  },
+  "original_language": {
+    "message": "元の言語"
+  },
+  "original_titles": {
+    "message": "元のタイトルを表示"
+  },
+  "original_audio": {
+    "message": "元の音声を再生"
+  },
+  "original_language_hint": {
+    "message": "YouTube は動画のタイトルを自動で翻訳したり、音声をあなたの言語に吹き替えたりすることがあります。\n\n「元のタイトルを表示」は、投稿者が付けたとおりのタイトルに戻します。そのために拡張機能は youtube.com に動画の公開情報をリクエストします。第三者のサービスは使いません。\n\n「元の音声を再生」は、自動吹き替えされた動画を投稿者の音声トラックに戻します。プレーヤーの設定から別のトラックを選ぶこともできます。"
+  },
+  "hide_by_duration": {
+    "message": "長さで非表示"
+  },
+  "duration_filter_hint": {
+    "message": "最小より短い動画や最大より長い動画を非表示にします。\n\nライブ配信と長さが表示されない動画は常に表示されます。\n\n検索結果はフィルタリングされません。"
+  },
+  "duration_min": {
+    "message": "最小の長さ"
+  },
+  "duration_max": {
+    "message": "最大の長さ"
+  },
+  "duration_no_limit": {
+    "message": "上限なし"
   }
 }

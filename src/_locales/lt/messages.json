@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Slėpti pagal raktažodžius"
+  },
+  "hide_ask_button": {
+    "message": "Slėpti mygtuką „Klausti“"
+  },
+  "hide_ai_summaries": {
+    "message": "Slėpti DI santraukas"
+  },
+  "original_language": {
+    "message": "Originali kalba"
+  },
+  "original_titles": {
+    "message": "Rodyti originalius pavadinimus"
+  },
+  "original_audio": {
+    "message": "Leisti originalų garsą"
+  },
+  "original_language_hint": {
+    "message": "„YouTube“ gali automatiškai versti vaizdo įrašų pavadinimus ir dubliuoti garsą jūsų kalba.\n\n„Rodyti originalius pavadinimus“ grąžina pavadinimus tokius, kokius parašė autorius. Tam plėtinys užklausia viešos vaizdo įrašo informacijos iš youtube.com – be trečiųjų šalių paslaugų.\n\n„Leisti originalų garsą“ perjungia automatiškai dubliuotus vaizdo įrašus atgal į autoriaus garso takelį. Kitą takelį vis tiek galite pasirinkti grotuvo nustatymuose."
+  },
+  "hide_by_duration": {
+    "message": "Slėpti pagal trukmę"
+  },
+  "duration_filter_hint": {
+    "message": "Slepia vaizdo įrašus, trumpesnius už minimumą arba ilgesnius už maksimumą.\n\nTiesioginės transliacijos ir vaizdo įrašai be trukmės rodomi visada.\n\nPaieškos rezultatai nefiltruojami."
+  },
+  "duration_min": {
+    "message": "Mažiausia trukmė"
+  },
+  "duration_max": {
+    "message": "Didžiausia trukmė"
+  },
+  "duration_no_limit": {
+    "message": "Be apribojimų"
   }
 }

@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Dölj efter nyckelord"
+  },
+  "hide_ask_button": {
+    "message": "Dölj knappen ”Fråga”"
+  },
+  "hide_ai_summaries": {
+    "message": "Dölj AI-sammanfattningar"
+  },
+  "original_language": {
+    "message": "Originalspråk"
+  },
+  "original_titles": {
+    "message": "Visa originaltitlar"
+  },
+  "original_audio": {
+    "message": "Spela originalljud"
+  },
+  "original_language_hint": {
+    "message": "YouTube kan automatiskt översätta videotitlar och dubba ljudet till ditt språk.\n\n”Visa originaltitlar” återställer titlarna som skaparen skrev dem. För att hämta dem begär tillägget offentlig videoinformation från youtube.com – utan tredjepartstjänster.\n\n”Spela originalljud” växlar automatiskt dubbade videor tillbaka till skaparens ljudspår. Du kan fortfarande välja ett annat spår i spelarens inställningar."
+  },
+  "hide_by_duration": {
+    "message": "Dölj efter längd"
+  },
+  "duration_filter_hint": {
+    "message": "Döljer videor som är kortare än minimum eller längre än maximum.\n\nLivesändningar och videor utan längd visas alltid.\n\nSökresultat filtreras inte."
+  },
+  "duration_min": {
+    "message": "Minsta längd"
+  },
+  "duration_max": {
+    "message": "Största längd"
+  },
+  "duration_no_limit": {
+    "message": "Ingen gräns"
   }
 }

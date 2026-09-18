@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Sembunyikan mengikut kata kunci"
+  },
+  "hide_ask_button": {
+    "message": "Sembunyikan butang “Tanya”"
+  },
+  "hide_ai_summaries": {
+    "message": "Sembunyikan ringkasan AI"
+  },
+  "original_language": {
+    "message": "Bahasa asal"
+  },
+  "original_titles": {
+    "message": "Tunjukkan tajuk asal"
+  },
+  "original_audio": {
+    "message": "Mainkan audio asal"
+  },
+  "original_language_hint": {
+    "message": "YouTube boleh menterjemah tajuk video dan mengalih suara audio ke bahasa anda secara automatik.\n\n“Tunjukkan tajuk asal” mengembalikan tajuk seperti yang ditulis oleh pencipta. Untuk itu, sambungan meminta maklumat awam video daripada youtube.com, tanpa perkhidmatan pihak ketiga.\n\n“Mainkan audio asal” menukar video yang dialih suara secara automatik kembali kepada trek audio pencipta. Anda masih boleh memilih trek lain dalam tetapan pemain."
+  },
+  "hide_by_duration": {
+    "message": "Sembunyikan mengikut tempoh"
+  },
+  "duration_filter_hint": {
+    "message": "Menyembunyikan video yang lebih pendek daripada minimum atau lebih panjang daripada maksimum.\n\nStrim langsung dan video tanpa tempoh sentiasa ditunjukkan.\n\nHasil carian tidak ditapis."
+  },
+  "duration_min": {
+    "message": "Tempoh minimum"
+  },
+  "duration_max": {
+    "message": "Tempoh maksimum"
+  },
+  "duration_no_limit": {
+    "message": "Tiada had"
   }
 }

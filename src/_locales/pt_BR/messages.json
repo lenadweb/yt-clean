@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Ocultar por palavras-chave"
+  },
+  "hide_ask_button": {
+    "message": "Ocultar o botão “Perguntar”"
+  },
+  "hide_ai_summaries": {
+    "message": "Ocultar resumos com IA"
+  },
+  "original_language": {
+    "message": "Idioma original"
+  },
+  "original_titles": {
+    "message": "Mostrar títulos originais"
+  },
+  "original_audio": {
+    "message": "Reproduzir o áudio original"
+  },
+  "original_language_hint": {
+    "message": "O YouTube pode traduzir automaticamente os títulos e dublar o áudio para o seu idioma.\n\n“Mostrar títulos originais” restaura os títulos como o autor os escreveu. Para isso, a extensão solicita as informações públicas do vídeo ao youtube.com, sem serviços de terceiros.\n\n“Reproduzir o áudio original” volta os vídeos com dublagem automática para a faixa de áudio do autor. Você ainda pode escolher outra faixa nas configurações do player."
+  },
+  "hide_by_duration": {
+    "message": "Ocultar por duração"
+  },
+  "duration_filter_hint": {
+    "message": "Oculta vídeos mais curtos que o mínimo ou mais longos que o máximo.\n\nTransmissões ao vivo e vídeos sem duração são sempre exibidos.\n\nOs resultados da pesquisa não são filtrados."
+  },
+  "duration_min": {
+    "message": "Duração mínima"
+  },
+  "duration_max": {
+    "message": "Duração máxima"
+  },
+  "duration_no_limit": {
+    "message": "Sem limite"
   }
 }

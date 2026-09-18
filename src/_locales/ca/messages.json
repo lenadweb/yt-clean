@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Amaga per paraules clau"
+  },
+  "hide_ask_button": {
+    "message": "Amaga el botó «Pregunta»"
+  },
+  "hide_ai_summaries": {
+    "message": "Amaga els resums amb IA"
+  },
+  "original_language": {
+    "message": "Idioma original"
+  },
+  "original_titles": {
+    "message": "Mostra els títols originals"
+  },
+  "original_audio": {
+    "message": "Reprodueix l’àudio original"
+  },
+  "original_language_hint": {
+    "message": "YouTube pot traduir automàticament els títols i doblar l’àudio al teu idioma.\n\n«Mostra els títols originals» recupera els títols tal com els va escriure l’autor. Per fer-ho, l’extensió demana la informació pública del vídeo a youtube.com, sense serveis de tercers.\n\n«Reprodueix l’àudio original» torna els vídeos amb doblatge automàtic a la pista d’àudio de l’autor. Encara pots triar una altra pista a la configuració del reproductor."
+  },
+  "hide_by_duration": {
+    "message": "Amaga per durada"
+  },
+  "duration_filter_hint": {
+    "message": "Amaga els vídeos més curts que el mínim o més llargs que el màxim.\n\nEls directes i els vídeos sense durada sempre es mostren.\n\nEls resultats de cerca no es filtren."
+  },
+  "duration_min": {
+    "message": "Durada mínima"
+  },
+  "duration_max": {
+    "message": "Durada màxima"
+  },
+  "duration_no_limit": {
+    "message": "Sense límit"
   }
 }

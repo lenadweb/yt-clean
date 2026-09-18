@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Hide by keywords"
+  },
+  "hide_ask_button": {
+    "message": "Hide “Ask” button"
+  },
+  "hide_ai_summaries": {
+    "message": "Hide AI summaries"
+  },
+  "original_language": {
+    "message": "Original language"
+  },
+  "original_titles": {
+    "message": "Show original titles"
+  },
+  "original_audio": {
+    "message": "Play original audio"
+  },
+  "original_language_hint": {
+    "message": "YouTube can automatically translate video titles and dub audio into your language.\n\n“Show original titles” brings back titles as the author wrote them. To get them, the extension requests public video info from youtube.com — no third-party services.\n\n“Play original audio” switches auto-dubbed videos back to the author’s audio track. You can still pick another track in the player settings."
+  },
+  "hide_by_duration": {
+    "message": "Hide by duration"
+  },
+  "duration_filter_hint": {
+    "message": "Hides videos shorter than the minimum or longer than the maximum.\n\nLive streams and videos without a duration are always shown.\n\nSearch results are not filtered."
+  },
+  "duration_min": {
+    "message": "Minimum duration"
+  },
+  "duration_max": {
+    "message": "Maximum duration"
+  },
+  "duration_no_limit": {
+    "message": "No limit"
   }
 }

@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Anahtar kelimelere göre gizle"
+  },
+  "hide_ask_button": {
+    "message": "“Sor” düğmesini gizle"
+  },
+  "hide_ai_summaries": {
+    "message": "Yapay zeka özetlerini gizle"
+  },
+  "original_language": {
+    "message": "Orijinal dil"
+  },
+  "original_titles": {
+    "message": "Orijinal başlıkları göster"
+  },
+  "original_audio": {
+    "message": "Orijinal sesi oynat"
+  },
+  "original_language_hint": {
+    "message": "YouTube video başlıklarını otomatik olarak çevirebilir ve sesi kendi dilinize dublajlayabilir.\n\n“Orijinal başlıkları göster”, başlıkları yazarın yazdığı hâline döndürür. Bunun için uzantı, videonun herkese açık bilgilerini youtube.com’dan ister; üçüncü taraf hizmet kullanılmaz.\n\n“Orijinal sesi oynat”, otomatik dublajlı videoları yazarın ses parçasına geri alır. Oynatıcı ayarlarından yine başka bir parça seçebilirsiniz."
+  },
+  "hide_by_duration": {
+    "message": "Süreye göre gizle"
+  },
+  "duration_filter_hint": {
+    "message": "Minimumdan kısa veya maksimumdan uzun videoları gizler.\n\nCanlı yayınlar ve süresi olmayan videolar her zaman gösterilir.\n\nArama sonuçları filtrelenmez."
+  },
+  "duration_min": {
+    "message": "Minimum süre"
+  },
+  "duration_max": {
+    "message": "Maksimum süre"
+  },
+  "duration_no_limit": {
+    "message": "Sınır yok"
   }
 }

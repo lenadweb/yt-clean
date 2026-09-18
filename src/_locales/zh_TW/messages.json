@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "依關鍵字隱藏"
+  },
+  "hide_ask_button": {
+    "message": "隱藏「提問」按鈕"
+  },
+  "hide_ai_summaries": {
+    "message": "隱藏 AI 摘要"
+  },
+  "original_language": {
+    "message": "原始語言"
+  },
+  "original_titles": {
+    "message": "顯示原始標題"
+  },
+  "original_audio": {
+    "message": "播放原始音訊"
+  },
+  "original_language_hint": {
+    "message": "YouTube 可能會自動翻譯影片標題，並將音訊配音成你的語言。\n\n「顯示原始標題」會還原作者撰寫的原始標題。為此，擴充功能會向 youtube.com 要求影片的公開資訊，不使用任何第三方服務。\n\n「播放原始音訊」會將自動配音的影片切換回作者的音軌。你仍可在播放器設定中選擇其他音軌。"
+  },
+  "hide_by_duration": {
+    "message": "依長度隱藏"
+  },
+  "duration_filter_hint": {
+    "message": "隱藏短於最短長度或長於最長長度的影片。\n\n直播和沒有長度的影片一律顯示。\n\n不會篩選搜尋結果。"
+  },
+  "duration_min": {
+    "message": "最短長度"
+  },
+  "duration_max": {
+    "message": "最長長度"
+  },
+  "duration_no_limit": {
+    "message": "不限"
   }
 }

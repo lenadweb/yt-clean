@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Ficha kwa maneno muhimu"
+  },
+  "hide_ask_button": {
+    "message": "Ficha kitufe cha “Uliza”"
+  },
+  "hide_ai_summaries": {
+    "message": "Ficha muhtasari wa AI"
+  },
+  "original_language": {
+    "message": "Lugha asili"
+  },
+  "original_titles": {
+    "message": "Onyesha vichwa asili"
+  },
+  "original_audio": {
+    "message": "Cheza sauti asili"
+  },
+  "original_language_hint": {
+    "message": "YouTube inaweza kutafsiri vichwa vya video na kuweka sauti mbadala kwa lugha yako kiotomatiki.\n\n“Onyesha vichwa asili” hurejesha vichwa jinsi mwandishi alivyoviandika. Kwa hili, kiendelezi huomba taarifa za umma za video kutoka youtube.com — bila huduma za wahusika wengine.\n\n“Cheza sauti asili” hurejesha video zilizowekewa sauti mbadala kiotomatiki kwenye wimbo wa sauti wa mwandishi. Bado unaweza kuchagua wimbo mwingine katika mipangilio ya kicheza video."
+  },
+  "hide_by_duration": {
+    "message": "Ficha kwa muda"
+  },
+  "duration_filter_hint": {
+    "message": "Huficha video fupi kuliko kiwango cha chini au ndefu kuliko kiwango cha juu.\n\nMatangazo ya moja kwa moja na video zisizo na muda huonyeshwa kila wakati.\n\nMatokeo ya utafutaji hayachujwi."
+  },
+  "duration_min": {
+    "message": "Muda wa chini"
+  },
+  "duration_max": {
+    "message": "Muda wa juu"
+  },
+  "duration_no_limit": {
+    "message": "Bila kikomo"
   }
 }

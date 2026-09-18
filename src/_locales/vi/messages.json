@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Ẩn theo từ khóa"
+  },
+  "hide_ask_button": {
+    "message": "Ẩn nút “Hỏi”"
+  },
+  "hide_ai_summaries": {
+    "message": "Ẩn bản tóm tắt bằng AI"
+  },
+  "original_language": {
+    "message": "Ngôn ngữ gốc"
+  },
+  "original_titles": {
+    "message": "Hiển thị tiêu đề gốc"
+  },
+  "original_audio": {
+    "message": "Phát âm thanh gốc"
+  },
+  "original_language_hint": {
+    "message": "YouTube có thể tự động dịch tiêu đề video và lồng tiếng âm thanh sang ngôn ngữ của bạn.\n\n“Hiển thị tiêu đề gốc” khôi phục tiêu đề như tác giả đã viết. Để làm vậy, tiện ích yêu cầu thông tin công khai của video từ youtube.com, không dùng dịch vụ bên thứ ba.\n\n“Phát âm thanh gốc” chuyển các video được lồng tiếng tự động về lại bản âm thanh của tác giả. Bạn vẫn có thể chọn bản âm thanh khác trong phần cài đặt trình phát."
+  },
+  "hide_by_duration": {
+    "message": "Ẩn theo thời lượng"
+  },
+  "duration_filter_hint": {
+    "message": "Ẩn các video ngắn hơn mức tối thiểu hoặc dài hơn mức tối đa.\n\nVideo trực tiếp và video không có thời lượng luôn được hiển thị.\n\nKết quả tìm kiếm không bị lọc."
+  },
+  "duration_min": {
+    "message": "Thời lượng tối thiểu"
+  },
+  "duration_max": {
+    "message": "Thời lượng tối đa"
+  },
+  "duration_no_limit": {
+    "message": "Không giới hạn"
   }
 }

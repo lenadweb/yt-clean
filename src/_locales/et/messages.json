@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Peida märksõnade järgi"
+  },
+  "hide_ask_button": {
+    "message": "Peida nupp „Küsi“"
+  },
+  "hide_ai_summaries": {
+    "message": "Peida tehisintellekti kokkuvõtted"
+  },
+  "original_language": {
+    "message": "Algkeel"
+  },
+  "original_titles": {
+    "message": "Näita algseid pealkirju"
+  },
+  "original_audio": {
+    "message": "Esita algne heli"
+  },
+  "original_language_hint": {
+    "message": "YouTube võib videote pealkirju automaatselt tõlkida ja heli sinu keelde dubleerida.\n\n„Näita algseid pealkirju“ taastab pealkirjad nii, nagu autor need kirjutas. Selleks küsib laiendus youtube.com-ilt video avalikku teavet – ilma kolmandate osapoolte teenusteta.\n\n„Esita algne heli“ lülitab automaatselt dubleeritud videod tagasi autori helirajale. Teise raja saad endiselt valida pleieri seadetes."
+  },
+  "hide_by_duration": {
+    "message": "Peida kestuse järgi"
+  },
+  "duration_filter_hint": {
+    "message": "Peidab videod, mis on miinimumist lühemad või maksimumist pikemad.\n\nOtseülekanded ja kestuseta videod kuvatakse alati.\n\nOtsingutulemusi ei filtreerita."
+  },
+  "duration_min": {
+    "message": "Minimaalne kestus"
+  },
+  "duration_max": {
+    "message": "Maksimaalne kestus"
+  },
+  "duration_no_limit": {
+    "message": "Piiranguta"
   }
 }

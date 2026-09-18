@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Elrejtés kulcsszavak alapján"
+  },
+  "hide_ask_button": {
+    "message": "A „Kérdezés” gomb elrejtése"
+  },
+  "hide_ai_summaries": {
+    "message": "MI-összefoglalók elrejtése"
+  },
+  "original_language": {
+    "message": "Eredeti nyelv"
+  },
+  "original_titles": {
+    "message": "Eredeti címek megjelenítése"
+  },
+  "original_audio": {
+    "message": "Eredeti hang lejátszása"
+  },
+  "original_language_hint": {
+    "message": "A YouTube automatikusan lefordíthatja a videók címét, és szinkronizálhatja a hangot a nyelvedre.\n\nAz „Eredeti címek megjelenítése” visszaállítja a címeket úgy, ahogy a szerző megírta őket. Ehhez a bővítmény lekéri a videó nyilvános adatait a youtube.com-tól – harmadik fél szolgáltatásai nélkül.\n\nAz „Eredeti hang lejátszása” az automatikusan szinkronizált videókat visszaváltja a szerző hangsávjára. Másik sávot továbbra is választhatsz a lejátszó beállításaiban."
+  },
+  "hide_by_duration": {
+    "message": "Elrejtés hossz alapján"
+  },
+  "duration_filter_hint": {
+    "message": "Elrejti a minimumnál rövidebb vagy a maximumnál hosszabb videókat.\n\nAz élő közvetítések és a hossz nélküli videók mindig megjelennek.\n\nA keresési találatok nincsenek szűrve."
+  },
+  "duration_min": {
+    "message": "Minimális hossz"
+  },
+  "duration_max": {
+    "message": "Maximális hossz"
+  },
+  "duration_no_limit": {
+    "message": "Nincs korlát"
   }
 }

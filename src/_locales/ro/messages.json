@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Ascunde după cuvinte cheie"
+  },
+  "hide_ask_button": {
+    "message": "Ascunde butonul „Întreabă”"
+  },
+  "hide_ai_summaries": {
+    "message": "Ascunde rezumatele AI"
+  },
+  "original_language": {
+    "message": "Limba originală"
+  },
+  "original_titles": {
+    "message": "Afișează titlurile originale"
+  },
+  "original_audio": {
+    "message": "Redă sunetul original"
+  },
+  "original_language_hint": {
+    "message": "YouTube poate traduce automat titlurile videoclipurilor și poate dubla sunetul în limba ta.\n\n„Afișează titlurile originale” readuce titlurile așa cum le-a scris autorul. Pentru asta, extensia cere informațiile publice ale videoclipului de la youtube.com, fără servicii terțe.\n\n„Redă sunetul original” comută videoclipurile dublate automat înapoi pe pista audio a autorului. Poți alege în continuare altă pistă din setările playerului."
+  },
+  "hide_by_duration": {
+    "message": "Ascunde după durată"
+  },
+  "duration_filter_hint": {
+    "message": "Ascunde videoclipurile mai scurte decât minimul sau mai lungi decât maximul.\n\nTransmisiunile live și videoclipurile fără durată sunt afișate mereu.\n\nRezultatele căutării nu sunt filtrate."
+  },
+  "duration_min": {
+    "message": "Durata minimă"
+  },
+  "duration_max": {
+    "message": "Durata maximă"
+  },
+  "duration_no_limit": {
+    "message": "Fără limită"
   }
 }

@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Nascondi per parole chiave"
+  },
+  "hide_ask_button": {
+    "message": "Nascondi il pulsante «Chiedi»"
+  },
+  "hide_ai_summaries": {
+    "message": "Nascondi i riepiloghi IA"
+  },
+  "original_language": {
+    "message": "Lingua originale"
+  },
+  "original_titles": {
+    "message": "Mostra i titoli originali"
+  },
+  "original_audio": {
+    "message": "Riproduci l’audio originale"
+  },
+  "original_language_hint": {
+    "message": "YouTube può tradurre automaticamente i titoli e doppiare l’audio nella tua lingua.\n\n«Mostra i titoli originali» ripristina i titoli come li ha scritti l’autore. Per farlo, l’estensione richiede le informazioni pubbliche del video a youtube.com, senza servizi di terze parti.\n\n«Riproduci l’audio originale» riporta i video doppiati automaticamente sulla traccia audio dell’autore. Puoi comunque scegliere un’altra traccia nelle impostazioni del player."
+  },
+  "hide_by_duration": {
+    "message": "Nascondi per durata"
+  },
+  "duration_filter_hint": {
+    "message": "Nasconde i video più brevi del minimo o più lunghi del massimo.\n\nLe dirette e i video senza durata vengono sempre mostrati.\n\nI risultati di ricerca non vengono filtrati."
+  },
+  "duration_min": {
+    "message": "Durata minima"
+  },
+  "duration_max": {
+    "message": "Durata massima"
+  },
+  "duration_no_limit": {
+    "message": "Nessun limite"
   }
 }

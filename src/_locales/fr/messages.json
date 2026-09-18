@@ -469,5 +469,38 @@
   },
   "hide_by_keywords": {
     "message": "Masquer par mots-clés"
+  },
+  "hide_ask_button": {
+    "message": "Masquer le bouton « Demander »"
+  },
+  "hide_ai_summaries": {
+    "message": "Masquer les résumés IA"
+  },
+  "original_language": {
+    "message": "Langue d’origine"
+  },
+  "original_titles": {
+    "message": "Afficher les titres d’origine"
+  },
+  "original_audio": {
+    "message": "Lire l’audio d’origine"
+  },
+  "original_language_hint": {
+    "message": "YouTube peut traduire automatiquement les titres et doubler l’audio dans votre langue.\n\n« Afficher les titres d’origine » rétablit les titres tels que l’auteur les a écrits. Pour cela, l’extension demande les informations publiques de la vidéo à youtube.com, sans service tiers.\n\n« Lire l’audio d’origine » remet les vidéos doublées automatiquement sur la piste audio de l’auteur. Vous pouvez toujours choisir une autre piste dans les paramètres du lecteur."
+  },
+  "hide_by_duration": {
+    "message": "Masquer selon la durée"
+  },
+  "duration_filter_hint": {
+    "message": "Masque les vidéos plus courtes que le minimum ou plus longues que le maximum.\n\nLes directs et les vidéos sans durée sont toujours affichés.\n\nLes résultats de recherche ne sont pas filtrés."
+  },
+  "duration_min": {
+    "message": "Durée minimale"
+  },
+  "duration_max": {
+    "message": "Durée maximale"
+  },
+  "duration_no_limit": {
+    "message": "Sans limite"
   }
 }
