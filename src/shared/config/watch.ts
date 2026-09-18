@@ -1,4 +1,4 @@
-import { UrlRegExps } from 'src/shared/const';
+import { GEMINI_ICON_PATH, UrlRegExps } from 'src/shared/const';
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 import { syncLiveChatVisibility } from 'src/shared/featureHandlers/video';
 
@@ -38,6 +38,12 @@ export const watchCategory = category('video_page', [
                 'ytd-watch-metadata #flexible-item-buttons',
                 'ytd-watch-metadata #top-level-buttons-computed > *:not(segmented-like-dislike-button-view-model)',
             ],
+        }),
+        feature({
+            id: 'hideAskButton',
+            title: 'hide_ask_button',
+            isNew: true,
+            hide: [`yt-button-view-model:has(path[d="${GEMINI_ICON_PATH}"])`],
         }),
         feature({
             id: 'hideDescription',
@@ -101,6 +107,7 @@ export const watchCategory = category('video_page', [
             hide: [
                 'yt-video-description-youchat-section-view-model',
                 '#video-summary',
+                `#expandable-metadata:has(path[d="${GEMINI_ICON_PATH}"])`,
             ],
         }),
         feature({

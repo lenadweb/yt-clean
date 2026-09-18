@@ -16,6 +16,8 @@ const PRESET_EXCLUDED = new Set<string>([
     'spoofPlayerBandwidth',
     'forceH264',
     'block60Fps',
+    'originalTitles',
+    'originalAudio',
 ]);
 
 const LIGHT_IDS = new Set<string>([

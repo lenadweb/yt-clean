@@ -8,6 +8,8 @@ import {
     syncBlock60Fps,
     syncEnhancedBitrate,
     syncForceH264,
+    syncOriginalAudio,
+    syncOriginalTitles,
     syncPlaybackSpeed,
     syncPlayerBandwidthSpoofing,
 } from 'src/shared/featureHandlers/video';
@@ -51,6 +53,23 @@ export const videoCategory = category('video_playback_and_channel', [
                 id: 'block60Fps',
                 title: 'block_60_fps',
                 onChange: syncBlock60Fps,
+            }),
+        ]
+    ),
+    section(
+        'original_language',
+        { isNew: true, controls: 'checkboxes', hint: 'original_language_hint' },
+        [
+            feature({
+                id: 'originalTitles',
+                title: 'original_titles',
+                onChange: syncOriginalTitles,
+            }),
+            feature({
+                id: 'originalAudio',
+                title: 'original_audio',
+                url: [UrlRegExps.Watch],
+                onChange: syncOriginalAudio,
             }),
         ]
     ),

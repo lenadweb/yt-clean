@@ -13,7 +13,7 @@ import GithubIcon from 'src/assets/icons/github.svg';
 import KeyboardShortcuts from 'src/sidebar/components/KeyboardShortcuts';
 import Tooltip from 'src/sidebar/components/Tooltip';
 import FeedbackModal from 'src/sidebar/components/FeedbackModal';
-import KeywordFilter from 'src/sidebar/components/KeywordFilter';
+import Filters from 'src/sidebar/components/Filters';
 import type { SidebarMock } from 'src/sidebar/App';
 
 const GITHUB_URL = 'https://github.com/lenadweb/yt-clean';
@@ -86,7 +86,7 @@ const Settings: FC<Props> = ({ mock }) => {
                         sections={category.sections}
                     />
                 ))}
-                <KeywordFilter />
+                <Filters />
             </div>
             {!mock?.hideFooter && (
                 <footer className="mt-auto flex items-center justify-around gap-3 pt-7 pb-2">

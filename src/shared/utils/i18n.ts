@@ -19,3 +19,10 @@ export const t = (messageKey: I18nKey): string => {
     }
     return mockMessages?.[messageKey]?.message ?? messageKey;
 };
+
+export const getUiLocale = (): string => {
+    if (typeof chrome !== 'undefined' && chrome.i18n?.getUILanguage) {
+        return chrome.i18n.getUILanguage();
+    }
+    return typeof navigator !== 'undefined' ? navigator.language : 'en';
+};

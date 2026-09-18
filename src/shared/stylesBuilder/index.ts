@@ -1,6 +1,6 @@
 import { ElementActions, FeatureAction } from 'src/shared/types/config';
 import { FEATURES, SECTIONS } from 'src/shared/featureConfig';
-import { KEYWORD_FILTER_STYLE } from 'src/shared/keywordFilter';
+import { VIDEO_FILTER_STYLE } from 'src/shared/videoFilter';
 
 const HIDE_STYLE = 'display: none !important;';
 
@@ -26,5 +26,5 @@ const allActions = [
 
 export const styles = [
     ...allActions.flatMap(buildActionStyles),
-    KEYWORD_FILTER_STYLE,
+    VIDEO_FILTER_STYLE,
 ].join('\n');

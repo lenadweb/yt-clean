@@ -4,6 +4,7 @@ import {
 } from 'src/shared/utils/quality';
 import { LIVE_CHAT_VISIBILITY_EVENT } from 'src/shared/utils/liveChat';
 import { initCodecBlocking } from 'src/player/codec';
+import { initOriginalAudio } from 'src/player/originalAudio';
 
 interface YouTubePlayerElement extends HTMLElement {
     getAvailableQualityData?: () => unknown;
@@ -27,6 +28,7 @@ interface YouTubeLiveChatFrame extends HTMLElement {
 }
 
 initCodecBlocking();
+initOriginalAudio();
 
 const MAX_ATTEMPTS = 20;
 const RETRY_INTERVAL_MS = 400;

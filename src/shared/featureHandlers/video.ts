@@ -16,6 +16,8 @@ import {
     CODEC_PREFERENCE_EVENT,
     CodecPreferenceId,
 } from 'src/shared/utils/codec';
+import { ORIGINAL_AUDIO_EVENT } from 'src/shared/utils/originalAudio';
+import { ORIGINAL_TITLES_EVENT } from 'src/shared/utils/originalTitles';
 
 const SHORTS_LOOP_OBSERVER_ID = 'shorts-loop';
 const SHORTS_PLAYER_SELECTOR = '#shorts-player';
@@ -137,6 +139,28 @@ export const syncLiveChatVisibility = (
         })
     );
 };
+
+const dispatchEnabled = (eventName: string, enabled: boolean): void => {
+    document.dispatchEvent(
+        new CustomEvent(eventName, {
+            detail: JSON.stringify({ enabled }),
+        })
+    );
+};
+
+export const syncOriginalAudio = (
+    _value: string | undefined,
+    enabled: boolean
+): void =>
+    dispatchEnabled(
+        ORIGINAL_AUDIO_EVENT,
+        enabled && isCurrentUrlMatched([UrlRegExps.Watch])
+    );
+
+export const syncOriginalTitles = (
+    _value: string | undefined,
+    enabled: boolean
+): void => dispatchEnabled(ORIGINAL_TITLES_EVENT, enabled);
 
 const dispatchCodecPreference = (
     id: CodecPreferenceId,

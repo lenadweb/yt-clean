@@ -42,6 +42,7 @@ describe('FEATURES', () => {
             'presets',
             'presetWarningDismissed',
             'keywordFilter',
+            'durationFilter',
         ];
         expect(storageKeys.size).toBe(FEATURES.length + nonFeatureKeys.length);
     });

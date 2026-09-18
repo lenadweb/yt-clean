@@ -2,7 +2,14 @@ import { FEATURES, FeatureId } from 'src/shared/featureConfig';
 import { SettingValue } from 'src/shared/types/settings';
 import { PRESET_DEFAULTS, PRESET_IDS, PresetId } from 'src/shared/presets';
 import { EXTENSION_ENABLED_BY_DEFAULT } from 'src/shared/const';
-import { KeywordFilterSetting } from 'src/shared/keywordFilter';
+import {
+    DEFAULT_KEYWORD_FILTER,
+    KeywordFilterSetting,
+} from 'src/shared/videoFilter/keywords';
+import {
+    DEFAULT_DURATION_FILTER,
+    DurationFilterSetting,
+} from 'src/shared/videoFilter/duration';
 
 export type { FeatureId };
 export type SettingsState = Record<FeatureId, SettingValue>;
@@ -13,6 +20,7 @@ export type StorageState = SettingsState & {
     presets: Record<PresetId, SettingsState>;
     presetWarningDismissed: boolean;
     keywordFilter: KeywordFilterSetting;
+    durationFilter: DurationFilterSetting;
 };
 
 export const toFeatureId = (id: string): FeatureId => id as FeatureId;
@@ -34,7 +42,8 @@ export const DEFAULT_STORAGE: StorageState = {
     activePreset: 'balanced',
     presetWarningDismissed: false,
     presets: defaultPresets,
-    keywordFilter: { enabled: true, keywords: [] },
+    keywordFilter: DEFAULT_KEYWORD_FILTER,
+    durationFilter: DEFAULT_DURATION_FILTER,
     ...Object.fromEntries(
         FEATURES.map((feature) => [
             feature.id,

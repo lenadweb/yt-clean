@@ -3,7 +3,8 @@ import { storage } from 'src/shared/storage';
 import { onUrlChange } from 'src/shared/utils/navigation';
 import { waitForBody } from 'src/shared/utils/dom';
 import { injectComponents } from 'src/content/components';
-import { startKeywordFilter } from 'src/content/keywordFilter';
+import { startVideoFilter } from 'src/content/videoFilter';
+import { startOriginalTitles } from 'src/content/originalTitles';
 import { DomActionExecutor } from 'src/content/features/actionExecutor';
 import { buildFeatureActionPlans } from 'src/content/features/actionPlan';
 import { StorageChanges } from 'src/content/features/types';
@@ -51,8 +52,9 @@ const startFeatureRunner = (sections: SettingsSection[]) => {
     waitForBody().then(() => runFeatures());
 };
 
+startOriginalTitles();
 applyCachedAttributes();
 storage.init();
 startFeatureRunner(SECTIONS);
 injectComponents();
-startKeywordFilter();
+startVideoFilter();

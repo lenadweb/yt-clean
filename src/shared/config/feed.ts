@@ -1,5 +1,5 @@
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
-import { UrlRegExps } from 'src/shared/const';
+import { GEMINI_ICON_PATH, UrlRegExps } from 'src/shared/const';
 import {
     disableAutoSkipAds,
     enableAutoSkipAds,
@@ -183,6 +183,13 @@ export const feedCategory = category('feed_and_recommendations', [
             isNew: true,
             url: [UrlRegExps.Search],
             hide: ['#contents ytd-channel-renderer'],
+        }),
+        feature({
+            id: 'hideSearchAiSummaries',
+            title: 'hide_ai_summaries',
+            isNew: true,
+            url: [UrlRegExps.Search],
+            hide: [`#expandable-metadata:has(path[d="${GEMINI_ICON_PATH}"])`],
         }),
         feature({
             id: 'hideSearchRefinements',
