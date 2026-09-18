@@ -456,7 +456,7 @@
     "message": "Filtri"
   },
   "keyword_filter_hint": {
-    "message": "Skrij videoposnetke, katerih naslov ali ime kanala vsebuje katero od teh besed"
+    "message": "Skrije videoposnetke, katerih naslov ali ime kanala vsebuje katero od teh besed.\n\nVelike in male črke niso pomembne, šteje tudi del besede.\n\nRezultati iskanja niso filtrirani."
   },
   "keyword_filter_placeholder": {
     "message": "Beseda ali besedna zveza"

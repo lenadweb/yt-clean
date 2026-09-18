@@ -456,7 +456,7 @@
     "message": "Filtrai"
   },
   "keyword_filter_hint": {
-    "message": "Slėpti vaizdo įrašus, kurių pavadinime ar kanalo pavadinime yra bent vienas iš šių žodžių"
+    "message": "Slepia vaizdo įrašus, kurių pavadinime ar kanalo pavadinime yra bent vienas iš šių žodžių.\n\nDidžiosios ir mažosios raidės nesvarbu, tinka ir žodžio dalis.\n\nPaieškos rezultatai nefiltruojami."
   },
   "keyword_filter_placeholder": {
     "message": "Žodis ar frazė"

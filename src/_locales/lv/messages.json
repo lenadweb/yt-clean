@@ -456,7 +456,7 @@
     "message": "Filtri"
   },
   "keyword_filter_hint": {
-    "message": "Slēpt videoklipus, kuru nosaukumā vai kanāla nosaukumā ir kāds no šiem vārdiem"
+    "message": "Slēpj videoklipus, kuru nosaukumā vai kanāla nosaukumā ir kāds no šiem vārdiem.\n\nBurtu reģistrs nav svarīgs, tiek ņemta vērā arī vārda daļa.\n\nMeklēšanas rezultāti netiek filtrēti."
   },
   "keyword_filter_placeholder": {
     "message": "Vārds vai frāze"

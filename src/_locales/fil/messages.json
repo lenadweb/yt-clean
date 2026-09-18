@@ -456,7 +456,7 @@
     "message": "Mga filter"
   },
   "keyword_filter_hint": {
-    "message": "Itago ang mga video na may alinman sa mga salitang ito sa pamagat o pangalan ng channel"
+    "message": "Itinatago ang mga video na may alinman sa mga salitang ito sa pamagat o pangalan ng channel.\n\nHindi mahalaga ang malaki o maliit na titik, at bilang din ang bahagi ng salita.\n\nHindi sinasala ang mga resulta ng paghahanap."
   },
   "keyword_filter_placeholder": {
     "message": "Salita o parirala"

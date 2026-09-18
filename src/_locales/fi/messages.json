@@ -456,7 +456,7 @@
     "message": "Suodattimet"
   },
   "keyword_filter_hint": {
-    "message": "Piilota videot, joiden otsikossa tai kanavan nimessä on jokin näistä sanoista"
+    "message": "Piilottaa videot, joiden otsikossa tai kanavan nimessä on jokin näistä sanoista.\n\nKirjainkoolla ei ole väliä, ja myös sanan osa lasketaan.\n\nHakutuloksia ei suodateta."
   },
   "keyword_filter_placeholder": {
     "message": "Sana tai lause"

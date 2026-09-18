@@ -456,7 +456,7 @@
     "message": "过滤"
   },
   "keyword_filter_hint": {
-    "message": "隐藏标题或频道名称包含以下任一关键词的视频"
+    "message": "隐藏标题或频道名称包含以下任一关键词的视频。\n\n不区分大小写，部分匹配也会生效。\n\n不会过滤搜索结果。"
   },
   "keyword_filter_placeholder": {
     "message": "词语或短语"

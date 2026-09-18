@@ -456,7 +456,7 @@
     "message": "Filtre"
   },
   "keyword_filter_hint": {
-    "message": "Skjul videoer der tittelen eller kanalnavnet inneholder et av disse ordene"
+    "message": "Skjuler videoer der tittelen eller kanalnavnet inneholder et av disse ordene.\n\nStore og små bokstaver spiller ingen rolle, og en del av et ord teller også.\n\nSøkeresultater filtreres ikke."
   },
   "keyword_filter_placeholder": {
     "message": "Ord eller uttrykk"

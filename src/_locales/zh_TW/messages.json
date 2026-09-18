@@ -456,7 +456,7 @@
     "message": "篩選"
   },
   "keyword_filter_hint": {
-    "message": "隱藏標題或頻道名稱包含以下任一關鍵字的影片"
+    "message": "隱藏標題或頻道名稱包含以下任一關鍵字的影片。\n\n不區分大小寫，部分符合也會生效。\n\n不會篩選搜尋結果。"
   },
   "keyword_filter_placeholder": {
     "message": "字詞或片語"

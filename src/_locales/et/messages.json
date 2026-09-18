@@ -456,7 +456,7 @@
     "message": "Filtrid"
   },
   "keyword_filter_hint": {
-    "message": "Peida videod, mille pealkiri või kanali nimi sisaldab mõnda neist sõnadest"
+    "message": "Peidab videod, mille pealkiri või kanali nimi sisaldab mõnda neist sõnadest.\n\nSuur- ja väiketähed ei loe, arvesse läheb ka sõna osa.\n\nOtsingutulemusi ei filtreerita."
   },
   "keyword_filter_placeholder": {
     "message": "Sõna või fraas"

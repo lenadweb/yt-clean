@@ -456,7 +456,7 @@
     "message": "Filtros"
   },
   "keyword_filter_hint": {
-    "message": "Ocultar vídeos cujo título ou nome do canal contenha alguma destas palavras"
+    "message": "Oculta vídeos cujo título ou nome do canal contém alguma destas palavras.\n\nMaiúsculas e minúsculas não importam, e parte de uma palavra também conta.\n\nOs resultados da pesquisa não são filtrados."
   },
   "keyword_filter_placeholder": {
     "message": "Palavra ou expressão"

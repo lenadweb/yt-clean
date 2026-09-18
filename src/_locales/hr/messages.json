@@ -456,7 +456,7 @@
     "message": "Filtri"
   },
   "keyword_filter_hint": {
-    "message": "Sakrij videozapise čiji naslov ili naziv kanala sadrži bilo koju od ovih riječi"
+    "message": "Skriva videozapise čiji naslov ili naziv kanala sadrži bilo koju od ovih riječi.\n\nVelika i mala slova nisu bitna, a računa se i dio riječi.\n\nRezultati pretraživanja ne filtriraju se."
   },
   "keyword_filter_placeholder": {
     "message": "Riječ ili izraz"

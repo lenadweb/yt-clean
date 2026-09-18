@@ -456,7 +456,7 @@
     "message": "Filtri"
   },
   "keyword_filter_hint": {
-    "message": "Nascondi i video il cui titolo o nome del canale contiene una di queste parole"
+    "message": "Nasconde i video il cui titolo o nome del canale contiene una di queste parole.\n\nMaiuscole e minuscole non contano, e vale anche una parte di parola.\n\nI risultati di ricerca non vengono filtrati."
   },
   "keyword_filter_placeholder": {
     "message": "Parola o frase"

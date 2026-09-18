@@ -456,7 +456,7 @@
     "message": "Filtre"
   },
   "keyword_filter_hint": {
-    "message": "Ascunde videoclipurile al căror titlu sau nume de canal conține oricare dintre aceste cuvinte"
+    "message": "Ascunde videoclipurile al căror titlu sau nume de canal conține oricare dintre aceste cuvinte.\n\nMajusculele nu contează, iar o parte dintr-un cuvânt se ia și ea în calcul.\n\nRezultatele căutării nu sunt filtrate."
   },
   "keyword_filter_placeholder": {
     "message": "Cuvânt sau expresie"

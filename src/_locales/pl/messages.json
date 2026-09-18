@@ -456,7 +456,7 @@
     "message": "Filtry"
   },
   "keyword_filter_hint": {
-    "message": "Ukrywaj filmy, których tytuł lub nazwa kanału zawiera którekolwiek z tych słów"
+    "message": "Ukrywa filmy, których tytuł lub nazwa kanału zawiera którekolwiek z tych słów.\n\nWielkość liter nie ma znaczenia, liczy się też część słowa.\n\nWyniki wyszukiwania nie są filtrowane."
   },
   "keyword_filter_placeholder": {
     "message": "Słowo lub fraza"

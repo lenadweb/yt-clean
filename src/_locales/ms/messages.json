@@ -456,7 +456,7 @@
     "message": "Penapis"
   },
   "keyword_filter_hint": {
-    "message": "Sembunyikan video yang tajuk atau nama salurannya mengandungi mana-mana perkataan ini"
+    "message": "Menyembunyikan video yang tajuk atau nama salurannya mengandungi mana-mana perkataan ini.\n\nHuruf besar atau kecil tidak penting, dan sebahagian perkataan juga dikira.\n\nHasil carian tidak ditapis."
   },
   "keyword_filter_placeholder": {
     "message": "Perkataan atau frasa"

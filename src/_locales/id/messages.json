@@ -456,7 +456,7 @@
     "message": "Filter"
   },
   "keyword_filter_hint": {
-    "message": "Sembunyikan video yang judul atau nama salurannya berisi salah satu kata ini"
+    "message": "Menyembunyikan video yang judul atau nama salurannya berisi salah satu kata ini.\n\nHuruf besar/kecil tidak berpengaruh, dan bagian dari kata juga dihitung.\n\nHasil penelusuran tidak difilter."
   },
   "keyword_filter_placeholder": {
     "message": "Kata atau frasa"

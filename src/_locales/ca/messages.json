@@ -456,7 +456,7 @@
     "message": "Filtres"
   },
   "keyword_filter_hint": {
-    "message": "Amaga els vídeos el títol o el nom del canal dels quals contingui alguna d’aquestes paraules"
+    "message": "Amaga els vídeos el títol o el nom del canal dels quals conté alguna d’aquestes paraules.\n\nLes majúscules no importen, i una part de paraula també compta.\n\nEls resultats de cerca no es filtren."
   },
   "keyword_filter_placeholder": {
     "message": "Paraula o frase"

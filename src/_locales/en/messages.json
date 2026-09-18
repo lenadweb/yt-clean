@@ -456,7 +456,7 @@
     "message": "Filters"
   },
   "keyword_filter_hint": {
-    "message": "Hide videos whose title or channel name contains any of these words"
+    "message": "Hides videos whose title or channel name contains any of these words.\n\nCase doesn’t matter, and part of a word counts too.\n\nSearch results are not filtered."
   },
   "keyword_filter_placeholder": {
     "message": "Word or phrase"

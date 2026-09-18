@@ -456,7 +456,7 @@
     "message": "Filter"
   },
   "keyword_filter_hint": {
-    "message": "Dölj videor vars titel eller kanalnamn innehåller något av dessa ord"
+    "message": "Döljer videor vars titel eller kanalnamn innehåller något av dessa ord.\n\nVersaler spelar ingen roll, och en del av ett ord räknas också.\n\nSökresultat filtreras inte."
   },
   "keyword_filter_placeholder": {
     "message": "Ord eller fras"

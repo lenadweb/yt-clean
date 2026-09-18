@@ -456,7 +456,7 @@
     "message": "Filtreler"
   },
   "keyword_filter_hint": {
-    "message": "Başlığında veya kanal adında bu kelimelerden herhangi biri geçen videoları gizle"
+    "message": "Başlığında veya kanal adında bu kelimelerden herhangi biri geçen videoları gizler.\n\nBüyük/küçük harf fark etmez, kelimenin bir parçası da sayılır.\n\nArama sonuçları filtrelenmez."
   },
   "keyword_filter_placeholder": {
     "message": "Kelime veya ifade"

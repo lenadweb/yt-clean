@@ -456,7 +456,7 @@
     "message": "Bộ lọc"
   },
   "keyword_filter_hint": {
-    "message": "Ẩn video có tiêu đề hoặc tên kênh chứa bất kỳ từ nào trong số này"
+    "message": "Ẩn các video có tiêu đề hoặc tên kênh chứa bất kỳ từ nào trong số này.\n\nKhông phân biệt chữ hoa chữ thường, và một phần của từ cũng được tính.\n\nKết quả tìm kiếm không bị lọc."
   },
   "keyword_filter_placeholder": {
     "message": "Từ hoặc cụm từ"

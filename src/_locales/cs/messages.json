@@ -456,7 +456,7 @@
     "message": "Filtry"
   },
   "keyword_filter_hint": {
-    "message": "Skrýt videa, jejichž název nebo název kanálu obsahuje některé z těchto slov"
+    "message": "Skryje videa, jejichž název nebo název kanálu obsahuje některé z těchto slov.\n\nNa velikosti písmen nezáleží a počítá se i část slova.\n\nVýsledky vyhledávání se nefiltrují."
   },
   "keyword_filter_placeholder": {
     "message": "Slovo nebo fráze"

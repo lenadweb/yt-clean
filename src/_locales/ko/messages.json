@@ -456,7 +456,7 @@
     "message": "필터"
   },
   "keyword_filter_hint": {
-    "message": "제목이나 채널 이름에 이 단어 중 하나라도 포함된 동영상 숨기기"
+    "message": "제목이나 채널 이름에 이 단어 중 하나라도 포함된 동영상을 숨깁니다.\n\n대소문자는 구분하지 않으며 단어의 일부만 일치해도 숨겨집니다.\n\n검색 결과는 필터링되지 않습니다."
   },
   "keyword_filter_placeholder": {
     "message": "단어 또는 문구"

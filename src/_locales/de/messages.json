@@ -456,7 +456,7 @@
     "message": "Filter"
   },
   "keyword_filter_hint": {
-    "message": "Videos ausblenden, deren Titel oder Kanalname eines dieser Wörter enthält"
+    "message": "Blendet Videos aus, deren Titel oder Kanalname eines dieser Wörter enthält.\n\nGroß- und Kleinschreibung spielt keine Rolle, auch Wortteile zählen.\n\nSuchergebnisse werden nicht gefiltert."
   },
   "keyword_filter_placeholder": {
     "message": "Wort oder Ausdruck"

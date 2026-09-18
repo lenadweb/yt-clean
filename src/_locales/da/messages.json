@@ -456,7 +456,7 @@
     "message": "Filtre"
   },
   "keyword_filter_hint": {
-    "message": "Skjul videoer, hvis titel eller kanalnavn indeholder et af disse ord"
+    "message": "Skjuler videoer, hvis titel eller kanalnavn indeholder et af disse ord.\n\nStore og små bogstaver er ligegyldige, og en del af et ord tæller også.\n\nSøgeresultater filtreres ikke."
   },
   "keyword_filter_placeholder": {
     "message": "Ord eller sætning"

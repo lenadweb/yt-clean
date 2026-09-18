@@ -456,7 +456,7 @@
     "message": "Filtres"
   },
   "keyword_filter_hint": {
-    "message": "Masquer les vidéos dont le titre ou le nom de la chaîne contient l’un de ces mots"
+    "message": "Masque les vidéos dont le titre ou le nom de la chaîne contient l’un de ces mots.\n\nLa casse n’a pas d’importance, et une partie de mot compte aussi.\n\nLes résultats de recherche ne sont pas filtrés."
   },
   "keyword_filter_placeholder": {
     "message": "Mot ou expression"

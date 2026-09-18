@@ -7,6 +7,7 @@ import {
 } from 'src/shared/keywordFilter';
 import { Accordion } from 'src/sidebar/components/SettingsAccordion';
 import Switch from 'src/sidebar/components/Switch';
+import { HintModal } from 'src/sidebar/components/HintModal';
 import { t } from 'src/shared/utils/i18n';
 
 const KeywordFilter: FC = () => {
@@ -50,6 +51,10 @@ const KeywordFilter: FC = () => {
                     >
                         {t('hide_by_keywords')}
                     </div>
+                    <HintModal
+                        title="hide_by_keywords"
+                        hint="keyword_filter_hint"
+                    />
                     <Switch
                         disabled={!enabled}
                         enabled={filter.enabled}
@@ -87,7 +92,7 @@ const KeywordFilter: FC = () => {
                                 'flex size-7 shrink-0 items-center justify-center rounded-lg transition active:scale-95',
                                 canAdd
                                     ? 'cursor-pointer bg-red-accent text-white'
-                                    : 'cursor-default bg-black-600 text-black-400'
+                                    : 'cursor-default text-black-500'
                             )}
                         >
                             <svg
@@ -103,11 +108,7 @@ const KeywordFilter: FC = () => {
                             </svg>
                         </button>
                     </form>
-                    {filter.keywords.length === 0 ? (
-                        <p className="text-[12px] font-light leading-[1.4] text-black-400">
-                            {t('keyword_filter_hint')}
-                        </p>
-                    ) : (
+                    {filter.keywords.length > 0 && (
                         <ul className="flex flex-wrap gap-1.5">
                             {filter.keywords.map((keyword) => (
                                 <li

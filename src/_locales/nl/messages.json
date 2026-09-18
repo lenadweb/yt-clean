@@ -456,7 +456,7 @@
     "message": "Filters"
   },
   "keyword_filter_hint": {
-    "message": "Video’s verbergen waarvan de titel of kanaalnaam een van deze woorden bevat"
+    "message": "Verbergt video’s waarvan de titel of kanaalnaam een van deze woorden bevat.\n\nHoofdletters maken niet uit, en een deel van een woord telt ook.\n\nZoekresultaten worden niet gefilterd."
   },
   "keyword_filter_placeholder": {
     "message": "Woord of zin"

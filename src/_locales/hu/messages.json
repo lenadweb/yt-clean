@@ -456,7 +456,7 @@
     "message": "Szűrők"
   },
   "keyword_filter_hint": {
-    "message": "Azon videók elrejtése, amelyek címe vagy csatornaneve tartalmazza valamelyik szót"
+    "message": "Elrejti azokat a videókat, amelyek címe vagy csatornaneve tartalmazza valamelyik szót.\n\nA kis- és nagybetű nem számít, és a szórészlet is egyezésnek számít.\n\nA keresési találatok nincsenek szűrve."
   },
   "keyword_filter_placeholder": {
     "message": "Szó vagy kifejezés"
