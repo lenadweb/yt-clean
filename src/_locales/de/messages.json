@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Videos nur für Mitglieder ausblenden"
   },
+  "hide_new_badge": {
+    "message": "„Neu“-Badge ausblenden"
+  },
   "hide_channel_pictures": {
     "message": "Kanalbilder ausblenden"
   },

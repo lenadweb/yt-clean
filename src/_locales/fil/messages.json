@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Itago ang mga video para sa mga miyembro lamang"
   },
+  "hide_new_badge": {
+    "message": "Itago ang badge na \"Bago\""
+  },
   "hide_channel_pictures": {
     "message": "Itago ang mga larawan ng channel"
   },

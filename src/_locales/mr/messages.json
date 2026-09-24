@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "फक्त सदस्यांसाठीचे व्हिडिओ लपवा"
   },
+  "hide_new_badge": {
+    "message": "\"नवीन\" बॅज लपवा"
+  },
   "hide_channel_pictures": {
     "message": "चॅनेलची चित्रे लपवा"
   },

@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Yalnızca üyelere özel videoları gizle"
   },
+  "hide_new_badge": {
+    "message": "\"Yeni\" rozetini gizle"
+  },
   "hide_channel_pictures": {
     "message": "Kanal görsellerini gizle"
   },

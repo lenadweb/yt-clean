@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Csak tagoknak szóló videók elrejtése"
   },
+  "hide_new_badge": {
+    "message": "Az „Új” jelvény elrejtése"
+  },
   "hide_channel_pictures": {
     "message": "Csatornaképek elrejtése"
   },

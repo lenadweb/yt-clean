@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "শুধু সদস্যদের জন্য ভিডিও লুকান"
   },
+  "hide_new_badge": {
+    "message": "\"নতুন\" ব্যাজ লুকান"
+  },
   "hide_channel_pictures": {
     "message": "চ্যানেলের ছবি লুকান"
   },

@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Slėpti tik nariams skirtus vaizdo įrašus"
   },
+  "hide_new_badge": {
+    "message": "Slėpti ženklelį „Nauja“"
+  },
   "hide_channel_pictures": {
     "message": "Slėpti kanalo paveikslėlius"
   },

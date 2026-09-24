@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Сакриј видео-снимке само за чланове"
   },
+  "hide_new_badge": {
+    "message": "Сакриј ознаку „Ново”"
+  },
   "hide_channel_pictures": {
     "message": "Сакриј слике канала"
   },

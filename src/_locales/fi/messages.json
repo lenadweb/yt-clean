@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Piilota vain jäsenille tarkoitetut videot"
   },
+  "hide_new_badge": {
+    "message": "Piilota ”Uusi”-merkki"
+  },
   "hide_channel_pictures": {
     "message": "Piilota kanavan kuvat"
   },

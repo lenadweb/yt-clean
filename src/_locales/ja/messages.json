@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "メンバー限定動画を非表示"
   },
+  "hide_new_badge": {
+    "message": "「新着」バッジを非表示"
+  },
   "hide_channel_pictures": {
     "message": "チャンネル画像を非表示"
   },

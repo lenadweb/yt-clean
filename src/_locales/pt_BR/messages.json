@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Ocultar vídeos exclusivos para membros"
   },
+  "hide_new_badge": {
+    "message": "Ocultar selo \"Novo\""
+  },
   "hide_channel_pictures": {
     "message": "Ocultar imagens do canal"
   },

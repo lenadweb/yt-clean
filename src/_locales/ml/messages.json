@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "അംഗങ്ങൾക്ക് മാത്രമുള്ള വീഡിയോകൾ മറയ്ക്കുക"
   },
+  "hide_new_badge": {
+    "message": "\"പുതിയത്\" ബാഡ്ജ് മറയ്ക്കുക"
+  },
   "hide_channel_pictures": {
     "message": "ചാനൽ ചിത്രങ്ങൾ മറയ്ക്കുക"
   },

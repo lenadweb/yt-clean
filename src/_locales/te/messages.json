@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "సభ్యులకు మాత్రమే వీడియోలను దాచు"
   },
+  "hide_new_badge": {
+    "message": "\"కొత్తది\" బ్యాడ్జ్‌ను దాచు"
+  },
   "hide_channel_pictures": {
     "message": "ఛానెల్ చిత్రాలను దాచు"
   },

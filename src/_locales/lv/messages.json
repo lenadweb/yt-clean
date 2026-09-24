@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Slēpt tikai dalībniekiem paredzētos videoklipus"
   },
+  "hide_new_badge": {
+    "message": "Slēpt emblēmu “Jauns”"
+  },
   "hide_channel_pictures": {
     "message": "Slēpt kanāla attēlus"
   },

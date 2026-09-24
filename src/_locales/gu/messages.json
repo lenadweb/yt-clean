@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "ફક્ત સભ્યો માટેના વિડિઓ છુપાવો"
   },
+  "hide_new_badge": {
+    "message": "\"નવું\" બેજ છુપાવો"
+  },
   "hide_channel_pictures": {
     "message": "ચૅનલનાં ચિત્રો છુપાવો"
   },

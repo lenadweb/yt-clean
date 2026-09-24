@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "پنهان کردن ویدیوهای مخصوص اعضا"
   },
+  "hide_new_badge": {
+    "message": "پنهان کردن نشان «جدید»"
+  },
   "hide_channel_pictures": {
     "message": "پنهان کردن تصاویر کانال"
   },

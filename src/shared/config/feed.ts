@@ -160,6 +160,14 @@ export const feedCategory = category('feed_and_recommendations', [
             isNew: true,
             hide: [MEMBERS_ONLY_VIDEO_SELECTOR],
         }),
+        feature({
+            id: 'hideNewBadge',
+            title: 'hide_new_badge',
+            isNew: true,
+            hide: [
+                'yt-thumbnail-overlay-badge-view-model:has(.ytBadgeShapeModern)',
+            ],
+        }),
     ]),
     section('watched_videos', { isNew: true }, [
         feature({

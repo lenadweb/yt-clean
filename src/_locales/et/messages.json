@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Peida ainult liikmetele mõeldud videod"
   },
+  "hide_new_badge": {
+    "message": "Peida märk „Uus“"
+  },
   "hide_channel_pictures": {
     "message": "Peida kanali pildid"
   },

@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "회원 전용 동영상 숨기기"
   },
+  "hide_new_badge": {
+    "message": "\"새 동영상\" 배지 숨기기"
+  },
   "hide_channel_pictures": {
     "message": "채널 이미지 숨기기"
   },

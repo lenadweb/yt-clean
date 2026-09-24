@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Ukryj filmy tylko dla wspierających"
   },
+  "hide_new_badge": {
+    "message": "Ukryj plakietkę „Nowość”"
+  },
   "hide_channel_pictures": {
     "message": "Ukryj obrazy kanału"
   },

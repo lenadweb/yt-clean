@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Ẩn video chỉ dành cho hội viên"
   },
+  "hide_new_badge": {
+    "message": "Ẩn huy hiệu \"Mới\""
+  },
   "hide_channel_pictures": {
     "message": "Ẩn hình ảnh của kênh"
   },

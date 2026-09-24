@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Απόκρυψη βίντεο μόνο για μέλη"
   },
+  "hide_new_badge": {
+    "message": "Απόκρυψη σήματος «Νέο»"
+  },
   "hide_channel_pictures": {
     "message": "Απόκρυψη εικόνων καναλιού"
   },

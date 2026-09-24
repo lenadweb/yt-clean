@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Sembunyikan video khusus pelanggan"
   },
+  "hide_new_badge": {
+    "message": "Sembunyikan lencana \"Baru\""
+  },
   "hide_channel_pictures": {
     "message": "Sembunyikan gambar channel"
   },

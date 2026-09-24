@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Skjul videoer kun for medlemmer"
   },
+  "hide_new_badge": {
+    "message": "Skjul \"Ny\"-mærket"
+  },
   "hide_channel_pictures": {
     "message": "Skjul kanalbilleder"
   },

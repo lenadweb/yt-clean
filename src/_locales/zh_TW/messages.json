@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "隱藏會員專屬影片"
   },
+  "hide_new_badge": {
+    "message": "隱藏「新」徽章"
+  },
   "hide_channel_pictures": {
     "message": "隱藏頻道圖片"
   },

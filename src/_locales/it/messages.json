@@ -386,6 +386,9 @@
   "hide_members_only_videos": {
     "message": "Nascondi i video riservati agli abbonati"
   },
+  "hide_new_badge": {
+    "message": "Nascondi il badge \"Nuovo\""
+  },
   "hide_channel_pictures": {
     "message": "Nascondi le immagini del canale"
   },
