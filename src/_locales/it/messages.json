@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Nascondi il pulsante Home"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Apri le iscrizioni invece della Home"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Dopo l’accesso a YouTube, aprire la Home o fare clic sul logo porta alle iscrizioni. Senza accesso, la Home resta disponibile."
   }
 }

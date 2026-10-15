@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Homeknop verbergen"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Abonnementen openen in plaats van Home"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Als je bent ingelogd bij YouTube, brengt Home of het YouTube-logo je naar Abonnementen. Zonder inloggen blijft Home beschikbaar."
   }
 }

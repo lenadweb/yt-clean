@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "ഹോം ബട്ടൺ മറയ്ക്കുക"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "ഹോമിന് പകരം സബ്‌സ്‌ക്രിപ്‌ഷനുകൾ തുറക്കുക"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "YouTube-ൽ സൈൻ ഇൻ ചെയ്താൽ ഹോം തുറക്കുന്നതോ ലോഗോയിൽ ക്ലിക്കുചെയ്യുന്നതോ സബ്‌സ്‌ക്രിപ്‌ഷനുകൾ തുറക്കും. സൈൻ ഇൻ ചെയ്യാതെ ഹോം ലഭ്യമാണ്."
   }
 }

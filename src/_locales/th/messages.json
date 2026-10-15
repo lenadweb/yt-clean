@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "ซ่อนปุ่มหน้าแรก"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "เปิดการติดตามแทนหน้าแรก"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "เมื่อลงชื่อเข้าใช้ YouTube การเปิดหน้าแรกหรือคลิกโลโก้จะไปที่การติดตาม หากไม่ได้ลงชื่อเข้าใช้ หน้าแรกยังคงใช้งานได้"
   }
 }

@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Hide Home button"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Open Subscriptions instead of Home"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "When signed in to YouTube, opening Home or clicking the YouTube logo takes you to Subscriptions. Signed-out users stay on Home."
   }
 }

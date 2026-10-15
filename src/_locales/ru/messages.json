@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Скрыть кнопку «Главная»"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Открывать подписки вместо главной"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "После входа в YouTube главная страница и нажатие на логотип открывают подписки. Без входа главная остаётся доступна."
   }
 }

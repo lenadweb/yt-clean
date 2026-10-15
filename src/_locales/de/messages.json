@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Startseiten-Schaltfläche ausblenden"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Abos statt der Startseite öffnen"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Wenn du bei YouTube angemeldet bist, öffnen die Startseite und das YouTube-Logo deine Abos. Ohne Anmeldung bleibt die Startseite verfügbar."
   }
 }

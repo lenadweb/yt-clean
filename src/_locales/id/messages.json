@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Sembunyikan tombol Beranda"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Buka Subscription alih-alih Beranda"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Saat login ke YouTube, membuka Beranda atau mengklik logo akan membuka Subscription. Tanpa login, Beranda tetap tersedia."
   }
 }

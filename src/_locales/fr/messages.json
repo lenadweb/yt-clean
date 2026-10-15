@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Masquer le bouton Accueil"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Ouvrir les abonnements au lieu de l’accueil"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Une fois connecté à YouTube, ouvrir l’accueil ou cliquer sur le logo affiche les abonnements. Sans connexion, l’accueil reste disponible."
   }
 }

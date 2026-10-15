@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Slėpti pagrindinio puslapio mygtuką"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Atverti prenumeratas vietoje pagrindinio puslapio"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Prisijungus prie YouTube, pagrindinis puslapis arba logotipo paspaudimas atveria prenumeratas. Neprisijungus pagrindinis puslapis lieka pasiekiamas."
   }
 }

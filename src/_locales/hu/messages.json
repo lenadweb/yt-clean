@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Kezdőlap gomb elrejtése"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Feliratkozások megnyitása a kezdőlap helyett"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "YouTube-bejelentkezés után a kezdőlap vagy a logóra kattintás a feliratkozásokat nyitja meg. Bejelentkezés nélkül a kezdőlap elérhető marad."
   }
 }

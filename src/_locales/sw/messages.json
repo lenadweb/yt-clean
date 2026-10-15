@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ficha kitufe cha Mwanzo"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Fungua Usajili badala ya Mwanzo"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Ukiwa umeingia kwenye YouTube, kufungua Mwanzo au kubofya nembo hufungua Usajili. Usipoingia, Mwanzo hubaki kupatikana."
   }
 }

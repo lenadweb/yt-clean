@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "پنهان کردن دکمهٔ صفحهٔ اصلی"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "باز کردن اشتراک‌ها به‌جای صفحهٔ اصلی"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "پس از ورود به YouTube، باز کردن صفحهٔ اصلی یا کلیک روی نشان، اشتراک‌ها را باز می‌کند. بدون ورود، صفحهٔ اصلی در دسترس می‌ماند."
   }
 }

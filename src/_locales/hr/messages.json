@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Sakrij gumb Početna"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Otvori pretplate umjesto početne stranice"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Nakon prijave na YouTube početna stranica ili klik na logotip otvara pretplate. Bez prijave početna stranica ostaje dostupna."
   }
 }

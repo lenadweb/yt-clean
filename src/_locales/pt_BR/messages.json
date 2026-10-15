@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ocultar botão Início"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Abrir Inscrições em vez do Início"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Após entrar no YouTube, abrir o Início ou clicar no logotipo leva às Inscrições. Sem login, o Início continua disponível."
   }
 }

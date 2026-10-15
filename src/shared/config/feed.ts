@@ -5,6 +5,10 @@ import {
     enableAutoSkipAds,
 } from 'src/shared/featureHandlers/ads';
 import { syncInfiniteFeed } from 'src/shared/featureHandlers/feed';
+import {
+    enableHomeRedirect,
+    disableHomeRedirect,
+} from 'src/shared/featureHandlers/navigation';
 
 const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
 
@@ -114,6 +118,24 @@ export const feedCategory = category('feed_and_recommendations', [
             feature({
                 id: 'infiniteHomeFeed',
                 onChange: syncInfiniteFeed,
+            }),
+        ]
+    ),
+    section(
+        'redirect_home_to_subscriptions',
+        {
+            isNew: true,
+            controls: 'switch',
+            hint: 'redirect_home_to_subscriptions_hint',
+        },
+        [
+            feature({
+                id: 'redirectHomeToSubscriptions',
+                url: [UrlRegExps.Home],
+                custom: {
+                    enable: enableHomeRedirect,
+                    disable: disableHomeRedirect,
+                },
             }),
         ]
     ),

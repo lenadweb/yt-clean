@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ana sayfa düğmesini gizle"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Ana sayfa yerine abonelikleri aç"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "YouTube’da oturum açtığınızda Ana sayfa veya YouTube logosu Abonelikler’i açar. Oturum açılmadığında Ana sayfa kullanılabilir."
   }
 }

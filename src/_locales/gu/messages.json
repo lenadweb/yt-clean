@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "હોમ બટન છુપાવો"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "હોમને બદલે સબ્સ્ક્રિપ્શન્સ ખોલો"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "YouTubeમાં સાઇન ઇન કર્યા પછી હોમ ખોલવાથી અથવા લોગો પર ક્લિક કરવાથી સબ્સ્ક્રિપ્શન્સ ખુલે છે. સાઇન ઇન વિના હોમ ઉપલબ્ધ રહે છે."
   }
 }

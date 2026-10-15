@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Skrýt tlačítko Domů"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Otevírat odběry místo domovské stránky"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Po přihlášení k YouTube otevře domovská stránka nebo kliknutí na logo odběry. Bez přihlášení zůstane domovská stránka dostupná."
   }
 }

@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Amaga el botó Inici"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Obre les subscripcions en lloc de l’inici"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Amb la sessió iniciada a YouTube, obrir l’inici o prémer el logotip porta a les subscripcions. Sense iniciar sessió, l’inici continua disponible."
   }
 }

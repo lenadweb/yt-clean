@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Peida avalehe nupp"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Ava avalehe asemel tellimused"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Kui oled YouTube’i sisse logitud, avab avaleht või logol klõpsamine tellimused. Sisselogimata jääb avaleht kättesaadavaks."
   }
 }

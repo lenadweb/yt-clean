@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Skjul Hjem-knappen"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Åpne abonnementer i stedet for startsiden"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Når du er logget inn på YouTube, åpner startsiden eller et klikk på logoen abonnementene dine. Uten innlogging er startsiden fortsatt tilgjengelig."
   }
 }

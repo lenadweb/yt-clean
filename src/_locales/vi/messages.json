@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ẩn nút Trang chủ"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Mở Kênh đăng ký thay cho Trang chủ"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Khi đã đăng nhập YouTube, mở Trang chủ hoặc nhấp vào biểu trưng sẽ mở Kênh đăng ký. Khi chưa đăng nhập, Trang chủ vẫn khả dụng."
   }
 }

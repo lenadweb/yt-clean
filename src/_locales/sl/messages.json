@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Skrij gumb Domov"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Odpri naročnine namesto domače strani"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Po prijavi v YouTube domača stran ali klik na logotip odpre naročnine. Brez prijave domača stran ostane na voljo."
   }
 }

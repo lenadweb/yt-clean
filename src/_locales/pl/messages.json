@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ukryj przycisk strony głównej"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Otwieraj Subskrypcje zamiast strony głównej"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Po zalogowaniu do YouTube strona główna i kliknięcie logo otwierają Subskrypcje. Bez logowania strona główna pozostaje dostępna."
   }
 }

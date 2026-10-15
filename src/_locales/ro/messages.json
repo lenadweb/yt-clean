@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Ascunde butonul Acasă"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Deschide abonamentele în locul paginii principale"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "După conectarea la YouTube, pagina principală sau clicul pe siglă deschide abonamentele. Fără conectare, pagina principală rămâne disponibilă."
   }
 }

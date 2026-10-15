@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "የመነሻ ቁልፍን ደብቅ"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "ከመነሻ ይልቅ የተመዘገቡ ቻናሎችን ክፈት"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "በYouTube ሲገቡ መነሻን መክፈት ወይም አርማውን መጫን የተመዘገቡ ቻናሎችን ይከፍታል። ሳይገቡ መነሻው ይቀጥላል።"
   }
 }

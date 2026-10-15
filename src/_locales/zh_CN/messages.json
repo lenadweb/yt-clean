@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "隐藏首页按钮"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "打开订阅页面而非首页"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "登录 YouTube 后，打开首页或点击 YouTube 标志将转到订阅页面。未登录时仍可访问首页。"
   }
 }

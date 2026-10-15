@@ -93,9 +93,14 @@ export class Storage {
 
     setFeatures(values: Partial<SettingsState>): void {
         const presetId = this.settings.activePreset;
+        const presetValues = Object.fromEntries(
+            Object.entries(values).filter(([id]) =>
+                MANAGED_FEATURE_IDS.includes(id)
+            )
+        );
         const presets = {
             ...this.settings.presets,
-            [presetId]: { ...this.settings.presets[presetId], ...values },
+            [presetId]: { ...this.settings.presets[presetId], ...presetValues },
         };
 
         this.updateMany({ ...values, presets } as Partial<StorageState>);

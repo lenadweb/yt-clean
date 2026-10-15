@@ -19,6 +19,7 @@ const PRESET_EXCLUDED = new Set<string>([
     'originalTitles',
     'originalAudio',
     'infiniteHomeFeed',
+    'redirectHomeToSubscriptions',
 ]);
 
 const LIGHT_IDS = new Set<string>([
@@ -67,5 +68,9 @@ export const getPresetConfig = (
     stored?: Record<PresetId, SettingsState>
 ): SettingsState => ({
     ...PRESET_DEFAULTS[presetId],
-    ...stored?.[presetId],
+    ...Object.fromEntries(
+        Object.entries(stored?.[presetId] ?? {}).filter(([id]) =>
+            MANAGED_FEATURE_IDS.includes(id)
+        )
+    ),
 });

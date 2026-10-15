@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "Piilota etusivupainike"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "Avaa tilaukset etusivun sijaan"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "Kun olet kirjautunut YouTubeen, etusivun avaaminen tai logon napsauttaminen avaa tilaukset. Ilman kirjautumista etusivu pysyy käytettävissä."
   }
 }

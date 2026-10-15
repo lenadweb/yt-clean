@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "హోమ్ బటన్‌ను దాచండి"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "హోమ్‌కు బదులుగా సభ్యత్వాలను తెరవండి"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "YouTubeలో సైన్ ఇన్ చేసినప్పుడు హోమ్ తెరిచినా లేదా లోగోపై క్లిక్ చేసినా సభ్యత్వాలు తెరుచుకుంటాయి. సైన్ ఇన్ చేయకపోతే హోమ్ అందుబాటులో ఉంటుంది."
   }
 }

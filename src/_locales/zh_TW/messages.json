@@ -514,5 +514,11 @@
   },
   "hide_home_button": {
     "message": "隱藏首頁按鈕"
+  },
+  "redirect_home_to_subscriptions": {
+    "message": "開啟訂閱頁面而非首頁"
+  },
+  "redirect_home_to_subscriptions_hint": {
+    "message": "登入 YouTube 後，開啟首頁或點擊 YouTube 標誌將前往訂閱頁面。未登入時仍可使用首頁。"
   }
 }
