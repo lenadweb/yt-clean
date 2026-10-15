@@ -34,10 +34,21 @@
 - Playback speed slider for videos and a dedicated one for Shorts
 - Auto-advance to the next Short
 - Trim the sidebar (You, Explore, More from YouTube, …) item by item
+- Hide the Home navigation button and open Subscriptions instead of Home
+  when signed in
+- Hide recommendations beside videos and center the player when no playlist,
+  chat, or expanded side panel needs the right column
 - Channel page cleanup (banner, trailer)
 
 Every feature is opt-in and persists in `chrome.storage.local`. A master
 toggle enables or disables the whole extension at once.
+
+The existing Shorts setting also hides individual Shorts in Subscriptions.
+Turning on every option in the Explore group removes the whole section,
+including collapsed entries such as Movies & TV, Hype, Courses, Podcasts,
+Playables, and Memberships. The Home redirect is a navigation preference and
+is preserved when switching cleanup presets. It does not redirect signed-out
+users; the YouTube logo remains visible even when the Home menu button is hidden.
 
 ## Getting started
 

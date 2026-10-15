@@ -18,6 +18,11 @@ YouTube pages.
 
 ## Feed & Recommendations
 
+`redirectHomeToSubscriptions` opens Subscriptions instead of Home for signed-in
+users, including visits through the YouTube logo. It is disabled by default and
+preserved when switching cleanup presets. `hideShorts` also covers individual
+Shorts cards in Subscriptions, alongside Shorts shelves.
+
 | Category               | Section        | Feature id         | UI label                      | Action type | Scope     |
 | ---------------------- | -------------- | ------------------ | ----------------------------- | ----------- | --------- |
 | Feed & Recommendations | Content blocks | `hideShorts`       | Hide Shorts sections          | hide        | all pages |
@@ -26,6 +31,13 @@ YouTube pages.
 | Feed & Recommendations | Content blocks | `hideJams`         | Hide Mixes & Playlists        | hide        | all pages |
 | Feed & Recommendations | Ads            | `adsYoutubeBanner` | Hide YouTube Banners          | hide        | all pages |
 | Feed & Recommendations | Ads            | `adsFeedVideo`     | Hide Sponsored feed video     | hide        | all pages |
+
+## Video page
+
+`hideWatchRecommendations` hides recommendations beside and below the video.
+It centers the normal watch layout when no playlist, visible chat, expanded
+engagement panel, or fundraiser needs the right column. Theater and fullscreen
+layout are left to YouTube. This setting is disabled by default.
 
 ## Video Playback & Channel
 
@@ -46,6 +58,11 @@ YouTube pages.
 | Video Playback & Channel | Channel                       | `hideChannelBanner`              | Hide Channel banner               | hide                | all pages     |
 
 ## Sidebar
+
+`hideMenuHome` hides Home in both the expanded and compact navigation menus,
+without hiding the YouTube logo. Enabling all Explore options removes the
+entire section, including entries behind Show more. Section detection works
+before Gaming and News have been rendered.
 
 | Category | Section                 | Feature id                  | UI label                | Action type  | Scope     |
 | -------- | ----------------------- | --------------------------- | ----------------------- | ------------ | --------- |
