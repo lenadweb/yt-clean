@@ -1,5 +1,9 @@
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 
+// Music is rendered before "Show more"; Gaming and News may be lazy-loaded.
+const EXPLORE_SECTION =
+    "#sections ytd-guide-section-renderer:not(:has([href='/feed/history'], [href='/feed/you'])):has([href*='/channel/UC-9'], [href='/gaming'], [href*='UCYfdidRxbB8Qhf0Nx7ioOYw'], [href='/feed/storefront'], [href='/feed/hype'], [href='/learning'], [href*='UCtFRv9O2AHqOZjjynzrv-xg'], [href='/feed/courses_destination'], [href='/podcasts'], [href='/playables'], [href='/channel_memberships'])";
+
 export const sidebarCategory = category('sidebar', [
     section('hide_sidebar_completely', { isNew: true, controls: 'switch' }, [
         feature({
@@ -115,10 +119,7 @@ export const sidebarCategory = category('sidebar', [
     section(
         'explore',
         {
-            hideWhenAllEnabled: [
-                "#sections ytd-guide-section-renderer:has([href='/gaming'])",
-                "#sections ytd-guide-section-renderer:has([href*='UCYfdidRxbB8Qhf0Nx7ioOYw'])",
-            ],
+            hideWhenAllEnabled: [EXPLORE_SECTION],
         },
         [
             feature({
@@ -167,7 +168,7 @@ export const sidebarCategory = category('sidebar', [
                 id: 'hideMenuExploreExpand',
                 title: 'hide_expand_button',
                 hide: [
-                    "ytd-guide-section-renderer:has([href='/gaming']) ytd-guide-collapsible-entry-renderer",
+                    `${EXPLORE_SECTION} ytd-guide-collapsible-entry-renderer`,
                 ],
             }),
         ]
