@@ -23,6 +23,15 @@ export const sidebarCategory = category('sidebar', [
     ]),
     section('main_menu', { controls: 'checkboxes' }, [
         feature({
+            id: 'hideMenuHome',
+            title: 'hide_home_button',
+            isNew: true,
+            hide: [
+                "ytd-guide-entry-renderer:has(a[href='/'])",
+                "ytd-mini-guide-entry-renderer:has(a[href='/'])",
+            ],
+        }),
+        feature({
             id: 'hideMenuShorts',
             title: 'hide_shorts',
             hide: [

@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube stops loading recommendations on the home page after a few screens.\n\nWhen the feed ends, the extension asks youtube.com for a fresh batch of recommendations and adds new videos to the bottom, skipping ones already shown.\n\nOnly the “All” tab is extended."
+  },
+  "hide_home_button": {
+    "message": "Hide Home button"
   }
 }
