@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Saat login ke YouTube, membuka Beranda atau mengklik logo akan membuka Subscription. Tanpa login, Beranda tetap tersedia."
+  },
+  "hide_watch_recommendations": {
+    "message": "Sembunyikan rekomendasi di samping video"
   }
 }

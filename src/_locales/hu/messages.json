@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "YouTube-bejelentkezés után a kezdőlap vagy a logóra kattintás a feliratkozásokat nyitja meg. Bejelentkezés nélkül a kezdőlap elérhető marad."
+  },
+  "hide_watch_recommendations": {
+    "message": "Videó melletti ajánlások elrejtése"
   }
 }

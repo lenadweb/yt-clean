@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "När du är inloggad på YouTube öppnar startsidan eller ett klick på logotypen dina prenumerationer. Utan inloggning finns startsidan kvar."
+  },
+  "hide_watch_recommendations": {
+    "message": "Dölj rekommendationer bredvid videon"
   }
 }

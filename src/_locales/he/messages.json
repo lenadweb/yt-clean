@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "לאחר כניסה ל־YouTube, פתיחת דף הבית או לחיצה על הלוגו פותחת את המינויים. ללא כניסה, דף הבית נשאר זמין."
+  },
+  "hide_watch_recommendations": {
+    "message": "הסתרת המלצות לצד הסרטון"
   }
 }

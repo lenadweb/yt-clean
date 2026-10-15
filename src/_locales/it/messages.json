@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Dopo l’accesso a YouTube, aprire la Home o fare clic sul logo porta alle iscrizioni. Senza accesso, la Home resta disponibile."
+  },
+  "hide_watch_recommendations": {
+    "message": "Nascondi i consigli accanto al video"
   }
 }

@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Con la sesión iniciada en YouTube, abrir Inicio o pulsar el logotipo lleva a Suscripciones. Sin iniciar sesión, Inicio sigue disponible."
+  },
+  "hide_watch_recommendations": {
+    "message": "Ocultar recomendaciones junto al vídeo"
   }
 }

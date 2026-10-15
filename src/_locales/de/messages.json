@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Wenn du bei YouTube angemeldet bist, öffnen die Startseite und das YouTube-Logo deine Abos. Ohne Anmeldung bleibt die Startseite verfügbar."
+  },
+  "hide_watch_recommendations": {
+    "message": "Empfehlungen neben dem Video ausblenden"
   }
 }

@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Als je bent ingelogd bij YouTube, brengt Home of het YouTube-logo je naar Abonnementen. Zonder inloggen blijft Home beschikbaar."
+  },
+  "hide_watch_recommendations": {
+    "message": "Aanbevelingen naast de video verbergen"
   }
 }

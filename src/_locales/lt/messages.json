@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Prisijungus prie YouTube, pagrindinis puslapis arba logotipo paspaudimas atveria prenumeratas. Neprisijungus pagrindinis puslapis lieka pasiekiamas."
+  },
+  "hide_watch_recommendations": {
+    "message": "Slėpti rekomendacijas šalia vaizdo įrašo"
   }
 }

@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "በYouTube ሲገቡ መነሻን መክፈት ወይም አርማውን መጫን የተመዘገቡ ቻናሎችን ይከፍታል። ሳይገቡ መነሻው ይቀጥላል።"
+  },
+  "hide_watch_recommendations": {
+    "message": "ከቪዲዮው አጠገብ ያሉ ምክረ ሃሳቦችን ደብቅ"
   }
 }

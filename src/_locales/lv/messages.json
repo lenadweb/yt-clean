@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Pēc pierakstīšanās pakalpojumā YouTube sākumlapa vai klikšķis uz logotipa atver abonementus. Bez pierakstīšanās sākumlapa paliek pieejama."
+  },
+  "hide_watch_recommendations": {
+    "message": "Slēpt ieteikumus blakus videoklipam"
   }
 }

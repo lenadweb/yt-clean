@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Po prihlásení do YouTube otvorí domovská stránka alebo kliknutie na logo odbery. Bez prihlásenia zostane domovská stránka dostupná."
+  },
+  "hide_watch_recommendations": {
+    "message": "Skryť odporúčania vedľa videa"
   }
 }

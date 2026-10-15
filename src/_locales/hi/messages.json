@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "YouTube में साइन इन होने पर होम खोलने या लोगो पर क्लिक करने से सदस्यताएँ खुलती हैं। साइन इन न होने पर होम उपलब्ध रहता है।"
+  },
+  "hide_watch_recommendations": {
+    "message": "वीडियो के बगल की सिफ़ारिशें छिपाएँ"
   }
 }

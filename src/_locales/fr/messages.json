@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Une fois connecté à YouTube, ouvrir l’accueil ou cliquer sur le logo affiche les abonnements. Sans connexion, l’accueil reste disponible."
+  },
+  "hide_watch_recommendations": {
+    "message": "Masquer les recommandations à côté de la vidéo"
   }
 }

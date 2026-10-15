@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "YouTube-এ সাইন ইন করা থাকলে হোম খোলা বা লোগোতে ক্লিক করলে সাবস্ক্রিপশন খোলে। সাইন ইন না থাকলে হোম উপলব্ধ থাকে।"
+  },
+  "hide_watch_recommendations": {
+    "message": "ভিডিওর পাশের সুপারিশ লুকান"
   }
 }

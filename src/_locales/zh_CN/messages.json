@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "登录 YouTube 后，打开首页或点击 YouTube 标志将转到订阅页面。未登录时仍可访问首页。"
+  },
+  "hide_watch_recommendations": {
+    "message": "隐藏视频旁的推荐"
   }
 }

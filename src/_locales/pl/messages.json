@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Po zalogowaniu do YouTube strona główna i kliknięcie logo otwierają Subskrypcje. Bez logowania strona główna pozostaje dostępna."
+  },
+  "hide_watch_recommendations": {
+    "message": "Ukryj rekomendacje obok filmu"
   }
 }

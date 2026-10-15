@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Apabila log masuk ke YouTube, membuka Laman Utama atau mengklik logo akan membuka Langganan. Tanpa log masuk, Laman Utama masih tersedia."
+  },
+  "hide_watch_recommendations": {
+    "message": "Sembunyikan cadangan di sebelah video"
   }
 }

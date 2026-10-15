@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "După conectarea la YouTube, pagina principală sau clicul pe siglă deschide abonamentele. Fără conectare, pagina principală rămâne disponibilă."
+  },
+  "hide_watch_recommendations": {
+    "message": "Ascunde recomandările de lângă videoclip"
   }
 }

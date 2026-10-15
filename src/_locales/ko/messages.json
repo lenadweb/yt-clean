@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "YouTube에 로그인한 상태에서 홈을 열거나 로고를 클릭하면 구독 페이지가 열립니다. 로그아웃 상태에서는 홈이 유지됩니다."
+  },
+  "hide_watch_recommendations": {
+    "message": "동영상 옆 추천 숨기기"
   }
 }

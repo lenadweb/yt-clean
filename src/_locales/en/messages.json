@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "When signed in to YouTube, opening Home or clicking the YouTube logo takes you to Subscriptions. Signed-out users stay on Home."
+  },
+  "hide_watch_recommendations": {
+    "message": "Hide recommendations beside the video"
   }
 }

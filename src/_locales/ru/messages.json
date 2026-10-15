@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "После входа в YouTube главная страница и нажатие на логотип открывают подписки. Без входа главная остаётся доступна."
+  },
+  "hide_watch_recommendations": {
+    "message": "Скрыть рекомендации рядом с видео"
   }
 }

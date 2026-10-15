@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Kapag naka-sign in sa YouTube, ang pagbukas ng Home o pag-click sa logo ay magbubukas ng Mga Subscription. Kapag hindi naka-sign in, mananatili ang Home."
+  },
+  "hide_watch_recommendations": {
+    "message": "Itago ang mga rekomendasyon sa tabi ng video"
   }
 }

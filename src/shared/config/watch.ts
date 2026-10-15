@@ -1,9 +1,35 @@
 import { GEMINI_ICON_PATH, UrlRegExps } from 'src/shared/const';
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 import { syncLiveChatVisibility } from 'src/shared/featureHandlers/video';
+import { getAttr } from 'src/shared/utils/getAttr';
+import { updateWatchLayout } from 'src/shared/featureHandlers/watch';
+
+// Keep functional side panels. Center only when the recommendations column
+// has no playlist, visible chat, or expanded engagement panel to display.
+const FOCUSED_WATCH = `ytd-watch-flexy:not([theater]):not([fullscreen]):not(:has(ytd-playlist-panel-renderer:not([hidden]), ytd-engagement-panel-section-list-renderer[visibility="ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"], #donation-shelf > :not([hidden]))):is(:not(:has(ytd-live-chat-frame:not([hidden]))), [${getAttr('feature-hide-live-chat')}] *)`;
 
 export const watchCategory = category('video_page', [
     section('video_page_elements', { isNew: true, controls: 'checkboxes' }, [
+        feature({
+            id: 'hideWatchRecommendations',
+            title: 'hide_watch_recommendations',
+            isNew: true,
+            url: [UrlRegExps.Watch],
+            onChange: updateWatchLayout,
+            hide: ['ytd-watch-flexy #related'],
+            styles: [
+                `${FOCUSED_WATCH} #secondary { display: none !important; }`,
+                `${FOCUSED_WATCH} #columns {
+                    justify-content: center !important;
+                    min-width: 0 !important;
+                }`,
+                `${FOCUSED_WATCH} #primary {
+                    margin-inline: auto !important;
+                    min-width: 0 !important;
+                    padding-right: 0 !important;
+                }`,
+            ],
+        }),
         feature({
             id: 'hideComments',
             title: 'hide_comments',

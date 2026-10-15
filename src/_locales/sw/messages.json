@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "Ukiwa umeingia kwenye YouTube, kufungua Mwanzo au kubofya nembo hufungua Usajili. Usipoingia, Mwanzo hubaki kupatikana."
+  },
+  "hide_watch_recommendations": {
+    "message": "Ficha mapendekezo kando ya video"
   }
 }

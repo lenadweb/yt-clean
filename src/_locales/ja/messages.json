@@ -520,5 +520,8 @@
   },
   "redirect_home_to_subscriptions_hint": {
     "message": "YouTubeにログインしている場合、ホームを開くかロゴをクリックすると登録チャンネルが開きます。ログアウト中はホームのままです。"
+  },
+  "hide_watch_recommendations": {
+    "message": "動画の横のおすすめを非表示"
   }
 }
