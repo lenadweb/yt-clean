@@ -1,0 +1,26 @@
+<!-- Sanitized static-ad and player layout from the user's saved watch page. -->
+<ytd-app>
+  <ytd-player>
+    <div id="movie_player" class="ad-showing"><video id="main-video"></video></div>
+    <div class="video-ads ytp-ad-module">
+      <div class="ytp-ad-player-overlay-layout">
+        <button id="native-skip" class="ytp-skip-ad-button">Skip</button>
+      </div>
+    </div>
+  </ytd-player>
+  <div id="secondary" class="style-scope ytd-watch-flexy">
+    <div id="secondary-inner"><div id="related">
+      <div id="player-ads"><ytd-player-legacy-desktop-watch-ads-renderer></ytd-player-legacy-desktop-watch-ads-renderer></div>
+      <ytd-watch-next-secondary-results-renderer>
+        <ytd-item-section-renderer><div id="contents">
+          <ytd-ad-slot-renderer id="sidebar-sponsored"><ytd-in-feed-ad-layout-renderer></ytd-in-feed-ad-layout-renderer></ytd-ad-slot-renderer>
+          <yt-lockup-view-model id="recommendation">Video recommendation</yt-lockup-view-model>
+        </div></ytd-item-section-renderer>
+      </ytd-watch-next-secondary-results-renderer>
+    </div></div>
+  </div>
+  <div id="below"><ytd-ad-slot-renderer id="below-sponsored"></ytd-ad-slot-renderer></div>
+  <ytd-engagement-panel-section-list-renderer id="info-panel" target-id="example"></ytd-engagement-panel-section-list-renderer>
+  <ytd-engagement-panel-section-list-renderer id="ad-info-panel" target-id="engagement-panel-ads"></ytd-engagement-panel-section-list-renderer>
+  <ytd-browse><ytd-rich-item-renderer><ytd-ad-slot-renderer id="home-sponsored"></ytd-ad-slot-renderer></ytd-rich-item-renderer></ytd-browse>
+</ytd-app>

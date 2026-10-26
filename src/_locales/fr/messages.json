@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube arrête de charger des recommandations sur l’accueil après quelques écrans.\n\nQuand le flux se termine, l’extension demande à youtube.com un nouveau lot de recommandations et ajoute en bas les vidéos pas encore affichées.\n\nSeul l’onglet « Tout » est prolongé."
+  },
+  "auto_mute_ads": {
+    "message": "Couper le son des annonces jusqu’à la reprise de la vidéo"
   }
 }

@@ -65,6 +65,7 @@
   },
   "permissions": [
     "sidePanel",
-    "storage"
+    "storage",
+    "debugger"
   ]
 }

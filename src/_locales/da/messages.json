@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube stopper med at indlæse anbefalinger på startsiden efter et par skærme.\n\nNår feedet slutter, beder udvidelsen youtube.com om nye anbefalinger og tilføjer videoer nederst, som ikke allerede er vist.\n\nKun fanen “Alle” forlænges."
+  },
+  "auto_mute_ads": {
+    "message": "Slå lyden fra i annoncer, indtil videoen fortsætter"
   }
 }

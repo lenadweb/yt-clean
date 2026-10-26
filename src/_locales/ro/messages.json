@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube nu mai încarcă recomandări pe pagina principală după câteva ecrane.\n\nCând feedul se termină, extensia cere de la youtube.com un nou set de recomandări și adaugă la final videoclipurile care nu au fost încă afișate.\n\nSe extinde doar fila „Toate”."
+  },
+  "auto_mute_ads": {
+    "message": "Dezactivează sunetul reclamelor până la reluarea videoclipului"
   }
 }

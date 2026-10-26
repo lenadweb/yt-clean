@@ -30,6 +30,7 @@
 
 - Hide Shorts sections, mixes, and playlists across the feed
 - Remove sponsored videos and promotional banners
+- Mute video ads and click YouTube's Skip button when it becomes available
 - Clean up the search bar, masthead, and player controls
 - Playback speed slider for videos and a dedicated one for Shorts
 - Auto-advance to the next Short
@@ -70,6 +71,48 @@ npm run typecheck
 npm test
 npm run format
 ```
+
+### Ads and playback compatibility
+
+The Ads section has independent opt-in controls for sponsored cards on Home
+and Subscriptions, static ads beside/below watch videos, the ad-info panel,
+ad muting, and native Skip. Fresh Light and Balanced presets leave these off;
+existing saved feature choices and storage keys are preserved.
+
+Ad muting changes only the main watch video's mute state while YouTube marks
+an ad as playing. It restores the previous state when content resumes or the
+option is disabled, including player replacement and cached-page navigation.
+An already muted video stays muted, and volume adjustments are retained.
+
+Native Skip waits for a visible, enabled YouTube Skip button. It never seeks
+an ad to its end, forces playback, or removes an enforcement message. The
+background worker rechecks the sender, settings, page URL, button visibility,
+and hit target before sending mouse input, then detaches its debugger.
+
+**Permission change:** native Skip requires `debugger` in the Chrome and Opera
+manifests. This grants broad browser debugging capability, even though this
+implementation restricts use to its own main-frame YouTube content script
+and a verified Skip button on `https://www.youtube.com/watch`.
+Chrome [does not support making `debugger` optional](https://developer.chrome.com/docs/extensions/reference/api/permissions#step_2_declare_optional_permissions_in_the_manifest).
+The feature stays off by default and attaches only for an enabled Skip request.
+No page-supplied code or coordinates are accepted, and no browsing data is
+collected or sent by these controls. This permission needs release review.
+
+Close DevTools when using native Skip. Another active debugger, a browser
+policy, or an iframe injected by another extension can prevent attachment.
+Videleon's video-settings iframe reproduced the latter conflict during Chrome
+testing; disabling that extension on YouTube allowed native Skip to work.
+The worker reports the restriction instead of disconnecting another client,
+removing its iframe, or trying a different target. Canceling Chrome's debugging
+notification pauses native Skip for that document; refresh YouTube to resume.
+Unskippable ads play normally, with optional muting.
+
+Static-ad selectors exclude the player and its ad module, including containers
+wrapping those regions. The ad-info setting targets only
+`engagement-panel-ads`, preserving comments, descriptions, and transcripts.
+Shorts cleanup covers the current rich-section/rich-shelf layout and both
+Shorts card model versions. These selectors still depend on YouTube markup;
+test Home, Subscriptions, watch pages, and navigation when changing them.
 
 ### Manual feedback (PostHog)
 

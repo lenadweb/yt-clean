@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube ana sayfada birkaç ekrandan sonra öneri yüklemeyi durdurur.\n\nAkış bittiğinde uzantı youtube.com’dan yeni öneriler ister ve henüz gösterilmemiş videoları sona ekler.\n\nYalnızca “Tümü” sekmesi uzatılır."
+  },
+  "auto_mute_ads": {
+    "message": "Video devam edene kadar reklamların sesini kapat"
   }
 }

@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube lädt auf der Startseite nach einigen Bildschirmen keine Empfehlungen mehr nach.\n\nWenn der Feed endet, fragt die Erweiterung bei youtube.com neue Empfehlungen an und hängt Videos an, die noch nicht angezeigt wurden.\n\nNur der Tab „Alle“ wird verlängert."
+  },
+  "auto_mute_ads": {
+    "message": "Werbung stummschalten, bis das Video fortgesetzt wird"
   }
 }

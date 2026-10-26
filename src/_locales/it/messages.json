@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube smette di caricare consigli nella home dopo alcune schermate.\n\nQuando il feed finisce, l’estensione chiede a youtube.com un nuovo gruppo di consigli e aggiunge in fondo i video non ancora mostrati.\n\nViene esteso solo il tab «Tutti»."
+  },
+  "auto_mute_ads": {
+    "message": "Disattiva l’audio degli annunci finché il video non riprende"
   }
 }

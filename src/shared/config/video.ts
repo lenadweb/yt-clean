@@ -1,8 +1,6 @@
 import { UrlRegExps } from 'src/shared/const';
 import { category, feature, section } from 'src/shared/featureConfig/dsl';
 import {
-    disableAutoNextShorts,
-    enableAutoNextShorts,
     hideChannelTrailer,
     restoreChannelTrailer,
     syncBlock60Fps,

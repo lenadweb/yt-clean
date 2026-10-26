@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "A YouTube néhány képernyő után leállítja az ajánlások betöltését a kezdőlapon.\n\nAmikor a hírfolyam véget ér, a bővítmény új ajánlásokat kér a youtube.com-tól, és a végére fűzi a még meg nem jelenített videókat.\n\nCsak az „Összes” lap bővül."
+  },
+  "auto_mute_ads": {
+    "message": "Hirdetések némítása a videó folytatásáig"
   }
 }

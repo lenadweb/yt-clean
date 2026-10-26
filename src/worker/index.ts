@@ -1,5 +1,6 @@
 import { isOpera } from 'src/shared/utils/browser';
 import { registerFeedbackListener } from './feedback';
+import { registerNativeSkipListener } from './nativeSkip';
 import {
     EXTENSION_ENABLED_BY_DEFAULT,
     TOGGLE_EXTENSION_COMMAND,
@@ -8,6 +9,7 @@ import {
 let commandQueue = Promise.resolve();
 
 registerFeedbackListener();
+registerNativeSkipListener();
 
 const toggleExtension = async (): Promise<void> => {
     const { isEnabled = EXTENSION_ENABLED_BY_DEFAULT } =

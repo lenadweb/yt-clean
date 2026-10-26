@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube po nekaj zaslonih preneha nalagati priporočila na domači strani.\n\nKo se vir konča, razširitev od youtube.com zahteva nova priporočila in na konec doda videoposnetke, ki še niso bili prikazani.\n\nPodaljša se samo zavihek »Vse«."
+  },
+  "auto_mute_ads": {
+    "message": "Utišaj oglase, dokler se videoposnetek ne nadaljuje"
   }
 }

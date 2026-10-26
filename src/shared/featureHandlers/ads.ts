@@ -1,80 +1,204 @@
 import {
     disconnectObserver,
     observeElementChanges,
-    waitForElement,
 } from 'src/shared/utils/dom';
+import {
+    findNativeSkipButton,
+    NATIVE_SKIP_MESSAGE,
+    NATIVE_SKIP_RESET_MESSAGE,
+    NativeSkipResult,
+} from 'src/shared/utils/nativeSkip';
+import { version as buildVersion } from 'src/manifest.json';
 
-const AUTO_SKIP_ADS_OBSERVER_ID = 'auto-skip-ads';
-const ENFORCEMENT_OBSERVER_ID = 'auto-skip-ads-enforcement';
-const PLAYER_SELECTOR = '#movie_player';
-const AD_PLAYER_SELECTOR = '.html5-video-player.ad-showing';
-const SKIP_BUTTON_SELECTOR =
-    '.ytp-ad-skip-button-modern, .ytp-ad-skip-button, .ytp-skip-ad-button, .ytp-ad-skip-button-text';
-const ENFORCEMENT_SELECTOR = 'ytd-enforcement-message-view-model';
-const BACKDROP_SELECTOR = 'tp-yt-iron-overlay-backdrop';
+const OBSERVER_ID = 'auto-skip-ads';
+const STATUS_ATTRIBUTE = 'data-yt-clean-native-skip';
+const DETAIL_ATTRIBUTE = 'data-yt-clean-native-skip-detail';
+let enabled = false;
+let pending = false;
+let generation = 0;
+let retryTimer: ReturnType<typeof setTimeout> | null = null;
+let pollTimer: ReturnType<typeof setInterval> | null = null;
+let canceled = false;
+let connected = false;
 
-const skipAd = (player: Element) => {
-    const skipButton = player.querySelector<HTMLElement>(SKIP_BUTTON_SELECTOR);
-    if (skipButton) {
-        skipButton.click();
+const reportRuntimeError = (error: unknown) => {
+    const message = String(error);
+    const invalidated = /Extension context invalidated/i.test(message);
+    const detail = invalidated
+        ? 'extension-context-invalidated'
+        : /receiving end does not exist|could not establish connection/i.test(
+                message
+            )
+          ? 'worker-unreachable'
+          : /sendMessage.*not a function|Cannot read properties of undefined/i.test(
+                  message
+              )
+            ? 'runtime-api-unavailable'
+            : 'runtime-message-failed';
+    disableAutoSkipAds();
+    document.documentElement.setAttribute(
+        STATUS_ATTRIBUTE,
+        invalidated ? 'reload-required' : 'error'
+    );
+    document.documentElement.setAttribute(DETAIL_ATTRIBUTE, detail);
+    console.warn('[YouTube Clean Native Skip]', detail, error);
+};
+
+const checkForSkip = () => {
+    if (
+        !enabled ||
+        !connected ||
+        pending ||
+        retryTimer !== null ||
+        canceled ||
+        !findNativeSkipButton()
+    )
+        return;
+    pending = true;
+    const currentGeneration = generation;
+    document.documentElement.setAttribute(STATUS_ATTRIBUTE, 'requesting');
+    void Promise.resolve()
+        .then(() => chrome.runtime.sendMessage({ type: NATIVE_SKIP_MESSAGE }))
+        .then((result: NativeSkipResult) => {
+            if (!enabled || generation !== currentGeneration) return;
+            if (!result?.status) throw new Error('No worker response');
+            document.documentElement.setAttribute(
+                STATUS_ATTRIBUTE,
+                result.status === 'clicked'
+                    ? 'browser-click-sent'
+                    : result.status
+            );
+            canceled = result.status === 'canceled';
+            document.documentElement.setAttribute(
+                DETAIL_ATTRIBUTE,
+                result.detail ?? result.status
+            );
+        })
+        .catch((error) => {
+            if (!enabled || generation !== currentGeneration) return;
+            reportRuntimeError(error);
+        })
+        .finally(() => {
+            if (!enabled || generation !== currentGeneration) return;
+            pending = false;
+            // Also retry after a busy debugger or a CSS transition without
+            // relying on another DOM mutation.
+            retryTimer = setTimeout(() => {
+                retryTimer = null;
+                checkForSkip();
+            }, 1500);
+        });
+};
+
+export const disableAutoSkipAds = () => {
+    enabled = false;
+    generation += 1;
+    pending = false;
+    connected = false;
+    disconnectObserver(OBSERVER_ID);
+    if (retryTimer !== null) clearTimeout(retryTimer);
+    if (pollTimer !== null) clearInterval(pollTimer);
+    retryTimer = null;
+    pollTimer = null;
+    document.documentElement.setAttribute(STATUS_ATTRIBUTE, 'disabled');
+};
+
+export const enableAutoSkipAds = () => {
+    if (canceled) {
+        document.documentElement.setAttribute(STATUS_ATTRIBUTE, 'canceled');
+        document.documentElement.setAttribute(
+            DETAIL_ATTRIBUTE,
+            'reload-to-resume'
+        );
         return;
     }
-
-    const video = player.querySelector<HTMLVideoElement>('video');
-    if (video && Number.isFinite(video.duration) && video.duration > 0) {
-        video.currentTime = video.duration;
+    if (enabled) {
+        checkForSkip();
+        return;
     }
-};
-
-const resumePlayback = () => {
-    const video = document.querySelector<HTMLVideoElement>(
-        `${PLAYER_SELECTOR} video`
+    disableAutoSkipAds();
+    enabled = true;
+    const currentGeneration = generation;
+    document.documentElement.setAttribute(STATUS_ATTRIBUTE, 'connecting');
+    document.documentElement.setAttribute(
+        DETAIL_ATTRIBUTE,
+        'contacting-worker'
     );
-    if (video?.paused) {
-        void video.play().catch(() => {});
-    }
-};
-
-const dismissEnforcement = (enforcement: Element) => {
-    const dialog = enforcement.closest('tp-yt-paper-dialog');
-    (dialog ?? enforcement).remove();
-
-    document
-        .querySelectorAll(BACKDROP_SELECTOR)
-        .forEach((backdrop) => backdrop.remove());
-
-    document.documentElement.style.removeProperty('overflow');
-    document.body?.style.removeProperty('overflow');
-
-    resumePlayback();
-};
-
-export const enableAutoSkipAds = async () => {
-    const player = await waitForElement(PLAYER_SELECTOR, { timeout: 10000 });
-
+    document.documentElement.setAttribute(
+        'data-yt-clean-version',
+        buildVersion
+    );
+    document.documentElement.removeAttribute(
+        'data-yt-clean-native-skip-worker-version'
+    );
+    void Promise.resolve()
+        .then(() =>
+            chrome.runtime.sendMessage({ type: NATIVE_SKIP_RESET_MESSAGE })
+        )
+        .then((result: NativeSkipResult) => {
+            if (!enabled || generation !== currentGeneration) return;
+            if (result?.version) {
+                document.documentElement.setAttribute(
+                    'data-yt-clean-native-skip-worker-version',
+                    result.version
+                );
+            }
+            if (result?.status === 'canceled') {
+                canceled = true;
+                document.documentElement.setAttribute(
+                    STATUS_ATTRIBUTE,
+                    'canceled'
+                );
+                document.documentElement.setAttribute(
+                    DETAIL_ATTRIBUTE,
+                    'reload-to-resume'
+                );
+                return;
+            }
+            if (result?.status !== 'ready' || result.version !== buildVersion) {
+                disableAutoSkipAds();
+                document.documentElement.setAttribute(
+                    STATUS_ATTRIBUTE,
+                    'error'
+                );
+                document.documentElement.setAttribute(
+                    DETAIL_ATTRIBUTE,
+                    result?.detail ?? 'worker-version-mismatch'
+                );
+                return;
+            }
+            connected = true;
+            document.documentElement.setAttribute(STATUS_ATTRIBUTE, 'waiting');
+            document.documentElement.setAttribute(
+                DETAIL_ATTRIBUTE,
+                'worker-connected'
+            );
+            checkForSkip();
+        })
+        .catch((error) => {
+            if (!enabled || generation !== currentGeneration) return;
+            reportRuntimeError(error);
+        });
+    // CSS animations can reveal Skip without changing DOM attributes.
+    pollTimer = setInterval(checkForSkip, 500);
     observeElementChanges(
-        AUTO_SKIP_ADS_OBSERVER_ID,
-        AD_PLAYER_SELECTOR,
-        skipAd,
+        OBSERVER_ID,
+        '#movie_player',
+        checkForSkip,
         {
             childList: true,
             subtree: true,
             attributes: true,
-            attributeFilter: ['class'],
+            attributeFilter: [
+                'class',
+                'style',
+                'hidden',
+                'inert',
+                'disabled',
+                'aria-hidden',
+                'aria-disabled',
+            ],
         },
-        player ?? document.documentElement
-    );
-
-    observeElementChanges(
-        ENFORCEMENT_OBSERVER_ID,
-        ENFORCEMENT_SELECTOR,
-        dismissEnforcement,
-        { childList: true, subtree: true },
         document.documentElement
     );
-};
-
-export const disableAutoSkipAds = () => {
-    disconnectObserver(AUTO_SKIP_ADS_OBSERVER_ID);
-    disconnectObserver(ENFORCEMENT_OBSERVER_ID);
 };

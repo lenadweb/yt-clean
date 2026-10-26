@@ -4,9 +4,35 @@ import {
     disableAutoSkipAds,
     enableAutoSkipAds,
 } from 'src/shared/featureHandlers/ads';
+import {
+    disableAutoMuteAds,
+    enableAutoMuteAds,
+} from 'src/shared/featureHandlers/adMute';
 import { syncInfiniteFeed } from 'src/shared/featureHandlers/feed';
 
 const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
+
+// Native ad controls can be siblings of movie_player,
+// so exclude the full player/ad region and any container that wraps it.
+const OUTSIDE_PLAYER =
+    ':not(ytd-player, ytd-player *, #movie_player, #movie_player *, .ytp-ad-module, .ytp-ad-module *)' +
+    ':not(:has(ytd-player, #movie_player, .ytp-ad-module))';
+const STATIC_WATCH_AD_SELECTORS = [
+    '#secondary #player-ads',
+    '#secondary ytd-ad-slot-renderer',
+    '#below ytd-ad-slot-renderer',
+].map((selector) => selector + OUTSIDE_PLAYER);
+const FEED_AD_SELECTORS = ['home', 'subscriptions'].flatMap((subtype) => {
+    const root = `ytd-browse[page-subtype="${subtype}"]`;
+    return [
+        `${root} ytd-rich-item-renderer:has(ytd-ad-slot-renderer, ytd-in-feed-ad-layout-renderer, ytd-promoted-sparkles-web-renderer)`,
+        `${root} ytd-ad-slot-renderer`,
+        `${root} ytd-in-feed-ad-layout-renderer`,
+        `${root} ytd-promoted-sparkles-web-renderer`,
+    ].map((selector) => selector + OUTSIDE_PLAYER);
+});
+const SHORTS_MODELS =
+    'ytm-shorts-lockup-view-model-v2, ytm-shorts-lockup-view-model';
 
 const MEMBERS_ONLY_VIDEO_CONTAINERS = [
     'ytd-rich-item-renderer',
@@ -124,8 +150,10 @@ export const feedCategory = category('feed_and_recommendations', [
             hide: [
                 '#player-container-wrapper',
                 '.ytd-video-preview',
-                'grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)',
-                'ytd-reel-shelf-renderer:has(ytm-shorts-lockup-view-model-v2)',
+                `ytd-rich-section-renderer:has(${SHORTS_MODELS})`,
+                `ytd-rich-shelf-renderer:has(${SHORTS_MODELS})`,
+                `grid-shelf-view-model:has(${SHORTS_MODELS})`,
+                `ytd-reel-shelf-renderer:has(${SHORTS_MODELS})`,
                 GHOST_GRID_SKELETON,
             ],
         }),
@@ -234,32 +262,36 @@ export const feedCategory = category('feed_and_recommendations', [
             ],
         }),
     ]),
-    section('ads', [
-        feature({
-            id: 'adsYoutubeBanner',
-            title: 'hide_youtube_banners',
-            hide: [
-                'ytd-banner-promo-renderer',
-                'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
-                'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
-                '#player-ads',
-            ],
-        }),
+    section('ads', { controls: 'checkboxes' }, [
         feature({
             id: 'adsFeedVideo',
             title: 'hide_sponsored_feed_video',
-            hide: [
-                'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
-                'ytd-ad-slot-renderer',
-                'ytd-search-pyv-renderer',
-                GHOST_GRID_SKELETON,
-            ],
+            url: [UrlRegExps.Home, UrlRegExps.Subscriptions],
+            hide: FEED_AD_SELECTORS,
+        }),
+        feature({
+            id: 'adsYoutubeBanner',
+            title: 'hide_youtube_banners',
+            url: [UrlRegExps.Watch],
+            hide: STATIC_WATCH_AD_SELECTORS,
         }),
         feature({
             id: 'adsInfoPanel',
             title: 'hide_ad_info_panels',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-engagement-panel-section-list-renderer[target-id]'],
+            hide: [
+                'ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]',
+            ],
+        }),
+        feature({
+            id: 'autoMuteAds',
+            title: 'auto_mute_ads',
+            isNew: true,
+            url: [UrlRegExps.Watch],
+            custom: {
+                enable: enableAutoMuteAds,
+                disable: disableAutoMuteAds,
+            },
         }),
         feature({
             id: 'autoSkipAds',

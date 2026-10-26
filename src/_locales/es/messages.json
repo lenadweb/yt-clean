@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube deja de cargar recomendaciones en la página de inicio tras unas cuantas pantallas.\n\nCuando el feed termina, la extensión pide a youtube.com un nuevo lote de recomendaciones y añade al final los videos que aún no se mostraron.\n\nSolo se amplía la pestaña «Todo»."
+  },
+  "auto_mute_ads": {
+    "message": "Silenciar anuncios hasta que se reanude el vídeo"
   }
 }

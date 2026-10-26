@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube przestaje wczytywać rekomendacje na stronie głównej po kilku ekranach.\n\nGdy kanał się kończy, rozszerzenie prosi youtube.com o nową porcję rekomendacji i dodaje na końcu filmy, których jeszcze nie było.\n\nWydłużana jest tylko karta „Wszystko”."
+  },
+  "auto_mute_ads": {
+    "message": "Wycisz reklamy do wznowienia filmu"
   }
 }

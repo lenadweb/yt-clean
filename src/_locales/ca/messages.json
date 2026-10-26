@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube deixa de carregar recomanacions a la pàgina d’inici després d’unes quantes pantalles.\n\nQuan el feed s’acaba, l’extensió demana a youtube.com un nou lot de recomanacions i afegeix al final els vídeos que encara no s’han mostrat.\n\nNomés s’allarga la pestanya «Tot»."
+  },
+  "auto_mute_ads": {
+    "message": "Silencia els anuncis fins que es reprengui el vídeo"
   }
 }
