@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube lopettaa suositusten lataamisen etusivulla muutaman näytöllisen jälkeen.\n\nKun syöte loppuu, laajennus pyytää youtube.comilta uusia suosituksia ja lisää loppuun videot, joita ei ole vielä näytetty.\n\nVain Kaikki-välilehteä jatketaan."
+  },
+  "auto_mute_ads": {
+    "message": "Mykistä mainokset, kunnes video jatkuu"
   }
 }

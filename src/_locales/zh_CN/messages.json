@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube 首页在滚动几屏后会停止加载推荐。\n\n推荐流结束时，扩展程序会向 youtube.com 请求新一批推荐，并在底部追加尚未显示过的视频。\n\n仅延长“全部”标签。"
+  },
+  "auto_mute_ads": {
+    "message": "静音广告，直到视频恢复播放"
   }
 }

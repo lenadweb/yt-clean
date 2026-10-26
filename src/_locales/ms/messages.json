@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube berhenti memuatkan cadangan di laman utama selepas beberapa skrin.\n\nApabila suapan tamat, sambungan meminta cadangan baharu daripada youtube.com dan menambah video yang belum ditunjukkan di bahagian bawah.\n\nHanya tab “Semua” dipanjangkan."
+  },
+  "auto_mute_ads": {
+    "message": "Redamkan iklan sehingga video disambung semula"
   }
 }

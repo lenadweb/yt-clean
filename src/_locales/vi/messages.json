@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube ngừng tải đề xuất trên trang chủ sau vài màn hình.\n\nKhi nguồn cấp dữ liệu kết thúc, tiện ích yêu cầu youtube.com một loạt đề xuất mới và thêm vào cuối các video chưa được hiển thị.\n\nChỉ thẻ “Tất cả” được kéo dài."
+  },
+  "auto_mute_ads": {
+    "message": "Tắt tiếng quảng cáo cho đến khi video tiếp tục"
   }
 }

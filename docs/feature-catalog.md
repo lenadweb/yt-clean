@@ -18,14 +18,22 @@ YouTube pages.
 
 ## Feed & Recommendations
 
-| Category               | Section        | Feature id         | UI label                      | Action type | Scope     |
-| ---------------------- | -------------- | ------------------ | ----------------------------- | ----------- | --------- |
-| Feed & Recommendations | Content blocks | `hideShorts`       | Hide Shorts sections          | hide        | all pages |
-| Feed & Recommendations | Content blocks | `hideNewsSection`  | Hide Explore & News           | hide        | all pages |
-| Feed & Recommendations | Content blocks | `hideHoverPreview` | Disable auto-preview on hover | custom      | all pages |
-| Feed & Recommendations | Content blocks | `hideJams`         | Hide Mixes & Playlists        | hide        | all pages |
-| Feed & Recommendations | Ads            | `adsYoutubeBanner` | Hide YouTube Banners          | hide        | all pages |
-| Feed & Recommendations | Ads            | `adsFeedVideo`     | Hide Sponsored feed video     | hide        | all pages |
+| Category               | Section        | Feature id         | UI label                                       | Action type | Scope                      |
+| ---------------------- | -------------- | ------------------ | ---------------------------------------------- | ----------- | -------------------------- |
+| Feed & Recommendations | Content blocks | `hideShorts`       | Hide Shorts sections                           | hide        | all pages                  |
+| Feed & Recommendations | Content blocks | `hideNewsSection`  | Hide Explore & News                            | hide        | all pages                  |
+| Feed & Recommendations | Content blocks | `hideHoverPreview` | Disable auto-preview on hover                  | custom      | all pages                  |
+| Feed & Recommendations | Content blocks | `hideJams`         | Hide Mixes & Playlists                         | hide        | all pages                  |
+| Feed & Recommendations | Ads            | `adsYoutubeBanner` | Hide static ads beside and below videos        | hide        | watch pages                |
+| Feed & Recommendations | Ads            | `adsFeedVideo`     | Hide sponsored cards on Home and Subscriptions | hide        | Home, Subscriptions        |
+| Feed & Recommendations | Ads            | `adsInfoPanel`     | Hide ad info panels                            | hide        | watch pages, ad panel only |
+| Feed & Recommendations | Ads            | `autoMuteAds`      | Mute ads until the video resumes               | custom      | watch pages                |
+| Feed & Recommendations | Ads            | `autoSkipAds`      | Click YouTube's Skip button when available     | custom      | watch pages                |
+
+The Ads controls are separate checkboxes and are off in fresh Light/Balanced
+presets. Native Skip requires the `debugger` permission; see
+[Ads and playback compatibility](../README.md#ads-and-playback-compatibility)
+for permission scope, cancellation behavior, and known extension conflicts.
 
 ## Video Playback & Channel
 

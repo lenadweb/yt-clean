@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "„YouTube“ po kelių ekranų nustoja įkelti rekomendacijas pagrindiniame puslapyje.\n\nKai srautas baigiasi, plėtinys paprašo youtube.com naujų rekomendacijų ir prideda gale dar nerodytus vaizdo įrašus.\n\nPratęsiamas tik skirtukas „Visi“."
+  },
+  "auto_mute_ads": {
+    "message": "Nutildyti skelbimus, kol vaizdo įrašas bus tęsiamas"
   }
 }

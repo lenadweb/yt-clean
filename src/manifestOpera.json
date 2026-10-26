@@ -66,6 +66,7 @@
     "128": "icons/128.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "debugger"
   ]
 }

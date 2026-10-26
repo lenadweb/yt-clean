@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube slutter å laste inn anbefalinger på startsiden etter noen skjermer.\n\nNår feeden tar slutt, ber utvidelsen youtube.com om nye anbefalinger og legger til videoer nederst som ikke allerede er vist.\n\nBare fanen «Alle» forlenges."
+  },
+  "auto_mute_ads": {
+    "message": "Demp annonser til videoen fortsetter"
   }
 }

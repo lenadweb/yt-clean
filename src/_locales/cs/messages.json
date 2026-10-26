@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube po několika obrazovkách přestane na hlavní stránce načítat doporučení.\n\nKdyž feed skončí, rozšíření si od youtube.com vyžádá novou dávku doporučení a přidá na konec videa, která ještě nebyla zobrazena.\n\nProdlužuje se jen karta „Vše“."
+  },
+  "auto_mute_ads": {
+    "message": "Ztlumit reklamy, dokud video nepokračuje"
   }
 }

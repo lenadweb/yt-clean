@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube pārtrauc ielādēt ieteikumus sākumlapā pēc dažiem ekrāniem.\n\nKad plūsma beidzas, paplašinājums pieprasa youtube.com jaunus ieteikumus un pievieno beigās videoklipus, kas vēl nav rādīti.\n\nTiek pagarināta tikai cilne “Visi”."
+  },
+  "auto_mute_ads": {
+    "message": "Izslēgt reklāmu skaņu, līdz videoklips atsākas"
   }
 }

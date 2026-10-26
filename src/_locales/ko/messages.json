@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube는 홈에서 몇 화면 이후 추천 영상 로드를 중단합니다.\n\n피드가 끝나면 확장 프로그램이 youtube.com에 새 추천을 요청하고 아직 표시되지 않은 동영상을 아래에 추가합니다.\n\n“전체” 탭만 연장됩니다."
+  },
+  "auto_mute_ads": {
+    "message": "동영상이 다시 시작될 때까지 광고 음소거"
   }
 }

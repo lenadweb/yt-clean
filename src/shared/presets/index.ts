@@ -25,9 +25,6 @@ const LIGHT_IDS = new Set<string>([
     'hideShorts',
     'hideNewsSection',
     'hideHoverPreview',
-    'adsYoutubeBanner',
-    'adsFeedVideo',
-    'adsInfoPanel',
     'hideMenuShorts',
 ]);
 

@@ -63,10 +63,10 @@
     "message": "Ads"
   },
   "hide_youtube_banners": {
-    "message": "Hide YouTube Banners"
+    "message": "Hide static ads beside and below videos"
   },
   "hide_sponsored_feed_video": {
-    "message": "Hide Sponsored feed video"
+    "message": "Hide sponsored cards on Home and Subscriptions"
   },
   "video_playback_and_channel": {
     "message": "Video Playback & Channel"
@@ -225,7 +225,7 @@
     "message": "Hide channel video shelf"
   },
   "auto_skip_ads": {
-    "message": "Auto-skip ads"
+    "message": "Click YouTube's Skip button when available"
   },
   "hide_footer": {
     "message": "Hide Footer & About links"
@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube stops loading recommendations on the home page after a few screens.\n\nWhen the feed ends, the extension asks youtube.com for a fresh batch of recommendations and adds new videos to the bottom, skipping ones already shown.\n\nOnly the “All” tab is extended."
+  },
+  "auto_mute_ads": {
+    "message": "Mute ads until the video resumes"
   }
 }

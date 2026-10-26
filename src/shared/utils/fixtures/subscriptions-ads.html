@@ -1,0 +1,17 @@
+<!-- Synthetic cards using the observed subscriptions browse root and ad renderer types. -->
+<ytd-app>
+  <ytd-browse page-subtype="subscriptions" class="style-scope ytd-page-manager">
+    <ytd-rich-grid-renderer><div id="contents">
+      <ytd-rich-item-renderer id="subscription-sponsored-card"><div id="content"><ytd-ad-slot-renderer><ytd-in-feed-ad-layout-renderer>Sponsored</ytd-in-feed-ad-layout-renderer></ytd-ad-slot-renderer></div></ytd-rich-item-renderer>
+      <ytd-rich-item-renderer id="subscription-video"><yt-lockup-view-model>Subscription video</yt-lockup-view-model></ytd-rich-item-renderer>
+      <ytd-ad-slot-renderer id="subscription-list-ad"></ytd-ad-slot-renderer>
+      <ytd-promoted-sparkles-web-renderer id="subscription-legacy-ad"></ytd-promoted-sparkles-web-renderer>
+      <ytd-rich-item-renderer id="subscription-player-wrapper">
+        <ytd-player><div id="movie_player" class="ad-showing"><video></video></div>
+          <div class="ytp-ad-module"><ytd-ad-slot-renderer id="native-ad-slot"></ytd-ad-slot-renderer><button class="ytp-skip-ad-button">Skip</button></div>
+        </ytd-player>
+      </ytd-rich-item-renderer>
+    </div></ytd-rich-grid-renderer>
+  </ytd-browse>
+  <ytd-browse page-subtype="home"><ytd-rich-item-renderer id="home-ad-card"><ytd-ad-slot-renderer></ytd-ad-slot-renderer></ytd-rich-item-renderer></ytd-browse>
+</ytd-app>

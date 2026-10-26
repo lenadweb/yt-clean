@@ -511,5 +511,8 @@
   },
   "infinite_home_feed_hint": {
     "message": "YouTube slutar ladda rekommendationer på startsidan efter några skärmar.\n\nNär flödet tar slut ber tillägget youtube.com om nya rekommendationer och lägger till videor som inte redan visats.\n\nEndast fliken ”Alla” förlängs."
+  },
+  "auto_mute_ads": {
+    "message": "Stäng av ljudet i annonser tills videon fortsätter"
   }
 }
