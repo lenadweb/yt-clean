@@ -9,6 +9,10 @@ import {
     enableHomeRedirect,
     disableHomeRedirect,
 } from 'src/shared/featureHandlers/navigation';
+import {
+    disableHoverPreview,
+    enableHoverPreview,
+} from 'src/shared/featureHandlers/preview';
 
 const GHOST_GRID_SKELETON = 'ytd-rich-grid-renderer ytd-ghost-grid-renderer';
 
@@ -72,7 +76,7 @@ export const feedCategory = category('feed_and_recommendations', [
             styles: [
                 'ytd-rich-grid-renderer ytd-rich-grid-row { display: contents !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-row { display: contents !important; }',
-                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(max(360px, calc(33.333% - 11px)), 1fr)) !important; gap: 4px 16px !important; }',
+                'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(min(100%, max(360px, calc(33.333% - 11px))), 1fr)) !important; gap: 4px 16px !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer { width: 100% !important; max-width: none !important; min-width: 0 !important; margin: 0 !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-section-renderer { grid-column: 1 / -1 !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupViewModelHost { display: flex !important; flex-direction: row !important; gap: 12px !important; align-items: flex-start !important; margin: 0 !important; }',
@@ -81,7 +85,7 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupViewModelMetadata { flex: 1 1 auto !important; min-width: 0 !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupMetadataViewModelAvatar { display: none !important; }',
                 'ytd-rich-grid-renderer #contents.ytd-rich-grid-renderer > ytd-rich-item-renderer .ytLockupMetadataViewModelTitle { display: -webkit-box !important; -webkit-line-clamp: 2 !important; -webkit-box-orient: vertical !important; overflow: hidden !important; }',
-                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(max(360px, calc(33.333% - 11px)), 1fr)) !important; gap: 8px 16px !important; grid-auto-flow: row dense !important; align-items: start !important; }',
+                'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer { display: grid !important; grid-template-columns: repeat(auto-fill, minmax(min(100%, max(360px, calc(33.333% - 11px))), 1fr)) !important; gap: 8px 16px !important; grid-auto-flow: row dense !important; align-items: start !important; }',
                 'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-shelf-renderer { grid-column: 1 / -1 !important; }',
                 'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-horizontal-card-list-renderer { grid-column: 1 / -1 !important; }',
                 'ytd-search ytd-item-section-renderer #contents.ytd-item-section-renderer > ytd-reel-shelf-renderer { grid-column: 1 / -1 !important; }',
@@ -144,8 +148,6 @@ export const feedCategory = category('feed_and_recommendations', [
             id: 'hideShorts',
             title: 'hide_shorts_sections',
             hide: [
-                '#player-container-wrapper',
-                '.ytd-video-preview',
                 'grid-shelf-view-model:has(ytm-shorts-lockup-view-model-v2)',
                 'ytd-reel-shelf-renderer:has(ytm-shorts-lockup-view-model-v2)',
                 'ytd-rich-shelf-renderer[is-shorts]',
@@ -166,7 +168,11 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'hideHoverPreview',
             title: 'disable_auto_preview_on_hover',
-            custom: true,
+            hide: ['ytd-video-preview'],
+            custom: {
+                enable: enableHoverPreview,
+                disable: disableHoverPreview,
+            },
         }),
         feature({
             id: 'hideJams',
@@ -195,7 +201,7 @@ export const feedCategory = category('feed_and_recommendations', [
             ],
         }),
     ]),
-    section('watched_videos', { isNew: true }, [
+    section('watched_videos', { isNew: true, hint: 'watched_videos_hint' }, [
         feature({
             id: 'hideWatchedVideosHome',
             title: 'hide_watched_on_home',
@@ -285,7 +291,9 @@ export const feedCategory = category('feed_and_recommendations', [
             id: 'adsInfoPanel',
             title: 'hide_ad_info_panels',
             url: [UrlRegExps.Watch],
-            hide: ['ytd-engagement-panel-section-list-renderer[target-id]'],
+            hide: [
+                'ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]',
+            ],
         }),
         feature({
             id: 'autoSkipAds',

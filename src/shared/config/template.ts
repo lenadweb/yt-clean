@@ -24,8 +24,8 @@ export const templateCategory = category('basic_template', [
                 `#chip-bar {
                     opacity: 0;
                     pointer-events: none;
-                }
-                #frosted-glass.with-chipbar.ytd-app {
+                }`,
+                `#frosted-glass.with-chipbar.ytd-app {
                     height:64px!important;
                 }
                 `,

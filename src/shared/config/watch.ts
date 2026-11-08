@@ -92,14 +92,12 @@ export const watchCategory = category('video_page', [
             styles: [
                 `ytd-watch-flexy[fixed-panels]:has(ytd-live-chat-frame) #columns.ytd-watch-flexy {
                     padding-right: 0 !important;
-                }
-
-                ytd-watch-flexy .html5-video-container {
+                }`,
+                `ytd-watch-flexy .html5-video-container {
                     width: 100% !important;
                     height: 100% !important;
-                }
-
-                ytd-watch-flexy video.html5-main-video {
+                }`,
+                `ytd-watch-flexy video.html5-main-video {
                     width: 100% !important;
                     height: 100% !important;
                     left: 0 !important;
