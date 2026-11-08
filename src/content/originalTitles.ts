@@ -1,5 +1,6 @@
 import { onUrlChange } from 'src/shared/utils/navigation';
 import { waitForBody } from 'src/shared/utils/dom';
+import { TitleReplacements } from 'src/shared/utils/titleReplacement';
 import {
     getOembedUrl,
     getVideoIdFromUrl,
@@ -38,7 +39,7 @@ const MAX_CONCURRENT_REQUESTS = 4;
 const titles = new Map<string, string | null>();
 const queue: string[] = [];
 const queued = new Set<string>();
-const replaced = new Map<Element, string>();
+const replaced = new TitleReplacements();
 
 let enabled = false;
 let activeRequests = 0;
@@ -117,26 +118,13 @@ const applyTitle = ({ videoId, element }: TitleTarget): void => {
     }
     if (!original) return;
 
-    const current = element.textContent ?? '';
-    if (normalizeTitle(current) === original) return;
-
-    replaced.set(element, current);
-    element.textContent = original;
-    if (element.hasAttribute('title')) {
-        element.setAttribute('title', original);
-    }
-};
-
-const pruneReplaced = (): void => {
-    replaced.forEach((_, element) => {
-        if (!element.isConnected) replaced.delete(element);
-    });
+    replaced.apply(element, videoId, original);
 };
 
 const run = (): void => {
     if (!enabled) return;
 
-    pruneReplaced();
+    replaced.prune();
     collectTargets().forEach(applyTitle);
 };
 
@@ -150,10 +138,11 @@ function scheduleRun(): void {
 }
 
 const restoreTitles = (): void => {
-    replaced.forEach((translated, element) => {
-        if (element.isConnected) element.textContent = translated;
-    });
-    replaced.clear();
+    replaced.restore(
+        new Map(
+            collectTargets().map(({ element, videoId }) => [element, videoId])
+        )
+    );
 };
 
 const observe = (): void => {
