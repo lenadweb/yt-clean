@@ -366,7 +366,7 @@
     "message": "Blokiraj 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube nudi svaki videozapis u nekoliko kodeka. VP9 i AV1 štede promet, ali mnoge grafičke kartice ne mogu ih dekodirati hardverski — posao preuzima procesor, uređaj se grije, a baterija brže prazni.\n\n„Prisili H.264” tjera player da traži avc1 stream, koji hardverski dekodira gotovo svaka grafička kartica. Zauzvrat je H.264 na YouTubeu ograničen na 1080p. „Blokiraj 60 fps” ograničava reprodukciju na 30 sličica u sekundi — upola manje sličica za dekodiranje."
+    "message": "YouTube nudi svaki videozapis u nekoliko kodeka. VP9 i AV1 štede promet, ali mnoge grafičke kartice ne mogu ih dekodirati hardverski — posao preuzima procesor, uređaj se grije, a baterija brže prazni.\n\n„Prisili H.264” tjera player da traži avc1 stream, koji hardverski dekodira gotovo svaka grafička kartica. Zauzvrat je H.264 na YouTubeu ograničen na 1080p. „Blokiraj 60 fps” ograničava reprodukciju na 30 sličica u sekundi — upola manje sličica za dekodiranje.\n\nZa primjenu promjena kodeka ili otkrivene propusnosti na trenutačni prijenos možda je potrebno ponovno učitati stranicu videozapisa."
   },
   "about_this_setting": {
     "message": "O ovoj postavci"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Sakrij preporuke pored videozapisa"
+  },
+  "bandwidth_hint": {
+    "message": "Za primjenu promjena kodeka ili otkrivene propusnosti na trenutačni prijenos možda je potrebno ponovno učitati stranicu videozapisa."
+  },
+  "watched_videos_hint": {
+    "message": "Videozapisi se skrivaju od 34% napretka gledanja."
   }
 }

@@ -366,7 +366,7 @@
     "message": "Blochează 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube oferă fiecare videoclip în mai multe codecuri. VP9 și AV1 economisesc trafic, dar multe plăci video nu le pot decoda hardware — preia procesorul, dispozitivul se încălzește, iar bateria se descarcă mai repede.\n\n„Forțează H.264” face playerul să ceară fluxul avc1, pe care aproape orice placă video îl decodează hardware. În schimb, H.264 pe YouTube se oprește la 1080p. „Blochează 60 fps” limitează redarea la 30 de cadre pe secundă — jumătate din cadrele de decodat."
+    "message": "YouTube oferă fiecare videoclip în mai multe codecuri. VP9 și AV1 economisesc trafic, dar multe plăci video nu le pot decoda hardware — preia procesorul, dispozitivul se încălzește, iar bateria se descarcă mai repede.\n\n„Forțează H.264” face playerul să ceară fluxul avc1, pe care aproape orice placă video îl decodează hardware. În schimb, H.264 pe YouTube se oprește la 1080p. „Blochează 60 fps” limitează redarea la 30 de cadre pe secundă — jumătate din cadrele de decodat.\n\nModificările codecului sau ale lățimii de bandă detectate pot necesita reîncărcarea paginii videoclipului pentru a afecta fluxul curent."
   },
   "about_this_setting": {
     "message": "Despre această setare"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Ascunde recomandările de lângă videoclip"
+  },
+  "bandwidth_hint": {
+    "message": "Modificările codecului sau ale lățimii de bandă detectate pot necesita reîncărcarea paginii videoclipului pentru a afecta fluxul curent."
+  },
+  "watched_videos_hint": {
+    "message": "Videoclipurile sunt ascunse de la un progres de vizionare de 34%."
   }
 }

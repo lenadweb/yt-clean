@@ -366,7 +366,7 @@
     "message": "Bloquear 60 fps"
   },
   "codec_hint": {
-    "message": "O YouTube entrega cada vídeo em vários codecs. VP9 e AV1 economizam dados, mas muitas placas de vídeo não conseguem decodificá-los por hardware — o processador assume, o aparelho esquenta e a bateria dura menos.\n\n“Forçar H.264” faz o player pedir o fluxo avc1, que quase toda placa de vídeo decodifica por hardware. Em troca, o H.264 no YouTube é limitado a 1080p. “Bloquear 60 fps” limita a reprodução a 30 quadros por segundo, metade dos quadros para decodificar."
+    "message": "O YouTube entrega cada vídeo em vários codecs. VP9 e AV1 economizam dados, mas muitas placas de vídeo não conseguem decodificá-los por hardware — o processador assume, o aparelho esquenta e a bateria dura menos.\n\n“Forçar H.264” faz o player pedir o fluxo avc1, que quase toda placa de vídeo decodifica por hardware. Em troca, o H.264 no YouTube é limitado a 1080p. “Bloquear 60 fps” limita a reprodução a 30 quadros por segundo, metade dos quadros para decodificar.\n\nPode ser necessário recarregar a página do vídeo para aplicar as alterações de codec ou de largura de banda detectada à transmissão atual."
   },
   "about_this_setting": {
     "message": "Sobre esta configuração"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Ocultar recomendações ao lado do vídeo"
+  },
+  "bandwidth_hint": {
+    "message": "Pode ser necessário recarregar a página do vídeo para aplicar as alterações de codec ou de largura de banda detectada à transmissão atual."
+  },
+  "watched_videos_hint": {
+    "message": "Os vídeos são ocultados a partir de 34% do progresso de reprodução."
   }
 }

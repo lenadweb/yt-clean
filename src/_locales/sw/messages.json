@@ -366,7 +366,7 @@
     "message": "Zuia 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube hutoa kila video kwa kodeki kadhaa. VP9 na AV1 huokoa data, lakini kadi nyingi za michoro haziwezi kuzisimbua kwa maunzi — kazi inaenda kwa kichakataji, kifaa hupata joto na betri huisha haraka.\n\n“Lazimisha H.264” hufanya kicheza kiombe mtiririko wa avc1, ambao karibu kila kadi ya michoro huusimbua kwa maunzi. Badala yake, H.264 kwenye YouTube hukomea 1080p. “Zuia 60 fps” hupunguza uchezaji hadi fremu 30 kwa sekunde — nusu ya fremu za kusimbua."
+    "message": "YouTube hutoa kila video kwa kodeki kadhaa. VP9 na AV1 huokoa data, lakini kadi nyingi za michoro haziwezi kuzisimbua kwa maunzi — kazi inaenda kwa kichakataji, kifaa hupata joto na betri huisha haraka.\n\n“Lazimisha H.264” hufanya kicheza kiombe mtiririko wa avc1, ambao karibu kila kadi ya michoro huusimbua kwa maunzi. Badala yake, H.264 kwenye YouTube hukomea 1080p. “Zuia 60 fps” hupunguza uchezaji hadi fremu 30 kwa sekunde — nusu ya fremu za kusimbua.\n\nMabadiliko ya kodeki au kipimo data kilichogunduliwa yanaweza kuhitaji kupakia upya ukurasa wa video ili yaathiri mtiririko wa sasa."
   },
   "about_this_setting": {
     "message": "Kuhusu mpangilio huu"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Ficha mapendekezo kando ya video"
+  },
+  "bandwidth_hint": {
+    "message": "Mabadiliko ya kodeki au kipimo data kilichogunduliwa yanaweza kuhitaji kupakia upya ukurasa wa video ili yaathiri mtiririko wa sasa."
+  },
+  "watched_videos_hint": {
+    "message": "Video hufichwa kuanzia maendeleo ya kutazama ya 34%."
   }
 }

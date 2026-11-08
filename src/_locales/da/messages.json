@@ -366,7 +366,7 @@
     "message": "Bloker 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube leverer hver video i flere codecs. VP9 og AV1 sparer data, men mange grafikkort kan ikke afkode dem i hardware — så overtager processoren, enheden bliver varm, og batteriet løber hurtigere tør.\n\n“Gennemtving H.264” får afspilleren til at bede om avc1-streamen, som næsten alle grafikkort afkoder i hardware. Til gengæld stopper H.264 på YouTube ved 1080p. “Bloker 60 fps” begrænser afspilningen til 30 billeder i sekundet — halvt så mange billeder at afkode."
+    "message": "YouTube leverer hver video i flere codecs. VP9 og AV1 sparer data, men mange grafikkort kan ikke afkode dem i hardware — så overtager processoren, enheden bliver varm, og batteriet løber hurtigere tør.\n\n“Gennemtving H.264” får afspilleren til at bede om avc1-streamen, som næsten alle grafikkort afkoder i hardware. Til gengæld stopper H.264 på YouTube ved 1080p. “Bloker 60 fps” begrænser afspilningen til 30 billeder i sekundet — halvt så mange billeder at afkode.\n\nÆndringer af codec eller registreret båndbredde kan kræve, at videosiden genindlæses for at påvirke den aktuelle stream."
   },
   "about_this_setting": {
     "message": "Om denne indstilling"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Skjul anbefalinger ved siden af videoen"
+  },
+  "bandwidth_hint": {
+    "message": "Ændringer af codec eller registreret båndbredde kan kræve, at videosiden genindlæses for at påvirke den aktuelle stream."
+  },
+  "watched_videos_hint": {
+    "message": "Videoer skjules fra 34% visningsfremskridt."
   }
 }

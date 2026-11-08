@@ -366,7 +366,7 @@
     "message": "Chặn 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube cung cấp mỗi video ở nhiều codec. VP9 và AV1 tiết kiệm dữ liệu, nhưng nhiều card đồ họa không giải mã được chúng bằng phần cứng — CPU phải gánh việc, máy nóng lên và pin hết nhanh hơn.\n\n“Buộc dùng H.264” khiến trình phát yêu cầu luồng avc1, thứ mà gần như mọi card đồ họa đều giải mã bằng phần cứng. Đổi lại, H.264 trên YouTube chỉ tối đa 1080p. “Chặn 60 fps” giới hạn phát lại ở 30 khung hình mỗi giây — chỉ còn một nửa số khung hình cần giải mã."
+    "message": "YouTube cung cấp mỗi video ở nhiều codec. VP9 và AV1 tiết kiệm dữ liệu, nhưng nhiều card đồ họa không giải mã được chúng bằng phần cứng — CPU phải gánh việc, máy nóng lên và pin hết nhanh hơn.\n\n“Buộc dùng H.264” khiến trình phát yêu cầu luồng avc1, thứ mà gần như mọi card đồ họa đều giải mã bằng phần cứng. Đổi lại, H.264 trên YouTube chỉ tối đa 1080p. “Chặn 60 fps” giới hạn phát lại ở 30 khung hình mỗi giây — chỉ còn một nửa số khung hình cần giải mã.\n\nCó thể cần tải lại trang video để áp dụng thay đổi codec hoặc băng thông được phát hiện cho luồng hiện tại."
   },
   "about_this_setting": {
     "message": "Giới thiệu về cài đặt này"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Ẩn đề xuất bên cạnh video"
+  },
+  "bandwidth_hint": {
+    "message": "Có thể cần tải lại trang video để áp dụng thay đổi codec hoặc băng thông được phát hiện cho luồng hiện tại."
+  },
+  "watched_videos_hint": {
+    "message": "Video bị ẩn khi tiến độ xem đạt từ 34%."
   }
 }

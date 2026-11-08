@@ -366,7 +366,7 @@
     "message": "60 fps'yi engelle"
   },
   "codec_hint": {
-    "message": "YouTube her videoyu birkaç kodekle sunar. VP9 ve AV1 veri tasarrufu sağlar, ancak birçok ekran kartı bunları donanımla çözemez — işi işlemci üstlenir, cihaz ısınır ve pil daha çabuk biter.\n\n“H.264'ü zorla” oynatıcının, neredeyse her ekran kartının donanımla çözdüğü avc1 akışını istemesini sağlar. Karşılığında YouTube'da H.264 en fazla 1080p'dir. “60 fps'yi engelle” oynatmayı saniyede 30 kareyle sınırlar; çözülecek kare sayısı yarıya iner."
+    "message": "YouTube her videoyu birkaç kodekle sunar. VP9 ve AV1 veri tasarrufu sağlar, ancak birçok ekran kartı bunları donanımla çözemez — işi işlemci üstlenir, cihaz ısınır ve pil daha çabuk biter.\n\n“H.264'ü zorla” oynatıcının, neredeyse her ekran kartının donanımla çözdüğü avc1 akışını istemesini sağlar. Karşılığında YouTube'da H.264 en fazla 1080p'dir. “60 fps'yi engelle” oynatmayı saniyede 30 kareyle sınırlar; çözülecek kare sayısı yarıya iner.\n\nCodec veya algılanan bant genişliği değişikliklerinin mevcut akışı etkilemesi için video sayfasını yeniden yüklemek gerekebilir."
   },
   "about_this_setting": {
     "message": "Bu ayar hakkında"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Videonun yanındaki önerileri gizle"
+  },
+  "bandwidth_hint": {
+    "message": "Codec veya algılanan bant genişliği değişikliklerinin mevcut akışı etkilemesi için video sayfasını yeniden yüklemek gerekebilir."
+  },
+  "watched_videos_hint": {
+    "message": "Videolar, izleme ilerlemesi %34 olduğundan itibaren gizlenir."
   }
 }

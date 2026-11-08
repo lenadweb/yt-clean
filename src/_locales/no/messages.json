@@ -366,7 +366,7 @@
     "message": "Blokker 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube leverer hver video i flere kodeker. VP9 og AV1 sparer data, men mange skjermkort kan ikke dekode dem i maskinvare — prosessoren tar over, enheten blir varm, og batteriet tømmes raskere.\n\n«Tving H.264» får spilleren til å be om avc1-strømmen, som nesten alle skjermkort dekoder i maskinvare. Til gjengjeld stopper H.264 på YouTube ved 1080p. «Blokker 60 fps» begrenser avspillingen til 30 bilder i sekundet — halvparten så mange bilder å dekode."
+    "message": "YouTube leverer hver video i flere kodeker. VP9 og AV1 sparer data, men mange skjermkort kan ikke dekode dem i maskinvare — prosessoren tar over, enheten blir varm, og batteriet tømmes raskere.\n\n«Tving H.264» får spilleren til å be om avc1-strømmen, som nesten alle skjermkort dekoder i maskinvare. Til gjengjeld stopper H.264 på YouTube ved 1080p. «Blokker 60 fps» begrenser avspillingen til 30 bilder i sekundet — halvparten så mange bilder å dekode.\n\nEndringer i kodek eller registrert båndbredde kan kreve at videosiden lastes inn på nytt for å påvirke den gjeldende strømmen."
   },
   "about_this_setting": {
     "message": "Om denne innstillingen"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Skjul anbefalinger ved siden av videoen"
+  },
+  "bandwidth_hint": {
+    "message": "Endringer i kodek eller registrert båndbredde kan kreve at videosiden lastes inn på nytt for å påvirke den gjeldende strømmen."
+  },
+  "watched_videos_hint": {
+    "message": "Videoer skjules fra 34% visningsfremdrift."
   }
 }

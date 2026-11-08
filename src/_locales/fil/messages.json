@@ -366,7 +366,7 @@
     "message": "I-block ang 60 fps"
   },
   "codec_hint": {
-    "message": "Naghahain ang YouTube ng bawat video sa ilang codec. Nakakatipid ng data ang VP9 at AV1, pero maraming graphics card ang hindi kayang mag-decode ng mga ito sa hardware — ang processor ang bumabawi, kaya umiinit ang device at mas mabilis maubos ang baterya.\n\nAng “Piliting gamitin ang H.264” ay nagpapahingi sa player ng avc1 stream, na dine-decode sa hardware ng halos lahat ng graphics card. Kapalit nito, hanggang 1080p lang ang H.264 sa YouTube. Ang “I-block ang 60 fps” ay naglilimita sa playback sa 30 frame kada segundo — kalahati na lang ang frame na ide-decode."
+    "message": "Naghahain ang YouTube ng bawat video sa ilang codec. Nakakatipid ng data ang VP9 at AV1, pero maraming graphics card ang hindi kayang mag-decode ng mga ito sa hardware — ang processor ang bumabawi, kaya umiinit ang device at mas mabilis maubos ang baterya.\n\nAng “Piliting gamitin ang H.264” ay nagpapahingi sa player ng avc1 stream, na dine-decode sa hardware ng halos lahat ng graphics card. Kapalit nito, hanggang 1080p lang ang H.264 sa YouTube. Ang “I-block ang 60 fps” ay naglilimita sa playback sa 30 frame kada segundo — kalahati na lang ang frame na ide-decode.\n\nMaaaring kailangang i-reload ang pahina ng video upang mailapat sa kasalukuyang stream ang mga pagbabago sa codec o natukoy na bandwidth."
   },
   "about_this_setting": {
     "message": "Tungkol sa setting na ito"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Itago ang mga rekomendasyon sa tabi ng video"
+  },
+  "bandwidth_hint": {
+    "message": "Maaaring kailangang i-reload ang pahina ng video upang mailapat sa kasalukuyang stream ang mga pagbabago sa codec o natukoy na bandwidth."
+  },
+  "watched_videos_hint": {
+    "message": "Itinatago ang mga video simula sa 34% na progreso ng panonood."
   }
 }

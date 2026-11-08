@@ -366,7 +366,7 @@
     "message": "Blokuoti 60 kadrų/s"
   },
   "codec_hint": {
-    "message": "„YouTube“ pateikia kiekvieną vaizdo įrašą keliais kodekais. VP9 ir AV1 taupo duomenis, bet daugelis vaizdo plokščių jų neiškoduoja aparatiškai — darbą perima procesorius, įrenginys kaista, o baterija išsenka greičiau.\n\n„Priverstinai naudoti H.264“ verčia grotuvą prašyti avc1 srauto, kurį aparatiškai iškoduoja beveik kiekviena vaizdo plokštė. Mainais H.264 sistemoje „YouTube“ apribotas iki 1080p. „Blokuoti 60 kadrų/s“ apriboja atkūrimą iki 30 kadrų per sekundę — perpus mažiau kadrų iškoduoti."
+    "message": "„YouTube“ pateikia kiekvieną vaizdo įrašą keliais kodekais. VP9 ir AV1 taupo duomenis, bet daugelis vaizdo plokščių jų neiškoduoja aparatiškai — darbą perima procesorius, įrenginys kaista, o baterija išsenka greičiau.\n\n„Priverstinai naudoti H.264“ verčia grotuvą prašyti avc1 srauto, kurį aparatiškai iškoduoja beveik kiekviena vaizdo plokštė. Mainais H.264 sistemoje „YouTube“ apribotas iki 1080p. „Blokuoti 60 kadrų/s“ apriboja atkūrimą iki 30 kadrų per sekundę — perpus mažiau kadrų iškoduoti.\n\nKad kodeko ar aptikto pralaidumo pakeitimai paveiktų dabartinį srautą, gali reikėti iš naujo įkelti vaizdo įrašo puslapį."
   },
   "about_this_setting": {
     "message": "Apie šį nustatymą"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Slėpti rekomendacijas šalia vaizdo įrašo"
+  },
+  "bandwidth_hint": {
+    "message": "Kad kodeko ar aptikto pralaidumo pakeitimai paveiktų dabartinį srautą, gali reikėti iš naujo įkelti vaizdo įrašo puslapį."
+  },
+  "watched_videos_hint": {
+    "message": "Vaizdo įrašai slepiami pasiekus 34% peržiūros eigą."
   }
 }

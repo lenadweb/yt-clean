@@ -366,7 +366,7 @@
     "message": "Bloķēt 60 kadrus/s"
   },
   "codec_hint": {
-    "message": "YouTube piedāvā katru video vairākos kodekos. VP9 un AV1 taupa datus, taču daudzas videokartes tos nespēj dekodēt aparatūriski — darbu pārņem procesors, ierīce sasilst un akumulators izlādējas ātrāk.\n\n„Piespiest H.264” liek atskaņotājam pieprasīt avc1 straumi, ko aparatūriski dekodē gandrīz jebkura videokarte. Pretī H.264 vietnē YouTube ir ierobežots līdz 1080p. „Bloķēt 60 kadrus/s” ierobežo atskaņošanu līdz 30 kadriem sekundē — uz pusi mazāk dekodējamu kadru."
+    "message": "YouTube piedāvā katru video vairākos kodekos. VP9 un AV1 taupa datus, taču daudzas videokartes tos nespēj dekodēt aparatūriski — darbu pārņem procesors, ierīce sasilst un akumulators izlādējas ātrāk.\n\n„Piespiest H.264” liek atskaņotājam pieprasīt avc1 straumi, ko aparatūriski dekodē gandrīz jebkura videokarte. Pretī H.264 vietnē YouTube ir ierobežots līdz 1080p. „Bloķēt 60 kadrus/s” ierobežo atskaņošanu līdz 30 kadriem sekundē — uz pusi mazāk dekodējamu kadru.\n\nLai kodeka vai noteiktā joslas platuma izmaiņas ietekmētu pašreizējo straumi, var būt nepieciešams atkārtoti ielādēt videoklipa lapu."
   },
   "about_this_setting": {
     "message": "Par šo iestatījumu"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Slēpt ieteikumus blakus videoklipam"
+  },
+  "bandwidth_hint": {
+    "message": "Lai kodeka vai noteiktā joslas platuma izmaiņas ietekmētu pašreizējo straumi, var būt nepieciešams atkārtoti ielādēt videoklipa lapu."
+  },
+  "watched_videos_hint": {
+    "message": "Videoklipi tiek paslēpti, sākot no 34% skatīšanās progresa."
   }
 }

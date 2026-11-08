@@ -366,7 +366,7 @@
     "message": "Blokir 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube menyediakan setiap video dalam beberapa codec. VP9 dan AV1 menghemat kuota, tetapi banyak kartu grafis tidak bisa mendekodenya secara perangkat keras — pekerjaan diambil alih prosesor, perangkat memanas dan baterai lebih cepat habis.\n\n“Paksa H.264” membuat pemutar meminta stream avc1, yang didekode secara perangkat keras oleh hampir semua kartu grafis. Sebagai gantinya, H.264 di YouTube hanya sampai 1080p. “Blokir 60 fps” membatasi pemutaran ke 30 frame per detik — separuh frame yang perlu didekode."
+    "message": "YouTube menyediakan setiap video dalam beberapa codec. VP9 dan AV1 menghemat kuota, tetapi banyak kartu grafis tidak bisa mendekodenya secara perangkat keras — pekerjaan diambil alih prosesor, perangkat memanas dan baterai lebih cepat habis.\n\n“Paksa H.264” membuat pemutar meminta stream avc1, yang didekode secara perangkat keras oleh hampir semua kartu grafis. Sebagai gantinya, H.264 di YouTube hanya sampai 1080p. “Blokir 60 fps” membatasi pemutaran ke 30 frame per detik — separuh frame yang perlu didekode.\n\nPerubahan codec atau bandwidth yang terdeteksi mungkin memerlukan pemuatan ulang halaman video agar berlaku pada streaming saat ini."
   },
   "about_this_setting": {
     "message": "Tentang setelan ini"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Sembunyikan rekomendasi di samping video"
+  },
+  "bandwidth_hint": {
+    "message": "Perubahan codec atau bandwidth yang terdeteksi mungkin memerlukan pemuatan ulang halaman video agar berlaku pada streaming saat ini."
+  },
+  "watched_videos_hint": {
+    "message": "Video disembunyikan mulai dari progres tontonan 34%."
   }
 }

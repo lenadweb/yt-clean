@@ -366,7 +366,7 @@
     "message": "60 fps blockieren"
   },
   "codec_hint": {
-    "message": "YouTube liefert jedes Video in mehreren Codecs. VP9 und AV1 sparen Datenvolumen, aber viele Grafikkarten können sie nicht per Hardware dekodieren — dann übernimmt der Prozessor, das Gerät wird warm und der Akku leert sich schneller.\n\n„H.264 erzwingen“ lässt den Player den avc1-Stream anfordern, den fast jede Grafikkarte per Hardware dekodiert. Im Gegenzug ist H.264 auf YouTube auf 1080p begrenzt. „60 fps blockieren“ beschränkt die Wiedergabe auf 30 Bilder pro Sekunde — halb so viele Frames zu dekodieren."
+    "message": "YouTube liefert jedes Video in mehreren Codecs. VP9 und AV1 sparen Datenvolumen, aber viele Grafikkarten können sie nicht per Hardware dekodieren — dann übernimmt der Prozessor, das Gerät wird warm und der Akku leert sich schneller.\n\n„H.264 erzwingen“ lässt den Player den avc1-Stream anfordern, den fast jede Grafikkarte per Hardware dekodiert. Im Gegenzug ist H.264 auf YouTube auf 1080p begrenzt. „60 fps blockieren“ beschränkt die Wiedergabe auf 30 Bilder pro Sekunde — halb so viele Frames zu dekodieren.\n\nÄnderungen am Codec oder an der erkannten Bandbreite wirken sich möglicherweise erst nach dem Neuladen der Videoseite auf den aktuellen Stream aus."
   },
   "about_this_setting": {
     "message": "Über diese Einstellung"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Empfehlungen neben dem Video ausblenden"
+  },
+  "bandwidth_hint": {
+    "message": "Änderungen am Codec oder an der erkannten Bandbreite wirken sich möglicherweise erst nach dem Neuladen der Videoseite auf den aktuellen Stream aus."
+  },
+  "watched_videos_hint": {
+    "message": "Videos werden ab einem Wiedergabefortschritt von 34% ausgeblendet."
   }
 }

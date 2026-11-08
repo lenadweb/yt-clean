@@ -366,7 +366,7 @@
     "message": "Estä 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube tarjoaa jokaisen videon useassa koodekissa. VP9 ja AV1 säästävät dataa, mutta moni näytönohjain ei pysty purkamaan niitä laitteistotasolla — työn ottaa suoritin, laite lämpenee ja akku tyhjenee nopeammin.\n\n”Pakota H.264” saa soittimen pyytämään avc1-virtaa, jonka lähes jokainen näytönohjain purkaa laitteistotasolla. Vastineeksi H.264 rajoittuu YouTubessa 1080p:hen. ”Estä 60 fps” rajaa toiston 30 kuvaan sekunnissa — puolet vähemmän purettavia ruutuja."
+    "message": "YouTube tarjoaa jokaisen videon useassa koodekissa. VP9 ja AV1 säästävät dataa, mutta moni näytönohjain ei pysty purkamaan niitä laitteistotasolla — työn ottaa suoritin, laite lämpenee ja akku tyhjenee nopeammin.\n\n”Pakota H.264” saa soittimen pyytämään avc1-virtaa, jonka lähes jokainen näytönohjain purkaa laitteistotasolla. Vastineeksi H.264 rajoittuu YouTubessa 1080p:hen. ”Estä 60 fps” rajaa toiston 30 kuvaan sekunnissa — puolet vähemmän purettavia ruutuja.\n\nKoodekin tai havaitun kaistanleveyden muutokset voivat vaatia videosivun lataamista uudelleen, jotta ne vaikuttavat nykyiseen suoratoistoon."
   },
   "about_this_setting": {
     "message": "Tietoja tästä asetuksesta"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Piilota videon vieressä olevat suositukset"
+  },
+  "bandwidth_hint": {
+    "message": "Koodekin tai havaitun kaistanleveyden muutokset voivat vaatia videosivun lataamista uudelleen, jotta ne vaikuttavat nykyiseen suoratoistoon."
+  },
+  "watched_videos_hint": {
+    "message": "Videot piilotetaan, kun katselun edistyminen on vähintään 34%."
   }
 }

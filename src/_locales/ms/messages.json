@@ -366,7 +366,7 @@
     "message": "Sekat 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube menyediakan setiap video dalam beberapa codec. VP9 dan AV1 menjimatkan data, tetapi banyak kad grafik tidak dapat menyahkodnya secara perkakasan — kerja diambil alih pemproses, peranti menjadi panas dan bateri cepat habis.\n\n“Paksa H.264” membuatkan pemain meminta strim avc1, yang dinyahkod secara perkakasan oleh hampir semua kad grafik. Sebagai pertukaran, H.264 di YouTube terhad kepada 1080p. “Sekat 60 fps” mengehadkan main balik kepada 30 bingkai sesaat — separuh bingkai untuk dinyahkod."
+    "message": "YouTube menyediakan setiap video dalam beberapa codec. VP9 dan AV1 menjimatkan data, tetapi banyak kad grafik tidak dapat menyahkodnya secara perkakasan — kerja diambil alih pemproses, peranti menjadi panas dan bateri cepat habis.\n\n“Paksa H.264” membuatkan pemain meminta strim avc1, yang dinyahkod secara perkakasan oleh hampir semua kad grafik. Sebagai pertukaran, H.264 di YouTube terhad kepada 1080p. “Sekat 60 fps” mengehadkan main balik kepada 30 bingkai sesaat — separuh bingkai untuk dinyahkod.\n\nPerubahan codec atau lebar jalur yang dikesan mungkin memerlukan halaman video dimuat semula untuk mempengaruhi strim semasa."
   },
   "about_this_setting": {
     "message": "Tentang tetapan ini"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Sembunyikan cadangan di sebelah video"
+  },
+  "bandwidth_hint": {
+    "message": "Perubahan codec atau lebar jalur yang dikesan mungkin memerlukan halaman video dimuat semula untuk mempengaruhi strim semasa."
+  },
+  "watched_videos_hint": {
+    "message": "Video disembunyikan bermula pada kemajuan tontonan 34%."
   }
 }

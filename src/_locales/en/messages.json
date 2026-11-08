@@ -93,7 +93,7 @@
     "message": "Block 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube offers every video in several codecs. VP9 and AV1 save traffic, but many graphics cards cannot decode them in hardware — the CPU takes over, so the device heats up and the battery drains faster.\n\n“Force H.264” makes the player request the avc1 stream, which almost any graphics card decodes in hardware. In exchange, H.264 on YouTube is capped at 1080p. “Block 60 fps” limits playback to 30 fps, halving the number of frames to decode."
+    "message": "YouTube offers every video in several codecs. VP9 and AV1 save traffic, but many graphics cards cannot decode them in hardware — the CPU takes over, so the device heats up and the battery drains faster.\n\n“Force H.264” makes the player request the avc1 stream, which almost any graphics card decodes in hardware. In exchange, H.264 on YouTube is capped at 1080p. “Block 60 fps” limits playback to 30 fps, halving the number of frames to decode.\n\nCodec or detected bandwidth changes may require reloading the video page to affect the current stream."
   },
   "about_this_setting": {
     "message": "About this setting"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Hide recommendations beside the video"
+  },
+  "bandwidth_hint": {
+    "message": "Codec or detected bandwidth changes may require reloading the video page to affect the current stream."
+  },
+  "watched_videos_hint": {
+    "message": "Videos are hidden starting at 34% watched progress."
   }
 }

@@ -366,7 +366,7 @@
     "message": "Blokovat 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube nabízí každé video v několika kodecích. VP9 a AV1 šetří data, ale mnoho grafických karet je neumí dekódovat hardwarově — práci převezme procesor, zařízení se zahřívá a baterie vydrží méně.\n\n„Vynutit H.264“ přiměje přehrávač vyžádat si stream avc1, který hardwarově dekóduje téměř každá grafická karta. Výměnou je H.264 na YouTube omezen na 1080p. „Blokovat 60 fps“ omezí přehrávání na 30 snímků za sekundu — polovina snímků k dekódování."
+    "message": "YouTube nabízí každé video v několika kodecích. VP9 a AV1 šetří data, ale mnoho grafických karet je neumí dekódovat hardwarově — práci převezme procesor, zařízení se zahřívá a baterie vydrží méně.\n\n„Vynutit H.264“ přiměje přehrávač vyžádat si stream avc1, který hardwarově dekóduje téměř každá grafická karta. Výměnou je H.264 na YouTube omezen na 1080p. „Blokovat 60 fps“ omezí přehrávání na 30 snímků za sekundu — polovina snímků k dekódování.\n\nZměny kodeku nebo zjištěné šířky pásma mohou vyžadovat opětovné načtení stránky videa, aby se projevily v aktuálním streamu."
   },
   "about_this_setting": {
     "message": "O tomto nastavení"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Skrýt doporučení vedle videa"
+  },
+  "bandwidth_hint": {
+    "message": "Změny kodeku nebo zjištěné šířky pásma mohou vyžadovat opětovné načtení stránky videa, aby se projevily v aktuálním streamu."
+  },
+  "watched_videos_hint": {
+    "message": "Videa se skryjí od 34% průběhu sledování."
   }
 }

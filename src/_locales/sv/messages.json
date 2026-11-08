@@ -366,7 +366,7 @@
     "message": "Blockera 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube erbjuder varje video i flera codec. VP9 och AV1 sparar data, men många grafikkort kan inte avkoda dem i hårdvara — processorn tar över, enheten blir varm och batteriet tar slut snabbare.\n\n”Tvinga H.264” får spelaren att begära avc1-strömmen, som nästan alla grafikkort avkodar i hårdvara. I gengäld stannar H.264 på YouTube vid 1080p. ”Blockera 60 fps” begränsar uppspelningen till 30 bilder per sekund — hälften så många bildrutor att avkoda."
+    "message": "YouTube erbjuder varje video i flera codec. VP9 och AV1 sparar data, men många grafikkort kan inte avkoda dem i hårdvara — processorn tar över, enheten blir varm och batteriet tar slut snabbare.\n\n”Tvinga H.264” får spelaren att begära avc1-strömmen, som nästan alla grafikkort avkodar i hårdvara. I gengäld stannar H.264 på YouTube vid 1080p. ”Blockera 60 fps” begränsar uppspelningen till 30 bilder per sekund — hälften så många bildrutor att avkoda.\n\nÄndringar av kodek eller identifierad bandbredd kan kräva att videosidan laddas om för att påverka den aktuella strömmen."
   },
   "about_this_setting": {
     "message": "Om den här inställningen"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Dölj rekommendationer bredvid videon"
+  },
+  "bandwidth_hint": {
+    "message": "Ändringar av kodek eller identifierad bandbredd kan kräva att videosidan laddas om för att påverka den aktuella strömmen."
+  },
+  "watched_videos_hint": {
+    "message": "Videor döljs från 34% visningsförlopp."
   }
 }

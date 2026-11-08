@@ -366,7 +366,7 @@
     "message": "Blokeeri 60 fps"
   },
   "codec_hint": {
-    "message": "YouTube pakub iga videot mitmes koodekis. VP9 ja AV1 säästavad andmesidet, kuid paljud graafikakaardid ei suuda neid riistvaraliselt dekodeerida — töö võtab üle protsessor, seade soojeneb ja aku tühjeneb kiiremini.\n\n„Sunni H.264“ paneb mängija küsima avc1-voogu, mida dekodeerib riistvaraliselt peaaegu iga graafikakaart. Vastutasuks on H.264 YouTube'is piiratud 1080p-ga. „Blokeeri 60 fps“ piirab taasesituse 30 kaadrini sekundis — poole vähem kaadreid dekodeerida."
+    "message": "YouTube pakub iga videot mitmes koodekis. VP9 ja AV1 säästavad andmesidet, kuid paljud graafikakaardid ei suuda neid riistvaraliselt dekodeerida — töö võtab üle protsessor, seade soojeneb ja aku tühjeneb kiiremini.\n\n„Sunni H.264“ paneb mängija küsima avc1-voogu, mida dekodeerib riistvaraliselt peaaegu iga graafikakaart. Vastutasuks on H.264 YouTube'is piiratud 1080p-ga. „Blokeeri 60 fps“ piirab taasesituse 30 kaadrini sekundis — poole vähem kaadreid dekodeerida.\n\nKoodeki või tuvastatud ribalaiuse muudatuste rakendamiseks praegusele voole võib olla vaja videoleht uuesti laadida."
   },
   "about_this_setting": {
     "message": "Teave selle sätte kohta"
@@ -523,5 +523,11 @@
   },
   "hide_watch_recommendations": {
     "message": "Peida video kõrval olevad soovitused"
+  },
+  "bandwidth_hint": {
+    "message": "Koodeki või tuvastatud ribalaiuse muudatuste rakendamiseks praegusele voole võib olla vaja videoleht uuesti laadida."
+  },
+  "watched_videos_hint": {
+    "message": "Videod peidetakse alates 34% vaatamise edenemisest."
   }
 }
