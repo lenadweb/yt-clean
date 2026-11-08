@@ -106,6 +106,7 @@ export const feature = <const TId extends string>(
     input: FeatureInput<TId>
 ): Feature<TId> => ({
     id: input.id,
+    urlRegExp: input.url,
     title: input.title,
     isNew: input.isNew,
     isExperimental: input.isExperimental,

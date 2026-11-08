@@ -15,9 +15,9 @@ export const waitForElement = (
     new Promise((resolve) => {
         const check = () => root.querySelector(selector);
 
+        if (signal?.aborted) return resolve(null);
         const existing = check();
         if (existing) return resolve(existing);
-        if (signal?.aborted) return resolve(null);
 
         let timeoutId: ReturnType<typeof setTimeout> | null = null;
         let throttleId: ReturnType<typeof setTimeout> | null = null;

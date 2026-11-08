@@ -49,8 +49,12 @@ const dismissEnforcement = (enforcement: Element) => {
     resumePlayback();
 };
 
-export const enableAutoSkipAds = async () => {
-    const player = await waitForElement(PLAYER_SELECTOR, { timeout: 10000 });
+export const enableAutoSkipAds = async (signal: AbortSignal) => {
+    const player = await waitForElement(PLAYER_SELECTOR, {
+        timeout: 10000,
+        signal,
+    });
+    if (signal.aborted) return;
 
     observeElementChanges(
         AUTO_SKIP_ADS_OBSERVER_ID,

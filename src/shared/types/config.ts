@@ -35,7 +35,9 @@ export interface StylesAction extends ActionBase {
 
 export interface CustomAction extends ActionBase {
     action: ElementActions.custom;
-    onEnable?: () => Promise<CustomActionResult> | CustomActionResult;
+    onEnable?: (
+        signal: AbortSignal
+    ) => Promise<CustomActionResult> | CustomActionResult;
     onDisable?: (value?: CachedElement[]) => unknown;
 }
 
@@ -50,6 +52,7 @@ export type FeatureAction =
 
 export interface Feature<TId extends string = string> {
     id: TId;
+    urlRegExp?: RegExp[];
     title?: I18nKey;
     isNew?: boolean;
     isExperimental?: boolean;

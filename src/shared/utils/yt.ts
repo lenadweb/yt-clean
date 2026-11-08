@@ -7,23 +7,20 @@ export const parseSpeed = (value: string | undefined): number => {
     return Number.isFinite(speed) && speed > 0 ? speed : 1;
 };
 
-export const setPlaybackSpeed = (value: string) => {
-    waitForElement(
-        '#ytd-player:not(:has(.ytp-ad-player-overlay-layout__player-card-container)) #movie_player video'
-    ).then((player) => {
-        if (player instanceof HTMLVideoElement) {
-            player.playbackRate = parseSpeed(value);
-        }
-        window.sessionStorage?.setItem(
-            PLAYBACK_RATE_SESSION_KEY,
-            JSON.stringify({ creation: Date.now(), data: value })
-        );
-    });
-};
+export const setPlaybackSpeed = async (
+    value: string,
+    signal?: AbortSignal
+): Promise<boolean> => {
+    const player = await waitForElement(
+        '#ytd-player:not(:has(.ytp-ad-player-overlay-layout__player-card-container)) #movie_player video',
+        { signal }
+    );
+    if (signal?.aborted || !(player instanceof HTMLVideoElement)) return false;
 
-export const setShortsPlaybackSpeed = (value: string) => {
-    const player = document.querySelector('#shorts-player video');
-    if (player instanceof HTMLVideoElement) {
-        player.playbackRate = parseSpeed(value);
-    }
+    player.playbackRate = parseSpeed(value);
+    window.sessionStorage?.setItem(
+        PLAYBACK_RATE_SESSION_KEY,
+        JSON.stringify({ creation: Date.now(), data: value })
+    );
+    return true;
 };

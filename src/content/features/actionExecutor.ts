@@ -22,15 +22,21 @@ const setRootAttribute = (action: FeatureAction, enabled: boolean): void => {
     document.documentElement.removeAttribute(action.attr);
 };
 
+type RunningAction = {
+    controller: AbortController;
+    url: string;
+    elements?: CachedElement[];
+};
+
 export class DomActionExecutor {
-    private readonly elementCache = new Map<string, CachedElement[]>();
+    private readonly runningActions = new Map<string, RunningAction>();
 
     run(plan: FeatureActionPlan, url: string): void {
         plan.actions.forEach((action) => {
             this.runAction(action, plan.status.enabled, url);
         });
 
-        this.notifyGroupChange(plan);
+        this.notifyGroupChange(plan, url);
     }
 
     private runAction(
@@ -43,28 +49,60 @@ export class DomActionExecutor {
         setRootAttribute(action, shouldEnable);
 
         if (action.action === ElementActions.custom) {
-            this.runCustomAction(action, shouldEnable);
+            this.runCustomAction(action, shouldEnable, url);
         }
     }
 
-    private runCustomAction(action: CustomAction, shouldEnable: boolean): void {
-        if (shouldEnable && action.onEnable) {
-            Promise.resolve(action.onEnable()).then((result) => {
-                if (result && action.attr) {
-                    this.elementCache.set(action.attr, result);
-                }
-            });
-            return;
+    private runCustomAction(
+        action: CustomAction,
+        shouldEnable: boolean,
+        url: string
+    ): void {
+        const previous = this.runningActions.get(action.attr);
+        if (shouldEnable && previous?.url === url) return;
+
+        if (previous) {
+            previous.controller.abort();
+            this.runningActions.delete(action.attr);
+            action.onDisable?.(previous.elements);
         }
 
-        if (!shouldEnable && action.onDisable) {
-            action.onDisable(this.elementCache.get(action.attr));
+        if (!shouldEnable || !action.onEnable) return;
+
+        const running: RunningAction = {
+            controller: new AbortController(),
+            url,
+        };
+        this.runningActions.set(action.attr, running);
+        void this.enableCustomAction(action, running);
+    }
+
+    private async enableCustomAction(
+        action: CustomAction,
+        running: RunningAction
+    ): Promise<void> {
+        try {
+            const result = await action.onEnable?.(running.controller.signal);
+            if (running.controller.signal.aborted) {
+                // A handler may return removed nodes just as it is disabled.
+                if (result?.length) action.onDisable?.(result);
+                return;
+            }
+            if (result) running.elements = result;
+        } catch (error) {
+            if (running.controller.signal.aborted) return;
+            running.controller.abort();
+            this.runningActions.delete(action.attr);
+            action.onDisable?.(running.elements);
+            console.error('Unable to enable YouTube Clean feature:', error);
         }
     }
 
-    private notifyGroupChange(plan: FeatureActionPlan): void {
+    private notifyGroupChange(plan: FeatureActionPlan, url: string): void {
         const { feature, status } = plan;
-
-        feature?.onChange?.(status.value, status.enabled);
+        const inScope =
+            !feature?.urlRegExp ||
+            feature.urlRegExp.some((pattern) => pattern.test(url));
+        feature?.onChange?.(status.value, status.enabled && inScope);
     }
 }
