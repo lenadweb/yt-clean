@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokuj Shorts, filtruj polecane, pomijaj reklamy"
+    "message": "YouTube Clean: ukryj Shorts i polecane filmy"
   },
   "appDescription": {
-    "message": "Blokuj Shorts, wyłącz auto-dubbing i tłumaczone tytuły, ukryj obejrzane filmy i komentarze, nieskończona strona główna. 70+ opcji."
+    "message": "Ukrywaj Shorts, polecane filmy i komentarze. Filtruj według słów i długości, wybieraj oryginalny dźwięk i prędkość odtwarzania."
   },
   "actionTitle": {
     "message": "Otwórz ustawienia YouTube"

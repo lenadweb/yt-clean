@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokir Shorts, saring rekomendasi, lewati iklan"
+    "message": "YouTube Clean: sembunyikan Shorts dan rekomendasi"
   },
   "appDescription": {
-    "message": "Blokir Shorts, matikan sulih suara otomatis dan judul terjemahan, sembunyikan video yang ditonton dan komentar. Beranda tanpa akhir."
+    "message": "Sembunyikan Shorts, rekomendasi, dan komentar. Filter video menurut kata atau durasi, pilih audio asli dan kecepatan pemutaran."
   },
   "actionTitle": {
     "message": "Buka setelan YouTube"

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokkeer Shorts, filter suggesties, sla reclame over"
+    "message": "YouTube Clean: Shorts en aanbevelingen verbergen"
   },
   "appDescription": {
-    "message": "Blokkeer Shorts, zet automatisch nasynchroniseren en vertaalde titels uit, verberg bekeken video's en reacties. Eindeloze feed."
+    "message": "Verberg Shorts, aanbevelingen en reacties. Filter op trefwoord of videolengte, kies originele audio en pas de afspeelsnelheid aan."
   },
   "actionTitle": {
     "message": "YouTube-instellingen openen"

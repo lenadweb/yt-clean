@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blokeeri Shorts, filtreeri soovitusi, jäta reklaamid vahele"
+    "message": "YouTube Clean: peida Shorts ja soovitused"
   },
   "appDescription": {
-    "message": "Blokeeri Shorts, lülita välja automaatne dublaaž ja tõlgitud pealkirjad, peida vaadatud videod ja kommentaarid. Lõputu voog."
+    "message": "Peida Shorts, soovitused ja kommentaarid. Filtreeri videoid sõnade või pikkuse järgi, vali algne heli ja taasesituskiirus."
   },
   "actionTitle": {
     "message": "Ava YouTube'i seaded"

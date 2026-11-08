@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts engelle, önerileri filtrele, reklamları atla"
+    "message": "YouTube Clean: Shorts ve önerileri gizle"
   },
   "appDescription": {
-    "message": "Shorts’u engelleyin, otomatik dublajı ve çevrili başlıkları kapatın, izlenen videoları ve yorumları gizleyin. Sonsuz akış. 70+ ayar."
+    "message": "Shorts, öneri ve yorumları gizleyin. Videoları kelime veya süreyle filtreleyin, orijinal sesi ve oynatma hızını seçin."
   },
   "actionTitle": {
     "message": "YouTube ayarlarını aç"

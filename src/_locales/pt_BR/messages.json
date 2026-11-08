@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: bloqueie Shorts, filtre sugestões e pule anúncios"
+    "message": "YouTube Clean: oculte Shorts e recomendações"
   },
   "appDescription": {
-    "message": "Bloqueie Shorts, desative dublagem automática e títulos traduzidos, oculte vídeos vistos e comentários, início infinito. 70+ opções."
+    "message": "Oculte Shorts, recomendações e comentários. Filtre vídeos por palavras ou duração, escolha o áudio original e ajuste a velocidade."
   },
   "actionTitle": {
     "message": "Configurações do YouTube Clean"

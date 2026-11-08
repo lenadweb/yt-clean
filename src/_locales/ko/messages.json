@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: 쇼츠 차단, 추천 정리, 광고 건너뛰기"
+    "message": "YouTube Clean: 쇼츠와 추천 숨기기"
   },
   "appDescription": {
-    "message": "Shorts 차단, 자동 더빙과 번역된 제목 끄기, 시청한 동영상과 댓글 숨기기, 끝없는 홈 피드. 70개 이상의 무료 설정."
+    "message": "쇼츠, 추천 동영상, 댓글을 숨기세요. 키워드나 길이로 동영상을 필터링하고 원본 오디오와 재생 속도를 선택하세요."
   },
   "actionTitle": {
     "message": "YouTube 설정 열기"

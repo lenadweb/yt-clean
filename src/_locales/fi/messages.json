@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: estä Shorts, suodata suositukset, ohita mainokset"
+    "message": "YouTube Clean: piilota Shorts ja suositukset"
   },
   "appDescription": {
-    "message": "Estä Shorts, poista automaattinen jälkiäänitys ja käännetyt otsikot, piilota katsotut videot ja kommentit. Loputon syöte."
+    "message": "Piilota Shorts, suositukset ja kommentit. Suodata videoita sanojen tai keston mukaan, valitse alkuperäinen ääni ja toistonopeus."
   },
   "actionTitle": {
     "message": "Avaa YouTube-asetukset"

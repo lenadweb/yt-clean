@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean：封鎖 Shorts、整理推薦、略過廣告"
+    "message": "YouTube Clean：隱藏 Shorts 短片和推薦"
   },
   "appDescription": {
-    "message": "封鎖 Shorts，關閉自動配音和翻譯標題，隱藏已觀看影片和留言，首頁無限推薦。70 多項免費設定。"
+    "message": "隱藏 Shorts 短片、推薦影片和留言。依關鍵字或片長篩選影片，選擇原始音軌並調整播放速度。"
   },
   "actionTitle": {
     "message": "開啟 YouTube 設定"

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts sperren, Empfehlungen filtern, Werbung überspringen"
+    "message": "YouTube Clean: Shorts und Empfehlungen ausblenden"
   },
   "appDescription": {
-    "message": "Shorts sperren, Auto-Synchronisation und übersetzte Titel abschalten, Gesehenes und Kommentare ausblenden. Endloser Feed. 70+ Extras"
+    "message": "Shorts, Empfehlungen und Kommentare ausblenden. Videos nach Stichwort oder Länge filtern, Originalton und Wiedergabetempo wählen."
   },
   "actionTitle": {
     "message": "YouTube Clean Einstellungen"

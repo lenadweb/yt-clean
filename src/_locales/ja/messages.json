@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: ショートをブロック・おすすめを整理・広告をスキップ"
+    "message": "YouTube Clean: ショートとおすすめを非表示"
   },
   "appDescription": {
-    "message": "ショートをブロック、自動吹き替えと翻訳タイトルをオフ、視聴済み動画とコメントを非表示、ホームフィードを無限に。70以上の無料設定。"
+    "message": "ショート、おすすめ、コメントを非表示に。キーワードや長さで動画を絞り込み、オリジナル音声の選択や再生速度の調整もできます。"
   },
   "actionTitle": {
     "message": "YouTube Clean 設定"

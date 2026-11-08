@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts blokkolása, ajánlók szűrése, reklámok átugrása"
+    "message": "YouTube Clean: Shorts és ajánlások elrejtése"
   },
   "appDescription": {
-    "message": "Shorts tiltása, automatikus szinkron és fordított címek kikapcsolása, látott videók, kommentek elrejtése. Végtelen feed. 70+ opció."
+    "message": "Rejtsd el a Shorts-videókat, ajánlásokat és hozzászólásokat. Szűrj szóra vagy hosszra, válassz eredeti hangot és sebességet."
   },
   "actionTitle": {
     "message": "YouTube-beállítások megnyitása"

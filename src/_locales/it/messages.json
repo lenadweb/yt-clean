@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: blocca Shorts, filtra consigli e salta annunci"
+    "message": "YouTube Clean: nascondi Shorts e consigli"
   },
   "appDescription": {
-    "message": "Blocca gli Shorts, disattiva doppiaggio automatico e titoli tradotti, nascondi video visti e commenti, home infinita. 70+ opzioni."
+    "message": "Nascondi Shorts, consigli e commenti. Filtra i video per parole o durata, scegli l’audio originale e regola la velocità."
   },
   "actionTitle": {
     "message": "Impostazioni di YouTube Clean"
