@@ -62,13 +62,13 @@ const applyOriginalAudio = (): boolean => {
         const tracks = player.getAvailableAudioTracks() ?? [];
         if (tracks.length < 2) return false;
 
-        appliedVideoId = videoId;
-
         const original = findOriginalTrack(tracks);
+        if (!original) return false;
         if (original && player.getAudioTrack?.()?.id !== original.id) {
             player.setAudioTrack(original);
         }
 
+        appliedVideoId = videoId;
         return true;
     } catch {
         return false;
@@ -106,6 +106,7 @@ export const initOriginalAudio = (): void => {
             scheduleApply();
         } else {
             clearRetryTimer();
+            appliedVideoId = null;
         }
     });
 
