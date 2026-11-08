@@ -1,6 +1,10 @@
 <h1 align="center">YouTube Clean</h1>
 
 <p align="center">
+  <img src="store/assets/promo-large-tile.png" alt="YouTube Clean: 70+ controls in one panel to customize the feed, video page, sidebar, and player" width="100%">
+</p>
+
+<p align="center">
   A browser extension that declutters YouTube — hide Shorts, ads, and sidebar
   items, simplify the player and feed, and add handy controls like a playback
   speed slider, all toggled from a side panel.
