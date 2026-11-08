@@ -275,6 +275,10 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
                 'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
                 '#player-ads',
+                'yt-playability-error-supported-renderers',
+            ],
+            styles: [
+                'ytd-watch-flexy[player-unavailable] #cinematics-container.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container.ytd-watch-flexy {visibility:visible!important;}',
             ],
         }),
         feature({
@@ -284,7 +288,11 @@ export const feedCategory = category('feed_and_recommendations', [
                 'ytd-rich-item-renderer:has(ytd-ad-slot-renderer)',
                 'ytd-ad-slot-renderer',
                 'ytd-search-pyv-renderer',
+                'yt-playability-error-supported-renderers',
                 GHOST_GRID_SKELETON,
+            ],
+            styles: [
+                'ytd-watch-flexy[player-unavailable] #cinematics-container.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container.ytd-watch-flexy {visibility:visible!important;}',
             ],
         }),
         feature({
@@ -293,6 +301,10 @@ export const feedCategory = category('feed_and_recommendations', [
             url: [UrlRegExps.Watch],
             hide: [
                 'ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]',
+                'yt-playability-error-supported-renderers',
+            ],
+            styles: [
+                'ytd-watch-flexy[player-unavailable] #cinematics-container.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container.ytd-watch-flexy {visibility:visible!important;}',
             ],
         }),
         feature({
@@ -300,10 +312,14 @@ export const feedCategory = category('feed_and_recommendations', [
             title: 'auto_skip_ads',
             isExperimental: true,
             url: [UrlRegExps.Watch],
+            hide: ['yt-playability-error-supported-renderers'],
             custom: {
                 enable: enableAutoSkipAds,
                 disable: disableAutoSkipAds,
             },
+            styles: [
+                'ytd-watch-flexy[player-unavailable] #cinematics-container.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container-outer.ytd-watch-flexy, ytd-watch-flexy[player-unavailable] #player-container.ytd-watch-flexy {visibility:visible!important;}',
+            ],
         }),
     ]),
 ]);
