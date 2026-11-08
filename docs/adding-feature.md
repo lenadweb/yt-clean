@@ -24,12 +24,13 @@ change between YouTube experiments and break the feature silently.
 
 Pick the config file by the YouTube area:
 
-| File                            | Area                             |
-| ------------------------------- | -------------------------------- |
-| `src/shared/config/template.ts` | header, search bar, user actions |
-| `src/shared/config/feed.ts`     | home feed and recommendations    |
-| `src/shared/config/video.ts`    | player, Shorts, channel pages    |
-| `src/shared/config/sidebar.ts`  | left sidebar menu                |
+| File                            | Area                                |
+| ------------------------------- | ----------------------------------- |
+| `src/shared/config/template.ts` | header, search bar, user actions    |
+| `src/shared/config/feed.ts`     | home feed and recommendations       |
+| `src/shared/config/video.ts`    | player and channel pages            |
+| `src/shared/config/watch.ts`    | watch-page elements and description |
+| `src/shared/config/sidebar.ts`  | left sidebar menu                   |
 
 Add a `feature()` to an existing `section()`:
 
@@ -47,7 +48,7 @@ section('content_blocks', [
 That's the whole runtime change. Field rules:
 
 - `id` is a unique camelCase string. It becomes the `chrome.storage.local` key
-  and the body attribute (`cln-yt-cust-feature-hide-playables`), so never
+  and the document-root attribute (`cln-yt-cust-feature-hide-playables`), so never
   rename it after release. Users would lose their saved setting.
 - `title` is the i18n key for the sidebar checkbox label.
 - `hide` is a list of selectors. It compiles to
@@ -96,7 +97,7 @@ the section where you added the feature.
 For each `feature()` entry the project generates:
 
 - a storage key and default (`enabled: false`, or `defaultEnabled` if set)
-- a body attribute toggled by the content script when the feature is on
+- a document-root attribute toggled by the content script when the feature is on
 - static CSS in `content.css` for `hide` and `styles`
 - a checkbox in the side panel, grouped under its section and category
 - a "new" badge if you pass `isNew: true`
@@ -111,7 +112,7 @@ feature({
     defaultEnabled: true, // on by default for new installs
     url: [UrlRegExps.Watch], // apply only on matching pages (const.ts)
     hide: ['selector'], // hide elements via generated CSS
-    styles: ['#x { color: red; }'], // arbitrary CSS, scoped by the body attribute
+    styles: ['#x { color: red; }'], // arbitrary CSS, scoped by the document-root attribute
     component: {
         // inject a React component
         name: 'PlaybackSpeed', // must exist in COMPONENT_NAMES (const.ts)
@@ -119,7 +120,7 @@ feature({
     },
     custom: {
         // run code on toggle
-        enable: onEnable, // may return cached elements...
+        enable: onEnable, // receives an AbortSignal; may return cached elements...
         disable: onDisable, // ...restored here on disable
     },
     onChange: syncValue, // called when the stored value changes (slider)
@@ -134,9 +135,13 @@ Notes:
   `src/shared/const.ts` and register it in
   `src/content/features/componentRegistry.ts`. The component renders inside a
   shadow root next to the `after` selector.
-- `custom` handlers live in `src/shared/featureHandlers/`. See
-  `hideChannelTrailer` / `restoreChannelTrailer` for the cache-and-restore
-  pattern.
+- `custom` handlers live in `src/shared/featureHandlers/`. Pass their AbortSignal
+  to asynchronous waits and check it after each await, before changing the DOM.
+  Disable must stop observers and listeners. The runner also cancels handlers
+  when the current URL changes.
+- Each `styles` entry must contain one CSS rule. The generator prefixes that
+  rule with the feature attribute; putting several rules in one entry would
+  leave later rules active even when the feature is disabled.
 
 ## New section or category
 
@@ -172,5 +177,7 @@ Section and category titles are i18n keys too. A new category is one
 
 - [ ] `id` is new and unique; never reuse or rename released ids.
 - [ ] Title key is added to all locales.
+- [ ] Preset membership or exclusion is chosen in `src/shared/presets/index.ts`.
+- [ ] `npm run docs:features` regenerates the feature catalog.
 - [ ] Selectors were tested on a live YouTube page with the setting on and off.
 - [ ] `npm run lint && npm run typecheck && npm test && npm run build` pass.

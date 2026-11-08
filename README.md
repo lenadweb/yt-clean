@@ -31,8 +31,8 @@
 - Hide Shorts sections, mixes, and playlists across the feed
 - Remove sponsored videos and promotional banners
 - Clean up the search bar, masthead, and player controls
-- Playback speed slider for videos and a dedicated one for Shorts
-- Auto-advance to the next Short
+- Playback speed slider for watch-page videos
+- Disable hover previews independently of hiding Shorts
 - Trim the sidebar (You, Explore, More from YouTube, …) item by item
 - Hide the Home navigation button and open Subscriptions instead of Home
   when signed in
@@ -40,8 +40,10 @@
   chat, or expanded side panel needs the right column
 - Channel page cleanup (banner, trailer)
 
-Every feature is opt-in and persists in `chrome.storage.local`. A master
-toggle enables or disables the whole extension at once.
+New installs start with the Balanced cleanup preset. Each feature can be
+changed independently and persists in `chrome.storage.local`. A master toggle
+enables or disables the whole extension at once. Shorts speed and auto-next
+controls are not currently available.
 
 The existing Shorts setting also hides individual Shorts in Subscriptions.
 Turning on every option in the Explore group removes the whole section,
@@ -79,6 +81,7 @@ npm run build:opera    # Opera-specific manifest
 npm run lint
 npm run typecheck
 npm test
+npm run docs:features:check
 npm run format
 ```
 
@@ -129,21 +132,22 @@ feature does, and the build/runtime turn that into UI, CSS, and DOM behavior.
   <img src="docs/architecture.svg" alt="yt-clean architecture: one declarative config compiles into content.css, content.js, and the side-panel UI, with Storage as the shared source of truth" width="100%">
 </p>
 
-The three entry points (`webpack.config.js`):
+The extension entry points (`webpack.config.js`):
 
-| Entry     | Source                | Role                                  |
-| --------- | --------------------- | ------------------------------------- |
-| `content` | `src/content/`        | Applies features on the page          |
-| `sidebar` | `src/sidebar/`        | Settings UI (Chrome side panel)       |
-| `worker`  | `src/worker/index.ts` | Opens the side panel on toolbar click |
+| Entry     | Source                | Role                                                |
+| --------- | --------------------- | --------------------------------------------------- |
+| `content` | `src/content/`        | Applies features on the page                        |
+| `sidebar` | `src/sidebar/`        | Settings UI (Chrome side panel)                     |
+| `worker`  | `src/worker/index.ts` | Opens the side panel on toolbar click               |
+| `player`  | `src/player/index.ts` | Integrates with player APIs in YouTube's MAIN world |
 
 Settings are a single source of truth: the [`Storage`](src/shared/storage/index.ts)
 singleton mirrors `chrome.storage.local` in memory and feeds both the imperative
 DOM layer and the React UI (via `StorageProvider`).
 
-CSS-only features (`hide` / `styles`) cost nothing at runtime — they are
-compiled into `content.css` and switched on by a per-feature body attribute.
-Only behavioral features (`custom`, `component`) run JavaScript.
+CSS-only features (`hide` / `styles`) are compiled into `content.css` and
+switched on by a per-feature attribute on the document root. Behavioral
+features (`custom`, `component`, `onChange`) also run JavaScript.
 
 ## Contributing features
 

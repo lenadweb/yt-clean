@@ -78,12 +78,11 @@ Scope a feature to one URL family:
 
 ```ts
 feature({
-    id: 'shortSpeedControl',
-    title: 'speed_control',
-    url: [UrlRegExps.Shorts],
+    id: 'speedControl',
+    url: [UrlRegExps.Watch],
     component: {
-        name: 'ShortsSpeedControl',
-        after: '#cinematic-container',
+        name: 'PlaybackSpeed',
+        after: '.ytp-settings-button',
     },
 });
 ```
