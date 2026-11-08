@@ -310,6 +310,7 @@ export const feedCategory = category('feed_and_recommendations', [
         feature({
             id: 'autoSkipAds',
             title: 'auto_skip_ads',
+            defaultEnabled: false,
             isExperimental: true,
             url: [UrlRegExps.Watch],
             hide: ['yt-playability-error-supported-renderers'],
