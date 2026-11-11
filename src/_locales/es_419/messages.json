@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: oculta Shorts y recomendaciones"
+    "message": "YouTube Clean: bloqueador de Shorts, filtros y controles de video"
   },
   "appDescription": {
-    "message": "Oculta Shorts, recomendaciones y comentarios. Filtra videos por palabras o duración, elige el audio original y ajusta la velocidad."
+    "message": "Bloquea Shorts, oculta recomendaciones y filtra por palabra o canal. Desactiva el doblaje automático y ajusta la velocidad."
   },
   "actionTitle": {
     "message": "Configuración de YouTube Clean"

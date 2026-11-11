@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Hide Shorts & Recommendations"
+    "message": "YouTube Clean: Shorts Blocker, Feed Filters & Video Controls"
   },
   "appDescription": {
-    "message": "Hide Shorts, recommendations and comments. Filter videos by keyword or length, keep original audio and adjust playback speed."
+    "message": "Block Shorts, hide recommendations, filter videos by keyword or channel name. Stop auto-dubbing and control playback speed."
   },
   "actionTitle": {
     "message": "Click to open Youtube Settings"

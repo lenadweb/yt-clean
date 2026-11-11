@@ -1,4 +1,4 @@
-Ficha Shorts na mapendekezo ili utazame video ulizokuja kutazama. YouTube Clean ni kiendelezi cha bure chenye msimbo huria cha kurekebisha mlisho, ukurasa wa video na kichezaji kila kimoja kivyake.
+YouTube Clean ni kiendelezi cha bure chenye msimbo huria, kizuizi cha Shorts, vichujio vya video na vidhibiti vya uchezaji. Rejesha vichwa na sauti asili, punguza visumbufu na rekebisha kichezaji kwa masomo, mafunzo au video nyingine.
 
 Unachoweza kubadilisha:
 - Ficha sehemu za Shorts na chaguo lake kwenye menyu. Viungo vya moja kwa moja bado vinafunguka.
@@ -9,6 +9,21 @@ Unachoweza kubadilisha:
 - Tumia vijipicha vidogo na mpangilio ulioshikamana, na uzime hakikisho unapoelekeza kishale.
 - Rekebisha kasi kutoka 0.25x hadi 3x kwenye kurasa za video za kawaida.
 - Ficha vipengee vya menyu ya pembeni au ufungue Usajili badala ya Mwanzo ukiwa umeingia katika akaunti.
+
+Kichujio cha maneno, majina ya vituo na muda
+Ongeza maneno kutoka vichwa au majina ya vituo ili kuficha kadi zinazolingana. Weka muda wa chini na wa juu; matangazo ya moja kwa moja na kadi zisizo na muda unaosomeka hubaki kuonekana. Vichujio havitumiki kwenye matokeo ya utafutaji na havizuii akaunti za vituo au viungo vya moja kwa moja.
+
+Zima udubishaji wa sauti na tafsiri ya vichwa
+Chagua njia ya sauti asili ikipatikana na urejeshe vichwa asili badala ya tafsiri za kiotomatiki. Chaguo hizi hazitafsiri maudhui wala kuongeza njia za sauti ambazo hazipo.
+
+Panga utafutaji, vituo na maelezo
+Ficha muhtasari wa AI kwenye utafutaji, hoja zinazohusiana, kadi za vituo na paneli za taarifa. Ficha mabango na video za utangulizi za vituo, bidhaa na tiketi. Chagua kuonyesha muhtasari wa AI, nakala ya maneno, sura, watu waliotajwa na video zinazohusiana katika maelezo. Maudhui ya mtayarishaji hayabadiliki.
+
+Mlisho wenye nafasi ndogo, menyu na usogezaji usioisha
+Punguza vijipicha kwenye Mwanzo, utafutaji na karibu na kichezaji. Ficha arifa, utafutaji kwa sauti, kitufe cha kupakia, Historia au Tazama baadaye. Chaguo la mlisho usioisha hupakia mapendekezo kwenye kichupo cha Zote orodha ikiisha. Ukiingia unaweza kuanzia Usajili.
+
+Kasi, H.264 na kasi ya fremu
+Badilisha kasi kwa kitelezeshi katika hatua za 0.05x. Tumia H.264 kwa kuzuia VP9 na AV1 au zuia mitiririko ya 60 fps; azimio linalopatikana linaweza kupungua. Enhanced Bitrate inahitaji Premium na mtiririko unaofaa. Kuficha swichi ya uchezaji otomatiki hakuzuii video inayofuata kuanza yenyewe.
 
 Bofya aikoni ya kiendelezi kufungua paneli ya pembeni. Anza na mpangilio sawia, kisha ubadilishe kila chaguo. Swichi kuu au njia ya mkato ya kibodi huwasha au kuzima usanidi wako. Hufanya kazi kwenye tovuti ya kompyuta katika Chrome.
 

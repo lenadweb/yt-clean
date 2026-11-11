@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: paslēpt Shorts un ieteikumus"
+    "message": "YouTube Clean: Shorts bloķēšana, filtri un video vadība"
   },
   "appDescription": {
-    "message": "Paslēpiet Shorts, ieteikumus un komentārus. Filtrējiet video pēc vārdiem vai ilguma, izvēlieties oriģinālo skaņu un ātrumu."
+    "message": "Bloķējiet Shorts, slēpiet ieteikumus, filtrējiet pēc vārda vai kanāla. Izslēdziet automātisko dublēšanu un mainiet video ātrumu."
   },
   "actionTitle": {
     "message": "Atvērt YouTube iestatījumus"

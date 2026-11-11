@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: ショートとおすすめを非表示"
+    "message": "YouTube Clean: ショートブロック・動画フィルター・再生設定"
   },
   "appDescription": {
-    "message": "ショート、おすすめ、コメントを非表示に。キーワードや長さで動画を絞り込み、オリジナル音声の選択や再生速度の調整もできます。"
+    "message": "ショートとおすすめを非表示にし、キーワードやチャンネル名で動画を絞り込み。自動吹き替えをオフにして、再生速度を調整できます。"
   },
   "actionTitle": {
     "message": "YouTube Clean 設定"

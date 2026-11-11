@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts en aanbevelingen verbergen"
+    "message": "YouTube Clean: Shorts-blokkering, feedfilters en videobediening"
   },
   "appDescription": {
-    "message": "Verberg Shorts, aanbevelingen en reacties. Filter op trefwoord of videolengte, kies originele audio en pas de afspeelsnelheid aan."
+    "message": "Blokkeer Shorts, verberg aanbevelingen en filter op woord of kanaal. Zet nasynchronisatie uit en pas de videosnelheid aan."
   },
   "actionTitle": {
     "message": "YouTube-instellingen openen"

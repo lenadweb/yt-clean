@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: amaga Shorts i recomanacions"
+    "message": "YouTube Clean: bloquejador de Shorts, filtres i controls de vídeo"
   },
   "appDescription": {
-    "message": "Amaga Shorts, recomanacions i comentaris. Filtra vídeos per paraules o durada, tria l’àudio original i ajusta la velocitat."
+    "message": "Bloqueja Shorts, amaga recomanacions i filtra per paraula o canal. Desactiva el doblatge automàtic i ajusta la velocitat del vídeo."
   },
   "actionTitle": {
     "message": "Obre la configuració de YouTube"

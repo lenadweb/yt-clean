@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: slėpti Shorts ir rekomendacijas"
+    "message": "YouTube Clean: Shorts blokavimas, filtrai ir vaizdo valdymas"
   },
   "appDescription": {
-    "message": "Slėpkite Shorts, rekomendacijas ir komentarus. Filtruokite pagal žodžius ar trukmę, rinkitės originalų garsą ir atkūrimo greitį."
+    "message": "Blokuokite Shorts, slėpkite rekomendacijas, filtruokite pagal žodį ar kanalą. Išjunkite automatinį dubliavimą ir keiskite greitį."
   },
   "actionTitle": {
     "message": "Atidaryti YouTube nustatymus"

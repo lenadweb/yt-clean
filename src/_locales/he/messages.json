@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: הסתרת Shorts והמלצות"
+    "message": "YouTube Clean: חוסם Shorts, מסנני פיד ובקרת וידאו"
   },
   "appDescription": {
-    "message": "הסתירו Shorts, המלצות ותגובות. סננו סרטונים לפי מילים או אורך, בחרו שמע מקורי ושנו את מהירות הניגון."
+    "message": "חסמו Shorts, הסתירו המלצות וסננו לפי מילה או ערוץ. כבו דיבוב אוטומטי ושנו את מהירות הניגון."
   },
   "actionTitle": {
     "message": "פתיחת הגדרות YouTube"

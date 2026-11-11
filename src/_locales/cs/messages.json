@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: skrýt Shorts a doporučení"
+    "message": "YouTube Clean: blokování Shorts, filtry a ovládání videa"
   },
   "appDescription": {
-    "message": "Skryjte Shorts, doporučení a komentáře. Filtrujte videa podle slov nebo délky, zvolte původní zvuk a rychlost přehrávání."
+    "message": "Blokujte Shorts, skryjte doporučení a filtrujte podle slov či kanálu. Vypněte automatický dabing a měňte rychlost videa."
   },
   "actionTitle": {
     "message": "Otevřít nastavení YouTube"

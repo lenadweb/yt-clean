@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts und Empfehlungen ausblenden"
+    "message": "YouTube Clean: Shorts-Blocker, Feed-Filter und Videosteuerung"
   },
   "appDescription": {
-    "message": "Shorts, Empfehlungen und Kommentare ausblenden. Videos nach Stichwort oder Länge filtern, Originalton und Wiedergabetempo wählen."
+    "message": "Shorts blockieren, Empfehlungen ausblenden, Videos nach Wort oder Kanal filtern. Auto-Synchronisation aus und Videotempo einstellen."
   },
   "actionTitle": {
     "message": "YouTube Clean Einstellungen"

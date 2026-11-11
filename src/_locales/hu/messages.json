@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts és ajánlások elrejtése"
+    "message": "YouTube Clean: Shorts-blokkoló, szűrők és videóvezérlés"
   },
   "appDescription": {
-    "message": "Rejtsd el a Shorts-videókat, ajánlásokat és hozzászólásokat. Szűrj szóra vagy hosszra, válassz eredeti hangot és sebességet."
+    "message": "Tiltsd a Shorts-videókat és ajánlókat, szűrj szóra vagy csatornára. Kapcsold ki az automatikus szinkront, állítsd a sebességet."
   },
   "actionTitle": {
     "message": "YouTube-beállítások megnyitása"

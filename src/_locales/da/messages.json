@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: skjul Shorts og anbefalinger"
+    "message": "YouTube Clean: Shorts-blokering, feedfiltre og videokontrol"
   },
   "appDescription": {
-    "message": "Skjul Shorts, anbefalinger og kommentarer. Filtrér videoer efter ord eller længde, vælg original lyd og justér hastigheden."
+    "message": "Bloker Shorts, skjul anbefalinger og filtrér efter ord eller kanal. Slå automatisk dubbing fra, og justér videohastigheden."
   },
   "actionTitle": {
     "message": "Åbn YouTube-indstillinger"

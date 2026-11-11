@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean：隐藏 Shorts 短视频和推荐"
+    "message": "YouTube Clean：屏蔽 Shorts、视频筛选与播放控制"
   },
   "appDescription": {
-    "message": "隐藏 Shorts 短视频、推荐和评论。按关键词或时长筛选视频，选择原始音轨并调整播放速度。"
+    "message": "屏蔽 Shorts、隐藏推荐，按关键词或频道名筛选视频。关闭自动配音和标题翻译，调整播放速度。"
   },
   "actionTitle": {
     "message": "YouTube Clean 设置"

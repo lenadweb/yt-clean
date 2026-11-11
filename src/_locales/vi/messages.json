@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: ẩn Shorts và video đề xuất"
+    "message": "YouTube Clean: chặn Shorts, lọc và điều khiển video"
   },
   "appDescription": {
-    "message": "Ẩn Shorts, video đề xuất và bình luận. Lọc theo từ khóa hoặc thời lượng, chọn âm thanh gốc và điều chỉnh tốc độ phát."
+    "message": "Chặn Shorts, ẩn đề xuất, lọc video theo từ khóa hoặc kênh. Tắt lồng tiếng tự động và chỉnh tốc độ phát."
   },
   "actionTitle": {
     "message": "Mở cài đặt YouTube"

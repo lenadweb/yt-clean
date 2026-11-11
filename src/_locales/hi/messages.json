@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: Shorts और सुझाव छिपाएँ"
+    "message": "YouTube Clean: Shorts ब्लॉकर, वीडियो फ़िल्टर और प्लेबैक नियंत्रण"
   },
   "appDescription": {
-    "message": "Shorts, सुझाव और टिप्पणियाँ छिपाएँ। शब्द या अवधि से वीडियो फ़िल्टर करें, मूल ऑडियो चुनें और प्लेबैक गति बदलें।"
+    "message": "Shorts और सुझाव छिपाएँ। शब्द या चैनल से वीडियो फ़िल्टर करें, ऑटो-डबिंग बंद करें और प्लेबैक गति बदलें।"
   },
   "actionTitle": {
     "message": "YouTube Clean सेटिंग्स"

@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: ascunde Shorts și recomandările"
+    "message": "YouTube Clean: blocare Shorts, filtre și comenzi video"
   },
   "appDescription": {
-    "message": "Ascunde Shorts, recomandări și comentarii. Filtrează clipurile după cuvinte sau durată, alege sunetul original și viteza de redare."
+    "message": "Blochează Shorts, ascunde recomandări și filtrează după cuvinte sau canal. Oprește dublajul automat și schimbă viteza clipurilor."
   },
   "actionTitle": {
     "message": "Deschide setările YouTube"

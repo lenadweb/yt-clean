@@ -1,9 +1,9 @@
 {
   "appName": {
-    "message": "YouTube Clean: sakrij Shorts i preporuke"
+    "message": "YouTube Clean: blokiranje Shortsa, filtri i kontrole videa"
   },
   "appDescription": {
-    "message": "Sakrijte Shorts, preporuke i komentare. Filtrirajte videozapise po riječima ili trajanju, odaberite izvorni zvuk i brzinu."
+    "message": "Blokirajte Shorts, sakrijte preporuke i filtrirajte po riječi ili kanalu. Isključite automatsku sinkronizaciju i mijenjajte brzinu."
   },
   "actionTitle": {
     "message": "Otvori postavke YouTubea"
