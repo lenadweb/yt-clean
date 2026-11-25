@@ -273,6 +273,7 @@ export const feedCategory = category('feed_and_recommendations', [
             hide: [
                 'ytd-banner-promo-renderer',
                 'ytd-rich-section-renderer:has(ytd-brand-video-shelf-renderer)',
+                'ytd-rich-section-renderer:has(ytd-brand-video-singleton-renderer)',
                 'ytd-rich-section-renderer:has(ytd-statement-banner-renderer)',
             ],
         }),
